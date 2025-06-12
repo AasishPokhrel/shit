@@ -46,7 +46,7 @@ typedef struct psf_font_internal_data {
  * header and store important details like character height and where the
  * actual pixel data starts.
  *
- * @return 0 if everyting loaded up fine
+ * @return 0 if every shit loaded up fine
  */
 int psf_font_load(void);
 
