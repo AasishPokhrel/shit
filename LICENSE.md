@@ -2,7 +2,7 @@
 
 ## Preamble
 
-This software is provided "as is" because, frankly, we don't have time to make it better. By using this software, you acknowledge that it might be complete garbage, but hey, at least it's free garbage.
+This software is provided "as is" because, frankly, we don't have time to make it shittier. By using this software, you acknowledge that it might not be complete shit, but hey, at least it's free shit.
 
 ## Terms and Conditions
 
