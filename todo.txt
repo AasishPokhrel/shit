@@ -1,6 +1,4 @@
-- Deploy to vercel *
-- Fix tests
-- Cool vfx?
+- Cool vfx? *
 - Add flies
 - Add stench
 - Make shit talk
