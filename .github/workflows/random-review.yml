@@ -1,0 +1,35 @@
+name: Random PR Review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  random-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Random decision
+        id: decision
+        run: |
+          RANDOM_NUM=$((RANDOM % 2))
+          if [ $RANDOM_NUM -eq 0 ]; then
+            echo "result=good" >> $GITHUB_OUTPUT
+            echo "message=🎉 This shit is actually good!" >> $GITHUB_OUTPUT
+          else
+            echo "result=shit" >> $GITHUB_OUTPUT
+            echo "message=💩 This shit is shit!" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Comment on PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '${{ steps.decision.outputs.message }}'
+            })
