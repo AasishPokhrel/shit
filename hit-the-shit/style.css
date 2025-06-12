@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.game-container {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.visitor-counter {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #FFD700;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+#visitorCount {
+    transition: all 0.3s ease;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), 0 0 10px rgba(255, 215, 0, 0.5);
+    }
+
+    to {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.8);
+    }
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#gameCanvas {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    background: #87CEEB;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.game-info,
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    text-align: center;
+    z-index: 10;
+}
+
+.game-info h2,
+.game-over h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #ff6b6b;
+}
+
+.game-info p,
+.game-over p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+button {
+    background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    font-family: 'Courier New', monospace;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+.controls {
+    margin-top: 15px;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    opacity: 0.9;
+}
+
+.social-links {
+    margin-top: 15px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.social-links p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #FFD700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.link-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.github-btn,
+.coffee-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.github-btn {
+    background: linear-gradient(45deg, #333, #666);
+    color: white;
+    border-color: #888;
+}
+
+.github-btn:hover {
+    background: linear-gradient(45deg, #444, #777);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-color: #aaa;
+}
+
+.coffee-btn {
+    background: linear-gradient(45deg, #FFBF00, #FF8C00);
+    color: #333;
+    border-color: #FFD700;
+}
+
+.coffee-btn:hover {
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 191, 0, 0.4);
+    border-color: #FFFF00;
+}
+
+.threefold-credit {
+    margin-top: 15px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.threefold-credit p {
+    margin: 0;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.threefold-link {
+    color: #00D4FF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.threefold-link:hover {
+    color: #00BFFF;
+    text-shadow: 0 0 5px rgba(0, 212, 255, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .game-container {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .score-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #gameCanvas {
+        width: 100%;
+        height: 300px;
+    }
+
+    .game-info,
+    .game-over {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .link-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .github-btn,
+    .coffee-btn {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    .social-links {
+        padding: 15px;
+    }
+}
+
+/* Game elements styling */
+.pixel-art {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}

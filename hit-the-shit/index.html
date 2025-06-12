@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hit the Shit - The Ultimate Trending Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>💩 HIT THE SHIT 💩</h1>
+            <div class="visitor-counter">
+                🌍 <span id="visitorCount">Loading...</span> players worldwide collected the shits! 💩✨
+            </div>
+            <div class="score-container">
+                <span>Score: <span id="score">0</span></span>
+                <span>High Score: <span id="highScore">0</span></span>
+            </div>
+        </div>
+
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+
+        <div class="game-info" id="gameInfo">
+            <h2>Ready to Hit Some Shit?</h2>
+            <p>🎯 Hit the shit to score points!</p>
+            <p>⚠️ Miss the shit and you lose!</p>
+            <p>🎮 SPACEBAR or CLICK to jump and hit the shit!</p>
+            <button id="startBtn">START GAME</button>
+        </div>
+
+        <div class="game-over" id="gameOver" style="display: none;">
+            <h2>💀 GAME OVER 💀</h2>
+            <p>You missed the shit!</p>
+            <p>Final Score: <span id="finalScore">0</span></p>
+            <button id="restartBtn">TRY AGAIN</button>
+        </div>
+
+        <div class="controls">
+            <p>Controls: SPACEBAR or CLICK to jump | Difficulty increases with score!</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-links">
+            <p>💩 Like hitting the shit? 💩</p>
+            <div class="link-buttons">
+                <a href="https://github.com/Mahmoud-Emad" target="_blank" class="github-btn">
+                    ⭐ Follow me on GitHub ⭐
+                </a>
+                <a href="https://buymeacoffee.com/omdanii" target="_blank" class="coffee-btn">
+                    ☕ Buy me a coffee ☕
+                </a>
+            </div>
+        </div>
+        <div class="threefold-credit">
+            <p>Made and Deployed with ❤️ by <a href="https://www.threefold.io/" target="_blank"
+                    class="threefold-link">ThreeFold</a> devs</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
