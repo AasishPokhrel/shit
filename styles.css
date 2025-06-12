@@ -1,0 +1,102 @@
+/* SUPER AWESOME CSS STYLESHEET */
+/* MADE WITH LOVE BY ME */
+
+@keyframes rainbow {
+  0% { color: red; }
+  14% { color: orange; }
+  28% { color: yellow; }
+  42% { color: green; }
+  56% { color: blue; }
+  70% { color: indigo; }
+  84% { color: violet; }
+  100% { color: red; }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(5px, 5px); }
+  50% { transform: translate(-5px, -5px); }
+  75% { transform: translate(-5px, 5px); }
+  100% { transform: translate(0, 0); }
+}
+
+* {
+  cursor: url('https://cur.cursors-4u.net/nature/nat-10/nat924.cur'), auto !important;
+}
+
+body {
+  background-image: url('https://media.giphy.com/media/Ju7l5y9osyymQ/giphy.gif');
+  background-repeat: repeat;
+  font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+  color: #FF00FF;
+  text-shadow: 2px 2px #00FFFF;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  animation: shake 0.5s infinite;
+}
+
+h1 {
+  animation: rainbow 2s infinite, spin 5s infinite;
+  font-size: 4em;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Papyrus", fantasy;
+  color: #00FF00;
+  text-shadow: 3px 3px 5px #FF0000;
+  transform: rotate(-5deg);
+  font-size: 3em;
+}
+
+p {
+  font-size: 24px;
+  line-height: 0.8;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+a {
+  color: yellow;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 2.5em;
+  color: #FF00FF;
+}
+
+div {
+  transform: skew(10deg, 5deg);
+}
+
+/* MAKE STUFF BLINK LIKE IT'S 1996 */
+blink {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* CUSTOM SCROLLBAR FOR EXTRA FLAIR */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(45deg, #FF0000, #00FF00, #0000FF, #FF0000);
+}
+
+::-webkit-scrollbar-thumb {
+  background: url('https://media.giphy.com/media/l0HlGRDhPTqVEvhC0/giphy.gif');
+  border-radius: 25px;
+}
