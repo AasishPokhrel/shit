@@ -8,6 +8,4 @@ In honor of the shit repository being the billionth repository on GitHub, why no
 
 # to run 
 
-ummmmm you use npm start - I mean just kidding. 
-
-Since there are many different code files, you can just run them however you feel fit because this is for fun.
+Good luck with that.
