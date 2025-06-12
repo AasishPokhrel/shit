@@ -6,4 +6,4 @@ This is the phrase
 
 I am getting too old for this shit
 
-but in Branflake. I hope my future college does not see this lol
+but in Branflake I hope my future college does not see this lol
