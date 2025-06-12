@@ -1,0 +1,12 @@
+export { MatrixBackground } from "./MatrixBackground";
+export { FloatingShit } from "./FloatingShit";
+export { HeroSection } from "./HeroSection";
+export { TypewriterText } from "./TypewriterText";
+export { StorySection } from "./StorySection";
+export { ShitStatsSection } from "./ShitStatsSection";
+export { ShitQuotesCarousel } from "./ShitQuotesCarousel";
+export { ShitDinoGame } from "./ShitDinoGame";
+export { MultilingualShitBackground } from "./MultilingualShitBackground";
+export { ShitFireworks } from "./ShitFireworks";
+export { ConsoleFeatures } from "./ConsoleFeatures";
+export { SurpriseElements } from "./SurpriseElements";
