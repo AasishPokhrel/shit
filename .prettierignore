@@ -1,0 +1,8 @@
+dist
+coverage
+node_modules
+*.html
+*.md
+*.json
+*.lock
+*.log
