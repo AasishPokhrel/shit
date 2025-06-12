@@ -13,7 +13,7 @@
  * - Proper shadows and lighting
  */
 
-import React, { useRef, useMemo } from 'react'
+import { useRef, useMemo } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, PerspectiveCamera } from '@react-three/drei'
 import * as THREE from 'three'
@@ -312,7 +312,7 @@ function Scene() {
       />
 
       {/* Sky light for realistic outdoor lighting */}
-      <hemisphereLight skyColor={0x87ceeb} groundColor={0x362a1f} intensity={0.6} />
+      <hemisphereLight color={0x87ceeb} groundColor={0x362a1f} intensity={0.6} />
 
       {/* Subtle fill light to soften shadows */}
       <directionalLight position={[-5, 8, -5]} intensity={0.3} color={0xffd4a3} />

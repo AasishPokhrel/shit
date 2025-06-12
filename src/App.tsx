@@ -5,7 +5,6 @@
  * The app is designed to be simple and focused on showcasing the 3D visualization.
  */
 
-import React from 'react'
 import DogWasteVisualization from './components/DogWasteVisualization'
 
 function App() {

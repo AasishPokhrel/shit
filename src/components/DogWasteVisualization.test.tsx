@@ -50,7 +50,7 @@ describe('DogWasteVisualization', () => {
       expect(mainDiv).toHaveStyle({
         width: '100%',
         height: '100vh',
-        background: '#87CEEB',
+        background: '#000000',
       })
     })
 
