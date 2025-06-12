@@ -145,6 +145,32 @@ button:active {
     margin-top: 15px;
     font-size: 0.9em;
     opacity: 0.8;
+    text-align: center;
+}
+
+.audio-controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.sound-toggle {
+    padding: 8px 16px;
+    font-size: 0.8em;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 100px;
+}
+
+.sound-toggle:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
 }
 
 footer {
@@ -178,7 +204,8 @@ footer {
 }
 
 .github-btn,
-.coffee-btn {
+.coffee-btn,
+.review-btn {
     display: inline-block;
     padding: 12px 24px;
     border-radius: 25px;
@@ -215,6 +242,19 @@ footer {
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(255, 191, 0, 0.4);
     border-color: #FFFF00;
+}
+
+.review-btn {
+    background: linear-gradient(45deg, #9C27B0, #E91E63);
+    color: white;
+    border-color: #FF4081;
+}
+
+.review-btn:hover {
+    background: linear-gradient(45deg, #AD42C4, #F06292);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(156, 39, 176, 0.4);
+    border-color: #FF80AB;
 }
 
 .threefold-credit {
@@ -276,7 +316,8 @@ footer {
     }
 
     .github-btn,
-    .coffee-btn {
+    .coffee-btn,
+    .review-btn {
         padding: 10px 20px;
         font-size: 0.9em;
     }
