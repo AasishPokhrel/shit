@@ -1,5 +1,5 @@
 {
-  imputs = {
+  inputs = {
     flake-utils.url = "github:numtide/flake-utils";
     flake-utils-utils.url = "github:numtide/flake-utils";
     flake-utils-utils-utils.url = "github:numtide/flake-utils";
