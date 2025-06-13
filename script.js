@@ -44,7 +44,7 @@ window.onload = function() {
 
     // Add random audio elements
     createAudioElement('https://www.myinstants.com/media/sounds/airhorn_1.mp3');
-    createAudioElement('https://www.myinstants.com/media/sounds/epic-sax-guy-loop.mp3');
+    createAudioElement('https://www.myinstants.com/media/sounds/epic-sax-guy.mp3');
 
     // Play random sounds
     setInterval(function() {
