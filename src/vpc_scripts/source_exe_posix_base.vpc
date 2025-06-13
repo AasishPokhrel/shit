@@ -1,0 +1,75 @@
+//-----------------------------------------------------------------------------
+//	SOURCE_EXE_posix.VPC
+//
+//	Base Settings for Source(TM) Projects
+//-----------------------------------------------------------------------------
+
+$Include "$SRCDIR\vpc_scripts\version.vpc"
+
+$MacroRequired				"SRCDIR"
+$MacroRequired				"OUTBINNAME"	"$PROJECTNAME"
+$MacroRequired				"OUTBINDIR"
+
+$Macro OUTBINDIR	"$OUTBINDIR$PLATSUBDIR" [!$GAME_OUTPUT && ($LINUX64 || $LINUXARM64)]
+
+$Conditional IS_LIB_PROJECT		"1"
+$Include "$SRCDIR\vpc_scripts\source_posix_base.vpc"
+
+$Include "$SRCDIR\vpc_scripts\loadaddress.vpc"
+
+
+$IgnoreRedundancyWarning	"ON"
+
+$Configuration
+{
+	$General
+	{
+		$ConfigurationType				"Application (.exe)"
+	}
+
+	$Compiler
+	{
+		$PreprocessorDefinitions		"$BASE;EXENAME=$OUTBINNAME"
+	}
+
+	$Linker
+	{
+		$OutputFile						"$OUTBINDIR/$OUTBINNAME"
+
+		// In order to get the Valve standard allocator memory alignment (16-byte
+		// alignment for objects that are a multiple of 16 bytes) we use tcmalloc.
+		// Using -l will ask the linker to use it, but if there are no references
+		// to malloc/free then it may not actually use it. Wrapping the flag in the
+		// as-needed controls forces it to be pulled in (from libmimalloc.so).
+		$GCC_ExtraLinkerFlags			"-Wl,--no-as-needed -lmimalloc -Wl,--as-needed" [$LINUXALL&&!$DEDICATED&&!$ENABLE_ASAN&&!$SOURCESDK]
+	}
+}
+
+$Project
+{
+	$Folder	"Source Files"
+	{
+		$File	"$SRCDIR\public\tier0\memoverride.cpp"
+		{
+			$Configuration
+			{
+				$Compiler
+				{
+					$Create/UsePrecompiledHeader	"Not Using Precompiled Headers"
+				}
+			}
+		}
+	}
+
+
+	$Folder "Resources"
+	{
+		$File	"$ROOTSCRIPT"
+	}
+
+	$Folder	"Link Libraries" [$LINUXALL&&!$DEDICATED&&!$ENABLE_ASAN&&!$SOURCESDK]
+	{
+		$ImpLibExternal	"$LIBPUBLIC\mimalloc"
+	}
+}
+

@@ -1,0 +1,28 @@
+//-----------------------------------------------------------------------------
+//	DEFAULT.VGC
+//
+//	Configurations for all Source(TM) Projects
+//-----------------------------------------------------------------------------
+
+////////////////
+// Game Names //
+////////////////
+
+$Games
+{
+	"CSTRIKE"
+	"DOD"
+	"EPISODIC"
+	"HL1"
+	"HL1MP"
+	"HL2"
+	"HL2MP"
+	"LOSTCOAST"
+	"PORTAL"
+	"SDK"
+	"TF"
+}
+
+$Include "vpc_scripts\projects.vgc"
+$Include "vpc_scripts\groups.vgc"
+
