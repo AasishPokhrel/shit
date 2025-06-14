@@ -1,0 +1,12 @@
+// OH SH*T 
+using System;
+namespace OhSH
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("OH SHIT OH NO AAAAAAAAAAAAAAAAAAAAA!");
+        }
+    }
+}
