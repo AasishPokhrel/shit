@@ -1,0 +1,16 @@
+#if false
+'''
+#endif
+
+#include <iostream>
+
+int main() {
+    std::cout << "shit" << std::endl;
+    return 0;
+}
+
+#if false
+'''
+if __name__ == "__main__":
+    print("shit")
+#endif
