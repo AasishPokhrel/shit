@@ -3,6 +3,10 @@
 # - are not draft
 # - pass CI checks
 # - have at least 3 approvals
+
+# Note:
+# Pull requests that affect the `workflows` folder are NOT automerged for
+# security reasons.
 name: automerge
 on:
   pull_request:
@@ -29,6 +33,8 @@ jobs:
       contents: write
       pull-requests: write
     steps:
+      # MERGE_ERROR_FAIL makes this workflow display as Failed
+      # when GitHub denies merging for security reasons.
       - id: automerge
         name: automerge
         uses: "pascalgn/automerge-action@v0.16.4"

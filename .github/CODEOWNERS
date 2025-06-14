@@ -1,0 +1,3 @@
+# Prevent malicious workflows by requiring review on any changes to the folder
+/.github/CODEOWNERS @AasishPokhrel
+/.github/workflows @AasishPokhrel
