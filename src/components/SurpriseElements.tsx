@@ -199,12 +199,18 @@ export const SurpriseElements: React.FC = () => {
       
       if (keySequence.join('') === secretCode.join('')) {
         setShowSecretMessage(true);
+        
+        // Unlock achievement
+        if ((window as any).unlockShitAchievement) {
+          (window as any).unlockShitAchievement('secret_typer');
+        }
+        
         setTimeout(() => setShowSecretMessage(false), 3000);
         keySequence = [];
         
         // Trigger celebration
-        if (window.shitFirework) {
-          window.shitFirework();
+        if ((window as any).shitFirework) {
+          (window as any).shitFirework();
         }
       }
     };
@@ -267,6 +273,62 @@ export const SurpriseElements: React.FC = () => {
 
     document.addEventListener('click', handleDoubleClick);
     return () => document.removeEventListener('click', handleDoubleClick);
+  }, []);
+
+  // Konami code detection
+  useEffect(() => {
+    let konamiSequence: string[] = [];
+    const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'KeyB', 'KeyA'];
+    
+    const handleKonamiKeyPress = (e: KeyboardEvent) => {
+      konamiSequence.push(e.code);
+      
+      if (konamiSequence.length > konamiCode.length) {
+        konamiSequence = konamiSequence.slice(-konamiCode.length);
+      }
+      
+      if (konamiSequence.join(',') === konamiCode.join(',')) {
+        // Unlock Konami achievement
+        if ((window as any).unlockShitAchievement) {
+          (window as any).unlockShitAchievement('konami_master');
+        }
+        
+        // Trigger massive celebration and unlock dino game
+        for (let i = 0; i < 15; i++) {
+          setTimeout(() => {
+            const newElement: SurpriseElement = {
+              id: `konami-celebration-${Date.now()}-${i}`,
+              type: 'confetti',
+              duration: 4000,
+            };
+            setActiveElements(prev => [...prev, newElement]);
+          }, i * 150);
+        }
+        
+        // Reset sequence
+        konamiSequence = [];
+        
+        // Show special konami message
+        const konamiMessage = document.createElement('div');
+        konamiMessage.innerHTML = `
+          <div style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); 
+                      z-index: 9999; background: black; border: 4px solid #ffd700; 
+                      border-radius: 20px; padding: 30px; text-align: center; color: #ffd700;">
+            <div style="font-size: 3rem; margin-bottom: 20px;">🎮 KONAMI CODE ACTIVATED! 🎮</div>
+            <div style="font-size: 1.5rem; color: #00ff00;">Secret Game Mode Unlocked!</div>
+            <div style="font-size: 1rem; color: white; margin-top: 10px;">Press Space to play Shit Dino!</div>
+          </div>
+        `;
+        document.body.appendChild(konamiMessage);
+        
+        setTimeout(() => {
+          konamiMessage.remove();
+        }, 5000);
+      }
+    };
+
+    window.addEventListener('keydown', handleKonamiKeyPress);
+    return () => window.removeEventListener('keydown', handleKonamiKeyPress);
   }, []);
 
   return (

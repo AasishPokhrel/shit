@@ -28,24 +28,21 @@ Remember: With great shit comes great responsibility 💩
     console.log(shitArt);
 
     // Hidden achievement system
-    let achievements: string[] = JSON.parse(localStorage.getItem('shitAchievements') || '[]');
-    
     const unlockAchievement = (name: string, description: string) => {
-      if (!achievements.includes(name)) {
-        achievements.push(name);
-        localStorage.setItem('shitAchievements', JSON.stringify(achievements));
-        console.log(`🏆 Achievement Unlocked: ${name} - ${description}`);
-        
-        // Trigger celebration
-        if (window.shitFirework) {
-          for (let i = 0; i < 5; i++) {
-            setTimeout(() => {
-              window.shitFirework?.(
-                Math.random() * window.innerWidth,
-                Math.random() * window.innerHeight
-              );
-            }, i * 100);
-          }
+      if ((window as any).unlockShitAchievement) {
+        (window as any).unlockShitAchievement('console_hacker');
+      }
+      console.log(`🏆 Achievement Unlocked: ${name} - ${description}`);
+      
+      // Trigger celebration
+      if ((window as any).shitFirework) {
+        for (let i = 0; i < 5; i++) {
+          setTimeout(() => {
+            (window as any).shitFirework?.(
+              Math.random() * window.innerWidth,
+              Math.random() * window.innerHeight
+            );
+          }, i * 100);
         }
       }
     };
@@ -93,10 +90,13 @@ Remember: With great shit comes great responsibility 💩
       },
 
       stats: () => {
+        const savedAchievements = JSON.parse(localStorage.getItem('shit-achievements') || '[]');
+        const achievementCount = savedAchievements.filter((a: any) => a.unlocked).length;
+        
         const stats = {
           'Clicks': Math.floor(Math.random() * 1000 + 500),
           'Shit Quality': 'Premium 💩',
-          'Achievements': achievements.length,
+          'Achievements': achievementCount,
           'Secret Level': '💯',
           'Toilet Paper Used': Math.floor(Math.random() * 100 + 50) + ' rolls',
           'Flushed': Math.floor(Math.random() * 50 + 25) + ' times',
@@ -167,17 +167,20 @@ Remember: With great shit comes great responsibility 💩
       },
 
       achievement: () => {
+        const savedAchievements = JSON.parse(localStorage.getItem('shit-achievements') || '[]');
+        const unlockedAchievements = savedAchievements.filter((a: any) => a.unlocked);
+        
         console.log('🏆 Your Achievements:');
-        if (achievements.length === 0) {
+        if (unlockedAchievements.length === 0) {
           console.log('No achievements yet! Try some commands to unlock them.');
         } else {
-          achievements.forEach((achievement, index) => {
-            console.log(`${index + 1}. ${achievement}`);
+          unlockedAchievements.forEach((achievement: any, index: number) => {
+            console.log(`${index + 1}. ${achievement.title} - ${achievement.description}`);
           });
         }
-        console.log(`Total: ${achievements.length}/10 achievements`);
+        console.log(`Total: ${unlockedAchievements.length}/10 achievements`);
         
-        if (achievements.length >= 8) {
+        if (unlockedAchievements.length >= 8) {
           unlockAchievement('Achievement Hunter', 'Unlocked most achievements!');
         }
       },
@@ -229,7 +232,10 @@ Special thanks to: GitHub for reaching 1 billion repos!
     }, 5000);
 
     // Achievement check on load
-    if (achievements.length === 0) {
+    const savedAchievements = JSON.parse(localStorage.getItem('shit-achievements') || '[]');
+    const hasConsoleAchievement = savedAchievements.some((a: any) => a.id === 'console_hacker');
+    
+    if (!hasConsoleAchievement) {
       unlockAchievement('Console Explorer', 'Opened the developer console!');
     }
 

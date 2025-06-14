@@ -59,6 +59,22 @@ export const ShitFireworks: React.FC = () => {
 
     setFireworks(prev => [...prev, firework]);
 
+    // Update analytics and check achievements
+    if ((window as any).updateShitStats) {
+      (window as any).updateShitStats('shitstorms', 1);
+    }
+    
+    // Check fireworks achievements
+    const currentCount = parseInt(localStorage.getItem('shit-fireworks-count') || '0') + 1;
+    localStorage.setItem('shit-fireworks-count', currentCount.toString());
+    
+    if (currentCount === 50 && (window as any).unlockShitAchievement) {
+      (window as any).unlockShitAchievement('fireworks_master');
+    }
+    if (currentCount === 100 && (window as any).unlockShitAchievement) {
+      (window as any).unlockShitAchievement('explosion_maniac');
+    }
+
     // Remove firework after animation
     setTimeout(() => {
       setFireworks(prev => prev.filter(f => f.id !== firework.id));

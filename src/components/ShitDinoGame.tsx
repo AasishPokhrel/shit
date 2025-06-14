@@ -56,6 +56,11 @@ export const ShitDinoGame: React.FC = () => {
   }, [gameState.isPlaying, gameState.isGameOver, gameState.playerY]);
 
   const startGame = () => {
+    // Unlock achievement for playing the game
+    if ((window as any).unlockShitAchievement) {
+      (window as any).unlockShitAchievement('dino_player');
+    }
+    
     setGameState({
       isPlaying: true,
       isGameOver: false,

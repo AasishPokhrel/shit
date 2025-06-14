@@ -9,27 +9,51 @@ import {
   MultilingualShitBackground,
   ShitFireworks,
   ConsoleFeatures,
-  SurpriseElements
+  SurpriseElements,
+  MobileOptimization,
+  PerformanceMonitor,
+  HelpOverlay
 } from "./components";
+import { LoadingScreen } from "./components/LoadingScreen";
+import { VisitorAnalytics } from "./components/VisitorAnalytics";
+import { SocialSharing } from "./components/SocialSharing";
+import { AchievementSystem } from "./components/AchievementSystem";
+import { useState } from "react";
 
 function App() {
+  const [isLoaded, setIsLoaded] = useState(false);
+
   return (
-    <div className="min-h-screen bg-black text-terminal-white relative overflow-x-hidden">
-      {/* Background Effects */}
-      <MatrixBackground />
-      <MultilingualShitBackground />
-      <FloatingShit count={15} />
+    <>
+      {/* Loading Screen */}
+      {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
       
-      {/* Interactive Elements */}
-      <ShitFireworks />
-      <SurpriseElements />
-      <ConsoleFeatures />
-      
-      {/* Hidden Games */}
-      <ShitDinoGame />
-      
-      {/* Main Content */}
-      <main className="relative z-10">
+      {/* Main App */}
+      {isLoaded && (
+        <div className="min-h-screen bg-black text-terminal-white relative overflow-x-hidden">
+          {/* Background Effects */}
+          <MatrixBackground />
+          <MultilingualShitBackground />
+          <FloatingShit count={15} />
+          
+          {/* Interactive Elements */}
+          <ShitFireworks />
+          <SurpriseElements />
+          <ConsoleFeatures />
+          
+          {/* New Enhanced Features */}
+          <VisitorAnalytics />
+          <SocialSharing />
+          <AchievementSystem />
+          <MobileOptimization />
+          <PerformanceMonitor />
+          <HelpOverlay />
+          
+          {/* Hidden Games */}
+          <ShitDinoGame />
+          
+          {/* Main Content */}
+          <main className="relative z-10">
         <HeroSection />
         <StorySection />
         <ShitStatsSection />
@@ -113,6 +137,8 @@ function App() {
         </footer>
       </main>
     </div>
+      )}
+    </>
   );
 }
 
