@@ -26,7 +26,7 @@ This project is trying to give a shit to people. If you can shit – you're welc
   > Hoc propositum hominibus stercus dat. Si stercus habes, salve! Sin minus, abi!
 
 * **Toki Pona:**
-  > Ni li tawa pana e ijo jaki tawa jan ali. Sina ken pana e ijo jaki la sina pona. Sina ken ala pana e ijo jaki la tawa ante
+  > pali ni li wile pana e jaki tawa jan. sina ken pana e jaki la, o kama! sina ken ala la, o weka.
 
 * **Icelandic:**
 
