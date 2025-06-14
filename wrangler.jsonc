@@ -1,0 +1,15 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "billionth-shit",
+	"compatibility_date": "2025-06-13",
+	"assets": {
+		"directory": "./dist",
+		"not_found_handling": "404-page"
+	},
+	"routes": [
+		{
+			"pattern": "billionth-shit.org",
+			"custom_domain": true
+		}
+	]
+}

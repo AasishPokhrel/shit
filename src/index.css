@@ -1,0 +1,328 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap");
+
+@layer base {
+  /* Light mode (default for system light preference) */
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 262.1 83.3% 57.8%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 84% 4.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 262.1 83.3% 57.8%;
+    --radius: 0.5rem;
+    
+    /* Light mode terminal colors */
+    --matrix-bg: #f8f9fa;
+    --terminal-text: #1a1a1a;
+    --terminal-green-light: #22c55e;
+    --terminal-amber-light: #f59e0b;
+    --card-bg-light: #ffffff;
+    --border-light: #e5e7eb;
+  }
+
+  /* Auto dark mode (system dark preference) */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background: 222.2 84% 4.9%;
+      --foreground: 210 40% 98%;
+      --card: 222.2 84% 4.9%;
+      --card-foreground: 210 40% 98%;
+      --popover: 222.2 84% 4.9%;
+      --popover-foreground: 210 40% 98%;
+      --primary: 262.1 83.3% 57.8%;
+      --primary-foreground: 210 40% 98%;
+      --secondary: 217.2 32.6% 17.5%;
+      --secondary-foreground: 210 40% 98%;
+      --muted: 217.2 32.6% 17.5%;
+      --muted-foreground: 215 20.2% 65.1%;
+      --accent: 217.2 32.6% 17.5%;
+      --accent-foreground: 210 40% 98%;
+      --destructive: 0 62.8% 30.6%;
+      --destructive-foreground: 210 40% 98%;
+      --border: 217.2 32.6% 17.5%;
+      --input: 217.2 32.6% 17.5%;
+      --ring: 262.1 83.3% 57.8%;
+      
+      /* Dark mode terminal colors */
+      --matrix-bg: #000000;
+      --terminal-text: #ffffff;
+      --terminal-green-light: #00ff00;
+      --terminal-amber-light: #ffa500;
+      --card-bg-light: #111827;
+      --border-light: #374151;
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-gray-800;
+  }
+  
+  body {
+    font-feature-settings: "rlig" 1, "calt" 1;
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  /* Light mode overrides */
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: #f9fafb;
+      color: #111827;
+    }
+    
+    /* Background overrides */
+    .bg-black {
+      background-color: #f9fafb !important;
+    }
+    
+    .bg-gray-900 {
+      background-color: #e5e7eb !important;
+    }
+    
+    /* Gradient overrides */
+    .bg-gradient-to-b {
+      background-image: linear-gradient(to bottom, #f3f4f6, #e5e7eb, #f3f4f6) !important;
+    }
+    
+    /* Text color overrides */
+    .text-terminal-white {
+      color: #111827 !important;
+    }
+    
+    .text-gray-300 {
+      color: #374151 !important;
+    }
+    
+    .text-gray-400 {
+      color: #6b7280 !important;
+    }
+    
+    .text-gray-500 {
+      color: #6b7280 !important;
+    }
+    
+    /* Border overrides */
+    .border-terminal-green {
+      border-color: #22c55e !important;
+    }
+    
+    .border-gray-700 {
+      border-color: #d1d5db !important;
+    }
+    
+    .border-gray-800 {
+      border-color: #d1d5db !important;
+    }
+    
+    /* Card backgrounds */
+    .bg-gray-900\/50 {
+      background-color: rgba(229, 231, 235, 0.5) !important;
+    }
+    
+    .bg-gray-900\/80 {
+      background-color: rgba(229, 231, 235, 0.8) !important;
+    }
+    
+    .bg-black\/50 {
+      background-color: rgba(255, 255, 255, 0.5) !important;
+    }
+    
+    .bg-black\/80 {
+      background-color: rgba(255, 255, 255, 0.8) !important;
+    }
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-black;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-terminal-green/30 rounded-full;
+    transition: all 0.3s ease;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-terminal-green/50;
+    box-shadow: 0 0 10px theme('colors.terminal.green');
+  }
+
+  /* Smooth scrolling with bounce effect */
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+  }
+
+  /* Improved focus styles */
+  *:focus-visible {
+    outline: 2px solid theme('colors.terminal.green');
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  /* Selection colors */
+  ::selection {
+    background-color: theme('colors.shit.gold');
+    color: theme('colors.black');
+  }
+
+  ::-moz-selection {
+    background-color: theme('colors.shit.gold');
+    color: theme('colors.black');
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground hover:bg-secondary/80;
+  }
+
+  .btn-lg {
+    @apply h-11 rounded-md px-8;
+  }
+
+  .btn-md {
+    @apply h-10 px-4 py-2;
+  }
+
+  .btn-sm {
+    @apply h-9 rounded-md px-3;
+  }
+
+  .card {
+    @apply rounded-lg border bg-card text-card-foreground shadow-sm;
+  }
+
+  .gradient-primary {
+    background: linear-gradient(135deg, #a855f7 0%, #ec4899 50%, #f59e0b 100%);
+  }
+
+  .gradient-shit {
+    background: linear-gradient(135deg, #fde047 0%, #facc15 50%, #eab308 100%);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #a855f7 0%, #ec4899 50%, #f59e0b 100%);
+  }
+}
+
+@layer utilities {
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+  
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+
+  .animation-delay-800 {
+    animation-delay: 800ms;
+  }
+
+  .animation-delay-1000 {
+    animation-delay: 1000ms;
+  }
+
+  /* Chaotic but great utilities */
+  .chaos-hover:hover {
+    @apply animate-chaos-shake;
+  }
+
+  .rainbow-text {
+    @apply animate-rainbow-text;
+  }
+
+  .wobble-hover:hover {
+    @apply animate-wobble;
+  }
+
+  .scale-105-hover:hover {
+    @apply scale-105;
+  }
+
+  .rotate-crazy:hover {
+    transform: rotate(360deg);
+    transition: transform 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .glow-terminal {
+    box-shadow: 0 0 10px theme('colors.terminal.green'), 0 0 20px theme('colors.terminal.green'), 0 0 40px theme('colors.terminal.green');
+  }
+
+  .glow-shit {
+    box-shadow: 0 0 10px theme('colors.shit.gold'), 0 0 20px theme('colors.shit.gold'), 0 0 40px theme('colors.shit.gold');
+  }
+
+  .text-glow-green {
+    text-shadow: 0 0 10px theme('colors.terminal.green'), 0 0 20px theme('colors.terminal.green');
+  }
+
+  .text-glow-gold {
+    text-shadow: 0 0 10px theme('colors.shit.gold'), 0 0 20px theme('colors.shit.gold');
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .transform-3d {
+    transform-style: preserve-3d;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+
+  .chaos-gradient {
+    background: linear-gradient(45deg, #ff0000, #ff8000, #ffff00, #00ff00, #0080ff, #8000ff, #ff0000);
+    background-size: 400% 400%;
+    animation: gradient-shift 3s ease infinite;
+  }
+
+  @keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+}
