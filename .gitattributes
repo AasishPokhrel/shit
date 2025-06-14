@@ -1,0 +1,45 @@
+buildallprojects text
+vpc binary
+
+*.sh text
+*.bat text
+*.txt text
+*.c text
+*.h text
+*.H text
+*.cc text
+*.cpp text
+*.vpc text
+*.vgc text
+*.nut text
+*.awk text
+*.pl text
+*.py text
+*.xcconfig text
+*.vcd text
+*.vbsp text
+*.proto text
+*.inc text
+*.fxc text
+*.vsh text
+*.lst text
+*.mm text
+*.cfg text
+*.res text
+*.rc text
+*.def text
+*.vmt text
+*.inl text
+*.asm text
+
+.gitignore text
+README.md text
+CONTRIBUTING text
+LICENSE text
+
+*.exe binary
+*.dll binary
+protoc binary
+ccache binary
+
+*_english.txt binary

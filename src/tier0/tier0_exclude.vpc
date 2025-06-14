@@ -1,0 +1,18 @@
+//-----------------------------------------------------------------------------
+//	tier0_exclude.vpc
+//
+//	Project Script
+//-----------------------------------------------------------------------------
+
+$Project
+{
+	$Folder	"Link Libraries"
+	{
+		// Should match the sites that include this
+		-$Lib "$LIBPUBLIC\tier0"	[$POSIX && !$IS_LIB_PROJECT]
+	}
+	$Folder	"Source Files"
+	{
+		-$File	"$SRCDIR\public\tier0\memoverride.cpp"
+	}
+}
