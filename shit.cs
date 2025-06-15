@@ -1,1 +1,8 @@
-Console.WriteLine("shit");
+using System;
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("shit");
+    }
+}
