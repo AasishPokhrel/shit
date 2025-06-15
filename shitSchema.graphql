@@ -1,0 +1,50 @@
+"""
+The root query type for fetching random shenanigans.
+"""
+type Query {
+  """
+  Returns a random piece of shit.
+  """
+  getRandomShit: Shit!
+}
+
+"""
+The root mutation type for disposing of unwanted shit.
+"""
+type Mutation {
+  """
+  Flush a specific piece of shit by ID.
+  """
+  flushShit(id: ID!): FlushResult!
+}
+
+"""
+Represents a literal or metaphorical piece of shit.
+"""
+type Shit {
+  id: ID!
+  name: String!
+  type: ShitType!
+  smellLevel: Int!
+  onFire: Boolean!
+}
+
+"""
+The result of attempting to flush some shit.
+"""
+type FlushResult {
+  success: Boolean!
+  message: String!
+  remainingShitCount: Int!
+}
+
+"""
+All known types of shit.
+"""
+enum ShitType {
+  BULLSHIT
+  DOGSHIT
+  DEEPSHIT
+  HOLYSHIT
+  NO_SHIT
+}
