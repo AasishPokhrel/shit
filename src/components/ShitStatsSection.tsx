@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import { getGitHubStats, GITHUB_REAL_DATA } from "../services/githubData";
 
 interface StatProps {
   number: string;
@@ -77,59 +78,68 @@ const AnimatedStat: React.FC<StatProps> = ({ number, label, emoji, description, 
 };
 
 export const ShitStatsSection: React.FC = () => {
+  const [realStats, setRealStats] = useState(GITHUB_REAL_DATA.currentStats);
+
+  useEffect(() => {
+    getGitHubStats().then(stats => {
+      setRealStats({
+        totalRepos: stats.totalRepos,
+        totalUsers: stats.totalUsers,
+        totalOrganizations: stats.totalOrganizations,
+        dailyCommits: GITHUB_REAL_DATA.currentStats.dailyCommits,
+        linesOfCode: GITHUB_REAL_DATA.currentStats.linesOfCode,
+        countriesRepresented: GITHUB_REAL_DATA.currentStats.countriesRepresented,
+        topCountries: GITHUB_REAL_DATA.currentStats.topCountries,
+      });
+    });
+  }, []);
+
   const stats: StatProps[] = [
     {
       number: "1,000,000,000",
       label: "Total Repositories",
       emoji: "📦",
-      description: "The epic milestone that started this whole legendary story",
+      description: "GitHub's historic milestone - one billion repositories and counting!",
       delay: 200,
     },
     {
-      number: "100,000,000",
+      number: realStats.totalUsers.toLocaleString(),
       label: "Active Developers",
       emoji: "👨‍💻",
-      description: "Coding warriors contributing to the global repository count",
+      description: "Millions of developers building the future of software together",
       delay: 400,
     },
     {
-      number: "420,690",
+      number: GITHUB_REAL_DATA.shitStats.reposWithShitInName.toLocaleString(),
       label: "Repos Named 'Shit'",
       emoji: "💩",
       description: "Because sometimes that's the most honest name for your code",
       delay: 600,
     },
     {
-      number: "13,337",
-      label: "Daily Shit Commits",
+      number: GITHUB_REAL_DATA.shitStats.dailyShitCommits.toLocaleString(),
+      label: "Daily 'Shit' Commits",
       emoji: "🔥",
-      description: "Average commits per day to repositories with 'shit' in the name",
+      description: "Average daily commits to repositories with 'shit' in commit messages",
       delay: 800,
     },
     {
-      number: "∞",
-      label: "Developers Who Give a Shit",
-      emoji: "❤️",
-      description: "The number of developers who truly care about their craft",
+      number: realStats.totalOrganizations.toLocaleString(),
+      label: "Organizations",
+      emoji: "🏢",
+      description: "Companies and teams collaborating on GitHub",
       delay: 1000,
     },
     {
       number: "1",
       label: "Legendary Billionth Repo",
       emoji: "🏆",
-      description: "AasishPokhrel/shit - The repo that made history",
+      description: "AasishPokhrel/shit - The repository that made history",
       delay: 1200,
     },
   ];
 
-  const funFacts = [
-    "The first repository on GitHub was called 'grit' by Tom Preston-Werner",
-    "Repository #999,999,999 was created just 42 minutes before #1,000,000,000",
-    "The word 'shit' has been used in over 2.8 million commit messages",
-    "'Hello World' appears in 15% of all repository names",
-    "The longest repository name on GitHub has 214 characters",
-    "42% of repositories have never received a single star",
-  ];
+  const funFacts = GITHUB_REAL_DATA.funFacts;
 
   const [currentFactIndex, setCurrentFactIndex] = useState(0);
 
@@ -142,7 +152,7 @@ export const ShitStatsSection: React.FC = () => {
   }, [funFacts.length]);
 
   return (
-    <section className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900 py-12 sm:py-16 md:py-20 px-4">
+    <section id="stats" className="min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900 py-12 sm:py-16 md:py-20 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <motion.div

@@ -1,12 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
+import { Github, Star, GitFork } from "lucide-react";
+import { getCurrentRepoCount } from "../services/githubData";
 
 export const HeroSection: React.FC = () => {
   const [count, setCount] = useState(0);
   const [isExploding, setIsExploding] = useState(false);
+  const [realCount, setRealCount] = useState(1000000000);
   const controls = useAnimation();
 
   useEffect(() => {
+    // Get real current count
+    getCurrentRepoCount().then(setRealCount);
+
     // Animate counter to 1 billion
     const targetCount = 1000000000;
     const duration = 3000; // 3 seconds
@@ -73,7 +79,23 @@ export const HeroSection: React.FC = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-black via-gray-900 to-black overflow-hidden pt-4 sm:pt-6 md:pt-8">
+    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-black via-gray-900 to-black overflow-hidden pt-20 sm:pt-24 md:pt-28">
+      {/* GitHub Integration Branding */}
+      <div className="absolute top-24 left-1/2 transform -translate-x-1/2 z-20">
+        <motion.div 
+          className="flex items-center space-x-3 bg-black/80 border border-terminal-green rounded-lg px-4 py-2"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+        >
+          <Github className="w-6 h-6 text-white" />
+          <span className="text-white font-medium">GitHub</span>
+          <span className="text-gray-400">×</span>
+          <span className="text-shit-gold font-terminal">Repository #1,000,000,000</span>
+          <span className="text-2xl">💩</span>
+        </motion.div>
+      </div>
+
       {/* Hero Content */}
       <div className="text-center z-10 max-w-6xl mx-auto px-4">
         {/* Main Title */}
@@ -90,29 +112,32 @@ export const HeroSection: React.FC = () => {
           💩 HOLY SHIT! 💩
         </motion.h1>
 
-        {/* Subtitle */}
+        {/* Subtitle with GitHub branding */}
         <motion.h2 
           className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-6 sm:mb-8 text-terminal-amber px-2 sm:px-4"
           initial={{ opacity: 0, y: 30, scale: 0.8 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 1, delay: 0.5, type: "spring" }}
         >
-          GitHub Hit{" "}
-          <motion.span 
-            className="text-terminal-green font-bold"
-            animate={{
-              scale: [1, 1.1, 1],
-              textShadow: [
-                "0 0 5px #00FF00",
-                "0 0 20px #00FF00, 0 0 35px #00FF00",
-                "0 0 5px #00FF00"
-              ]
-            }}
-            transition={{ duration: 2, repeat: Infinity }}
-          >
-            1,000,000,000
-          </motion.span>{" "}
-          Repositories!
+          <span className="flex items-center justify-center flex-wrap gap-3">
+            <Github className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 text-white" />
+            GitHub Hit{" "}
+            <motion.span 
+              className="text-terminal-green font-bold"
+              animate={{
+                scale: [1, 1.1, 1],
+                textShadow: [
+                  "0 0 5px #00FF00",
+                  "0 0 20px #00FF00, 0 0 35px #00FF00",
+                  "0 0 5px #00FF00"
+                ]
+              }}
+              transition={{ duration: 2, repeat: Infinity }}
+            >
+              1,000,000,000
+            </motion.span>{" "}
+            Repositories!
+          </span>
         </motion.h2>
 
         {/* Counter Display */}
@@ -123,7 +148,7 @@ export const HeroSection: React.FC = () => {
           transition={{ duration: 1, delay: 0.8, type: "spring", stiffness: 80 }}
         >
           <div className="text-base sm:text-lg md:text-xl lg:text-2xl mb-2 sm:mb-4 text-gray-300">
-            Repository Count:
+            GitHub Repository Count:
           </div>
           <motion.div 
             className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-terminal font-bold text-shit-gold border-2 sm:border-4 border-terminal-green bg-black/50 p-3 sm:p-4 md:p-6 lg:p-8 rounded-lg shadow-2xl shadow-terminal-green/20 transform hover:rotate-1 transition-all duration-300"
@@ -136,6 +161,78 @@ export const HeroSection: React.FC = () => {
           >
             {formatNumber(count)}
           </motion.div>
+          <div className="text-sm text-gray-400 mt-2">
+            Live count: {formatNumber(realCount)} repositories
+          </div>
+        </motion.div>
+
+        {/* GitHub Action Buttons */}
+        <motion.div
+          className="mb-8 flex flex-wrap justify-center gap-4"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 1.2 }}
+        >
+          <motion.a
+            href="https://github.com/AasishPokhrel/shit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 bg-terminal-green text-black px-6 py-3 rounded-lg font-medium hover:bg-shit-gold transition-colors"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <Star className="w-5 h-5" />
+            <span>Star the Legendary Repo</span>
+          </motion.a>
+          
+          <motion.a
+            href="https://github.com/AasishPokhrel/shit/fork"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 bg-white/10 text-white border border-white/20 px-6 py-3 rounded-lg font-medium hover:bg-white/20 transition-colors"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <GitFork className="w-5 h-5" />
+            <span>Fork It</span>
+          </motion.a>
+        </motion.div>
+
+        {/* Community Celebration Banner */}
+        <motion.div
+          className="mb-8 sm:mb-10 px-4"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 1.5 }}
+        >
+          <div className="bg-gradient-to-r from-purple-900/50 to-pink-900/50 border border-purple-500/30 rounded-lg p-4 sm:p-6 backdrop-blur-sm">
+            <div className="text-center">
+              <div className="text-lg sm:text-xl font-bold text-purple-300 mb-2">
+                🌍 Global Community Celebration! 🌍
+              </div>
+              <div className="text-sm sm:text-base text-purple-200 mb-3">
+                <span className="inline-flex items-center gap-2 mx-2">
+                  <span className="animate-pulse">🇨🇳</span> 打卡
+                </span>
+                <span className="inline-flex items-center gap-2 mx-2">
+                  <span className="animate-pulse">🇺🇸</span> Holy shit!
+                </span>
+                <span className="inline-flex items-center gap-2 mx-2">
+                  <span className="animate-pulse">🇺🇦</span> Легенда!
+                </span>
+                <span className="inline-flex items-center gap-2 mx-2">
+                  <span className="animate-pulse">🇪🇸</span> ¡Increíble!
+                </span>
+              </div>
+              <div className="flex flex-wrap justify-center gap-2 text-xs text-purple-300">
+                <span className="bg-purple-800/30 px-2 py-1 rounded">2.8K+ Stars</span>
+                <span className="bg-purple-800/30 px-2 py-1 rounded">208 Forks</span>
+                <span className="bg-purple-800/30 px-2 py-1 rounded">303 Issues</span>
+                <span className="bg-purple-800/30 px-2 py-1 rounded">101 PRs</span>
+                <span className="bg-purple-800/30 px-2 py-1 rounded">史前留名</span>
+              </div>
+            </div>
+          </div>
         </motion.div>
 
         {/* The Legendary Reveal */}

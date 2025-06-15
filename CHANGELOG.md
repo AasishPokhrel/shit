@@ -2,6 +2,57 @@
 
 All notable changes to the Holy Shit GitHub Billionth Repository Celebration website will be documented in this file.
 
+## [2.1.0] - 2025-06-15 - Community Power Update
+
+### 🌍 Community-Inspired Features
+- **NEW: Community Guestbook** - Live rotating feed of actual messages from GitHub issues
+  - Features real quotes from the legendary repository: "慕名前来打卡", "史前留名", "火钳刘明"
+  - Multi-language support with country flags
+  - Interactive reactions system
+  
+- **NEW: Theme Song Player** - Inspired by PR #409 "Add a theme song"
+  - Official "Shit Anthem" with community-generated lyrics
+  - Realistic player controls with progress tracking
+  - Auto-advancing lyric display
+  
+- **NEW: Repository Status Monitor** - Inspired by Issue #406 (404 errors)
+  - Real-time status monitoring with response times
+  - Live metrics: Stars (2.8K+), Forks (208), Issues (303)
+  - 404 error simulation and recovery alerts
+  
+- **NEW: GitHub Trend Tracker** - Live viral metrics
+  - Stars/hour tracking with percentage changes
+  - Active visitor count simulation
+  - Global rank display (#1 most legendary)
+  
+- **NEW: Pull Request Simulator** - Showcasing actual community PRs
+  - Real PR data from the repository (Python support, theme songs, translations)
+  - Auto-approval system with "this shit looks good 💩" confirmation
+  - Multi-language PR support
+  
+- **ENHANCED: Multilingual Background** - Community language expansion
+  - Added Ukrainian phrases: "Чи можна написати переклад на українську мову?"
+  - Chinese community phrases: "打卡", "合影", "史前留名", "火钳刘明"
+  - Extended to 14+ languages based on actual community contributions
+
+### 🎉 Hero Section Enhancements
+- **NEW: Community Celebration Banner** - Global community showcase
+  - Live community phrases in multiple languages
+  - Real repository statistics display
+  - Animated country flags representing global participation
+
+### 📊 Data Sources
+- All community messages sourced from actual GitHub issues #404-#431
+- PR data from actual pull requests #312-#426
+- Repository statistics reflect real metrics from AasishPokhrel/shit
+- Multi-language support based on actual translation PRs
+
+### 🔧 Technical Improvements
+- Enhanced TypeScript type safety
+- Improved component architecture
+- Better error handling for status monitoring
+- Optimized animation performance
+
 ## [2.0.0] - 2025-06-14
 
 ### 🎉 Major Feature Additions

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { TypewriterText } from "./TypewriterText";
+import { GITHUB_REAL_DATA } from "../services/githubData";
 
 export const StorySection: React.FC = () => {
   const [currentStoryStep, setCurrentStoryStep] = useState(0);
@@ -8,34 +9,38 @@ export const StorySection: React.FC = () => {
 
   const storySteps = [
     {
-      title: "Chapter 1: The Genesis",
-      content: "In the beginning, there was GitHub. Founded in 2008 by Tom Preston-Werner, Chris Wanstrath, and PJ Hyett, it started as a simple idea: make Git more social and collaborative.",
+      title: "Chapter 1: The Genesis (2008)",
+      content: "In the beginning, there was GitHub. Founded on April 10, 2008, by Tom Preston-Werner, Chris Wanstrath, and PJ Hyett, it started as a simple idea: make Git more social and collaborative.",
       terminalCommand: "git init github",
-      terminalOutput: "Initialized empty Git repository in /world/coding/",
+      terminalOutput: "Initialized empty Git repository in /world/coding/\nDate: 2008-04-10\nRepositories: 0 → The journey begins",
     },
     {
-      title: "Chapter 2: The Exponential Growth",
-      content: "What started with a few repositories grew exponentially. Developers worldwide embraced the platform, creating everything from 'Hello World' programs to enterprise software that powers the internet.",
-      terminalCommand: "git log --oneline --graph",
-      terminalOutput: "* 2008: 46 repositories\n* 2011: 1 million repositories\n* 2013: 10 million repositories\n* 2018: 100 million repositories",
+      title: "Chapter 2: The First Million (2011)",
+      content: `What started with Tom's "grit" repository grew exponentially. By 2011, GitHub reached its first major milestone: 1 million repositories. The platform was becoming the home for open-source collaboration.`,
+      terminalCommand: "git log --oneline --graph --since='2008-04-10' --until='2011-06-01'",
+      terminalOutput: GITHUB_REAL_DATA.milestones.slice(0, 4).map(m => 
+        `* ${m.date}: ${m.count.toLocaleString()} repositories - ${m.title}`
+      ).join('\n'),
     },
     {
-      title: "Chapter 3: The Countdown Begins",
-      content: "By 2025, GitHub had become the epicenter of the coding universe. Millions of developers pushed billions of commits. The countdown to the billionth repository was on everyone's minds.",
+      title: "Chapter 3: The Hockey Stick Growth (2011-2020)",
+      content: "The 2010s saw explosive growth. From 1 million to 100 million repositories, GitHub became the epicenter of the coding universe. Microsoft acquired it in 2018 for $7.5 billion, recognizing its value to the developer ecosystem.",
       terminalCommand: "watch -n 1 'curl -s https://api.github.com/search/repositories | jq .total_count'",
-      terminalOutput: "999,999,995\n999,999,996\n999,999,997\n999,999,998\n999,999,999...",
+      terminalOutput: GITHUB_REAL_DATA.milestones.slice(4, 8).map(m => 
+        `${m.date}: ${m.count.toLocaleString()} repos - ${m.description}`
+      ).join('\n'),
     },
     {
-      title: "Chapter 4: The Moment of Truth",
-      content: "June 11, 2025, 15:30 UTC. The tech world held its breath. Who would create the billionth repository? What would it be called? The answer was more beautiful than anyone could have imagined.",
+      title: "Chapter 4: The Final Countdown (2025)",
+      content: "June 11, 2025, 15:30 UTC. The tech world held its breath as GitHub approached the historic one billion repository milestone. Who would create the billionth repository? What would it be called?",
       terminalCommand: "git push origin main",
-      terminalOutput: "Counting objects: 3, done.\nWriting objects: 100% (3/3), 420 bytes | 0 bytes/s, done.\nTotal 3 (delta 0), reused 0 (delta 0)\nTo https://github.com/AasishPokhrel/shit.git\n[main] Repository #1,000,000,000 created",
+      terminalOutput: "999,999,995 repositories...\n999,999,996 repositories...\n999,999,997 repositories...\n999,999,998 repositories...\n999,999,999 repositories...\n⏰ T-minus 42 minutes to history...",
     },
     {
-      title: "Chapter 5: The Legend is Born",
-      content: "And so it was that AasishPokhrel, unknowingly, created history. Repository 1,000,000,000 was named 'shit' - a perfect encapsulation of the beautiful chaos, the creative mess, and the honest reality of coding life.",
-      terminalCommand: "echo 'Sometimes the best things in life come from the most unexpected places'",
-      terminalOutput: "Sometimes the best things in life come from the most unexpected places\n💩 Repository #1,000,000,000: LEGENDARY STATUS ACHIEVED 💩",
+      title: "Chapter 5: The Legend is Born 💩",
+      content: "And so it was that AasishPokhrel, unknowingly, created history. Repository #1,000,000,000 was named 'shit' - a perfect encapsulation of the beautiful chaos, the creative mess, and the honest reality of coding life.",
+      terminalCommand: "echo 'Repository #1,000,000,000 created by AasishPokhrel'",
+      terminalOutput: "To https://github.com/AasishPokhrel/shit.git\n[main] Repository #1,000,000,000 created\n💩 LEGENDARY STATUS ACHIEVED 💩\n\nThe most beautiful coincidence in coding history:\nRepo name: 'shit'\nTiming: Perfect\nLegacy: Eternal",
     },
   ];
 
@@ -53,7 +58,7 @@ export const StorySection: React.FC = () => {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-black py-12 sm:py-16 md:py-20 px-4">
+    <section id="story" className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-black py-12 sm:py-16 md:py-20 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
         <motion.div
