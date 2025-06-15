@@ -1,1 +1,5 @@
-{}
+{
+  "tasks": {
+    "shit": "deno run ./index.ts"
+  }
+}
