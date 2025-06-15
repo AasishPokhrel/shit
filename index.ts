@@ -1,1 +1,4 @@
-export default () => "Shit"
+export default () => {
+  console.log("Shit")
+  return "Shit"
+}
