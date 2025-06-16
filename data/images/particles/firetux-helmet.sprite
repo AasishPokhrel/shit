@@ -1,0 +1,14 @@
+(supertux-sprite
+ (action
+  (name "right")
+  (fps 1)
+  (images 
+    "firetux-helmet.png"
+  )
+ )
+ (action
+  (name "left")
+  (fps 1)
+  (mirror-action "right")
+ )
+)

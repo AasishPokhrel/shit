@@ -1,0 +1,5163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# IAN RODRÍGUEZ Lorenzo, 2022
+# Timur Seber <seber.tatsoft@gmail.com>, 2021,2024
+# Булат Ибраһим <bulat_ibrahim@mail.ru>, 2016-2018
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2024-05-30 16:19+0200\n"
+"PO-Revision-Date: 2013-08-10 22:56+0000\n"
+"Last-Translator: Timur Seber <seber.tatsoft@gmail.com>, 2021,2024\n"
+"Language-Team: Tatar (http://app.transifex.com/arctic-games/supertux/language/tt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tt\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/trigger/secretarea_trigger.cpp:47
+msgid "You found a secret area!"
+msgstr "Сез яшерен җирне таптыгыз!"
+
+#: src/trigger/secretarea_trigger.cpp:55 src/supertux/game_object.cpp:115
+#: src/supertux/menu/editor_sector_menu.cpp:36
+#: src/supertux/menu/editor_levelset_menu.cpp:52
+#: src/supertux/menu/editor_new_levelset_menu.cpp:34
+#: src/supertux/menu/profile_name_menu.cpp:39
+#: src/supertux/menu/editor_level_menu.cpp:33
+msgid "Name"
+msgstr "Исем"
+
+#: src/trigger/secretarea_trigger.cpp:56
+msgid "Fade tilemap"
+msgstr "Плитәне яшерергә"
+
+#: src/trigger/secretarea_trigger.cpp:57 src/trigger/climbable.cpp:59
+#: src/object/infoblock.cpp:76 src/worldmap/teleporter.cpp:49
+#: src/worldmap/special_tile.cpp:74
+msgid "Message"
+msgstr "Хат"
+
+#: src/trigger/secretarea_trigger.cpp:58 src/trigger/scripttrigger.cpp:51
+#: src/trigger/door.cpp:79 src/object/ispy.cpp:53
+#: src/object/bonus_block.cpp:264 src/object/bonus_block.cpp:268
+#: src/object/pushbutton.cpp:62 src/object/powerup.cpp:301
+#: src/worldmap/special_tile.cpp:76
+msgid "Script"
+msgstr "Сценарий"
+
+#: src/trigger/scripttrigger.cpp:52 src/object/pushbutton.hpp:32
+msgid "Button"
+msgstr "Төймә"
+
+#: src/trigger/scripttrigger.cpp:53
+msgid "Oneshot"
+msgstr "Бер ату"
+
+#: src/trigger/sequence_trigger.hpp:31
+msgid "Sequence Trigger"
+msgstr "Эзләү триггеры"
+
+#: src/trigger/text_area.cpp:141
+msgid "Once"
+msgstr ""
+
+#: src/trigger/text_area.cpp:142
+msgid "Text change time"
+msgstr ""
+
+#: src/trigger/text_area.cpp:143
+msgid "Fade time"
+msgstr ""
+
+#: src/trigger/text_area.cpp:144 src/object/textscroller.cpp:353
+msgid "Anchor"
+msgstr "Анкор"
+
+#: src/trigger/text_area.cpp:148
+msgid "Anchor offset X"
+msgstr ""
+
+#: src/trigger/text_area.cpp:149
+msgid "Anchor offset Y"
+msgstr ""
+
+#: src/trigger/text_area.cpp:150
+msgid "Texts"
+msgstr ""
+
+#: src/trigger/door.cpp:80 src/badguy/willowisp.cpp:311
+#: src/worldmap/teleporter.cpp:47 data//images/engine/editor/objects.stoi:342
+msgid "Sector"
+msgstr "Өлкә"
+
+#: src/trigger/door.cpp:81 src/worldmap/spawn_point.hpp:58
+msgid "Spawn point"
+msgstr "Спавн ноктасы"
+
+#: src/trigger/door.cpp:82
+msgid "Locked?"
+msgstr ""
+
+#: src/trigger/door.cpp:83
+msgid "Lock Color"
+msgstr ""
+
+#: src/trigger/switch.cpp:62 src/object/ispy.cpp:54 src/object/bumper.cpp:53
+#: src/object/spotlight.cpp:106 src/object/pushbutton.cpp:61
+#: src/object/gradient.cpp:103 src/object/conveyor_belt.cpp:60
+#: src/badguy/badguy.cpp:1063 src/worldmap/spawn_point.cpp:79
+#: src/worldmap/special_tile.cpp:78
+msgid "Direction"
+msgstr "Юнәлеш"
+
+#: src/trigger/switch.cpp:65
+msgid "Turn on script"
+msgstr "Сценарийны кабызырга"
+
+#: src/trigger/switch.cpp:66
+msgid "Turn off script"
+msgstr "Сценарийны сүндерергә"
+
+#: src/trigger/scripttrigger.hpp:29
+msgid "Script Trigger"
+msgstr "Скрипт Триггер"
+
+#: src/trigger/sequence_trigger.cpp:48
+msgid "Sequence"
+msgstr "Эзлеклелек"
+
+#: src/trigger/sequence_trigger.cpp:49
+msgid "end sequence"
+msgstr "Эзлеклелек ахыры"
+
+#: src/trigger/sequence_trigger.cpp:49
+msgid "stop Tux"
+msgstr "Туксны туктатырга"
+
+#: src/trigger/sequence_trigger.cpp:49
+msgid "fireworks"
+msgstr "фейерверк"
+
+#: src/trigger/sequence_trigger.cpp:53
+msgid "New worldmap spawnpoint"
+msgstr "Картада яңа чыгу ноктасы"
+
+#: src/trigger/sequence_trigger.cpp:54
+msgid "Worldmap fade tilemap"
+msgstr "Картада плитәне яшерергә"
+
+#: src/trigger/sequence_trigger.cpp:55
+#: src/object/custom_particle_system.cpp:430
+#: src/object/custom_particle_system.cpp:465
+msgid "Fade"
+msgstr "Яшерергә"
+
+#: src/trigger/sequence_trigger.cpp:56 src/editor/particle_editor.cpp:161
+msgid "Fade in"
+msgstr "Эчкә яшерелү"
+
+#: src/trigger/sequence_trigger.cpp:56 src/editor/particle_editor.cpp:167
+#: src/editor/particle_editor.cpp:212
+msgid "Fade out"
+msgstr "Тышка яшерелү"
+
+#: src/trigger/climbable.hpp:46
+msgid "Climbable"
+msgstr "Үрмәләргә"
+
+#: src/trigger/text_area.hpp:47
+msgid "Text Area"
+msgstr ""
+
+#: src/trigger/door.hpp:31
+msgid "Door"
+msgstr "Ишек"
+
+#: src/trigger/switch.hpp:30
+msgid "Switch"
+msgstr "Өзгеч"
+
+#: src/trigger/secretarea_trigger.hpp:36
+msgid "Secret Area"
+msgstr "Яшерен өлкә"
+
+#: src/math/anchor_point.cpp:33
+msgid "Top Left"
+msgstr ""
+
+#: src/math/anchor_point.cpp:34
+msgid "Top"
+msgstr ""
+
+#: src/math/anchor_point.cpp:35
+msgid "Top Right"
+msgstr ""
+
+#: src/math/anchor_point.cpp:36 src/object/textscroller.cpp:354
+#: src/object/textscroller.cpp:358 src/supertux/menu/keyboard_menu.cpp:38
+#: src/supertux/menu/joystick_menu.cpp:73
+msgid "Left"
+msgstr "Сулга"
+
+#: src/math/anchor_point.cpp:37
+msgid "Middle"
+msgstr ""
+
+#: src/math/anchor_point.cpp:38 src/object/textscroller.cpp:354
+#: src/object/textscroller.cpp:358 src/supertux/menu/keyboard_menu.cpp:39
+#: src/supertux/menu/joystick_menu.cpp:74
+msgid "Right"
+msgstr "Уңга"
+
+#: src/math/anchor_point.cpp:39
+msgid "Bottom Left"
+msgstr ""
+
+#: src/math/anchor_point.cpp:40
+msgid "Bottom"
+msgstr ""
+
+#: src/math/anchor_point.cpp:41
+msgid "Bottom Right"
+msgstr ""
+
+#: src/object/thunderstorm.hpp:44
+msgid "Thunderstorm"
+msgstr "Яшен"
+
+#: src/object/cloud_particle_system.cpp:77
+#: src/object/rain_particle_system.cpp:100
+msgid "Intensity"
+msgstr "Интенсивлык"
+
+#: src/object/custom_particle_system.hpp:46
+msgid "Custom Particles"
+msgstr "Махсус кисәкчәләр"
+
+#: src/object/particle_zone.hpp:41
+msgid "Particle zone"
+msgstr "Кисәкчәләр зонасы"
+
+#: src/object/path_gameobject.hpp:45 src/object/coin.cpp:324
+#: src/object/camera.cpp:168 src/object/platform.cpp:76
+#: src/object/path_gameobject.cpp:175 src/object/tilemap.cpp:284
+#: src/badguy/willowisp.cpp:317
+msgid "Path"
+msgstr "Юл"
+
+#: src/object/decal.cpp:48 src/object/scripted_object.cpp:70
+#: src/object/tilemap.cpp:266
+msgid "Solid"
+msgstr "Ныклы"
+
+#: src/object/decal.cpp:49 src/supertux/menu/keyboard_menu.cpp:41
+#: src/supertux/menu/joystick_menu.cpp:76
+msgid "Action"
+msgstr "Гамәл"
+
+#: src/object/weak_block.hpp:36
+msgid "Weak Tile"
+msgstr "Зәгыйфь плитка"
+
+#: src/object/gradient.hpp:43
+msgid "Gradient"
+msgstr "Градиент"
+
+#: src/object/tilemap.hpp:58
+msgid "Tilemap"
+msgstr "Плитә"
+
+#: src/object/sound_object.cpp:69 src/object/ambient_sound.cpp:85
+#: src/object/sound_object.hpp:42 src/supertux/menu/options_menu.cpp:128
+#: data//credits.stxt:367
+msgid "Sound"
+msgstr "Тавышлар"
+
+#: src/object/sound_object.cpp:70 src/object/ambient_sound.cpp:87
+msgid "Volume"
+msgstr "Тавыш көче"
+
+#: src/object/conveyor_belt.hpp:39
+msgid "Conveyor Belt"
+msgstr ""
+
+#: src/object/unstable_tile.cpp:70 src/object/weak_block.cpp:97
+#: src/badguy/flame.cpp:86
+msgid "Ice"
+msgstr "Боз"
+
+#: src/object/unstable_tile.cpp:71 src/object/brick.hpp:34
+msgid "Brick"
+msgstr "Кирпеч"
+
+#: src/object/unstable_tile.cpp:72
+msgid "Delayed"
+msgstr ""
+
+#: src/object/circleplatform.hpp:35
+msgid "Circular Platform"
+msgstr "Түгәрәк платформа"
+
+#: src/object/brick.cpp:59 src/object/coin.cpp:69
+#: src/object/invisible_block.cpp:37 src/object/background.cpp:200
+#: src/object/tilemap.cpp:279 src/object/gradient.cpp:109
+#: src/badguy/viciousivy.cpp:44 src/badguy/snail.cpp:69
+#: src/badguy/smartball.cpp:34 src/badguy/bouncing_snowball.cpp:81
+#: src/badguy/kamikazesnowball.cpp:117 src/badguy/walkingleaf.cpp:35
+#: src/badguy/mrbomb.cpp:47 src/badguy/igel.cpp:188 src/badguy/snowball.cpp:40
+#: src/badguy/mrtree.cpp:50 src/badguy/mriceblock.cpp:62
+msgid "Normal"
+msgstr "Нормаль"
+
+#: src/object/brick.cpp:60 src/object/bonus_block.cpp:175
+#: src/object/coin.cpp:70 src/object/invisible_block.cpp:38
+msgid "Retro"
+msgstr ""
+
+#: src/object/brick.cpp:166
+msgid "Breakable"
+msgstr "Ватылучан"
+
+#: src/object/trampoline.cpp:66 src/object/rusty_trampoline.cpp:66
+msgid "Portable"
+msgstr "Күчерелмәле"
+
+#: src/object/trampoline.cpp:67
+msgid "Stationary"
+msgstr ""
+
+#: src/object/key.hpp:38
+msgid "Key"
+msgstr ""
+
+#: src/object/spotlight.cpp:102 src/object/particlesystem.cpp:64
+#: src/object/particle_zone.cpp:50 src/badguy/darttrap.cpp:149
+#: src/supertux/menu/addon_preview_menu.cpp:189
+msgid "Enabled"
+msgstr "Кабызылган"
+
+#: src/object/spotlight.cpp:103 src/object/rain_particle_system.cpp:101
+msgid "Angle"
+msgstr "Почмак"
+
+#: src/object/spotlight.cpp:104 src/object/magicblock.cpp:95
+#: src/object/candle.cpp:75 src/object/torch.cpp:96 src/object/rublight.cpp:55
+#: src/object/lantern.cpp:62 src/object/ambient_light.cpp:122
+#: src/object/key.cpp:192 src/badguy/willowisp.cpp:319
+#: src/badguy/walking_candle.cpp:91
+msgid "Color"
+msgstr "Төс"
+
+#: src/object/spotlight.cpp:105 src/object/textscroller.cpp:350
+#: src/object/rain_particle_system.cpp:102 src/object/conveyor_belt.cpp:61
+#: src/object/circleplatform.cpp:58 src/badguy/flame.cpp:110
+#: src/editor/node_marker.cpp:125
+msgid "Speed"
+msgstr "Тизлек"
+
+#: src/object/spotlight.cpp:107
+msgid "Clockwise"
+msgstr "Сәгать юлы буенча"
+
+#: src/object/spotlight.cpp:107
+msgid "Counter-clockwise"
+msgstr "Сәгать теленә каршы"
+
+#: src/object/spotlight.cpp:107
+msgid "Stopped"
+msgstr "Тукта"
+
+#: src/object/spotlight.cpp:110 src/object/lit_object.cpp:69
+#: src/object/candle.cpp:76 src/object/torch.cpp:95
+msgid "Layer"
+msgstr "Катлам"
+
+#: src/object/scripted_object.cpp:71
+msgid "Physics enabled"
+msgstr "Физика кабызылган"
+
+#: src/object/scripted_object.cpp:72
+msgid "Visible"
+msgstr "Күренә"
+
+#: src/object/scripted_object.cpp:73 src/badguy/willowisp.cpp:313
+msgid "Hit script"
+msgstr "Бәрелеш сценарие"
+
+#: src/object/custom_particle_system_file.cpp:53
+#: src/object/textscroller.cpp:348 src/object/music_object.cpp:109
+#: src/supertux/menu/particle_editor_open.cpp:38
+msgid "File"
+msgstr "Файл"
+
+#: src/object/bonus_block.cpp:154
+msgid "Only one custom object is allowed inside bonus blocks."
+msgstr ""
+
+#: src/object/bonus_block.cpp:172
+msgid "Blue"
+msgstr "Зәңгәр"
+
+#: src/object/bonus_block.cpp:173
+msgid "Orange"
+msgstr "Кызгылт-сары"
+
+#: src/object/bonus_block.cpp:174
+msgid "Purple"
+msgstr "Шәмәхә"
+
+#: src/object/bonus_block.cpp:265 src/supertux/menu/cheat_apply_menu.cpp:54
+msgid "Count"
+msgstr "Исәп"
+
+#: src/object/bonus_block.cpp:266
+msgid "Content"
+msgstr "Эче"
+
+#: src/object/bonus_block.cpp:267 src/object/coin.hpp:44
+msgid "Coin"
+msgstr "Тәңкә"
+
+#: src/object/bonus_block.cpp:267
+msgid "Growth (fire flower)"
+msgstr "Үсү (ут чәчәге)"
+
+#: src/object/bonus_block.cpp:267
+msgid "Growth (ice flower)"
+msgstr "Үсү (боз чәчәге)"
+
+#: src/object/bonus_block.cpp:267
+msgid "Growth (air flower)"
+msgstr "Үсү (һава чәчәге)"
+
+#: src/object/bonus_block.cpp:268
+msgid "Growth (earth flower)"
+msgstr "Үсү (җир чәчәге)"
+
+#: src/object/bonus_block.cpp:268
+msgid "Growth (retro)"
+msgstr ""
+
+#: src/object/bonus_block.cpp:268 src/object/powerup.cpp:66
+msgid "Star"
+msgstr "Йолдыз"
+
+#: src/object/bonus_block.cpp:268
+msgid "Star (retro)"
+msgstr ""
+
+#: src/object/bonus_block.cpp:268
+msgid "Tux doll"
+msgstr "Курчак Тукс"
+
+#: src/object/bonus_block.cpp:268
+msgid "Custom"
+msgstr "Башка"
+
+#: src/object/bonus_block.cpp:268
+msgid "Light"
+msgstr "Җиңел"
+
+#: src/object/bonus_block.cpp:268
+msgid "Light (On)"
+msgstr "Яктылык"
+
+#: src/object/bonus_block.cpp:269 src/object/trampoline.hpp:37
+msgid "Trampoline"
+msgstr "Сикерткеч"
+
+#: src/object/bonus_block.cpp:269
+msgid "Portable trampoline"
+msgstr ""
+
+#: src/object/bonus_block.cpp:269
+msgid "Coin rain"
+msgstr "Тәңкәләр яңгыры"
+
+#: src/object/bonus_block.cpp:269
+msgid "Coin explosion"
+msgstr "Тәңкәләр шартлавы"
+
+#: src/object/bonus_block.cpp:269 src/object/rock.hpp:43
+msgid "Rock"
+msgstr "Таш"
+
+#: src/object/bonus_block.cpp:269
+msgid "Potion"
+msgstr "Төнәтмә"
+
+#: src/object/bonus_block.cpp:275
+msgid "Custom Content"
+msgstr "Махсус эчтәлек"
+
+#: src/object/bonus_block.cpp:278
+msgid "Coin sprite"
+msgstr ""
+
+#: src/object/pneumatic_platform.hpp:65
+msgid "Pneumatic Platform"
+msgstr "Пневматик платформа"
+
+#: src/object/coin.cpp:326 src/object/tilemap.cpp:287
+msgid "Following path"
+msgstr "Юл буенча"
+
+#: src/object/coin.cpp:329 src/object/camera.cpp:171
+#: src/object/platform.cpp:77 src/object/tilemap.cpp:290
+msgid "Path Mode"
+msgstr "Юл режимы"
+
+#: src/object/coin.cpp:330 src/object/camera.cpp:172
+#: src/object/platform.cpp:78 src/object/tilemap.cpp:291
+#: src/badguy/willowisp.cpp:322
+msgid "Adapt Speed"
+msgstr "Тизлекне җайлаштырыгыз"
+
+#: src/object/coin.cpp:331 src/object/platform.cpp:81
+#: src/object/tilemap.cpp:285 src/badguy/willowisp.cpp:318
+msgid "Starting Node"
+msgstr "Түен башлау"
+
+#: src/object/coin.cpp:332 src/object/camera.cpp:173
+#: src/object/platform.cpp:82 src/object/tilemap.cpp:293
+#: src/badguy/willowisp.cpp:323
+msgid "Handle"
+msgstr ""
+
+#: src/object/coin.cpp:335 src/object/coin.cpp:371
+msgid "Collect script"
+msgstr "Сценарий ясарга"
+
+#: src/object/ghost_particle_system.hpp:37
+msgid "Ghost Particles"
+msgstr "Арбак кисәкчәләре"
+
+#: src/object/camera.cpp:163
+msgid "Mode"
+msgstr "Режим"
+
+#: src/object/camera.cpp:164
+msgid "normal"
+msgstr "гади"
+
+#: src/object/camera.cpp:164
+msgid "manual"
+msgstr "кулдан"
+
+#: src/object/camera.cpp:164
+msgid "autoscroll"
+msgstr "автоскрол"
+
+#: src/object/textscroller.cpp:349
+msgid "Finish Script"
+msgstr "Сценарийны тәмамлау"
+
+#: src/object/textscroller.cpp:351
+msgid "X-offset"
+msgstr "X-офсет"
+
+#: src/object/textscroller.cpp:352
+msgid "Controllable"
+msgstr "Контроль"
+
+#: src/object/textscroller.cpp:354 src/object/textscroller.cpp:358
+msgid "Center"
+msgstr "Үзәк"
+
+#: src/object/textscroller.cpp:357
+msgid "Text Alignment"
+msgstr "Текстны тигезләү"
+
+#: src/object/lit_object.hpp:40
+msgid "Lit object"
+msgstr ""
+
+#: src/object/spawnpoint.hpp:48 src/badguy/willowisp.cpp:312
+#: src/worldmap/teleporter.cpp:48
+msgid "Spawnpoint"
+msgstr "Чыгу ноктасы"
+
+#: src/object/rusty_trampoline.cpp:65
+msgid "Counter"
+msgstr "Санагыч"
+
+#: src/object/candle.hpp:37
+msgid "Candle"
+msgstr "Шәм"
+
+#: src/object/particlesystem.cpp:65 src/object/background.cpp:184
+#: src/object/thunderstorm.cpp:76 src/object/tilemap.cpp:277
+#: src/object/gradient.cpp:101 src/object/moving_sprite.cpp:193
+msgid "Z-pos"
+msgstr "Z-позиция"
+
+#: src/object/invisible_block.hpp:30
+msgid "Invisible Block"
+msgstr "Күренми торган блок"
+
+#: src/object/snow_particle_system.hpp:37
+msgid "Snow Particles"
+msgstr "Кар кисәкчәләре"
+
+#: src/object/powerup.hpp:40
+msgid "Powerup"
+msgstr "Энергия"
+
+#: src/object/infoblock.cpp:78
+msgid "Front Color"
+msgstr ""
+
+#: src/object/infoblock.cpp:80
+msgid "Back Color"
+msgstr ""
+
+#: src/object/infoblock.cpp:82
+msgid "Roundness"
+msgstr ""
+
+#: src/object/infoblock.cpp:84
+msgid "Fade Transition"
+msgstr ""
+
+#: src/object/fallblock.hpp:41
+msgid "Falling Platform"
+msgstr "Егылу платформа"
+
+#: src/object/level_time.hpp:56
+msgid "Time Limit"
+msgstr "Вакыт чикләү"
+
+#: src/object/ambient_sound.cpp:86
+msgid "Radius (in tiles)"
+msgstr ""
+
+#: src/object/torch.hpp:41
+msgid "Torch"
+msgstr "Факел"
+
+#: src/object/rublight.hpp:34
+msgid "Rublight"
+msgstr "Яктылык эмитент"
+
+#: src/object/background.hpp:45
+msgid "Background"
+msgstr "Фон"
+
+#: src/object/text_object.hpp:44 src/gui/menu_string_array.cpp:77
+msgid "Text"
+msgstr "Текст"
+
+#: src/object/firefly.hpp:38
+msgid "Checkpoint"
+msgstr "Тикшерү пункты"
+
+#: src/object/ambient_light.hpp:37
+msgid "Ambient Light"
+msgstr "Әйләнә-тирә яктылык"
+
+#: src/object/lantern.hpp:38
+msgid "Lantern"
+msgstr "Яктырткыч"
+
+#: src/object/wind.hpp:43
+msgid "Wind"
+msgstr "Җил"
+
+#: src/object/bicycle_platform.cpp:203 src/object/background.cpp:180
+#: src/object/pneumatic_platform.cpp:162
+#: src/supertux/menu/joystick_menu.cpp:172 src/supertux/moving_object.cpp:65
+#: src/worldmap/worldmap_object.cpp:77
+msgid "X"
+msgstr "X"
+
+#: src/object/bicycle_platform.cpp:204 src/object/background.cpp:181
+#: src/object/pneumatic_platform.cpp:163
+#: src/supertux/menu/joystick_menu.cpp:174 src/supertux/moving_object.cpp:66
+#: src/worldmap/worldmap_object.cpp:78
+msgid "Y"
+msgstr "Y"
+
+#: src/object/bicycle_platform.cpp:206
+msgid "Platforms"
+msgstr "Платформалар"
+
+#: src/object/bicycle_platform.cpp:207 src/object/circleplatform.cpp:57
+#: src/badguy/fish_swimming.cpp:76 src/badguy/flame.cpp:109
+#: src/badguy/rcrystallo.cpp:83 src/badguy/crystallo.cpp:50
+msgid "Radius"
+msgstr "Радиус"
+
+#: src/object/bicycle_platform.cpp:208
+msgid "Momentum change rate"
+msgstr "Момент үзгәрү тизлеге"
+
+#: src/object/rain_particle_system.hpp:41
+msgid "Rain Particles"
+msgstr "Яңгыр кисәкчәләре"
+
+#: src/object/platform.hpp:46
+msgid "Platform"
+msgstr "Платформа"
+
+#: src/object/music_object.hpp:42 src/supertux/menu/options_menu.cpp:130
+#: data//credits.stxt:309
+msgid "Music"
+msgstr "Көйләр"
+
+#: src/object/lit_object.cpp:68
+msgid "Light sprite"
+msgstr ""
+
+#: src/object/lit_object.cpp:71
+msgid "Sprite starting action"
+msgstr ""
+
+#: src/object/lit_object.cpp:72
+msgid "Light sprite starting action"
+msgstr ""
+
+#: src/object/lit_object.cpp:74
+msgid "Light sprite offset X"
+msgstr ""
+
+#: src/object/lit_object.cpp:75
+msgid "Light sprite offset Y"
+msgstr ""
+
+#: src/object/rusty_trampoline.hpp:40
+msgid "Rusty Trampoline"
+msgstr "Рөстәм Трамполин"
+
+#: src/object/particlesystem.hpp:58
+msgid "Particle system"
+msgstr "Кисәкләр системасы"
+
+#: src/object/candle.cpp:73 src/object/torch.cpp:94
+msgid "Burning"
+msgstr "Яну"
+
+#: src/object/candle.cpp:74
+msgid "Flicker"
+msgstr "Җемелдәү"
+
+#: src/object/snow_particle_system.cpp:104
+msgid "Epsilon"
+msgstr ""
+
+#: src/object/snow_particle_system.cpp:105
+msgid "Spin Speed"
+msgstr ""
+
+#: src/object/snow_particle_system.cpp:106
+msgid "State Length"
+msgstr ""
+
+#: src/object/snow_particle_system.cpp:107
+msgid "Wind Speed"
+msgstr ""
+
+#: src/object/text_array_object.hpp:47
+msgid "Text array"
+msgstr "Текст массивы"
+
+#: src/object/infoblock.hpp:37
+msgid "Info Block"
+msgstr "Мәгълүмат блогы"
+
+#: src/object/powerup.cpp:61
+msgid "Egg"
+msgstr "Йомырка"
+
+#: src/object/powerup.cpp:62
+msgid "Fire Flower"
+msgstr ""
+
+#: src/object/powerup.cpp:63
+msgid "Ice Flower"
+msgstr ""
+
+#: src/object/powerup.cpp:64
+msgid "Air Flower"
+msgstr ""
+
+#: src/object/powerup.cpp:65
+msgid "Earth Flower"
+msgstr ""
+
+#: src/object/powerup.cpp:67
+msgid "Tux Doll"
+msgstr ""
+
+#: src/object/powerup.cpp:68
+msgid "Flip Potion"
+msgstr ""
+
+#: src/object/powerup.cpp:69
+msgid "Mints"
+msgstr ""
+
+#: src/object/powerup.cpp:70
+msgid "Coffee"
+msgstr "Каһвә"
+
+#: src/object/powerup.cpp:71
+msgid "Herring"
+msgstr "Сельдь"
+
+#: src/object/powerup.cpp:302
+msgid "Disable gravity"
+msgstr "Гравитацияне сүндерергә"
+
+#: src/object/powerup.cpp:312 src/object/weak_block.cpp:266
+msgid ""
+"Sprites no longer define the behaviour of the object.\n"
+"Object types are used instead."
+msgstr ""
+
+#: src/object/ambient_sound.hpp:43
+msgid "Ambient Sound"
+msgstr "Әйләнә-тирә тавыш"
+
+#: src/object/level_time.cpp:52 src/supertux/statistics.cpp:297
+#: src/editor/node_marker.cpp:124
+msgid "Time"
+msgstr "Вакыт"
+
+#: src/object/hurting_platform.hpp:31
+msgid "Hurting Platform"
+msgstr "Авырттыручы платформа"
+
+#: src/object/background.cpp:183
+msgid "Fill"
+msgstr "Тутыру"
+
+#: src/object/background.cpp:185
+msgid "Alignment"
+msgstr "Тигезләү"
+
+#: src/object/background.cpp:186 src/supertux/direction.cpp:61
+msgid "none"
+msgstr "юк"
+
+#: src/object/background.cpp:186 src/supertux/direction.cpp:63
+msgid "left"
+msgstr "сул"
+
+#: src/object/background.cpp:186 src/supertux/direction.cpp:65
+msgid "right"
+msgstr "уң"
+
+#: src/object/background.cpp:186
+msgid "top"
+msgstr "өс"
+
+#: src/object/background.cpp:186
+msgid "bottom"
+msgstr "ас"
+
+#: src/object/background.cpp:189
+msgid "Scroll offset x"
+msgstr "Горизонталь әйләндерү адымы"
+
+#: src/object/background.cpp:190
+msgid "Scroll offset y"
+msgstr "Вертикаль әйләндерү адымы"
+
+#: src/object/background.cpp:191
+msgid "Scroll speed x"
+msgstr "Горизонталь әйләндерү тизлеге"
+
+#: src/object/background.cpp:192
+msgid "Scroll speed y"
+msgstr "Вертикаль әйләндерү тизлеге"
+
+#: src/object/background.cpp:193
+msgid "Parallax Speed x"
+msgstr "Параллакс тизлеге x"
+
+#: src/object/background.cpp:194
+msgid "Parallax Speed y"
+msgstr "Параллакс тизлеге y"
+
+#: src/object/background.cpp:195
+msgid "Top image"
+msgstr "Өске рәсем"
+
+#: src/object/background.cpp:196
+msgid "Image"
+msgstr "Рәсем"
+
+#: src/object/background.cpp:197
+msgid "Bottom image"
+msgstr "Аскы рәсем"
+
+#: src/object/background.cpp:198
+msgid "Colour"
+msgstr "Төс"
+
+#: src/object/background.cpp:199 src/object/tilemap.cpp:278
+#: src/object/gradient.cpp:108
+msgid "Draw target"
+msgstr "Максат сызыгыз"
+
+#: src/object/background.cpp:200 src/object/tilemap.cpp:279
+#: src/object/gradient.cpp:109
+msgid "Lightmap"
+msgstr "Якты карта"
+
+#: src/object/shard.hpp:35
+msgid "Shard"
+msgstr "Шард"
+
+#: src/object/rublight.cpp:56
+msgid "Fading Speed"
+msgstr "Сүнгән тизлек"
+
+#: src/object/rublight.cpp:57
+msgid "Glowing Strength"
+msgstr "Якты көч"
+
+#: src/object/wind.cpp:78 src/object/custom_particle_system.cpp:499
+msgid "Speed X"
+msgstr "X буенча тизлек"
+
+#: src/object/wind.cpp:79 src/object/custom_particle_system.cpp:500
+msgid "Speed Y"
+msgstr "Y буенча тизлек"
+
+#: src/object/wind.cpp:80
+msgid "Acceleration"
+msgstr "Тизләнеш"
+
+#: src/object/wind.cpp:81
+msgid "Blowing"
+msgstr "Өрә торган"
+
+#: src/object/wind.cpp:82
+msgid "Affects Badguys"
+msgstr "Начар егетләр"
+
+#: src/object/wind.cpp:83
+msgid "Affects Objects"
+msgstr "Объектларга тәэсир итә"
+
+#: src/object/wind.cpp:84
+msgid "Affects Player"
+msgstr "Плеерга тәэсир итә"
+
+#: src/object/wind.cpp:85
+msgid "Fancy Particles"
+msgstr "Фантастик кисәкчәләр"
+
+#: src/object/bicycle_platform.hpp:67
+msgid "Bicycle Platform"
+msgstr "Велосипед платформасы"
+
+#: src/object/platform.cpp:80 src/object/thunderstorm.cpp:77
+#: src/object/tilemap.cpp:292 src/object/conveyor_belt.cpp:62
+msgid "Running"
+msgstr "Йөгерү"
+
+#: src/object/rock.cpp:71
+msgid "Small"
+msgstr "Кечкенә"
+
+#: src/object/rock.cpp:72
+msgid "Large"
+msgstr "Зур"
+
+#: src/object/rock.cpp:234
+msgid "On-grab script"
+msgstr "Сценарий"
+
+#: src/object/rock.cpp:235
+msgid "On-ungrab script"
+msgstr "Онграб скрипты"
+
+#: src/object/particlesystem_interactive.hpp:48
+msgid "Interactive particle system"
+msgstr "Интерактив кисәкләр системасы"
+
+#: src/object/thunderstorm.cpp:78
+msgid "Interval"
+msgstr "Интервал"
+
+#: src/object/thunderstorm.cpp:79
+msgid "Strike Script"
+msgstr "Забастовкалар Скрипт"
+
+#: src/object/cloud_particle_system.hpp:42
+msgid "Cloud Particles"
+msgstr "Болыт кисәкчәләре"
+
+#: src/object/custom_particle_system.cpp:423
+msgid "Texture"
+msgstr "Текстура"
+
+#: src/object/custom_particle_system.cpp:425
+msgid "Amount"
+msgstr "Күләм"
+
+#: src/object/custom_particle_system.cpp:426 src/object/circleplatform.cpp:59
+#: src/editor/particle_editor.cpp:141
+msgid "Delay"
+msgstr "Соңга калу"
+
+#: src/object/custom_particle_system.cpp:427
+msgid "Lifetime"
+msgstr "Гомер озынлыгы"
+
+#: src/object/custom_particle_system.cpp:428
+msgid "Lifetime variation"
+msgstr "Гомер озынлыгы"
+
+#: src/object/custom_particle_system.cpp:429
+#: src/editor/particle_editor.cpp:164
+msgid "Birth mode"
+msgstr "Туганлык режимы"
+
+#: src/object/custom_particle_system.cpp:430
+#: src/object/custom_particle_system.cpp:465 src/object/gradient.cpp:115
+#: src/gui/menu_string_array.cpp:40 src/gui/menu_string_array.cpp:78
+#: src/supertux/menu/keyboard_menu.cpp:80
+#: src/supertux/menu/joystick_menu.cpp:108
+#: src/supertux/menu/joystick_menu.cpp:215 src/editor/object_settings.cpp:129
+#: src/editor/particle_editor.cpp:162 src/editor/particle_editor.cpp:168
+msgid "None"
+msgstr "Бирелмәгән"
+
+#: src/object/custom_particle_system.cpp:430
+#: src/object/custom_particle_system.cpp:465
+#: src/editor/particle_editor.cpp:166
+msgid "Shrink"
+msgstr "Кысу"
+
+#: src/object/custom_particle_system.cpp:434
+#: src/editor/particle_editor.cpp:172
+msgid "Birth easing"
+msgstr "Туганлыкны җиңеләйтү"
+
+#: src/object/custom_particle_system.cpp:436
+#: src/object/custom_particle_system.cpp:471 src/editor/node_marker.cpp:129
+msgid "No easing"
+msgstr "Eиңеллек юк"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:130
+msgid "Quad in"
+msgstr "Дүртенче әр сүзнең"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:130
+msgid "Quad out"
+msgstr "Дүртенче чыга"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:130
+msgid "Quad in/out"
+msgstr "Дүртенче әр сүзнең/чыгу"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:131
+msgid "Cubic in"
+msgstr "Кубик сүзнең"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:131
+msgid "Cubic out"
+msgstr "Кубик чыгу"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:131
+msgid "Cubic in/out"
+msgstr "Кубик сүзнең/чыгу"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:132
+msgid "Quart in"
+msgstr "Квартал әр сүзнең"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:132
+msgid "Quart out"
+msgstr "Квартал чыга"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:132
+msgid "Quart in/out"
+msgstr "Квартал әр сүзнең/чыгу"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:133
+msgid "Quint in"
+msgstr "Квинт әр сүзнең"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:133
+msgid "Quint out"
+msgstr "Квинт чыга"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:133
+msgid "Quint in/out"
+msgstr "Квинт әр сүзнең/чыгу"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:134
+msgid "Sine in"
+msgstr "Сине сүзнең"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:134
+msgid "Sine out"
+msgstr "Сине чыга"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:134
+msgid "Sine in/out"
+msgstr "Сине керү/чыгу"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:135
+msgid "Circular in"
+msgstr "Түгәрәк сүзнең"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:135
+msgid "Circular out"
+msgstr "Түгәрәк чыгу"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:135
+msgid "Circular in/out"
+msgstr "Түгәрәк сүзнең/чыгу"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:136
+msgid "Exponential in"
+msgstr "Экспоненциаль сүзнең"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:136
+msgid "Exponential out"
+msgstr "Экспоненциаль чыгу"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:136
+msgid "Exponential in/out"
+msgstr "Экспоненциаль сүзнең/чыгу"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:137
+msgid "Elastic in"
+msgstr "Эластик"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:137
+msgid "Elastic out"
+msgstr "Эластик чыгу"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:137
+msgid "Elastic in/out"
+msgstr "Эластик сүзнең/чыгу"
+
+#: src/object/custom_particle_system.cpp:445
+#: src/object/custom_particle_system.cpp:480 src/editor/node_marker.cpp:138
+msgid "Back in"
+msgstr "Кире сүзнең"
+
+#: src/object/custom_particle_system.cpp:445
+#: src/object/custom_particle_system.cpp:480 src/editor/node_marker.cpp:138
+msgid "Back out"
+msgstr "Кире чыгу"
+
+#: src/object/custom_particle_system.cpp:445
+#: src/object/custom_particle_system.cpp:480 src/editor/node_marker.cpp:138
+msgid "Back in/out"
+msgstr "Кире сүзнең/чыгу"
+
+#: src/object/custom_particle_system.cpp:446
+#: src/object/custom_particle_system.cpp:481 src/editor/node_marker.cpp:139
+msgid "Bounce in"
+msgstr "Керү сүзнең"
+
+#: src/object/custom_particle_system.cpp:446
+#: src/object/custom_particle_system.cpp:481 src/editor/node_marker.cpp:139
+msgid "Bounce out"
+msgstr "Керү чыгу"
+
+#: src/object/custom_particle_system.cpp:446
+#: src/object/custom_particle_system.cpp:481 src/editor/node_marker.cpp:139
+msgid "Bounce in/out"
+msgstr "Керү сүзнең/чыгу"
+
+#: src/object/custom_particle_system.cpp:462
+msgid "Birth time"
+msgstr "Туган вакыт"
+
+#: src/object/custom_particle_system.cpp:463
+msgid "Birth time variation"
+msgstr "Туган вакыт үзгәрү"
+
+#: src/object/custom_particle_system.cpp:464
+#: src/editor/particle_editor.cpp:170
+msgid "Death mode"
+msgstr "Үлем режимы"
+
+#: src/object/custom_particle_system.cpp:469
+#: src/editor/particle_editor.cpp:173
+msgid "Death easing"
+msgstr "Deathлем җиңеллеге"
+
+#: src/object/custom_particle_system.cpp:497
+msgid "Death time"
+msgstr "Deathлем вакыты"
+
+#: src/object/custom_particle_system.cpp:498
+msgid "Death time variation"
+msgstr "Deathлем вакыты үзгәрү"
+
+#: src/object/custom_particle_system.cpp:501
+msgid "Speed X (variation)"
+msgstr "Тизлек X (вариация)"
+
+#: src/object/custom_particle_system.cpp:502
+msgid "Speed Y (variation)"
+msgstr "Y тизлеге (вариация)"
+
+#: src/object/custom_particle_system.cpp:503
+msgid "Acceleration X"
+msgstr "Тизләнү X"
+
+#: src/object/custom_particle_system.cpp:504
+msgid "Acceleration Y"
+msgstr "Тизләнү Y"
+
+#: src/object/custom_particle_system.cpp:505
+msgid "Friction X"
+msgstr "Сүрелү X"
+
+#: src/object/custom_particle_system.cpp:506
+msgid "Friction Y"
+msgstr "Сүрелү Y"
+
+#: src/object/custom_particle_system.cpp:507
+#: src/editor/particle_editor.cpp:189
+msgid "Feather factor"
+msgstr "Каурый факторы"
+
+#: src/object/custom_particle_system.cpp:508
+msgid "Rotation"
+msgstr "Әйләнү"
+
+#: src/object/custom_particle_system.cpp:509
+msgid "Rotation (variation)"
+msgstr "Әйләнү (үзгәрү)"
+
+#: src/object/custom_particle_system.cpp:510
+#: src/editor/particle_editor.cpp:195
+msgid "Rotation speed"
+msgstr "Әйләнү тизлеге"
+
+#: src/object/custom_particle_system.cpp:511
+msgid "Rotation speed (variation)"
+msgstr "Әйләнү тизлеге (үзгәрү)"
+
+#: src/object/custom_particle_system.cpp:512
+#: src/editor/particle_editor.cpp:200
+msgid "Rotation acceleration"
+msgstr "Әйләнү тизләнеше"
+
+#: src/object/custom_particle_system.cpp:513
+msgid "Rotation friction"
+msgstr "Әйләнү сүрелү"
+
+#: src/object/custom_particle_system.cpp:514
+#: src/editor/particle_editor.cpp:208
+msgid "Rotation mode"
+msgstr "Әйләнү режимы"
+
+#: src/object/custom_particle_system.cpp:515
+#: src/editor/particle_editor.cpp:206
+msgid "Fixed"
+msgstr "Тикшерелгән"
+
+#: src/object/custom_particle_system.cpp:515
+#: src/editor/particle_editor.cpp:205
+msgid "Facing"
+msgstr "Каршы"
+
+#: src/object/custom_particle_system.cpp:515
+#: src/editor/particle_editor.cpp:204
+msgid "Wiggling"
+msgstr "Вигглинг"
+
+#: src/object/custom_particle_system.cpp:519
+#: src/editor/particle_editor.cpp:219
+msgid "Collision mode"
+msgstr "Бәрелеш режимы"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "None (pass through)"
+msgstr "Беркем дә (үтмә)"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Stick"
+msgstr "Ябышу"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Stick Forever"
+msgstr "Мәңге тот"
+
+#: src/object/custom_particle_system.cpp:520
+#: src/editor/particle_editor.cpp:214
+msgid "Bounce (heavy)"
+msgstr "Бонс (авыр)"
+
+#: src/object/custom_particle_system.cpp:520
+#: src/editor/particle_editor.cpp:213
+msgid "Bounce (light)"
+msgstr "Бонс (яктылык)"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Kill particle"
+msgstr "Кисәкчәләрне үтерегез"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Fade out particle"
+msgstr "Сүнгән кисәкчәләр"
+
+#: src/object/custom_particle_system.cpp:524
+msgid "Delete if off-screen"
+msgstr "Экраннан тыш булса бетерегез"
+
+#: src/object/custom_particle_system.cpp:525
+#: src/editor/particle_editor.cpp:224
+msgid "Never"
+msgstr "Беркайчан да"
+
+#: src/object/custom_particle_system.cpp:525
+#: src/editor/particle_editor.cpp:223
+msgid "Only on exit"
+msgstr "Чыгышта гына"
+
+#: src/object/custom_particle_system.cpp:525
+msgid "Always"
+msgstr "Әрвакыт"
+
+#: src/object/custom_particle_system.cpp:529
+msgid "Cover screen"
+msgstr "Саклагыч экран"
+
+#: src/object/ispy.hpp:35
+msgid "Ispy"
+msgstr "Перископ"
+
+#: src/object/particle_zone.cpp:51
+msgid "Particle Name"
+msgstr "Кисәкчәләр исеме"
+
+#: src/object/particle_zone.cpp:62
+msgid "Spawn"
+msgstr "Карак"
+
+#: src/object/particle_zone.cpp:63
+msgid "Life zone"
+msgstr "Тормыш зонасы"
+
+#: src/object/particle_zone.cpp:64
+msgid "Life zone (clear)"
+msgstr "Тормыш зонасы (ачык)"
+
+#: src/object/particle_zone.cpp:65
+msgid "Kill particles"
+msgstr "Кисәкчәләрне үтерегез"
+
+#: src/object/particle_zone.cpp:66
+msgid "Clear particles"
+msgstr "Чиста кисәкчәләр"
+
+#: src/object/weak_block.cpp:98
+msgid "Hay"
+msgstr "Печән"
+
+#: src/object/decal.hpp:41
+msgid "Decal"
+msgstr "Декаль"
+
+#: src/object/tilemap.cpp:267
+msgid "Resize offset x"
+msgstr "Офсетның размеры"
+
+#: src/object/tilemap.cpp:268
+msgid "Resize offset y"
+msgstr "Офсетның размерын үзгәртү"
+
+#: src/object/tilemap.cpp:270 src/supertux/menu/editor_sector_menu.cpp:41
+#: src/editor/object_option.cpp:178
+msgid "Width"
+msgstr "Киңлек"
+
+#: src/object/tilemap.cpp:271 src/supertux/menu/editor_sector_menu.cpp:42
+#: src/editor/object_option.cpp:179
+msgid "Height"
+msgstr "Биеклек"
+
+#: src/object/tilemap.cpp:273
+msgid "Alpha"
+msgstr "үтә-күренмәлек"
+
+#: src/object/tilemap.cpp:274
+msgid "Speed x"
+msgstr "Вертикаль тизлек"
+
+#: src/object/tilemap.cpp:275
+msgid "Speed y"
+msgstr "Горизонталь тизлек"
+
+#: src/object/tilemap.cpp:276
+msgid "Tint"
+msgstr "Төсмер"
+
+#: src/object/tilemap.cpp:296 src/supertux/menu/editor_tilegroup_menu.cpp:26
+#: src/editor/toolbox_widget.cpp:98
+msgid "Tiles"
+msgstr "Плитка"
+
+#: src/object/gradient.cpp:98
+msgid "Primary Colour"
+msgstr ""
+
+#: src/object/gradient.cpp:99
+msgid "Secondary Colour"
+msgstr ""
+
+#: src/object/gradient.cpp:104
+msgid "Vertical"
+msgstr "Вертикаль"
+
+#: src/object/gradient.cpp:104
+msgid "Horizontal"
+msgstr "Горизонталь"
+
+#: src/object/gradient.cpp:104
+msgid "Vertical (whole sector)"
+msgstr "Вертикаль (бөтен сектор)"
+
+#: src/object/gradient.cpp:104
+msgid "Horizontal (whole sector)"
+msgstr "Горизонталь (бөтен сектор)"
+
+#: src/object/gradient.cpp:114
+msgid "Blend mode"
+msgstr "Кушылу режимы"
+
+#: src/object/gradient.cpp:115
+msgid "Blend"
+msgstr "Кушылу"
+
+#: src/object/gradient.cpp:115
+msgid "Additive"
+msgstr "Кушымчалы"
+
+#: src/object/gradient.cpp:115
+msgid "Modulate"
+msgstr "Модуль"
+
+#: src/object/bumper.hpp:38
+msgid "Bumper"
+msgstr "Бампер"
+
+#: src/object/conveyor_belt.cpp:63
+msgid "Length"
+msgstr ""
+
+#: src/object/moving_sprite.cpp:192 src/object/pneumatic_platform.cpp:161
+msgid "Sprite"
+msgstr "Спрайт"
+
+#: src/object/unstable_tile.hpp:42
+msgid "Unstable Tile"
+msgstr "Тотрыксыз плитка"
+
+#: src/object/brick.hpp:70
+msgid "Heavy Brick"
+msgstr ""
+
+#: src/object/invisible_wall.hpp:37
+msgid "Invisible Wall"
+msgstr "Күренмәс дивар"
+
+#: src/object/spotlight.hpp:52
+msgid "Spotlight"
+msgstr "Прожектор"
+
+#: src/object/scripted_object.hpp:40
+msgid "Scripted Object"
+msgstr "Сценарий объект"
+
+#: src/object/custom_particle_system_file.hpp:40
+msgid "Custom Particles from file"
+msgstr "Файлдан махсус кисәкчәләр"
+
+#: src/object/coin.hpp:97
+msgid "Heavy Coin"
+msgstr "Авыр тәңкә"
+
+#: src/object/explosion.hpp:35
+msgid "Explosion"
+msgstr "Шартлау"
+
+#: src/object/bonus_block.hpp:62
+msgid "Bonus Block"
+msgstr "Ташлама блогы"
+
+#: src/object/magicblock.hpp:42
+msgid "Magic Tile"
+msgstr "Тылсымлы плитка"
+
+#: src/object/camera.hpp:61
+msgid "Camera"
+msgstr "Камера"
+
+#: src/object/textscroller.hpp:45
+msgid "Text Scroller"
+msgstr "Текст скроллеры"
+
+#: src/gui/notification.cpp:57
+msgid "Click for more details."
+msgstr ""
+
+#: src/gui/notification.cpp:150
+msgid "Do not show again"
+msgstr ""
+
+#: src/gui/notification.cpp:157 src/supertux/menu/download_dialog.cpp:124
+msgid "Close"
+msgstr "Ябарга"
+
+#: src/gui/menu_string_array.cpp:40 src/gui/menu_string_array.cpp:78
+#, c++-format
+msgid "Selected item: {}"
+msgstr ""
+
+#: src/gui/menu_string_array.cpp:70
+msgid "Edit string array"
+msgstr ""
+
+#: src/gui/menu_string_array.cpp:79 src/gui/menu_object_select.cpp:50
+#: src/supertux/menu/profile_menu.cpp:88
+msgid "Add"
+msgstr "Өстәргә"
+
+#: src/gui/menu_string_array.cpp:80
+msgid "Insert"
+msgstr "Өстәп кую"
+
+#: src/gui/menu_string_array.cpp:81
+#: src/supertux/menu/addon_preview_menu.cpp:177 src/editor/object_menu.cpp:61
+msgid "Update"
+msgstr "Яңарту"
+
+#: src/gui/menu_string_array.cpp:82 src/supertux/menu/profile_menu.cpp:108
+#: src/supertux/menu/profile_menu.cpp:110
+msgid "Delete"
+msgstr "Бетерү"
+
+#: src/gui/menu_string_array.cpp:84 src/gui/menu_object_select.cpp:61
+#: src/gui/menu_color.cpp:37 src/gui/dialog.hpp:87 src/gui/menu_script.cpp:46
+#: src/supertux/menu/editor_sector_menu.cpp:48
+#: src/supertux/menu/editor_levelset_menu.cpp:58
+#: src/supertux/menu/editor_new_levelset_menu.cpp:37
+#: src/supertux/menu/editor_level_menu.cpp:45 src/editor/object_menu.cpp:71
+msgid "OK"
+msgstr "ӘЙЕ"
+
+#: src/gui/menu_object_select.cpp:46
+msgid "List of objects"
+msgstr ""
+
+#: src/gui/menu_object_select.cpp:48
+#, c++-format
+msgid "Select object ({})"
+msgstr ""
+
+#: src/gui/menu_object_select.cpp:114
+msgid "Are you sure you want to remove this object from the list?"
+msgstr ""
+
+#: src/gui/menu_color.cpp:24
+msgid "Mix the colour"
+msgstr "Төсләрне бутарга"
+
+#: src/gui/dialog.hpp:96 src/supertux/menu/editor_level_select_menu.cpp:181
+#: src/editor/editor.cpp:663
+msgid "Yes"
+msgstr "Әйе"
+
+#: src/gui/dialog.hpp:97 src/supertux/menu/editor_level_select_menu.cpp:185
+#: src/editor/particle_editor.cpp:781 src/editor/editor.cpp:670
+msgid "No"
+msgstr "Юк"
+
+#: src/gui/menu_list.cpp:38 src/gui/menu_filesystem.cpp:120
+#: src/gui/menu_paths.cpp:48 src/supertux/menu/particle_editor_save_as.cpp:42
+#: src/supertux/menu/editor_sectors_menu.cpp:45
+#: src/supertux/menu/editor_sectors_menu.cpp:94
+#: src/supertux/menu/editor_sectors_menu.cpp:99
+#: src/supertux/menu/editor_objectgroup_menu.cpp:42
+#: src/supertux/menu/editor_tilegroup_menu.cpp:36
+#: src/supertux/menu/editor_level_select_menu.cpp:190
+#: src/supertux/menu/editor_save_as.cpp:42
+#: src/supertux/menu/particle_editor_open.cpp:43
+#: src/editor/particle_editor.cpp:785 src/editor/editor.cpp:674
+msgid "Cancel"
+msgstr "Баш тарту"
+
+#: src/gui/menu_filesystem.cpp:118
+msgid "Open Directory"
+msgstr "Папканы ачу"
+
+#: src/gui/menu_script.cpp:28
+msgid "Edit script"
+msgstr "Сценарийне үзгәртү"
+
+#: src/gui/menu_paths.cpp:32
+msgid "Clone"
+msgstr "Клон"
+
+#: src/gui/menu_paths.cpp:41
+msgid ""
+"An error occurred and the game could\n"
+"not clone the path. Please contact\n"
+"the developers for support."
+msgstr ""
+
+#: src/gui/menu_paths.cpp:44
+msgid "Bind"
+msgstr "Бәйләү"
+
+#: src/gui/menu_paths.cpp:49
+msgid ""
+"Do you wish to clone the path to edit it separately,\n"
+"or do you want to bind both paths together\n"
+"so that any edit on one edits the other?"
+msgstr ""
+
+#: src/gui/menu_paths.cpp:56
+#, c++-format
+msgid "Path {}"
+msgstr "Юл {}"
+
+#: src/gui/menu_paths.cpp:67 src/supertux/menu/integrations_menu.cpp:60
+#: src/supertux/menu/editor_converters_menu.cpp:79
+#: src/supertux/menu/video_system_menu.cpp:45
+#: src/supertux/menu/contrib_menu.cpp:102 src/supertux/menu/debug_menu.cpp:77
+#: src/supertux/menu/multiplayer_menu.cpp:39
+#: src/supertux/menu/custom_menu_menu.cpp:65
+#: src/supertux/menu/editor_level_select_menu.cpp:98
+#: src/supertux/menu/worldmap_cheat_apply_menu.cpp:42
+#: src/supertux/menu/worldmap_cheat_apply_menu.cpp:63
+#: src/supertux/menu/worldmap_cheat_menu.cpp:57
+#: src/supertux/menu/worldmap_cheat_menu.cpp:196
+#: src/supertux/menu/editor_levelset_select_menu.cpp:114
+#: src/supertux/menu/options_menu.cpp:223
+#: src/supertux/menu/editor_delete_levelset_menu.cpp:69
+#: src/supertux/menu/addon_preview_menu.cpp:193
+#: src/supertux/menu/profile_menu.cpp:118
+#: src/supertux/menu/multiplayer_players_menu.cpp:91
+#: src/supertux/menu/addon_menu.cpp:153
+#: src/supertux/menu/editor_new_levelset_menu.cpp:40
+#: src/supertux/menu/options_select_menu.cpp:44
+#: src/supertux/menu/world_set_menu.cpp:33
+#: src/supertux/menu/addon_browse_menu.cpp:162
+#: src/supertux/menu/web_asset_menu.cpp:48
+#: src/supertux/menu/profile_name_menu.cpp:45
+#: src/supertux/menu/keyboard_menu.cpp:71
+#: src/supertux/menu/sorted_contrib_menu.cpp:51
+#: src/supertux/menu/language_menu.cpp:63
+#: src/supertux/menu/joystick_menu.cpp:99
+#: src/supertux/menu/contrib_levelset_menu.cpp:67
+#: src/supertux/menu/cheat_menu.cpp:58
+#: src/supertux/menu/addon_file_install_menu.cpp:36
+#: src/supertux/menu/cheat_apply_menu.cpp:43
+#: src/supertux/menu/cheat_apply_menu.cpp:63
+#: src/supertux/menu/multiplayer_player_menu.cpp:205
+#: src/supertux/menu/editor_delete_level_menu.cpp:68
+msgid "Back"
+msgstr "Артка"
+
+#: src/addon/addon_manager.cpp:562
+msgid "Only one resource pack is allowed to be enabled at a time."
+msgstr ""
+
+#: src/addon/addon_manager.cpp:837
+#, c++-format
+msgid "Add-on {} by {} is already installed."
+msgstr ""
+
+#: src/addon/addon_manager.cpp:857
+#, c++-format
+msgid "Add-on {} by {} successfully installed."
+msgstr ""
+
+#: src/addon/addon.cpp:71 src/supertux/menu/editor_levelset_menu.cpp:54
+msgid "Levelset"
+msgstr "Дәрәҗәләр"
+
+#: src/addon/addon.cpp:74 src/supertux/menu/editor_levelset_menu.cpp:54
+#: data//images/engine/editor/objects.stoi:389
+msgid "Worldmap"
+msgstr "Дөнья картасы"
+
+#: src/addon/addon.cpp:77
+msgid "World"
+msgstr "Дөнья"
+
+#: src/addon/addon.cpp:80
+msgid "Add-on"
+msgstr "Кушымта"
+
+#: src/addon/addon.cpp:83
+msgid "Language Pack"
+msgstr "Тел пакеты"
+
+#: src/addon/addon.cpp:86
+msgid "Resource Pack"
+msgstr ""
+
+#: src/addon/addon.cpp:89
+msgid "Unknown"
+msgstr "Билгесез"
+
+#: src/addon/addon.cpp:100
+#, c++-format
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} \"{}\", \"{}\" тарафыннан"
+
+#: src/addon/addon.cpp:114
+msgid "add-on"
+msgstr "кушымта"
+
+#: src/addon/addon.cpp:114
+msgid "add-ons"
+msgstr "кушымталар"
+
+#: src/badguy/toad.hpp:38
+msgid "Toad"
+msgstr "Гөберле Бака"
+
+#: src/badguy/mrtree.hpp:32
+msgid "Mr. Tree"
+msgstr "Агач Әфәнде"
+
+#: src/badguy/plant.hpp:34
+msgid "Plant"
+msgstr "Үсемлек"
+
+#: src/badguy/tarantula.hpp:39 src/badguy/tarantula.cpp:353
+msgid "Tarantula"
+msgstr "Тарантул"
+
+#: src/badguy/granito_giant.cpp:71
+msgid "Awake"
+msgstr "Уятырга"
+
+#: src/badguy/granito_giant.cpp:72
+msgid "Sleeping"
+msgstr ""
+
+#: src/badguy/granito_giant.cpp:73
+msgid "Corrupted A"
+msgstr "Бозылган A"
+
+#: src/badguy/granito_giant.cpp:74
+msgid "Corrupted B"
+msgstr "Бозылган B"
+
+#: src/badguy/granito_giant.cpp:75
+msgid "Corrupted C"
+msgstr "Бозылган C"
+
+#: src/badguy/crystallo.hpp:33
+msgid "Crystallo"
+msgstr "Кристалл"
+
+#: src/badguy/viciousivy.cpp:45 src/badguy/snail.cpp:70
+#: src/badguy/kamikazesnowball.cpp:118 src/badguy/walkingleaf.cpp:36
+#: src/badguy/jumpy.cpp:46 src/badguy/igel.cpp:189 src/badguy/mrtree.cpp:51
+msgid "Corrupted"
+msgstr "Бозылган"
+
+#: src/badguy/totem.hpp:37
+msgid "Totem"
+msgstr "Тотем"
+
+#: src/badguy/stalactite.hpp:42
+msgid "Stalactite"
+msgstr "Сталактит"
+
+#: src/badguy/fish_chasing.cpp:198
+msgid "Tracking Distance"
+msgstr ""
+
+#: src/badguy/fish_chasing.cpp:199
+msgid "Losing Distance"
+msgstr ""
+
+#: src/badguy/fish_chasing.cpp:200
+msgid "Chase Speed"
+msgstr ""
+
+#: src/badguy/root_sapling.hpp:41
+msgid "Root Sapling"
+msgstr ""
+
+#: src/badguy/haywire.hpp:46
+msgid "Haywire"
+msgstr "Бозык"
+
+#: src/badguy/dispenser.hpp:52
+msgid "Dispenser"
+msgstr "Бирүче"
+
+#: src/badguy/short_fuse.hpp:30
+msgid "Short Fuse"
+msgstr "Кыска филтә"
+
+#: src/badguy/zeekling.hpp:39
+msgid "Zeekling"
+msgstr "Зиклинг"
+
+#: src/badguy/smartball.cpp:35
+msgid "Pumpkin"
+msgstr "Кабак"
+
+#: src/badguy/bouncing_snowball.cpp:82
+msgid "Fatbat"
+msgstr ""
+
+#: src/badguy/dive_mine.hpp:50
+msgid "Dive Mine"
+msgstr ""
+
+#: src/badguy/granito_big.hpp:33
+msgid "Big Granito"
+msgstr ""
+
+#: src/badguy/mriceblock.hpp:49
+msgid "Mr. Iceblock"
+msgstr ""
+
+#: src/badguy/granito.hpp:39 src/badguy/darttrap.cpp:163
+#: src/badguy/corrupted_granito.cpp:175 src/badguy/dispenser.cpp:438
+msgid "Granito"
+msgstr ""
+
+#: src/badguy/fish_swimming.cpp:54 src/badguy/jumpy.cpp:44
+#: data//images/ice_world.strf:10 data//images/tiles.strf:28
+#: data//images/worldmap.strf:41
+msgid "Snow"
+msgstr "Кар"
+
+#: src/badguy/fish_swimming.cpp:55 data//images/ice_world.strf:211
+#: data//images/tiles.strf:366 data//images/worldmap.strf:67
+msgid "Forest"
+msgstr "Урман"
+
+#: src/badguy/crusher.hpp:71
+msgid "Crusher"
+msgstr ""
+
+#: src/badguy/flame.cpp:84
+msgid "Fire"
+msgstr "Ут"
+
+#: src/badguy/flame.cpp:85
+msgid "Ghost"
+msgstr "Шәүлә"
+
+#: src/badguy/corrupted_granito_big.hpp:35
+msgid "Corrupted Big Granito"
+msgstr ""
+
+#: src/badguy/scrystallo.cpp:57
+msgid "Walk Radius"
+msgstr "Радиус йөрегез"
+
+#: src/badguy/scrystallo.cpp:58
+msgid "Awakening Radius"
+msgstr "Уяну радиусы"
+
+#: src/badguy/scrystallo.cpp:59
+msgid "Roof-attached"
+msgstr ""
+
+#: src/badguy/jumpy.hpp:40
+msgid "Jumpy"
+msgstr "Сикерүче"
+
+#: src/badguy/captainsnowball.hpp:32
+msgid "Captain Snowball"
+msgstr "Кармалай Капитаны"
+
+#: src/badguy/ghosttree.hpp:43
+msgid "Ghost Tree"
+msgstr "Арбак агач"
+
+#: src/badguy/willowisp.cpp:314
+msgid "Track range"
+msgstr "Юл арасы"
+
+#: src/badguy/willowisp.cpp:315
+msgid "Vanish range"
+msgstr "Юкка чыгу арасы"
+
+#: src/badguy/willowisp.cpp:316
+msgid "Fly speed"
+msgstr "Очу тизлеге"
+
+#: src/badguy/kugelblitz.hpp:40
+msgid "Kugelblitz"
+msgstr "Кугелблиз"
+
+#: src/badguy/mole_rock.hpp:44
+msgid "Mole's rock"
+msgstr "Сукыр тычкан кыясы"
+
+#: src/badguy/badguy.cpp:1064
+msgid "Death script"
+msgstr "Үлү сценарие"
+
+#: src/badguy/sspiky.hpp:37
+msgid "Sleeping Spiky"
+msgstr "Йоклау Шомлы"
+
+#: src/badguy/yeti_stalactite.hpp:34
+msgid "Yeti's Stalactite"
+msgstr "Йети Сталактит"
+
+#: src/badguy/fish_harmless.hpp:30
+msgid "Harmless Fish"
+msgstr ""
+
+#: src/badguy/livefire.hpp:38
+msgid "Walking Flame"
+msgstr "Йөрүче ялкын"
+
+#: src/badguy/livefire.hpp:71
+msgid "Sleeping Flame"
+msgstr "Йоклау Шомлы"
+
+#: src/badguy/livefire.hpp:89
+msgid "Dormant Flame"
+msgstr "Утлы ялкын"
+
+#: src/badguy/owl.hpp:45
+msgid "Owl"
+msgstr "Ябалак"
+
+#: src/badguy/igel.hpp:38
+msgid "Igel"
+msgstr "Игель"
+
+#: src/badguy/darttrap.cpp:148
+msgid "Initial delay"
+msgstr "Беренче тоткарлану"
+
+#: src/badguy/darttrap.cpp:150
+msgid "Fire delay"
+msgstr "Утны тоткарлау"
+
+#: src/badguy/darttrap.cpp:151
+msgid "Ammo"
+msgstr "Кораллар"
+
+#: src/badguy/darttrap.cpp:152
+msgid "Dart sprite"
+msgstr ""
+
+#: src/badguy/darttrap.cpp:164
+msgid "Skull"
+msgstr "Баш сөяге"
+
+#: src/badguy/snowball.hpp:30
+msgid "Mr. Snowball"
+msgstr ""
+
+#: src/badguy/smartblock.hpp:30
+msgid "Mrs. Iceblock"
+msgstr ""
+
+#: src/badguy/yeti.cpp:370
+msgid "Fixed position"
+msgstr "Беркетелгән позиция"
+
+#: src/badguy/yeti.cpp:371
+msgid "Lives"
+msgstr "Гомерләр"
+
+#: src/badguy/goldbomb.hpp:50
+msgid "Gold Bomb"
+msgstr "Алтын бомба"
+
+#: src/badguy/corrupted_granito.hpp:44
+msgid "Corrupted Granito"
+msgstr ""
+
+#: src/badguy/mrbomb.cpp:48
+msgid "Classic"
+msgstr "Классик"
+
+#: src/badguy/flyingsnowball.hpp:33
+msgid "Flying Snowball"
+msgstr "Очучы кар бөртеге"
+
+#: src/badguy/crusher.cpp:75
+msgid "Ice (normal)"
+msgstr "Боз (гадәти)"
+
+#: src/badguy/crusher.cpp:76
+msgid "Ice (big)"
+msgstr "Боз (зур)"
+
+#: src/badguy/crusher.cpp:77
+msgid "Rock (normal)"
+msgstr "Таш (гадәти)"
+
+#: src/badguy/crusher.cpp:78
+msgid "Rock (big)"
+msgstr "Таш (зур)"
+
+#: src/badguy/crusher.cpp:79
+msgid "Corrupted (normal)"
+msgstr ""
+
+#: src/badguy/crusher.cpp:80
+msgid "Corrupted (big)"
+msgstr ""
+
+#: src/badguy/crusher.cpp:492
+msgid "Sideways"
+msgstr "Тротуарлар"
+
+#: src/badguy/kamikazesnowball.hpp:34
+msgid "Kamikaze Snowball"
+msgstr ""
+
+#: src/badguy/kamikazesnowball.hpp:64
+msgid "Leafshot"
+msgstr "Яфрак"
+
+#: src/badguy/fish_swimming.hpp:40
+msgid "Swimming Fish"
+msgstr ""
+
+#: src/badguy/flame.hpp:47
+msgid "Flame"
+msgstr "Ялкын"
+
+#: src/badguy/scrystallo.hpp:31
+msgid "Sleeping Crystallo"
+msgstr "Йоклаучы Кристалло"
+
+#: src/badguy/jumpy.cpp:45
+msgid "Wooden"
+msgstr "Агачлы"
+
+#: src/badguy/jumpy.cpp:47
+msgid "Metal"
+msgstr ""
+
+#: src/badguy/jumpy.cpp:48
+msgid "Bag"
+msgstr ""
+
+#: src/badguy/willowisp.hpp:57
+msgid "Will o' Wisp"
+msgstr "Йөрүче ут"
+
+#: src/badguy/fish_jumping.hpp:41
+msgid "Jumping Fish"
+msgstr ""
+
+#: src/badguy/badguy.hpp:61
+msgid "Badguy"
+msgstr "Дошман"
+
+#: src/badguy/rcrystallo.hpp:33
+msgid "Roof Crystallo"
+msgstr "Түбә кристалло"
+
+#: src/badguy/spiky.hpp:31
+msgid "Spiky"
+msgstr "Керпе"
+
+#: src/badguy/walkingleaf.hpp:33
+msgid "Walking Leaf"
+msgstr ""
+
+#: src/badguy/root.hpp:39
+msgid "Root"
+msgstr ""
+
+#: src/badguy/owl.cpp:241
+msgid "Carry"
+msgstr "Тукта"
+
+#: src/badguy/darttrap.hpp:35
+msgid "Dart Trap"
+msgstr "Дарт тозагы"
+
+#: src/badguy/skydive.hpp:43
+msgid "Skydive"
+msgstr "Скайдив"
+
+#: src/badguy/yeti.hpp:38
+msgid "Yeti"
+msgstr "Йети"
+
+#: src/badguy/snowball.cpp:41
+msgid "Bumpkin"
+msgstr ""
+
+#: src/badguy/snowball.cpp:42
+msgid "BSOD"
+msgstr ""
+
+#: src/badguy/mole.hpp:38
+msgid "Mole"
+msgstr "Сукыр тычкан"
+
+#: src/badguy/corrupted_granito.cpp:176
+msgid "Skullyhop"
+msgstr "Скульпоп"
+
+#: src/badguy/mrbomb.hpp:40
+msgid "Mr. Bomb"
+msgstr "Бомба әфәнде"
+
+#: src/badguy/walking_candle.hpp:41
+msgid "Walking Candle"
+msgstr "Шәм"
+
+#: src/badguy/angrystone.hpp:39
+msgid "Angry Stone"
+msgstr "Ачулы таш"
+
+#: src/badguy/tarantula.cpp:354
+msgid "Spidermite"
+msgstr ""
+
+#: src/badguy/tarantula.cpp:374
+msgid "Static"
+msgstr ""
+
+#: src/badguy/ghoul.hpp:30
+msgid "Ghoul"
+msgstr "Гул"
+
+#: src/badguy/granito_giant.hpp:32
+msgid "Giant Granito"
+msgstr ""
+
+#: src/badguy/snowman.hpp:29
+msgid "Snowman"
+msgstr "Кар кешесе"
+
+#: src/badguy/viciousivy.hpp:33
+msgid "Vicious Ivy"
+msgstr ""
+
+#: src/badguy/stalactite.cpp:156
+msgid "ice"
+msgstr "боз"
+
+#: src/badguy/stalactite.cpp:157
+msgid "rock"
+msgstr "таш"
+
+#: src/badguy/fish_chasing.hpp:33
+msgid "Chasing Fish"
+msgstr ""
+
+#: src/badguy/stumpy.hpp:38
+msgid "Stumpy"
+msgstr "Карсак"
+
+#: src/badguy/dispenser.cpp:412
+msgid "Interval (seconds)"
+msgstr "Интервал (секундларда)"
+
+#: src/badguy/dispenser.cpp:413
+msgid "Random"
+msgstr "Очраклы"
+
+#: src/badguy/dispenser.cpp:416
+#: src/supertux/menu/editor_objectgroup_menu.cpp:30
+#: src/editor/toolbox_widget.cpp:101
+msgid "Objects"
+msgstr "Объектлар"
+
+#: src/badguy/dispenser.cpp:419
+msgid "Limit dispensed badguys"
+msgstr "Таркатылган бейджларны чикләгез"
+
+#: src/badguy/dispenser.cpp:421
+msgid "Obey Gravity"
+msgstr "Гравитациягә буйсын"
+
+#: src/badguy/dispenser.cpp:423
+msgid "Max concurrent badguys"
+msgstr "Макс бер үк вакытта бедгуйлар"
+
+#: src/badguy/dispenser.cpp:435
+msgid "Dropper"
+msgstr ""
+
+#: src/badguy/dispenser.cpp:436
+msgid "Cannon"
+msgstr "Туп"
+
+#: src/badguy/dispenser.cpp:437 src/worldmap/special_tile.cpp:77
+msgid "Invisible"
+msgstr "Күренмәү"
+
+#: src/badguy/snail.hpp:43
+msgid "Snail"
+msgstr "Әкәм-төкәм"
+
+#: src/badguy/smartball.hpp:32
+msgid "Mrs. Snowball"
+msgstr ""
+
+#: src/badguy/bouncing_snowball.hpp:39
+msgid "Bouncing Snowball"
+msgstr "Сикерүче Кармалай"
+
+#: src/badguy/granito_big.cpp:52 src/badguy/granito.cpp:263
+msgid "Default"
+msgstr "Килешенгәнчә"
+
+#: src/badguy/granito_big.cpp:53 src/badguy/granito.cpp:264
+msgid "Standing"
+msgstr ""
+
+#: src/badguy/granito_big.cpp:54 src/badguy/granito.cpp:265
+msgid "Walking"
+msgstr ""
+
+#: src/badguy/mriceblock.cpp:63
+msgid "Laptop"
+msgstr ""
+
+#: src/badguy/dart.hpp:44
+msgid "Dart"
+msgstr "Ук"
+
+#: src/badguy/granito.cpp:268
+msgid "Sitting"
+msgstr ""
+
+#: src/supertux/statistics.cpp:54
+msgid "Max coins collected:"
+msgstr "Җыелган тәңкәләр:"
+
+#: src/supertux/statistics.cpp:55
+msgid "Max fragging:"
+msgstr "Юк ителгән:"
+
+#: src/supertux/statistics.cpp:56
+msgid "Max secrets found:"
+msgstr "Табылган яшерен җирләр:"
+
+#: src/supertux/statistics.cpp:57
+msgid "Best time completed:"
+msgstr "Иң яхшы вакыт:"
+
+#: src/supertux/statistics.cpp:58
+msgid "Level target time:"
+msgstr "Дәрәҗә таләп иткән вакыт:"
+
+#: src/supertux/statistics.cpp:149 src/supertux/levelintro.cpp:175
+msgid "Best Level Statistics"
+msgstr "Дәрәҗәнең иң яхшы күрсәткече"
+
+#: src/supertux/statistics.cpp:238
+msgid "You"
+msgstr "Сезнеке"
+
+#: src/supertux/statistics.cpp:240
+msgid "Best"
+msgstr "Иң яхшысы"
+
+#: src/supertux/statistics.cpp:242 src/supertux/levelintro.cpp:181
+msgid "Coins"
+msgstr "Тәңкәләр җыелган"
+
+#: src/supertux/statistics.cpp:265
+msgid "Badguys"
+msgstr "Дошманнар"
+
+#: src/supertux/statistics.cpp:281 src/supertux/levelintro.cpp:187
+msgid "Secrets"
+msgstr "Яшерен урыннар табылган"
+
+#: src/supertux/game_object.hpp:88
+msgid "Unknown object"
+msgstr "Билгесез объект"
+
+#: src/supertux/sector.cpp:507
+msgid "Press escape to skip"
+msgstr "Сикерү өчен качуны басыгыз"
+
+#: src/supertux/command_line_arguments.cpp:92
+#, c++-format
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr ""
+
+#: src/supertux/command_line_arguments.cpp:93
+msgid "General Options:"
+msgstr "Төп көйләүләр:"
+
+#: src/supertux/command_line_arguments.cpp:94
+msgid "  -h, --help                   Show this help message and quit"
+msgstr "-h, --help Бу белешмәне күрсәтергә һәм чыгарга"
+
+#: src/supertux/command_line_arguments.cpp:95
+msgid "  -v, --version                Show SuperTux version and quit"
+msgstr "-v, --version SuperTux версиясен күрсәтергә һәм чыгарга"
+
+#: src/supertux/command_line_arguments.cpp:96
+msgid "  --verbose                    Print verbose messages"
+msgstr "--verbose Тулы мәгълүматларны чыгарырга"
+
+#: src/supertux/command_line_arguments.cpp:97
+msgid "  --debug                      Print extra verbose messages"
+msgstr "--debug Өстәмә тулы мәгълүматларны чыгарырга"
+
+#: src/supertux/command_line_arguments.cpp:98
+msgid ""
+"  --print-datadir              Print SuperTux's primary data directory."
+msgstr "--print-datadir SuperTux -ның төп юлын күрсәтергә."
+
+#: src/supertux/command_line_arguments.cpp:99
+msgid ""
+"  --acknowledgements           Print the licenses of libraries used by "
+"SuperTux."
+msgstr " --acknowledgements           SuperTux кулланган китапханәләрнең лицензияләрен бастырыгыз."
+
+#: src/supertux/command_line_arguments.cpp:101
+msgid "Video Options:"
+msgstr "Графика көйләүләре:"
+
+#: src/supertux/command_line_arguments.cpp:102
+msgid "  -f, --fullscreen             Run in fullscreen mode"
+msgstr "-f, --fullscreen Тулы экранда җибәрергә"
+
+#: src/supertux/command_line_arguments.cpp:103
+msgid "  -w, --window                 Run in window mode"
+msgstr "-w, --window Тәрәзәдә җибәрергә"
+
+#: src/supertux/command_line_arguments.cpp:104
+msgid "  -g, --geometry WIDTHxHEIGHT  Run SuperTux in given resolution"
+msgstr "-g, --geometry КИҢЛЕКxБИЕКЛЕК SuperTux-ны бу ачыклыкта җибәрергә"
+
+#: src/supertux/command_line_arguments.cpp:105
+msgid "  -a, --aspect WIDTH:HEIGHT    Run SuperTux with given aspect ratio"
+msgstr "-a, --aspect КИҢЛЕК:БИЕКЛЕК SuperTux -ны бу яклар бәйләнешендә җибәрергә"
+
+#: src/supertux/command_line_arguments.cpp:106
+msgid "  -d, --default                Reset video settings to default values"
+msgstr "-d, --default График көйләүләрне гадәттәгечәгә кайтарырга"
+
+#: src/supertux/command_line_arguments.cpp:107
+msgid "  --renderer RENDERER          Use sdl, opengl, or auto to render"
+msgstr "--renderer ЧЫГАРУ Чыгару өчен sdl, opengl яки auto кулланырга"
+
+#: src/supertux/command_line_arguments.cpp:109
+msgid "Audio Options:"
+msgstr "Тавыш көйләүләре:"
+
+#: src/supertux/command_line_arguments.cpp:110
+msgid "  --disable-sound              Disable sound effects"
+msgstr "--disable-sound Тавыш эффектларын сүндерергә"
+
+#: src/supertux/command_line_arguments.cpp:111
+msgid "  --disable-music              Disable music"
+msgstr "--disable-music Көйләрне сүндерергә"
+
+#: src/supertux/command_line_arguments.cpp:113
+msgid "Game Options:"
+msgstr "Уен көйләүләре:"
+
+#: src/supertux/command_line_arguments.cpp:114
+msgid "  --edit-level                 Open given level in editor"
+msgstr "  --edit-level                 Бу дәрәҗәне мөхәррирдә ачарга"
+
+#: src/supertux/command_line_arguments.cpp:115
+msgid "  --resave                     Loads given level and saves it"
+msgstr " --resave                     Йөкләрне саклагыз һәм саклый"
+
+#: src/supertux/command_line_arguments.cpp:116
+msgid "  --show-fps                   Display framerate in levels"
+msgstr "--show-fps Кадрлар ешлыгын күрсәтергә"
+
+#: src/supertux/command_line_arguments.cpp:117
+msgid "  --no-show-fps                Do not display framerate in levels"
+msgstr "--no-show-fps Кадрлар ешлыгын күрсәтмәскә"
+
+#: src/supertux/command_line_arguments.cpp:118
+msgid "  --show-pos                   Display player's current position"
+msgstr "  --show-pos                   Уенчының хәзерге урынын күрсәтергә"
+
+#: src/supertux/command_line_arguments.cpp:119
+msgid "  --no-show-pos                Do not display player's position"
+msgstr "  --no-show-pos                Уенчының урынын күрсәтмәскә"
+
+#: src/supertux/command_line_arguments.cpp:120
+msgid "  --developer                  Switch on developer feature"
+msgstr "--developer Ясаучы үзенчәлекләрен кабызырга"
+
+#: src/supertux/command_line_arguments.cpp:121
+msgid "  -s, --debug-scripts          Enable script debugger."
+msgstr "-s, --debug-scripts Сценарийлар тикшерүчесен кабызырга."
+
+#: src/supertux/command_line_arguments.cpp:122
+msgid ""
+"  --spawn-pos X,Y              Where in the level to spawn Tux. Only used if"
+" level is specified."
+msgstr "--spawn-pos X,Y Дәрәҗәдә кайсы җирдә Туксны куярга. Дәрәҗә билгеләнелгән вакытта гына кулланыла."
+
+#: src/supertux/command_line_arguments.cpp:123
+msgid "  --sector SECTOR              Spawn Tux in SECTOR\n"
+msgstr "  --sector SECTOR              Тукс SECTOR караклар\n"
+
+#: src/supertux/command_line_arguments.cpp:124
+msgid "  --spawnpoint SPAWNPOINT      Spawn Tux at SPAWNPOINT\n"
+msgstr "  --spawnpoint SPAWNPOINT      SPAWNPOINT-та Карак Тукс\n"
+
+#: src/supertux/command_line_arguments.cpp:126
+msgid "Directory Options:"
+msgstr "Директорияләрне көйләү:"
+
+#: src/supertux/command_line_arguments.cpp:127
+msgid ""
+"  --datadir DIR                Set the directory for the games datafiles"
+msgstr "--datadir ЮЛ Уен мәгълүматлары өчен юлны урнаштыра"
+
+#: src/supertux/command_line_arguments.cpp:128
+msgid ""
+"  --userdir DIR                Set the directory for user data (savegames, "
+"etc.)"
+msgstr "--userdir ЮЛ Кулланучы мәгълүматлары өчен юлны урнаштыра (сакланулар һ. б.)"
+
+#: src/supertux/command_line_arguments.cpp:130
+msgid "Add-On Options:"
+msgstr "Кушымталар көйләүләре:"
+
+#: src/supertux/command_line_arguments.cpp:131
+msgid "  --repository-url URL         Set the URL to the Add-On repository"
+msgstr "  --repository-url URL         Кушымталар саклау урынын билгеләргә"
+
+#: src/supertux/command_line_arguments.cpp:133
+msgid "Environment variables:"
+msgstr "Мохит үзгәрмәләре:"
+
+#: src/supertux/command_line_arguments.cpp:134
+msgid ""
+"  SUPERTUX2_USER_DIR           Directory for user data (savegames, etc.)"
+msgstr "SUPERTUX2_USER_DIR Кулланучы мәгълүматлары өчен юл (сакланулар һ. б.)"
+
+#: src/supertux/command_line_arguments.cpp:135
+msgid "  SUPERTUX2_DATA_DIR           Directory for the games datafiles"
+msgstr "SUPERTUX2_DATA_DIR Уен мәгълүматлары өчен юл"
+
+#: src/supertux/title_screen.cpp:272
+msgid "Copyright"
+msgstr "Автор хокукы"
+
+#: src/supertux/title_screen.cpp:273
+msgid ""
+"This game comes with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to\n"
+"redistribute it under certain conditions; see the license file for details.\n"
+msgstr "Бу уен БЕРНИНДИ ДӘ ГАРАНТИЯСЫЗ бирелә. Бу азат программа тәэминаты, һәм сез аны билгеле\nбер шартларда тарата аласыз; өстәмә мәгълүмат өчен лицензия файлын карагыз.\n"
+
+#: src/supertux/game_object.cpp:114
+msgid "Version"
+msgstr ""
+
+#: src/supertux/game_object.cpp:129
+#: src/supertux/menu/editor_levelset_menu.cpp:54
+msgid "Type"
+msgstr "Төр"
+
+#: src/supertux/menu/integrations_menu.cpp:49
+msgid "Integrations"
+msgstr "Интеграцияләр"
+
+#: src/supertux/menu/integrations_menu.cpp:51
+msgid "Do not share level names when editing"
+msgstr "Редакцияләгәндә дәрәҗә исемнәрен бүлешмәгез"
+
+#: src/supertux/menu/integrations_menu.cpp:52
+msgid ""
+"Enable this if you want to work on secret levels and don't want the names to"
+" be spoiled"
+msgstr ""
+
+#: src/supertux/menu/integrations_menu.cpp:54
+msgid "Enable Discord integration"
+msgstr "Discord интеграциясен эшләгез"
+
+#: src/supertux/menu/integrations_menu.cpp:55
+msgid ""
+"Sends information to your Discord application about what you're doing in the"
+" game."
+msgstr ""
+
+#: src/supertux/menu/integrations_menu.cpp:57
+msgid "Discord (disabled; not compiled)"
+msgstr "Тынычлык (инвалид; тупланмаган)"
+
+#: src/supertux/menu/editor_converters_menu.cpp:61
+#: src/supertux/menu/editor_menu.cpp:85
+msgid "Convert Tiles"
+msgstr ""
+
+#: src/supertux/menu/editor_converters_menu.cpp:64
+msgid "Select Tile Conversion File"
+msgstr ""
+
+#: src/supertux/menu/editor_converters_menu.cpp:72
+#, c++-format
+msgid "By: {}"
+msgstr ""
+
+#: src/supertux/menu/editor_converters_menu.cpp:75
+msgid "Convert Tiles By File"
+msgstr ""
+
+#: src/supertux/menu/editor_converters_menu.cpp:76
+msgid "Convert all tiles in the current level by a file, specified above."
+msgstr ""
+
+#: src/supertux/menu/editor_converters_menu.cpp:89
+msgid "No tile conversion file selected."
+msgstr ""
+
+#: src/supertux/menu/editor_converters_menu.cpp:93
+msgid ""
+"This will convert all tiles in the level. Proceed?\n"
+"\n"
+"Note: This should not be ran more than once on a level.\n"
+"Creating a separate copy of the level is highly recommended."
+msgstr ""
+
+#: src/supertux/menu/video_system_menu.cpp:36
+msgid "Select Video System"
+msgstr ""
+
+#: src/supertux/menu/video_system_menu.cpp:37
+#, c++-format
+msgid "Used video system: {}"
+msgstr ""
+
+#: src/supertux/menu/video_system_menu.cpp:54
+msgid "Restart game for the changes to take effect"
+msgstr ""
+
+#: src/supertux/menu/contrib_menu.cpp:68
+#: src/supertux/menu/world_set_menu.cpp:31
+msgid "Contrib Levels"
+msgstr "Өстәмә биремнәр"
+
+#: src/supertux/menu/contrib_menu.cpp:98
+#: src/supertux/menu/contrib_menu.cpp:112
+msgid "Official Contrib Levels"
+msgstr ""
+
+#: src/supertux/menu/contrib_menu.cpp:99
+#: src/supertux/menu/contrib_menu.cpp:118
+msgid "Community Contrib Levels"
+msgstr ""
+
+#: src/supertux/menu/contrib_menu.cpp:100
+#: src/supertux/menu/contrib_menu.cpp:124
+msgid "User Contrib Levels"
+msgstr ""
+
+#: src/supertux/menu/contrib_menu.cpp:113
+msgid "How is this possible? There are no Official Contrib Levels!"
+msgstr ""
+
+#: src/supertux/menu/contrib_menu.cpp:119
+msgid "No Community Contrib Levels yet. Download them from the Add-ons Menu."
+msgstr ""
+
+#: src/supertux/menu/contrib_menu.cpp:125
+msgid "No User Contrib Levels yet. Create some with the Level Editor."
+msgstr ""
+
+#: src/supertux/menu/debug_menu.cpp:34
+msgid "Debug"
+msgstr "Чишү"
+
+#: src/supertux/menu/debug_menu.cpp:58
+msgid "Game Speed"
+msgstr "Уен тизлеге"
+
+#: src/supertux/menu/debug_menu.cpp:59
+msgid "Adjust Game Speed"
+msgstr "Уен тизлеген көйләгез"
+
+#: src/supertux/menu/debug_menu.cpp:65
+msgid "Show Collision Rects"
+msgstr "Бәрелеш юлларын күрсәт"
+
+#: src/supertux/menu/debug_menu.cpp:66
+msgid "Show Worldmap Path"
+msgstr "Дөнья картасын күрсәтегез"
+
+#: src/supertux/menu/debug_menu.cpp:67
+msgid "Show Controller"
+msgstr "Контроллерны күрсәт"
+
+#: src/supertux/menu/debug_menu.cpp:68
+msgid "Show Framerate"
+msgstr "Кадр ставкасын күрсәт"
+
+#: src/supertux/menu/debug_menu.cpp:69
+msgid "Draw Redundant Frames"
+msgstr "Кирәк булмаган рамнарны сызыгыз"
+
+#: src/supertux/menu/debug_menu.cpp:70
+msgid "Show Player Position"
+msgstr "Плеер позициясен күрсәт"
+
+#: src/supertux/menu/debug_menu.cpp:71
+msgid "Use Bitmap Fonts"
+msgstr "Бит картасы шрифтларын кулланыгыз"
+
+#: src/supertux/menu/debug_menu.cpp:74
+msgid "Dump Texture Cache"
+msgstr "Текстур Кэш"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:33
+msgid "Save particle as"
+msgstr "Кисәкчәләрне саклагыз"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:37
+#: src/supertux/menu/editor_save_as.cpp:37
+msgid "File name"
+msgstr "Файл исеме"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:38
+#: src/supertux/menu/editor_save_as.cpp:38 src/editor/particle_editor.cpp:767
+msgid "Save"
+msgstr "Саклагыз"
+
+#: src/supertux/menu/multiplayer_menu.cpp:27
+#: src/supertux/menu/multiplayer_players_menu.cpp:34
+msgid "Multiplayer"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_menu.cpp:30
+msgid "Auto-manage Players"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_menu.cpp:31
+msgid ""
+"Automatically add and remove players when controllers are plugged or "
+"unplugged"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_menu.cpp:33
+msgid "Allow Multibind"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_menu.cpp:34
+msgid "Allow binding multiple joysticks to a single player"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_menu.cpp:36
+msgid "Manage Players"
+msgstr ""
+
+#: src/supertux/menu/editor_sectors_menu.cpp:31
+msgid "Choose Sector"
+msgstr "Секторны сайлагыз"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:41
+msgid "Sector Settings"
+msgstr "Сектор көйләүләре"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:42
+msgid "Create Sector"
+msgstr "Сектор булдыру"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:43
+msgid "Delete Sector"
+msgstr "Секторны бетерү"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:92
+msgid "Each level must have at least one sector."
+msgstr "Һәм дәрәҗә кимендә бер өлкәдән торырга тиеш."
+
+#: src/supertux/menu/editor_sectors_menu.cpp:97
+msgid "Do you really want to delete this sector?"
+msgstr "Чыннан да бу өлкәне бетерергәме?"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:100
+msgid "Delete sector"
+msgstr "Өлкәне бетерергә"
+
+#: src/supertux/menu/custom_menu_menu.cpp:49
+#: src/supertux/menu/options_menu.cpp:191
+msgid "Menu Customization"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:51
+msgid "Menu Back Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:52
+msgid "Menu Front Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:53
+msgid "Menu Help Back Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:54
+msgid "Menu Help Front Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:55
+msgid "Label Text Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:56
+msgid "Active Text Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:57
+msgid "Divider Line Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:58
+msgid "Menu Roundness"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:60
+msgid "Editor Interface Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:61
+msgid "Editor Hover Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:62
+msgid "Editor Grab Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:64
+msgid "Reset to defaults"
+msgstr ""
+
+#: src/supertux/menu/editor_level_select_menu.cpp:72
+msgid "Empty World"
+msgstr "Буш дөнья"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:87
+msgid "Create Level"
+msgstr "Дәрәҗә ясарга"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:91
+msgid "Edit Worldmap"
+msgstr "Дөнья картасын үзгәртү"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:93
+msgid "Create Worldmap"
+msgstr "Дөнья картасын ясагыз"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:95
+#: src/supertux/menu/editor_delete_level_menu.cpp:55
+msgid "Delete level"
+msgstr "Дәрәҗәне бетерү"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:97
+#: src/supertux/menu/editor_levelset_menu.cpp:50
+msgid "World Settings"
+msgstr "Дөнья көйләнмәләре"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:141
+msgid ""
+"Share this worldmap under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in worldmap properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "Бу дөнья картасын CC-BY-SA 4.0 International лицензиясенә бәйләргә (тәкъдим ителә).\nБу өченче як белән үзгәртелешләр кертүне мөмкин итә.\nӘгәр сез бу лицензия белән риза булмасагыз, аны көйләүләрдә үзгәртегез.\nҖАВАПЛЫЛЫКТАН БАШ ТАРТУ: SuperTux авторлары сезнең сйлаган лицензиягез өчен бернинди дә җавап бирми."
+
+#: src/supertux/menu/editor_level_select_menu.cpp:148
+msgid ""
+"Share this level under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in level properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "Бу дәрәҗәне CC-BY-SA 4.0 International лицензиясенә бәйләргә (тәкъдим ителә).\nБу өченче як белән үзгәртелешләр кертүне мөмкин итә.\nӘгәр сез бу лицензия белән риза булмасагыз, аны көйләүләрдә үзгәртегез.\nҖАВАПЛЫЛЫКТАН БАШ ТАРТУ: SuperTux авторлары сезнең сйлаган лицензиягез өчен бернинди дә җавап бирми."
+
+#: src/supertux/menu/editor_level_select_menu.cpp:179
+msgid ""
+"An auto-save recovery file was found. Would you like to restore the recovery\n"
+"file and resume where you were before the editor crashed?"
+msgstr "Авто-саклауны торгызу файллары табылды. Реставрацияне торгызырга телисезме?\nредактор җимерелгәнче файл һәм резюме?"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:186
+msgid "This will delete the auto-save file. Are you sure?"
+msgstr "Бу автоматик саклау файлын бетерәчәк. Ышанасыңмы?"
+
+#: src/supertux/menu/worldmap_cheat_apply_menu.cpp:35
+#: src/supertux/menu/worldmap_cheat_apply_menu.cpp:52
+#: src/supertux/menu/cheat_apply_menu.cpp:33
+#: src/supertux/menu/cheat_apply_menu.cpp:51
+msgid "Apply cheat to player"
+msgstr ""
+
+#: src/supertux/menu/worldmap_cheat_apply_menu.cpp:39
+#: src/supertux/menu/worldmap_cheat_apply_menu.cpp:60
+#: src/supertux/menu/multiplayer_players_menu.cpp:39
+#: src/supertux/menu/keyboard_menu.cpp:63
+#: src/supertux/menu/cheat_apply_menu.cpp:39
+#: src/supertux/menu/cheat_apply_menu.cpp:59
+#: src/supertux/menu/multiplayer_player_menu.cpp:37
+#, c++-format
+msgid "Player {}"
+msgstr "Уенчы {}"
+
+#: src/supertux/menu/worldmap_cheat_apply_menu.cpp:57
+#: src/supertux/menu/cheat_apply_menu.cpp:36
+#: src/supertux/menu/cheat_apply_menu.cpp:56
+msgid "All Players"
+msgstr ""
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:36
+#: src/supertux/menu/cheat_menu.cpp:31
+msgid "Cheats"
+msgstr "Читлар"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:38
+#: src/supertux/menu/cheat_menu.cpp:33
+msgid "Bonus: Grow"
+msgstr "Ташлама: Үсү"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:39
+#: src/supertux/menu/cheat_menu.cpp:34
+msgid "Bonus: Fire"
+msgstr "Ташлама: Ут"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:40
+#: src/supertux/menu/cheat_menu.cpp:35
+msgid "Bonus: Ice"
+msgstr "Ташлама: Боз"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:41
+#: src/supertux/menu/cheat_menu.cpp:36
+msgid "Bonus: Air"
+msgstr "Ташлама: Һава"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:42
+#: src/supertux/menu/cheat_menu.cpp:37
+msgid "Bonus: Earth"
+msgstr "Ташлама: Җир"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:43
+msgid "Bonus: None"
+msgstr "Ташлама: Юк"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:46
+#: src/supertux/menu/cheat_menu.cpp:45 src/supertux/menu/cheat_menu.cpp:51
+msgid "Leave Ghost Mode"
+msgstr "Ghost режимын калдырыгыз"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:46
+#: src/supertux/menu/cheat_menu.cpp:45 src/supertux/menu/cheat_menu.cpp:50
+msgid "Activate Ghost Mode"
+msgstr "Шәүлә режмын кабызырга"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:48
+#: src/supertux/menu/cheat_menu.cpp:41
+msgid "Finish Level"
+msgstr "Дәрәҗәне тәмамларга"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:49
+msgid "Reset Level"
+msgstr "Дәрәҗә яңабаштан"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:51
+msgid "Finish Worldmap"
+msgstr "Дөнья картасын тәмамларга"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:52
+msgid "Reset Worldmap"
+msgstr "Дөнья картасын яңадан башларга"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:54
+msgid "Go to level"
+msgstr "Дәрәҗәгә күчү"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:55
+msgid "Go to main spawnpoint"
+msgstr "Төп чыгу ноктасына күчәргә"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:188
+msgid "Select level"
+msgstr "Дәрәҗә сайлагыз"
+
+#: src/supertux/menu/editor_save_as.cpp:33
+#: src/supertux/menu/editor_menu.cpp:63
+msgid "Save Level as"
+msgstr "Дәрәҗәне саклагыз"
+
+#: src/supertux/menu/editor_save_as.cpp:33
+#: src/supertux/menu/editor_menu.cpp:64
+msgid "Save Copy"
+msgstr "Күчермәне саклагыз"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:71
+msgid "Choose World"
+msgstr "Дөньяны сайлагыз"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:99
+#, c++-format
+msgid "{} level"
+msgid_plural "{} levels"
+msgstr[0] ""
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:112
+msgid "Create World"
+msgstr "Дөнья булдыру"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:113
+#: src/supertux/menu/editor_delete_levelset_menu.cpp:41
+msgid "Delete World"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:72
+#: src/supertux/menu/options_select_menu.cpp:35
+msgid "Locale"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:76
+msgid "Select Language"
+msgstr "Телне сайлагыз"
+
+#: src/supertux/menu/options_menu.cpp:77
+msgid "Select a different language to display text in"
+msgstr "Текст күрсәтелү өчен башка телне сайларга"
+
+#: src/supertux/menu/options_menu.cpp:79
+msgid "Language Packs"
+msgstr "Тел пакетлары"
+
+#: src/supertux/menu/options_menu.cpp:80
+msgid "Language packs contain up-to-date translations"
+msgstr "Тел пакетлары яңартылган тәрҗемәләр бирә"
+
+#: src/supertux/menu/options_menu.cpp:88
+#: src/supertux/menu/options_select_menu.cpp:37
+msgid "Video"
+msgstr "Видео"
+
+#: src/supertux/menu/options_menu.cpp:91
+msgid "Window Resizable"
+msgstr "Тәрәзә үзгәртелә"
+
+#: src/supertux/menu/options_menu.cpp:92
+msgid "Allow window resizing, might require a restart to take effect"
+msgstr "Тәрәзәнең размерын рөхсәт итегез, яңадан башлау таләп ителергә мөмкин"
+
+#: src/supertux/menu/options_menu.cpp:96
+msgid "Fullscreen"
+msgstr "Тулы экран"
+
+#: src/supertux/menu/options_menu.cpp:97
+msgid "Fill the entire screen"
+msgstr "Бөтен экранны алырга"
+
+#: src/supertux/menu/options_menu.cpp:104
+msgid "Fit to browser"
+msgstr "Браузерга туры килә"
+
+#: src/supertux/menu/options_menu.cpp:105
+msgid "Fit the resolution to the size of your browser"
+msgstr "Резолюцияне браузер зурлыгына туры китерегез"
+
+#: src/supertux/menu/options_menu.cpp:116
+msgid "Change Video System"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:117
+msgid "Change video system used to render graphics"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:124
+#: src/supertux/menu/options_select_menu.cpp:38
+msgid "Audio"
+msgstr "Аудио"
+
+#: src/supertux/menu/options_menu.cpp:129
+msgid "Disable all sound effects"
+msgstr "Бөтен тавыш эффектларын сүндерергә"
+
+#: src/supertux/menu/options_menu.cpp:131
+msgid "Disable all music"
+msgstr "Төймәләр гамәлләрен билгеләргә"
+
+#: src/supertux/menu/options_menu.cpp:138
+msgid "Sound (disabled)"
+msgstr "Тавышлар (сүндерелгән)"
+
+#: src/supertux/menu/options_menu.cpp:139
+msgid "Music (disabled)"
+msgstr "Көйләр (сүндерелгән)"
+
+#: src/supertux/menu/options_menu.cpp:147
+#: src/supertux/menu/options_select_menu.cpp:39
+msgid "Controls"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:151
+msgid "Enable Rumbling Controllers"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:152
+msgid "Enable vibrating the game controllers."
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:152
+msgid "This feature is currently only used in the multiplayer options menu."
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:154
+#: src/supertux/menu/keyboard_menu.cpp:34
+msgid "Setup Keyboard"
+msgstr "Төймәсар"
+
+#: src/supertux/menu/options_menu.cpp:155
+msgid "Configure key-action mappings"
+msgstr "Төймәләр гамәлләрен билгеләргә"
+
+#: src/supertux/menu/options_menu.cpp:158
+#: src/supertux/menu/joystick_menu.cpp:54
+msgid "Setup Joystick"
+msgstr "Джойстик"
+
+#: src/supertux/menu/options_menu.cpp:159
+msgid "Configure joystick control-action mappings"
+msgstr "Джойстик көйләүләрен билгеләргә"
+
+#: src/supertux/menu/options_menu.cpp:167
+#: src/supertux/menu/options_select_menu.cpp:40
+msgid "Extras"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:170
+#: src/supertux/menu/profile_menu.cpp:56
+msgid "Select Profile"
+msgstr "Профильны сайлагыз"
+
+#: src/supertux/menu/options_menu.cpp:171
+msgid "Select a profile to play with"
+msgstr "Уен өчен профиль сайларга"
+
+#: src/supertux/menu/options_menu.cpp:174
+msgid "Multiplayer settings"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:175
+msgid "Configure settings specific to multiplayer"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:178
+msgid "Enable transitions"
+msgstr "Күчүне кабызырга"
+
+#: src/supertux/menu/options_menu.cpp:179
+msgid "Enable screen transitions and smooth menu animation"
+msgstr "Күчүне һәм менюда салмак анимацияне кабызырга"
+
+#: src/supertux/menu/options_menu.cpp:181
+msgid "Custom title screen levels"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:182
+msgid "Allow overriding the title screen level, when loading certain worlds"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:185
+msgid "Christmas Mode"
+msgstr "Яңа ел Режимы"
+
+#: src/supertux/menu/options_menu.cpp:187
+msgid "Integrations and presence"
+msgstr "Интеграцияләр һәм булу"
+
+#: src/supertux/menu/options_menu.cpp:188
+msgid ""
+"Manage whether SuperTux should display the levels you play on your social "
+"media profiles (Discord)"
+msgstr "SuperTux сезнең социаль медиа профильләрегездә уйнаган дәрәҗәләрне күрсәтергә тиешме-юкмы белән идарә итегез (Discord)"
+
+#: src/supertux/menu/options_menu.cpp:192
+msgid "Customize the appearance of the menus"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:199
+#: src/supertux/menu/options_select_menu.cpp:41
+msgid "Advanced"
+msgstr "Киңәйтелгән"
+
+#: src/supertux/menu/options_menu.cpp:204
+msgid "Developer Mode"
+msgstr "Ясаучы Режимы"
+
+#: src/supertux/menu/options_menu.cpp:206
+msgid "Confirmation Dialog"
+msgstr "Раслау диалогы"
+
+#: src/supertux/menu/options_menu.cpp:206
+msgid "Confirm aborting level"
+msgstr "Аборт дәрәҗәсен раслагыз"
+
+#: src/supertux/menu/options_menu.cpp:208
+msgid "Pause on focus loss"
+msgstr "Фокус югалтуга пауза"
+
+#: src/supertux/menu/options_menu.cpp:209
+msgid "Automatically pause the game when the window loses focus"
+msgstr "Тәрәзә фокусын югалткач, уенны автоматик рәвештә туктатыгыз"
+
+#: src/supertux/menu/options_menu.cpp:211
+msgid "Use custom mouse cursor"
+msgstr "Тычкан курсорын кулланыгыз"
+
+#: src/supertux/menu/options_menu.cpp:211
+msgid "Whether the game renders its own cursor or uses the system's cursor"
+msgstr "Уен үз курсорын күрсәтәме яки система курсорын кулланамы"
+
+#: src/supertux/menu/options_menu.cpp:214
+msgid "Check for new releases"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:215
+msgid ""
+"Allows the game to perform checks for new SuperTux releases on startup and "
+"notify if any found."
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:245
+#: src/supertux/menu/options_menu.cpp:288 src/supertux/direction.cpp:76
+msgid "auto"
+msgstr "автоматик"
+
+#: src/supertux/menu/options_menu.cpp:281
+msgid "Magnification"
+msgstr "Масштаб"
+
+#: src/supertux/menu/options_menu.cpp:282
+msgid "Change the magnification of the game area"
+msgstr "Уен җиренең масштабын үзгәртергә"
+
+#: src/supertux/menu/options_menu.cpp:318
+msgid "Aspect Ratio"
+msgstr "Экран форматы"
+
+#: src/supertux/menu/options_menu.cpp:319
+msgid "Adjust the aspect ratio"
+msgstr "Экран яклары бәйләнешен дөресләргә"
+
+#: src/supertux/menu/options_menu.cpp:346
+msgid "Window Resolution"
+msgstr "Тәрәзә резолюциясе"
+
+#: src/supertux/menu/options_menu.cpp:347
+msgid "Resize the window to the given size"
+msgstr "Тәрәзәне бирелгән зурлыкка үзгәртегез"
+
+#: src/supertux/menu/options_menu.cpp:377
+msgid "Desktop"
+msgstr "Эш өстәле"
+
+#: src/supertux/menu/options_menu.cpp:404
+msgid "Fullscreen Resolution"
+msgstr "Тулы экран резолюциясе"
+
+#: src/supertux/menu/options_menu.cpp:405
+msgid ""
+"Determine the resolution used in fullscreen mode (you must toggle fullscreen"
+" to complete the change)"
+msgstr "Тулы экран өчен ачыклыкны билгеләргә (сезгә тулы экран режимын сайларга кирәк)"
+
+#: src/supertux/menu/options_menu.cpp:411
+msgid "on"
+msgstr "белән"
+
+#: src/supertux/menu/options_menu.cpp:412
+msgid "off"
+msgstr "кит"
+
+#: src/supertux/menu/options_menu.cpp:413
+msgid "adaptive"
+msgstr "адаптив"
+
+#: src/supertux/menu/options_menu.cpp:431
+msgid "VSync"
+msgstr "VSync"
+
+#: src/supertux/menu/options_menu.cpp:432
+msgid "Set the VSync mode"
+msgstr "VSync режимын куегыз"
+
+#: src/supertux/menu/options_menu.cpp:467
+msgid "Sound Volume"
+msgstr "Тавыш күләме"
+
+#: src/supertux/menu/options_menu.cpp:468
+msgid "Adjust sound volume"
+msgstr "Тавыш тавышын көйләгез"
+
+#: src/supertux/menu/options_menu.cpp:503
+msgid "Music Volume"
+msgstr "Музыка"
+
+#: src/supertux/menu/options_menu.cpp:504
+msgid "Adjust music volume"
+msgstr "Музыка күләмен көйләгез"
+
+#: src/supertux/menu/options_menu.cpp:517
+msgid "On-screen controls scale"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:638
+msgid ""
+"The game couldn't detect your browser resolution.\n"
+"This most likely happens because it is not embedded\n"
+"in the SuperTux custom HTML template.\n"
+msgstr "Уен сезнең браузер резолюциясен таба алмады.\nБу, мөгаен, урнаштырылмаганга була\nSuperTux махсус HTML шаблонында.\n"
+
+#: src/supertux/menu/editor_delete_levelset_menu.cpp:80
+msgid "You cannot delete the world that you are editing"
+msgstr ""
+
+#: src/supertux/menu/editor_delete_levelset_menu.cpp:83
+#, c++-format
+msgid "You are about to delete world \"{}\". Are you sure?"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:82
+#, c++-format
+msgid "{} \"{}\""
+msgstr "{} \"{}\""
+
+#: src/supertux/menu/addon_preview_menu.cpp:87
+msgid "Some information about this add-on is not available."
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:88
+msgid "Perform a \"Check Online\" to try retrieving it."
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:92
+msgid "No author specified."
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:92
+#, c++-format
+msgid "Author: {}"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:93
+#, c++-format
+msgid "Type: {}"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:94
+msgid "No license specified."
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:94
+#, c++-format
+msgid "License: {}"
+msgstr "Лицензия: {}"
+
+#: src/supertux/menu/addon_preview_menu.cpp:99
+msgid "Dependencies:"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:108
+msgid "Installed"
+msgstr "Урнаштырылган"
+
+#: src/supertux/menu/addon_preview_menu.cpp:108
+msgid "Not installed"
+msgstr "Урнаштырылмаган"
+
+#: src/supertux/menu/addon_preview_menu.cpp:113
+msgid "Not available!"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:120
+msgid "Description:"
+msgstr "Тасвирлама:"
+
+#: src/supertux/menu/addon_preview_menu.cpp:123
+msgid "No description available."
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:147
+msgid "Failed to load all available screenshot previews."
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:152
+msgid "Show screenshots"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:165
+msgid "Screenshot previews are disabled for automatic installs."
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:169
+msgid "No screenshot previews available."
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:177
+msgid "Install"
+msgstr "Урнаштыру"
+
+#: src/supertux/menu/addon_preview_menu.cpp:190
+msgid "Uninstall"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:214
+#, c++-format
+msgid "Are you sure you want to uninstall \"{}\"?"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:215
+msgid ""
+"\n"
+"Your progress won't be lost."
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:227
+#, c++-format
+msgid ""
+"NOTE: The add-on \"{}\" is a dependency of {} other installed {}.\n"
+"Are you sure you wish to uninstall?"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:246
+#, c++-format
+msgid ""
+"Cannot toggle add-on \"{}\":\n"
+"{}"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:279
+msgid "Fetching screenshot previews..."
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:300
+msgid "Updating"
+msgstr "Яңарту"
+
+#: src/supertux/menu/addon_preview_menu.cpp:300
+msgid "Downloading"
+msgstr "Йөкләнә %s"
+
+#: src/supertux/menu/addon_preview_menu.cpp:328
+msgid "Add-on uninstalled successfully."
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:333
+#, c++-format
+msgid ""
+"Error uninstalling add-on:\n"
+"{}"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:361
+msgid ""
+"Please restart SuperTux\n"
+"for these changes to take effect."
+msgstr "Үзгәрешләрне кабул итү өчен,\nSuperTux-ны яңабаштан җибәрегез."
+
+#: src/supertux/menu/main_menu.cpp:51 src/supertux/menu/world_set_menu.cpp:28
+msgid "Start Game"
+msgstr "Уенны башларга"
+
+#: src/supertux/menu/main_menu.cpp:55
+msgid "Add-ons"
+msgstr "Кушымталар"
+
+#: src/supertux/menu/main_menu.cpp:57 src/supertux/menu/web_asset_menu.cpp:38
+msgid "Manage Assets"
+msgstr "Активлар белән идарә итү"
+
+#: src/supertux/menu/main_menu.cpp:59
+#: src/supertux/menu/options_select_menu.cpp:29
+#: src/supertux/menu/game_menu.cpp:58 src/supertux/menu/worldmap_menu.cpp:31
+#: src/supertux/menu/editor_menu.cpp:70
+msgid "Options"
+msgstr "Көйләүләр"
+
+#: src/supertux/menu/main_menu.cpp:60 src/supertux/menu/editor_menu.cpp:58
+msgid "Level Editor"
+msgstr "Дәрәҗә мөхәррире"
+
+#: src/supertux/menu/main_menu.cpp:61
+msgid "Credits"
+msgstr "Ясаучылар"
+
+#: src/supertux/menu/main_menu.cpp:64
+msgid "Donate"
+msgstr "Бүләк итегез"
+
+#: src/supertux/menu/main_menu.cpp:67
+msgid "Quit"
+msgstr "Чыгарга"
+
+#: src/supertux/menu/main_menu.cpp:106
+msgid ""
+"This will take you to the SuperTux donation page. Are you sure you want to "
+"continue?"
+msgstr ""
+
+#: src/supertux/menu/editor_sector_menu.cpp:34
+#, c++-format
+msgid "Sector {}"
+msgstr ""
+
+#: src/supertux/menu/editor_sector_menu.cpp:37
+msgid "Initialization script"
+msgstr "Инициализация сценарие"
+
+#: src/supertux/menu/editor_sector_menu.cpp:38
+msgid "Gravity"
+msgstr "Гравитация"
+
+#: src/supertux/menu/editor_sector_menu.cpp:43
+msgid "Resize offset X"
+msgstr "Офсетның размерын X"
+
+#: src/supertux/menu/editor_sector_menu.cpp:44
+msgid "Resize offset Y"
+msgstr "Офсетның размерын үзгәртү"
+
+#: src/supertux/menu/editor_sector_menu.cpp:45
+msgid "Resize"
+msgstr "Зурлыгын үзгәртергә"
+
+#: src/supertux/menu/profile_menu.cpp:60
+msgid "No profiles found."
+msgstr ""
+
+#: src/supertux/menu/profile_menu.cpp:68
+#: src/supertux/menu/profile_menu.cpp:149
+#: src/supertux/menu/profile_menu.cpp:168
+#, c++-format
+msgid "Profile {}"
+msgstr "Профиль {}"
+
+#: src/supertux/menu/profile_menu.cpp:69
+#, c++-format
+msgid "{} (Profile {})"
+msgstr "{} (Профиль {})"
+
+#: src/supertux/menu/profile_menu.cpp:84
+msgid "No profile selected."
+msgstr ""
+
+#: src/supertux/menu/profile_menu.cpp:91 src/supertux/menu/profile_menu.cpp:93
+#: src/supertux/menu/profile_name_menu.cpp:42
+msgid "Rename"
+msgstr "Исемен үзгәртү"
+
+#: src/supertux/menu/profile_menu.cpp:98
+#: src/supertux/menu/profile_menu.cpp:100
+msgid "Reset"
+msgstr "Ташлату"
+
+#: src/supertux/menu/profile_menu.cpp:103
+#: src/supertux/menu/profile_menu.cpp:105
+msgid "Reset all"
+msgstr ""
+
+#: src/supertux/menu/profile_menu.cpp:113
+#: src/supertux/menu/profile_menu.cpp:115
+msgid "Delete all"
+msgstr ""
+
+#: src/supertux/menu/profile_menu.cpp:148
+#, c++-format
+msgid ""
+"This will reset all game progress on the profile \"{}\".\n"
+"Are you sure?"
+msgstr ""
+
+#: src/supertux/menu/profile_menu.cpp:157
+msgid "This will reset your game progress on all profiles. Are you sure?"
+msgstr "Бу барлык профильләрдә сезнең уен алгарышын торгызачак. Ышанасыңмы?"
+
+#: src/supertux/menu/profile_menu.cpp:167
+#, c++-format
+msgid ""
+"This will delete the profile \"{}\",\n"
+"including all game progress on it. Are you sure?"
+msgstr ""
+
+#: src/supertux/menu/profile_menu.cpp:178
+msgid ""
+"This will delete all profiles, including all game progress on them.\n"
+"Are you sure?"
+msgstr ""
+
+#: src/supertux/menu/editor_levelset_menu.cpp:53
+#: src/supertux/menu/editor_new_levelset_menu.cpp:35
+msgid "Description"
+msgstr "Тасвирлама"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:55
+msgid "Title Screen Level"
+msgstr ""
+
+#: src/supertux/menu/editor_levelset_menu.cpp:56
+msgid "A level to be used for the title screen, after exiting the world."
+msgstr ""
+
+#: src/supertux/menu/multiplayer_players_menu.cpp:46
+msgid "Add Player"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_players_menu.cpp:59
+msgid "Remove Last Player"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_players_menu.cpp:62
+msgid ""
+"Warning: The player you are trying to\n"
+"remove is currently in-game.\n"
+"\n"
+"Do you wish to remove them anyways?"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:68
+msgid "Installed Language Packs"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:68
+msgid "Installed Add-ons"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:76 src/supertux/menu/addon_menu.cpp:117
+msgid "No language packs installed"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:76
+msgid "No Add-ons installed"
+msgstr "Урнаштырылган кушымталар юк"
+
+#: src/supertux/menu/addon_menu.cpp:124
+#, c++-format
+msgid "{} {}*UPDATE*"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:130
+#, c++-format
+msgid "{}{}"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:140
+msgid "No updates available."
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:144
+#, c++-format
+msgid "{} {} available"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:144
+msgid "update"
+msgstr "яңарту"
+
+#: src/supertux/menu/addon_menu.cpp:144
+msgid "updates"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:146
+msgid "Check for updates"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:150
+msgid "Browse language packs"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:150
+#: src/supertux/menu/addon_browse_menu.cpp:70
+msgid "Browse Add-ons"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:151
+msgid "Install from file"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:208
+msgid "Checking for updates..."
+msgstr ""
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:31
+msgid "New World"
+msgstr "Яңа дөнья"
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:51
+msgid "Please enter a name for this level subset."
+msgstr "Бу дәрәҗә эченең исемен кертегез."
+
+#: src/supertux/menu/world_set_menu.cpp:30
+msgid "Story Mode"
+msgstr "Тарих режимы"
+
+#: src/supertux/menu/addon_browse_menu.cpp:70
+msgid "Browse Language Packs"
+msgstr ""
+
+#: src/supertux/menu/addon_browse_menu.cpp:112
+#, c++-format
+msgid "Page {}/{}"
+msgstr "Бит {}/{}"
+
+#: src/supertux/menu/addon_browse_menu.cpp:124
+msgid "No new language packs available"
+msgstr ""
+
+#: src/supertux/menu/addon_browse_menu.cpp:124
+msgid "No new Add-ons available"
+msgstr ""
+
+#: src/supertux/menu/addon_browse_menu.cpp:127
+msgid "No language packs available"
+msgstr ""
+
+#: src/supertux/menu/addon_browse_menu.cpp:127
+msgid "No Add-ons available"
+msgstr ""
+
+#: src/supertux/menu/addon_browse_menu.cpp:135
+#: src/supertux/menu/addon_browse_menu.cpp:139
+msgid "Previous page"
+msgstr ""
+
+#: src/supertux/menu/addon_browse_menu.cpp:143
+#: src/supertux/menu/addon_browse_menu.cpp:147
+msgid "Next page"
+msgstr ""
+
+#: src/supertux/menu/addon_browse_menu.cpp:154
+msgid "Check Online (disabled)"
+msgstr "Челтәрдә карарга (сүндерелгән)"
+
+#: src/supertux/menu/addon_browse_menu.cpp:158
+msgid "Check Online"
+msgstr "Челтәрдә карарга"
+
+#: src/supertux/menu/addon_browse_menu.cpp:195
+msgid "Downloading Add-On Repository Index"
+msgstr "Кушымталар саклагычы индексын йөкләү"
+
+#: src/supertux/menu/web_asset_menu.cpp:42
+msgid "New files location"
+msgstr "Яңа файлларның урнашуы"
+
+#: src/supertux/menu/web_asset_menu.cpp:43
+msgid "Add Files"
+msgstr "Файллар өстәгез"
+
+#: src/supertux/menu/web_asset_menu.cpp:44
+msgid "Download Files"
+msgstr "Файлларны йөкләү"
+
+#: src/supertux/menu/particle_editor_open.cpp:32
+msgid "Load particle file"
+msgstr "Кисәкчәләр файлын йөкләү"
+
+#: src/supertux/menu/particle_editor_open.cpp:39
+msgid "Open"
+msgstr "Ачу"
+
+#: src/supertux/menu/game_menu.cpp:51 src/supertux/menu/worldmap_menu.cpp:30
+msgid "Continue"
+msgstr "Дәвам итәргә"
+
+#: src/supertux/menu/game_menu.cpp:52
+msgid "Restart Level"
+msgstr "Дәрәҗә яңабаштан"
+
+#: src/supertux/menu/game_menu.cpp:55
+msgid "Restart from Checkpoint"
+msgstr "Тикшерү пунктыннан башлап җибәрегез"
+
+#: src/supertux/menu/game_menu.cpp:60
+msgid "Abort Level"
+msgstr "Дәрәҗәне туктатырга"
+
+#: src/supertux/menu/game_menu.cpp:76 src/supertux/menu/game_menu.cpp:87
+#: src/supertux/menu/game_menu.cpp:99
+msgid "Are you sure?"
+msgstr "Ышанасыңмы?"
+
+#: src/supertux/menu/profile_name_menu.cpp:36
+#, c++-format
+msgid "Rename \"{}\""
+msgstr "Исемен үзгәртү \"{}\""
+
+#: src/supertux/menu/profile_name_menu.cpp:36
+msgid "Add profile"
+msgstr ""
+
+#: src/supertux/menu/profile_name_menu.cpp:40
+msgid "Profile names must have a maximum of 20 characters."
+msgstr ""
+
+#: src/supertux/menu/profile_name_menu.cpp:42
+msgid "Create"
+msgstr ""
+
+#: src/supertux/menu/profile_name_menu.cpp:56
+msgid ""
+"Profile names must have a maximum of 20 characters.\n"
+"Please choose a different name."
+msgstr ""
+
+#: src/supertux/menu/profile_name_menu.cpp:77
+msgid "An error occurred while creating the profile."
+msgstr ""
+
+#: src/supertux/menu/keyboard_menu.cpp:36
+#: src/supertux/menu/joystick_menu.cpp:71
+msgid "Up"
+msgstr "Өскә"
+
+#: src/supertux/menu/keyboard_menu.cpp:37
+#: src/supertux/menu/joystick_menu.cpp:72
+msgid "Down"
+msgstr "Аска"
+
+#: src/supertux/menu/keyboard_menu.cpp:40
+#: src/supertux/menu/joystick_menu.cpp:75
+msgid "Jump"
+msgstr "Сикерү"
+
+#: src/supertux/menu/keyboard_menu.cpp:43
+#: src/supertux/menu/joystick_menu.cpp:78
+msgid "Peek Left"
+msgstr "Сулга карау"
+
+#: src/supertux/menu/keyboard_menu.cpp:44
+#: src/supertux/menu/joystick_menu.cpp:79
+msgid "Peek Right"
+msgstr "Уңга карау"
+
+#: src/supertux/menu/keyboard_menu.cpp:45
+#: src/supertux/menu/joystick_menu.cpp:80
+msgid "Peek Up"
+msgstr "Өскә карау"
+
+#: src/supertux/menu/keyboard_menu.cpp:46
+#: src/supertux/menu/joystick_menu.cpp:81
+msgid "Peek Down"
+msgstr "Аска карау"
+
+#: src/supertux/menu/keyboard_menu.cpp:51
+#: src/supertux/menu/joystick_menu.cpp:83
+msgid "Console"
+msgstr "Консоль"
+
+#: src/supertux/menu/keyboard_menu.cpp:52
+#: src/supertux/menu/joystick_menu.cpp:84
+msgid "Cheat Menu"
+msgstr "Читлар менюсы"
+
+#: src/supertux/menu/keyboard_menu.cpp:53
+#: src/supertux/menu/joystick_menu.cpp:85
+msgid "Debug Menu"
+msgstr "Дебу меню"
+
+#: src/supertux/menu/keyboard_menu.cpp:56
+#: src/supertux/menu/joystick_menu.cpp:87
+msgid "Jump with Up"
+msgstr "Сикерү = Өскә"
+
+#: src/supertux/menu/keyboard_menu.cpp:82
+msgid "Up cursor"
+msgstr "Ук өскә"
+
+#: src/supertux/menu/keyboard_menu.cpp:84
+msgid "Down cursor"
+msgstr "Ук аска"
+
+#: src/supertux/menu/keyboard_menu.cpp:86
+msgid "Left cursor"
+msgstr "Ук сулга"
+
+#: src/supertux/menu/keyboard_menu.cpp:88
+msgid "Right cursor"
+msgstr "Ук уңга"
+
+#: src/supertux/menu/keyboard_menu.cpp:90
+msgid "Return"
+msgstr "Enter"
+
+#: src/supertux/menu/keyboard_menu.cpp:92
+msgid "Space"
+msgstr "Space"
+
+#: src/supertux/menu/keyboard_menu.cpp:94
+msgid "Right Shift"
+msgstr "Уң Shift"
+
+#: src/supertux/menu/keyboard_menu.cpp:96
+msgid "Left Shift"
+msgstr "Сул Shift"
+
+#: src/supertux/menu/keyboard_menu.cpp:98
+msgid "Right Control"
+msgstr "Уң Control"
+
+#: src/supertux/menu/keyboard_menu.cpp:100
+msgid "Left Control"
+msgstr "Сул Control"
+
+#: src/supertux/menu/keyboard_menu.cpp:102
+msgid "Right Alt"
+msgstr "Уң Alt"
+
+#: src/supertux/menu/keyboard_menu.cpp:104
+msgid "Left Alt"
+msgstr "Сул Alt"
+
+#: src/supertux/menu/keyboard_menu.cpp:106
+msgid "Right Command"
+msgstr "Уң төймә"
+
+#: src/supertux/menu/keyboard_menu.cpp:108
+msgid "Left Command"
+msgstr "Сул төймә"
+
+#: src/supertux/menu/keyboard_menu.cpp:122
+msgid "Press Key"
+msgstr "Төймәгә басыгыз"
+
+#: src/supertux/menu/language_menu.cpp:43
+msgid "Language"
+msgstr "Тел"
+
+#: src/supertux/menu/language_menu.cpp:45
+msgid "<auto-detect>"
+msgstr "<авто-билгеләү>"
+
+#: src/supertux/menu/joystick_menu.cpp:57
+msgid "Manual Configuration"
+msgstr "Кулдан көйләү"
+
+#: src/supertux/menu/joystick_menu.cpp:59
+msgid ""
+"Use manual configuration instead of SDL2's automatic GameController support"
+msgstr "Автоматик SDL2 көйләве урынына үземнекен кулланырга"
+
+#: src/supertux/menu/joystick_menu.cpp:77
+msgid "Pause/Menu"
+msgstr "Пауза/Меню"
+
+#: src/supertux/menu/joystick_menu.cpp:93
+msgid "No Joysticks found"
+msgstr "Джойстик табылмады"
+
+#: src/supertux/menu/joystick_menu.cpp:94
+msgid "Scan for Joysticks"
+msgstr "Джойстикларны табарга"
+
+#: src/supertux/menu/joystick_menu.cpp:127
+msgid "Press Button"
+msgstr "Төймәгә басыгыз"
+
+#: src/supertux/menu/joystick_menu.cpp:164
+msgid "Axis "
+msgstr "Үзәкләр"
+
+#: src/supertux/menu/joystick_menu.cpp:167
+msgid "-"
+msgstr "-"
+
+#: src/supertux/menu/joystick_menu.cpp:169
+msgid "+"
+msgstr "+"
+
+#: src/supertux/menu/joystick_menu.cpp:176
+msgid "X2"
+msgstr "X2"
+
+#: src/supertux/menu/joystick_menu.cpp:178
+msgid "Y2"
+msgstr "Y2"
+
+#: src/supertux/menu/joystick_menu.cpp:191
+msgid "Hat Up"
+msgstr "Төймә Өскә"
+
+#: src/supertux/menu/joystick_menu.cpp:195
+msgid "Hat Down"
+msgstr "Төймә Аска"
+
+#: src/supertux/menu/joystick_menu.cpp:199
+msgid "Hat Left"
+msgstr "Төймә Сулга"
+
+#: src/supertux/menu/joystick_menu.cpp:203
+msgid "Hat Right"
+msgstr "Төймә Уңга"
+
+#: src/supertux/menu/worldmap_menu.cpp:28
+msgid "Pause"
+msgstr "Пауза"
+
+#: src/supertux/menu/worldmap_menu.cpp:33
+msgid "Leave World"
+msgstr "Тукс Дөньясыннан китәргә"
+
+#: src/supertux/menu/download_dialog.cpp:42
+msgid "Abort Download"
+msgstr "Йөкләүне туктатырга"
+
+#: src/supertux/menu/download_dialog.cpp:59
+#, c++-format
+msgid ""
+"Error:\n"
+"{}"
+msgstr "Хата:\n{}"
+
+#: src/supertux/menu/cheat_menu.cpp:38
+msgid "Bonus: Star"
+msgstr "Ташлама: Йолдыз"
+
+#: src/supertux/menu/cheat_menu.cpp:39
+msgid "Shrink Tux"
+msgstr "Туксны кечерәйтергә"
+
+#: src/supertux/menu/cheat_menu.cpp:40
+msgid "Kill Tux"
+msgstr "Туксны үтерергә"
+
+#: src/supertux/menu/cheat_menu.cpp:55
+msgid "Prevent Death"
+msgstr ""
+
+#: src/supertux/menu/addon_file_install_menu.cpp:32
+msgid "Install Add-on from file"
+msgstr ""
+
+#: src/supertux/menu/addon_file_install_menu.cpp:34
+msgid "Drag and drop add-on ZIP archive"
+msgstr ""
+
+#: src/supertux/menu/particle_editor_menu.cpp:32
+msgid "Particle Editor"
+msgstr "Кисәкчәләр редакторы"
+
+#: src/supertux/menu/particle_editor_menu.cpp:36
+#: src/supertux/menu/editor_menu.cpp:60
+msgid "Return to Editor"
+msgstr "Редакторга кайту"
+
+#: src/supertux/menu/particle_editor_menu.cpp:37
+msgid "New Particle Config"
+msgstr "Яңа кисәкчәләр конфигурациясе"
+
+#: src/supertux/menu/particle_editor_menu.cpp:38
+msgid "Save Particle Config"
+msgstr "Кисәкчәләрне конфигурацияләгез"
+
+#: src/supertux/menu/particle_editor_menu.cpp:39
+msgid "Save Particle Config as..."
+msgstr "Кисәкчәләрне конфигурацияләгез ..."
+
+#: src/supertux/menu/particle_editor_menu.cpp:40
+msgid "Load Another Particle Config"
+msgstr "Бүтән кисәкчәләрне конфигурацияләгез"
+
+#: src/supertux/menu/particle_editor_menu.cpp:44
+msgid "Open Particle Directory"
+msgstr "Кисәкчәләр каталогын ачу"
+
+#: src/supertux/menu/particle_editor_menu.cpp:45
+#: src/supertux/menu/editor_menu.cpp:118
+msgid "Keyboard Shortcuts"
+msgstr "Клавиатура кыска юллары"
+
+#: src/supertux/menu/particle_editor_menu.cpp:49
+msgid "Exit Particle Editor"
+msgstr "Кисәкчәләр редакторыннан чыгу"
+
+#: src/supertux/menu/particle_editor_menu.cpp:121
+msgid ""
+"Keyboard Shortcuts:\n"
+"---------------------\n"
+"Esc = Open Menu\n"
+"Ctrl+S = Save\n"
+"Ctrl+Shift+S = Save as\n"
+"Ctrl+O = Open\n"
+"Ctrl+Z = Undo\n"
+"Ctrl+Y = Redo"
+msgstr "Клавиатура кыска юллары:\n---------------------\nEsc = Ачык меню\nCtrl + S = Саклагыз\nCtrl + Shift + S = Саклагыз\nCtrl + O = Ачык\nCtrl + Z = кире кайтару\nCtrl + Y = Кабатлау"
+
+#: src/supertux/menu/particle_editor_menu.cpp:122
+#: src/supertux/menu/editor_menu.cpp:206
+msgid "Got it!"
+msgstr "Аңладым!"
+
+#: src/supertux/menu/editor_level_menu.cpp:31
+#: src/supertux/menu/editor_menu.cpp:116
+msgid "Worldmap Settings"
+msgstr "Дөнья картасы көйләүләре"
+
+#: src/supertux/menu/editor_level_menu.cpp:31
+#: src/supertux/menu/editor_menu.cpp:116
+msgid "Level Settings"
+msgstr "Дәрәҗә көйләүләре"
+
+#: src/supertux/menu/editor_level_menu.cpp:34
+msgid "Author"
+msgstr "Автор"
+
+#: src/supertux/menu/editor_level_menu.cpp:35 data//credits.stxt:1253
+msgid "Contact"
+msgstr "Элемтә"
+
+#: src/supertux/menu/editor_level_menu.cpp:36
+msgid "License"
+msgstr "Лицензия"
+
+#: src/supertux/menu/editor_level_menu.cpp:37
+msgid "Level Note"
+msgstr "Дәрәҗә язмасы"
+
+#: src/supertux/menu/editor_level_menu.cpp:38
+msgid "Tileset"
+msgstr "Плиткалар җыелмасы"
+
+#: src/supertux/menu/editor_level_menu.cpp:41
+msgid "Target Time"
+msgstr "Максат вакыты"
+
+#: src/supertux/menu/editor_level_menu.cpp:83
+msgid "Please enter a name for this level."
+msgstr "Бу дәрәҗәнең исемен кертегез."
+
+#: src/supertux/menu/editor_level_menu.cpp:87
+msgid "Please enter a level author for this level."
+msgstr "Бу дәрәҗәнең авторын кертегез."
+
+#: src/supertux/menu/editor_level_menu.cpp:91
+msgid "Please enter a license for this level."
+msgstr "Бу дәрәҗәнең лицензия шартларын кертегез."
+
+#: src/supertux/menu/editor_menu.cpp:53
+msgid "tiny tile (4px)"
+msgstr "кечкенә плитка (4px)"
+
+#: src/supertux/menu/editor_menu.cpp:54
+msgid "small tile (8px)"
+msgstr "кечкенә плитка (8px)"
+
+#: src/supertux/menu/editor_menu.cpp:55
+msgid "medium tile (16px)"
+msgstr "урта плитка (16px)"
+
+#: src/supertux/menu/editor_menu.cpp:56
+msgid "big tile (32px)"
+msgstr "зур плитка (32px)"
+
+#: src/supertux/menu/editor_menu.cpp:61
+msgid "Save Worldmap"
+msgstr "Дөнья картасын саклагыз"
+
+#: src/supertux/menu/editor_menu.cpp:61
+msgid "Save Level"
+msgstr "Дәрәҗәне саклау"
+
+#: src/supertux/menu/editor_menu.cpp:65
+msgid "Test Level"
+msgstr "Тест дәрәҗәсе"
+
+#: src/supertux/menu/editor_menu.cpp:67
+msgid "Test Worldmap"
+msgstr "Дөнья картасын сынау"
+
+#: src/supertux/menu/editor_menu.cpp:72
+msgid "Share Level"
+msgstr "Бүлешү дәрәҗәсе"
+
+#: src/supertux/menu/editor_menu.cpp:74
+msgid "Package Add-On"
+msgstr "Пакет өстәмә"
+
+#: src/supertux/menu/editor_menu.cpp:76
+msgid "Open Level Directory"
+msgstr "Ачык дәрәҗә каталогы"
+
+#: src/supertux/menu/editor_menu.cpp:79
+msgid "Edit Another Level"
+msgstr "Башка дәрәҗәне үзгәртергә"
+
+#: src/supertux/menu/editor_menu.cpp:81
+msgid "Edit Another World"
+msgstr "Башка дөньяны үзгәртү"
+
+#: src/supertux/menu/editor_menu.cpp:86
+msgid "Convert all tiles in the level using converters."
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:90
+msgid "Grid Size"
+msgstr "Челтәр күләме"
+
+#: src/supertux/menu/editor_menu.cpp:91
+msgid "Show Grid"
+msgstr "Челтәрне күрсәтү"
+
+#: src/supertux/menu/editor_menu.cpp:92
+msgid "Grid Snapping"
+msgstr "Челтәр тарту"
+
+#: src/supertux/menu/editor_menu.cpp:93
+msgid "Render Background"
+msgstr "Фонда күрсәтү"
+
+#: src/supertux/menu/editor_menu.cpp:94
+msgid "Render Light"
+msgstr "Яктылык бирегез"
+
+#: src/supertux/menu/editor_menu.cpp:95
+msgid "Autotile Mode"
+msgstr "Автомобиль режимы"
+
+#: src/supertux/menu/editor_menu.cpp:96
+msgid "Enable Autotile Help"
+msgstr "Автомобиль ярдәмен кушу"
+
+#: src/supertux/menu/editor_menu.cpp:97
+msgid "Enable Object Undo Tracking"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:100
+msgid "Undo Stack Size"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:102
+msgid "Autosave Frequency"
+msgstr "Автосав ешлыгы"
+
+#: src/supertux/menu/editor_menu.cpp:108
+msgid "Check for Deprecated Tiles"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:109
+msgid "Check if any deprecated tiles are currently present in the level."
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:110
+msgid "Show Deprecated Tiles"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:111
+msgid ""
+"Indicate all deprecated tiles on the active tilemap, without the need of "
+"hovering over."
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:121
+msgid "Exit Level Editor"
+msgstr "Чыгыш дәрәҗәсе редакторы"
+
+#: src/supertux/menu/editor_menu.cpp:170
+msgid "Do you want to package this world as an add-on?"
+msgstr "Сез бу дөньяны өстәмә итеп пакетларга телисезме?"
+
+#: src/supertux/menu/editor_menu.cpp:196
+msgid ""
+"We encourage you to share your levels in the SuperTux forum.\n"
+"To find your level, click the\n"
+"\"Open Level directory\" menu item.\n"
+"Do you want to go to the forum now?"
+msgstr "SuperTux форумында үз дәрәҗәләрегезне бүлешергә тәкъдим итәбез.\nLevelз дәрәҗәңне табу өчен, басыгыз\n\"Ачык дәрәҗә каталогы\" меню пункты.\nСез хәзер форумга барырга телисезме?"
+
+#: src/supertux/menu/editor_menu.cpp:205
+msgid ""
+"Keyboard Shortcuts:\n"
+"---------------------\n"
+"Esc = Open Menu\n"
+"Ctrl+S = Save\n"
+"Ctrl+T = Test\n"
+"Ctrl+Z = Undo\n"
+"Ctrl+Y = Redo\n"
+"F6 = Render Light\n"
+"F7 = Grid Snapping\n"
+"F8 = Show Grid\n"
+"Ctrl++ or Ctrl+Scroll Up = Zoom In\n"
+"Ctrl+- or Ctrl+Scroll Down = Zoom Out\n"
+"Ctrl+D = Reset Zoom\n"
+"\n"
+"Scripting Shortcuts:\n"
+"    -------------    \n"
+"Home = Go to beginning of line\n"
+"End = Go to end of line\n"
+"Left arrow = Go back in text\n"
+"Right arrow = Go forward in text\n"
+"Backspace = Delete in front of text cursor\n"
+"Delete = Delete behind text cursor\n"
+"Ctrl+X = Cut whole line\n"
+"Ctrl+C = Copy whole line\n"
+"Ctrl+V = Paste\n"
+"Ctrl+D = Duplicate line\n"
+"Ctrl+Z = Undo\n"
+"Ctrl+Y = Redo"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:232
+msgid "Deprecated tiles are still present in the level."
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:239
+msgid "Do you want to show all deprecated tiles on active tilemaps?"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:246
+msgid "There are no more deprecated tiles in the level!"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:40
+msgid "Play with the keyboard"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:58
+msgid "Remove Player"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:82
+msgid "Respawn Player"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:108
+msgid "Spawn Player"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:136
+msgid "Controllers"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:152
+msgid ""
+"This controller does not support rumbling;\n"
+"please check the controllers manually."
+msgstr ""
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:157
+msgid ""
+"This SuperTux build does not support rumbling\n"
+"controllers; please check the controllers manually."
+msgstr ""
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:184
+msgid ""
+"This joystick does not support rumbling;\n"
+"please check the joysticks manually."
+msgstr ""
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:189
+msgid ""
+"This SuperTux build does not support rumbling\n"
+"joysticks; please check the joysticks manually."
+msgstr ""
+
+#: src/supertux/menu/editor_delete_level_menu.cpp:59
+msgid "No levels available"
+msgstr ""
+
+#: src/supertux/menu/editor_delete_level_menu.cpp:79
+msgid "You cannot delete the level that you are editing!"
+msgstr ""
+
+#: src/supertux/menu/editor_delete_level_menu.cpp:82
+#, c++-format
+msgid "You are about to delete level \"{}\". Are you sure?"
+msgstr ""
+
+#: src/supertux/levelintro.cpp:137
+#, c++-format
+msgid "contributed by {}"
+msgstr ""
+
+#: src/supertux/levelintro.cpp:184
+msgid "Badguys killed"
+msgstr "Дошманнар юк ителгән"
+
+#: src/supertux/levelintro.cpp:192
+msgid "Best time"
+msgstr "Иң яхшы вакыт"
+
+#: src/supertux/levelintro.cpp:196
+msgid "Level target time"
+msgstr "Дәрәҗә таләп иткән вакыт"
+
+#: src/supertux/tile_set.cpp:113
+msgid "Others"
+msgstr "Башкалар"
+
+#: src/supertux/direction.cpp:67
+msgid "up"
+msgstr "өскә"
+
+#: src/supertux/direction.cpp:69
+msgid "down"
+msgstr "аска"
+
+#: src/supertux/moving_object.cpp:63
+msgid "Region"
+msgstr "Төбәк"
+
+#: src/supertux/main.cpp:801
+#, c++-format
+msgid "New release: SuperTux v{}!"
+msgstr ""
+
+#: src/supertux/main.cpp:804
+#, c++-format
+msgid ""
+"A new release of SuperTux (v{}) is available!\n"
+"For more information, you can visit the SuperTux website.\n"
+"\n"
+"Do you want to visit the website now?"
+msgstr ""
+
+#: src/supertux/main.cpp:815
+msgid "Checking for new releases..."
+msgstr ""
+
+#: src/control/joystick_config.cpp:85
+msgid "Joystick Mappings"
+msgstr "Джойстик көйләүләре"
+
+#: src/worldmap/sprite_change.cpp:91
+msgid "Stay action"
+msgstr "Басып тору халәте"
+
+#: src/worldmap/sprite_change.cpp:92
+msgid "Initial stay action"
+msgstr "Башлангыч басып тору халәте"
+
+#: src/worldmap/sprite_change.cpp:93
+msgid "Stay group"
+msgstr "Басып торучы төркемнәр"
+
+#: src/worldmap/sprite_change.cpp:94
+msgid "Change on touch"
+msgstr "Басу белән күчү"
+
+#: src/worldmap/special_tile.hpp:36
+msgid "Special Tile"
+msgstr ""
+
+#: src/worldmap/level_tile.hpp:36 src/worldmap/level_tile.cpp:161
+msgid "Level"
+msgstr "Дәрәҗә"
+
+#: src/worldmap/teleporter.cpp:50
+msgid "Automatic"
+msgstr "Автоматик"
+
+#: src/worldmap/teleporter.cpp:51
+msgid "Target worldmap"
+msgstr "Картаның максаты"
+
+#: src/worldmap/sprite_change.hpp:35
+msgid "Sprite Change"
+msgstr "Сприт үзгәртү"
+
+#: src/worldmap/special_tile.cpp:75
+msgid "Show message"
+msgstr "Хатны күрсәтергә"
+
+#: src/worldmap/level_tile.cpp:84
+msgid "<no title>"
+msgstr "<исем юк>"
+
+#: src/worldmap/level_tile.cpp:162
+msgid "Outro script"
+msgstr "Азак скрипт"
+
+#: src/worldmap/level_tile.cpp:163
+msgid "Auto play"
+msgstr "Авто- уйнату"
+
+#: src/worldmap/level_tile.cpp:164
+msgid "Title colour"
+msgstr "Исем төсе"
+
+#: src/worldmap/teleporter.hpp:34
+msgid "Teleporter"
+msgstr "Телепорт"
+
+#: src/editor/tip.cpp:80
+msgid ""
+"This object's current functionality is deprecated.\n"
+"Updating to get its latest functionality is recommended."
+msgstr ""
+
+#: src/editor/node_marker.cpp:122
+msgid "Path Node"
+msgstr "Юл Чаты"
+
+#: src/editor/node_marker.cpp:123
+msgid "Press CTRL to move Bezier handles"
+msgstr "Bezier тоткычларын күчерү өчен CTRL басыгыз"
+
+#: src/editor/node_marker.cpp:127
+msgid "Easing"
+msgstr "Eиңеллек"
+
+#: src/editor/object_settings.cpp:129
+msgid "West"
+msgstr "Көнбатыш"
+
+#: src/editor/object_settings.cpp:129
+msgid "East"
+msgstr "Көнчыгыш"
+
+#: src/editor/object_settings.cpp:129
+msgid "North"
+msgstr "Төньяк"
+
+#: src/editor/object_settings.cpp:129
+msgid "South"
+msgstr "Көньяк"
+
+#: src/editor/object_settings.cpp:142
+msgid "One shot"
+msgstr "Бер ату"
+
+#: src/editor/object_settings.cpp:142
+msgid "Ping-pong"
+msgstr "Пинг-Понг"
+
+#: src/editor/object_settings.cpp:142
+msgid "Circular"
+msgstr "Түгәрәк"
+
+#: src/editor/layers_widget.cpp:331
+#, c++-format
+msgid "Sector: {}"
+msgstr ""
+
+#: src/editor/object_option.cpp:92
+msgid "true"
+msgstr "хакыйкать"
+
+#: src/editor/object_option.cpp:92
+msgid "false"
+msgstr "ялган"
+
+#: src/editor/object_option.cpp:308 src/editor/object_option.cpp:356
+msgid "invalid"
+msgstr "яраксыз"
+
+#: src/editor/object_option.cpp:665
+msgid "Scale X"
+msgstr ""
+
+#: src/editor/object_option.cpp:666
+msgid "Scale Y"
+msgstr ""
+
+#: src/editor/object_option.cpp:667
+msgid "Offset X"
+msgstr ""
+
+#: src/editor/object_option.cpp:668
+msgid "Offset Y"
+msgstr ""
+
+#: src/editor/object_option.cpp:672 src/editor/object_menu.cpp:67
+msgid "Remove"
+msgstr "Бетерергә"
+
+#: src/editor/object_option.cpp:689
+msgid "Test from here"
+msgstr "Моннан тест"
+
+#: src/editor/object_option.cpp:706
+msgid "Open Particle Editor"
+msgstr "Ачык кисәкчәләр редакторы"
+
+#: src/editor/particle_editor.cpp:114
+msgid "Change texture...  ->"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:126
+msgid "Max amount"
+msgstr "Максимум"
+
+#: src/editor/particle_editor.cpp:142
+msgid "Spawn anywhere"
+msgstr "Теләсә нинди сайтта каралган"
+
+#: src/editor/particle_editor.cpp:143
+msgid "Life duration"
+msgstr "Гомер озынлыгы"
+
+#: src/editor/particle_editor.cpp:148
+msgid "Birth duration"
+msgstr "Туган вакыт"
+
+#: src/editor/particle_editor.cpp:153
+msgid "Death duration"
+msgstr "Deathлем озынлыгы"
+
+#: src/editor/particle_editor.cpp:160
+msgid "Grow"
+msgstr "Сегез"
+
+#: src/editor/particle_editor.cpp:175
+msgid "Horizontal speed"
+msgstr "Горизонталь тизлек"
+
+#: src/editor/particle_editor.cpp:180
+msgid "Vertical speed"
+msgstr "Вертикаль тизлек"
+
+#: src/editor/particle_editor.cpp:185
+msgid "Horizontal acceleration"
+msgstr "Горизонталь тизләнеш"
+
+#: src/editor/particle_editor.cpp:186
+msgid "Vertical acceleration"
+msgstr "Вертикаль тизләнеш"
+
+#: src/editor/particle_editor.cpp:187
+msgid "Horizontal friction"
+msgstr "Горизонталь сүрелү"
+
+#: src/editor/particle_editor.cpp:188
+msgid "Vertical friction"
+msgstr "Вертикаль сүрелү"
+
+#: src/editor/particle_editor.cpp:190
+msgid "Initial rotation"
+msgstr "Башлангыч әйләнү"
+
+#: src/editor/particle_editor.cpp:201
+msgid "Rotation friction/decceleration"
+msgstr "Әйләнү сүрелү / кимү"
+
+#: src/editor/particle_editor.cpp:211
+msgid "Destroy"
+msgstr "Destимерү"
+
+#: src/editor/particle_editor.cpp:215
+msgid "Stick to surface"
+msgstr "Йөзгә ябыш"
+
+#: src/editor/particle_editor.cpp:216
+msgid "Stick and stay"
+msgstr "Ябыгыз һәм калыгыз"
+
+#: src/editor/particle_editor.cpp:217
+msgid "No collision"
+msgstr "Бәрелеш юк"
+
+#: src/editor/particle_editor.cpp:222
+msgid "Always destroy"
+msgstr "Waysәрвакыт юк итегез"
+
+#: src/editor/particle_editor.cpp:226
+msgid "Offscreen mode"
+msgstr "Экран режимы"
+
+#: src/editor/particle_editor.cpp:229
+msgid "Clear"
+msgstr "Чистарту"
+
+#: src/editor/particle_editor.cpp:245
+msgid "<- General settings"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:255
+msgid "Likeliness"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:266
+msgid "Color (RGBA)"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:311
+msgid "Scale (x, y)"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:332
+msgid "Hitbox scale (x, y)"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:353
+msgid "Hitbox offset relative to scale"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:372
+msgid "Change texture..."
+msgstr ""
+
+#: src/editor/particle_editor.cpp:766
+msgid ""
+"This particle configuration contains unsaved changes,\n"
+"do you want to save?"
+msgstr "Бу кисәкчәләр конфигурациясе сакланмаган үзгәрешләрне үз эченә ала,\nсакларга телисезме?"
+
+#: src/editor/particle_editor.cpp:774
+msgid "Save as"
+msgstr "Саклагыз"
+
+#: src/editor/editor.cpp:577
+msgid ""
+"This level contains deprecated tiles.\n"
+"It is strongly recommended to replace all deprecated tiles\n"
+"to avoid loss of compatibility in future versions."
+msgstr ""
+
+#: src/editor/editor.cpp:579
+msgid "Tip: Turn on \"Show Deprecated Tiles\" from the level editor menu."
+msgstr ""
+
+#: src/editor/editor.cpp:626
+msgid ""
+"Don't forget that your levels and assets\n"
+"aren't saved between sessions!\n"
+"If you want to keep your levels, download them\n"
+"from the \"Manage Assets\" menu."
+msgstr "Сезнең дәрәҗәләрегезне һәм активларыгызны онытмагыз\nсессияләр арасында сакланмый!\nӘгәр дә сез үз дәрәҗәләрегезне сакларга телисез икән, аларны йөкләгез\n\"Активлар белән идарә итү\" менюсыннан."
+
+#: src/editor/editor.cpp:661
+msgid "This level contains unsaved changes, do you want to save?"
+msgstr "Бу дәрәҗәдә сакланмаган үзгәрешләр бар, сакларга телисезме?"
+
+#: src/editor/editor.cpp:662
+msgid "This level may contain unsaved changes, do you want to save?"
+msgstr ""
+
+#: src/editor/editor.cpp:797
+msgid ""
+"Some obsolete add-ons are still active\n"
+"and might cause collisions with default Super Tux structure.\n"
+"You can still enable these add-ons in the menu.\n"
+"Disabling these add-ons will not delete your game progress."
+msgstr "Кайбер искергән кушымталар әле дә\nэшлиләр һәм хәзерге уен төзелешенә зарар китерә алалар.\nСез әле дә аларны менюдан кабыза аласыз.\nБу кушымталарны сүндерү уен барышына тәэсир итми."
+
+#: src/editor/editor.cpp:800
+msgid "Disable add-ons"
+msgstr "Кушымталарны сүндерергә"
+
+#: src/editor/editor.cpp:805
+msgid "Ignore (not advised)"
+msgstr "Игътибар итмәскә (тәкъдим ителми)"
+
+#: src/editor/editor.cpp:809
+msgid "Leave editor"
+msgstr "Мөхәррирдән Чыгарга"
+
+#: src/editor/editor.cpp:1023
+msgid ""
+"Couldn't find a \"main\" sector.\n"
+"Please change the name of the sector where\n"
+"you'd like the player to start to \"main\""
+msgstr "\"Төп\" секторны таба алмадым.\nЗинһар, кая тармакның исемен үзгәртегез\nсез плейерның \"төп\" башлый башлавын теләр идегез"
+
+#: src/editor/editor.cpp:1027
+msgid ""
+"Couldn't find a \"main\" spawnpoint.\n"
+" Please change the name of the spawnpoint where\n"
+"you'd like the player to start to \"main\""
+msgstr "\"Төп\" карак ноктасын таба алмадым.\nЗинһар, каурыйның исемен кая үзгәртегез\nсез плейерның \"төп\" башлый башлавын теләр идегез"
+
+#: src/editor/object_menu.cpp:60
+msgid "Patch Notes"
+msgstr ""
+
+#: src/editor/object_menu.cpp:84
+msgid ""
+"This will update the object to its latest functionality.\n"
+"Check the \"Patch Notes\" for more information.\n"
+"\n"
+"Keep in mind this is very likely to break the proper behaviour of the object.\n"
+"Make sure to re-check any behaviour, related to the object."
+msgstr ""
+
+#: src/editor/object_menu.cpp:98
+#, c++-format
+msgid "Patch notes for v{}:"
+msgstr ""
+
+#: src/editor/overlay_widget.cpp:1062
+msgid "Cannot select deprecated tiles"
+msgstr ""
+
+#: src/editor/overlay_widget.cpp:1567
+msgid "Autotile mode is on"
+msgstr "Автомобиль режимы эшли"
+
+#: src/editor/overlay_widget.cpp:1571
+msgid "Hold Ctrl to enable autotile"
+msgstr "Автотилны эшләтеп җибәрү өчен Ctrl тотып торыгыз"
+
+#: src/editor/overlay_widget.cpp:1578
+msgid "Autotile erasing mode is on"
+msgstr "Автомобильне бетерү режимы эшли"
+
+#: src/editor/overlay_widget.cpp:1582
+msgid "Selected tile isn't autotileable"
+msgstr "Сайланган плитка автомобильле түгел"
+
+#: src/editor/overlay_widget.cpp:1587
+msgid "Hold Ctrl to enable autotile erasing"
+msgstr "Автотилны бетерү өчен Ctrl тотып торыгыз"
+
+#: data//credits.stxt:25
+msgid "Current SuperTux Team"
+msgstr "Хәзерге SuperTux командасы"
+
+#: data//credits.stxt:30
+msgid "Maintainer, Programming"
+msgstr ""
+
+#: data//credits.stxt:35
+msgid "Graphics, Level Design, Story"
+msgstr "Графика, дәрәҗә дизайны, хикәя"
+
+#: data//credits.stxt:40
+msgid "Level Design, Story, Optimisation, Coordination"
+msgstr "Дизайн, хикәя, оптимизация, координация"
+
+#: data//credits.stxt:45 data//credits.stxt:120 data//credits.stxt:206
+#: data//credits.stxt:538
+msgid "Graphics"
+msgstr "Сурәт"
+
+#: data//credits.stxt:50 data//credits.stxt:102 data//credits.stxt:108
+msgid "Graphics, Programming, Level Design"
+msgstr "Сурәт, Программалау, Дәрәҗәләр Дизайны"
+
+#: data//credits.stxt:55
+msgid "Features and Programming"
+msgstr "Featuresзенчәлекләр һәм программалаштыру"
+
+#: data//credits.stxt:60
+msgid "Minor features and programming"
+msgstr "Кечкенә үзенчәлекләр һәм программалаштыру"
+
+#: data//credits.stxt:65
+msgid "Programming, Level Updates"
+msgstr "Программалаштыру, дәрәҗә яңартулары"
+
+#: data//credits.stxt:70
+msgid "Graphics, Programming"
+msgstr "Графика, программалаштыру"
+
+#: data//credits.stxt:75 data//credits.stxt:85 data//credits.stxt:150
+#: data//credits.stxt:155 data//credits.stxt:160 data//credits.stxt:165
+#: data//credits.stxt:180 data//credits.stxt:185 data//credits.stxt:534
+#: data//credits.stxt:546
+msgid "Programming"
+msgstr "Программалау"
+
+#: data//credits.stxt:80 data//credits.stxt:266
+msgid "Level Design"
+msgstr "Дәрәҗәләр Дизайны"
+
+#: data//credits.stxt:91
+msgid "Original Developers"
+msgstr "Оригиналь төзүчеләр"
+
+#: data//credits.stxt:96
+msgid "Original Developer"
+msgstr "Оригиналь ясаучы"
+
+#: data//credits.stxt:114
+msgid "Music, Level Design"
+msgstr "Көйләр, Дәрәҗәләр Дизайны"
+
+#: data//credits.stxt:126
+msgid "Programming, Graphics, Level Design"
+msgstr "Программалау, Сурәт, Дәрәҗәләр Дизайны"
+
+#: data//credits.stxt:132
+msgid "Programming, Level Design"
+msgstr "Программалау, Дәрәҗәләр Дизайны"
+
+#: data//credits.stxt:138
+msgid "Graphics, Story"
+msgstr "Сурәт, Тарих"
+
+#: data//credits.stxt:144
+msgid "Programming, Documentation"
+msgstr "Программалау, Документлар эше"
+
+#: data//credits.stxt:170
+msgid "Coordination"
+msgstr "Координация"
+
+#: data//credits.stxt:175
+msgid "Programming, \"Flexlay\" Level editor"
+msgstr "Программалау, \"Зирәк\" Дәрәҗәләр Мөхәррире"
+
+#: data//credits.stxt:190
+msgid "Windows build fixes"
+msgstr "Windows-та хаталар төзәтү"
+
+#: data//credits.stxt:195
+msgid "Packaging, Nightly builds"
+msgstr "Җыю, Төнге җыелмалар"
+
+#: data//credits.stxt:200
+msgid "Translation Guru (and many details anyone else could have done)"
+msgstr "Тәрҗемәләр җитәкчесе (күп эшне башкалар да эшләгән)"
+
+#: data//credits.stxt:450
+msgid "Additional contributors"
+msgstr "Өстәмә ярдәмчеләр"
+
+#: data//credits.stxt:455
+msgid "Bug fixes"
+msgstr "Хаталар табу"
+
+#: data//credits.stxt:459
+msgid "Scripting functions, Level fixes"
+msgstr "Скрипт функцияләре, Дәрәҗәләрне тикшерү"
+
+#: data//credits.stxt:463
+msgid "Code quality fixes"
+msgstr "Код сыйфатын яхшырту"
+
+#: data//credits.stxt:467 data//credits.stxt:471 data//credits.stxt:475
+#: data//credits.stxt:502
+msgid "Various contributions"
+msgstr "Төрле ярдәмнәр"
+
+#: data//credits.stxt:479
+msgid "Build issue fix"
+msgstr "Җыелмада хаталар табу"
+
+#: data//credits.stxt:483 data//credits.stxt:487
+msgid "Code contributions"
+msgstr "Программалауда ярдәм"
+
+#: data//credits.stxt:490
+msgid "Code contribution, AppData file"
+msgstr "Программалау, AppData файлы"
+
+#: data//credits.stxt:494
+msgid "Bug fix"
+msgstr "Хаталар табу"
+
+#: data//credits.stxt:498
+msgid "Menu reorganization"
+msgstr "Менюны яңарту"
+
+#: data//credits.stxt:506
+msgid "Fixing tile bugs"
+msgstr "Хаталар табу"
+
+#: data//credits.stxt:510
+msgid "Build error fix"
+msgstr "Хаталар табу һәм төзәтү"
+
+#: data//credits.stxt:514
+msgid "Scripting function fix"
+msgstr "Скриптларда хаталарны төзәтү"
+
+#: data//credits.stxt:518
+msgid "New features and notable updates"
+msgstr "Яңа функцияләр һәм күренекле яңартулар"
+
+#: data//credits.stxt:522
+msgid "Support for \"glbinding\" as optional OpenGL binding"
+msgstr "OpenGL бәйләнешенә өстәмә буларак \"glbinding\" куллану"
+
+#: data//credits.stxt:526
+msgid "New menu code"
+msgstr "Яңа меню коды"
+
+#: data//credits.stxt:530
+msgid "Big Tux Walking Sprites improvements"
+msgstr "Зур Текс йөреше Спритлар яхшыруы"
+
+#: data//credits.stxt:542 data//credits.stxt:550
+msgid "Contrib Programming"
+msgstr "Программалауда ярдәм"
+
+#: data//credits.stxt:554
+msgid "Programming, Previous Maintainer"
+msgstr "Программалау, Элекке Җитәкче"
+
+#: data//credits.stxt:558
+msgid "Various Contributions"
+msgstr "Төрле кертемнәр"
+
+#: data//credits.stxt:562 data//credits.stxt:566 data//credits.stxt:570
+#: data//credits.stxt:574 data//credits.stxt:578 data//credits.stxt:582
+#: data//credits.stxt:586 data//credits.stxt:590 data//credits.stxt:594
+#: data//credits.stxt:598 data//credits.stxt:602 data//credits.stxt:606
+#: data//credits.stxt:610 data//credits.stxt:614 data//credits.stxt:618
+#: data//credits.stxt:622 data//credits.stxt:626 data//credits.stxt:630
+#: data//credits.stxt:634 data//credits.stxt:638 data//credits.stxt:642
+#: data//credits.stxt:646 data//credits.stxt:650 data//credits.stxt:654
+#: data//credits.stxt:658 data//credits.stxt:662
+msgid "Contributions"
+msgstr "Иганәләр"
+
+#: data//credits.stxt:668
+msgid "Localization"
+msgstr "Тәрҗемәләр"
+
+#: data//credits.stxt:1231
+msgid " Special Thanks to"
+msgstr "Рәхмәт"
+
+#: data//credits.stxt:1236
+msgid "Creator of Tux, the Linux penguin"
+msgstr "Tux ясаучы, Linux пингвины"
+
+#: data//credits.stxt:1240
+msgid "SDL, OpenAL and OpenGL"
+msgstr "SDL, OpenAL һәм OpenGL"
+
+#: data//credits.stxt:1241
+msgid ""
+"For making such a great gaming experience\n"
+"        possible on Linux"
+msgstr "Линукста зур уен тәҗрибәсе өчен."
+
+#: data//credits.stxt:1246
+msgid "and you, the player"
+msgstr "һәм сез, плеер"
+
+#: data//credits.stxt:1247
+msgid "for giving this game a chance and playing it"
+msgstr "бу уенга мөмкинлек биргән өчен һәм аны уйнаган өчен"
+
+#: data//credits.stxt:1258
+msgid "Visit our webpage at"
+msgstr "Безнең веб-сайтыбызга керегез"
+
+#: data//credits.stxt:1267
+msgid "Or visit us directly at IRC:"
+msgstr "Яки турыдан-туры IRC аркылы:"
+
+#: data//credits.stxt:1271
+msgid "#supertux at web.libera.chat"
+msgstr "web.libera.chat сайтында #supertux"
+
+#: data//credits.stxt:1276
+msgid "Or at our Forum:"
+msgstr "Яки безнең Форумыбызда:"
+
+#: data//credits.stxt:1285
+msgid "Comments, ideas and suggestions"
+msgstr "Аңлатмалар, фикерләр һәм тәкъдимнәр"
+
+#: data//credits.stxt:1289
+msgid "go to our mailing list"
+msgstr "безнең хат җибәрү исемлегенә күчәргә"
+
+#. l10n: typo contact
+#: data//credits.stxt:1299
+msgid "Typographical errors can be"
+msgstr "Типографик хаталар булырга мөмкин"
+
+#. l10n: typo contact
+#: data//credits.stxt:1304
+msgid "reported to"
+msgstr "хәбәр иттеләр"
+
+#. l10n: typo contact, see <https://github.com/SuperTux/supertux/issues/611>
+#: data//credits.stxt:1309
+msgid "supertux-devel@lists.lethargik.org"
+msgstr "supertux-devel@lists.lethargik.org"
+
+#: data//credits.stxt:1316
+msgid "Want to help…"
+msgstr "Булышасыгыз килсә..."
+
+#: data//credits.stxt:1321
+msgid "…with localization?"
+msgstr "...тәрҗемә белән?"
+
+#: data//credits.stxt:1331
+msgid "…with something else?"
+msgstr "...башка нәрсә белән?"
+
+#: data//credits.stxt:1342
+msgid "Thank you for"
+msgstr "Уйнавыгыз өчен"
+
+#: data//credits.stxt:1346
+msgid "playing"
+msgstr "Рәхмәт"
+
+#: data//credits.stxt:1356
+msgid "Penny awaits you in warmer temperatures!"
+msgstr "Пенни сине җылы температурада көтә!"
+
+#: data//images/engine/editor/objects.stoi:4
+msgid "Enemies"
+msgstr "Дошманнар"
+
+#: data//images/engine/editor/objects.stoi:162
+msgid "Bosses"
+msgstr "Хуҗалар"
+
+#: data//images/engine/editor/objects.stoi:173
+msgid "Projectiles"
+msgstr "Ядрәләр"
+
+#: data//images/engine/editor/objects.stoi:184
+msgid "Environment"
+msgstr "Әйләнә"
+
+#: data//images/ice_world.strf:80
+msgid "Ice Cave & Crystal"
+msgstr "Бозлы Мәгарә һәм Кристалл"
+
+#: data//images/ice_world.strf:127
+msgid "Embellishments"
+msgstr "Бизәүләр"
+
+#: data//images/ice_world.strf:320
+msgid "Underground Forest"
+msgstr "Ergир асты урманы"
+
+#: data//images/ice_world.strf:375
+msgid "Trees & Bushes"
+msgstr "Агачлар һәм куаклар"
+
+#: data//images/ice_world.strf:406
+msgid "Seasonal"
+msgstr "Сезонлы"
+
+#: data//images/ice_world.strf:496
+msgid "Structure"
+msgstr "Структурасы"
+
+#: data//images/ice_world.strf:557
+msgid "Pathing"
+msgstr "Юл салу"
+
+#: data//images/ice_world.strf:718
+msgid "Water"
+msgstr "Су"
+
+#: data//images/tiles.strf:252
+msgid "Snow Background"
+msgstr "Кар фоны"
+
+#: data//images/tiles.strf:300
+msgid "Crystal"
+msgstr "Бәллүр"
+
+#: data//images/tiles.strf:539
+msgid "Forest Background"
+msgstr "Урман фоны"
+
+#: data//images/tiles.strf:690
+msgid "Corrupted Forest"
+msgstr ""
+
+#: data//images/tiles.strf:868
+msgid "Corrupted Background"
+msgstr ""
+
+#: data//images/tiles.strf:991
+msgid "Block + Bonus"
+msgstr "Блок + Бонус"
+
+#: data//images/tiles.strf:1069
+msgid "Pole + Signs"
+msgstr "Пост + Билгеләр"
+
+#: data//images/tiles.strf:1113
+msgid "Liquid"
+msgstr "Сыек"
+
+#: data//images/tiles.strf:1131
+msgid "Castle"
+msgstr "Кальга"
+
+#: data//images/tiles.strf:1231 data//images/worldmap.strf:199
+msgid "Halloween"
+msgstr "Хэллоуин"
+
+#: data//images/tiles.strf:1272
+msgid "Industrial"
+msgstr "Сәнәгый"
+
+#: data//images/tiles.strf:1287
+msgid "Unisolid + Lightmap"
+msgstr "Uniникаты + Яктылыккарта"
+
+#: data//images/tiles.strf:1314
+msgid "Miscellaneous"
+msgstr "Төрле"
+
+#: data//images/tiles.strf:1342
+msgid "Retro Tiles"
+msgstr ""
+
+#: data//images/worldmap.strf:24
+msgid "Water paths"
+msgstr "Су юллары"
+
+#: data//images/worldmap.strf:32
+msgid "Castle paths"
+msgstr "Кальга юллары"
+
+#: data//images/worldmap.strf:135
+msgid "Darker Forest"
+msgstr "Кара Урман"
+
+#: data//images/converters/data.stcd:3
+msgid "Nightly Tiles"
+msgstr ""
+
+#: data//images/converters/data.stcd:5
+msgid "For levels, created in previous Nightly builds."
+msgstr ""
+
+#: data//images/converters/data.stcd:8
+msgid "Pre-0.6.3 Crystal Tiles"
+msgstr ""
+
+#: data//images/converters/data.stcd:10
+msgid "For levels, created in pre-0.6.3 versions, which use crystal tiles."
+msgstr ""

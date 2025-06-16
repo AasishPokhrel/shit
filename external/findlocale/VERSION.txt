@@ -1,0 +1,14 @@
+v0.46 -- 2005-04-06
+
+        * example.c crash-avoidance for C runtimes who hate printfing
+        NULL strings.
+
+v0.45 -- 2004-10-19
+
+	* considerably more comprehensive LCID/LANGID to
+        (language,country,variant) mapping on win32.
+
+v0.4  -- 2004-10-01
+
+	* initial release
+

@@ -1,0 +1,33 @@
+(supertux-text			
+  (background	"halloween/outro.jpg")
+  (music	"music/antarctic/chipdisko.ogg")
+  (text "-Halloween Party!
+
+	After a laborious journey through the
+	Halloween island Tux can finally spot the
+	house in the distance. The lights are on
+	and he can hear some music. This time it
+	seems to be the correct house.
+
+	Penny is already awaiting him at the door
+	and wondering what took him so long. The
+	embarrassment about his earlier mistake
+	fades quickly and he jumps for joy.
+
+	Time to party!
+
+
+
+
+
+
+
+
+
+
+
+
+-The End
+ For now...
+")
+ )

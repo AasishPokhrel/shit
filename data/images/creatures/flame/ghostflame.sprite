@@ -1,0 +1,11 @@
+(supertux-sprite
+ (action
+  (hitbox 0.2 0.2 31.6 31.6)
+  (name "default")
+  (images "ghostflame-0.png"
+          "ghostflame-1.png"
+          "ghostflame-2.png"
+          "ghostflame-3.png"
+          "ghostflame-4.png"))
+)
+

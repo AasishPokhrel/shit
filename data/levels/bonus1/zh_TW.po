@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# 黃柏諺 <s8321414@gmail.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2024-11-11 21:50+0000\n"
+"PO-Revision-Date: 2013-08-10 23:04+0000\n"
+"Last-Translator: 黃柏諺 <s8321414@gmail.com>, 2019\n"
+"Language-Team: Chinese (Taiwan) (http://app.transifex.com/arctic-games/supertux/language/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/levels/bonus1/abednego-level1.stl:3
+msgid "Flight Test"
+msgstr "飛行測試"
+
+#: data/levels/bonus1/abednego-level2.stl:3
+msgid "Dungeons but no Dragons"
+msgstr "沒有龍的地下城"
+
+#: data/levels/bonus1/abednego-level3.stl:3
+msgid "Lies!"
+msgstr "騙人！"
+
+#: data/levels/bonus1/abednego-level4.stl:3
+msgid "Train Leaves in One Minute"
+msgstr "火車將在一分鐘內離開"
+
+#: data/levels/bonus1/bonus-level1.stl:3
+msgid "Bonus Dias!"
+msgstr "紅利區！"
+
+#: data/levels/bonus1/bonus-level2.stl:3
+msgid "Castle Gate"
+msgstr "城堡大門"
+
+#: data/levels/bonus1/bonus-level3.stl:3
+msgid "A Long Way Home"
+msgstr "回家的漫漫長路"
+
+#: data/levels/bonus1/bonus-level4.stl:3
+msgid "Bonus Island Castle"
+msgstr "紅利島上的城堡"
+
+#: data/levels/bonus1/bonus-level5.stl:3
+msgid "Area 42"
+msgstr "42 區"
+
+#: data/levels/bonus1/extro.txt:3
+msgid ""
+"-Congratulations!\n"
+"\n"
+"#You have successfully finished\n"
+"#Bonus Island I\n"
+"\n"
+"\tfeaturing levels contributed by\n"
+"\tJason W. Thompson\n"
+"\tTorfi Gunnarsson\n"
+"\tAbednego\n"
+"\tMatr1x\n"
+"\n"
+"\n"
+"#If you didn't clear all levels yet,\n"
+"#find your way back home and take\n"
+"#another path. There is still more\n"
+"#challenge waiting for you!\n"
+"\n"
+"#And there is a secret level to be\n"
+"#found as well...\n"
+"\n"
+"#A big \"Thank you\" goes out to\n"
+"#everyone who contributed to this\n"
+"#release. We hope you enjoyed it!"
+msgstr "-恭喜！\n\n#您已經成功結束了\n#紅利島 I\n\n\t特色關卡是由這些人所貢獻：\n\tJason W. Thompson\n\tTorfi Gunnarsson\n\tAbednego\n\tMatr1x\n\n\n#如果您尚未通過所有關卡，\n#尋找您回家的路並\n#走另一條路徑。還有更多\n#挑戰在等您！\n\n#還有祕密關卡在等您\n#發現……\n\n#我們要給所有貢獻此版本\n#的人大大的感謝。\n#我們希望您享受此版本！"
+
+#: data/levels/bonus1/matr1x-level1.stl:3
+msgid "Pipe Down Over There"
+msgstr "用管道往下輸送到那裏"
+
+#: data/levels/bonus1/matr1x-level2.stl:3
+msgid "Something Fishy"
+msgstr "有東西不太對勁"
+
+#: data/levels/bonus1/matr1x-level3.stl:3
+msgid "Fire In The Sky"
+msgstr "天空之火"
+
+#: data/levels/bonus1/thompson-level1.stl:3
+msgid "Have I been here before?"
+msgstr "我以前來過這兒嗎？"
+
+#: data/levels/bonus1/thompson-level2.stl:3
+msgid "Bad Guys Stink!"
+msgstr "壞傢伙！"
+
+#: data/levels/bonus1/thompson-level2.stl:96
+msgid ""
+"#These levels were made Swimming-Ready by Serano and revamped by "
+"AllyTheOcelot"
+msgstr ""
+
+#: data/levels/bonus1/torfi-level1.stl:3
+msgid "A good start"
+msgstr "好的開始"
+
+#: data/levels/bonus1/torfi-level2.stl:3
+msgid "Too easy"
+msgstr "太簡單了"
+
+#: data/levels/bonus1/torfi-level2.stl:56
+msgid "#All these levels were upgraded for milestone 2 by Hume."
+msgstr ""
+
+#: data/levels/bonus1/torfi-level3.stl:3
+msgid "Still too easy"
+msgstr "還是太簡單了"
+
+#: data/levels/bonus1/wansti-level1.stl:3
+msgid "Semi-Frozen"
+msgstr "半冷涷的"
+
+#: data/levels/bonus1/wansti-level2.stl:3
+msgid "Cave Of Mirrors"
+msgstr "菱鏡之穴"
+
+#: data/levels/bonus1/wansti-level3.stl:3
+msgid "A Maze In The Sky"
+msgstr "天空迷宮"
+
+#: data/levels/bonus1/wansti-level4.stl:3
+msgid "Collapse Imminent!"
+msgstr "崩毀瞬間!!!"
+
+#: data/levels/bonus1/wansti-level5.stl:3
+msgid "Tip Of The Iceberg"
+msgstr "冰堡提示"
+
+#: data/levels/bonus1/worldmap.stwm:3
+msgid "Bonus Island I"
+msgstr "紅利島 I"
+
+#: data/levels/bonus1/worldmap.stwm:127
+msgid "You found a secret place!"
+msgstr "您發現了一處秘密的地方！ "
+
+#: data/levels/bonus1/worldmap.stwm:135
+msgid "Hint: Use igloos to get back here."
+msgstr "提示:利用圓頂小屋回來這裡"
+
+#: data/levels/bonus1/worldmap.stwm:144
+msgid "Warp to Matr1x' Sector"
+msgstr "進入馬特洛克斯防區"
+
+#: data/levels/bonus1/worldmap.stwm:151 data/levels/bonus1/worldmap.stwm:228
+msgid "Warp to Thompson's Domain"
+msgstr "進入湯普生領土"
+
+#: data/levels/bonus1/worldmap.stwm:158 data/levels/bonus1/worldmap.stwm:221
+msgid "Leave the SuperTux Team Island"
+msgstr "離開超級企鵝總部島"
+
+#: data/levels/bonus1/worldmap.stwm:165
+msgid "Warp to Abednego's Area"
+msgstr "傳送到阿本里哥區域"
+
+#: data/levels/bonus1/worldmap.stwm:172 data/levels/bonus1/worldmap.stwm:262
+msgid "Leave Torfi's Territory"
+msgstr "離開托法的領地"
+
+#: data/levels/bonus1/worldmap.stwm:179 data/levels/bonus1/worldmap.stwm:207
+msgid "Leave Abednego's Area"
+msgstr "離開阿本里哥區域"
+
+#: data/levels/bonus1/worldmap.stwm:186 data/levels/bonus1/worldmap.stwm:234
+msgid "Leave Thompson's Domain"
+msgstr "離開湯普生領土"
+
+#: data/levels/bonus1/worldmap.stwm:193
+msgid "Back to Matr1x' Sector"
+msgstr "回到馬特洛克斯防區"
+
+#: data/levels/bonus1/worldmap.stwm:200
+msgid "Warp home"
+msgstr "回家"
+
+#: data/levels/bonus1/worldmap.stwm:214
+msgid "Warp to the SuperTux Team Island"
+msgstr "進入超級企鵝總部島"
+
+#: data/levels/bonus1/worldmap.stwm:241
+msgid "Leave Matr1x' Sector"
+msgstr "離開馬特洛克斯防區"
+
+#: data/levels/bonus1/worldmap.stwm:248
+msgid "Continue Matr1x' Sector"
+msgstr "繼續往馬特洛克斯防區"
+
+#: data/levels/bonus1/worldmap.stwm:255
+msgid "Warp to Torfi's Territory"
+msgstr "進入托法的領土"

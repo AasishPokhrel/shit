@@ -1,0 +1,41 @@
+(supertux-sprite
+  (action
+    (name "swim-left")
+    (hitbox 8 15 48 35)
+    (fps 12)
+    (images "swim_blue-0.png"
+            "swim_blue-1.png"
+            "swim_blue-2.png"
+            "swim_blue-3.png"
+            "swim_blue-4.png"
+            "swim_blue-5.png"
+            "swim_blue-6.png"
+            "swim_blue-7.png"))
+
+  (action
+    (name "swim-right")
+    (hitbox 8 15 48 35)
+    (fps 12)
+    (mirror-action "swim-left"))
+
+  (action
+    (name "iced-left")
+    (hitbox 8 15 48 35)
+    (images "swim_blue-0.png"))
+
+  (action
+    (name "iced-right")
+    (hitbox 8 15 48 35)
+    (mirror-action "iced-left"))
+
+  (action
+    (hitbox 8 15 48 35)
+    (name "burning-left")
+    (images "swim_blue-0.png"))
+
+  (action
+    (hitbox 8 15 48 35)
+    (name "burning-right")
+    (mirror-action "burning-left"))
+
+)

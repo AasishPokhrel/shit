@@ -1,0 +1,5 @@
+(supertux-music
+  (file "forest3.ogg")
+  (loop-begin 0)
+  (loop-at    99)
+)

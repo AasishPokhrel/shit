@@ -1,0 +1,13 @@
+(supertux-surface
+ (diffuse-texture
+  (file "heatshimmer.png")
+  (wrap "repeat")
+  )
+
+ (displacement-texture
+  (file "heatshimmer-displacement.png")
+  (wrap "repeat")
+  (filter "linear")
+  (animate 0 24)
+  )
+ )

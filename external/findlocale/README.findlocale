@@ -1,0 +1,19 @@
+FindLocale -- a cross-platform C module for detecting the user's language
+Adam D. Moss / adam at steambird.com / adam at gimp.org
+
+This is an early release of a straightforward API which can be used to
+detect the user's current preferred (language,country,variant) setting
+in a uniform manner across multiple platforms.  It is not intended
+to provide localization functions, but rather it is a basis on which to
+make localization decisions.
+
+Currently, win32 (win95+) and unix-alikes are supported.
+
+Please see example.c and findlocale.h for illumination of this API.
+
+Ports and patches are always welcome.
+
+License: Completely free; see the LICENSE file.
+
+--adam
+

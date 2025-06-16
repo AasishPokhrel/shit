@@ -1,0 +1,14 @@
+(supertux-sprite
+  (action
+    (name "default")
+	(hitbox 0 0 128 40)
+	(fps 16)
+    (images 
+      "flying_platform-0.png"
+      "flying_platform-1.png"
+      "flying_platform-2.png"
+      "flying_platform-3.png"
+    )
+  )
+)
+

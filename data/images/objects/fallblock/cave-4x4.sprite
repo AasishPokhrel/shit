@@ -1,0 +1,7 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 0 32 128 128)
+    (images "cave-4x4.png")
+  )
+)

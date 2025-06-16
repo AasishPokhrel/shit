@@ -1,0 +1,102 @@
+#  SuperTux
+#  Copyright (C) 2020-2021 Jacob Burroughs <maths22@gmail.com>
+#                2020-2022 A. Semphris <semphris@protonmail.com>
+#
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+name: WebAssembly
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    tags:
+      - '*'
+  pull_request: {}
+
+jobs:
+  wasm:
+    strategy:
+      fail-fast: false
+      matrix:
+        build_type: ["Release", "Debug"]
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Fetch the whole tree so git describe works
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Install emscripten tools
+        run: |
+          cd ~
+          sudo apt-get update
+          sudo apt-get install -y git cmake build-essential curl zip
+          git clone https://github.com/emscripten-core/emsdk.git
+          cd emsdk
+          ./emsdk install latest
+          ./emsdk activate latest
+
+      - name: Configure build
+        env:
+          BUILD_TYPE: ${{ matrix.build_type }}
+        run: |
+          source ~/emsdk/emsdk_env.sh
+          mkdir build
+          cd build
+          # TODO: Re-add -DWERROR=ON when warnings will be fixed
+          emcmake cmake -DCMAKE_BUILD_TYPE=${BUILD_TYPE} -DWARNINGS=ON -DCMAKE_POLICY_VERSION_MINIMUM=3.5 ..
+
+      - name: Sync data folder
+        working-directory: build
+        run: |
+          rsync -aP ../data/ data/
+
+      - name: Build
+        working-directory: build
+        run: |
+          source ~/emsdk/emsdk_env.sh
+          emmake make -j$(nproc)
+
+        # Now you can run a local server with: `emrun supertux2.html`
+        # Or any traditional web server will do the job
+        # Note: opening the html file manually (file:///) won't work
+
+      - name: Setup files for upload
+        working-directory: build
+        env:
+          BUILD_TYPE: ${{ matrix.build_type }}
+        run: |
+          cp template.html supertux2.html
+          mkdir upload/
+          mv supertux2* upload/
+
+      - uses: actions/upload-artifact@v4
+        if: matrix.build_type != 'Debug'
+        with:
+          name: "wasm32-emscripten-${{ matrix.build_type }}-html"
+          path: build/upload/*
+          if-no-files-found: ignore
+
+      - name: Upload to server
+        if: ${{ github.ref == 'refs/heads/master' && matrix.build_type == 'Release' }}
+        env:
+          UPLOAD_URL: ${{ secrets.UPLOAD_URL }}
+        run: |
+          cd build/upload/
+          mv supertux2.html index.html
+          zip supertux2.zip *
+          curl -F "archive=@$(pwd)/supertux2.zip" -F "message=$(git log --format=%B -n 1 | head -1)" $UPLOAD_URL

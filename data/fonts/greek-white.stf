@@ -1,0 +1,17 @@
+(supertux-font
+  (glyph-width 16)
+  (glyph-height 18)
+  (glyph-border 1)
+  (rtl #f)
+  (surface
+    (glyphs "greek/white.png")
+    (shadows "greek/shadow.png")
+    (chars
+       "ΑΒΓΔΕΖΗΙΚΛΜΝΞΟΠΡ"
+      "ΣΤΥΦΧΨΩΉΈΆ"
+      "αβγδεζηικλμνξοπρ"
+      "ςστυφχψω"
+      "Θθ"
+      "άέίύώήό"
+  ) )
+)

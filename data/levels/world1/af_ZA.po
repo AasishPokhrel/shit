@@ -1,0 +1,335 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Martin van Zijl <martin.vanzijl@gmail.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2013-08-10 22:58+0000\n"
+"Last-Translator: Martin van Zijl <martin.vanzijl@gmail.com>, 2019\n"
+"Language-Team: Afrikaans (South Africa) (http://app.transifex.com/arctic-games/supertux/language/af_ZA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: af_ZA\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/levels/world1/23rd_airborne.stl:3
+msgid "23rd Airborne"
+msgstr ""
+
+#: data/levels/world1/23rd_airborne.stl:598
+#: data/levels/world1/between_glaciers.stl:855
+#: data/levels/world1/between_glaciers.stl:863
+#: data/levels/world1/crystal_mine.stl:1535
+#: data/levels/world1/crystal_mine.stl:1543
+#: data/levels/world1/frosted_fields.stl:188
+#: data/levels/world1/path_in_the_clouds.stl:348
+#: data/levels/world1/path_in_the_clouds.stl:1126
+#: data/levels/world1/shattered_bridge.stl:628
+#: data/levels/world1/stone_cold.stl:397 data/levels/world1/worldmap.stwm:229
+msgid "You found a secret area!"
+msgstr "Jy het 'n geheime plek ontdek!"
+
+#: data/levels/world1/above_arctic_skies.stl:3
+msgid "Above the Arctic Skies"
+msgstr "Bo die Arktiese Lug"
+
+#: data/levels/world1/above_arctic_skies.stl:162
+msgid ""
+"-Air Flower\n"
+"!images/powerups/airflower/air_flower-0.png\n"
+"#The Air Flower gives Tux the ability to glide in the air for a few seconds, while holding the JUMP Key."
+msgstr "-Lugblom\n!images/powerups/airflower/air_flower-0.png\n#Die Lugblum laat Tux toe om 'n paar sekondes in die lug te gly terwyl jy die JUMP-sleutel druk."
+
+#: data/levels/world1/between_glaciers.stl:3
+msgid "Between Two Glaciers"
+msgstr "Tussen Twee Gletsers"
+
+#: data/levels/world1/between_glaciers.stl:108
+msgid ""
+"-Crystals\n"
+"#This level contains four coloured crystals. Can you find them?\n"
+"#\n"
+"#Note: These crystals do not serve any purpose at the moment but they might will in a future release of the game."
+msgstr "-Kristalle\n#Hierdie level het vier gekleurde kristalle. Kan jy hulle vind?\n#\n#Opmerking: Hierdie kristalle doen op die oomblik niks nie, maar mag dalk in 'n toekomstige weergawe van die spel."
+
+#: data/levels/world1/castle_of_nolok.stl:3
+msgid "The Castle of Nolok"
+msgstr "Nolok se Kasteel"
+
+#: data/levels/world1/crystal_mine.stl:3
+msgid "The Crystal Mine"
+msgstr "Die Kristalmyn"
+
+#: data/levels/world1/crystal_mine.stl:686
+msgid "#You have to activate two switches to open this door."
+msgstr "#Jy moet twee skakelaars aktiveer om hierdie deur oop te maak."
+
+#: data/levels/world1/end_of_tunnel.stl:3
+msgid "End of the Tunnel"
+msgstr "Einde van die Tonnel"
+
+#: data/levels/world1/entrance_cave.stl:3
+msgid "Entrance to the Cave"
+msgstr "Ingang tot die Grot"
+
+#: data/levels/world1/fork_in_the_road.stl:3
+msgid "A Fork in the Road"
+msgstr "'n Vurk in die Pad"
+
+#: data/levels/world1/fork_in_the_road.stl:84
+msgid ""
+"-Switches\n"
+"!images/objects/switch/switch-0.png\n"
+"!images/objects/pushbutton/pushbutton-0.png\n"
+"#Switches can be used to do all manner of things. Press the UP key to use a switch.\n"
+"#There are also buttons that you can press by jumping on them."
+msgstr "-Skakelaars\n!images/objects/switch/switch-0.png\n!images/objects/pushbutton/pushbutton-0.png\n#Skakelaars kan gebruik word om allerhande dinge te doen. Tik die UP-sleutel om 'n skakelaar te gebruik.\n#Daar is ook knoppies wat jy kan druk deur op hulle te spring."
+
+#: data/levels/world1/fork_in_the_road.stl:93
+msgid ""
+"-Trampolines\n"
+"!images/objects/trampoline/trampoline2-0.png\n"
+"#Trampolines allow Tux to jump to new heights. Hold down the JUMP key while bouncing on the trampoline to launch extra high."
+msgstr "-Trampoliene\n!images/objects/trampoline/trampoline2-0.png\n#Trampoliene laat Tux na nuwe hoogtes spring. Hou die JUMP-sleutel in terwyl jy op die trampolien spring om hoër te gaan."
+
+#: data/levels/world1/fork_in_the_road.stl:100
+msgid ""
+"-Climbing\n"
+"#Tux can climb! Press the UP key to start climbing. Press the ACTION key or jump to let go."
+msgstr "-Klim\n#Tux kan klim! Druk op die UP-sleutel om te begin klim. Druk op die ACTION-sleutel of spring om te laat gaan."
+
+#: data/levels/world1/fork_in_the_road.stl:106
+msgid ""
+"-Secret Exits\n"
+"#Some level can have multiple exits. They are mostly hidden, so keep an eye out for them.\n"
+"#Maybe they lead you to something special."
+msgstr "-Geheime Uitgange\n#Sommige levels kan meer as een uitgang hê. Hulle is meestal weggesteek, so kyk uit vir hulle.\n#Miskien lei hulle jou na iets spesiaals."
+
+#: data/levels/world1/frosted_fields.stl:3
+msgid "The Frosted Fields"
+msgstr "Die Gevriesde Velde"
+
+#: data/levels/world1/frozen_bridge.stl:3
+msgid "Over the Frozen Bridge"
+msgstr "Oor die Gevriesde Brug"
+
+#: data/levels/world1/ice_in_the_hole.stl:3
+msgid "Ice in the Hole"
+msgstr "Ys in die Gat"
+
+#: data/levels/world1/icy_valley.stl:3
+msgid "Icy Valley"
+msgstr "Ysige Valei"
+
+#: data/levels/world1/into_stars.stl:3
+msgid "Into the Stars"
+msgstr "Binne die Sterre In"
+
+#: data/levels/world1/intro.stl:3
+msgid "Picnic With Penny"
+msgstr "Piekniek Met Penny"
+
+#: data/levels/world1/journey_begins.stl:3
+msgid "The Journey Begins"
+msgstr "Die Reis Begin"
+
+#: data/levels/world1/living_inside_fridge.stl:3
+msgid "Living in a Fridge"
+msgstr "Lewe In 'n Yskas"
+
+#: data/levels/world1/miyamoto_monument.stl:3
+msgid "Miyamoto Monument"
+msgstr "Miyamoto-monument"
+
+#: data/levels/world1/more_snowballs.stl:3
+msgid "Oh No! More Snowballs!"
+msgstr "Ag, Nee! Meer Sneeuballe!"
+
+#: data/levels/world1/night_chill.stl:3
+msgid "Night Chill"
+msgstr "Nagkoel"
+
+#: data/levels/world1/or_just_me.stl:3
+msgid "...Or Is It Just Me?"
+msgstr "...Of Is Dit Net Ek?"
+
+#: data/levels/world1/path_in_the_clouds.stl:3
+msgid "A Path in the Clouds"
+msgstr "'n Pad in die Wolke"
+
+#: data/levels/world1/scripts_castle_cutscene.txt:2
+msgid "Tux had reached the end of the castle."
+msgstr "Tux het die einde van die kasteel bereik."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:3
+msgid "But to his surprise all he could find was a letter."
+msgstr "Maar tot sy verbasing het hy net 'n brief gekry."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:4
+msgid ""
+"A letter from Penny telling Tux that Nolok has taken her to a far forest."
+msgstr "'n Brief van Penny wat Tux vertel dat Nolok haar na 'n verre woud geneem het."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:5
+msgid ""
+"Unsure about what Nolok was doing to her, Tux became worried about his "
+"beloved Penny."
+msgstr "Onseker wat Nolok aan haar doen, het Tux bekommerd geraak oor sy geliefde Penny."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:6
+msgid "Until suddenly..."
+msgstr "Tot skielik..."
+
+#: data/levels/world1/scripts_intro.txt:2
+msgid "Somewhere at the shores of Antarctica..."
+msgstr "Iewers aan die oewers van Antarktika..."
+
+#: data/levels/world1/scripts_intro.txt:3
+msgid "Tux the penguin was going to meet his friend, Penny, for a picnic."
+msgstr "Tux die pikkewyn het sy vriend Penny gaan ontmoet vir 'n piekniek."
+
+#: data/levels/world1/scripts_intro.txt:4
+msgid "Tux woke up, dizzy, to find that Penny was missing!"
+msgstr "Toe Tux duiselig wakker word, het hy besef dat Penny verdwyn het!"
+
+#: data/levels/world1/scripts_intro.txt:5
+msgid "Tux was starting to become worried. He then saw a letter, and it read:"
+msgstr "Tux begin toe bekommerd raak. Hy sien toe 'n brief, en dit sê:"
+
+#: data/levels/world1/scripts_intro.txt:6
+msgid ""
+"\"Tux, I have kidnapped your beloved Penny and have taken her to my "
+"fortress.\""
+msgstr "\"Tux, ek het jou geliefde Penny ontvoer en haar na my fort geneem.\""
+
+#: data/levels/world1/scripts_intro.txt:7
+msgid "\"The path to my fortress is littered with my minions.\""
+msgstr "\"Die pad na my fort het talle vyande.\""
+
+#: data/levels/world1/scripts_intro.txt:8
+msgid "\"You don't have a chance of saving her! Signed, Nolok.\""
+msgstr "'Jy het nie 'n kans om haar te red nie! Onderteken, Nolok.'"
+
+#: data/levels/world1/scripts_intro.txt:9
+msgid ""
+"Realizing the trouble Penny could be in, Tux became determined to save her."
+msgstr "Toe Tux die gevaar besef het wat Penny in was, het hy vesberade besluit om haar te red."
+
+#: data/levels/world1/scripts_intro.txt:10
+msgid ""
+"Then, Tux saw Nolok's castle in the distance and set off to rescue Penny!"
+msgstr "Toe sien Tux vir Nolok se kasteel in die verte, en gaan voort om Penny te red!"
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:2
+msgid "Exhausted from his long walk, Tux decided to take a little break."
+msgstr "Uitgeput van sy lang stap, besluit Tux toe om 'n bietjie te rus."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:3
+msgid "But then, all of a sudden he heard a loud roar from a distance."
+msgstr "Maar, toe hoor hy skielik 'n groot brul van ver af."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:4
+msgid "A yeti seems to have observed him from afar."
+msgstr "Dit lyk asof 'n Yeti hom van ver af gesien het."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:5
+msgid ""
+"Concerned by the yeti's sudden retreat, Tux decided to continue his journey,"
+" ..."
+msgstr "Bekommerd oor die skielike toevlug van die Yeti, besluit Tux tog om voort te gaan met sy reis, ..."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:6
+msgid "...while secretly hoping not to run into the yeti again, by any means."
+msgstr "...terwyl hy hoop om nie weer die Yeti raak te loop nie."
+
+#: data/levels/world1/shattered_bridge.stl:3
+msgid "The Shattered Bridge"
+msgstr "Die Stukkende Brug"
+
+#: data/levels/world1/somewhat_smaller_bath.stl:3
+msgid "The Somewhat Smaller Bath"
+msgstr "Die Taamlik Kleiner Bad"
+
+#: data/levels/world1/stone_cold.stl:3
+msgid "Stone Cold"
+msgstr "Yskoud"
+
+#: data/levels/world1/under_the_ice.stl:3
+msgid "Under the Ice"
+msgstr "Onder die Ys"
+
+#: data/levels/world1/via_nostalgica.stl:3
+msgid "Via Nostalgica"
+msgstr ""
+
+#: data/levels/world1/welcome_antarctica.stl:3
+msgid "Welcome to Antarctica"
+msgstr "Welkom by Antarktika"
+
+#: data/levels/world1/welcome_antarctica.stl:74
+msgid ""
+"-Bonus Blocks\n"
+"!images/objects/bonus_block/full-0.png\n"
+"#Bonus blocks can contain coins, power-ups or special items to help you in your quest.\n"
+"#\n"
+"#Hit them from below to get at their contents."
+msgstr "-Bonusblokke\n!images/objects/bonus_block/full-0.png\n#Bonusblokke bevat muntstukke, power-ups of spesiale voorwerpe wat jou kan help.\n#\n#Bots hulle van onder af om hul inhoud te kry."
+
+#: data/levels/world1/welcome_antarctica.stl:83
+msgid ""
+"-Eggs\n"
+"!images/powerups/egg/egg-shade.png\n"
+"#The egg makes Tux grow larger. Tux can then smash wooden blocks with his head."
+msgstr "-Eiers\n!images/powerups/egg/egg-shade.png\n#Die eier laat Tux groter groei. Dan kan Tux houtblokke breek met sy kop."
+
+#: data/levels/world1/welcome_antarctica.stl:90
+msgid ""
+"-Checkpoints\n"
+"!images/objects/resetpoints/bell-m.png\n"
+"#Activate the checkpoint. If you die, you can retry the level from here. Every time you retry from a checkpoint, you will lose 10 percent of your coins (at least 25 coins)."
+msgstr "-Checkpoints\n!images/objects/resetpoints/bell-m.png\n#Aktiveer die checkpoint. As jy doodgaan, kan jy die level van hier af weer probeer. Elke keer as jy weer van 'n checkpoint af probeer, verloor jy 10 persent van jou muntstukke (ten minste 25 muntstukke)."
+
+#: data/levels/world1/welcome_antarctica.stl:97
+msgid ""
+"-Running\n"
+"!images/tiles/signs/run.png\n"
+"#The path in front of you is blocked. Gain some speed before jumping to pass over the blocks."
+msgstr "-Hardloop\n!images/tiles/signs/run.png\n#Die pad voor jou is geblokkeer. Kry 'n bietjie spoed voor jy oor die blokke spring."
+
+#: data/levels/world1/welcome_antarctica.stl:104
+msgid ""
+"-Fire Flower\n"
+"!images/powerups/fireflower/fire_flower-0.png\n"
+"#The fire flower gives Tux the ability to shoot fireballs."
+msgstr "-Vuurblom\n!images/powerups/fireflower/fire_flower-0.png\n#Die vuurblom laat Tux vuurballe skiet."
+
+#: data/levels/world1/welcome_antarctica.stl:111
+msgid ""
+"-Tux Doll\n"
+"!images/powerups/1up/1up.png\n"
+"#The Tux doll gives Tux 100 coins."
+msgstr "-Tux Viguur\n!images/powerups/1up/1up.png\n#Die Tux viguur gee vir Tux 100 muntstukke."
+
+#: data/levels/world1/welcome_antarctica.stl:118
+msgid ""
+"-Secret Areas\n"
+"#Many levels contain secret areas behind what seems to be plain walls. Look for clues to find them."
+msgstr "-Geheime Plekke\n#Baie levels het geheime plekke agter wat soos gewone mure lyk. Kyk vir leidrade om hulle te vind."
+
+#: data/levels/world1/worldmap.stwm:3
+msgid "Icy Island"
+msgstr "Ysige Eiland"
+
+#: data/levels/world1/yeti_boss.stl:3
+msgid "No More Mr. Ice Guy"
+msgstr "Geen Meer Mr. Ice Guy"
+
+#: data/levels/world1/yeti_cutscene.stl:3
+msgid "A Yeti in the Distance"
+msgstr "'n Yeti in die Verte"

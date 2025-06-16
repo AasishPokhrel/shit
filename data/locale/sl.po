@@ -1,0 +1,5396 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Andrej Mernik <andrejm@ubuntu.si>, 2017
+# Gorzy Gorup <gorupgorazd@gmail.com>, 2016,2018-2020,2022,2024-2025
+# Marko Burjek <email4marko@gmail.com>, 2005-2007
+# 6b5e68206c0968137af5e40628fab09c_45f21e2 <2184c0f6d900f44833440361ba2f7322_103239>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2013-08-10 22:56+0000\n"
+"Last-Translator: Gorzy Gorup <gorupgorazd@gmail.com>, 2016,2018-2020,2022,2024-2025\n"
+"Language-Team: Slovenian (http://app.transifex.com/arctic-games/supertux/language/sl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+
+#: src/math/anchor_point.cpp:33
+msgid "Top Left"
+msgstr "Zgoraj levo"
+
+#: src/math/anchor_point.cpp:34
+msgid "Top"
+msgstr "Zgoraj"
+
+#: src/math/anchor_point.cpp:35
+msgid "Top Right"
+msgstr "Zgoraj desno"
+
+#: src/math/anchor_point.cpp:36 src/object/textscroller.cpp:349
+#: src/object/textscroller.cpp:353 src/supertux/menu/joystick_menu.cpp:73
+#: src/supertux/menu/keyboard_menu.cpp:38
+msgid "Left"
+msgstr "Levo"
+
+#: src/math/anchor_point.cpp:37
+msgid "Middle"
+msgstr "Na sredini"
+
+#: src/math/anchor_point.cpp:38 src/object/textscroller.cpp:349
+#: src/object/textscroller.cpp:353 src/supertux/menu/joystick_menu.cpp:74
+#: src/supertux/menu/keyboard_menu.cpp:39
+msgid "Right"
+msgstr "Desno"
+
+#: src/math/anchor_point.cpp:39
+msgid "Bottom Left"
+msgstr "Spodaj levo"
+
+#: src/math/anchor_point.cpp:40
+msgid "Bottom"
+msgstr "Spodaj"
+
+#: src/math/anchor_point.cpp:41
+msgid "Bottom Right"
+msgstr "Spodaj desno"
+
+#: src/object/textscroller.cpp:343 src/object/music_object.cpp:92
+#: src/object/custom_particle_system_file.cpp:53
+#: src/supertux/menu/particle_editor_open.cpp:38
+msgid "File"
+msgstr "Datoteka"
+
+#: src/object/textscroller.cpp:344
+msgid "Finish Script"
+msgstr "Zaključna skripta"
+
+#: src/object/textscroller.cpp:345 src/object/spotlight.cpp:107
+#: src/object/bigsnowball.cpp:82 src/object/circleplatform.cpp:58
+#: src/object/rain_particle_system.cpp:100 src/object/conveyor_belt.cpp:63
+#: src/editor/node_marker.cpp:125 src/badguy/flame.cpp:110
+msgid "Speed"
+msgstr "Hitrost"
+
+#: src/object/textscroller.cpp:346
+msgid "X-offset"
+msgstr "Odmik X"
+
+#: src/object/textscroller.cpp:347
+msgid "Controllable"
+msgstr "Krmiljeno"
+
+#: src/object/textscroller.cpp:348 src/trigger/text_area.cpp:144
+msgid "Anchor"
+msgstr "Sidranje"
+
+#: src/object/textscroller.cpp:349 src/object/textscroller.cpp:353
+msgid "Center"
+msgstr "Sredinsko"
+
+#: src/object/textscroller.cpp:352
+msgid "Text Alignment"
+msgstr "Poravnava besedila"
+
+#: src/object/bonus_block.hpp:62
+msgid "Bonus Block"
+msgstr "Bonus kocka"
+
+#: src/object/pneumatic_platform.cpp:159 src/object/moving_sprite.cpp:201
+msgid "Sprite"
+msgstr "Animiran izrezek"
+
+#: src/object/pneumatic_platform.cpp:160 src/object/background.cpp:281
+#: src/object/bicycle_platform.cpp:201 src/supertux/moving_object.cpp:70
+#: src/supertux/menu/joystick_menu.cpp:170 src/worldmap/worldmap_object.cpp:77
+msgid "X"
+msgstr "X"
+
+#: src/object/pneumatic_platform.cpp:161 src/object/background.cpp:282
+#: src/object/bicycle_platform.cpp:202 src/supertux/moving_object.cpp:71
+#: src/supertux/menu/joystick_menu.cpp:172 src/worldmap/worldmap_object.cpp:78
+msgid "Y"
+msgstr "Y"
+
+#: src/object/conveyor_belt.hpp:47
+msgid "Conveyor Belt"
+msgstr "Tekoči trak"
+
+#: src/object/wind.cpp:80 src/object/custom_particle_system.cpp:497
+msgid "Speed X"
+msgstr "Hitrost X"
+
+#: src/object/wind.cpp:81 src/object/custom_particle_system.cpp:498
+msgid "Speed Y"
+msgstr "Hitrost Y"
+
+#: src/object/wind.cpp:82
+msgid "Acceleration"
+msgstr "Pospešek"
+
+#: src/object/wind.cpp:83
+msgid "Blowing"
+msgstr "Dejansko piha"
+
+#: src/object/wind.cpp:84
+msgid "Affects Badguys"
+msgstr "Vpliva na pridaniče"
+
+#: src/object/wind.cpp:85
+msgid "Affects Objects"
+msgstr "Vpliva na predmete"
+
+#: src/object/wind.cpp:86
+msgid "Affects Player"
+msgstr "Vpliva na igralca"
+
+#: src/object/wind.cpp:87
+msgid "Fancy Particles"
+msgstr "Okrasni delci"
+
+#: src/object/wind.cpp:88
+msgid "Particles Enabled"
+msgstr "Omogočeni delci"
+
+#: src/object/lit_object.hpp:46
+msgid "Lit object"
+msgstr "Osvetljen predmet"
+
+#: src/object/weak_block.cpp:97 src/object/unstable_tile.cpp:70
+#: src/badguy/flame.cpp:86
+msgid "Ice"
+msgstr "Led"
+
+#: src/object/weak_block.cpp:98
+msgid "Hay"
+msgstr "Seno"
+
+#: src/object/weak_block.cpp:264 src/object/powerup.cpp:337
+msgid ""
+"Sprites no longer define the behaviour of the object.\n"
+"Object types are used instead."
+msgstr "Animirani izrezki ne določajo več obnašanja predmeta.\nNamesto tega uporabljamo tipe predmetov."
+
+#: src/object/particle_zone.cpp:49 src/object/spotlight.cpp:104
+#: src/object/particlesystem.cpp:64
+#: src/supertux/menu/addon_preview_menu.cpp:201 src/badguy/darttrap.cpp:156
+msgid "Enabled"
+msgstr "Omogočeno"
+
+#: src/object/particle_zone.cpp:50
+msgid "Particle Name"
+msgstr "Ime delca"
+
+#: src/object/particle_zone.cpp:61
+msgid "Spawn"
+msgstr "Kraj nastajanja"
+
+#: src/object/particle_zone.cpp:62
+msgid "Life zone"
+msgstr "Območje obstoja"
+
+#: src/object/particle_zone.cpp:63
+msgid "Life zone (clear)"
+msgstr "Območje obstoja (izbris)"
+
+#: src/object/particle_zone.cpp:64
+msgid "Kill particles"
+msgstr "Uniči delce"
+
+#: src/object/particle_zone.cpp:65
+msgid "Clear particles"
+msgstr "Izbriši delce"
+
+#: src/object/custom_particle_system.cpp:421
+msgid "Texture"
+msgstr "Tekstura"
+
+#: src/object/custom_particle_system.cpp:423
+#: src/object/cloud_particle_system.cpp:93
+msgid "Amount"
+msgstr "Količina"
+
+#: src/object/custom_particle_system.cpp:424 src/object/circleplatform.cpp:59
+#: src/editor/particle_editor.cpp:141
+msgid "Delay"
+msgstr "Zamik"
+
+#: src/object/custom_particle_system.cpp:425
+msgid "Lifetime"
+msgstr "Čas obstoja"
+
+#: src/object/custom_particle_system.cpp:426
+msgid "Lifetime variation"
+msgstr "Razlike v času obstoja"
+
+#: src/object/custom_particle_system.cpp:427
+#: src/editor/particle_editor.cpp:164
+msgid "Birth mode"
+msgstr "Način nastajanja"
+
+#: src/object/custom_particle_system.cpp:428
+#: src/object/custom_particle_system.cpp:463 src/object/gradient.cpp:113
+#: src/supertux/menu/joystick_menu.cpp:109
+#: src/supertux/menu/joystick_menu.cpp:213
+#: src/supertux/menu/keyboard_menu.cpp:81 src/gui/menu_string_array.cpp:40
+#: src/gui/menu_string_array.cpp:78 src/editor/object_settings.cpp:138
+#: src/editor/particle_editor.cpp:162 src/editor/particle_editor.cpp:168
+msgid "None"
+msgstr "Brez"
+
+#: src/object/custom_particle_system.cpp:428
+#: src/object/custom_particle_system.cpp:463
+#: src/trigger/sequence_trigger.cpp:55
+msgid "Fade"
+msgstr "Zatemni"
+
+#: src/object/custom_particle_system.cpp:428
+#: src/object/custom_particle_system.cpp:463
+#: src/editor/particle_editor.cpp:166
+msgid "Shrink"
+msgstr "Krčenje"
+
+#: src/object/custom_particle_system.cpp:432
+#: src/editor/particle_editor.cpp:172
+msgid "Birth easing"
+msgstr "Umerjeno nastajanje"
+
+#: src/object/custom_particle_system.cpp:434
+#: src/object/custom_particle_system.cpp:469 src/editor/node_marker.cpp:129
+msgid "No easing"
+msgstr "Brez umerjanja"
+
+#: src/object/custom_particle_system.cpp:435
+#: src/object/custom_particle_system.cpp:470 src/editor/node_marker.cpp:130
+msgid "Quad in"
+msgstr "Kvadratni prihod"
+
+#: src/object/custom_particle_system.cpp:435
+#: src/object/custom_particle_system.cpp:470 src/editor/node_marker.cpp:130
+msgid "Quad out"
+msgstr "Kvadratni iztek"
+
+#: src/object/custom_particle_system.cpp:435
+#: src/object/custom_particle_system.cpp:470 src/editor/node_marker.cpp:130
+msgid "Quad in/out"
+msgstr "Kvadratni prihod/iztek"
+
+#: src/object/custom_particle_system.cpp:436
+#: src/object/custom_particle_system.cpp:471 src/editor/node_marker.cpp:131
+msgid "Cubic in"
+msgstr "Kubični prihod"
+
+#: src/object/custom_particle_system.cpp:436
+#: src/object/custom_particle_system.cpp:471 src/editor/node_marker.cpp:131
+msgid "Cubic out"
+msgstr "Kubični iztek"
+
+#: src/object/custom_particle_system.cpp:436
+#: src/object/custom_particle_system.cpp:471 src/editor/node_marker.cpp:131
+msgid "Cubic in/out"
+msgstr "Kubični prihod/iztek"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:132
+msgid "Quart in"
+msgstr "Kvartični prihod"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:132
+msgid "Quart out"
+msgstr "Kvartični iztek"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:132
+msgid "Quart in/out"
+msgstr "Kvartični prihod/iztek"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:133
+msgid "Quint in"
+msgstr "Kvintični prihod"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:133
+msgid "Quint out"
+msgstr "Kvintični iztek"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:133
+msgid "Quint in/out"
+msgstr "Kvintični prihod/iztek"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:134
+msgid "Sine in"
+msgstr "Sinusni prihod"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:134
+msgid "Sine out"
+msgstr "Sinusni iztek"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:134
+msgid "Sine in/out"
+msgstr "Sinusni prihod/iztek"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:135
+msgid "Circular in"
+msgstr "Krožni prihod"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:135
+msgid "Circular out"
+msgstr "Krožni iztek"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:135
+msgid "Circular in/out"
+msgstr "Krožni prihod/iztek"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:136
+msgid "Exponential in"
+msgstr "Eksponenten prihod"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:136
+msgid "Exponential out"
+msgstr "Eksponenten iztek"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:136
+msgid "Exponential in/out"
+msgstr "Eksponenten prihod/iztek"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:137
+msgid "Elastic in"
+msgstr "Elastičen prihod"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:137
+msgid "Elastic out"
+msgstr "Elastičen iztek"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:137
+msgid "Elastic in/out"
+msgstr "Elastičen prihod/iztek"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:138
+msgid "Back in"
+msgstr "Zadnji prihod"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:138
+msgid "Back out"
+msgstr "Zadnji iztek"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:138
+msgid "Back in/out"
+msgstr "Zadnji prihod/iztek"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:139
+msgid "Bounce in"
+msgstr "Odbojni prihod"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:139
+msgid "Bounce out"
+msgstr "Odbojni iztek"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:139
+msgid "Bounce in/out"
+msgstr "Odbojni prihod/iztek"
+
+#: src/object/custom_particle_system.cpp:460
+msgid "Birth time"
+msgstr "Čas nastajanja"
+
+#: src/object/custom_particle_system.cpp:461
+msgid "Birth time variation"
+msgstr "Razlike v času nastajanja"
+
+#: src/object/custom_particle_system.cpp:462
+#: src/editor/particle_editor.cpp:170
+msgid "Death mode"
+msgstr "Način odmiranja"
+
+#: src/object/custom_particle_system.cpp:467
+#: src/editor/particle_editor.cpp:173
+msgid "Death easing"
+msgstr "Umerjeno odmiranje"
+
+#: src/object/custom_particle_system.cpp:495
+msgid "Death time"
+msgstr "Čas smrti"
+
+#: src/object/custom_particle_system.cpp:496
+msgid "Death time variation"
+msgstr "Razlike v času odmiranja"
+
+#: src/object/custom_particle_system.cpp:499
+msgid "Speed X (variation)"
+msgstr "Hitrost X (razlike)"
+
+#: src/object/custom_particle_system.cpp:500
+msgid "Speed Y (variation)"
+msgstr "Hitrost Y (razlike)"
+
+#: src/object/custom_particle_system.cpp:501
+msgid "Acceleration X"
+msgstr "Pospešek X"
+
+#: src/object/custom_particle_system.cpp:502
+msgid "Acceleration Y"
+msgstr "Pospešek Y"
+
+#: src/object/custom_particle_system.cpp:503
+msgid "Friction X"
+msgstr "Trenje X"
+
+#: src/object/custom_particle_system.cpp:504
+msgid "Friction Y"
+msgstr "Trenje Y"
+
+#: src/object/custom_particle_system.cpp:505
+#: src/editor/particle_editor.cpp:189
+msgid "Feather factor"
+msgstr "Vpliv peresa"
+
+#: src/object/custom_particle_system.cpp:506
+msgid "Rotation"
+msgstr "Zasuk"
+
+#: src/object/custom_particle_system.cpp:507
+msgid "Rotation (variation)"
+msgstr "Zasuk (razlike)"
+
+#: src/object/custom_particle_system.cpp:508
+#: src/editor/particle_editor.cpp:195
+msgid "Rotation speed"
+msgstr "Hitrost zasuka"
+
+#: src/object/custom_particle_system.cpp:509
+msgid "Rotation speed (variation)"
+msgstr "Hitrost zasuka (razlike)"
+
+#: src/object/custom_particle_system.cpp:510
+#: src/editor/particle_editor.cpp:200
+msgid "Rotation acceleration"
+msgstr "Pospešek zasuka"
+
+#: src/object/custom_particle_system.cpp:511
+msgid "Rotation friction"
+msgstr "Trenje zasuka"
+
+#: src/object/custom_particle_system.cpp:512
+#: src/editor/particle_editor.cpp:208
+msgid "Rotation mode"
+msgstr "Način zasuka"
+
+#: src/object/custom_particle_system.cpp:513
+#: src/editor/particle_editor.cpp:206
+msgid "Fixed"
+msgstr "Brez zasuka"
+
+#: src/object/custom_particle_system.cpp:513
+#: src/editor/particle_editor.cpp:205
+msgid "Facing"
+msgstr "V smeri gibanja"
+
+#: src/object/custom_particle_system.cpp:513
+#: src/editor/particle_editor.cpp:204
+msgid "Wiggling"
+msgstr "Naključno"
+
+#: src/object/custom_particle_system.cpp:517
+#: src/editor/particle_editor.cpp:219
+msgid "Collision mode"
+msgstr "Način kolizije"
+
+#: src/object/custom_particle_system.cpp:518
+msgid "None (pass through)"
+msgstr "Je ni (prehajanje skozi)"
+
+#: src/object/custom_particle_system.cpp:518
+msgid "Stick"
+msgstr "Ustavi"
+
+#: src/object/custom_particle_system.cpp:518
+msgid "Stick Forever"
+msgstr "Trajno ustavi"
+
+#: src/object/custom_particle_system.cpp:518
+#: src/editor/particle_editor.cpp:214
+msgid "Bounce (heavy)"
+msgstr "Odbij (težji delec)"
+
+#: src/object/custom_particle_system.cpp:518
+#: src/editor/particle_editor.cpp:213
+msgid "Bounce (light)"
+msgstr "Odbij (lahek delec)"
+
+#: src/object/custom_particle_system.cpp:518
+msgid "Kill particle"
+msgstr "Uniči delec"
+
+#: src/object/custom_particle_system.cpp:518
+msgid "Fade out particle"
+msgstr "Razblini delec"
+
+#: src/object/custom_particle_system.cpp:522
+msgid "Delete if off-screen"
+msgstr "Izbriši, če ni na zaslonu"
+
+#: src/object/custom_particle_system.cpp:523
+#: src/editor/particle_editor.cpp:224
+msgid "Never"
+msgstr "Nikoli"
+
+#: src/object/custom_particle_system.cpp:523
+#: src/editor/particle_editor.cpp:223
+msgid "Only on exit"
+msgstr "Le ob izhodu"
+
+#: src/object/custom_particle_system.cpp:523
+msgid "Always"
+msgstr "Vedno"
+
+#: src/object/custom_particle_system.cpp:527
+msgid "Cover screen"
+msgstr "Prekrij zaslon"
+
+#: src/object/unstable_tile.hpp:42
+msgid "Unstable Tile"
+msgstr "Majava podlaga"
+
+#: src/object/spawnpoint.hpp:48 src/badguy/willowisp.cpp:304
+#: src/worldmap/teleporter.cpp:48
+msgid "Spawnpoint"
+msgstr "Točka začetka"
+
+#: src/object/pneumatic_platform.hpp:66
+msgid "Pneumatic Platform"
+msgstr "Pnevmatična ploščad"
+
+#: src/object/coin.hpp:44 src/object/bonus_block.cpp:267
+msgid "Coin"
+msgstr "Kovanec"
+
+#: src/object/coin.hpp:100
+msgid "Heavy Coin"
+msgstr "Težek kovanec"
+
+#: src/object/tilemap.cpp:291 src/object/scripted_object.cpp:72
+#: src/object/decal.cpp:50
+msgid "Solid"
+msgstr "Trdno"
+
+#: src/object/tilemap.cpp:292
+msgid "Resize offset x"
+msgstr "Spremeni odmik x"
+
+#: src/object/tilemap.cpp:293
+msgid "Resize offset y"
+msgstr "Spremeni odmik y"
+
+#: src/object/tilemap.cpp:295 src/supertux/moving_object.cpp:67
+#: src/supertux/menu/editor_sector_menu.cpp:41
+msgid "Width"
+msgstr "Širina"
+
+#: src/object/tilemap.cpp:296 src/supertux/moving_object.cpp:68
+#: src/supertux/menu/editor_sector_menu.cpp:42
+msgid "Height"
+msgstr "Višina"
+
+#: src/object/tilemap.cpp:298
+msgid "Alpha"
+msgstr "Alfa"
+
+#: src/object/tilemap.cpp:299
+msgid "Speed x"
+msgstr "Hitrost x"
+
+#: src/object/tilemap.cpp:300
+msgid "Speed y"
+msgstr "Hitrost y"
+
+#: src/object/tilemap.cpp:301
+msgid "Tint"
+msgstr "Odtenek"
+
+#: src/object/tilemap.cpp:302 src/object/background.cpp:285
+#: src/object/spotlight.cpp:112 src/object/gradient.cpp:99
+#: src/object/thunderstorm.cpp:78 src/object/moving_sprite.cpp:202
+#: src/object/particlesystem.cpp:65
+msgid "Z-pos"
+msgstr "Globina"
+
+#: src/object/tilemap.cpp:303 src/object/background.cpp:300
+#: src/object/gradient.cpp:106
+msgid "Draw target"
+msgstr "Tarča izrisa"
+
+#: src/object/tilemap.cpp:304 src/object/background.cpp:301
+#: src/object/gradient.cpp:107 src/object/brick.cpp:59
+#: src/object/invisible_block.cpp:37 src/object/coin.cpp:69
+#: src/badguy/mrbomb.cpp:65 src/badguy/bouncing_snowball.cpp:97
+#: src/badguy/snowball.cpp:40 src/badguy/igel.cpp:194
+#: src/badguy/smartball.cpp:34 src/badguy/mrtree.cpp:50
+#: src/badguy/mriceblock.cpp:63 src/badguy/snail.cpp:70
+#: src/badguy/walkingleaf.cpp:35 src/badguy/kamikazesnowball.cpp:117
+#: src/badguy/viciousivy.cpp:44
+msgid "Normal"
+msgstr "Običajno"
+
+#: src/object/tilemap.cpp:304 src/object/background.cpp:301
+#: src/object/gradient.cpp:107 data/images/ice_world.strf:895
+msgid "Lightmap"
+msgstr "Svetilna tekstura"
+
+#: src/object/tilemap.cpp:309 src/object/camera.cpp:166
+#: src/object/path_gameobject.cpp:175 src/object/coin.cpp:327
+#: src/object/platform.cpp:78 src/object/path_gameobject.hpp:45
+#: src/badguy/willowisp.cpp:309
+msgid "Path"
+msgstr "Pot"
+
+#: src/object/tilemap.cpp:310 src/object/coin.cpp:334
+#: src/object/platform.cpp:83 src/badguy/willowisp.cpp:310
+msgid "Starting Node"
+msgstr "Začetno vozlišče"
+
+#: src/object/tilemap.cpp:312 src/object/coin.cpp:329
+msgid "Following path"
+msgstr "Pot premika"
+
+#: src/object/tilemap.cpp:315 src/object/camera.cpp:169
+#: src/object/coin.cpp:332 src/object/platform.cpp:79
+msgid "Path Mode"
+msgstr "Način poti"
+
+#: src/object/tilemap.cpp:316 src/object/camera.cpp:170
+#: src/object/coin.cpp:333 src/object/platform.cpp:80
+#: src/badguy/willowisp.cpp:314
+msgid "Adapt Speed"
+msgstr "Prilagodi hitrost"
+
+#: src/object/tilemap.cpp:317 src/object/thunderstorm.cpp:79
+#: src/object/platform.cpp:82 src/object/conveyor_belt.cpp:64
+msgid "Running"
+msgstr "V teku"
+
+#: src/object/tilemap.cpp:318 src/object/camera.cpp:171
+#: src/object/coin.cpp:335 src/object/platform.cpp:84
+#: src/badguy/willowisp.cpp:315
+msgid "Handle"
+msgstr "Ročica"
+
+#: src/object/tilemap.cpp:321 src/supertux/menu/editor_tilegroup_menu.cpp:26
+#: src/editor/toolbox_widget.cpp:74
+msgid "Tiles"
+msgstr "Podlage"
+
+#: src/object/brick.hpp:34 src/object/unstable_tile.cpp:71
+msgid "Brick"
+msgstr "Opeka"
+
+#: src/object/brick.hpp:71
+msgid "Heavy Brick"
+msgstr "Težka opeka"
+
+#: src/object/background.hpp:52
+msgid "Background"
+msgstr "Ozadje"
+
+#: src/object/camera.cpp:161
+msgid "Mode"
+msgstr "Način"
+
+#: src/object/camera.cpp:162
+msgid "normal"
+msgstr "običajno"
+
+#: src/object/camera.cpp:162
+msgid "manual"
+msgstr "ročno"
+
+#: src/object/camera.cpp:162
+msgid "autoscroll"
+msgstr "samodejno drsenje"
+
+#: src/object/circleplatform.hpp:35
+msgid "Circular Platform"
+msgstr "Krožna ploščad"
+
+#: src/object/background.cpp:284
+msgid "Fill"
+msgstr "Zapolni"
+
+#: src/object/background.cpp:286
+msgid "Alignment"
+msgstr "Poravnava"
+
+#: src/object/background.cpp:287 src/supertux/direction.cpp:61
+msgid "none"
+msgstr "brez"
+
+#: src/object/background.cpp:287 src/supertux/direction.cpp:63
+msgid "left"
+msgstr "levo"
+
+#: src/object/background.cpp:287 src/supertux/direction.cpp:65
+msgid "right"
+msgstr "desno"
+
+#: src/object/background.cpp:287
+msgid "top"
+msgstr "zgoraj"
+
+#: src/object/background.cpp:287
+msgid "bottom"
+msgstr "spodaj"
+
+#: src/object/background.cpp:290
+msgid "Scroll offset x"
+msgstr "Premakni po x"
+
+#: src/object/background.cpp:291
+msgid "Scroll offset y"
+msgstr "Premakni po y"
+
+#: src/object/background.cpp:292
+msgid "Scroll speed x"
+msgstr "Hitrost premika po x"
+
+#: src/object/background.cpp:293
+msgid "Scroll speed y"
+msgstr "Hitrost premika po y"
+
+#: src/object/background.cpp:294
+msgid "Parallax Speed x"
+msgstr "Paralaksa po x"
+
+#: src/object/background.cpp:295
+msgid "Parallax Speed y"
+msgstr "Paralaksa po y"
+
+#: src/object/background.cpp:296
+msgid "Top image"
+msgstr "Zgornja slika"
+
+#: src/object/background.cpp:297
+msgid "Image"
+msgstr "Slika"
+
+#: src/object/background.cpp:298
+msgid "Bottom image"
+msgstr "Spodnja slika"
+
+#: src/object/background.cpp:299
+msgid "Colour"
+msgstr "Barva"
+
+#: src/object/firefly.hpp:38
+msgid "Checkpoint"
+msgstr "Varna točka"
+
+#: src/object/magicblock.hpp:42
+msgid "Magic Tile"
+msgstr "Čarobna podlaga"
+
+#: src/object/infoblock.cpp:76 src/trigger/secretarea_trigger.cpp:57
+#: src/trigger/climbable.cpp:59 src/worldmap/teleporter.cpp:49
+#: src/worldmap/special_tile.cpp:74
+msgid "Message"
+msgstr "Sporočilo"
+
+#: src/object/infoblock.cpp:78
+msgid "Front Color"
+msgstr "Čelna barva"
+
+#: src/object/infoblock.cpp:80
+msgid "Back Color"
+msgstr "Hrbtna barva"
+
+#: src/object/infoblock.cpp:82
+msgid "Roundness"
+msgstr "Okroglost"
+
+#: src/object/infoblock.cpp:84
+msgid "Fade Transition"
+msgstr "Bledenje"
+
+#: src/object/gradient.hpp:50
+msgid "Gradient"
+msgstr "Preliv"
+
+#: src/object/torch.cpp:96 src/object/candle.cpp:75
+msgid "Burning"
+msgstr "Gori"
+
+#: src/object/torch.cpp:97 src/object/rublight.cpp:55
+#: src/object/lantern.cpp:62 src/object/spotlight.cpp:106
+#: src/object/candle.cpp:77 src/object/ambient_light.cpp:111
+#: src/object/magicblock.cpp:95 src/object/key.cpp:198
+#: src/badguy/willowisp.cpp:311 src/badguy/walking_candle.cpp:97
+msgid "Color"
+msgstr "Barva"
+
+#: src/object/custom_particle_system.hpp:54
+msgid "Custom Particles"
+msgstr "Delci po meri"
+
+#: src/object/bigsnowball.hpp:39
+msgid "Big Snowball"
+msgstr "Velika snežna kepa"
+
+#: src/object/powerup.cpp:61
+msgid "Egg"
+msgstr "Jajce"
+
+#: src/object/powerup.cpp:62
+msgid "Fire Flower"
+msgstr "Ognjena roža"
+
+#: src/object/powerup.cpp:63
+msgid "Ice Flower"
+msgstr "Ledena roža"
+
+#: src/object/powerup.cpp:64
+msgid "Air Flower"
+msgstr "Vetrna roža"
+
+#: src/object/powerup.cpp:65
+msgid "Earth Flower"
+msgstr "Zemeljska roža"
+
+#: src/object/powerup.cpp:66 src/object/bonus_block.cpp:268
+msgid "Star"
+msgstr "Zvezda"
+
+#: src/object/powerup.cpp:67
+msgid "Tux Doll"
+msgstr "Lutka Tuksa"
+
+#: src/object/powerup.cpp:68
+msgid "Flip Potion"
+msgstr "Obrnitveni napoj"
+
+#: src/object/powerup.cpp:69
+msgid "Mints"
+msgstr "Bonbončki"
+
+#: src/object/powerup.cpp:70
+msgid "Coffee"
+msgstr "Kofe"
+
+#: src/object/powerup.cpp:71
+msgid "Herring"
+msgstr "Sled"
+
+#: src/object/powerup.cpp:326 src/object/ispy.cpp:55
+#: src/object/bonus_block.cpp:264 src/object/bonus_block.cpp:268
+#: src/object/pushbutton.cpp:65 src/trigger/secretarea_trigger.cpp:58
+#: src/trigger/scripttrigger.cpp:51 src/trigger/door.cpp:79
+#: src/worldmap/special_tile.cpp:76
+msgid "Script"
+msgstr "Skripta"
+
+#: src/object/powerup.cpp:327
+msgid "Disable gravity"
+msgstr "Onemogoči težnost"
+
+#: src/object/ambient_sound.cpp:86 src/object/sound_object.hpp:41
+#: src/object/sound_object.cpp:70 src/supertux/menu/options_menu.cpp:146
+#: data/credits.stxt:367
+msgid "Sound"
+msgstr "Zvok"
+
+#: src/object/ambient_sound.cpp:87
+msgid "Radius (in tiles)"
+msgstr "Polmer (v podlagah)"
+
+#: src/object/ambient_sound.cpp:88 src/object/sound_object.cpp:71
+msgid "Volume"
+msgstr "Glasnost"
+
+#: src/object/fallblock.hpp:41
+msgid "Falling Platform"
+msgstr "Padajoča ploščad"
+
+#: src/object/powerup.hpp:55
+msgid "Powerup"
+msgstr "Izboljšava"
+
+#: src/object/scripted_object.cpp:73
+msgid "Physics enabled"
+msgstr "Fizika omogočena"
+
+#: src/object/scripted_object.cpp:74
+msgid "Visible"
+msgstr "Vidno"
+
+#: src/object/scripted_object.cpp:75 src/badguy/willowisp.cpp:305
+msgid "Hit script"
+msgstr "Skripta ob stiku"
+
+#: src/object/weak_block.hpp:36
+msgid "Weak Tile"
+msgstr "Šibka podlaga"
+
+#: src/object/rain_particle_system.hpp:49
+msgid "Rain Particles"
+msgstr "Dežne kaplje"
+
+#: src/object/key.hpp:38
+msgid "Key"
+msgstr "Ključ"
+
+#: src/object/decal.hpp:49
+msgid "Decal"
+msgstr "Okrasna slika"
+
+#: src/object/cloud_particle_system.cpp:94
+msgid "Fog Opacity"
+msgstr "Motnost megle"
+
+#: src/object/cloud_particle_system.cpp:95
+msgid "X Speed"
+msgstr "Hitrost X"
+
+#: src/object/cloud_particle_system.cpp:96
+msgid "Y Speed"
+msgstr "Hitrost Y"
+
+#: src/object/lit_object.cpp:70
+msgid "Light sprite"
+msgstr "Izrezek luči"
+
+#: src/object/lit_object.cpp:72
+msgid "Sprite starting action"
+msgstr "Začetno dejanje izrezka"
+
+#: src/object/lit_object.cpp:73
+msgid "Light sprite starting action"
+msgstr "Začetno dejanje izrezka luči"
+
+#: src/object/lit_object.cpp:75
+msgid "Light sprite offset X"
+msgstr "Zamik izrezka luči po X"
+
+#: src/object/lit_object.cpp:76
+msgid "Light sprite offset Y"
+msgstr "Zamik izrezka luči po Y"
+
+#: src/object/sticky_object.cpp:72 src/object/sticky_object.cpp:132
+msgid "Sticky"
+msgstr "Lepljivo"
+
+#: src/object/ispy.cpp:56 src/object/spotlight.cpp:108
+#: src/object/bigsnowball.cpp:81 src/object/gradient.cpp:101
+#: src/object/bumper.cpp:59 src/object/pushbutton.cpp:64
+#: src/object/conveyor_belt.cpp:62 src/trigger/switch.cpp:63
+#: src/badguy/badguy.cpp:1212 src/worldmap/spawn_point.cpp:79
+#: src/worldmap/special_tile.cpp:78
+msgid "Direction"
+msgstr "Smer"
+
+#: src/object/rublight.cpp:56
+msgid "Fading Speed"
+msgstr "Hitrost zatemnitve"
+
+#: src/object/rublight.cpp:57
+msgid "Glowing Strength"
+msgstr "Jakost žarenja"
+
+#: src/object/snow_particle_system.cpp:114
+msgid "Epsilon"
+msgstr "Epsilon"
+
+#: src/object/snow_particle_system.cpp:115
+msgid "Spin Speed"
+msgstr "Hitrost vrtenja"
+
+#: src/object/snow_particle_system.cpp:116
+msgid "State Length"
+msgstr "Trajanje stanja"
+
+#: src/object/snow_particle_system.cpp:117
+msgid "Wind Speed"
+msgstr "Hitrost vetra"
+
+#: src/object/scripted_object.hpp:46
+msgid "Scripted Object"
+msgstr "Predmet s skripto"
+
+#: src/object/custom_particle_system_file.hpp:39
+msgid "Custom Particles from file"
+msgstr "Delci iz datoteke"
+
+#: src/object/spotlight.cpp:105 src/object/rain_particle_system.cpp:99
+msgid "Angle"
+msgstr "Kot"
+
+#: src/object/spotlight.cpp:109
+msgid "Clockwise"
+msgstr "V smeri urinega kazalca"
+
+#: src/object/spotlight.cpp:109
+msgid "Counter-clockwise"
+msgstr "Proti smeri urinega kazalca"
+
+#: src/object/spotlight.cpp:109
+msgid "Stopped"
+msgstr "Stoji"
+
+#: src/object/camera.hpp:69
+msgid "Camera"
+msgstr "Kamera"
+
+#: src/object/thunderstorm.hpp:53
+msgid "Thunderstorm"
+msgstr "Neurje"
+
+#: src/object/text_array_object.hpp:58
+msgid "Text array"
+msgstr "Besedilno polje"
+
+#: src/object/bigsnowball.cpp:83
+msgid "Break on impact?"
+msgstr "Se razbije ob trku?"
+
+#: src/object/bigsnowball.cpp:84
+msgid "Bounce?"
+msgstr "Poskakuje?"
+
+#: src/object/text_object.hpp:52 src/gui/menu_string_array.cpp:77
+msgid "Text"
+msgstr "Besedilo"
+
+#: src/object/bumper.hpp:38
+msgid "Bumper"
+msgstr "Odbijač"
+
+#: src/object/candle.cpp:76
+msgid "Flicker"
+msgstr "Migeta"
+
+#: src/object/gradient.cpp:96
+msgid "Primary Colour"
+msgstr "Osnovna barva"
+
+#: src/object/gradient.cpp:97
+msgid "Secondary Colour"
+msgstr "Sekundarna barva"
+
+#: src/object/gradient.cpp:102
+msgid "Vertical"
+msgstr "Navpičen"
+
+#: src/object/gradient.cpp:102
+msgid "Horizontal"
+msgstr "Vodoraven"
+
+#: src/object/gradient.cpp:102
+msgid "Vertical (whole sector)"
+msgstr "Navpičen (ves predel)"
+
+#: src/object/gradient.cpp:102
+msgid "Horizontal (whole sector)"
+msgstr "Vodoraven (ves predel)"
+
+#: src/object/gradient.cpp:112
+msgid "Blend mode"
+msgstr "Način mešanja"
+
+#: src/object/gradient.cpp:113
+msgid "Blend"
+msgstr "Mešanje"
+
+#: src/object/gradient.cpp:113
+msgid "Additive"
+msgstr "Aditivno"
+
+#: src/object/gradient.cpp:113
+msgid "Modulate"
+msgstr "Blaženo"
+
+#: src/object/ambient_sound.hpp:50
+msgid "Ambient Sound"
+msgstr "Okoljski zvok"
+
+#: src/object/brick.cpp:60 src/object/invisible_block.cpp:38
+#: src/object/bonus_block.cpp:175 src/object/coin.cpp:70
+msgid "Retro"
+msgstr "Retro"
+
+#: src/object/brick.cpp:165
+msgid "Breakable"
+msgstr "Uničljiva"
+
+#: src/object/rusty_trampoline.hpp:40
+msgid "Rusty Trampoline"
+msgstr "Zarjaveli trampolin"
+
+#: src/object/music_object.hpp:42 src/supertux/menu/options_menu.cpp:148
+#: data/credits.stxt:309
+msgid "Music"
+msgstr "Glasba"
+
+#: src/object/circleplatform.cpp:57 src/object/bicycle_platform.cpp:205
+#: src/badguy/crystallo.cpp:50 src/badguy/flame.cpp:109
+#: src/badguy/rcrystallo.cpp:83 src/badguy/fish_swimming.cpp:81
+msgid "Radius"
+msgstr "Doseg"
+
+#: src/object/rublight.hpp:34
+msgid "Rublight"
+msgstr "Svetlenka"
+
+#: src/object/rusty_trampoline.cpp:65
+msgid "Counter"
+msgstr "Preostalih skokov"
+
+#: src/object/rusty_trampoline.cpp:66 src/object/trampoline.cpp:66
+msgid "Portable"
+msgstr "Prenosljiv"
+
+#: src/object/thunderstorm.cpp:80
+msgid "Interval"
+msgstr "Interval"
+
+#: src/object/thunderstorm.cpp:81
+msgid "Strike Script"
+msgstr "Skripta ob udarcu"
+
+#: src/object/rock.hpp:40 src/object/bonus_block.cpp:269
+msgid "Rock"
+msgstr "Skala"
+
+#: src/object/snow_particle_system.hpp:37
+msgid "Snow Particles"
+msgstr "Snežni delci"
+
+#: src/object/pushbutton.hpp:32 src/trigger/scripttrigger.cpp:52
+msgid "Button"
+msgstr "Gumb"
+
+#: src/object/trampoline.hpp:37 src/object/bonus_block.cpp:269
+msgid "Trampoline"
+msgstr "Trampolin"
+
+#: src/object/invisible_wall.hpp:37
+msgid "Invisible Wall"
+msgstr "Nevidni zid"
+
+#: src/object/infoblock.hpp:37
+msgid "Info Block"
+msgstr "Poučna kocka"
+
+#: src/object/ispy.hpp:35
+msgid "Ispy"
+msgstr "Nadležno oko"
+
+#: src/object/spotlight.hpp:59
+msgid "Spotlight"
+msgstr "Žaromet"
+
+#: src/object/bicycle_platform.hpp:68
+msgid "Bicycle Platform"
+msgstr "Kolesna ploščad"
+
+#: src/object/level_time.hpp:76
+msgid "Time Limit"
+msgstr "Časovna omejitev"
+
+#: src/object/ambient_light.hpp:37
+msgid "Ambient Light"
+msgstr "Okoljska svetloba"
+
+#: src/object/candle.hpp:43
+msgid "Candle"
+msgstr "Sveča"
+
+#: src/object/particle_zone.hpp:38
+msgid "Particle zone"
+msgstr "Območje delcev"
+
+#: src/object/shard.hpp:35
+msgid "Shard"
+msgstr "Drobec"
+
+#: src/object/particlesystem.hpp:65
+msgid "Particle system"
+msgstr "Sistem delcev"
+
+#: src/object/particlesystem_interactive.hpp:48
+msgid "Interactive particle system"
+msgstr "Interaktivni sistem delcev"
+
+#: src/object/level_time.cpp:55 src/supertux/statistics.cpp:304
+#: src/editor/node_marker.cpp:124
+msgid "Time"
+msgstr "Čas"
+
+#: src/object/invisible_block.hpp:30
+msgid "Invisible Block"
+msgstr "Nevidna kocka"
+
+#: src/object/lantern.hpp:38
+msgid "Lantern"
+msgstr "Svetilka"
+
+#: src/object/textscroller.hpp:46
+msgid "Text Scroller"
+msgstr "Besedilni drsnik"
+
+#: src/object/decal.cpp:51 src/supertux/menu/joystick_menu.cpp:76
+#: src/supertux/menu/keyboard_menu.cpp:41
+msgid "Action"
+msgstr "Dejanje"
+
+#: src/object/platform.hpp:54
+msgid "Platform"
+msgstr "Ploščad"
+
+#: src/object/tilemap.hpp:68
+msgid "Tilemap"
+msgstr "Zaris podlage"
+
+#: src/object/bonus_block.cpp:154
+msgid "Only one custom object is allowed inside bonus blocks."
+msgstr "V bonus kockah je dovoljen le en predmet po meri."
+
+#: src/object/bonus_block.cpp:172
+msgid "Blue"
+msgstr "Modra"
+
+#: src/object/bonus_block.cpp:173
+msgid "Orange"
+msgstr "Oranžna"
+
+#: src/object/bonus_block.cpp:174
+msgid "Purple"
+msgstr "Vijolična"
+
+#: src/object/bonus_block.cpp:265
+msgid "Count"
+msgstr "Količina"
+
+#: src/object/bonus_block.cpp:266
+msgid "Content"
+msgstr "Vsebina"
+
+#: src/object/bonus_block.cpp:267
+msgid "Growth (fire flower)"
+msgstr "Rast (ognjena roža)"
+
+#: src/object/bonus_block.cpp:267
+msgid "Growth (ice flower)"
+msgstr "Rast (ledena roža)"
+
+#: src/object/bonus_block.cpp:267
+msgid "Growth (air flower)"
+msgstr "Rast (vetrna roža)"
+
+#: src/object/bonus_block.cpp:268
+msgid "Growth (earth flower)"
+msgstr "Rast (zemeljska roža)"
+
+#: src/object/bonus_block.cpp:268
+msgid "Growth (retro)"
+msgstr "Rast (retro)"
+
+#: src/object/bonus_block.cpp:268
+msgid "Star (retro)"
+msgstr "Zvezda (retro)"
+
+#: src/object/bonus_block.cpp:268
+msgid "Tux doll"
+msgstr "Lutka Tuksa"
+
+#: src/object/bonus_block.cpp:268
+msgid "Custom"
+msgstr "Po meri"
+
+#: src/object/bonus_block.cpp:268
+msgid "Light"
+msgstr "Svetloba"
+
+#: src/object/bonus_block.cpp:268
+msgid "Light (On)"
+msgstr "Svetloba (vključena)"
+
+#: src/object/bonus_block.cpp:269
+msgid "Portable trampoline"
+msgstr "Prenosljiv trampolin"
+
+#: src/object/bonus_block.cpp:269
+msgid "Coin rain"
+msgstr "Vsuvanje kovancev"
+
+#: src/object/bonus_block.cpp:269
+msgid "Coin explosion"
+msgstr "Eksplozija kovancev"
+
+#: src/object/bonus_block.cpp:269
+msgid "Potion"
+msgstr "Napoj"
+
+#: src/object/bonus_block.cpp:275
+msgid "Custom Content"
+msgstr "Vsebina po meri"
+
+#: src/object/bonus_block.cpp:278
+msgid "Coin sprite"
+msgstr "Izrezek kovanca"
+
+#: src/object/bicycle_platform.cpp:204
+msgid "Platforms"
+msgstr "Ploščadi"
+
+#: src/object/bicycle_platform.cpp:206
+msgid "Momentum change rate"
+msgstr "Hitrost spremembe gibanja"
+
+#: src/object/cloud_particle_system.hpp:51
+msgid "Cloud Particles"
+msgstr "Oblačni delci"
+
+#: src/object/explosion.hpp:37
+msgid "Explosion"
+msgstr "Eksplozija"
+
+#: src/object/rock.cpp:77
+msgid "Small"
+msgstr "Majhna"
+
+#: src/object/rock.cpp:78
+msgid "Large"
+msgstr "Velika"
+
+#: src/object/rock.cpp:288
+msgid "On-grab script"
+msgstr "Skripta ob prijemu"
+
+#: src/object/rock.cpp:289
+msgid "On-ungrab script"
+msgstr "Skripta ob odlaganju"
+
+#: src/object/wind.hpp:43
+msgid "Wind"
+msgstr "Veter"
+
+#: src/object/coin.cpp:338 src/object/coin.cpp:374
+msgid "Collect script"
+msgstr "Zbiralna skripta"
+
+#: src/object/torch.hpp:47
+msgid "Torch"
+msgstr "Bakla"
+
+#: src/object/rain_particle_system.cpp:98
+msgid "Intensity"
+msgstr "Jakost"
+
+#: src/object/conveyor_belt.cpp:65
+msgid "Length"
+msgstr "Dolžina"
+
+#: src/object/ghost_particle_system.hpp:37
+msgid "Ghost Particles"
+msgstr "Strahčevski delci"
+
+#: src/object/hurting_platform.hpp:31
+msgid "Hurting Platform"
+msgstr "Škodljiva ploščad"
+
+#: src/object/unstable_tile.cpp:72
+msgid "Delayed"
+msgstr "Zakasnjena"
+
+#: src/object/trampoline.cpp:67
+msgid "Stationary"
+msgstr "Nepremičen"
+
+#: src/trigger/climbable.hpp:46
+msgid "Climbable"
+msgstr "Plezljivo"
+
+#: src/trigger/secretarea_trigger.cpp:47
+msgid "You found a secret area!"
+msgstr "Odkril/a si skrito sobo!"
+
+#: src/trigger/secretarea_trigger.cpp:55 src/supertux/game_object.cpp:111
+#: src/supertux/menu/profile_name_menu.cpp:39
+#: src/supertux/menu/editor_level_menu.cpp:33
+#: src/supertux/menu/editor_sector_menu.cpp:36
+#: src/supertux/menu/editor_new_levelset_menu.cpp:34
+#: src/supertux/menu/editor_levelset_menu.cpp:52
+msgid "Name"
+msgstr "Ime"
+
+#: src/trigger/secretarea_trigger.cpp:56
+msgid "Fade tilemap"
+msgstr "Prekrivni zaris podlage"
+
+#: src/trigger/scripttrigger.cpp:53
+msgid "Oneshot"
+msgstr "Ustavi na koncu"
+
+#: src/trigger/sequence_trigger.cpp:48
+msgid "Sequence"
+msgstr "Sekvenca"
+
+#: src/trigger/sequence_trigger.cpp:49
+msgid "end sequence"
+msgstr "končna sekvenca"
+
+#: src/trigger/sequence_trigger.cpp:49
+msgid "stop Tux"
+msgstr "ustavi Tuksa"
+
+#: src/trigger/sequence_trigger.cpp:49
+msgid "fireworks"
+msgstr "ognjemet"
+
+#: src/trigger/sequence_trigger.cpp:53
+msgid "New worldmap spawnpoint"
+msgstr "Nova začetna točka"
+
+#: src/trigger/sequence_trigger.cpp:54
+msgid "Worldmap fade tilemap"
+msgstr "Prekrivni zaris sveta"
+
+#: src/trigger/sequence_trigger.cpp:56 src/editor/particle_editor.cpp:161
+msgid "Fade in"
+msgstr "Prikaži"
+
+#: src/trigger/sequence_trigger.cpp:56 src/editor/particle_editor.cpp:167
+#: src/editor/particle_editor.cpp:212
+msgid "Fade out"
+msgstr "Skrij"
+
+#: src/trigger/switch.hpp:30
+msgid "Switch"
+msgstr "Vzvod"
+
+#: src/trigger/secretarea_trigger.hpp:36
+msgid "Secret Area"
+msgstr "Skrita soba"
+
+#: src/trigger/door.cpp:80 src/badguy/willowisp.cpp:303
+#: src/worldmap/teleporter.cpp:47
+msgid "Sector"
+msgstr "Predel"
+
+#: src/trigger/door.cpp:81 src/worldmap/spawn_point.hpp:58
+msgid "Spawn point"
+msgstr "Začetna točka"
+
+#: src/trigger/door.cpp:82
+msgid "Locked?"
+msgstr "Zaklenjena?"
+
+#: src/trigger/door.cpp:83
+msgid "Lock Color"
+msgstr "Barva ključavnice"
+
+#: src/trigger/switch.cpp:66
+msgid "Turn on script"
+msgstr "Sprožitvena skripta"
+
+#: src/trigger/switch.cpp:67
+msgid "Turn off script"
+msgstr "Izklopna skripta"
+
+#: src/trigger/sequence_trigger.hpp:31
+msgid "Sequence Trigger"
+msgstr "Sprožilec sekvence"
+
+#: src/trigger/text_area.cpp:141
+msgid "Once"
+msgstr "Enkrat"
+
+#: src/trigger/text_area.cpp:142
+msgid "Text change time"
+msgstr "Čas spremembe besedila"
+
+#: src/trigger/text_area.cpp:143
+msgid "Fade time"
+msgstr "Čas bledenja"
+
+#: src/trigger/text_area.cpp:148
+msgid "Anchor offset X"
+msgstr "Odmik sidrišča po X"
+
+#: src/trigger/text_area.cpp:149
+msgid "Anchor offset Y"
+msgstr "Odmik sidrišča po Y"
+
+#: src/trigger/text_area.cpp:150
+msgid "Texts"
+msgstr "Besedila"
+
+#: src/trigger/scripttrigger.hpp:29
+msgid "Script Trigger"
+msgstr "Sprožilec skripte"
+
+#: src/trigger/door.hpp:31
+msgid "Door"
+msgstr "Vrata"
+
+#: src/trigger/text_area.hpp:47
+msgid "Text Area"
+msgstr "Besedilno polje"
+
+#: src/supertux/sector.cpp:514
+msgid "Press escape to skip"
+msgstr "Preskoči s pritiskom na ubežnico (Esc)"
+
+#: src/supertux/game_object.hpp:122
+msgid "Unknown object"
+msgstr "Neznan predmet"
+
+#: src/supertux/levelintro.cpp:137
+msgid "contributed by {}"
+msgstr "Avtor/ica: {}"
+
+#: src/supertux/levelintro.cpp:175 src/supertux/statistics.cpp:192
+msgid "Best Level Statistics"
+msgstr "Najboljša statistika"
+
+#: src/supertux/levelintro.cpp:184 src/supertux/statistics.cpp:320
+msgid "Coins"
+msgstr "Kovanci"
+
+#: src/supertux/levelintro.cpp:190
+msgid "Badguys killed"
+msgstr "Ubitih pridaničev"
+
+#: src/supertux/levelintro.cpp:196 src/supertux/statistics.cpp:371
+msgid "Secrets"
+msgstr "Skrivne dragotine"
+
+#: src/supertux/levelintro.cpp:202
+msgid "Best time"
+msgstr "Najboljši čas"
+
+#: src/supertux/levelintro.cpp:206
+msgid "Level target time"
+msgstr "Ciljni čas stopnje"
+
+#: src/supertux/direction.cpp:67
+msgid "up"
+msgstr "gor"
+
+#: src/supertux/direction.cpp:69
+msgid "down"
+msgstr "dol"
+
+#: src/supertux/direction.cpp:76 src/supertux/menu/options_menu.cpp:268
+#: src/supertux/menu/options_menu.cpp:311
+msgid "auto"
+msgstr "samodejno"
+
+#: src/supertux/statistics.cpp:70
+msgid "Enable Coins Statistic"
+msgstr "Omogoči statistiko kovancev"
+
+#: src/supertux/statistics.cpp:71
+msgid "Enable Badguys Statistic"
+msgstr "Omogoči statistiko pridaničev"
+
+#: src/supertux/statistics.cpp:72
+msgid "Enable Secrets Statistic"
+msgstr "Omogoči statistiko skrivnih dragotin"
+
+#: src/supertux/statistics.cpp:93
+msgid "Max coins collected:"
+msgstr "Največ zbranih kovancev:"
+
+#: src/supertux/statistics.cpp:94
+msgid "Max fragging:"
+msgstr "Največ premaganih:"
+
+#: src/supertux/statistics.cpp:95
+msgid "Max secrets found:"
+msgstr "Največ najdenih skrivnosti:"
+
+#: src/supertux/statistics.cpp:96
+msgid "Best time completed:"
+msgstr "Najboljši čas:"
+
+#: src/supertux/statistics.cpp:97
+msgid "Level target time:"
+msgstr "Ciljni čas stopnje:"
+
+#: src/supertux/statistics.cpp:294
+msgid "You"
+msgstr "Ti"
+
+#: src/supertux/statistics.cpp:296
+msgid "Best"
+msgstr "Najboljši"
+
+#: src/supertux/statistics.cpp:348
+msgid "Badguys"
+msgstr "Pridaniči"
+
+#: src/supertux/command_line_arguments.cpp:92
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "Uporaba: {} [MOŽNOSTI] [DATOTEKA_STOPNJE]"
+
+#: src/supertux/command_line_arguments.cpp:93
+msgid "General Options:"
+msgstr "Splošne možnosti:"
+
+#: src/supertux/command_line_arguments.cpp:94
+msgid "  -h, --help                   Show this help message and quit"
+msgstr "-h, --help : Prikaži sporočilo s pomočjo in ustavi program"
+
+#: src/supertux/command_line_arguments.cpp:95
+msgid "  -v, --version                Show SuperTux version and quit"
+msgstr "-v, --version : Izpiši različico igre in ustavi program"
+
+#: src/supertux/command_line_arguments.cpp:96
+msgid "  --verbose                    Print verbose messages"
+msgstr "--verobse : Izpiši informativna sporočila"
+
+#: src/supertux/command_line_arguments.cpp:97
+msgid "  --debug                      Print extra verbose messages"
+msgstr "--debug : Izpiši dodatna informativna sporočila"
+
+#: src/supertux/command_line_arguments.cpp:98
+msgid ""
+"  --print-datadir              Print SuperTux's primary data directory."
+msgstr "--print-datadir : Izpiši glavni podatkovni imenik igre"
+
+#: src/supertux/command_line_arguments.cpp:99
+msgid ""
+"  --acknowledgements           Print the licenses of libraries used by "
+"SuperTux."
+msgstr "--acknowledgements : Izpiši licence vseh knjižnic, ki jih uporablja SuperTux."
+
+#: src/supertux/command_line_arguments.cpp:101
+msgid "Video Options:"
+msgstr "Nastavitve slike:"
+
+#: src/supertux/command_line_arguments.cpp:102
+msgid "  -f, --fullscreen             Run in fullscreen mode"
+msgstr "-f, --fullscreen : Igra zapolni ves zaslon"
+
+#: src/supertux/command_line_arguments.cpp:103
+msgid "  -w, --window                 Run in window mode"
+msgstr "-w, --window : Igra teče v oknu"
+
+#: src/supertux/command_line_arguments.cpp:104
+msgid "  -g, --geometry WIDTHxHEIGHT  Run SuperTux in given resolution"
+msgstr "-g, --geometry ŠIRINAxVIŠINA : SuperTux teče v dani ločljivosti"
+
+#: src/supertux/command_line_arguments.cpp:105
+msgid "  -a, --aspect WIDTH:HEIGHT    Run SuperTux with given aspect ratio"
+msgstr "-a, --aspect ŠIRINA:VIŠINA : SuperTux teče v danem razmerju"
+
+#: src/supertux/command_line_arguments.cpp:106
+msgid "  -d, --default                Reset video settings to default values"
+msgstr "-d, --default : Ponastavi nastavitve slike na privzete vrednosti"
+
+#: src/supertux/command_line_arguments.cpp:107
+msgid "  --renderer RENDERER          Use sdl, opengl, or auto to render"
+msgstr "--renderer IZRISOVALNIK : Za poganjanje igre uporabi sdl, opengl ali auto"
+
+#: src/supertux/command_line_arguments.cpp:109
+msgid "Audio Options:"
+msgstr "Možnosti zvoka:"
+
+#: src/supertux/command_line_arguments.cpp:110
+msgid "  --disable-sound              Disable sound effects"
+msgstr "--disable-sound : Onemogoči zvočne učinke"
+
+#: src/supertux/command_line_arguments.cpp:111
+msgid "  --disable-music              Disable music"
+msgstr "--disable-music : Onemogoči glasbo"
+
+#: src/supertux/command_line_arguments.cpp:113
+msgid "Game Options:"
+msgstr "Možnosti igre:"
+
+#: src/supertux/command_line_arguments.cpp:114
+msgid "  --edit-level                 Open given level in editor"
+msgstr "--edit-level : Odpri dano stopnjo v urejevalniku"
+
+#: src/supertux/command_line_arguments.cpp:115
+msgid "  --resave                     Loads given level and saves it"
+msgstr " --resave : Naloži dano stopnjo in jo shrani"
+
+#: src/supertux/command_line_arguments.cpp:116
+msgid "  --show-fps                   Display framerate in levels"
+msgstr " --show-fps : Med igranjem pokaži hitrost sličic"
+
+#: src/supertux/command_line_arguments.cpp:117
+msgid "  --no-show-fps                Do not display framerate in levels"
+msgstr " --no-show-fps : Med igranjem ne pokaži hitrosti sličic"
+
+#: src/supertux/command_line_arguments.cpp:118
+msgid "  --show-pos                   Display player's current position"
+msgstr "--show-pos : Prikaže igralčev trenutni položaj"
+
+#: src/supertux/command_line_arguments.cpp:119
+msgid "  --no-show-pos                Do not display player's position"
+msgstr "--no-show-pos : Skrije igralčev položaj"
+
+#: src/supertux/command_line_arguments.cpp:120
+msgid "  --developer                  Switch on developer feature"
+msgstr "--developer : Vklopi razvijalske pripomočke"
+
+#: src/supertux/command_line_arguments.cpp:121
+msgid "  -s, --debug-scripts          Enable script debugger."
+msgstr "-s, --debug-scripts : Omogoči razhroščevanje ukaznih datotek"
+
+#: src/supertux/command_line_arguments.cpp:122
+msgid ""
+"  --spawn-pos X,Y              Where in the level to spawn Tux. Only used if"
+" level is specified."
+msgstr "--spawn-pos X,Y : Kje v stopnji se bo prikazal Tuks. Uporabi se le, če je stopnja določena."
+
+#: src/supertux/command_line_arguments.cpp:123
+msgid "  --sector SECTOR              Spawn Tux in SECTOR\n"
+msgstr " --sector PREDEL : Udejanji Tuksa v PREDELU\n"
+
+#: src/supertux/command_line_arguments.cpp:124
+msgid "  --spawnpoint SPAWNPOINT      Spawn Tux at SPAWNPOINT\n"
+msgstr " --spawnpoint ZAČETNA TOČKA : Udejanji Tuksa na ZAČETNI TOČKI \n"
+
+#: src/supertux/command_line_arguments.cpp:126
+msgid "Directory Options:"
+msgstr "Možnosti imenika:"
+
+#: src/supertux/command_line_arguments.cpp:127
+msgid ""
+"  --datadir DIR                Set the directory for the games datafiles"
+msgstr "--datadir IMENIK : Nastavi imenik za podatke igre"
+
+#: src/supertux/command_line_arguments.cpp:128
+msgid ""
+"  --userdir DIR                Set the directory for user data (savegames, "
+"etc.)"
+msgstr "--userdir IMENIK : Nastavi imenik za uporabniške podatke (hrambene datoteke itd.)"
+
+#: src/supertux/command_line_arguments.cpp:130
+msgid "Add-On Options:"
+msgstr "Možnosti dodatkov:"
+
+#: src/supertux/command_line_arguments.cpp:131
+msgid "  --repository-url URL         Set the URL to the Add-On repository"
+msgstr "--repository-url URL : Nastavi povezavo do repozitorija za dodatek"
+
+#: src/supertux/command_line_arguments.cpp:133
+msgid "Environment variables:"
+msgstr "Okoljske spremenljivke:"
+
+#: src/supertux/command_line_arguments.cpp:134
+msgid ""
+"  SUPERTUX2_USER_DIR           Directory for user data (savegames, etc.)"
+msgstr "SUPERTUX2_USER_DIR : Imenik za uporabniške podatke (hrambene datoteke itd.)"
+
+#: src/supertux/command_line_arguments.cpp:135
+msgid "  SUPERTUX2_DATA_DIR           Directory for the games datafiles"
+msgstr "SUPERTUX2_DATA_DIR : Imenik za podatke igre"
+
+#: src/supertux/main.cpp:802
+msgid "New release: SuperTux v{}!"
+msgstr "Nova izdaja: SuperTuks različica {}!"
+
+#: src/supertux/main.cpp:805
+msgid ""
+"A new release of SuperTux (v{}) is available!\n"
+"For more information, you can visit the SuperTux website.\n"
+"\n"
+"Do you want to visit the website now?"
+msgstr "Izšla je nova izdaja SuperTuksa (različica {})!\nVeč o tem piše na spletnem mestu SuperTux.\n\nAli ga želiš obiskati kar zdaj?"
+
+#: src/supertux/main.cpp:816
+msgid "Checking for new releases..."
+msgstr "Preverjam za nove izdaje ..."
+
+#: src/supertux/game_object.cpp:110
+msgid "Version"
+msgstr "Različica"
+
+#: src/supertux/game_object.cpp:125
+#: src/supertux/menu/editor_levelset_menu.cpp:54
+msgid "Type"
+msgstr "Vrsta"
+
+#: src/supertux/tile_set.cpp:139
+msgid "Others"
+msgstr "Drugo"
+
+#: src/supertux/menu/worldmap_menu.cpp:28
+msgid "Pause"
+msgstr "Premor"
+
+#: src/supertux/menu/worldmap_menu.cpp:30 src/supertux/menu/game_menu.cpp:51
+msgid "Continue"
+msgstr "Nadaljuj"
+
+#: src/supertux/menu/worldmap_menu.cpp:31 src/supertux/menu/game_menu.cpp:58
+#: src/supertux/menu/editor_menu.cpp:70
+#: src/supertux/menu/options_select_menu.cpp:29
+#: src/supertux/menu/main_menu.cpp:62
+msgid "Options"
+msgstr "Nastavitve"
+
+#: src/supertux/menu/worldmap_menu.cpp:33
+msgid "Leave World"
+msgstr "Zapusti svet"
+
+#: src/supertux/menu/worldmap_cheat_apply_menu.cpp:32
+#: src/supertux/menu/cheat_apply_menu.cpp:30
+msgid "Apply cheat to player"
+msgstr "Omogoči švindlanje za igralca"
+
+#: src/supertux/menu/worldmap_cheat_apply_menu.cpp:36
+#: src/supertux/menu/cheat_apply_menu.cpp:36
+#: src/supertux/menu/multiplayer_players_menu.cpp:39
+#: src/supertux/menu/multiplayer_player_menu.cpp:37
+#: src/supertux/menu/keyboard_menu.cpp:64
+msgid "Player {}"
+msgstr "Igralec/ka {}"
+
+#: src/supertux/menu/worldmap_cheat_apply_menu.cpp:39
+#: src/supertux/menu/web_asset_menu.cpp:48
+#: src/supertux/menu/editor_levelset_select_menu.cpp:115
+#: src/supertux/menu/addon_preview_menu.cpp:205
+#: src/supertux/menu/cheat_apply_menu.cpp:40
+#: src/supertux/menu/editor_level_select_menu.cpp:98
+#: src/supertux/menu/profile_name_menu.cpp:45
+#: src/supertux/menu/custom_menu_menu.cpp:65
+#: src/supertux/menu/joystick_menu.cpp:100
+#: src/supertux/menu/language_menu.cpp:63
+#: src/supertux/menu/multiplayer_menu.cpp:39
+#: src/supertux/menu/multiplayer_players_menu.cpp:94
+#: src/supertux/menu/multiplayer_player_menu.cpp:187
+#: src/supertux/menu/debug_menu.cpp:85
+#: src/supertux/menu/sorted_contrib_menu.cpp:51
+#: src/supertux/menu/options_select_menu.cpp:44
+#: src/supertux/menu/cheat_menu.cpp:57
+#: src/supertux/menu/addon_file_install_menu.cpp:36
+#: src/supertux/menu/editor_converters_menu.cpp:79
+#: src/supertux/menu/integrations_menu.cpp:60
+#: src/supertux/menu/addon_browse_menu.cpp:162
+#: src/supertux/menu/keyboard_menu.cpp:72
+#: src/supertux/menu/editor_new_levelset_menu.cpp:40
+#: src/supertux/menu/profile_menu.cpp:118
+#: src/supertux/menu/world_set_menu.cpp:33
+#: src/supertux/menu/contrib_levelset_menu.cpp:67
+#: src/supertux/menu/video_system_menu.cpp:45
+#: src/supertux/menu/contrib_menu.cpp:105
+#: src/supertux/menu/options_menu.cpp:245
+#: src/supertux/menu/editor_delete_level_menu.cpp:68
+#: src/supertux/menu/addon_menu.cpp:161
+#: src/supertux/menu/worldmap_cheat_menu.cpp:57
+#: src/supertux/menu/worldmap_cheat_menu.cpp:185
+#: src/supertux/menu/editor_delete_levelset_menu.cpp:69
+#: src/gui/menu_paths.cpp:67
+msgid "Back"
+msgstr "Nazaj"
+
+#: src/supertux/menu/web_asset_menu.cpp:38 src/supertux/menu/main_menu.cpp:60
+msgid "Manage Assets"
+msgstr "Upravljaj s sredstvi"
+
+#: src/supertux/menu/web_asset_menu.cpp:42
+msgid "New files location"
+msgstr "Lokacija za nove datoteke"
+
+#: src/supertux/menu/web_asset_menu.cpp:43
+msgid "Add Files"
+msgstr "Dodaj datoteke"
+
+#: src/supertux/menu/web_asset_menu.cpp:44
+msgid "Download Files"
+msgstr "Prenesi datoteke"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:72
+msgid "Choose World"
+msgstr "Izberi svet"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:100
+msgid "{} level"
+msgid_plural "{} levels"
+msgstr[0] "{} stopnja"
+msgstr[1] "{} stopnji"
+msgstr[2] "{} stopnje"
+msgstr[3] "{} stopenj"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:113
+msgid "Create World"
+msgstr "Ustvari svet"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:114
+#: src/supertux/menu/editor_delete_levelset_menu.cpp:41
+msgid "Delete World"
+msgstr "Izbriši svet"
+
+#: src/supertux/menu/addon_preview_menu.cpp:87
+msgid "{} \"{}\""
+msgstr "{} \"{}\""
+
+#: src/supertux/menu/addon_preview_menu.cpp:92
+msgid "Some information about this add-on is not available."
+msgstr "Nekaterih informacij o tem dodatku ni na voljo."
+
+#: src/supertux/menu/addon_preview_menu.cpp:93
+msgid "Perform a \"Check Online\" to try retrieving it."
+msgstr "S klikom na \"Preveri na spletu\" jih lahko poskusiš pridobiti."
+
+#: src/supertux/menu/addon_preview_menu.cpp:97
+msgid "No author specified."
+msgstr "Avtor ni naveden."
+
+#: src/supertux/menu/addon_preview_menu.cpp:97
+msgid "Author: {}"
+msgstr "Avtor/ica: {}"
+
+#: src/supertux/menu/addon_preview_menu.cpp:98
+msgid "Type: {}"
+msgstr "Vrsta: {}"
+
+#: src/supertux/menu/addon_preview_menu.cpp:99
+msgid "No license specified."
+msgstr "Licenca ni določena."
+
+#: src/supertux/menu/addon_preview_menu.cpp:99
+msgid "License: {}"
+msgstr "Licenca: {}"
+
+#: src/supertux/menu/addon_preview_menu.cpp:104
+msgid "Dependencies:"
+msgstr "Odvisnosti:"
+
+#: src/supertux/menu/addon_preview_menu.cpp:113
+msgid "Installed"
+msgstr "Nameščen"
+
+#: src/supertux/menu/addon_preview_menu.cpp:113
+msgid "Not installed"
+msgstr "Ni nameščen"
+
+#: src/supertux/menu/addon_preview_menu.cpp:118
+msgid "Not available!"
+msgstr "Ni na voljo!"
+
+#: src/supertux/menu/addon_preview_menu.cpp:125
+msgid "Description:"
+msgstr "Opis:"
+
+#: src/supertux/menu/addon_preview_menu.cpp:128
+msgid "No description available."
+msgstr "Opis ni na voljo."
+
+#: src/supertux/menu/addon_preview_menu.cpp:141
+msgid "Overrides Data: "
+msgstr "Povozi podatke:"
+
+#: src/supertux/menu/addon_preview_menu.cpp:141
+#: src/supertux/menu/editor_level_select_menu.cpp:181
+#: src/supertux/menu/editor_level_menu.cpp:40 src/gui/dialog.hpp:96
+#: src/editor/editor.cpp:671
+msgid "Yes"
+msgstr "Da"
+
+#: src/supertux/menu/addon_preview_menu.cpp:141
+#: src/supertux/menu/editor_level_select_menu.cpp:185
+#: src/supertux/menu/editor_level_menu.cpp:40 src/gui/dialog.hpp:97
+#: src/editor/particle_editor.cpp:781 src/editor/editor.cpp:678
+msgid "No"
+msgstr "Ne"
+
+#: src/supertux/menu/addon_preview_menu.cpp:155
+msgid "Failed to load all available screenshot previews."
+msgstr "Nalaganje vseh zaslonskih predogledov ni uspelo."
+
+#: src/supertux/menu/addon_preview_menu.cpp:160
+msgid "To fetch add-on screenshots, you must enable networking."
+msgstr "Če želiš pridobiti slike dodatkov, omogoči povezavo z internetom."
+
+#: src/supertux/menu/addon_preview_menu.cpp:164
+msgid "Show screenshots"
+msgstr "Prikaži zaslonske predoglede"
+
+#: src/supertux/menu/addon_preview_menu.cpp:177
+msgid "Screenshot previews are disabled for automatic installs."
+msgstr "Zaslonski predogledi so onemogočeni pri samodejnih namestitvah."
+
+#: src/supertux/menu/addon_preview_menu.cpp:181
+msgid "No screenshot previews available."
+msgstr "Zaslonski predogledi niso na voljo."
+
+#: src/supertux/menu/addon_preview_menu.cpp:189
+#: src/gui/menu_string_array.cpp:81 src/editor/object_menu.cpp:61
+msgid "Update"
+msgstr "Posodobi"
+
+#: src/supertux/menu/addon_preview_menu.cpp:189
+msgid "Install"
+msgstr "Namesti"
+
+#: src/supertux/menu/addon_preview_menu.cpp:202
+msgid "Uninstall"
+msgstr "Odstrani"
+
+#: src/supertux/menu/addon_preview_menu.cpp:226
+msgid "Are you sure you want to uninstall \"{}\"?"
+msgstr "Ali si prepričan/a, da želiš odstraniti \"{}\"?"
+
+#: src/supertux/menu/addon_preview_menu.cpp:227
+msgid ""
+"\n"
+"Your progress won't be lost."
+msgstr "\nTvoj napredek se bo ohranil."
+
+#: src/supertux/menu/addon_preview_menu.cpp:239
+msgid ""
+"NOTE: The add-on \"{}\" is a dependency of {} other installed {}.\n"
+"Are you sure you wish to uninstall?"
+msgstr "POZOR: Dodatek \"{}\" je pomemben gradnik {} {}.\nAli ga zares želiš odstraniti?"
+
+#: src/supertux/menu/addon_preview_menu.cpp:258
+msgid ""
+"Cannot toggle add-on \"{}\":\n"
+"{}"
+msgstr "Ne morem preklopiti dodatka \"{}\":\n{}"
+
+#: src/supertux/menu/addon_preview_menu.cpp:291
+msgid "Fetching screenshot previews..."
+msgstr "Pridobivam zaslonske predoglede ..."
+
+#: src/supertux/menu/addon_preview_menu.cpp:312
+msgid "Updating"
+msgstr "Posodabljam"
+
+#: src/supertux/menu/addon_preview_menu.cpp:312
+msgid "Downloading"
+msgstr "Prenašam"
+
+#: src/supertux/menu/addon_preview_menu.cpp:340
+msgid "Add-on uninstalled successfully."
+msgstr "Dodatek je uspešno odstranjen."
+
+#: src/supertux/menu/addon_preview_menu.cpp:345
+msgid ""
+"Error uninstalling add-on:\n"
+"{}"
+msgstr "Napaka pri odstranjevanju dodatka:\n{}"
+
+#: src/supertux/menu/addon_preview_menu.cpp:373
+msgid ""
+"Please restart SuperTux\n"
+"for these changes to take effect."
+msgstr "Prosimo, ponovno zaženi SuperTux,\nda bodo spremembe delovale."
+
+#: src/supertux/menu/cheat_apply_menu.cpp:33
+msgid "All Players"
+msgstr "Vsi igralci"
+
+#: src/supertux/menu/particle_editor_open.cpp:32
+msgid "Load particle file"
+msgstr "Naloži datoteko z delci"
+
+#: src/supertux/menu/particle_editor_open.cpp:39
+msgid "Open"
+msgstr "Odpri"
+
+#: src/supertux/menu/particle_editor_open.cpp:43
+#: src/supertux/menu/editor_level_select_menu.cpp:190
+#: src/supertux/menu/editor_sectors_menu.cpp:45
+#: src/supertux/menu/editor_sectors_menu.cpp:94
+#: src/supertux/menu/editor_sectors_menu.cpp:99
+#: src/supertux/menu/particle_editor_save_as.cpp:42
+#: src/supertux/menu/editor_tilegroup_menu.cpp:36
+#: src/supertux/menu/editor_save_as.cpp:42
+#: src/supertux/menu/editor_objectgroup_menu.cpp:42
+#: src/gui/menu_filesystem.cpp:121 src/gui/menu_list.cpp:38
+#: src/gui/menu_paths.cpp:48 src/editor/particle_editor.cpp:785
+#: src/editor/editor.cpp:682
+msgid "Cancel"
+msgstr "Prekliči"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:72
+msgid "Empty World"
+msgstr "Prazen svet"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:87
+msgid "Create Level"
+msgstr "Ustvari stopnjo"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:91
+msgid "Edit Worldmap"
+msgstr "Uredi zaris sveti"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:93
+msgid "Create Worldmap"
+msgstr "Ustvari zaris sveta"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:95
+#: src/supertux/menu/editor_delete_level_menu.cpp:55
+msgid "Delete level"
+msgstr "Izbriši stopnjo"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:97
+#: src/supertux/menu/editor_levelset_menu.cpp:50
+msgid "World Settings"
+msgstr "Nastavitve sveta"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:141
+msgid ""
+"Share this worldmap under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in worldmap properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "Ta zaris sveta lahko deliš pod licenco CC-BY-SA 4.0 International (priporočljivo).\nS tem sta drugim omogočena preurejanje in ponovno deljenje.\nČe se s to licenco ne strinjaš, jo spremeni v nastavitvah sveta.\nOPOZORILO: Avtorji SuperTuxa ne prevzemajo odgovornosti za tvojo izbiro licence."
+
+#: src/supertux/menu/editor_level_select_menu.cpp:148
+msgid ""
+"Share this level under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in level properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "To stopnjo deli pod licenco CC-BY-SA 4.0 International (priporočljivo).\nS tem sta drugim omogočena preurejanje in ponovno deljenje.\nČe se s to licenco ne strinjaš, jo spremeni v nastavitvah stopnje.\nOPOZORILO: Avtorji SuperTuxa ne prevzemajo odgovornosti za tvojo izbiro licence."
+
+#: src/supertux/menu/editor_level_select_menu.cpp:179
+msgid ""
+"An auto-save recovery file was found. Would you like to restore the recovery\n"
+"file and resume where you were before the editor crashed?"
+msgstr "Igra je odkrila obnovitveno shrambeno datoteko. Ali želiš obnoviti shranjeno stanje\nin nadaljevati tam, kjer si ostal/a, preden se je program sesul?"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:186
+msgid "This will delete the auto-save file. Are you sure?"
+msgstr "To bo izbrisalo shrambeno datoteko. Želiš nadaljevati?"
+
+#: src/supertux/menu/profile_name_menu.cpp:36
+msgid "Rename \"{}\""
+msgstr "Preimenuj \"{}\""
+
+#: src/supertux/menu/profile_name_menu.cpp:36
+msgid "Add profile"
+msgstr "Dodaj profil"
+
+#: src/supertux/menu/profile_name_menu.cpp:40
+msgid "Profile names must have a maximum of 20 characters."
+msgstr "Imena profilov imajo lahko največ 20 znakov."
+
+#: src/supertux/menu/profile_name_menu.cpp:42
+#: src/supertux/menu/profile_menu.cpp:91 src/supertux/menu/profile_menu.cpp:93
+msgid "Rename"
+msgstr "Preimenuj"
+
+#: src/supertux/menu/profile_name_menu.cpp:42
+msgid "Create"
+msgstr "Ustvari"
+
+#: src/supertux/menu/profile_name_menu.cpp:56
+msgid ""
+"Profile names must have a maximum of 20 characters.\n"
+"Please choose a different name."
+msgstr "Imena profilov imajo lahko največ 20 znakov.\nProsim, izberi drugačno ime."
+
+#: src/supertux/menu/profile_name_menu.cpp:77
+msgid "An error occurred while creating the profile."
+msgstr "Med ustvarjanjem profila je prišlo do napake."
+
+#: src/supertux/menu/particle_editor_menu.cpp:32
+msgid "Particle Editor"
+msgstr "Urejevalnik delcev"
+
+#: src/supertux/menu/particle_editor_menu.cpp:36
+#: src/supertux/menu/editor_menu.cpp:60
+msgid "Return to Editor"
+msgstr "Nazaj v urejevalnik"
+
+#: src/supertux/menu/particle_editor_menu.cpp:37
+msgid "New Particle Config"
+msgstr "Nova konfiguracija delcev"
+
+#: src/supertux/menu/particle_editor_menu.cpp:38
+msgid "Save Particle Config"
+msgstr "Shrani konfiguracijo delcev"
+
+#: src/supertux/menu/particle_editor_menu.cpp:39
+msgid "Save Particle Config as..."
+msgstr "Shrani konfiguracijo delcev kot ..."
+
+#: src/supertux/menu/particle_editor_menu.cpp:40
+msgid "Load Another Particle Config"
+msgstr "Naloži novo konfiguracijo delcev"
+
+#: src/supertux/menu/particle_editor_menu.cpp:44
+msgid "Open Particle Directory"
+msgstr "Odpri imenik delcev"
+
+#: src/supertux/menu/particle_editor_menu.cpp:45
+#: src/supertux/menu/editor_menu.cpp:118
+msgid "Keyboard Shortcuts"
+msgstr "Bližnjice na tipkovnici"
+
+#: src/supertux/menu/particle_editor_menu.cpp:49
+msgid "Exit Particle Editor"
+msgstr "Zapusti urejevalnik delcev"
+
+#: src/supertux/menu/particle_editor_menu.cpp:121
+msgid ""
+"Keyboard Shortcuts:\n"
+"---------------------\n"
+"Esc = Open Menu\n"
+"Ctrl+S = Save\n"
+"Ctrl+Shift+S = Save as\n"
+"Ctrl+O = Open\n"
+"Ctrl+Z = Undo\n"
+"Ctrl+Y = Redo"
+msgstr "Bližnjice:\n---------------------\nEsc = Odpri meni\nCtrl+S = Shrani\nCtrl+Shift+S = Shrani kot\nCtrl+O = Odpri\nCtrl+Z = Razveljavi\nCtrl+Y = Ponovi"
+
+#: src/supertux/menu/particle_editor_menu.cpp:122
+#: src/supertux/menu/editor_menu.cpp:236
+msgid "Got it!"
+msgstr "Razumem!"
+
+#: src/supertux/menu/game_menu.cpp:52
+msgid "Restart Level"
+msgstr "Znova zaženi stopnjo"
+
+#: src/supertux/menu/game_menu.cpp:55
+msgid "Restart from Checkpoint"
+msgstr "Začni ponovno na varni točki"
+
+#: src/supertux/menu/game_menu.cpp:60
+msgid "Abort Level"
+msgstr "Zapusti stopnjo"
+
+#: src/supertux/menu/game_menu.cpp:76 src/supertux/menu/game_menu.cpp:87
+#: src/supertux/menu/game_menu.cpp:99
+msgid "Are you sure?"
+msgstr "Si prepričan/a?"
+
+#: src/supertux/menu/custom_menu_menu.cpp:49
+#: src/supertux/menu/options_menu.cpp:209
+msgid "Menu Customization"
+msgstr "Prilagajanje menija"
+
+#: src/supertux/menu/custom_menu_menu.cpp:51
+msgid "Menu Back Color"
+msgstr "Barva ozadja menija"
+
+#: src/supertux/menu/custom_menu_menu.cpp:52
+msgid "Menu Front Color"
+msgstr "Barva ospredja menija"
+
+#: src/supertux/menu/custom_menu_menu.cpp:53
+msgid "Menu Help Back Color"
+msgstr "Barva ozadja pomagalskega menija"
+
+#: src/supertux/menu/custom_menu_menu.cpp:54
+msgid "Menu Help Front Color"
+msgstr "Barva ospredja pomagalskega menija"
+
+#: src/supertux/menu/custom_menu_menu.cpp:55
+msgid "Label Text Color"
+msgstr "Barva oznake"
+
+#: src/supertux/menu/custom_menu_menu.cpp:56
+msgid "Active Text Color"
+msgstr "Barva dejavnega besedila"
+
+#: src/supertux/menu/custom_menu_menu.cpp:57
+msgid "Divider Line Color"
+msgstr "Barva ločilne črte"
+
+#: src/supertux/menu/custom_menu_menu.cpp:58
+msgid "Menu Roundness"
+msgstr "Zglajenost menija"
+
+#: src/supertux/menu/custom_menu_menu.cpp:60
+msgid "Editor Interface Color"
+msgstr "Barva vmesnika v urejevalniku"
+
+#: src/supertux/menu/custom_menu_menu.cpp:61
+msgid "Editor Hover Color"
+msgstr "Kazalna barva v urejevalniku"
+
+#: src/supertux/menu/custom_menu_menu.cpp:62
+msgid "Editor Grab Color"
+msgstr "Izbiralna barva v urejevalniku"
+
+#: src/supertux/menu/custom_menu_menu.cpp:64
+msgid "Reset to defaults"
+msgstr "Ponastavi na privzeto"
+
+#: src/supertux/menu/joystick_menu.cpp:54
+#: src/supertux/menu/options_menu.cpp:176
+msgid "Setup Joystick"
+msgstr "Nastavitve igralne palice"
+
+#: src/supertux/menu/joystick_menu.cpp:57
+msgid "Manual Configuration"
+msgstr "Ročna konfiguracija"
+
+#: src/supertux/menu/joystick_menu.cpp:59
+msgid ""
+"Use manual configuration instead of SDL2's automatic GameController support"
+msgstr "Uporabi ročno konfiguracijo namesto SDL2-jeve samodejne podpore GameController"
+
+#: src/supertux/menu/joystick_menu.cpp:71
+#: src/supertux/menu/keyboard_menu.cpp:36
+msgid "Up"
+msgstr "Gor"
+
+#: src/supertux/menu/joystick_menu.cpp:72
+#: src/supertux/menu/keyboard_menu.cpp:37
+msgid "Down"
+msgstr "Dol"
+
+#: src/supertux/menu/joystick_menu.cpp:75
+#: src/supertux/menu/keyboard_menu.cpp:40
+msgid "Jump"
+msgstr "Skok"
+
+#: src/supertux/menu/joystick_menu.cpp:77
+#: src/supertux/menu/keyboard_menu.cpp:42
+msgid "Item Pocket"
+msgstr "Žep elementov"
+
+#: src/supertux/menu/joystick_menu.cpp:78
+msgid "Pause/Menu"
+msgstr "Premor/Meni"
+
+#: src/supertux/menu/joystick_menu.cpp:79
+#: src/supertux/menu/keyboard_menu.cpp:44
+msgid "Peek Left"
+msgstr "Pokukaj levo"
+
+#: src/supertux/menu/joystick_menu.cpp:80
+#: src/supertux/menu/keyboard_menu.cpp:45
+msgid "Peek Right"
+msgstr "Pokukaj desno"
+
+#: src/supertux/menu/joystick_menu.cpp:81
+#: src/supertux/menu/keyboard_menu.cpp:46
+msgid "Peek Up"
+msgstr "Pokukaj gor"
+
+#: src/supertux/menu/joystick_menu.cpp:82
+#: src/supertux/menu/keyboard_menu.cpp:47
+msgid "Peek Down"
+msgstr "Pokukaj dol"
+
+#: src/supertux/menu/joystick_menu.cpp:84
+#: src/supertux/menu/keyboard_menu.cpp:52
+msgid "Console"
+msgstr "Konzola"
+
+#: src/supertux/menu/joystick_menu.cpp:85
+#: src/supertux/menu/keyboard_menu.cpp:53
+msgid "Cheat Menu"
+msgstr "Meni švindlanja"
+
+#: src/supertux/menu/joystick_menu.cpp:86
+#: src/supertux/menu/keyboard_menu.cpp:54
+msgid "Debug Menu"
+msgstr "Razhroščevalni meni"
+
+#: src/supertux/menu/joystick_menu.cpp:88
+#: src/supertux/menu/keyboard_menu.cpp:57
+msgid "Jump with Up"
+msgstr "Skoči z \"gor\""
+
+#: src/supertux/menu/joystick_menu.cpp:94
+msgid "No Joysticks found"
+msgstr "Ne najdem igralne palice"
+
+#: src/supertux/menu/joystick_menu.cpp:95
+msgid "Scan for Joysticks"
+msgstr "Poišči igralne palice"
+
+#: src/supertux/menu/joystick_menu.cpp:125
+msgid "Press Button"
+msgstr "Pritisnite gumb"
+
+#: src/supertux/menu/joystick_menu.cpp:162
+msgid "Axis "
+msgstr "Os"
+
+#: src/supertux/menu/joystick_menu.cpp:165
+msgid "-"
+msgstr "-"
+
+#: src/supertux/menu/joystick_menu.cpp:167
+msgid "+"
+msgstr "+"
+
+#: src/supertux/menu/joystick_menu.cpp:174
+msgid "X2"
+msgstr "X2"
+
+#: src/supertux/menu/joystick_menu.cpp:176
+msgid "Y2"
+msgstr "Y2"
+
+#: src/supertux/menu/joystick_menu.cpp:189
+msgid "Hat Up"
+msgstr "Poglej gor"
+
+#: src/supertux/menu/joystick_menu.cpp:193
+msgid "Hat Down"
+msgstr "Poglej dol"
+
+#: src/supertux/menu/joystick_menu.cpp:197
+msgid "Hat Left"
+msgstr "Poglej levo"
+
+#: src/supertux/menu/joystick_menu.cpp:201
+msgid "Hat Right"
+msgstr "Poglej desno"
+
+#: src/supertux/menu/language_menu.cpp:43
+msgid "Language"
+msgstr "Jezik"
+
+#: src/supertux/menu/language_menu.cpp:45
+msgid "<auto-detect>"
+msgstr "<auto-detect>"
+
+#: src/supertux/menu/multiplayer_menu.cpp:27
+#: src/supertux/menu/multiplayer_players_menu.cpp:34
+msgid "Multiplayer"
+msgstr "Večigralski način"
+
+#: src/supertux/menu/multiplayer_menu.cpp:30
+msgid "Auto-manage Players"
+msgstr "Samodejno upravljanje igralcev"
+
+#: src/supertux/menu/multiplayer_menu.cpp:31
+msgid ""
+"Automatically add and remove players when controllers are plugged or "
+"unplugged"
+msgstr "Samodejno doda in odstrani igralce, ko zazna priklop ali odklop krmilnikov"
+
+#: src/supertux/menu/multiplayer_menu.cpp:33
+msgid "Allow Multibind"
+msgstr "Dovoli večvezavo"
+
+#: src/supertux/menu/multiplayer_menu.cpp:34
+msgid "Allow binding multiple joysticks to a single player"
+msgstr "Omogoči vezavo več igralnih palic na enega igralca"
+
+#: src/supertux/menu/multiplayer_menu.cpp:36
+msgid "Manage Players"
+msgstr "Upravljanje igralcev"
+
+#: src/supertux/menu/editor_menu.cpp:53
+msgid "tiny tile (4px)"
+msgstr "drobna podlaga (4 px)"
+
+#: src/supertux/menu/editor_menu.cpp:54
+msgid "small tile (8px)"
+msgstr "majhna podlaga (8 px)"
+
+#: src/supertux/menu/editor_menu.cpp:55
+msgid "medium tile (16px)"
+msgstr "povprečna podlaga (16 px)"
+
+#: src/supertux/menu/editor_menu.cpp:56
+msgid "big tile (32px)"
+msgstr "velika podlaga (32 px)"
+
+#: src/supertux/menu/editor_menu.cpp:58 src/supertux/menu/main_menu.cpp:63
+msgid "Level Editor"
+msgstr "Urejevalnik stopenj"
+
+#: src/supertux/menu/editor_menu.cpp:61
+msgid "Save Worldmap"
+msgstr "Shrani zaris sveta"
+
+#: src/supertux/menu/editor_menu.cpp:61
+msgid "Save Level"
+msgstr "Shrani stopnjo"
+
+#: src/supertux/menu/editor_menu.cpp:63
+#: src/supertux/menu/editor_save_as.cpp:33
+msgid "Save Level as"
+msgstr "Shrani stopnjo kot"
+
+#: src/supertux/menu/editor_menu.cpp:64
+#: src/supertux/menu/editor_save_as.cpp:33
+msgid "Save Copy"
+msgstr "Shrani kopijo"
+
+#: src/supertux/menu/editor_menu.cpp:65
+msgid "Test Level"
+msgstr "Preizkusi stopnjo"
+
+#: src/supertux/menu/editor_menu.cpp:67
+msgid "Test Worldmap"
+msgstr "Preizkusi zaris sveta"
+
+#: src/supertux/menu/editor_menu.cpp:72
+msgid "Share Level"
+msgstr "Deli stopnjo"
+
+#: src/supertux/menu/editor_menu.cpp:74
+msgid "Package Add-On"
+msgstr "Zapakiraj dodatek"
+
+#: src/supertux/menu/editor_menu.cpp:76
+msgid "Open Level Directory"
+msgstr "Odpri imenik stopnje"
+
+#: src/supertux/menu/editor_menu.cpp:79
+msgid "Edit Another Level"
+msgstr "Uredi drugo stopnjo"
+
+#: src/supertux/menu/editor_menu.cpp:81
+msgid "Edit Another World"
+msgstr "Uredi drug svet"
+
+#: src/supertux/menu/editor_menu.cpp:85
+#: src/supertux/menu/editor_converters_menu.cpp:61
+msgid "Convert Tiles"
+msgstr "Pretvori podlage"
+
+#: src/supertux/menu/editor_menu.cpp:86
+msgid "Convert all tiles in the level using converters."
+msgstr "S pretvorniki pretvori vse podlage v stopnji."
+
+#: src/supertux/menu/editor_menu.cpp:90
+msgid "Grid Size"
+msgstr "Velikost mreže"
+
+#: src/supertux/menu/editor_menu.cpp:91
+msgid "Show Grid"
+msgstr "Pokaži mrežo"
+
+#: src/supertux/menu/editor_menu.cpp:92
+msgid "Grid Snapping"
+msgstr "Pripenjanje na mrežo"
+
+#: src/supertux/menu/editor_menu.cpp:93
+msgid "Render Background"
+msgstr "Izriši ozadje"
+
+#: src/supertux/menu/editor_menu.cpp:94
+msgid "Render Light"
+msgstr "Izriši osvetlitev"
+
+#: src/supertux/menu/editor_menu.cpp:95
+msgid "Autotile Mode"
+msgstr "Način samo-gradnje"
+
+#: src/supertux/menu/editor_menu.cpp:96
+msgid "Enable Autotile Help"
+msgstr "Vključi pomoč samo-gradnje"
+
+#: src/supertux/menu/editor_menu.cpp:97
+msgid "Enable Object Undo Tracking"
+msgstr "Omogoči pomnjenje razveljavitev"
+
+#: src/supertux/menu/editor_menu.cpp:100
+msgid "Undo Stack Size"
+msgstr "Velikost sklada razveljavitev"
+
+#: src/supertux/menu/editor_menu.cpp:102
+msgid "Autosave Frequency"
+msgstr "Pogostost samodejnega shranjevanja"
+
+#: src/supertux/menu/editor_menu.cpp:108
+msgid "Check for Deprecated Tiles"
+msgstr "Preveri za zastarele podlage"
+
+#: src/supertux/menu/editor_menu.cpp:109
+msgid "Check if any deprecated tiles are currently present in the level."
+msgstr "Preveri, ali so v stopnji prisotne kakšne zastarele podlage"
+
+#: src/supertux/menu/editor_menu.cpp:110
+msgid "Show Deprecated Tiles"
+msgstr "Prikaži zastarele podlage"
+
+#: src/supertux/menu/editor_menu.cpp:111
+msgid ""
+"Indicate all deprecated tiles on the active tilemap, without the need of "
+"hovering over."
+msgstr "Označi vse zastarele podlage na trenutnem zarisu, ne da bi ti bilo treba z miško lebdeti nad njimi."
+
+#: src/supertux/menu/editor_menu.cpp:116
+#: src/supertux/menu/editor_level_menu.cpp:31
+msgid "Worldmap Settings"
+msgstr "Nastavitve zarisa sveta"
+
+#: src/supertux/menu/editor_menu.cpp:116
+#: src/supertux/menu/editor_level_menu.cpp:31
+msgid "Level Settings"
+msgstr "Nastavitve stopnje"
+
+#: src/supertux/menu/editor_menu.cpp:121
+msgid "Exit Level Editor"
+msgstr "Zapusti urejevalnik"
+
+#: src/supertux/menu/editor_menu.cpp:170
+msgid "Do you want to package this world as an add-on?"
+msgstr "Želiš zapakirati ta svet kot dodatek?"
+
+#: src/supertux/menu/editor_menu.cpp:196
+msgid ""
+"We encourage you to share your levels in the SuperTux forum.\n"
+"To find your level, click the\n"
+"\"Open Level directory\" menu item.\n"
+"Do you want to go to the forum now?"
+msgstr "Vabimo te, da svoje stopnje deliš na SuperTux forumu.\nSvojo stopnjo najdeš tako,\nda klikneš gumb \"Odpri imenik stopenj\".\nTe preusmerimo na forum (v angleškem jeziku)?"
+
+#: src/supertux/menu/editor_menu.cpp:206
+msgid "Keyboard Shortcuts:"
+msgstr "Bližnjice na tipkovnici:"
+
+#: src/supertux/menu/editor_menu.cpp:208
+msgid "Esc = Open Menu"
+msgstr "Esc = Odpri meni"
+
+#: src/supertux/menu/editor_menu.cpp:209
+msgid "Ctrl+S = Save"
+msgstr "Ctrl+S = Shrani"
+
+#: src/supertux/menu/editor_menu.cpp:210
+msgid "Ctrl+T = Test"
+msgstr "Ctrl+T = Testiraj"
+
+#: src/supertux/menu/editor_menu.cpp:211 src/supertux/menu/editor_menu.cpp:232
+msgid "Ctrl+Z = Undo"
+msgstr "Ctrl+Z = Razveljavi"
+
+#: src/supertux/menu/editor_menu.cpp:212 src/supertux/menu/editor_menu.cpp:233
+msgid "Ctrl+Y = Redo"
+msgstr "Ctrl+Y = Ponovi"
+
+#: src/supertux/menu/editor_menu.cpp:213
+msgid "F5 = Toggle Autotiling"
+msgstr "F5 = Preklopi samo-gradnjo"
+
+#: src/supertux/menu/editor_menu.cpp:214
+msgid "F6 = Render Light"
+msgstr "F6 = Upodobi osvetlitev"
+
+#: src/supertux/menu/editor_menu.cpp:215
+msgid "F7 = Grid Snapping"
+msgstr "F7 = Pripni na mrežo"
+
+#: src/supertux/menu/editor_menu.cpp:216
+msgid "F8 = Show Grid"
+msgstr "F8 = Pokaži mrežo"
+
+#: src/supertux/menu/editor_menu.cpp:217
+msgid "Ctrl++ or Ctrl+Scroll Up = Zoom In"
+msgstr "Ctrl++ ali Ctrl+Drsenje gor = Približaj"
+
+#: src/supertux/menu/editor_menu.cpp:218
+msgid "Ctrl+- or Ctrl+Scroll Down = Zoom Out"
+msgstr "Ctrl+- ali Ctrl+Drsenje dol = Oddalji"
+
+#: src/supertux/menu/editor_menu.cpp:219
+msgid "Ctrl+D = Reset Zoom"
+msgstr "Ctrl+D = Ponastavi povečavo"
+
+#: src/supertux/menu/editor_menu.cpp:220
+msgid "Scripting Shortcuts:"
+msgstr "Skriptne bližnjice:"
+
+#: src/supertux/menu/editor_menu.cpp:222
+msgid "Home = Go to beginning of line"
+msgstr "Home = Pojdi na začetek vrstice"
+
+#: src/supertux/menu/editor_menu.cpp:223
+msgid "End = Go to end of line"
+msgstr "End = Pojdi na konec vrstice"
+
+#: src/supertux/menu/editor_menu.cpp:224
+msgid "Left arrow = Go back in text"
+msgstr "Leva puščica = Pojdi nazaj po besedilu"
+
+#: src/supertux/menu/editor_menu.cpp:225
+msgid "Right arrow = Go forward in text"
+msgstr "Desna puščica = Pojdi naprej po besedilu"
+
+#: src/supertux/menu/editor_menu.cpp:226
+msgid "Backspace = Delete in front of text cursor"
+msgstr "Vračalka = Briši besedilo pred kazalcem"
+
+#: src/supertux/menu/editor_menu.cpp:227
+msgid "Delete = Delete behind text cursor"
+msgstr "Delete = Briši besedilo za kazalcem"
+
+#: src/supertux/menu/editor_menu.cpp:228
+msgid "Ctrl+X = Cut whole line"
+msgstr "Ctrl+X = Izreži celo vrstico"
+
+#: src/supertux/menu/editor_menu.cpp:229
+msgid "Ctrl+C = Copy whole line"
+msgstr "Ctrl+C = Kopiraj celo vrstico"
+
+#: src/supertux/menu/editor_menu.cpp:230
+msgid "Ctrl+V = Paste"
+msgstr "Ctrl+V = Prilepi"
+
+#: src/supertux/menu/editor_menu.cpp:231
+msgid "Ctrl+D = Duplicate line"
+msgstr "Ctrl+D = Podvoji vrstico"
+
+#: src/supertux/menu/editor_menu.cpp:262
+msgid "Deprecated tiles are still present in the level."
+msgstr "V stopnji so še zastarele podlage."
+
+#: src/supertux/menu/editor_menu.cpp:269
+msgid "Do you want to show all deprecated tiles on active tilemaps?"
+msgstr "Ali želiš prikazati vse zastarele podlage na trenutnem zarisu?"
+
+#: src/supertux/menu/editor_menu.cpp:276
+msgid "There are no more deprecated tiles in the level!"
+msgstr "V stopnji ni več zastarelih podlag!"
+
+#: src/supertux/menu/multiplayer_players_menu.cpp:48
+msgid "Add Player"
+msgstr "Dodaj igralca"
+
+#: src/supertux/menu/multiplayer_players_menu.cpp:62
+msgid "Remove Last Player"
+msgstr "Odstrani zadnjega igralca"
+
+#: src/supertux/menu/multiplayer_players_menu.cpp:65
+msgid ""
+"Warning: The player you are trying to\n"
+"remove is currently in-game.\n"
+"\n"
+"Do you wish to remove them anyways?"
+msgstr "Pozor: Igralec, ki ga želiš odstraniti,\nje trenutno sredi igre.\n\nNaj ga vseeno odstranim?"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:31
+msgid "Choose Sector"
+msgstr "Izberi predel"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:41
+msgid "Sector Settings"
+msgstr "Nastavitve predela"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:42
+msgid "Create Sector"
+msgstr "Ustvari predel"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:43
+msgid "Delete Sector"
+msgstr "Izbriši predel"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:92
+msgid "Each level must have at least one sector."
+msgstr "Vsaka stopnja mora imeti vsaj en predel."
+
+#: src/supertux/menu/editor_sectors_menu.cpp:97
+msgid "Do you really want to delete this sector?"
+msgstr "Ali res hočeš izbrisati ta predel?"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:100
+msgid "Delete sector"
+msgstr "Izbriši predel"
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:40
+msgid "Play with the keyboard"
+msgstr "Igraj s tipkovnico"
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:58
+msgid "Remove Player"
+msgstr "Odstrani igralca"
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:76
+msgid "Respawn Player"
+msgstr "Ponovno udejanji igralca"
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:102
+msgid "Spawn Player"
+msgstr "Udejanji igralca"
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:118
+msgid "Controllers"
+msgstr "Krmilniki"
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:134
+msgid ""
+"This controller does not support rumbling;\n"
+"please check the controllers manually."
+msgstr "Ta krmilnik ne podpira vibriranja.\nKrmilnike boš moral/a preveriti ročno."
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:139
+msgid ""
+"This SuperTux build does not support rumbling\n"
+"controllers; please check the controllers manually."
+msgstr "Ta različica SuperTuksa ne podpira vibriranja\nkrmilnikov. Krmilnike preveri ročno, prosim."
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:166
+msgid ""
+"This joystick does not support rumbling;\n"
+"please check the joysticks manually."
+msgstr "Ta igralna palica ne podpira vibriranja.\nIgralne palice boš moral/a preveriti ročno."
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:171
+msgid ""
+"This SuperTux build does not support rumbling\n"
+"joysticks; please check the joysticks manually."
+msgstr "Ta različica SuperTuksa ne podpira vibriranja\nigralnih palic. Igralne palice preveri ročno, prosim."
+
+#: src/supertux/menu/editor_level_menu.cpp:34
+msgid "Author"
+msgstr "Avtor"
+
+#: src/supertux/menu/editor_level_menu.cpp:35 data/credits.stxt:1253
+msgid "Contact"
+msgstr "Kontakt"
+
+#: src/supertux/menu/editor_level_menu.cpp:36
+msgid "License"
+msgstr "Licenca"
+
+#: src/supertux/menu/editor_level_menu.cpp:37
+msgid "Level Note"
+msgstr "Pripis"
+
+#: src/supertux/menu/editor_level_menu.cpp:38
+msgid "Tileset"
+msgstr "Nabor podlag"
+
+#: src/supertux/menu/editor_level_menu.cpp:43
+msgid "Inherit"
+msgstr "Podeduj"
+
+#: src/supertux/menu/editor_level_menu.cpp:45
+msgid "Allow Item Pocket"
+msgstr "Dovoli žep elementov"
+
+#: src/supertux/menu/editor_level_menu.cpp:49
+msgid "Target Time"
+msgstr "Ciljni čas"
+
+#: src/supertux/menu/editor_level_menu.cpp:56
+#: src/supertux/menu/editor_sector_menu.cpp:48
+#: src/supertux/menu/editor_new_levelset_menu.cpp:37
+#: src/supertux/menu/editor_levelset_menu.cpp:58 src/gui/dialog.hpp:87
+#: src/gui/menu_script.cpp:46 src/gui/menu_color.cpp:63
+#: src/gui/menu_string_array.cpp:84 src/gui/menu_object_select.cpp:61
+#: src/editor/object_menu.cpp:71
+msgid "OK"
+msgstr "V redu"
+
+#: src/supertux/menu/editor_level_menu.cpp:94
+msgid "Please enter a name for this level."
+msgstr "Vnesi ime za to stopnjo."
+
+#: src/supertux/menu/editor_level_menu.cpp:98
+msgid "Please enter a level author for this level."
+msgstr "Vnesi avtorja te stopnje."
+
+#: src/supertux/menu/editor_level_menu.cpp:102
+msgid "Please enter a license for this level."
+msgstr "Vnesi licenco za to stopnjo."
+
+#: src/supertux/menu/debug_menu.cpp:36
+msgid "Debug"
+msgstr "Razhroščevanje"
+
+#: src/supertux/menu/debug_menu.cpp:60
+msgid "Game Speed"
+msgstr "Hitrost igre"
+
+#: src/supertux/menu/debug_menu.cpp:61
+msgid "Adjust Game Speed"
+msgstr "Nastavi hitrost igre"
+
+#: src/supertux/menu/debug_menu.cpp:67
+msgid "Show Collision Rects"
+msgstr "Pokaži trkovne meje"
+
+#: src/supertux/menu/debug_menu.cpp:68
+msgid "Show Worldmap Path"
+msgstr "Pokaži pot zarisa sveta"
+
+#: src/supertux/menu/debug_menu.cpp:69
+msgid "Show Controller"
+msgstr "Pokaži krmilnik"
+
+#: src/supertux/menu/debug_menu.cpp:70
+msgid "Show Framerate"
+msgstr "Pokaži hitrost sličic"
+
+#: src/supertux/menu/debug_menu.cpp:71
+msgid "Draw Redundant Frames"
+msgstr "Izriši odvečne sličice"
+
+#: src/supertux/menu/debug_menu.cpp:72
+msgid "Show Player Position"
+msgstr "Pokaži igralčev položaj"
+
+#: src/supertux/menu/debug_menu.cpp:73
+msgid "Use Bitmap Fonts"
+msgstr "Uporabi bitmap pisave"
+
+#: src/supertux/menu/debug_menu.cpp:76
+msgid "Show Tile IDs in Editor Toolbox"
+msgstr "Pokaži identifikatorje podlag med orodji urejevalnika"
+
+#: src/supertux/menu/debug_menu.cpp:77
+msgid "Hide Player HUD"
+msgstr "Skrij igralčeve prikazne elemente"
+
+#: src/supertux/menu/debug_menu.cpp:79
+msgid "Reload Resources"
+msgstr "Ponovno naloži sredstva"
+
+#: src/supertux/menu/debug_menu.cpp:80
+msgid "Reloads all fonts, textures, sprites and tilesets."
+msgstr "Ponovno naloži vse pisave, teksture, animirane izrezke in nabore podlag."
+
+#: src/supertux/menu/debug_menu.cpp:82
+msgid "Dump Texture Cache"
+msgstr "Shrani stanje predpomnilnika tekstur"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:33
+msgid "Save particle as"
+msgstr "Shrani delec kot"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:37
+#: src/supertux/menu/editor_save_as.cpp:37
+msgid "File name"
+msgstr "Datotečno ime"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:38
+#: src/supertux/menu/editor_save_as.cpp:38 src/editor/particle_editor.cpp:767
+msgid "Save"
+msgstr "Shrani"
+
+#: src/supertux/menu/options_select_menu.cpp:35
+#: src/supertux/menu/options_menu.cpp:83
+msgid "Locale"
+msgstr "Jezikovne nastavitve"
+
+#: src/supertux/menu/options_select_menu.cpp:37
+#: src/supertux/menu/options_menu.cpp:99
+msgid "Video"
+msgstr "Slika"
+
+#: src/supertux/menu/options_select_menu.cpp:38
+#: src/supertux/menu/options_menu.cpp:142
+msgid "Audio"
+msgstr "Zvok"
+
+#: src/supertux/menu/options_select_menu.cpp:39
+#: src/supertux/menu/options_menu.cpp:165
+msgid "Controls"
+msgstr "Krmilniki"
+
+#: src/supertux/menu/options_select_menu.cpp:40
+#: src/supertux/menu/options_menu.cpp:185
+msgid "Extras"
+msgstr "Dodatno"
+
+#: src/supertux/menu/options_select_menu.cpp:41
+#: src/supertux/menu/options_menu.cpp:217
+msgid "Advanced"
+msgstr "Napredno"
+
+#: src/supertux/menu/cheat_menu.cpp:30
+#: src/supertux/menu/worldmap_cheat_menu.cpp:36
+msgid "Cheats"
+msgstr "Švindlanje"
+
+#: src/supertux/menu/cheat_menu.cpp:32
+#: src/supertux/menu/worldmap_cheat_menu.cpp:38
+msgid "Bonus: Grow"
+msgstr "Bonus: Rast"
+
+#: src/supertux/menu/cheat_menu.cpp:33
+#: src/supertux/menu/worldmap_cheat_menu.cpp:39
+msgid "Bonus: Fire"
+msgstr "Bonus: Ogenj"
+
+#: src/supertux/menu/cheat_menu.cpp:34
+#: src/supertux/menu/worldmap_cheat_menu.cpp:40
+msgid "Bonus: Ice"
+msgstr "Bonus: Led"
+
+#: src/supertux/menu/cheat_menu.cpp:35
+#: src/supertux/menu/worldmap_cheat_menu.cpp:41
+msgid "Bonus: Air"
+msgstr "Bonus: Zrak"
+
+#: src/supertux/menu/cheat_menu.cpp:36
+#: src/supertux/menu/worldmap_cheat_menu.cpp:42
+msgid "Bonus: Earth"
+msgstr "Bonus: Zemlja"
+
+#: src/supertux/menu/cheat_menu.cpp:37
+msgid "Bonus: Star"
+msgstr "Bonus: Zvezda"
+
+#: src/supertux/menu/cheat_menu.cpp:38
+msgid "Shrink Tux"
+msgstr "Pomanjšaj Tuksa"
+
+#: src/supertux/menu/cheat_menu.cpp:39
+msgid "Kill Tux"
+msgstr "Ubij Tuksa"
+
+#: src/supertux/menu/cheat_menu.cpp:40
+#: src/supertux/menu/worldmap_cheat_menu.cpp:48
+msgid "Finish Level"
+msgstr "Končaj stopnjo"
+
+#: src/supertux/menu/cheat_menu.cpp:44 src/supertux/menu/cheat_menu.cpp:50
+#: src/supertux/menu/worldmap_cheat_menu.cpp:46
+msgid "Leave Ghost Mode"
+msgstr "Prenehaj biti duhec"
+
+#: src/supertux/menu/cheat_menu.cpp:44 src/supertux/menu/cheat_menu.cpp:49
+#: src/supertux/menu/worldmap_cheat_menu.cpp:46
+msgid "Activate Ghost Mode"
+msgstr "Postani duhec"
+
+#: src/supertux/menu/cheat_menu.cpp:54
+msgid "Prevent Death"
+msgstr "Prepreči smrt"
+
+#: src/supertux/menu/editor_sector_menu.cpp:34
+msgid "Sector {}"
+msgstr "Predel {}"
+
+#: src/supertux/menu/editor_sector_menu.cpp:37
+msgid "Initialization script"
+msgstr "Skripta ob zagonu"
+
+#: src/supertux/menu/editor_sector_menu.cpp:38
+msgid "Gravity"
+msgstr "Težnost"
+
+#: src/supertux/menu/editor_sector_menu.cpp:43
+msgid "Resize offset X"
+msgstr "Spremeni odmik X"
+
+#: src/supertux/menu/editor_sector_menu.cpp:44
+msgid "Resize offset Y"
+msgstr "Spremeni odmik Y"
+
+#: src/supertux/menu/editor_sector_menu.cpp:45
+msgid "Resize"
+msgstr "Spremeni velikost"
+
+#: src/supertux/menu/addon_file_install_menu.cpp:32
+msgid "Install Add-on from file"
+msgstr "Namesti dodatek iz datoteke"
+
+#: src/supertux/menu/addon_file_install_menu.cpp:34
+msgid "Drag and drop add-on ZIP archive"
+msgstr "Povleci in spusti dodatek v obliki arhiva ZIP"
+
+#: src/supertux/menu/editor_converters_menu.cpp:64
+msgid "Select Tile Conversion File"
+msgstr "Izberi datoteko za pretvarjanje podlag"
+
+#: src/supertux/menu/editor_converters_menu.cpp:72
+msgid "By: {}"
+msgstr "Avtor/ica: {}"
+
+#: src/supertux/menu/editor_converters_menu.cpp:75
+msgid "Convert Tiles By File"
+msgstr "Pretvori podlage z datoteko"
+
+#: src/supertux/menu/editor_converters_menu.cpp:76
+msgid "Convert all tiles in the current level by a file, specified above."
+msgstr "Pretvrori vse podlage v trenutni stopnji z zgoraj navedeno datoteko."
+
+#: src/supertux/menu/editor_converters_menu.cpp:89
+msgid "No tile conversion file selected."
+msgstr "Pretvorbena datoteka ni izbrana."
+
+#: src/supertux/menu/editor_converters_menu.cpp:93
+msgid ""
+"This will convert all tiles in the level. Proceed?\n"
+"\n"
+"Note: This should not be ran more than once on a level.\n"
+"Creating a separate copy of the level is highly recommended."
+msgstr "To bo pretvorilo vse podlage v stopnji. Vseeno nadaljujem?\n\nPozor: Idealno naj tega za posamezno stopnjo ne bi izvedli več\nkot enkrat. Priporočljivo je, da ustvariš ločeno kopijo stopnje."
+
+#: src/supertux/menu/integrations_menu.cpp:49
+msgid "Integrations"
+msgstr "Integracije"
+
+#: src/supertux/menu/integrations_menu.cpp:51
+msgid "Do not share level names when editing"
+msgstr "Med urejanjem ne deli imen stopenj"
+
+#: src/supertux/menu/integrations_menu.cpp:52
+msgid ""
+"Enable this if you want to work on secret levels and don't want the names to"
+" be spoiled"
+msgstr "Omogoči to možnost, če se želiš ukvarjati s skrivnimi stopnjami, pa nočeš razkriti imen"
+
+#: src/supertux/menu/integrations_menu.cpp:54
+msgid "Enable Discord integration"
+msgstr "Omogoči integracijo Discorda"
+
+#: src/supertux/menu/integrations_menu.cpp:55
+msgid ""
+"Sends information to your Discord application about what you're doing in the"
+" game."
+msgstr "Svoj Discord obveščaj, kaj počneš v igri."
+
+#: src/supertux/menu/integrations_menu.cpp:57
+msgid "Discord (disabled; not compiled)"
+msgstr "Discord (onemogočen; nepreveden)"
+
+#: src/supertux/menu/addon_browse_menu.cpp:70
+msgid "Browse Language Packs"
+msgstr "Brskaj po jezikovnih paketih"
+
+#: src/supertux/menu/addon_browse_menu.cpp:70
+#: src/supertux/menu/addon_menu.cpp:158
+msgid "Browse Add-ons"
+msgstr "Brskaj po dodatkih"
+
+#: src/supertux/menu/addon_browse_menu.cpp:112
+msgid "Page {}/{}"
+msgstr "Stran {}/{}"
+
+#: src/supertux/menu/addon_browse_menu.cpp:124
+msgid "No new language packs available"
+msgstr "Na voljo ni novih jezikovnih paketov"
+
+#: src/supertux/menu/addon_browse_menu.cpp:124
+msgid "No new Add-ons available"
+msgstr "Na voljo ni novih dodatkov"
+
+#: src/supertux/menu/addon_browse_menu.cpp:127
+msgid "No language packs available"
+msgstr "Na voljo ni jezikovnih paketov"
+
+#: src/supertux/menu/addon_browse_menu.cpp:127
+msgid "No Add-ons available"
+msgstr "Na voljo ni dodatkov"
+
+#: src/supertux/menu/addon_browse_menu.cpp:135
+#: src/supertux/menu/addon_browse_menu.cpp:139
+msgid "Previous page"
+msgstr "Prejšnja stran"
+
+#: src/supertux/menu/addon_browse_menu.cpp:143
+#: src/supertux/menu/addon_browse_menu.cpp:147
+msgid "Next page"
+msgstr "Naslednja stran"
+
+#: src/supertux/menu/addon_browse_menu.cpp:154
+msgid "Check Online (disabled)"
+msgstr "Preveri na spletu (onemogočeno)"
+
+#: src/supertux/menu/addon_browse_menu.cpp:158
+msgid "Check Online"
+msgstr "Preveri na spletu"
+
+#: src/supertux/menu/addon_browse_menu.cpp:195
+msgid "Downloading Add-On Repository Index"
+msgstr "Prenašam seznam dodatkov v zbirališču"
+
+#: src/supertux/menu/keyboard_menu.cpp:34
+#: src/supertux/menu/options_menu.cpp:172
+msgid "Setup Keyboard"
+msgstr "Nastavitve tipkovnice"
+
+#: src/supertux/menu/keyboard_menu.cpp:83
+msgid "Up cursor"
+msgstr "Tipka navzgor"
+
+#: src/supertux/menu/keyboard_menu.cpp:85
+msgid "Down cursor"
+msgstr "Tipka navzdol"
+
+#: src/supertux/menu/keyboard_menu.cpp:87
+msgid "Left cursor"
+msgstr "Tipka levo"
+
+#: src/supertux/menu/keyboard_menu.cpp:89
+msgid "Right cursor"
+msgstr "Tipka desno"
+
+#: src/supertux/menu/keyboard_menu.cpp:91
+msgid "Return"
+msgstr "Vnašalka"
+
+#: src/supertux/menu/keyboard_menu.cpp:93
+msgid "Space"
+msgstr "Preslednica"
+
+#: src/supertux/menu/keyboard_menu.cpp:95
+msgid "Right Shift"
+msgstr "Desna dvigalka"
+
+#: src/supertux/menu/keyboard_menu.cpp:97
+msgid "Left Shift"
+msgstr "Leva dvigalka"
+
+#: src/supertux/menu/keyboard_menu.cpp:99
+msgid "Right Control"
+msgstr "Desna krmilka"
+
+#: src/supertux/menu/keyboard_menu.cpp:101
+msgid "Left Control"
+msgstr "Leva krmilka"
+
+#: src/supertux/menu/keyboard_menu.cpp:103
+msgid "Right Alt"
+msgstr "Desna izmenjevalka"
+
+#: src/supertux/menu/keyboard_menu.cpp:105
+msgid "Left Alt"
+msgstr "Leva izmenjevalka"
+
+#: src/supertux/menu/keyboard_menu.cpp:107
+msgid "Right Command"
+msgstr "Desni Cmd"
+
+#: src/supertux/menu/keyboard_menu.cpp:109
+msgid "Left Command"
+msgstr "Levi Cmd"
+
+#: src/supertux/menu/keyboard_menu.cpp:121
+msgid "Press Key"
+msgstr "Pritisni tipko"
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:31
+msgid "New World"
+msgstr "Nov svet"
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:35
+#: src/supertux/menu/editor_levelset_menu.cpp:53
+msgid "Description"
+msgstr "Opis"
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:51
+msgid "Please enter a name for this level subset."
+msgstr "Prosim, vnesi ime te podskupine stopenj."
+
+#: src/supertux/menu/profile_menu.cpp:56
+#: src/supertux/menu/options_menu.cpp:188
+msgid "Select Profile"
+msgstr "Izberi profil"
+
+#: src/supertux/menu/profile_menu.cpp:60
+msgid "No profiles found."
+msgstr "Ne najdem profilov."
+
+#: src/supertux/menu/profile_menu.cpp:68
+#: src/supertux/menu/profile_menu.cpp:149
+#: src/supertux/menu/profile_menu.cpp:168
+msgid "Profile {}"
+msgstr "Profil {}"
+
+#: src/supertux/menu/profile_menu.cpp:69
+msgid "{} (Profile {})"
+msgstr "{} (Profil {})"
+
+#: src/supertux/menu/profile_menu.cpp:84
+msgid "No profile selected."
+msgstr "Profil ni izbran."
+
+#: src/supertux/menu/profile_menu.cpp:88 src/gui/menu_string_array.cpp:79
+#: src/gui/menu_object_select.cpp:50
+msgid "Add"
+msgstr "Dodaj"
+
+#: src/supertux/menu/profile_menu.cpp:98
+#: src/supertux/menu/profile_menu.cpp:100
+msgid "Reset"
+msgstr "Ponastavi"
+
+#: src/supertux/menu/profile_menu.cpp:103
+#: src/supertux/menu/profile_menu.cpp:105
+msgid "Reset all"
+msgstr "Ponastavi vse"
+
+#: src/supertux/menu/profile_menu.cpp:108
+#: src/supertux/menu/profile_menu.cpp:110 src/gui/menu_string_array.cpp:82
+msgid "Delete"
+msgstr "Izbriši"
+
+#: src/supertux/menu/profile_menu.cpp:113
+#: src/supertux/menu/profile_menu.cpp:115
+msgid "Delete all"
+msgstr "Izbriši vse"
+
+#: src/supertux/menu/profile_menu.cpp:148
+msgid ""
+"This will reset all game progress on the profile \"{}\".\n"
+"Are you sure?"
+msgstr "To bo ponastavilo ves igralni napredek za profil \"{}\".\nAli si prepričan/a?"
+
+#: src/supertux/menu/profile_menu.cpp:157
+msgid "This will reset your game progress on all profiles. Are you sure?"
+msgstr "To bo izničilo tvoj napredek v vseh profilih. Ali res želiš nadaljevati?"
+
+#: src/supertux/menu/profile_menu.cpp:167
+msgid ""
+"This will delete the profile \"{}\",\n"
+"including all game progress on it. Are you sure?"
+msgstr "To bo izbrisalo profil \"{}\",\nvključno z vsem igralnim napredkom. Ali si prepričan/a?"
+
+#: src/supertux/menu/profile_menu.cpp:178
+msgid ""
+"This will delete all profiles, including all game progress on them.\n"
+"Are you sure?"
+msgstr "To bo izbrisalo vse profile, vključno z njihovim igralnim napredkom.\nAli si prepričan/a?"
+
+#: src/supertux/menu/world_set_menu.cpp:28 src/supertux/menu/main_menu.cpp:54
+msgid "Start Game"
+msgstr "Igraj"
+
+#: src/supertux/menu/world_set_menu.cpp:30
+msgid "Story Mode"
+msgstr "Pripovedni način"
+
+#: src/supertux/menu/world_set_menu.cpp:31
+#: src/supertux/menu/contrib_menu.cpp:71
+msgid "Contrib Levels"
+msgstr "Prispevane stopnje"
+
+#: src/supertux/menu/video_system_menu.cpp:36
+msgid "Select Video System"
+msgstr "Izberi video sistem"
+
+#: src/supertux/menu/video_system_menu.cpp:37
+msgid "Used video system: {}"
+msgstr "Uporabljen video sistem: {}"
+
+#: src/supertux/menu/video_system_menu.cpp:54
+msgid "Restart game for the changes to take effect"
+msgstr "Spremembe se bodo poznale šele po ponovnem zagonu igre."
+
+#: src/supertux/menu/download_dialog.cpp:42
+msgid "Abort Download"
+msgstr "Prekliči prenos"
+
+#: src/supertux/menu/download_dialog.cpp:59
+msgid ""
+"Error:\n"
+"{}"
+msgstr "Napaka:\n{}"
+
+#: src/supertux/menu/download_dialog.cpp:118 src/gui/notification.cpp:157
+msgid "Close"
+msgstr "Zapri"
+
+#: src/supertux/menu/contrib_menu.cpp:101
+#: src/supertux/menu/contrib_menu.cpp:115
+msgid "Official Contrib Levels"
+msgstr "Uradne prispevane stopnje"
+
+#: src/supertux/menu/contrib_menu.cpp:102
+#: src/supertux/menu/contrib_menu.cpp:121
+msgid "Community Contrib Levels"
+msgstr "Prispevane stopnje skupnosti"
+
+#: src/supertux/menu/contrib_menu.cpp:103
+#: src/supertux/menu/contrib_menu.cpp:127
+msgid "User Contrib Levels"
+msgstr "Prispevane stopnje uporabnika"
+
+#: src/supertux/menu/contrib_menu.cpp:116
+msgid "How is this possible? There are no Official Contrib Levels!"
+msgstr "Kako je to mogoče? Ni uradnih prispevanih stopenj!"
+
+#: src/supertux/menu/contrib_menu.cpp:122
+msgid "No Community Contrib Levels yet. Download them from the Add-ons Menu."
+msgstr "Ni še stopenj, ki bi jih prispevala skupnost. Prenesi si jih prek menija dodatkov."
+
+#: src/supertux/menu/contrib_menu.cpp:128
+msgid "No User Contrib Levels yet. Create some with the Level Editor."
+msgstr "Nimaš še svojih prispevanih stopenj. Ustvari jih z urejevalnikom stopenj."
+
+#: src/supertux/menu/options_menu.cpp:87
+msgid "Select Language"
+msgstr "Izberi jezik"
+
+#: src/supertux/menu/options_menu.cpp:88
+msgid "Select a different language to display text in"
+msgstr "Izberi drug jezik"
+
+#: src/supertux/menu/options_menu.cpp:90
+msgid "Language Packs"
+msgstr "Jezikovni paketi"
+
+#: src/supertux/menu/options_menu.cpp:91
+msgid "Language packs contain up-to-date translations"
+msgstr "Jezikovni paketi vsebujejo najnovejše prevode"
+
+#: src/supertux/menu/options_menu.cpp:102
+msgid "Window Resizable"
+msgstr "Razširljivost okno"
+
+#: src/supertux/menu/options_menu.cpp:103
+msgid "Allow window resizing, might require a restart to take effect"
+msgstr "Omogoči spreminjanje velikosti okna; morda bo potreben ponoven zagon igre"
+
+#: src/supertux/menu/options_menu.cpp:107
+msgid "Fullscreen"
+msgstr "Čez cel zaslon"
+
+#: src/supertux/menu/options_menu.cpp:108
+msgid "Fill the entire screen"
+msgstr "Zapolni cel zaslon"
+
+#: src/supertux/menu/options_menu.cpp:115
+msgid "Fit to browser"
+msgstr "Prilagodi brskalniku"
+
+#: src/supertux/menu/options_menu.cpp:116
+msgid "Fit the resolution to the size of your browser"
+msgstr "Prilagodi ločljivost velikosti tvojega brskalnika"
+
+#: src/supertux/menu/options_menu.cpp:123
+msgid "Frame prediction"
+msgstr "Napoved sličic"
+
+#: src/supertux/menu/options_menu.cpp:124
+msgid ""
+"Smooth camera motion, generating intermediate frames. This has a noticeable "
+"effect on monitors at >> 60Hz. Moving objects may be blurry."
+msgstr "Gladko gibanje kamere, pri katerem generiramo vmesne sličice. Učinek je opazen na monitorjih, ki imajo hitrost osveževanja več kot 60 Hz. Premikajoči se predmeti bodo morda zabrisani."
+
+#: src/supertux/menu/options_menu.cpp:132
+msgid "Camera Peek Multiplier"
+msgstr "Množitelj kukanja kamere"
+
+#: src/supertux/menu/options_menu.cpp:133
+msgid ""
+"The fractional distance towards the camera peek position to move each frame.\n"
+"\n"
+"0 = No Peek, 1 = Instant Peek"
+msgstr "Delež razdalje do položaja, ko kamera kuka na stran. Za ta delež se kamera premakne vsako sličico.\n\n0 = Brez kukanja, 1 = Takojšnje kukanje"
+
+#: src/supertux/menu/options_menu.cpp:135
+msgid "Change Video System"
+msgstr "Spremeni video sistem"
+
+#: src/supertux/menu/options_menu.cpp:136
+msgid "Change video system used to render graphics"
+msgstr "Spremeni sistem za grafično upodabljanje"
+
+#: src/supertux/menu/options_menu.cpp:147
+msgid "Disable all sound effects"
+msgstr "Onemogoči vse zvočne učinke"
+
+#: src/supertux/menu/options_menu.cpp:149
+msgid "Disable all music"
+msgstr "Onemogoči vso glasbo"
+
+#: src/supertux/menu/options_menu.cpp:156
+msgid "Sound (disabled)"
+msgstr "Zvok (onemogočen)"
+
+#: src/supertux/menu/options_menu.cpp:157
+msgid "Music (disabled)"
+msgstr "Glasba (onemogočena)"
+
+#: src/supertux/menu/options_menu.cpp:169
+msgid "Enable Rumbling Controllers"
+msgstr "Omogoči vibriranje krmilnikov"
+
+#: src/supertux/menu/options_menu.cpp:170
+msgid "Enable vibrating the game controllers."
+msgstr "Omogoči vibriranje krmilnikov."
+
+#: src/supertux/menu/options_menu.cpp:170
+msgid "This feature is currently only used in the multiplayer options menu."
+msgstr "Ta funkcionalnost je uporabljena edinole v večigralskih nastavitvah."
+
+#: src/supertux/menu/options_menu.cpp:173
+msgid "Configure key-action mappings"
+msgstr "Spremeni pomen tipk"
+
+#: src/supertux/menu/options_menu.cpp:177
+msgid "Configure joystick control-action mappings"
+msgstr "Spremeni nastavitve igralne palice"
+
+#: src/supertux/menu/options_menu.cpp:189
+msgid "Select a profile to play with"
+msgstr "Izberi profil za igranje"
+
+#: src/supertux/menu/options_menu.cpp:192
+msgid "Multiplayer settings"
+msgstr "Večigralske nastavitve"
+
+#: src/supertux/menu/options_menu.cpp:193
+msgid "Configure settings specific to multiplayer"
+msgstr "Posebej prilagodi večigralske nastavitve"
+
+#: src/supertux/menu/options_menu.cpp:196
+msgid "Enable transitions"
+msgstr "Omogoči prehode"
+
+#: src/supertux/menu/options_menu.cpp:197
+msgid "Enable screen transitions and smooth menu animation"
+msgstr "Omogoči zaslonske prehode in gladko animacijo menija"
+
+#: src/supertux/menu/options_menu.cpp:199
+msgid "Custom title screen levels"
+msgstr "Naslovne stopnje po meri"
+
+#: src/supertux/menu/options_menu.cpp:200
+msgid "Allow overriding the title screen level, when loading certain worlds"
+msgstr "Med nalaganjem določenih svetov omogoča spremembo stopnje, prikazane na naslovnici."
+
+#: src/supertux/menu/options_menu.cpp:203
+msgid "Christmas Mode"
+msgstr "Božični način"
+
+#: src/supertux/menu/options_menu.cpp:205
+msgid "Integrations and presence"
+msgstr "Integracije in prisotnost"
+
+#: src/supertux/menu/options_menu.cpp:206
+msgid ""
+"Manage whether SuperTux should display the levels you play on your social "
+"media profiles (Discord)"
+msgstr "Omogoča, da SuperTux prikaže stopnje, ki jih igraš, na tvojih družbenih omrežjih (Discord)"
+
+#: src/supertux/menu/options_menu.cpp:210
+msgid "Customize the appearance of the menus"
+msgstr "Prilagodi videz menijev"
+
+#: src/supertux/menu/options_menu.cpp:222
+msgid "Developer Mode"
+msgstr "Razvijalski način"
+
+#: src/supertux/menu/options_menu.cpp:224
+msgid "Confirmation Dialog"
+msgstr "Potrditveni dialog"
+
+#: src/supertux/menu/options_menu.cpp:224
+msgid "Confirm aborting level"
+msgstr "Potrdi izhod iz stopnje"
+
+#: src/supertux/menu/options_menu.cpp:226
+msgid "Pause on focus loss"
+msgstr "Premor ob izgubi fokusa"
+
+#: src/supertux/menu/options_menu.cpp:227
+msgid "Automatically pause the game when the window loses focus"
+msgstr "Ko igra ni več v ospredju namizja, se samodejno sproži premor"
+
+#: src/supertux/menu/options_menu.cpp:229
+msgid "Use custom mouse cursor"
+msgstr "Uporabi miškin kazalnik po meri"
+
+#: src/supertux/menu/options_menu.cpp:229
+msgid "Whether the game renders its own cursor or uses the system's cursor"
+msgstr "Določi, ali naj igra izriše svoj kazalnik ali uporabi uporabnikov sistemski kazalnik"
+
+#: src/supertux/menu/options_menu.cpp:233
+msgid "Check for new releases"
+msgstr "Preveri za nove izdaje"
+
+#: src/supertux/menu/options_menu.cpp:234
+msgid ""
+"Allows the game to perform checks for new SuperTux releases on startup and "
+"notify if any found."
+msgstr "Omogoča igri, da ob zagonu preveri, ali obstaja kakšna novejša izdaja, in te obvesti."
+
+#: src/supertux/menu/options_menu.cpp:236
+msgid "Disable network"
+msgstr "Onemogoči internetno povezavo"
+
+#: src/supertux/menu/options_menu.cpp:237
+msgid "Prevents the game from connecting online"
+msgstr "Prepreči igri, da se poveže na internet"
+
+#: src/supertux/menu/options_menu.cpp:304
+msgid "Magnification"
+msgstr "Povečava"
+
+#: src/supertux/menu/options_menu.cpp:305
+msgid "Change the magnification of the game area"
+msgstr "Spremeni povečavo igralne površine"
+
+#: src/supertux/menu/options_menu.cpp:341
+msgid "Aspect Ratio"
+msgstr "Razmerje"
+
+#: src/supertux/menu/options_menu.cpp:342
+msgid "Adjust the aspect ratio"
+msgstr "Spremeni razmerje"
+
+#: src/supertux/menu/options_menu.cpp:369
+msgid "Window Resolution"
+msgstr "Ločljivost okna"
+
+#: src/supertux/menu/options_menu.cpp:370
+msgid "Resize the window to the given size"
+msgstr "Poveča/zmanjša okno na dano velikost"
+
+#: src/supertux/menu/options_menu.cpp:400
+msgid "Desktop"
+msgstr "Namizje"
+
+#: src/supertux/menu/options_menu.cpp:427
+msgid "Fullscreen Resolution"
+msgstr "Celozaslonska ločljivost"
+
+#: src/supertux/menu/options_menu.cpp:428
+msgid ""
+"Determine the resolution used in fullscreen mode (you must toggle fullscreen"
+" to complete the change)"
+msgstr "Določi ločljivost za celoten zaslon (igra mora biti čez ves zaslon, da se bo sprememba pokazala)"
+
+#: src/supertux/menu/options_menu.cpp:434
+msgid "on"
+msgstr "vključena"
+
+#: src/supertux/menu/options_menu.cpp:435
+msgid "off"
+msgstr "izključena"
+
+#: src/supertux/menu/options_menu.cpp:436
+msgid "adaptive"
+msgstr "prilagodljiva"
+
+#: src/supertux/menu/options_menu.cpp:454
+msgid "VSync"
+msgstr "Vertikalna sinhronizacija"
+
+#: src/supertux/menu/options_menu.cpp:455
+msgid "Set the VSync mode"
+msgstr "Nastavi vertikalno sinhronizacijo"
+
+#: src/supertux/menu/options_menu.cpp:490
+msgid "Sound Volume"
+msgstr "Glasnost zvoka"
+
+#: src/supertux/menu/options_menu.cpp:491
+msgid "Adjust sound volume"
+msgstr "Nastavi glasnost zvoka"
+
+#: src/supertux/menu/options_menu.cpp:526
+msgid "Music Volume"
+msgstr "Glasnost glasbe"
+
+#: src/supertux/menu/options_menu.cpp:527
+msgid "Adjust music volume"
+msgstr "Nastavi glasnost glasbe"
+
+#: src/supertux/menu/options_menu.cpp:562
+msgid "Flash Intensity"
+msgstr "Jakost bliska"
+
+#: src/supertux/menu/options_menu.cpp:563
+msgid "Adjust the intensity of the flash produced by the thunderstorm"
+msgstr "Prilagodi jakost bliska, ki ga proizvede nevihta"
+
+#: src/supertux/menu/options_menu.cpp:576
+msgid "On-screen controls scale"
+msgstr "Velikost krmilnih elementov"
+
+#: src/supertux/menu/options_menu.cpp:695
+msgid ""
+"The game couldn't detect your browser resolution.\n"
+"This most likely happens because it is not embedded\n"
+"in the SuperTux custom HTML template.\n"
+msgstr "Igra ni uspela zaznati ločljivosti tvojega brskalnika.\nTo se je najverjetneje zgodilo, ker ni vpeta\nv SuperTuxovo šablono HTML.\n"
+
+#: src/supertux/menu/main_menu.cpp:58
+msgid "Add-ons"
+msgstr "Dodatki"
+
+#: src/supertux/menu/main_menu.cpp:64
+msgid "Credits"
+msgstr "Zasluge"
+
+#: src/supertux/menu/main_menu.cpp:67
+msgid "Donate"
+msgstr "Doniraj"
+
+#: src/supertux/menu/main_menu.cpp:70
+msgid "Quit"
+msgstr "Končaj"
+
+#: src/supertux/menu/main_menu.cpp:80
+msgid ""
+"Would you allow SuperTux to connect to the Internet?\n"
+"\n"
+"This enables additional features, such as the in-game add-on catalog."
+msgstr "Ali dovoliš SuperTuxu, da se poveže na internet?\n\nTo omogoči dodatne funkcionalnosti, recimo katalog dodatkov v igri."
+
+#: src/supertux/menu/main_menu.cpp:85
+msgid ""
+"Would you allow SuperTux to check for new releases on startup?\n"
+"\n"
+"You will be notified if any are found."
+msgstr "Ali dovoliš SuperTuxu, da ob zagonu preveri za nove različice?\n\nČe kakšno najde, boš o tem obveščen/a."
+
+#: src/supertux/menu/main_menu.cpp:128
+msgid ""
+"This will take you to the SuperTux donation page. Are you sure you want to "
+"continue?"
+msgstr "To te bo preusmerilo na spletno stran za donacije SuperTuksu. Ali želiš nadaljevati?"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:54 src/addon/addon.cpp:78
+#: data/images/engine/editor/objects.stoi:390
+msgid "Worldmap"
+msgstr "Zaris sveta"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:54 src/addon/addon.cpp:75
+msgid "Levelset"
+msgstr "Zbirka stopenj"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:55
+msgid "Title Screen Level"
+msgstr "Naslovna stopnja"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:56
+msgid "A level to be used for the title screen, after exiting the world."
+msgstr "Stopnja na naslovnici po izhodu iz sveta."
+
+#: src/supertux/menu/editor_delete_level_menu.cpp:59
+msgid "No levels available"
+msgstr "Na voljo ni nobenih stopenj"
+
+#: src/supertux/menu/editor_delete_level_menu.cpp:79
+msgid "You cannot delete the level that you are editing!"
+msgstr "Ne moreš izbrisati stopnje, ki jo urejaš!"
+
+#: src/supertux/menu/editor_delete_level_menu.cpp:82
+msgid "You are about to delete level \"{}\". Are you sure?"
+msgstr "To bo izbrisalo stopnjo \"{}\". Ali si prepričan/a?"
+
+#: src/supertux/menu/editor_objectgroup_menu.cpp:30
+#: src/editor/toolbox_widget.cpp:77 src/badguy/dispenser.cpp:418
+msgid "Objects"
+msgstr "Predmeti"
+
+#: src/supertux/menu/addon_menu.cpp:70
+msgid "Installed Language Packs"
+msgstr "Nameščeni jezikovni paketi"
+
+#: src/supertux/menu/addon_menu.cpp:70
+msgid "Installed Add-ons"
+msgstr "Nameščeni dodatki"
+
+#: src/supertux/menu/addon_menu.cpp:78 src/supertux/menu/addon_menu.cpp:119
+msgid "No language packs installed"
+msgstr "Ni nameščenih jezikovnih paketov"
+
+#: src/supertux/menu/addon_menu.cpp:78
+msgid "No Add-ons installed"
+msgstr "Ni nameščenih dodatkov"
+
+#: src/supertux/menu/addon_menu.cpp:127
+msgid "{} *UPDATE*"
+msgstr "{} *POSODOBITEV*"
+
+#: src/supertux/menu/addon_menu.cpp:129
+msgid "{} [DISABLED] *UPDATE*"
+msgstr "{} [ONEMOGOČENO] *POSODOBITEV*"
+
+#: src/supertux/menu/addon_menu.cpp:138
+msgid "{} [DISABLED]"
+msgstr "{} [ONEMOGOČENO]"
+
+#: src/supertux/menu/addon_menu.cpp:148
+msgid "No updates available."
+msgstr "Na voljo ni posodobitev."
+
+#: src/supertux/menu/addon_menu.cpp:152
+msgid "{} {} available"
+msgstr "{} {} na voljo"
+
+#: src/supertux/menu/addon_menu.cpp:152
+msgid "update"
+msgstr "posodobitev"
+
+#: src/supertux/menu/addon_menu.cpp:152
+msgid "updates"
+msgstr "posodobitev"
+
+#: src/supertux/menu/addon_menu.cpp:154
+msgid "Check for updates"
+msgstr "Preveri za posodobitve"
+
+#: src/supertux/menu/addon_menu.cpp:158
+msgid "Browse language packs"
+msgstr "Brskaj po jezikovnih paketih"
+
+#: src/supertux/menu/addon_menu.cpp:159
+msgid "Install from file"
+msgstr "Namesti iz datoteke"
+
+#: src/supertux/menu/addon_menu.cpp:175
+msgid "To browse through the add-on catalog, you must enable networking."
+msgstr "Če želiš brskati po katalogu dodatkov, omogoči povezavo z internetom."
+
+#: src/supertux/menu/addon_menu.cpp:212
+msgid "To check for add-on updates, you must enable networking."
+msgstr "Če želiš preveriti za posodobitve dodatkov, omogoči povezavo z internetom."
+
+#: src/supertux/menu/addon_menu.cpp:220
+msgid "Checking for updates..."
+msgstr "Preverjam za posodobitve ..."
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:43
+msgid "Bonus: None"
+msgstr "Bonus: Nič"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:49
+msgid "Reset Level"
+msgstr "Ponastavi stopnjo"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:51
+msgid "Finish Worldmap"
+msgstr "Končaj zaris sveta"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:52
+msgid "Reset Worldmap"
+msgstr "Ponastavi zaris sveta"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:54
+msgid "Go to level"
+msgstr "Pojdi na stopnjo"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:55
+msgid "Go to main spawnpoint"
+msgstr "Pojdi na glavno začetno točko"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:177
+msgid "Select level"
+msgstr "Izberi stopnjo"
+
+#: src/supertux/menu/editor_delete_levelset_menu.cpp:80
+msgid "You cannot delete the world that you are editing"
+msgstr "Ne moreš izbrisati sveta, ki ga urejaš"
+
+#: src/supertux/menu/editor_delete_levelset_menu.cpp:83
+msgid "You are about to delete world \"{}\". Are you sure?"
+msgstr "Nameravaš izbrisati svet \"{}\". Ali si gotov/a?"
+
+#: src/supertux/title_screen.cpp:272
+msgid "Copyright"
+msgstr "Avtorske pravice"
+
+#: src/supertux/title_screen.cpp:273
+msgid ""
+"This game comes with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to\n"
+"redistribute it under certain conditions; see the license file for details.\n"
+msgstr "Za to igro NIKAKOR NE JAMČIMO. To je brezplačna in prosta programska oprema in dovoljeno ti jo je deliti in razmnoževati pod\ndoločenimi pogoji; več o tem si preberi v datoteki za licenco.\n"
+
+#: src/addon/addon_manager.cpp:553
+msgid "Only one resource pack is allowed to be enabled at a time."
+msgstr "Naenkrat je lahko omogočen le en paket virov."
+
+#: src/addon/addon_manager.cpp:810
+msgid "Add-on {} by {} is already installed."
+msgstr "Dodatek {} avtorja/ice {} je že nameščen."
+
+#: src/addon/addon_manager.cpp:830
+msgid "Add-on {} by {} successfully installed."
+msgstr "Dodatek {} avtorja/ice {} je uspešno nameščen."
+
+#: src/addon/addon.cpp:81
+msgid "World"
+msgstr "Svet"
+
+#: src/addon/addon.cpp:84
+msgid "Add-on"
+msgstr "Dodatek"
+
+#: src/addon/addon.cpp:87
+msgid "Language Pack"
+msgstr "Jezikovni paket"
+
+#: src/addon/addon.cpp:91
+msgid "Resource Pack"
+msgstr "Paket virov"
+
+#: src/addon/addon.cpp:94
+msgid "Unknown"
+msgstr "Neznano"
+
+#: src/addon/addon.cpp:105
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} \"{}\" avtorja/ice \"{}\""
+
+#: src/addon/addon.cpp:119
+msgid "add-on"
+msgstr "dodatek"
+
+#: src/addon/addon.cpp:119
+msgid "add-ons"
+msgstr "dodatki"
+
+#: src/gui/menu_script.cpp:28
+msgid "Edit script"
+msgstr "Uredi skripto"
+
+#: src/gui/menu_filesystem.cpp:119
+msgid "Open Directory"
+msgstr "Odpri imenik"
+
+#: src/gui/menu_color.cpp:29
+msgid "Mix the colour"
+msgstr "Zmešaj barvo"
+
+#: src/gui/menu_color.cpp:40
+msgid "Copy to clipboard (rgb)"
+msgstr "Kopiraj v odložišče (RGB)"
+
+#: src/gui/menu_color.cpp:41
+msgid "Copy to clipboard (hex)"
+msgstr "Kopiraj v odložišče (šestnajstiško)"
+
+#: src/gui/menu_color.cpp:57 src/gui/menu_color.cpp:60
+msgid "Paste from clipboard"
+msgstr "Prilepi iz odložišča"
+
+#: src/gui/menu_string_array.cpp:40 src/gui/menu_string_array.cpp:78
+msgid "Selected item: {}"
+msgstr "Izbrano: {}"
+
+#: src/gui/menu_string_array.cpp:70
+msgid "Edit string array"
+msgstr "Uredi polje nizov"
+
+#: src/gui/menu_string_array.cpp:80
+msgid "Insert"
+msgstr "Vstavi"
+
+#: src/gui/notification.cpp:57
+msgid "Click for more details."
+msgstr "Klikni za podrobnosti."
+
+#: src/gui/notification.cpp:150
+msgid "Do not show again"
+msgstr "Ne pokaži več"
+
+#: src/gui/menu_object_select.cpp:46
+msgid "List of objects"
+msgstr "Seznam predmetov"
+
+#: src/gui/menu_object_select.cpp:48
+msgid "Select object ({})"
+msgstr "Izberi predmet ({})"
+
+#: src/gui/menu_object_select.cpp:114
+msgid "Are you sure you want to remove this object from the list?"
+msgstr "Ali res želiš odstraniti ta predmet s seznama?"
+
+#: src/gui/menu_paths.cpp:32
+msgid "Clone"
+msgstr "Ustvari dvojnik"
+
+#: src/gui/menu_paths.cpp:41
+msgid ""
+"An error occurred and the game could\n"
+"not clone the path. Please contact\n"
+"the developers for support."
+msgstr "Zaradi napake igri ni uspelo ustvariti\ndvojnika poti. Lepo prosimo, da to\nsporočite razvijalcem."
+
+#: src/gui/menu_paths.cpp:44
+msgid "Bind"
+msgstr "Poveži"
+
+#: src/gui/menu_paths.cpp:49
+msgid ""
+"Do you wish to clone the path to edit it separately,\n"
+"or do you want to bind both paths together\n"
+"so that any edit on one edits the other?"
+msgstr "Bi želeli podvojiti pot in urediti dvojnika\nali bi raje povezali obe poti, da urejanje\nene poti spremeni tudi drugo?"
+
+#: src/gui/menu_paths.cpp:56
+msgid "Path {}"
+msgstr "Pot {}"
+
+#: src/control/joystick_config.cpp:86
+msgid "Joystick Mappings"
+msgstr "Prilagoditev igralne palice"
+
+#: src/editor/node_marker.cpp:122
+msgid "Path Node"
+msgstr "Presek poti"
+
+#: src/editor/node_marker.cpp:123
+msgid "Press CTRL to move Bezier handles"
+msgstr "Pritisni krmilko, da premakneš ročaje krivulje"
+
+#: src/editor/node_marker.cpp:127
+msgid "Easing"
+msgstr "Iztekanje"
+
+#: src/editor/layers_widget.cpp:371
+msgid "Sector: {}"
+msgstr "Predel: {}"
+
+#: src/editor/layers_widget.cpp:454
+msgid "Add Layer"
+msgstr "Dodaj plast"
+
+#: src/editor/object_menu.cpp:60
+msgid "Patch Notes"
+msgstr "Novosti posodobitve"
+
+#: src/editor/object_menu.cpp:67 src/editor/object_option.cpp:910
+msgid "Remove"
+msgstr "Odstrani"
+
+#: src/editor/object_menu.cpp:84
+msgid ""
+"This will update the object to its latest functionality.\n"
+"Check the \"Patch Notes\" for more information.\n"
+"\n"
+"Keep in mind this is very likely to break the proper behaviour of the object.\n"
+"Make sure to re-check any behaviour, related to the object."
+msgstr "To bo posodobilo funkcionalnost predmeta.\nVeč piše v novostih posodobitve.\n\nZlahka se zgodi, da predmet zaradi tega ne bo več deloval kot pričakovano.\nPriporočam, da preveriš obnašanje predmeta in njegove okolice."
+
+#: src/editor/object_menu.cpp:98
+msgid "Patch notes for v{}:"
+msgstr "Novosti za različico {}:"
+
+#: src/editor/object_settings.cpp:138
+msgid "West"
+msgstr "Zahod"
+
+#: src/editor/object_settings.cpp:138
+msgid "East"
+msgstr "Vzhod"
+
+#: src/editor/object_settings.cpp:138
+msgid "North"
+msgstr "Sever"
+
+#: src/editor/object_settings.cpp:138
+msgid "South"
+msgstr "Jug"
+
+#: src/editor/object_settings.cpp:151
+msgid "One shot"
+msgstr "Premočrtno"
+
+#: src/editor/object_settings.cpp:151
+msgid "Ping-pong"
+msgstr "Tja in spet nazaj"
+
+#: src/editor/object_settings.cpp:151
+msgid "Circular"
+msgstr "Krožno"
+
+#: src/editor/particle_editor.cpp:114
+msgid "Change texture...  ->"
+msgstr "Spremeni teksturo ...  ->"
+
+#: src/editor/particle_editor.cpp:126
+msgid "Max amount"
+msgstr "Največja količina"
+
+#: src/editor/particle_editor.cpp:142
+msgid "Spawn anywhere"
+msgstr "Udejanji kjerkoli"
+
+#: src/editor/particle_editor.cpp:143
+msgid "Life duration"
+msgstr "Trajanje obstoja"
+
+#: src/editor/particle_editor.cpp:148
+msgid "Birth duration"
+msgstr "Trajanje nastajanja"
+
+#: src/editor/particle_editor.cpp:153
+msgid "Death duration"
+msgstr "Trajanje odmiranja"
+
+#: src/editor/particle_editor.cpp:160
+msgid "Grow"
+msgstr "Rast"
+
+#: src/editor/particle_editor.cpp:175
+msgid "Horizontal speed"
+msgstr "Vodoravna hitrost"
+
+#: src/editor/particle_editor.cpp:180
+msgid "Vertical speed"
+msgstr "Navpična hitrost"
+
+#: src/editor/particle_editor.cpp:185
+msgid "Horizontal acceleration"
+msgstr "Vodoravni pospešek"
+
+#: src/editor/particle_editor.cpp:186
+msgid "Vertical acceleration"
+msgstr "Navpični pospešek"
+
+#: src/editor/particle_editor.cpp:187
+msgid "Horizontal friction"
+msgstr "Vodoravno trenje"
+
+#: src/editor/particle_editor.cpp:188
+msgid "Vertical friction"
+msgstr "Navpično trenje"
+
+#: src/editor/particle_editor.cpp:190
+msgid "Initial rotation"
+msgstr "Začetni zasuk"
+
+#: src/editor/particle_editor.cpp:201
+msgid "Rotation friction/decceleration"
+msgstr "Trenje/pojemek zasuka"
+
+#: src/editor/particle_editor.cpp:211
+msgid "Destroy"
+msgstr "Uničenje"
+
+#: src/editor/particle_editor.cpp:215
+msgid "Stick to surface"
+msgstr "Ustavitev na površini"
+
+#: src/editor/particle_editor.cpp:216
+msgid "Stick and stay"
+msgstr "Trajna ustavitev"
+
+#: src/editor/particle_editor.cpp:217
+msgid "No collision"
+msgstr "Brez kolizije"
+
+#: src/editor/particle_editor.cpp:222
+msgid "Always destroy"
+msgstr "Vedno uniči"
+
+#: src/editor/particle_editor.cpp:226
+msgid "Offscreen mode"
+msgstr "Zunajzaslonski način"
+
+#: src/editor/particle_editor.cpp:229
+msgid "Clear"
+msgstr "Počisti"
+
+#: src/editor/particle_editor.cpp:245
+msgid "<- General settings"
+msgstr "<- Splošne nastavitve"
+
+#: src/editor/particle_editor.cpp:255
+msgid "Likeliness"
+msgstr "Verjetnost"
+
+#: src/editor/particle_editor.cpp:266
+msgid "Color (RGBA)"
+msgstr "Barva (RGBA)"
+
+#: src/editor/particle_editor.cpp:311
+msgid "Scale (x, y)"
+msgstr "Velikost (x, y)"
+
+#: src/editor/particle_editor.cpp:332
+msgid "Hitbox scale (x, y)"
+msgstr "Velikost občutljivega področja (x, y)"
+
+#: src/editor/particle_editor.cpp:353
+msgid "Hitbox offset relative to scale"
+msgstr "Odmik občutljivega področja glede na velikost"
+
+#: src/editor/particle_editor.cpp:372
+msgid "Change texture..."
+msgstr "Spremeni teksturo ..."
+
+#: src/editor/particle_editor.cpp:766
+msgid ""
+"This particle configuration contains unsaved changes,\n"
+"do you want to save?"
+msgstr "Ta konfiguracija vsebuje neshranjene spremembe.\nJih shranim?"
+
+#: src/editor/particle_editor.cpp:774
+msgid "Save as"
+msgstr "Shrani kot"
+
+#: src/editor/editor.cpp:561
+msgid ""
+"This level contains deprecated tiles.\n"
+"It is strongly recommended to replace all deprecated tiles\n"
+"to avoid loss of compatibility in future versions."
+msgstr "Ta stopnja vsebuje zastarele podlage.\nPriporočam, da zamenjaš vse zastarele podlage in se tako\nizogneš nezdružljivosti z bodočimi različicami igre."
+
+#: src/editor/editor.cpp:563
+msgid "Tip: Turn on \"Show Deprecated Tiles\" from the level editor menu."
+msgstr "Namig: V meniju urejevalnika vklopi možnost \"Prikaži zastarele podlage\""
+
+#: src/editor/editor.cpp:634
+msgid ""
+"Don't forget that your levels and assets\n"
+"aren't saved between sessions!\n"
+"If you want to keep your levels, download them\n"
+"from the \"Manage Assets\" menu."
+msgstr "Ne pozabi, da se tvoje stopnje in sredstva\nne shranijo med sejami!\nČe želiš obdržati svoje stopnje, jih prenesi\niz menija za upravljanje sredstev."
+
+#: src/editor/editor.cpp:669
+msgid "This level contains unsaved changes, do you want to save?"
+msgstr "Ta stopnja vsebuje nekaj neshranjenih sprememb. Jih shranim?"
+
+#: src/editor/editor.cpp:670
+msgid "This level may contain unsaved changes, do you want to save?"
+msgstr "Ta stopnja morda vsebuje neshranjene spremembe. Jih želiš shraniti?"
+
+#: src/editor/editor.cpp:800
+msgid ""
+"Some obsolete add-ons are still active\n"
+"and might cause collisions with default Super Tux structure.\n"
+"You can still enable these add-ons in the menu.\n"
+"Disabling these add-ons will not delete your game progress."
+msgstr "Nekaj zastarelih dodatkov je še dejavnih,\nkar lahko povzroči neskladja v osnovni strukturi igre.\nČe želiš, jih lahko omogočiš v meniju.\nTudi če jih onemogočiš, se bo tvoj napredek v igri\nše zmeraj ohranil."
+
+#: src/editor/editor.cpp:803
+msgid "Disable add-ons"
+msgstr "Onemogoči dodatke"
+
+#: src/editor/editor.cpp:808
+msgid "Ignore (not advised)"
+msgstr "Zanemari (ni priporočljivo)"
+
+#: src/editor/editor.cpp:812
+msgid "Leave editor"
+msgstr "Zapusti urejevalnik"
+
+#: src/editor/editor.cpp:1031
+msgid ""
+"Couldn't find a \"main\" sector.\n"
+"Please change the name of the sector where\n"
+"you'd like the player to start to \"main\""
+msgstr "Ni bilo mogoče najti \"glavnega\" predela.\nProsim, spremeni ime predela, kjer naj igralec\nzačne igro, v \"main\""
+
+#: src/editor/editor.cpp:1035
+msgid ""
+"Couldn't find a \"main\" spawnpoint.\n"
+" Please change the name of the spawnpoint where\n"
+"you'd like the player to start to \"main\""
+msgstr "Ni bilo mogoče najti \"glavne\" začetne točke.\nProsim, spremeni ime točke, kjer naj igralec\nzačne, v \"main\""
+
+#: src/editor/tip.cpp:80
+msgid ""
+"This object's current functionality is deprecated.\n"
+"Updating to get its latest functionality is recommended."
+msgstr "Funkcionalnost tega predmeta je zastarela.\nPosodabljam za novejšo različico funkcionalnosti."
+
+#: src/editor/overlay_widget.cpp:996
+msgid "Cannot select deprecated tiles"
+msgstr "Ne morem izbrati zastarelih podlag"
+
+#: src/editor/overlay_widget.cpp:1586
+msgid "Autotile erasing mode is on (\"{}\")"
+msgstr "Način brisanja samo-gradnje je vključen (\"{}\")"
+
+#: src/editor/overlay_widget.cpp:1590
+msgid "Autotile erasing cannot be performed here"
+msgstr "Tukaj ni mogoče izvesti brisanja samo-gradnje"
+
+#: src/editor/overlay_widget.cpp:1595
+msgid "Autotile mode is on (\"{}\")"
+msgstr "Način samo-gradnje je vključen (\"{}\")"
+
+#: src/editor/overlay_widget.cpp:1599
+msgid "Selected tile isn't autotileable"
+msgstr "Izbrana podlaga ni samo-gradljiva"
+
+#: src/editor/overlay_widget.cpp:1604
+msgid "Hold Ctrl to enable autotile erasing"
+msgstr "Omogoči brisanje samo-gradnje z držanjem krmilke"
+
+#: src/editor/overlay_widget.cpp:1608
+msgid "Hold Ctrl to enable autotile"
+msgstr "Omogoči samo-gradnjo z držanjem krmilke"
+
+#: src/editor/object_option.cpp:153
+msgid "true"
+msgstr "drži"
+
+#: src/editor/object_option.cpp:153
+msgid "false"
+msgstr "ne drži"
+
+#: src/editor/object_option.cpp:366 src/editor/object_option.cpp:429
+msgid "invalid"
+msgstr "neveljavno"
+
+#: src/editor/object_option.cpp:903
+msgid "Scale X"
+msgstr "Velikost po X"
+
+#: src/editor/object_option.cpp:904
+msgid "Scale Y"
+msgstr "Velikost po Y"
+
+#: src/editor/object_option.cpp:905
+msgid "Offset X"
+msgstr "Odmik po X"
+
+#: src/editor/object_option.cpp:906
+msgid "Offset Y"
+msgstr "Odmik po Y"
+
+#: src/editor/object_option.cpp:927
+msgid "Test from here"
+msgstr "Testiraj od tu naprej"
+
+#: src/editor/object_option.cpp:944
+msgid "Open Particle Editor"
+msgstr "Odpri urejevalnik delcev"
+
+#: src/badguy/darttrap.hpp:35
+msgid "Dart Trap"
+msgstr "Pljuvač puščic"
+
+#: src/badguy/corrupted_granito.cpp:175 src/badguy/darttrap.cpp:170
+#: src/badguy/granito.hpp:52 src/badguy/dispenser.cpp:440
+msgid "Granito"
+msgstr "Granitek"
+
+#: src/badguy/corrupted_granito.cpp:176
+msgid "Skullyhop"
+msgstr "Glavakost"
+
+#: src/badguy/granito.cpp:259
+msgid "Detect script"
+msgstr "Zaznaj skripto"
+
+#: src/badguy/granito.cpp:260
+msgid "Carried script"
+msgstr "Nošena skripta"
+
+#: src/badguy/granito.cpp:277 src/badguy/granito_big.cpp:73
+msgid "Default"
+msgstr "V privzetem položaju"
+
+#: src/badguy/granito.cpp:278 src/badguy/granito_big.cpp:74
+msgid "Standing"
+msgstr "Stoječ"
+
+#: src/badguy/granito.cpp:279 src/badguy/granito_big.cpp:75
+msgid "Walking"
+msgstr "Hodeč"
+
+#: src/badguy/granito.cpp:280 src/badguy/granito_big.cpp:76
+msgid "Scriptable"
+msgstr "Programabilen"
+
+#: src/badguy/granito.cpp:283
+msgid "Sitting"
+msgstr "Sedeč"
+
+#: src/badguy/scrystallo.cpp:57
+msgid "Walk Radius"
+msgstr "Doseg hoje"
+
+#: src/badguy/scrystallo.cpp:58
+msgid "Awakening Radius"
+msgstr "Doseg zbujanja"
+
+#: src/badguy/scrystallo.cpp:59
+msgid "Roof-attached"
+msgstr "Na stropu"
+
+#: src/badguy/willowisp.cpp:306
+msgid "Track range"
+msgstr "Oddaljenost za sledenje"
+
+#: src/badguy/willowisp.cpp:307
+msgid "Vanish range"
+msgstr "Oddaljenost za izginjanje"
+
+#: src/badguy/willowisp.cpp:308
+msgid "Fly speed"
+msgstr "Hitrost letenja"
+
+#: src/badguy/granito_big.cpp:64
+msgid "Carrying Script"
+msgstr "Skripta med nošenjem"
+
+#: src/badguy/owl.cpp:241
+msgid "Carry"
+msgstr "Prenaša"
+
+#: src/badguy/dart.hpp:44
+msgid "Dart"
+msgstr "Puščica"
+
+#: src/badguy/kugelblitz.hpp:40
+msgid "Kugelblitz"
+msgstr "Kugelblitz"
+
+#: src/badguy/mrbomb.cpp:66
+msgid "Classic"
+msgstr "Klasičen"
+
+#: src/badguy/angrystone.hpp:39
+msgid "Angry Stone"
+msgstr "Jezni kamen"
+
+#: src/badguy/flame.hpp:47
+msgid "Flame"
+msgstr "Plamen"
+
+#: src/badguy/dispenser.hpp:68
+msgid "Dispenser"
+msgstr "Avtomat"
+
+#: src/badguy/livefire.hpp:38
+msgid "Walking Flame"
+msgstr "Hodeči plamen"
+
+#: src/badguy/livefire.hpp:72
+msgid "Sleeping Flame"
+msgstr "Speči plamen"
+
+#: src/badguy/livefire.hpp:91
+msgid "Dormant Flame"
+msgstr "Mirujoči plamen"
+
+#: src/badguy/granito_big.hpp:44
+msgid "Big Granito"
+msgstr "Veliki Granitek"
+
+#: src/badguy/jumpy.hpp:40
+msgid "Jumpy"
+msgstr "Skokec"
+
+#: src/badguy/boss.cpp:95
+msgid "Lives"
+msgstr "Življenja"
+
+#. l10n: Pinch Mode refers to a particular boss mode that gets
+#. activated once the boss has lost the specified amounts of lives.
+#. This setting specifies how many lives need to be spent until pinch
+#. mode is activated.
+#: src/badguy/boss.cpp:101
+msgid "Lives to Pinch Mode"
+msgstr "Življenja do višje prestave"
+
+#. l10n: Pinch Mode refers to a particular boss mode that gets
+#. activated once the boss has lost the specified amounts of lives.
+#. This setting specifies the squirrel script that gets run to activate boss
+#. mode.
+#: src/badguy/boss.cpp:106
+msgid "Pinch Mode Activation Script"
+msgstr "Skripta za proženje višje prestave"
+
+#: src/badguy/mrtree.hpp:32
+msgid "Mr. Tree"
+msgstr "Gospod Drevo"
+
+#: src/badguy/yeti.cpp:485
+msgid "Fixed position"
+msgstr "Nepremičen"
+
+#: src/badguy/fish_swimming.hpp:40
+msgid "Swimming Fish"
+msgstr "Plavajoča riba"
+
+#: src/badguy/root.hpp:39
+msgid "Root"
+msgstr "Korenina"
+
+#: src/badguy/igel.hpp:39
+msgid "Igel"
+msgstr "Igel"
+
+#: src/badguy/bouncing_snowball.cpp:98
+msgid "Fatbat"
+msgstr "Netopirko"
+
+#: src/badguy/snail.hpp:43
+msgid "Snail"
+msgstr "Polž"
+
+#: src/badguy/snowball.cpp:41
+msgid "Bumpkin"
+msgstr "Buča"
+
+#: src/badguy/snowball.cpp:42
+msgid "BSOD"
+msgstr "Modri zaslonček smrti"
+
+#: src/badguy/short_fuse.hpp:30
+msgid "Short Fuse"
+msgstr "Pulferček"
+
+#: src/badguy/dive_mine.hpp:50
+msgid "Dive Mine"
+msgstr "Potapljaška mina"
+
+#: src/badguy/goldbomb.hpp:36
+msgid "Gold Bomb"
+msgstr "Zlata bomba"
+
+#: src/badguy/igel.cpp:195 src/badguy/jumpy.cpp:46 src/badguy/mrtree.cpp:51
+#: src/badguy/snail.cpp:71 src/badguy/walkingleaf.cpp:36
+#: src/badguy/kamikazesnowball.cpp:118 src/badguy/fish_swimming.cpp:58
+#: src/badguy/viciousivy.cpp:45
+msgid "Corrupted"
+msgstr "Skvarjen"
+
+#: src/badguy/smartball.cpp:35
+msgid "Pumpkin"
+msgstr "Buča"
+
+#: src/badguy/darttrap.cpp:155
+msgid "Initial delay"
+msgstr "Začetna zakasnitev"
+
+#: src/badguy/darttrap.cpp:157
+msgid "Fire delay"
+msgstr "Zakasnitev ognja"
+
+#: src/badguy/darttrap.cpp:158
+msgid "Ammo"
+msgstr "Strelivo"
+
+#: src/badguy/darttrap.cpp:159
+msgid "Dart sprite"
+msgstr "Animiran izrezek puščice"
+
+#: src/badguy/darttrap.cpp:171
+msgid "Skull"
+msgstr "Lobanja"
+
+#: src/badguy/haywire.hpp:46
+msgid "Haywire"
+msgstr "Ponorela bomba"
+
+#: src/badguy/willowisp.hpp:69
+msgid "Will o' Wisp"
+msgstr "Blodeča lučka"
+
+#: src/badguy/granito_giant.cpp:71
+msgid "Awake"
+msgstr "Buden"
+
+#: src/badguy/granito_giant.cpp:72
+msgid "Sleeping"
+msgstr "Speč"
+
+#: src/badguy/granito_giant.cpp:73
+msgid "Corrupted A"
+msgstr "Skvarjen A"
+
+#: src/badguy/granito_giant.cpp:74
+msgid "Corrupted B"
+msgstr "Skvarjen B"
+
+#: src/badguy/granito_giant.cpp:75
+msgid "Corrupted C"
+msgstr "Skvarjen C"
+
+#: src/badguy/viciousivy.hpp:33
+msgid "Vicious Ivy"
+msgstr "Vražja vitica"
+
+#: src/badguy/kamikazesnowball.hpp:34
+msgid "Kamikaze Snowball"
+msgstr "Samomorilska kepica"
+
+#: src/badguy/kamikazesnowball.hpp:65
+msgid "Leafshot"
+msgstr "Hitri list"
+
+#: src/badguy/walkingleaf.hpp:33
+msgid "Walking Leaf"
+msgstr "Hodeči list"
+
+#: src/badguy/walking_candle.hpp:41
+msgid "Walking Candle"
+msgstr "Sveča na nogah"
+
+#: src/badguy/flame.cpp:84
+msgid "Fire"
+msgstr "Ogenj"
+
+#: src/badguy/flame.cpp:85
+msgid "Ghost"
+msgstr "Strahec"
+
+#: src/badguy/smartblock.hpp:30
+msgid "Mrs. Iceblock"
+msgstr "Gospa Ledena"
+
+#: src/badguy/bouncing_snowball.hpp:40
+msgid "Bouncing Snowball"
+msgstr "Poskakujoča kepica"
+
+#: src/badguy/smartball.hpp:32
+msgid "Mrs. Snowball"
+msgstr "Gospa kepica"
+
+#: src/badguy/stumpy.hpp:38
+msgid "Stumpy"
+msgstr "Štor"
+
+#: src/badguy/badguy.hpp:69
+msgid "Badguy"
+msgstr "Pridanič"
+
+#: src/badguy/tarantula.cpp:353 src/badguy/tarantula.hpp:39
+msgid "Tarantula"
+msgstr "Tarantela"
+
+#: src/badguy/tarantula.cpp:354
+msgid "Spidermite"
+msgstr "Pršica prelka"
+
+#: src/badguy/tarantula.cpp:374
+msgid "Static"
+msgstr "Nepremična"
+
+#: src/badguy/scrystallo.hpp:31
+msgid "Sleeping Crystallo"
+msgstr "Speči Kristalko"
+
+#: src/badguy/ghosttree.hpp:41
+msgid "Ghost Tree"
+msgstr "Drevoduh"
+
+#: src/badguy/mrbomb.hpp:55
+msgid "Mr. Bomb"
+msgstr "Gospod Bum"
+
+#: src/badguy/badguy.cpp:1213
+msgid "Death script"
+msgstr "Skripta ob smrti"
+
+#: src/badguy/plant.hpp:34
+msgid "Plant"
+msgstr "Rastlina"
+
+#: src/badguy/root_sapling.hpp:41
+msgid "Root Sapling"
+msgstr "Sadika"
+
+#: src/badguy/captainsnowball.hpp:32
+msgid "Captain Snowball"
+msgstr "Kapitan Snežko"
+
+#: src/badguy/dispenser.cpp:414
+msgid "Interval (seconds)"
+msgstr "Interval (v sekundah)"
+
+#: src/badguy/dispenser.cpp:415
+msgid "Random"
+msgstr "Naključno"
+
+#: src/badguy/dispenser.cpp:421
+msgid "Limit dispensed badguys"
+msgstr "Omeji ustvarjene pridaniče"
+
+#: src/badguy/dispenser.cpp:423
+msgid "Obey Gravity"
+msgstr "Upoštevaj težnost"
+
+#: src/badguy/dispenser.cpp:425
+msgid "Max concurrent badguys"
+msgstr "Največ pridaničev hkrati"
+
+#: src/badguy/dispenser.cpp:437
+msgid "Dropper"
+msgstr "Kapalkar"
+
+#: src/badguy/dispenser.cpp:438
+msgid "Cannon"
+msgstr "Top"
+
+#: src/badguy/dispenser.cpp:439 src/worldmap/special_tile.cpp:77
+msgid "Invisible"
+msgstr "Neviden"
+
+#: src/badguy/crystallo.hpp:33
+msgid "Crystallo"
+msgstr "Kristalko"
+
+#: src/badguy/fish_harmless.hpp:30
+msgid "Harmless Fish"
+msgstr "Neškodljiva riba"
+
+#: src/badguy/snowball.hpp:30
+msgid "Mr. Snowball"
+msgstr "Gospod Snežko"
+
+#: src/badguy/yeti_stalactite.hpp:34
+msgid "Yeti's Stalactite"
+msgstr "Jetijev stalaktit"
+
+#: src/badguy/sspiky.hpp:37
+msgid "Sleeping Spiky"
+msgstr "Speči Špikamož"
+
+#: src/badguy/fish_chasing.cpp:200
+msgid "Tracking Distance"
+msgstr "Razdalja sledenja"
+
+#: src/badguy/fish_chasing.cpp:201
+msgid "Losing Distance"
+msgstr "Razdalja zaostanka"
+
+#: src/badguy/fish_chasing.cpp:202
+msgid "Chase Speed"
+msgstr "Hitrost zasledovanja"
+
+#: src/badguy/spiky.hpp:31
+msgid "Spiky"
+msgstr "Špikamož"
+
+#: src/badguy/jumpy.cpp:44 src/badguy/fish_swimming.cpp:56
+#: data/images/ice_world.strf:10 data/images/tiles.strf:28
+#: data/images/worldmap.strf:41
+msgid "Snow"
+msgstr "Sneg"
+
+#: src/badguy/jumpy.cpp:45
+msgid "Wooden"
+msgstr "Leseni"
+
+#: src/badguy/jumpy.cpp:47
+msgid "Metal"
+msgstr "Kovinski"
+
+#: src/badguy/jumpy.cpp:48
+msgid "Bag"
+msgstr "Mošnjiček"
+
+#: src/badguy/owl.hpp:45
+msgid "Owl"
+msgstr "Sova"
+
+#: src/badguy/crusher.hpp:71
+msgid "Crusher"
+msgstr "Drobilec"
+
+#: src/badguy/skydive.hpp:43
+msgid "Skydive"
+msgstr "Prosti pad"
+
+#: src/badguy/stalactite.hpp:42
+msgid "Stalactite"
+msgstr "Stalaktit"
+
+#: src/badguy/mriceblock.cpp:64
+msgid "Laptop"
+msgstr "Prenosnik"
+
+#: src/badguy/flyingsnowball.hpp:33
+msgid "Flying Snowball"
+msgstr "Leteča kepica"
+
+#: src/badguy/rcrystallo.hpp:33
+msgid "Roof Crystallo"
+msgstr "Stropni Kristalko"
+
+#: src/badguy/zeekling.hpp:39
+msgid "Zeekling"
+msgstr "Zverinica"
+
+#: src/badguy/mole_rock.hpp:44
+msgid "Mole's rock"
+msgstr "Krtkova skala"
+
+#: src/badguy/crusher.cpp:75
+msgid "Ice (normal)"
+msgstr "Ledeni (navaden)"
+
+#: src/badguy/crusher.cpp:76
+msgid "Ice (big)"
+msgstr "Ledeni (velik)"
+
+#: src/badguy/crusher.cpp:77
+msgid "Rock (normal)"
+msgstr "Kameni (navaden)"
+
+#: src/badguy/crusher.cpp:78
+msgid "Rock (big)"
+msgstr "Kameni (velik)"
+
+#: src/badguy/crusher.cpp:79
+msgid "Corrupted (normal)"
+msgstr "Skvarjen (navaden)"
+
+#: src/badguy/crusher.cpp:80
+msgid "Corrupted (big)"
+msgstr "Skvarjen (velik)"
+
+#: src/badguy/crusher.cpp:506
+msgid "Sideways"
+msgstr "Vstran"
+
+#: src/badguy/yeti.hpp:38
+msgid "Yeti"
+msgstr "Jeti"
+
+#: src/badguy/corrupted_granito.hpp:44
+msgid "Corrupted Granito"
+msgstr "Skvarjeni Granitek"
+
+#: src/badguy/ghoul.hpp:30
+msgid "Ghoul"
+msgstr "Prikazen"
+
+#: src/badguy/fish_chasing.hpp:33
+msgid "Chasing Fish"
+msgstr "Loveča riba"
+
+#: src/badguy/mriceblock.hpp:49
+msgid "Mr. Iceblock"
+msgstr "Gospod Ledeni"
+
+#: src/badguy/fish_swimming.cpp:57 data/images/ice_world.strf:255
+#: data/images/tiles.strf:473 data/images/worldmap.strf:67
+msgid "Forest"
+msgstr "Gozd"
+
+#: src/badguy/stalactite.cpp:162
+msgid "ice"
+msgstr "ledeni"
+
+#: src/badguy/stalactite.cpp:163
+msgid "rock"
+msgstr "kameni"
+
+#: src/badguy/totem.hpp:37
+msgid "Totem"
+msgstr "Totem"
+
+#: src/badguy/granito_giant.hpp:32
+msgid "Giant Granito"
+msgstr "Velikanski Granitek"
+
+#: src/badguy/mole.hpp:38
+msgid "Mole"
+msgstr "Krtek"
+
+#: src/badguy/fish_jumping.hpp:41
+msgid "Jumping Fish"
+msgstr "Skakajoča riba"
+
+#: src/badguy/snowman.hpp:29
+msgid "Snowman"
+msgstr "Snežak"
+
+#: src/badguy/corrupted_granito_big.hpp:35
+msgid "Corrupted Big Granito"
+msgstr "Skvarjeni veliki Granitek"
+
+#: src/badguy/toad.hpp:38
+msgid "Toad"
+msgstr "Krastača"
+
+#: src/worldmap/sprite_change.cpp:91
+msgid "Stay action"
+msgstr "Stoječa drža"
+
+#: src/worldmap/sprite_change.cpp:92
+msgid "Initial stay action"
+msgstr "Začetna drža"
+
+#: src/worldmap/sprite_change.cpp:93
+msgid "Stay group"
+msgstr "Skupina stanja"
+
+#: src/worldmap/sprite_change.cpp:94
+msgid "Change on touch"
+msgstr "Sprememba ob dotiku"
+
+#: src/worldmap/sprite_change.hpp:35
+msgid "Sprite Change"
+msgstr "Sprememba animiranega izrezka"
+
+#: src/worldmap/teleporter.cpp:50
+msgid "Automatic"
+msgstr "Samodejno"
+
+#: src/worldmap/teleporter.cpp:51
+msgid "Target worldmap"
+msgstr "Ciljni zaris sveta"
+
+#: src/worldmap/level_tile.cpp:86
+msgid "<no title>"
+msgstr "<neimenovano>"
+
+#: src/worldmap/level_tile.cpp:153 src/worldmap/level_tile.hpp:36
+msgid "Level"
+msgstr "Stopnja"
+
+#: src/worldmap/level_tile.cpp:154
+msgid "Outro script"
+msgstr "Skripta ob odjavni špici"
+
+#: src/worldmap/level_tile.cpp:155
+msgid "Auto play"
+msgstr "Samodejno predvajaj"
+
+#: src/worldmap/level_tile.cpp:156
+msgid "Title colour"
+msgstr "Barva naslova"
+
+#: src/worldmap/special_tile.hpp:36
+msgid "Special Tile"
+msgstr "Posebna podlaga"
+
+#: src/worldmap/special_tile.cpp:75
+msgid "Show message"
+msgstr "Pokaži sporočilo"
+
+#: src/worldmap/teleporter.hpp:34
+msgid "Teleporter"
+msgstr "Teleportirnik"
+
+#: data/credits.stxt:25
+msgid "Current SuperTux Team"
+msgstr "Trenutna ekipa SuperTuxa"
+
+#: data/credits.stxt:30
+msgid "Maintainer, Programming"
+msgstr "Vzdrževanje, programiranje"
+
+#: data/credits.stxt:35
+msgid "Graphics, Level Design, Story"
+msgstr "Grafika, oblikovanje stopenj, zgodba"
+
+#: data/credits.stxt:40
+msgid "Level Design, Story, Optimisation, Coordination"
+msgstr "Oblikovanje stopenj, zgodba, optimizacija, koordiniranje"
+
+#: data/credits.stxt:45 data/credits.stxt:120 data/credits.stxt:206
+#: data/credits.stxt:538
+msgid "Graphics"
+msgstr "Grafika"
+
+#: data/credits.stxt:50 data/credits.stxt:102 data/credits.stxt:108
+msgid "Graphics, Programming, Level Design"
+msgstr "Grafika, programiranje, oblikovanje stopenj"
+
+#: data/credits.stxt:55
+msgid "Features and Programming"
+msgstr "Nekatere funkcionalnosti in programiranje"
+
+#: data/credits.stxt:60
+msgid "Minor features and programming"
+msgstr "Manjše funkcionalnosti in programiranje"
+
+#: data/credits.stxt:65
+msgid "Programming, Level Updates"
+msgstr "Programiranje, posodobitev stopenj"
+
+#: data/credits.stxt:70
+msgid "Graphics, Programming"
+msgstr "Grafika, programiranje"
+
+#: data/credits.stxt:75 data/credits.stxt:85 data/credits.stxt:150
+#: data/credits.stxt:155 data/credits.stxt:160 data/credits.stxt:165
+#: data/credits.stxt:180 data/credits.stxt:185 data/credits.stxt:534
+#: data/credits.stxt:546
+msgid "Programming"
+msgstr "Programiranje"
+
+#: data/credits.stxt:80 data/credits.stxt:266
+msgid "Level Design"
+msgstr "Oblikovanje stopenj"
+
+#: data/credits.stxt:91
+msgid "Original Developers"
+msgstr "Prvotni razvijalci"
+
+#: data/credits.stxt:96
+msgid "Original Developer"
+msgstr "Prvotni razvijalec"
+
+#: data/credits.stxt:114
+msgid "Music, Level Design"
+msgstr "Glasba, oblikovanje stopenj"
+
+#: data/credits.stxt:126
+msgid "Programming, Graphics, Level Design"
+msgstr "Programiranje, grafika, oblikovanje stopenj"
+
+#: data/credits.stxt:132
+msgid "Programming, Level Design"
+msgstr "Programiranje, oblikovanje stopenj"
+
+#: data/credits.stxt:138
+msgid "Graphics, Story"
+msgstr "Grafika, zgodba"
+
+#: data/credits.stxt:144
+msgid "Programming, Documentation"
+msgstr "Programiranje, dokumentacija"
+
+#: data/credits.stxt:170
+msgid "Coordination"
+msgstr "Koordinacija"
+
+#: data/credits.stxt:175
+msgid "Programming, \"Flexlay\" Level editor"
+msgstr "Programiranje, urejevalnik stopenj \"Flexlay\""
+
+#: data/credits.stxt:190
+msgid "Windows build fixes"
+msgstr "Popravki verzije za Windows"
+
+#: data/credits.stxt:195
+msgid "Packaging, Nightly builds"
+msgstr "Pakiranje, redne nočne verzije"
+
+#: data/credits.stxt:200
+msgid "Translation Guru (and many details anyone else could have done)"
+msgstr "Prevajalski Guru (in ogromno raznoraznih malenkosti)"
+
+#: data/credits.stxt:450
+msgid "Additional contributors"
+msgstr "Dodatni prispevki"
+
+#: data/credits.stxt:455
+msgid "Bug fixes"
+msgstr "Popravki nepravilnosti"
+
+#: data/credits.stxt:459
+msgid "Scripting functions, Level fixes"
+msgstr "Skriptne funkcije, popravki stopenj"
+
+#: data/credits.stxt:463
+msgid "Code quality fixes"
+msgstr "Popravki kakovosti kode"
+
+#: data/credits.stxt:467 data/credits.stxt:471 data/credits.stxt:475
+#: data/credits.stxt:502
+msgid "Various contributions"
+msgstr "Različni prispevki"
+
+#: data/credits.stxt:479
+msgid "Build issue fix"
+msgstr "Popravki gradnje verzij"
+
+#: data/credits.stxt:483 data/credits.stxt:487
+msgid "Code contributions"
+msgstr "Prispevki za kodo"
+
+#: data/credits.stxt:490
+msgid "Code contribution, AppData file"
+msgstr "Prispevki za kodo, datoteka AppData"
+
+#: data/credits.stxt:494
+msgid "Bug fix"
+msgstr "Popravki nepravilnosti"
+
+#: data/credits.stxt:498
+msgid "Menu reorganization"
+msgstr "Preureditev menija"
+
+#: data/credits.stxt:506
+msgid "Fixing tile bugs"
+msgstr "Popravki nepravilnosti v podlagah"
+
+#: data/credits.stxt:510
+msgid "Build error fix"
+msgstr "Popravki napak v gradnji verzij"
+
+#: data/credits.stxt:514
+msgid "Scripting function fix"
+msgstr "Popravki skriptnih funkcij"
+
+#: data/credits.stxt:518
+msgid "New features and notable updates"
+msgstr "Nove funkcionalnosti in posodobitve"
+
+#: data/credits.stxt:522
+msgid "Support for \"glbinding\" as optional OpenGL binding"
+msgstr "Podpora za \"glbinding\" kot izbirne vezave v OpenGL"
+
+#: data/credits.stxt:526
+msgid "New menu code"
+msgstr "Nova koda menija"
+
+#: data/credits.stxt:530
+msgid "Big Tux Walking Sprites improvements"
+msgstr "Izboljšave animacije hoje za velikega Tuksa"
+
+#: data/credits.stxt:542 data/credits.stxt:550
+msgid "Contrib Programming"
+msgstr "Prispevki pri programiranju"
+
+#: data/credits.stxt:554
+msgid "Programming, Previous Maintainer"
+msgstr "Programiranje, predhodno vzdrževanje"
+
+#: data/credits.stxt:558
+msgid "Various Contributions"
+msgstr "Različni prispevki"
+
+#: data/credits.stxt:562 data/credits.stxt:566 data/credits.stxt:570
+#: data/credits.stxt:574 data/credits.stxt:578 data/credits.stxt:582
+#: data/credits.stxt:586 data/credits.stxt:590 data/credits.stxt:594
+#: data/credits.stxt:598 data/credits.stxt:602 data/credits.stxt:606
+#: data/credits.stxt:610 data/credits.stxt:614 data/credits.stxt:618
+#: data/credits.stxt:622 data/credits.stxt:626 data/credits.stxt:630
+#: data/credits.stxt:634 data/credits.stxt:638 data/credits.stxt:642
+#: data/credits.stxt:646 data/credits.stxt:650 data/credits.stxt:654
+#: data/credits.stxt:658 data/credits.stxt:662
+msgid "Contributions"
+msgstr "Prispevki"
+
+#: data/credits.stxt:668
+msgid "Localization"
+msgstr "Lokalizacija"
+
+#: data/credits.stxt:1231
+msgid " Special Thanks to"
+msgstr "Posebna zahvala:"
+
+#: data/credits.stxt:1236
+msgid "Creator of Tux, the Linux penguin"
+msgstr "Ustvarjalec pingvinčka Tuksa, Linuxove maskote"
+
+#: data/credits.stxt:1240
+msgid "SDL, OpenAL and OpenGL"
+msgstr "SDL, OpenAL in OpenGL"
+
+#: data/credits.stxt:1241
+msgid ""
+"For making such a great gaming experience\n"
+"        possible on Linux"
+msgstr "Ker so omogočili najboljšo možno igralno\nizkušnjo na Linuxu"
+
+#: data/credits.stxt:1246
+msgid "and you, the player"
+msgstr "in tebi, igralec/ka,"
+
+#: data/credits.stxt:1247
+msgid "for giving this game a chance and playing it"
+msgstr "ker si igral/a to igro"
+
+#: data/credits.stxt:1258
+msgid "Visit our webpage at"
+msgstr "Obišči našo spletno stran:"
+
+#: data/credits.stxt:1267
+msgid "Or visit us directly at IRC:"
+msgstr "Ali pa pridi k nam neposredno na IRC:"
+
+#: data/credits.stxt:1271
+msgid "#supertux at web.libera.chat"
+msgstr "#supertux na web.libera.chat"
+
+#: data/credits.stxt:1276
+msgid "Or at our Forum:"
+msgstr "Ali na naš forum:"
+
+#: data/credits.stxt:1285
+msgid "Comments, ideas and suggestions"
+msgstr "Za pripombe, ideje in predloge"
+
+#: data/credits.stxt:1289
+msgid "go to our mailing list"
+msgstr "pojdi na naš e-poštni seznam"
+
+#. l10n: typo contact
+#: data/credits.stxt:1299
+msgid "Typographical errors can be"
+msgstr "Tiskarske napake lahko"
+
+#. l10n: typo contact
+#: data/credits.stxt:1304
+msgid "reported to"
+msgstr "prijaviš na"
+
+#. l10n: typo contact, see <https://github.com/SuperTux/supertux/issues/611>
+#: data/credits.stxt:1309
+msgid "supertux-devel@lists.lethargik.org"
+msgstr "supertux-devel@lists.lethargik.org"
+
+#: data/credits.stxt:1316
+msgid "Want to help…"
+msgstr "Bi rad/a pomagal/a ..."
+
+#: data/credits.stxt:1321
+msgid "…with localization?"
+msgstr "... pri prevajanju?"
+
+#: data/credits.stxt:1331
+msgid "…with something else?"
+msgstr "... pri čem drugem?"
+
+#: data/credits.stxt:1342
+msgid "Thank you for"
+msgstr "Hvala, ker si"
+
+#: data/credits.stxt:1346
+msgid "playing"
+msgstr "igral/a"
+
+#: data/credits.stxt:1356
+msgid "Penny awaits you in warmer temperatures!"
+msgstr "Pika te čaka v toplejših krajih!"
+
+#: data/images/engine/editor/objects.stoi:4
+msgid "Enemies"
+msgstr "Sovragi"
+
+#: data/images/engine/editor/objects.stoi:162
+msgid "Bosses"
+msgstr "Šefi"
+
+#: data/images/engine/editor/objects.stoi:173
+msgid "Projectiles"
+msgstr "Izstrelki"
+
+#: data/images/engine/editor/objects.stoi:187
+msgid "Environment"
+msgstr "Okolje"
+
+#: data/images/ice_world.strf:63
+msgid "Ice Cave & Crystal"
+msgstr "Ledena jama in kristal"
+
+#: data/images/ice_world.strf:171
+msgid "Snow Embellishments"
+msgstr "Snežni okraski"
+
+#: data/images/ice_world.strf:343
+msgid "Underground Forest"
+msgstr "Podzemni gozd"
+
+#: data/images/ice_world.strf:423
+msgid "Trees & Rocks"
+msgstr "Drevesa in skale"
+
+#: data/images/ice_world.strf:500
+msgid "Seasonal"
+msgstr "Sezonsko"
+
+#: data/images/ice_world.strf:611
+msgid "Structure"
+msgstr "Struktura"
+
+#: data/images/ice_world.strf:721
+msgid "Pathing"
+msgstr "Stezice"
+
+#: data/images/ice_world.strf:881
+msgid "Water"
+msgstr "Voda"
+
+#: data/images/tiles.strf:324
+msgid "Snow Background"
+msgstr "Snežno ozadje"
+
+#: data/images/tiles.strf:373
+msgid "Crystal"
+msgstr "Kristal"
+
+#: data/images/tiles.strf:698
+msgid "Forest Background"
+msgstr "Gozdno ozadje"
+
+#: data/images/tiles.strf:875
+msgid "Corrupted Forest"
+msgstr "Skvarjeni gozd"
+
+#: data/images/tiles.strf:1115
+msgid "Corrupted Background"
+msgstr "Skvarjeno ozadje"
+
+#: data/images/tiles.strf:1262
+msgid "Jagged Rocks"
+msgstr "Nazobčane skale"
+
+#: data/images/tiles.strf:1306
+msgid "Block + Bonus"
+msgstr "Kocka + bonus"
+
+#: data/images/tiles.strf:1385
+msgid "Pole + Signs"
+msgstr "Drog + znaki"
+
+#: data/images/tiles.strf:1438
+msgid "Liquid"
+msgstr "Tekočina"
+
+#: data/images/tiles.strf:1462
+msgid "Castle"
+msgstr "Grad"
+
+#: data/images/tiles.strf:1588 data/images/worldmap.strf:199
+msgid "Halloween"
+msgstr "Noč čarovnic"
+
+#: data/images/tiles.strf:1629
+msgid "Industrial"
+msgstr "Industrijsko"
+
+#: data/images/tiles.strf:1644
+msgid "Unisolid + Lightmap"
+msgstr "Nestabilno + Svetilna tekstura"
+
+#: data/images/tiles.strf:1671
+msgid "Miscellaneous"
+msgstr "Razno"
+
+#: data/images/tiles.strf:1702
+msgid "Retro Tiles"
+msgstr "Retro podlage"
+
+#: data/images/worldmap.strf:24
+msgid "Water paths"
+msgstr "Vodnate steze"
+
+#: data/images/worldmap.strf:32
+msgid "Castle paths"
+msgstr "Grajske steze"
+
+#: data/images/worldmap.strf:135
+msgid "Darker Forest"
+msgstr "Temačni gozd"
+
+#: data/images/converters/data.stcd:3
+msgid "Nightly Tiles"
+msgstr "Nočne podlage"
+
+#: data/images/converters/data.stcd:5
+msgid "For levels, created in previous Nightly builds."
+msgstr "Za stopnje, ki so bile ustvarjene v prejšnjih nočnih različicah"
+
+#: data/images/converters/data.stcd:8
+msgid "Pre-0.6.3 Crystal Tiles"
+msgstr "Kristalne podlage pred 0.6.3"
+
+#: data/images/converters/data.stcd:10
+msgid "For levels, created in pre-0.6.3 versions, which use crystal tiles."
+msgstr "Za stopnje, ustvarjene pred različico 0.6.3, ki uporabljajo kristalne podlage"
+
+#: data/images/converters/data.stcd:13
+msgid "Jagged Rock Tiles from Addon"
+msgstr "Podlage nazobčanih skal iz dodatkov"
+
+#: data/images/converters/data.stcd:15
+msgid ""
+"For levels, created with the rock tiles addon, converts their IDs to vanilla"
+" rock tile IDs"
+msgstr "V stopnjah, ki vsebujejo skalnate podlage iz dodatkov, pretvori njihove identifikatorje v identifikatorje osnovnih skalnatih podlag"

@@ -1,0 +1,24 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (hitbox 0 0 0 0)
+(fps 4)
+  (images 
+
+"torchflame1.png"
+"torchflame1.png"
+
+"torchflame2.png"
+"torchflame2.png"
+
+
+"torchflame3.png"
+"torchflame3.png"
+
+"torchflame4.png"
+"torchflame4.png"
+"torchflame5.png"
+"torchflame5.png"
+
+))
+)

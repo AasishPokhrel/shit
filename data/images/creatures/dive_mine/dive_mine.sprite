@@ -1,0 +1,58 @@
+(supertux-sprite
+ (action
+  (name "left")
+  (fps 12.0)
+  (hitbox 14 19 32 32)
+  (images "left-0.png"
+          "left-1.png"
+          "left-2.png"
+          "left-3.png"
+		  "left-4.png"
+		  "left-5.png"
+		  "left-6.png"
+		  "left-7.png"
+		  "left-8.png"
+		  "left-9.png"
+		  "left-10.png"
+		  "left-11.png"))
+
+ (action
+  (name "right")
+  (fps 12.0)
+  (hitbox 14 19 32 32)
+  (mirror-action "left"))
+ 
+ (action
+  (name "iced-left")
+  (hitbox 10 13 45 43)
+  (images "left-0.png"))
+ 
+ (action
+  (name "iced-right")
+  (hitbox 6 13 45 43)
+  (mirror-action "iced-left"))
+
+ (action
+  (name "ticking-left")
+  (fps 15.0)
+  (hitbox 14 19 32 32)
+  (images "ticking-0.png"
+          "ticking-1.png"
+          "ticking-2.png"
+          "ticking-3.png"
+          "ticking-4.png"
+		  "ticking-5.png"
+		  "ticking-6.png"
+		  "ticking-7.png"
+		  "ticking-8.png"
+		  "ticking-9.png"
+          ))
+
+ 
+ (action
+  (name "ticking-right")
+  (fps 15.0)
+  (hitbox 14 19 32 32)
+  (mirror-action "ticking-left"))
+ 
+)

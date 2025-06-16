@@ -1,0 +1,9 @@
+(supertux-sprite
+       (action
+         (name "default")
+         (images "air_flower-0.png"
+                 "air_flower-1.png"
+                 "air_flower-2.png"
+                 "air_flower-3.png"
+                 "air_flower-2.png"
+                 "air_flower-1.png")))

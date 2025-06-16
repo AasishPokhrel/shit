@@ -1,0 +1,15 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (images "air.png"
+)
+ )
+ (action
+  (name "display")
+  (images "air_display.png")
+ )
+ (action
+  (name "outline")
+  (images "n_outline.png")
+ )
+)

@@ -1,0 +1,6 @@
+(supertux-world
+  (title (_ "Tropical Paradise"))
+  (description "The third world of SuperTux.")
+  (hide-from-contribs #t)
+  (levelset #f)
+)

@@ -1,0 +1,8 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (fps 8)
+    (images "water_piece1-1.png"
+            "water_piece1-2.png"
+            "water_piece1-3.png"))
+ )

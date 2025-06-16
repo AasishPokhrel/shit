@@ -1,0 +1,37 @@
+(supertux-sprite
+  (action
+    (name "left")
+	(fps 12)
+    (hitbox 8 10 45 45)
+    (images "g2.png"
+	"g3.png"
+	"g4.png"
+	"g5.png"
+	"g5.png"
+	"g6.png"
+	"g7.png"
+	"g7.png"
+	"g7.png"
+	"g8.png"
+	"g1.png"
+	"g1.png"
+	"g1.png"
+	"g1.png"
+	"g1.png"
+	"g1.png"
+	"g1.png"
+	"g1.png"
+	"g1.png")
+  )
+  (action
+    (name "right")
+	(fps 12)
+    (hitbox 47 10 45 45)
+    (mirror-action "left")
+  )
+  (action
+    (name "squished")
+    (hitbox 0 0 1 48)
+    (images "d1.png")
+  )
+)

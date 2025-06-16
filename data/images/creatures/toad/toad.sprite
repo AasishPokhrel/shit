@@ -1,0 +1,69 @@
+(supertux-sprite
+  (action
+    (name "idle-left")
+    (hitbox 1 1 40 24)
+    (fps 5.0)
+    (images
+      "toad-idle-0.png"
+      "toad-idle-1.png"
+    )
+  )
+  (action
+    (name "idle-right")
+    (hitbox 1 1 40 24)
+    (mirror-action "idle-left")
+  )
+  (action
+    (name "iced-left")
+    (hitbox -1 -12 40 24)
+    (fps 5.0)
+    (images "toad-idle-0.png")
+  )
+  (action
+    (name "iced-right")
+    (hitbox 3 -12 40 24)
+    (mirror-action "iced-left")
+  )
+  (action
+    (name "jumping-left")
+    (hitbox 1 1 40 24)
+    (images
+      "toad-jumping.png"
+    )
+  )
+  (action
+    (name "jumping-right")
+    (fps 10.0)
+    (hitbox 1 1 40 24)
+    (mirror-action "jumping-left")
+  )
+  (action
+    (name "squished-left")
+    (hitbox 1 1 40 24)
+    (images "toad-squished.png")
+  )
+  (action
+    (name "squished-right")
+    (hitbox 1 1 40 24)
+    (mirror-action "squished-left")
+  )
+  (action
+    (name "burning-left")
+    (hitbox 1 33 40 24)
+    (fps 15.0)
+    (images
+      "burning-0.png"
+      "burning-1.png"
+      "burning-2.png"
+      "burning-3.png"
+      "burning-4.png"
+      "burning-5.png"
+      "burning-6.png"
+    )
+  )
+  (action
+    (name "burning-right")
+    (hitbox 1 33 40 24)
+    (mirror-action "burning-left")
+  )
+)

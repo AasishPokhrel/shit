@@ -1,0 +1,12 @@
+(supertux-sprite
+ (action
+  (name "default")
+(fps 4.0)
+  (images 
+    "walkingleaf-0.png"
+"walkingleaf-1.png"
+"walkingleaf-2.png"
+"walkingleaf-3.png"
+  )
+ )
+)

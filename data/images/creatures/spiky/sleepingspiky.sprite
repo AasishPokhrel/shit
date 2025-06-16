@@ -1,0 +1,93 @@
+(supertux-sprite
+ (action
+  (name "left")
+  (fps 14)
+  (hitbox 8 13 32 32)
+  (images "spiky-0.png"
+		  "spiky-1.png"
+          "spiky-2.png"
+		  "spiky-3.png"
+		  "spiky-4.png"
+		  "spiky-5.png"
+		  "spiky-6.png"
+		  "spiky-7.png"))
+
+ (action
+  (name "right")
+  (fps 14)
+  (hitbox 8 13 32 32)
+  (mirror-action "left"))
+
+ (action
+  (name "iced-left")
+  (hitbox 3 8 45 43)
+  (images "spiky_sleep-3.png"))
+
+ (action
+  (name "iced-right")
+  (hitbox 3 8 45 43)
+  (mirror-action "iced-left"))
+
+ (action
+  (name "sleeping-left")
+  (hitbox 8 13 32 32)
+  (images "spiky_sleep-0.png"))
+
+ (action
+  (name "sleeping-right")
+  (hitbox 8 13 32 32)
+  (mirror-action "sleeping-left"))
+
+ (action
+  (name "waking-left")
+  (hitbox 8 13 32 32)
+  (fps 10.0)
+  (loops 1)
+  (images "spiky_sleep-0.png"
+		  "spiky_sleep-1.png"
+		  "spiky_sleep-2.png"
+		  "spiky_sleep-3.png"))
+
+ (action
+  (name "waking-right")
+  (fps 10.0)
+  (loops 1)
+  (hitbox 8 13 32 32)
+  (mirror-action "waking-left"))
+
+ (action
+  (name "inside-melting-left")
+  (hitbox 8 13 32 32)
+  (fps 24.0)
+  (loops 1)
+  (images "spiky_gear-0.png"
+		  "spiky_gear-1.png"
+		  "spiky_gear-2.png"
+		  "spiky_gear-3.png"
+		  "spiky_gear-4.png"))
+
+ (action
+  (name "inside-melting-right")
+  (fps 24.0)
+  (loops 1)
+  (hitbox 8 13 32 32)
+  (mirror-action "inside-melting-left"))
+
+ (action
+  (name "gear-left")
+  (hitbox 8 13 32 32)
+  (images "spiky_gear-4.png"))
+
+ (action
+  (name "gear-right")
+  (hitbox 8 13 32 32)
+  (mirror-action "gear-left"))
+
+ (action
+  (name "editor-left")
+  (clone-action "sleeping-left"))
+
+ (action
+  (name "editor-right")
+  (clone-action "sleeping-right"))
+)

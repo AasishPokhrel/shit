@@ -1,0 +1,168 @@
+#  SuperTux
+#  Copyright (C) 2020-2021 Jacob Burroughs <maths22@gmail.com>
+#                2020-2022 A. Semphris <semphris@protonmail.com>
+#
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+name: MacOS
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    tags:
+      - '*'
+  pull_request: {}
+
+jobs:
+  macos:
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-13]
+        build_type: [Debug, Release]
+        glbinding: [ON, OFF]
+        include:
+          - os: macos-13
+            build_type: Release
+            glbinding: OFF
+            release: ON
+
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Fetch the whole tree so git describe works
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Install macos dependencies
+        if: ${{ matrix.os == 'macos-13' }}
+        run: |
+          # Use GLM 1.0.0 as later versions don't build with clang
+          HOMEBREW_NO_AUTO_UPDATE=1 brew install --formula ./mk/brew/glm.rb --build-from-source
+          brew install cmake googletest bash rename libogg libvorbis glew \
+                       openal-soft sdl2 sdl2_image sdl2_ttf freetype harfbuzz \
+                       fribidi glib gtk-doc glbinding@2 libraqm zlib
+          brew link glbinding@2
+
+          install_name_tool -change \
+            '@rpath/libsharpyuv.0.dylib' \
+            /usr/local/opt/webp/lib/libsharpyuv.0.dylib \
+            /usr/local/opt/webp/lib/libwebp.7.dylib
+          install_name_tool -change \
+            '@rpath/libjxl_cms.0.11.dylib' \
+            /usr/local/opt/jpeg-xl/lib/libjxl_cms.0.11.dylib \
+            /usr/local/opt/jpeg-xl/lib/libjxl.dylib
+
+          # Something funky happens with freetype if mono is left
+          sudo mv /Library/Frameworks/Mono.framework                           \
+                  /Library/Frameworks/Mono.framework-disabled
+
+      - name: Set compiler
+        run: |
+          # This ensures for now we use clang11
+          # Clang12 runs into a bunch of fun with `include location
+          # '/usr/local/include' is unsafe for cross-compilation` that we don't
+          # care about for now
+          echo "CXX=clang++" >> $GITHUB_ENV
+          echo "CC=clang" >> $GITHUB_ENV
+
+      - name: Configure build
+        env:
+          BUILD_TYPE: ${{ matrix.build_type }}
+          GLBINDING: ${{ matrix.glbinding }}
+          CMAKE_POLICY_VERSION_MINIMUM: 3.5
+        run: |
+          cmake --version
+          $CXX --version
+          mkdir "build"
+          cd "build"
+          # TODO add -DGLBINDING_ENABLED=$USE_GLBINDING
+          # NOTE: The `WERROR` flag is set to OFF in order to work around issues
+          #       where said flag applied to system includes as well, causing the
+          #       builds to fail. This issue requires further investigation!
+          cmake .. -DCMAKE_BUILD_TYPE=$BUILD_TYPE $ARCH -DBUILD_TESTS=ON       \
+                   -DWARNINGS=ON -DWERROR=OFF -DGLBINDING_ENABLED=$GLBINDING    \
+                   -DENABLE_DISCORD=ON -DCMAKE_INSTALL_MESSAGE=NEVER           \
+                   -DCMAKE_INSTALL_PREFIX=/usr -DINSTALL_SUBDIR_BIN=bin        \
+                   -DINSTALL_SUBDIR_SHARE=share/supertux2
+
+      - name: Build and install
+        env:
+          CMAKE_POLICY_VERSION_MINIMUM: 3.5
+        working-directory: build
+        run: |
+          make -j3 VERBOSE=1
+          make install DESTDIR="/tmp/supertux" VERBOSE=1
+
+      - name: Run tests
+        working-directory: build
+        run: ./test_supertux2
+
+      - name: Package
+        env:
+          OS_NAME: ${{ matrix.os }}
+          ARCH: 64
+          COMPILER_NAME: ${{ matrix.compiler }}
+          BUILD_NAME: ${{ matrix.build_type }}
+          PACKAGE: 'ON'
+        working-directory: build
+        run: ../.ci_scripts/package.sh
+
+      - uses: actions/upload-artifact@v4
+        if: matrix.build_type != 'Debug' && matrix.glbinding == 'OFF'
+        with:
+          name: "${{ matrix.os }}-${{ matrix.build_type }}${{ matrix.glbinding == 'ON' && '-glbinding' || '' }}-dmg"
+          path: build/upload/*.dmg
+          if-no-files-found: ignore
+
+      - uses: anshulrgoyal/upload-s3-action@master
+        if: matrix.release && env.CI_KEY != null
+        env:
+          CI_KEY: ${{ secrets.CI_DOWNLOAD_ACCESS_KEY_ID }}
+        with:
+          aws_bucket: supertux-ci-downloads
+          aws_key_id: ${{ secrets.CI_DOWNLOAD_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.CI_DOWNLOAD_SECRET_ACCESS_KEY }}
+          source_dir: 'build/upload'
+          destination_dir: "${{ github.sha }}/gh-actions/${{ matrix.os }}-${{ matrix.arch }}/${{ github.run_id }}"
+
+      - name: Post uploaded file
+        if: matrix.release && env.DOWNLOAD_APIKEY != null
+        working-directory: build
+        run: ../.ci_scripts/deploy.sh
+        env:
+          PREFIX: "${{ github.sha }}/gh-actions/${{ matrix.os }}-${{ matrix.arch }}/${{ github.run_id }}"
+          DOWNLOAD_APIKEY: ${{ secrets.DOWNLOAD_APIKEY }}
+          BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
+
+      - name: Prepare Release
+        if: startsWith(github.ref, 'refs/tags/') && matrix.release && github.repository_owner == 'supertux'
+        env:
+          OS: ${{ matrix.os }}
+        run: |
+          if [ "$OS" = "macos-12" ]; then
+            rename 's/.dmg/-12.dmg/' build/upload/SuperTux-*
+          fi
+
+      - name: Create Release
+        if: startsWith(github.ref, 'refs/tags/') && matrix.release && github.repository_owner == 'supertux'
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          files: 'build/upload/SuperTux-*'
+          draft: true

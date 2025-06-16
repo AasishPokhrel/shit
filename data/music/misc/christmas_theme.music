@@ -1,0 +1,5 @@
+(supertux-music
+  (file "christmas_theme.ogg")
+  (loop-begin 9)
+  (loop-at    -1)
+)

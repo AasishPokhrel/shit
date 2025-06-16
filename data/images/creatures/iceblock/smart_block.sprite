@@ -1,0 +1,79 @@
+(supertux-sprite
+	(action
+	  (name "left")
+	  (hitbox 8 10 32 32)
+	  (fps 14)
+	  (images "smartblock-0.png"
+            "smartblock-1.png"
+            "smartblock-2.png"
+            "smartblock-3.png"
+            "smartblock-4.png"
+            "smartblock-5.png"
+            "smartblock-6.png"
+            "smartblock-7.png"))
+
+	(action
+	  (name "right")
+	  (hitbox 8 10 32 32)
+	  (fps 14)
+	  (mirror-action "left"))
+
+	(action (name "flat-left")
+	  (hitbox 8 16 32 26)
+	  (images "smartblock-squished.png"))
+
+	(action (name "flat-right")
+	  (hitbox 8 16 32 26)
+	  (mirror-action "flat-left"))
+
+	(action
+		(name "melting-left")
+		(hitbox 8 10 32 32)
+		(images "smelting-0.png"
+            "smelting-1.png"
+            "smelting-2.png"
+            "smelting-3.png"))
+
+	(action
+		(name "melting-right")
+		(hitbox 8 10 32 32)
+		(mirror-action "melting-left"))
+
+	(action
+		(name "ground-melting-left")
+		(hitbox 8 10 32 32)
+		(images "sgmelting-0.png"
+				"sgmelting-1.png"
+				"sgmelting-2.png"
+				"sgmelting-3.png"
+				"sgmelting-4.png"))
+
+	(action
+		(name "ground-melting-right")
+		(hitbox 8 10 32 32)
+		(mirror-action "ground-melting-left"))
+
+  (action
+    (name "waking-left")
+    (fps 12)
+    (loops 1)
+    (hitbox 8 16 32 26)
+    (images "smartblock_recover-0.png"
+            "smartblock_recover-1.png"
+            "smartblock_recover-2.png"
+            "smartblock_recover-3.png"
+            "smartblock_recover-1.png"
+            "smartblock_recover-0.png"
+            "smartblock_recover-1.png"
+            "smartblock_recover-2.png"
+            "smartblock_recover-3.png"
+            "smartblock_recover-4.png"
+            "smartblock_recover-5.png"
+            "smartblock_recover-6.png"))
+
+  (action
+    (name "waking-right")
+    (fps 12)
+    (loops 1)
+    (hitbox 8 16 32 26)
+    (mirror-action "waking-left")))

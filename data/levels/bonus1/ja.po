@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# IAN RODRÍGUEZ Lorenzo, 2023
+# 515ce455fbf38ec9585626e8d26b6324_7a9a6ef, 2017
+# Ryo Nakano, 2019,2021,2024
+# Sanshiro sumita, 2015-2016
+# Sanshiro sumita, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2024-11-11 21:50+0000\n"
+"PO-Revision-Date: 2013-08-10 23:04+0000\n"
+"Last-Translator: Ryo Nakano, 2019,2021,2024\n"
+"Language-Team: Japanese (http://app.transifex.com/arctic-games/supertux/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/levels/bonus1/abednego-level1.stl:3
+msgid "Flight Test"
+msgstr "フライトテスト"
+
+#: data/levels/bonus1/abednego-level2.stl:3
+msgid "Dungeons but no Dragons"
+msgstr "ドラゴンのいないダンジョン"
+
+#: data/levels/bonus1/abednego-level3.stl:3
+msgid "Lies!"
+msgstr "うそつき！"
+
+#: data/levels/bonus1/abednego-level4.stl:3
+msgid "Train Leaves in One Minute"
+msgstr "あと1分で発車します"
+
+#: data/levels/bonus1/bonus-level1.stl:3
+msgid "Bonus Dias!"
+msgstr "ボーナス ディアス！"
+
+#: data/levels/bonus1/bonus-level2.stl:3
+msgid "Castle Gate"
+msgstr "城への入り口"
+
+#: data/levels/bonus1/bonus-level3.stl:3
+msgid "A Long Way Home"
+msgstr "家への長い道のり"
+
+#: data/levels/bonus1/bonus-level4.stl:3
+msgid "Bonus Island Castle"
+msgstr "ボーナスアイランドの城"
+
+#: data/levels/bonus1/bonus-level5.stl:3
+msgid "Area 42"
+msgstr "エリア42"
+
+#: data/levels/bonus1/extro.txt:3
+msgid ""
+"-Congratulations!\n"
+"\n"
+"#You have successfully finished\n"
+"#Bonus Island I\n"
+"\n"
+"\tfeaturing levels contributed by\n"
+"\tJason W. Thompson\n"
+"\tTorfi Gunnarsson\n"
+"\tAbednego\n"
+"\tMatr1x\n"
+"\n"
+"\n"
+"#If you didn't clear all levels yet,\n"
+"#find your way back home and take\n"
+"#another path. There is still more\n"
+"#challenge waiting for you!\n"
+"\n"
+"#And there is a secret level to be\n"
+"#found as well...\n"
+"\n"
+"#A big \"Thank you\" goes out to\n"
+"#everyone who contributed to this\n"
+"#release. We hope you enjoyed it!"
+msgstr "-おめでとうございます！\n\n#無事にボーナスアイランド 1\n#を終えました。\n\n\tこれらのコースを作ったのは、 \n\tJason W. Thompson\n\tTorfi Gunnarsson\n\tAbednego\n\tMatr1x\n\tの皆さんです。\n\n\n#まだすべてのコースを\n#クリアしていなかったら、\n#戻って別の道を探してください。\n#あなたの挑戦をまっています！\n\n#秘密のレベルもありますよ…\n\n\n#このリリースに貢献してくださった皆様に\n#心より感謝を申し上げます。\n#皆さんが楽しんでくださったことを願っています！"
+
+#: data/levels/bonus1/matr1x-level1.stl:3
+msgid "Pipe Down Over There"
+msgstr "パイプは下向き"
+
+#: data/levels/bonus1/matr1x-level2.stl:3
+msgid "Something Fishy"
+msgstr "何かがうさんくさい"
+
+#: data/levels/bonus1/matr1x-level3.stl:3
+msgid "Fire In The Sky"
+msgstr "天空の火"
+
+#: data/levels/bonus1/thompson-level1.stl:3
+msgid "Have I been here before?"
+msgstr "見覚えのある光景"
+
+#: data/levels/bonus1/thompson-level2.stl:3
+msgid "Bad Guys Stink!"
+msgstr "悪者は臭う！"
+
+#: data/levels/bonus1/thompson-level2.stl:96
+msgid ""
+"#These levels were made Swimming-Ready by Serano and revamped by "
+"AllyTheOcelot"
+msgstr "#これらのレベルは Serano によって潜水対応になり、AllyTheOcelot によって改良されました"
+
+#: data/levels/bonus1/torfi-level1.stl:3
+msgid "A good start"
+msgstr "良いスタート"
+
+#: data/levels/bonus1/torfi-level2.stl:3
+msgid "Too easy"
+msgstr "簡単すぎるレベル"
+
+#: data/levels/bonus1/torfi-level2.stl:56
+msgid "#All these levels were upgraded for milestone 2 by Hume."
+msgstr "#これらすべてのレベルは、Hume によってマイルストーン 2 にアップグレードされました。"
+
+#: data/levels/bonus1/torfi-level3.stl:3
+msgid "Still too easy"
+msgstr "まだまだ簡単すぎるレベル"
+
+#: data/levels/bonus1/wansti-level1.stl:3
+msgid "Semi-Frozen"
+msgstr "凍りかけ"
+
+#: data/levels/bonus1/wansti-level2.stl:3
+msgid "Cave Of Mirrors"
+msgstr "鏡の洞窟"
+
+#: data/levels/bonus1/wansti-level3.stl:3
+msgid "A Maze In The Sky"
+msgstr "天空の迷宮"
+
+#: data/levels/bonus1/wansti-level4.stl:3
+msgid "Collapse Imminent!"
+msgstr "差し迫る道の崩壊！"
+
+#: data/levels/bonus1/wansti-level5.stl:3
+msgid "Tip Of The Iceberg"
+msgstr "氷山の一角"
+
+#: data/levels/bonus1/worldmap.stwm:3
+msgid "Bonus Island I"
+msgstr "ボーナスアイランド 1"
+
+#: data/levels/bonus1/worldmap.stwm:127
+msgid "You found a secret place!"
+msgstr "秘密の場所を見つけました！"
+
+#: data/levels/bonus1/worldmap.stwm:135
+msgid "Hint: Use igloos to get back here."
+msgstr "ヒント: ここに戻るには、イグルーを使ってください。"
+
+#: data/levels/bonus1/worldmap.stwm:144
+msgid "Warp to Matr1x' Sector"
+msgstr "Matr1xのセクターにワープします"
+
+#: data/levels/bonus1/worldmap.stwm:151 data/levels/bonus1/worldmap.stwm:228
+msgid "Warp to Thompson's Domain"
+msgstr "Thompsonのドメインにワープします"
+
+#: data/levels/bonus1/worldmap.stwm:158 data/levels/bonus1/worldmap.stwm:221
+msgid "Leave the SuperTux Team Island"
+msgstr "SuperTuxチームアイランドを離れます"
+
+#: data/levels/bonus1/worldmap.stwm:165
+msgid "Warp to Abednego's Area"
+msgstr "Abednegoのエリアにワープします"
+
+#: data/levels/bonus1/worldmap.stwm:172 data/levels/bonus1/worldmap.stwm:262
+msgid "Leave Torfi's Territory"
+msgstr "Torfiのテリトリーを離れます"
+
+#: data/levels/bonus1/worldmap.stwm:179 data/levels/bonus1/worldmap.stwm:207
+msgid "Leave Abednego's Area"
+msgstr "Abednegoのエリアを離れます"
+
+#: data/levels/bonus1/worldmap.stwm:186 data/levels/bonus1/worldmap.stwm:234
+msgid "Leave Thompson's Domain"
+msgstr "Thompsonのドメインを離れます"
+
+#: data/levels/bonus1/worldmap.stwm:193
+msgid "Back to Matr1x' Sector"
+msgstr "Matr1xのセクターに戻ります"
+
+#: data/levels/bonus1/worldmap.stwm:200
+msgid "Warp home"
+msgstr "ホームにワープします"
+
+#: data/levels/bonus1/worldmap.stwm:214
+msgid "Warp to the SuperTux Team Island"
+msgstr "SuperTuxチームアイランドにワープします"
+
+#: data/levels/bonus1/worldmap.stwm:241
+msgid "Leave Matr1x' Sector"
+msgstr "Matr1xのセクターを離れます"
+
+#: data/levels/bonus1/worldmap.stwm:248
+msgid "Continue Matr1x' Sector"
+msgstr "Matr1xのセクターを続けます"
+
+#: data/levels/bonus1/worldmap.stwm:255
+msgid "Warp to Torfi's Territory"
+msgstr "Torfiのテリトリーにワープします"

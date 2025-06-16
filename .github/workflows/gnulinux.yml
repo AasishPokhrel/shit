@@ -1,0 +1,287 @@
+#  SuperTux
+#  Copyright (C) 2020-2021 Jacob Burroughs <maths22@gmail.com>
+#                2020-2022 A. Semphris <semphris@protonmail.com>
+#
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+name: GNU/Linux
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    tags:
+      - '*'
+  pull_request: {}
+
+jobs:
+  gnulinux:
+
+    strategy:
+      fail-fast: false
+      matrix:
+        arch: [32, 64]
+        os: [ubuntu-22.04]
+        compiler: [gcc, clang]
+        build_type: [Debug, Release]
+        glbinding: [ON, OFF]
+        exclude:
+          - arch: 32
+            glbinding: ON
+        include:
+          - os: ubuntu-22.04
+            build_type: Release
+            compiler: gcc
+            arch: 64
+            glbinding: OFF
+            release: ON
+            source: ON
+            documentation: ON
+          - os: ubuntu-22.04
+            build_type: Debug
+            compiler: gcc
+            arch: 64
+            glbinding: OFF
+            coverage: ON
+            # TODO: Working Linux 32-bit packaging
+
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Fetch the whole tree so git describe works
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Install 64-bit dependencies
+        if: ${{ matrix.arch == 64 }}
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            cmake \
+            build-essential \
+            automake \
+            gtk-doc-tools \
+            rpm \
+            rename \
+            sshpass \
+            clang-14 \
+            g++-9 \
+            gcc-multilib \
+            g++-multilib \
+            libgtest-dev \
+            libc++-dev \
+            libogg-dev \
+            libvorbis-dev \
+            libopenal-dev \
+            libsdl2-dev \
+            libsdl2-image-dev \
+            libfreetype6-dev \
+            libharfbuzz-dev \
+            libfribidi-dev \
+            libglib2.0-dev \
+            libraqm-dev \
+            libglew-dev \
+            libglbinding-dev \
+            libcurl4-openssl-dev \
+            libglm-dev \
+            zlib1g-dev \
+            lcov \
+            doxygen \
+            libfuse2
+
+      - name: Install 32-bit dependencies
+        if: ${{ matrix.arch == 32 }}
+        run: |
+          sudo dpkg --add-architecture i386
+          sudo apt-get update
+          sudo apt-get install -y \
+            cmake \
+            build-essential \
+            automake \
+            gtk-doc-tools \
+            rpm \
+            rename \
+            sshpass \
+            gcc-multilib \
+            g++-multilib \
+            libgtest-dev:i386 \
+            libogg-dev:i386 \
+            libvorbis-dev:i386 \
+            libopenal-dev:i386 \
+            libsdl2-dev:i386 \
+            libsdl2-image-dev:i386 \
+            libfreetype6-dev:i386 \
+            libcurl4-openssl-dev:i386 \
+            libharfbuzz-dev:i386 \
+            libfribidi-dev:i386 \
+            libglm-dev \
+            zlib1g-dev \
+            libfuse2
+
+          # Nethier GLEW nor glbinding exist in 32-bit for Ubuntu 22.04, so snatch the debs from 16.04 instead
+          wget archive.ubuntu.com/ubuntu/pool/main/g/glew/libglew1.13_1.13.0-2_i386.deb && sudo dpkg -i libglew1.13_1.13.0-2_i386.deb
+          wget archive.ubuntu.com/ubuntu/pool/main/g/glew/libglew-dev_1.13.0-2_i386.deb && sudo dpkg -i libglew-dev_1.13.0-2_i386.deb
+
+      - name: Set compiler (gcc)
+        if: ${{ matrix.compiler == 'gcc' }}
+        run: |
+          echo "CXX=g++" >> $GITHUB_ENV
+          echo "CC=gcc" >> $GITHUB_ENV
+
+      - name: Set compiler (clang)
+        if: ${{ matrix.compiler == 'clang' }}
+        run: |
+          echo "CXX=clang++" >> $GITHUB_ENV
+          echo "CC=clang" >> $GITHUB_ENV
+
+      - name: Configure build
+        env:
+          BUILD_TYPE: ${{ matrix.build_type }}
+          ARCH: ${{ matrix.arch == 32 && '-DCMAKE_C_FLAGS=-m32 -DCMAKE_CXX_FLAGS=-m32' || '' }}
+          MAKE_DOCS: ${{ matrix.documentation }}
+          GLBINDING: ${{ matrix.glbinding }}
+          # FIXME: GoogleTest isn't detected by CMake on Ubuntu 18.04
+          # (also check the step that invokes the tests with ./test_supertux2)
+          TESTS: ${{ matrix.os == 'ubuntu-22.04' }}
+          CMAKE_POLICY_VERSION_MINIMUM: 3.5
+        run: |
+          cmake --version
+          $CXX --version
+          mkdir "build"
+          cd "build"
+          cmake .. -DCMAKE_BUILD_TYPE=$BUILD_TYPE $ARCH -DBUILD_TESTS=$TESTS   \
+                   -DWARNINGS=ON -DWERROR=ON -DGLBINDING_ENABLED=$GLBINDING    \
+                   -DCMAKE_INSTALL_MESSAGE=NEVER -DCMAKE_INSTALL_PREFIX=/usr   \
+                   -DBUILD_DOCUMENTATION=$MAKE_DOCS -DINSTALL_SUBDIR_BIN=bin   \
+                   -DINSTALL_SUBDIR_SHARE=share/supertux2 -DENABLE_DISCORD=ON.
+
+      - name: Build and install
+        working-directory: build
+        env:
+          CMAKE_POLICY_VERSION_MINIMUM: 3.5
+        run: |
+          make -j3 VERBOSE=1
+          make install DESTDIR="/tmp/supertux" VERBOSE=1
+
+      - name: Run tests
+        # FIXME: GoogleTest isn't detected by CMake on Ubuntu 18.04
+        # (also check the step that invokes CMake with -DBUILD_TESTS)
+        if: ${{ matrix.os == 'ubuntu-22.04' }}
+        working-directory: build
+        run: ./test_supertux2
+
+      - name: Make coverage
+        if: ${{ matrix.coverage }}
+        working-directory: build
+        run: |
+          lcov --capture --directory . --exclude '/usr/*' --exclude '*/tests/*'\
+               --exclude '*/external/*' --output-file coverage.info
+          mkdir coverage
+          cd coverage
+          genhtml ../coverage.info
+
+      - name: Make documentation
+        if: ${{ matrix.documentation }}
+        working-directory: build
+        run: |
+          doxygen docs/Doxyfile
+
+      - name: Package
+        if: matrix.arch != '32'
+        env:
+          OS_NAME: ${{ matrix.os }}
+          ARCH: ${{ matrix.arch }} # TODO: Working Linux 32-bit packaging
+          COMPILER_NAME: ${{ matrix.compiler }}
+          BUILD_NAME: ${{ matrix.build_type }}
+          PACKAGE: 'ON'
+          SOURCE: ${{ matrix.source }}
+        working-directory: build
+        run: ../.ci_scripts/package.sh
+
+      - name: Upload AppImage
+        if: matrix.build_type != 'Debug' && matrix.glbinding == 'OFF'
+        uses: actions/upload-artifact@v4
+        with:
+          name: "${{ matrix.os }}-${{ matrix.arch }}-${{ matrix.compiler }}-${{ matrix.build_type }}${{ matrix.glbinding == 'ON' && '-glbinding' || '' }}-appimage"
+          path: build/upload/*.AppImage
+          if-no-files-found: ignore
+
+      - name: Upload source
+        uses: actions/upload-artifact@v4
+        with:
+          name: "source"
+          path: build/upload/*Source.tar.gz
+          if-no-files-found: ignore
+
+      - name: Upload coverage
+        uses: actions/upload-artifact@v4
+        with:
+          name: "coverage"
+          path: build/coverage/*
+          if-no-files-found: ignore
+
+      - name: Upload documentation
+        uses: actions/upload-artifact@v4
+        with:
+          name: "documentation"
+          path: build/docs/doxygen/html/*
+          if-no-files-found: ignore
+
+      - name: Upload tar archives
+        uses: actions/upload-artifact@v4
+        with:
+          name: "${{ matrix.os }}-${{ matrix.arch }}-${{ matrix.compiler }}-${{ matrix.build_type }}${{ matrix.glbinding == 'ON' && '-glbinding' || '' }}-tgz"
+          path: build/upload/*Linux.tar.gz
+          if-no-files-found: ignore
+
+      - name: Upload to nightlies
+        uses: anshulrgoyal/upload-s3-action@master
+        if: matrix.release && env.CI_KEY != null
+        env:
+          CI_KEY: ${{ secrets.CI_DOWNLOAD_ACCESS_KEY_ID }}
+        with:
+          aws_bucket: supertux-ci-downloads
+          aws_key_id: ${{ secrets.CI_DOWNLOAD_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.CI_DOWNLOAD_SECRET_ACCESS_KEY }}
+          source_dir: 'build/upload'
+          destination_dir: "${{ github.sha }}/gh-actions/${{ matrix.os }}-${{ matrix.arch }}/${{ github.run_id }}"
+
+      - name: Post uploaded file
+        if: matrix.release && env.DOWNLOAD_APIKEY != null
+        working-directory: build
+        run: ../.ci_scripts/deploy.sh
+        env:
+          PREFIX: "${{ github.sha }}/gh-actions/${{ matrix.os }}-${{ matrix.arch }}/${{ github.run_id }}"
+          DOWNLOAD_APIKEY: ${{ secrets.DOWNLOAD_APIKEY }}
+          BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
+
+      - name: Prepare Release
+        if: startsWith(github.ref, 'refs/tags/') && matrix.release && github.repository_owner == 'supertux'
+        env:
+          OS: ${{ matrix.os }}
+          ARCH: ${{ matrix.arch }}
+        run: |
+          if [ "$ARCH" = "32" ]; then
+            rename 's/.tar.gz/-32.tar.gz/' build/upload/SuperTux-*
+          fi
+
+      - name: Create Release
+        if: startsWith(github.ref, 'refs/tags/') && matrix.release && github.repository_owner == 'supertux'
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          files: 'build/upload/SuperTux-*'
+          draft: true

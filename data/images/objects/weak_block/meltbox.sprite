@@ -1,0 +1,33 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (images 
+      "meltbox-0.png"
+    )
+  )
+  (action
+    (name "burning")
+	(fps 16)
+	(loops 1)
+    (images 
+      "meltbox-1.png"
+	  "meltbox-2.png"
+	  "meltbox-3.png"
+	  "meltbox-4.png"
+	  "meltbox-5.png"
+    )
+  )
+  (action
+    (name "disintegrating")
+	(fps 16)
+	(loops 1)
+    (images 
+      "meltbox-6.png"
+      "meltbox-7.png"
+      "meltbox-8.png"
+      "meltbox-9.png"
+      "meltbox-10.png"
+      "meltbox-11.png"
+    )
+  )
+)

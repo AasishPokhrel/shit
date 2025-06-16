@@ -1,0 +1,92 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (hitbox 16 24 36 38)
+    (fps 15)
+    (images "walk-0.png"
+            "walk-1.png"
+            "walk-2.png"
+            "walk-3.png"
+            "walk-4.png"
+            "walk-5.png"
+            "walk-6.png"
+            "walk-7.png")
+  )
+  (action
+    (name "right")
+    (hitbox 18 24 36 38)
+    (fps 15)
+    (mirror-action "left")
+  )
+  (action
+    (name "roll-start-left")
+    (hitbox 16 24 36 38)
+    (fps 20)
+    (loops 1)
+    (images "roll_start-0.png"
+            "roll_start-1.png"
+            "roll_start-2.png"
+            "roll_start-3.png")
+  )
+  (action
+    (name "roll-start-right")
+    (hitbox 18 24 36 38)
+    (fps 20)
+    (loops 1)
+    (mirror-action "roll-start-left")
+  )
+  (action
+    (name "roll-left")
+    (hitbox 7 10 36 32)
+    (fps 20)
+    (images "roll-0.png"
+            "roll-1.png"
+            "roll-2.png"
+            "roll-3.png"
+            "roll-4.png"
+            "roll-5.png")
+  )
+  (action
+    (name "roll-right")
+    (hitbox 7 10 36 32)
+    (fps 20)
+    (mirror-action "roll-left")
+  )
+  (action
+    (name "roll-end-left")
+    (hitbox 16 24 36 38)
+    (fps 20)
+    (loops 1)
+    (images "roll_start-3.png"
+            "roll_start-2.png"
+            "roll_start-1.png"
+            "roll_start-0.png")
+  )
+  (action
+    (name "roll-end-right")
+    (hitbox 18 24 36 38)
+    (fps 20)
+    (loops 1)
+    (mirror-action "roll-end-left")
+  )
+  (action
+    (name "iced-left")
+    (hitbox 2 18 64 43)
+    (images "walk-0.png")
+  )
+  (action
+    (name "iced-right")
+    (hitbox 2 18 64 43)
+    (mirror-action "iced-left")
+  )
+  (action
+    (hitbox 16 24 36 38)
+    (name "burning-left")
+    (images "walk-0.png")
+  )
+  (action
+    (hitbox 18 24 36 38)
+    (name "burning-right")
+    (mirror-action "burning-left")
+  )
+)

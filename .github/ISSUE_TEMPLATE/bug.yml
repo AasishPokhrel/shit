@@ -1,0 +1,80 @@
+name: Bug Report
+description: File a report for unexpected behavior in SuperTux.
+title: "[Bug]: "
+labels: ["type:bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: supertux-version
+    attributes:
+      label: SuperTux Version
+      description: The version of SuperTux, shown at the bottom-left corner on the title screen.
+      placeholder: ex. v0.6.3-1236-g7451121dd
+    validations:
+      required: true
+  - type: input
+    id: system-info
+    attributes:
+      label: System Information
+      description: Details about your operating system (such as Linux distribution or Windows version) and CPU architecture (ex. 64-bit or 32-bit).
+      placeholder: ex. Windows 11 64-bit
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: Describe the behavior you expected in detail.
+    validations:
+      required: true
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: Instead, what actually happened?
+      placeholder: Describe the actual behavior in detail.
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps To Reproduce Actual Behavior
+      description: A clear and concise description of how the actual behavior was achieved, since starting up the game.
+      placeholder: |
+        Describe the steps leading to the actual behavior, preferably with a numerated list.
+
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Include any additional information regarding the bug.
+      placeholder: You can also leave this empty.
+    validations:
+      required: false
+  - type: checkboxes
+    id: guidelines
+    attributes:
+      label: Guidelines For Reporting Issues
+      description: "Before submitting this issue, make sure you have done the following:"
+      options:
+        - label: I have read <https://github.com/SuperTux/supertux/blob/master/CONTRIBUTING.md#bug-reports>.
+          required: true
+        - label: I have verified this isn't an issue that's already been reported.
+          required: true
+        - label: I have verified this isn't a [discussion](https://github.com/SuperTux/supertux/discussions), or an issue about a crash or a feature request, but rather an actual bug ─ that is, the game did something not intended.
+          required: true
+        - label: I have verified this issue is **not** about wrong translations (use Transifex for those), or anything unsupported (e.g. third-party add-ons).
+          required: true
+        - label: In this report, I have only included details about **one** (1) bug.
+          required: true
+        - label: If I make a mistake while submitting this report, I agree to use the "Edit" feature to correct it, instead of closing this issue and opening a new one.
+          required: true

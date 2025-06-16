@@ -1,0 +1,43 @@
+(supertux-sprite
+
+  (action
+    (name "default")
+    (fps 20)
+    (loops 1)
+    (images "ticking_glow-0.png")
+    (hitbox 75 75 0 0))
+
+  (action
+    (name "run")
+    (fps 20)
+    (images "ticking_glow-0.png"
+            "ticking_glow-1.png"
+            "ticking_glow-2.png"
+            "ticking_glow-3.png"
+            "ticking_glow-4.png"
+            "ticking_glow-5.png"
+            "ticking_glow-6.png"
+            "ticking_glow-7.png")
+    (hitbox 75 75 0 0))
+
+  (action
+    (name "skid")
+    (fps 20)
+    (loops 1)
+    (images "ticking_glow-0.png"
+            "ticking_glow-0.png"
+            "ticking_glow-0.png"
+            "ticking_glow-0.png")
+    (hitbox 75 75 0 0))
+
+  (action
+    (name "jump")
+    (fps 20)
+    (loops 1)
+    (images "ticking_glow-0.png"
+            "ticking_glow-0.png"
+            "ticking_glow-0.png"
+            "ticking_glow-0.png")
+    (hitbox 75 75 0 0))
+
+)

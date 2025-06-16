@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux v0.6.1-153-g080f6ca8e\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2020-04-13 17:25+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/levels/revenge_in_redmond/deep_cave.stl:3
+msgid "Deep Cave"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/its_been_ages.stl:3
+msgid "It's Been Ages"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/long_office_nights.stl:3
+msgid "Long Office Nights"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/long_office_nights.stl:652
+msgid ""
+"#Tux, my friend! Could you please bring me some coffee? The stuff you used "
+"to drink would work just fine, thanks!"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/long_office_nights.stl:657
+msgid ""
+"#Thanks, Bro! If you're having trouble reaching that platform, try jumping "
+"on my head!"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/nostalgia.stl:3
+msgid "Nostalgia..."
+msgstr ""
+
+#: data/levels/revenge_in_redmond/nostalgia.stl:923
+msgid ""
+"#Sometimes Tux remembers his youth, when the world was more simple and he "
+"battled crazy screens..."
+msgstr ""
+
+#: data/levels/revenge_in_redmond/redmond_headquarters.stl:3
+msgid "Redmond Headquarters"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/redmond_headquarters.stl:634
+msgid "#Tux, you came a long way..."
+msgstr ""
+
+#: data/levels/revenge_in_redmond/redmond_headquarters.stl:639
+msgid "#Thank you for 20 awesome years!"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/retro_age.stl:3
+msgid "Retro Age"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/worldmap.stwm:3
+msgid "Revenge in Redmond"
+msgstr ""

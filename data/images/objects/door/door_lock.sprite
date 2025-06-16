@@ -1,0 +1,8 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 2 2 15 18)
+    (images 
+      "door_lock.png")
+  )
+)

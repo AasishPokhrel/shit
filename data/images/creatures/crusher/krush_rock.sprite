@@ -1,0 +1,37 @@
+(supertux-sprite
+ (action
+  (name "idle")
+  (hitbox 3 3 64 64)
+  (images "krush_rock_main.png"
+  )
+ )
+ (action
+  (name "crushing")
+  (hitbox 3 3 64 64)
+  (images "krush_rock_hit.png"
+  )
+ )
+ (action
+  (name "recovering")
+  (fps 26)
+  (hitbox 3 3 64 64)
+  (images
+    "krush_rock_main.png"
+  )
+ )
+ (action
+  (name "whites")
+  (hitbox 3 3 64 64)
+  (images "krush_rock_whites.png")
+ )
+ (action
+  (name "lefteye")
+  (hitbox 3 3 64 64)
+  (images "krush_rock_lefteye.png")
+ )
+ (action
+  (name "righteye")
+  (hitbox 3 3 64 64)
+  (images "krush_rock_righteye.png")
+ )
+)

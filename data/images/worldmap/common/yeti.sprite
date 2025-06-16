@@ -1,0 +1,51 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 0 65 0 0)
+(fps 5)
+    (images "../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_1.png"
+"../../creatures/yeti/worldmap_2.png"
+"../../creatures/yeti/worldmap_3.png"
+"../../creatures/yeti/worldmap_4.png"
+"../../creatures/yeti/worldmap_5.png"
+"../../creatures/yeti/worldmap_6.png"
+"../../creatures/yeti/worldmap_7.png"
+"../../creatures/yeti/worldmap_8.png"
+"../../creatures/yeti/worldmap_9.png"
+"../../creatures/yeti/worldmap_10.png"
+"../../creatures/yeti/worldmap_11.png"
+"../../creatures/yeti/worldmap_12.png"
+"../../creatures/yeti/worldmap_13.png"
+"../../creatures/yeti/worldmap_14.png"
+"../../creatures/yeti/worldmap_15.png"
+"../../creatures/yeti/worldmap_16.png"
+"../../creatures/yeti/worldmap_17.png"
+"../../creatures/yeti/worldmap_18.png"
+)
+  )
+  (action
+    (name "solved")
+    (hitbox 0 65 0 0)
+(fps 3)
+    (images "../../creatures/yeti/iceyeti_dust_wm_0.png"
+"../../creatures/yeti/iceyeti_dust_wm_1.png"
+"../../creatures/yeti/iceyeti_dust_wm_2.png"
+
+)
+  )
+)

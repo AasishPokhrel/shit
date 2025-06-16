@@ -1,0 +1,92 @@
+(supertux-sprite
+ (action
+  (name "left")
+  (hitbox 30 15 32 38)
+  (loops 1)
+  (fps 20)
+  (images "fatbat-0.png"
+		  "fatbat-1.png"
+		  "fatbat-2.png"
+		  "fatbat-3.png"
+		  "fatbat-4.png"
+		  "fatbat-5.png"
+		  "fatbat-4.png"))
+
+ (action
+  (name "right")
+  (hitbox 34 15 32 38)
+  (fps 20)
+  (loops 1)
+  (mirror-action "left"))
+
+ (action
+  (name "left-down")
+  (loops 1)
+  (hitbox 30 15 32 38)
+  (fps 30)
+  (images "fatbat-4.png"
+		  "fatbat-9.png"
+		  "fatbat-10.png"
+		  "fatbat-11.png"))
+
+ (action
+  (name "right-down")
+  (loops 1)
+  (hitbox 34 15 32 38)
+  (fps 30)
+  (mirror-action "left-down"))
+  
+ (action
+  (name "left-up")
+  (loops 1)
+  (hitbox 30 15 32 38)
+  (fps 30)
+  (images "fatbat-6.png"
+		  "fatbat-7.png"
+		  "fatbat-8.png"
+		  "fatbat-0.png"))
+
+ (action
+  (name "right-up")
+  (loops 1)
+  (hitbox 34 15 32 38)
+  (fps 30)
+  (mirror-action "left-up"))
+
+  (action
+    (name "squished-left")
+    (hitbox 30 15 32 38)
+    (images "squished.png")
+   )
+   (action
+    (name "squished-right")
+    (hitbox 34 15 32 38)
+    (mirror-action "squished-left")
+   )
+
+  (action
+  (name "iced-left")
+  (hitbox 15 0 64 64)
+  (loops 1)
+  (fps 20)
+  (images "fatbat-0.png"))
+
+ (action
+  (name "iced-right")
+  (hitbox 15 0 64 64)
+  (fps 20)
+  (loops 1)
+  (mirror-action "left"))
+
+  (action
+    (hitbox 30 15 32 38)
+    (name "burning-left")
+    (images "fatbat-0.png")
+  )
+  (action
+    (hitbox 34 15 32 38)
+    (name "burning-right")
+    (mirror-action "burning-left")
+  )
+
+)

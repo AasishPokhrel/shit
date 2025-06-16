@@ -1,0 +1,5 @@
+(supertux-music
+  (file "icecastle.ogg")
+  (loop-begin 9.235)
+  (loop-at 80.000)
+)

@@ -1,0 +1,3945 @@
+(supertux-level
+  (version 3)
+  (name (_ "Castle in the Sky"))
+  (author "Daniel Ward")
+  (license "CC-BY-SA 4.0 International")
+  (target-time 120)
+  (allow-item-pocket "inherit")
+  (icon "")
+  (icon-locked "")
+  (statistics
+    (enable-coins #t)
+    (enable-badguys #f)
+    (enable-secrets #t)
+  )
+  (sector
+    (name "main")
+    (ambient-light
+      (color 0.65 0.72 1)
+    )
+    (background
+      (scroll-offset-y 250)
+      (color 0.2 0.3 0.45)
+      (speed 0.025)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/antarctic/ice_mountains.png")
+      (z-pos -220)
+    )
+    (background
+      (scroll-offset-y 15)
+      (color 1 1 1 0.8)
+      (alignment "bottom")
+      (scroll-speed-x -50)
+      (speed 1.2)
+      (image "/images/background/arcticskies/arcticskies3.png")
+      (z-pos 200)
+    )
+    (background
+      (scroll-offset-y 250)
+      (color 0.1 0.2 0.35)
+      (speed 0.01)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/antarctic/ice_mountains_panorama.png")
+      (z-pos -250)
+    )
+    (background
+      (color 0.3 0.3 0.5)
+      (scroll-speed-x -0.1)
+      (speed 0)
+      (image "/images/background/misc/skybox.png")
+      (z-pos -290)
+    )
+    (background
+      (color 1 1 1)
+      (speed 0)
+      (image "/images/background/misc/skybox_stars.png")
+      (z-pos -295)
+    )
+    (background
+      (color 0.3 0.4 0.5)
+      (scroll-speed-x -2)
+      (speed 0)
+      (image "/images/background/misc/clouds.png")
+      (z-pos -280)
+    )
+    (background
+      (color 0.5 0.65 0.8)
+      (alignment "bottom")
+      (scroll-speed-x -20)
+      (speed 0.7)
+      (image "/images/background/arcticskies/arcticskies3.png")
+      (z-pos -200)
+    )
+    (bonusblock
+      (z-pos -1)
+      (x 2896)
+      (y 944)
+    )
+    (bonusblock
+      (z-pos -1)
+      (x 3024)
+      (y 944)
+    )
+    (bonusblock
+      (type "orange")
+      (z-pos 51)
+      (x 2960)
+      (y 1072)
+    )
+    (bonusblock
+      (z-pos -1)
+      (x 2832)
+      (y 1072)
+    )
+    (bonusblock
+      (z-pos -1)
+      (contents "airgrow")
+      (x 3088)
+      (y 1072)
+    )
+    (bonusblock
+      (z-pos 51)
+      (contents "1up")
+      (x 2960)
+      (y 816)
+    )
+    (bonusblock
+      (z-pos 51)
+      (x 7472)
+      (y 736)
+    )
+    (bonusblock
+      (z-pos 51)
+      (x 7312)
+      (y 736)
+    )
+    (bonusblock
+      (z-pos 51)
+      (x 7152)
+      (y 736)
+    )
+    (bonusblock
+      (type "purple")
+      (z-pos 51)
+      (x 7632)
+      (y 736)
+    )
+    (bumper
+      (z-pos 50)
+      (sticky #t)
+      (x 6432)
+      (y 864)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (candle
+      (z-pos 0)
+      (x 864)
+      (y 1376)
+    )
+    (candle
+      (z-pos 0)
+      (x 224)
+      (y 1472)
+    )
+    (candle
+      (z-pos 0)
+      (x 3632)
+      (y 1280)
+    )
+    (candle
+      (z-pos 0)
+      (x 4048)
+      (y 1344)
+    )
+    (candle
+      (z-pos 0)
+      (x 5824)
+      (y 1408)
+    )
+    (candle
+      (z-pos 0)
+      (x 8752)
+      (y 896)
+    )
+    (candle
+      (z-pos 0)
+      (x 8144)
+      (y 800)
+    )
+    (candle
+      (z-pos 0)
+      (x 9216)
+      (y 896)
+    )
+    (coin
+      (z-pos -1)
+      (x 3088)
+      (y 1152)
+    )
+    (coin
+      (z-pos -1)
+      (x 2960)
+      (y 1216)
+    )
+    (coin
+      (z-pos -1)
+      (x 2832)
+      (y 1152)
+    )
+    (coin
+      (z-pos -1)
+      (x 2896)
+      (y 1312)
+    )
+    (coin
+      (z-pos -1)
+      (x 3024)
+      (y 1312)
+    )
+    (coin
+      (z-pos -1)
+      (x 2960)
+      (y 1408)
+    )
+    (coin
+      (z-pos -1)
+      (x 3024)
+      (y 1504)
+    )
+    (coin
+      (z-pos -1)
+      (x 2896)
+      (y 1504)
+    )
+    (coin
+      (z-pos -1)
+      (x 2832)
+      (y 1568)
+    )
+    (coin
+      (z-pos -1)
+      (x 2960)
+      (y 1600)
+    )
+    (coin
+      (z-pos -1)
+      (x 3088)
+      (y 1568)
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143180702602038030176")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143180702602038030176")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143180702602038030176")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143180702602038030176")
+    )
+    (coin
+      (z-pos -49)
+      (x 4512)
+      (y 1312)
+    )
+    (coin
+      (z-pos -49)
+      (x 4608)
+      (y 1376)
+    )
+    (coin
+      (z-pos -49)
+      (x 4704)
+      (y 1408)
+    )
+    (coin
+      (z-pos -49)
+      (x 5088)
+      (y 1408)
+    )
+    (coin
+      (z-pos -49)
+      (x 5184)
+      (y 1376)
+    )
+    (coin
+      (z-pos -49)
+      (x 5280)
+      (y 1312)
+    )
+    (coin
+      (z-pos -49)
+      (x 4896)
+      (y 1440)
+    )
+    (coin
+      (z-pos -49)
+      (x 4992)
+      (y 1440)
+    )
+    (coin
+      (z-pos -49)
+      (x 4800)
+      (y 1440)
+    )
+    (coin
+      (z-pos -49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143314681846140236224")
+    )
+    (coin
+      (z-pos 49)
+      (x 6528)
+      (y 768)
+    )
+    (coin
+      (z-pos 49)
+      (x 6656)
+      (y 736)
+    )
+    (coin
+      (z-pos 49)
+      (x 6784)
+      (y 768)
+    )
+    (coin
+      (z-pos 49)
+      (x 6912)
+      (y 800)
+    )
+    (coin
+      (z-pos -49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143314681846140236224")
+    )
+    (coin
+      (z-pos -49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143314681846140236224")
+    )
+    (coin
+      (z-pos -49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143314681846140236224")
+    )
+    (coin
+      (z-pos -49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143318321846156375200")
+    )
+    (coin
+      (z-pos -49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143318321846156375200")
+    )
+    (coin
+      (z-pos -49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143318321846156375200")
+    )
+    (coin
+      (z-pos -49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143318321846156375200")
+    )
+    (door
+      (z-pos 1)
+      (sector "sector2")
+      (locked #f)
+      (spawnpoint "main")
+      (x 9312)
+      (y 832)
+    )
+    (flame
+      (z-pos 150)
+      (x 704)
+      (y 1408)
+    )
+    (flame
+      (z-pos 150)
+      (x 544)
+      (y 1536)
+    )
+    (flame
+      (z-pos 150)
+      (x 384)
+      (y 1408)
+    )
+    (flame
+      (z-pos 150)
+      (x 3840)
+      (y 1344)
+    )
+    (flame
+      (z-pos 150)
+      (x 6112)
+      (y 880)
+    )
+    (flame
+      (z-pos 150)
+      (x 6272)
+      (y 1376)
+    )
+    (flame
+      (z-pos 150)
+      (x 6272)
+      (y 1184)
+    )
+    (flame
+      (z-pos 150)
+      (x 8544)
+      (y 896)
+    )
+    (flame
+      (z-pos 150)
+      (x 8352)
+      (y 864)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 5616)
+      (y 1376)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 3504)
+      (y 1376)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 2416)
+      (y 1376)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 6656)
+      (y 928)
+    )
+    (gradient
+      (blend "none")
+      (top_color 0 0 0.05)
+      (bottom_color 0 0.2 0.4)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 3264)
+      (y 960)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 2656)
+      (y 960)
+    )
+    (music
+      (file "/music/antarctic/night.music")
+    )
+    (particles-clouds
+    )
+    (path
+      (name "gen17142828973079185590640")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 992)
+          (y 1408)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2240)
+          (y 1408)
+        )
+      )
+    )
+    (path
+      (name "gen17142849412500456257616")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2496)
+          (y 864)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2496)
+          (y 448)
+        )
+      )
+    )
+    (path
+      (name "gen17142854022501030017792")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 3584)
+          (y 1312)
+        )
+      )
+    )
+    (path
+      (name "gen17143169132601288200560")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2496)
+          (y 448)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2496)
+          (y 864)
+        )
+      )
+    )
+    (path
+      (name "gen17143171172601288199888")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2496)
+          (y 448)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2496)
+          (y 864)
+        )
+      )
+    )
+    (path
+      (name "gen17143173622602036710048")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2528)
+          (y 1248)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2528)
+          (y 1664)
+        )
+      )
+    )
+    (path
+      (name "gen17143174672601288200336")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2608)
+          (y 1280)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2608)
+          (y 1696)
+        )
+      )
+    )
+    (path
+      (name "gen17143174762601288197872")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2704)
+          (y 1360)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2704)
+          (y 1776)
+        )
+      )
+    )
+    (path
+      (name "gen17143174902601288199216")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2816)
+          (y 1376)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2816)
+          (y 1792)
+        )
+      )
+    )
+    (path
+      (name "gen17143174972602041473984")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 3008)
+          (y 1392)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 3008)
+          (y 1808)
+        )
+      )
+    )
+    (path
+      (name "gen17143175032602041473312")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 3120)
+          (y 1360)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 3120)
+          (y 1776)
+        )
+      )
+    )
+    (path
+      (name "gen17143175092602041476000")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 3216)
+          (y 1312)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 3216)
+          (y 1728)
+        )
+      )
+    )
+    (path
+      (name "gen17143175142601406380864")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4272)
+          (y 1392)
+          (bezier_after_x 4368)
+          (bezier_after_y 1584)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 4912)
+          (y 1392)
+          (bezier_before_x 4816)
+          (bezier_before_y 1584)
+          (bezier_after_x 4912)
+          (bezier_after_y 1376)
+        )
+      )
+    )
+    (path
+      (name "gen17143175212601406377952")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 3184)
+          (y 1344)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 3184)
+          (y 1760)
+        )
+      )
+    )
+    (path
+      (name "gen17143175302601406377504")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2928)
+          (y 1360)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2928)
+          (y 1776)
+        )
+      )
+    )
+    (path
+      (name "gen17143175502602041568544")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 3088)
+          (y 1408)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 3088)
+          (y 1824)
+        )
+      )
+    )
+    (path
+      (name "gen17143175572601414246912")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2720)
+          (y 1408)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2720)
+          (y 1824)
+        )
+      )
+    )
+    (path
+      (name "gen17143175652601288198320")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2624)
+          (y 1328)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2624)
+          (y 1744)
+        )
+      )
+    )
+    (path
+      (name "gen17143175762602039601408")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2864)
+          (y 1424)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2864)
+          (y 1840)
+        )
+      )
+    )
+    (path
+      (name "gen17143175852602038028160")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2976)
+          (y 1456)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2976)
+          (y 1872)
+        )
+      )
+    )
+    (path
+      (name "gen17143180232602038031296")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 4000)
+          (y 1376)
+        )
+      )
+    )
+    (path
+      (name "gen17143180702602038030176")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 3840)
+          (y 1056)
+        )
+        (node
+          (x 3936)
+          (y 1152)
+        )
+        (node
+          (x 3840)
+          (y 1248)
+        )
+        (node
+          (x 3744)
+          (y 1152)
+        )
+      )
+    )
+    (path
+      (name "gen17143274111846150035232")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4256)
+          (y 1024)
+          (bezier_after_x 4352)
+          (bezier_after_y 1216)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 4896)
+          (y 1024)
+          (bezier_before_x 4800)
+          (bezier_before_y 1216)
+          (bezier_after_x 4928)
+          (bezier_after_y 1024)
+        )
+      )
+    )
+    (path
+      (name "gen17143279761846769218336")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 5776)
+          (y 1440)
+        )
+      )
+    )
+    (path
+      (name "gen17143295691846778374448")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4352)
+          (y 1424)
+          (bezier_after_x 4448)
+          (bezier_after_y 1616)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 4992)
+          (y 1424)
+          (bezier_before_x 4896)
+          (bezier_before_y 1616)
+          (bezier_after_x 4992)
+          (bezier_after_y 1408)
+        )
+      )
+    )
+    (path
+      (name "gen17143295711846778372432")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4752)
+          (y 1440)
+          (bezier_after_x 4848)
+          (bezier_after_y 1632)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 5392)
+          (y 1440)
+          (bezier_before_x 5296)
+          (bezier_before_y 1632)
+          (bezier_after_x 5392)
+          (bezier_after_y 1424)
+        )
+      )
+    )
+    (path
+      (name "gen17143295741846778374896")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4688)
+          (y 1488)
+          (bezier_after_x 4784)
+          (bezier_after_y 1680)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 5328)
+          (y 1488)
+          (bezier_before_x 5232)
+          (bezier_before_y 1680)
+          (bezier_after_x 5328)
+          (bezier_after_y 1472)
+        )
+      )
+    )
+    (path
+      (name "gen17143295761846152835392")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4592)
+          (y 1456)
+          (bezier_after_x 4688)
+          (bezier_after_y 1648)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 5232)
+          (y 1456)
+          (bezier_before_x 5136)
+          (bezier_before_y 1648)
+          (bezier_after_x 5232)
+          (bezier_after_y 1440)
+        )
+      )
+    )
+    (path
+      (name "gen17143295781846152833296")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4496)
+          (y 1520)
+          (bezier_after_x 4592)
+          (bezier_after_y 1712)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 5136)
+          (y 1520)
+          (bezier_before_x 5040)
+          (bezier_before_y 1712)
+          (bezier_after_x 5136)
+          (bezier_after_y 1504)
+        )
+      )
+    )
+    (path
+      (name "gen17143295801846778372880")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4448)
+          (y 1472)
+          (bezier_after_x 4544)
+          (bezier_after_y 1664)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 5088)
+          (y 1472)
+          (bezier_before_x 4992)
+          (bezier_before_y 1664)
+          (bezier_after_x 5088)
+          (bezier_after_y 1456)
+        )
+      )
+    )
+    (path
+      (name "gen17143295821846152833744")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4496)
+          (y 1440)
+          (bezier_after_x 4592)
+          (bezier_after_y 1632)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 5136)
+          (y 1440)
+          (bezier_before_x 5040)
+          (bezier_before_y 1632)
+          (bezier_after_x 5136)
+          (bezier_after_y 1424)
+        )
+      )
+    )
+    (path
+      (name "gen17143305921846777530032")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6016)
+          (y 528)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6016)
+          (y 928)
+        )
+      )
+    )
+    (path
+      (name "gen17143311841846140236672")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6848)
+          (y 512)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 7328)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "gen17143314681846140236224")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6192)
+          (y 832)
+        )
+        (node
+          (x 6240)
+          (y 880)
+        )
+        (node
+          (x 6192)
+          (y 928)
+        )
+        (node
+          (x 6144)
+          (y 880)
+        )
+      )
+    )
+    (path
+      (name "gen17143318321846156375200")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6192)
+          (y 1232)
+        )
+        (node
+          (x 6144)
+          (y 1280)
+        )
+        (node
+          (x 6192)
+          (y 1328)
+        )
+        (node
+          (x 6240)
+          (y 1280)
+        )
+      )
+    )
+    (path
+      (name "gen17143327551846771248192")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 8096)
+          (y 832)
+        )
+      )
+    )
+    (path
+      (name "gen17143327841846771250208")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 8704)
+          (y 928)
+        )
+      )
+    )
+    (path
+      (name "gen17143348161846777529808")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6032)
+          (y 1120)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6032)
+          (y 1520)
+        )
+      )
+    )
+    (path
+      (name "gen17143349131846777531600")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6080)
+          (y 1152)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6080)
+          (y 1552)
+        )
+      )
+    )
+    (path
+      (name "gen17143349151846783215200")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6384)
+          (y 1088)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6384)
+          (y 1488)
+        )
+      )
+    )
+    (path
+      (name "gen17143349171846783213632")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6320)
+          (y 1136)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6320)
+          (y 1536)
+        )
+      )
+    )
+    (path
+      (name "gen17143349211846783214528")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6272)
+          (y 1168)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6272)
+          (y 1568)
+        )
+      )
+    )
+    (path
+      (name "gen17143349231846783213184")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6208)
+          (y 1136)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6208)
+          (y 1536)
+        )
+      )
+    )
+    (path
+      (name "gen17143357331846783214752")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6848)
+          (y 864)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 7328)
+          (y 864)
+        )
+      )
+    )
+    (path
+      (name "gen17143357761846775612672")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6896)
+          (y 912)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 7376)
+          (y 912)
+        )
+      )
+    )
+    (path
+      (name "gen17143357781846777532048")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 7344)
+          (y 912)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 7824)
+          (y 912)
+        )
+      )
+    )
+    (path
+      (name "gen17143357791846775610656")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 7280)
+          (y 960)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 7760)
+          (y 960)
+        )
+      )
+    )
+    (path
+      (name "gen17143357821846777530256")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 7136)
+          (y 976)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 7616)
+          (y 976)
+        )
+      )
+    )
+    (path
+      (name "gen17143357861846769216768")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 7056)
+          (y 944)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 7536)
+          (y 944)
+        )
+      )
+    )
+    (path
+      (name "gen17143357941846775609536")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6976)
+          (y 960)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 7456)
+          (y 960)
+        )
+      )
+    )
+    (path
+      (name "gen17143357981844808583472")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 7200)
+          (y 928)
+          (time 6)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 7680)
+          (y 928)
+        )
+      )
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17142828973079185590640")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17142854022501030017792")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cloud1")
+      (path-ref "gen17143173622602036710048")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cloud2")
+      (path-ref "gen17143174672601288200336")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cloud3")
+      (path-ref "gen17143174762601288197872")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cloud4")
+      (path-ref "gen17143174902601288199216")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cloud5")
+      (path-ref "gen17143174972602041473984")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cloud6")
+      (path-ref "gen17143175032602041473312")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cloud7")
+      (path-ref "gen17143175092602041476000")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cider1")
+      (path-ref "gen17143175142601406380864")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cloud9")
+      (path-ref "gen17143175212601406377952")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cloud10")
+      (path-ref "gen17143175302601406377504")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cloud11")
+      (path-ref "gen17143175502602041568544")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cloud12")
+      (path-ref "gen17143175572601414246912")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cloud13")
+      (path-ref "gen17143175652601288198320")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cloud14")
+      (path-ref "gen17143175762602039601408")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cloud15")
+      (path-ref "gen17143175852602038028160")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17143180232602038031296")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17143279761846769218336")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cider2")
+      (path-ref "gen17143295691846778374448")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cider8")
+      (path-ref "gen17143295711846778372432")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cider7")
+      (path-ref "gen17143295741846778374896")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cider6")
+      (path-ref "gen17143295761846152835392")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cider3")
+      (path-ref "gen17143295781846152833296")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cider4")
+      (path-ref "gen17143295801846778372880")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "cider5")
+      (path-ref "gen17143295821846152833744")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17143327551846771248192")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17143327841846771250208")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "duo1cloud1")
+      (path-ref "gen17143348161846777529808")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "duo1cloud2")
+      (path-ref "gen17143349131846777531600")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "duo1cloud6")
+      (path-ref "gen17143349151846783215200")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "duo1cloud5")
+      (path-ref "gen17143349171846783213632")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "duo1cloud4")
+      (path-ref "gen17143349211846783214528")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "duo1cloud3")
+      (path-ref "gen17143349231846783213184")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "duo2cloud1")
+      (path-ref "gen17143357331846783214752")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "duo2cloud2")
+      (path-ref "gen17143357761846775612672")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "duo2cloud8")
+      (path-ref "gen17143357781846777532048")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "duo2cloud7")
+      (path-ref "gen17143357791846775610656")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "duo2cloud5")
+      (path-ref "gen17143357821846777530256")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "duo2cloud4")
+      (path-ref "gen17143357861846769216768")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "duo2cloud3")
+      (path-ref "gen17143357941846775609536")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "duo2cloud6")
+      (path-ref "gen17143357981844808583472")
+      (sprite "/images/tiles/background/cloud.png")
+    )
+    (scripttrigger
+      (width 32)
+      (height 192)
+      (script "Camera.ease_scale(0.8, 3, \"EaseQuadInOut\");")
+      (button #f)
+      (x 1024)
+      (y 1216)
+    )
+    (scripttrigger
+      (width 32)
+      (height 864)
+      (script "bigguy11.start_moving();
+bigguy12.start_moving();
+bigguy13.start_moving();
+cloud1.start_moving();
+cloud2.start_moving();
+cloud3.start_moving();
+cloud4.start_moving();
+cloud5.start_moving();
+cloud6.start_moving();
+cloud7.start_moving();
+cloud9.start_moving();
+cloud10.start_moving();
+cloud11.start_moving();
+cloud12.start_moving();
+cloud13.start_moving();
+cloud14.start_moving();
+cloud15.start_moving();")
+      (button #f)
+      (x 2208)
+      (y 544)
+    )
+    (scripttrigger
+      (width 32)
+      (height 640)
+      (script "Camera.set_scale(0.8);
+sider1.start_moving();
+sider2.start_moving();
+sider3.start_moving();
+cider1.start_moving();
+cider2.start_moving();
+cider3.start_moving();
+cider4.start_moving();
+cider5.start_moving();
+cider6.start_moving();
+cider7.start_moving();
+cider8.start_moving();")
+      (button #f)
+      (x 4256)
+      (y 704)
+    )
+    (scripttrigger
+      (width 32)
+      (height 1424)
+      (script "duo1_1.start_moving();
+duo1_2.start_moving();
+duo1_3.start_moving();
+duo1cloud1.start_moving();
+duo1cloud2.start_moving();
+duo1cloud3.start_moving();
+duo1cloud4.start_moving();
+duo1cloud5.start_moving();
+duo1cloud6.start_moving();
+duo2_1.start_moving();
+duo2_2.start_moving();
+duo2_3.start_moving();
+duo2cloud1.start_moving();
+duo2cloud2.start_moving();
+duo2cloud3.start_moving();
+duo2cloud4.start_moving();
+duo2cloud5.start_moving();
+duo2cloud6.start_moving();
+duo2cloud7.start_moving();
+duo2cloud8.start_moving();
+Camera.set_scale(0.8);")
+      (button #f)
+      (x 5760)
+      (y 448)
+    )
+    (scripttrigger
+      (width 32)
+      (height 224)
+      (script "Camera.set_scale(0.8);")
+      (button #f)
+      (x 9312)
+      (y 704)
+    )
+    (scripttrigger
+      (width 32)
+      (height 192)
+      (script "Camera.set_scale(1.5);")
+      (button #f)
+      (x 64)
+      (y 1312)
+    )
+    (smartball
+      (z-pos 50)
+      (x 2592)
+      (y 1152)
+    )
+    (smartball
+      (z-pos 50)
+      (x 3376)
+      (y 1152)
+    )
+    (smartball
+      (z-pos 50)
+      (x 4480)
+      (y 1344)
+    )
+    (snowball
+      (z-pos 50)
+      (x 4640)
+      (y 1344)
+    )
+    (spawnpoint
+      (name "main")
+      (x 64)
+      (y 1440)
+    )
+    (spawnpoint
+      (x 5776)
+      (y 1360)
+    )
+    (spawnpoint
+      (name "main2")
+      (x 9320)
+      (y 864)
+    )
+    (sspiky
+      (z-pos 50)
+      (x 7632)
+      (y 704)
+    )
+    (sspiky
+      (z-pos 50)
+      (direction "left")
+      (x 7312)
+      (y 704)
+    )
+    (sspiky
+      (z-pos 50)
+      (x 7472)
+      (y 704)
+    )
+    (sspiky
+      (z-pos 50)
+      (x 7152)
+      (y 704)
+    )
+    (stalactite
+      (z-pos -1)
+      (sticky #t)
+      (x 3360)
+      (y 960)
+    )
+    (stalactite
+      (z-pos -1)
+      (sticky #t)
+      (x 2560)
+      (y 960)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 300)
+      (height 60)
+      (tiles -129 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -253 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -253 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -253 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -253 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -253 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -253 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -253 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -253 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -253 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -253 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -253 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -253 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -253 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -253 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -103 0 4553 4555 4569 4556 -146 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -103 0 4557 4566 4565 4567 -3 0 4553 4569 4556 -2 0 4553 4569 4556 -2 0 4553 4569 4556 -130 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -103 0 4564 4565 4566 4559 4556 -2 0 4557 4566 4558 -2 0 4564 4565 4567 -2 0 4557 4566 4558 -130 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -103 0 4557 4566 4565 4566 4559 4569 4555 4582 4565 4581 4555 4569 4560 4566 4559 4569 4555 4582 4565 4581 4555 -129 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -103 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 -129 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -103 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 -129 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -103 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 -129 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -103 0 4575 4580 4577 4593 4565 4566 4565 4566 4565 4566 4570 4580 4577 4580 4571 4566 4565 4566 4565 4566 4565 -129 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -106 0 4575 4580 4593 4566 4565 4592 4577 4578 -3 0 4575 4571 4566 4565 4566 4565 4566 -129 0 4557 4566 4565 4566 4570 4580 4577 4593 4565 4592 4577 4580 4571 4566 4570 4580 4577 4593 4565 4592 4577 4580 4571 4566 4570 4580 4577 4593 4565 4592 4577 4580 4571 4566 4570 4580 4577 4593 4565 4592 4577 4580 4571 4566 4565 4566 4558 -108 0 4575 4577 4580 4578 -6 0 4564 4565 4566 4565 4566 4565 -129 0 4564 4565 4566 4570 4578 -2 0 4557 4566 4558 -2 0 4564 4565 4567 -2 0 4557 4566 4558 -2 0 4564 4565 4567 -2 0 4557 4566 4558 -2 0 4564 4565 4567 -2 0 4557 4566 4558 -2 0 4575 4571 4566 4565 4567 -118 0 4557 4566 4565 4566 4565 4566 -129 0 4557 4566 4565 4567 -3 0 4575 4577 4578 -2 0 4575 4580 4578 -2 0 4575 4577 4578 -2 0 4575 4580 4578 -2 0 4575 4577 4578 -2 0 4575 4580 4578 -2 0 4575 4577 4578 -3 0 4564 4565 4566 4558 -118 0 4564 4565 4566 4565 4566 4565 -129 0 4575 4577 4580 4578 -39 0 4575 4580 4577 4578 -118 0 4557 4566 4565 4566 4565 4566 -261 0 62 -32 0 4564 4565 4566 4565 4566 4565 -29 0 4553 4569 4555 4556 -234 0 62 -25 0 4553 4560 4566 4565 4566 4565 4566 -29 0 4564 4565 4566 4558 -248 0 4553 4569 4555 4569 4555 4569 4555 4569 4555 4569 4555 4569 4560 4566 4565 4566 4565 4566 4565 4556 -2 0 4553 4569 4556 -2 0 4553 4555 4556 -2 0 4553 4569 4556 -2 0 4553 4555 4556 -2 0 4553 4569 4556 -3 0 4557 4566 4565 4567 -248 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -2 0 4564 4565 4567 -2 0 4557 4566 4558 -2 0 4564 4565 4567 -2 0 4557 4566 4558 -2 0 4564 4565 4567 -2 0 4553 4582 4565 4566 4558 -248 0 4575 4593 4565 4566 4565 4566 4565 4566 4565 4566 4570 4580 4577 4580 4571 4566 4565 4566 4565 4581 4555 4569 4560 4566 4559 4569 4555 4582 4565 4581 4555 4569 4560 4566 4559 4569 4555 4582 4565 4581 4555 4569 4560 4566 4559 4569 4555 4582 4565 4566 4565 4567 -249 0 4575 4580 4571 4566 4565 4566 4565 4566 4570 4578 -3 0 4575 4571 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -251 0 4575 4571 4566 4565 4566 4570 4578 -5 0 4564 4565 4592 4577 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -252 0 4575 4571 4566 4570 4578 -6 0 4575 4580 4578 0 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -253 0 4564 4570 4578 -11 0 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4570 4580 4577 4580 4577 4580 4577 4580 4571 4566 4565 4566 4565 4566 4565 4566 4565 4566 4570 4578 -253 0 4575 4578 -12 0 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4577 4580 4577 4578 -7 0 4575 4577 4580 4577 4580 4577 4580 4577 4580 4577 4578 -268 0 4566 4565 4566 4565 4566 4565 4566 4565 4592 4578 -290 0 4565 4566 4565 4566 4565 4566 4565 4592 4578 -291 0 4580 4577 4580 4577 4580 4577 4580 4578 -712 0 62 -491 0 62 -9 0 62 -4 0 4553 4555 4569 4556 -183 0 -4 295 -34 0 -4 295 -72 0 4575 4577 4578 -183 0 4553 4569 4555 4556 -3 0 -3 295 -2 0 -3 295 -2 0 -3 295 -2 0 -3 295 -2 0 -3 295 -2 0 -3 295 -3 0 4553 4569 4555 4556 -74 0 4553 -2 4569 4556 -180 0 4564 4565 4566 4558 295 -2 0 4553 4569 4556 -2 0 4553 4555 4556 -2 0 4553 4569 4556 -2 0 4553 4555 4556 -2 0 4553 4569 4556 -2 0 4553 4569 4556 -2 0 295 4564 4565 4566 4558 -44 0 4569 4555 4569 4555 4569 4555 4569 4556 -23 0 4575 4578 -78 0 -3 295 -13 0 -3 295 -84 0 4557 4566 4565 4581 4556 -2 295 4564 4565 4567 -2 295 4557 4566 4558 -2 295 4564 4565 4567 -2 295 4557 4566 4558 -2 295 4564 4565 4567 -2 295 4557 4566 4558 -2 295 4553 4582 4566 4565 4567 -44 0 4565 4566 4570 4580 4577 4578 -11 0 62 -93 0 4553 4555 4556 295 0 -3 295 -3 0 -3 295 0 295 4553 4555 4556 -84 0 4564 4565 4566 4565 4581 4555 4569 4560 4566 4559 4569 4555 4582 4565 4581 4555 4569 4560 4566 4559 4569 4555 4582 4565 4581 4555 4569 4560 4566 4559 4569 4555 4582 4565 4581 4555 4569 4560 4566 4565 4566 4558 -44 0 4592 4577 4578 -108 0 4557 4566 4559 4556 295 4553 4555 4556 -3 295 4553 4555 4556 295 4553 4582 4566 4558 -84 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -44 0 4578 -110 0 4564 4565 4566 4559 4569 4560 4566 4559 4569 4555 4569 4560 4566 4559 4569 4560 4566 4565 4567 -84 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -155 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -84 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -155 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -84 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -155 0 4575 4593 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4578 -84 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -156 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -85 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -156 0 4575 4571 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4570 4578 -85 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -157 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -86 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -157 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -86 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -157 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -86 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -157 0 4575 4593 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4567 -86 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -44 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -50)
+      (width 300)
+      (height 60)
+      (tiles -7485 0 4562 4563 -298 0 4573 4574 -298 0 4584 4585 -298 0 4595 4596 -298 0 4606 4607 -2741 0 4562 4563 -283 0 1511 1512 -5 0 1511 1512 -6 0 4573 4574 -283 0 1513 1514 -5 0 1513 1514 -6 0 4584 4585 -275 0 4562 4563 -6 0 1515 1516 -5 0 1515 1516 -6 0 4584 4585 -275 0 4573 4574 -21 0 4595 4596 -275 0 4584 4585 -21 0 4606 4607 -275 0 4584 4585 -298 0 4595 4596 -298 0 4606 4607 -4193 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (width 300)
+      (height 60)
+      (tiles -6289 0 4448 -3 4449 4450 -137 0 4448 -3 4449 4450 -145 0 4448 -3 4449 4450 4448 4449 4450 4453 -3 4454 4456 4450 -136 0 4453 -3 4454 4456 -3 4449 4450 -28 0 4448 -6 4449 4450 -105 0 4453 -3 4454 4456 4457 4454 4456 4457 -4 4454 4455 -136 0 4453 -7 4454 4456 4449 4450 -3 0 4448 -7 4449 4450 -3 0 4448 -6 4449 4450 0 4448 4449 4457 -6 4454 4455 -105 0 4458 4459 4452 -10 4454 4455 -136 0 4458 4452 -8 4454 4456 4450 0 4448 4457 -7 4454 4455 -2 0 4448 4457 -6 4454 4456 4449 4457 -8 4454 4455 -107 0 4458 4452 -9 4454 4455 -137 0 4453 -9 4454 4456 4449 4457 -8 4454 4456 -2 4449 4457 -11 4454 4451 4459 4452 -3 4454 4451 4460 -108 0 4453 -9 4454 4456 4450 -136 0 4458 -2 4459 4452 -3 4454 4451 4452 -20 4454 4451 4459 4452 -2 4454 4451 4459 4460 0 4453 -2 4454 4451 4460 -109 0 4453 -10 4454 4455 -139 0 4458 4452 4454 4451 4460 4458 -2 4459 4452 4454 4451 4452 -6 4454 4451 4459 4452 -4 4454 4451 4460 0 4453 4454 4451 4460 -3 0 4458 -2 4459 4460 -109 0 4448 4457 -10 4454 4455 -140 0 4453 4454 4455 -4 0 4458 4459 4460 4458 4452 -4 4454 4451 4460 0 4453 -2 4454 4451 4459 4460 -2 0 4458 4459 4460 -116 0 4448 4457 -10 4454 4451 4460 -140 0 4453 4454 4455 -8 0 4453 -3 4454 4451 4460 -2 0 4458 -2 4459 4460 -123 0 4453 4454 4451 -3 4459 4452 -2 4454 4451 4452 4454 4455 -141 0 4458 4459 4460 -8 0 4458 4452 -2 4454 4455 -130 0 4458 4459 4460 -3 0 4458 -2 4459 4460 4453 4454 4456 -4 4449 4450 -148 0 4458 -2 4459 4460 -137 0 4448 -2 4449 4457 -6 4454 4456 -286 0 4448 4449 4450 4453 -10 4454 -286 0 4453 4454 4456 4457 -10 4454 -286 0 4453 -13 4454 -16 0 4448 -8 4449 4450 -260 0 4453 -13 4454 -7 0 4448 -8 4449 4457 -8 4454 4455 -260 0 4453 -13 4454 -3 0 4448 -3 4449 4457 -17 4454 4456 -6 4449 4450 -253 0 4458 4452 -12 4454 -3 0 4453 -28 4454 4455 -254 0 4458 -2 4459 4452 -9 4454 -3 4449 4457 -27 4454 4451 4460 -257 0 4458 4459 4452 -37 4454 4451 4460 -260 0 4458 4452 -36 4454 4455 -262 0 4453 -19 4454 4451 4452 -8 4454 4451 4452 -5 4454 4456 4449 4450 -260 0 4458 4452 -13 4454 4451 -2 4459 4452 4454 4455 4453 -8 4454 4455 4458 4459 4452 -5 4454 4456 4450 -260 0 4453 -12 4454 4451 4460 -2 0 4458 4459 4460 4458 4452 -4 4454 4451 -2 4459 4460 -2 0 4458 4459 4452 -4 4454 4455 -259 0 4448 4457 -12 4454 4455 -7 0 4458 4452 -2 4454 4451 4460 -7 0 4458 4452 -2 4454 4451 4460 -259 0 4453 -13 4454 4456 4450 -7 0 4453 4454 4451 4460 -9 0 4458 -2 4459 4460 -260 0 4453 -6 4454 -5 4459 4452 -2 4454 4455 -7 0 4453 4454 4455 -274 0 4458 4452 -5 4454 -5 0 4458 -2 4459 4460 -7 0 4458 4459 4460 -274 0 4448 4457 -5 4454 -292 0 4448 4457 -6 4454 -291 0 4448 4457 -7 4454 -290 0 4448 4457 -8 4454 -290 0 4453 -9 4454 -290 0 4453 -9 4454 -290 0 4453 -9 4454 -290 0 4453 -9 4454 -290 0 4453 -9 4454 -290 0 4458 4452 -8 4454 -291 0 4458 4459 4452 -6 4454 -293 0 4458 -2 4459 4452 -3 4454)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 150)
+      (width 300)
+      (height 60)
+      (tiles -9581 0 85 86 87 88 -7 0 85 86 87 88 -285 0 89 90 91 92 -7 0 89 90 91 92 -288 0 85 86 87 88 0 85 86 87 88 -4 0 85 86 87 -284 0 89 90 91 92 0 89 90 91 92 -4 0 89 90 91 -586 0 85 86 87 88 -296 0 89 90 91 92 -2137 0 85 86 87 88 -296 0 89 90 91 92 -301 0 85 86 87 88 -267 0 85 86 87 88 -25 0 89 90 91 92 -267 0 89 90 91 92 -293 0 85 86 87 88 -296 0 89 90 91 92 -2696 0)
+    )
+    (tilemap
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos 0)
+      (name "bigguy11")
+      (path-ref "gen17142849412500456257616")
+      (width 30)
+      (height 30)
+      (tiles -37 0 4553 4556 -12 0 4553 4556 -14 0 4557 4567 -12 0 4557 4567 -14 0 4564 4559 4556 0 4553 4556 0 4553 4556 0 4553 4556 0 4553 4582 4558 -14 0 4557 4566 4559 4569 4560 4581 4555 4582 4559 4569 4560 4581 4555 4582 4565 4567 -14 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -14 0 4557 4566 4565 4566 4565 4592 4577 4580 4577 4580 4571 4566 4565 4566 4565 4567 -14 0 4564 4565 4566 4570 4580 4578 -4 0 4575 4577 4593 4565 4566 4558 -14 0 4557 4592 4577 4578 -8 0 4575 4580 4571 4567 -14 0 4564 4558 -12 0 4564 4558 -7 0 4561 0 4561 0 4561 -2 0 4557 4567 -12 0 4557 4567 -2 0 4561 0 4561 0 4561 4553 4569 4555 4569 4556 -2 0 4564 4558 -12 0 4564 4558 -2 0 4553 4569 4555 4569 4556 4575 4571 4566 4570 4578 -2 0 4557 4567 -12 0 4557 4567 -2 0 4575 4571 4566 4570 4578 0 4564 4565 4567 -3 0 4564 4558 -12 0 4564 4558 -3 0 4564 4565 4567 -2 0 4557 4566 4558 -3 0 4557 4567 -12 0 4557 4567 -3 0 4557 4566 4558 -2 0 4575 4577 4578 -3 0 4564 4558 -12 0 4564 4558 -3 0 4575 4577 4578 -8 0 4575 4578 -12 0 4575 4578 -187 0 4553 4569 4555 4569 4555 4569 4555 4569 4556 -12 0 4553 4555 4569 4555 4569 4555 4569 4555 4556 4564 4565 4566 4565 4566 4565 4566 4565 4581 4555 4556 -8 0 4553 4569 4560 4566 4565 4566 4565 4566 4565 4566 4558 4575 4580 4577 4580 4571 4566 4565 4566 4565 4566 4559 4569 4556 -4 0 4553 4555 4582 4565 4566 4565 4566 4565 4592 4577 4580 4577 4578 -4 0 4575 4571 4566 4565 4566 4565 4566 4565 4581 4555 4569 4555 4569 4560 4566 4565 4566 4565 4566 4565 4592 4578 -9 0 4575 4571 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4578 -11 0 4575 4571 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4578 -13 0 4575 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4578 -7 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #f)
+      (z-pos -100)
+      (name "bigguy12")
+      (path-ref "gen17143169132601288200560")
+      (width 30)
+      (height 30)
+      (tiles -162 0 4448 -4 4449 4450 -23 0 4448 4457 -4 4454 4456 4450 -21 0 4448 4457 -6 4454 4456 4450 -19 0 4448 4457 -8 4454 4456 4450 -18 0 4453 -10 4454 4456 4450 -16 0 4448 4457 -11 4454 4455 -16 0 4453 -12 4454 4455 -16 0 4453 -12 4454 4455 -9 0 4448 4449 4450 -4 0 4453 -12 4454 4455 -4 0 4448 4449 4450 -2 0 4453 4454 4455 -4 0 4453 -12 4454 4455 -4 0 4453 4454 4455 -3 0 4454 4455 -3 0 4448 4457 -12 4454 4456 4450 -4 0 4454 4455 -2 0 4453 4454 4455 -3 0 4453 -14 4454 4455 -3 0 4453 4454 4455 -2 0 4453 4454 4455 -3 0 4458 -13 4454 4451 4460 -3 0 4453 4454 4455 -2 0 4453 4454 4455 -4 0 -13 4454 4455 -4 0 4453 4454 4455 -2 0 4453 4454 4455 -4 0 -13 4454 4455 -4 0 4453 4454 4455 -2 0 4453 4454 4455 -4 0 -13 4454 4455 -4 0 4453 4454 4455 0 4448 4457 4454 4456 4450 -3 0 -13 4454 4455 -3 0 4448 4457 4454 4456 4450 4453 -3 4454 4455 -2 0 4448 -13 4454 4456 4450 -2 0 4453 -3 4454 4455 4453 -3 4454 4455 0 4448 4457 -14 4454 4456 4450 0 4453 -3 4454 4455 4458 -3 4459 4460 0 4453 -16 4454 4455 0 4458 -3 4459 4460 -6 0 4458 4459 4452 -11 4454 4451 -2 4459 4460 -14 0 4458 -3 4459 4452 -3 4454 4451 -3 4459 4460 -21 0 4458 -3 4459 4460 -73 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #f)
+      (z-pos -50)
+      (name "bigguy13")
+      (path-ref "gen17143171172601288199888")
+      (width 30)
+      (height 30)
+      (tiles -224 0 4562 4563 -28 0 4573 4574 -28 0 4584 4585 -25 0 1511 1512 0 4584 4585 0 1511 1512 -22 0 1513 1514 0 4584 4585 0 1513 1514 -22 0 1515 1516 0 4584 4585 0 1515 1516 -25 0 4584 4585 -28 0 4584 4585 -28 0 4584 4585 -25 0 1511 1512 0 4584 4585 0 1511 1512 -18 0 4562 4563 -2 0 1513 1514 0 4584 4585 0 1513 1514 -2 0 4562 4563 -14 0 4573 4574 -2 0 1515 1516 0 4584 4585 0 1515 1516 -2 0 4573 4574 -14 0 4584 4585 -5 0 4584 4585 -5 0 4584 4585 -14 0 4584 4585 -5 0 4584 4585 -5 0 4584 4585 -14 0 4595 4596 -5 0 4584 4585 -5 0 4595 4596 -14 0 4606 4607 -5 0 4584 4585 -5 0 4606 4607 -21 0 4584 4585 -28 0 4595 4596 -28 0 4606 4607 -134 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos 0)
+      (name "sider1")
+      (path-ref "gen17143274111846150035232")
+      (width 20)
+      (height 15)
+      (tiles 4553 4556 -16 0 4553 4556 4564 4559 4556 -2 0 4553 4556 -2 0 4553 4556 -2 0 4553 4556 -2 0 4553 4582 4558 4557 4566 4559 4569 4555 4582 4559 4569 4555 4582 4559 4569 4555 4582 4559 4569 4555 4582 4565 4567 4575 4577 4593 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4570 4580 4578 -2 0 4575 4580 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4577 4578 -102 0 4553 4569 4555 4569 4555 4601 4591 -6 0 4588 4589 4569 4555 4569 4555 4556 4575 4571 4566 4565 4566 4565 4612 4555 4569 4555 4569 4555 4569 4599 4566 4565 4566 4565 4592 4578 0 4575 4593 4592 4577 4580 4571 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4578 -3 0 4575 4578 -2 0 4575 4577 4580 4571 4566 4565 4566 4565 4566 4565 4592 4578 -11 0 4575 4577 4580 4577 4580 4577 4580 4567 -3 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #f)
+      (z-pos -50)
+      (name "sider2")
+      (path-ref "gen17143274111846150035232")
+      (width 20)
+      (height 15)
+      (tiles -103 0 4562 4563 -10 0 4562 4563 -6 0 4573 4574 -2 0 1511 1512 -2 0 1511 1512 -2 0 4573 4574 -6 0 4584 4585 -2 0 1513 1514 -2 0 1513 1514 -2 0 4584 4585 -6 0 4595 4596 -2 0 1515 1516 -2 0 1515 1516 -2 0 4595 4596 -6 0 4606 4607 -10 0 4606 4607 -103 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #f)
+      (z-pos -100)
+      (name "sider3")
+      (path-ref "gen17143274111846150035232")
+      (width 20)
+      (height 15)
+      (tiles -45 0 4448 -8 4449 4450 -9 0 4448 4457 -8 4454 4456 4450 -8 0 4453 -10 4454 4455 -8 0 4453 -10 4454 4455 -8 0 4453 -10 4454 4455 -8 0 4453 -10 4454 4455 -7 0 4448 4457 -10 4454 4455 -7 0 4453 -11 4454 4455 -7 0 4453 -11 4454 4455 -7 0 4458 -6 4459 4452 -4 4454 4455 -14 0 4458 -4 4459 4460 -44 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos 0)
+      (name "duo1_1")
+      (path-ref "gen17143305921846777530032")
+      (width 15)
+      (height 20)
+      (tiles 4553 4569 4556 -12 0 4564 4565 4581 4556 -2 0 4553 4556 -7 0 4557 4566 4565 4581 4555 4569 7454 4578 -7 0 4564 4565 4566 4565 4592 4577 4578 -8 0 4557 4566 4565 4592 4578 -10 0 4564 4565 4592 4578 -11 0 4575 4593 4558 -13 0 4557 4567 -13 0 4564 4558 -5 0 62 4553 4569 4555 4556 -3 0 4557 4567 -6 0 4564 4565 4566 4558 -3 0 4564 4558 -6 0 4557 4566 4565 4567 -3 0 4575 4578 62 -5 0 4564 4570 4580 4578 -11 0 4557 4567 -13 0 4564 4558 -12 0 62 4557 4567 -13 0 4564 4558 -13 0 4557 4567 -4 295 4553 4569 4555 4569 4555 4569 4555 4569 4555 4582 4559 4569 4555 4569 4556 4575 4571 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4570 4578 0 4575 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4577 4578 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos 0)
+      (name "duo2_1")
+      (path-ref "gen17143311841846140236672")
+      (width 20)
+      (height 15)
+      (tiles 0 4553 4556 -14 0 4553 4556 -2 0 4564 4559 4569 4556 0 4553 4556 0 4553 4556 0 4553 4556 0 4553 4555 4582 4558 -2 0 4557 4566 4565 4581 4555 4582 4559 4569 4560 4581 4555 4582 4559 4569 4560 4566 4565 4567 -2 0 4564 4565 4566 4565 4592 4577 4580 4577 4580 4577 4580 4577 4580 4571 4566 4565 4566 4558 -2 0 4575 4580 4577 4580 4578 -8 0 4575 4577 4580 4577 4578 -101 0 4553 4569 4555 4569 4587 -10 0 4586 4555 4569 4555 4556 4575 4577 4593 4565 4609 4587 -8 0 4586 4597 4566 4565 4592 4578 -2 0 4575 4593 4565 4609 4555 4569 4555 4569 4555 4569 4555 4569 4597 4566 4565 4592 4578 -4 0 4575 4593 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4578 -6 0 4575 4580 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4578 -3 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #f)
+      (z-pos -50)
+      (name "duo1_2")
+      (path-ref "gen17143305921846777530032")
+      (width 15)
+      (height 20)
+      (tiles -55 0 4562 4563 -13 0 4573 4574 -13 0 4584 4585 -13 0 4595 4596 -13 0 4606 4607 -38 0 1511 1512 -13 0 1513 1514 -9 0 4562 4563 -2 0 1515 1516 -9 0 4573 4574 -13 0 4584 4585 -13 0 4595 4596 -13 0 4606 4607 -57 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #f)
+      (z-pos -100)
+      (name "duo1_3")
+      (path-ref "gen17143305921846777530032")
+      (width 15)
+      (height 20)
+      (tiles -5 0 4448 -2 4449 4450 -10 0 4448 4457 -2 4454 4455 -10 0 4453 -3 1476 4455 -10 0 4453 -2 4454 4451 4460 -9 0 4448 4457 4454 4451 4460 -8 0 4448 4449 4457 -2 1476 4455 -9 0 4453 -4 4454 4455 -2 0 4448 -2 4449 4450 -3 0 4453 -4 4454 4456 -2 4449 4457 4454 1476 4456 4450 -2 0 4458 4452 1476 1477 -3 4454 -2 1477 4454 -2 1477 4455 -3 0 4453 -4 4454 -2 1476 1477 -3 4454 4455 -3 0 4453 4454 1476 4454 1476 4454 1476 1477 1476 4454 1477 4455 -3 0 4453 1476 4454 1476 -2 4454 1476 4454 1477 -2 4454 4455 -3 0 4453 4454 1476 -3 4454 1476 -4 4454 4455 -3 0 4453 -2 4454 -2 1477 4454 -3 1476 4454 4451 4460 -3 0 4453 1477 -2 1476 1477 4454 -2 1477 4454 1477 4455 -4 0 4453 -3 4454 1476 -3 4454 1477 1476 4455 -4 0 4453 -2 1477 4454 1476 -2 4454 1477 4454 1476 4456 4449 4450 -2 0 4458 -7 4459 4452 -3 4454 4455 -10 0 4458 -3 4459 4460 -15 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #f)
+      (z-pos -50)
+      (name "duo2_2")
+      (path-ref "gen17143311841846140236672")
+      (width 20)
+      (height 15)
+      (tiles -102 0 4562 4563 -12 0 4562 4563 -4 0 4573 4574 -2 0 1511 1512 -4 0 1511 1512 -2 0 4573 4574 -4 0 4584 4585 -2 0 1513 1514 -4 0 1513 1514 -2 0 4584 4585 -4 0 4595 4596 -2 0 1515 1516 -4 0 1515 1516 -2 0 4595 4596 -4 0 4606 4607 -12 0 4606 4607 -102 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #f)
+      (z-pos -100)
+      (name "duo2_3")
+      (path-ref "gen17143311841846140236672")
+      (width 20)
+      (height 15)
+      (tiles -44 0 4448 -8 4449 4454 4449 4450 -7 0 4448 -6 4454 -2 1476 -3 4454 4456 4450 -6 0 4453 -3 4454 1476 -8 4454 4455 -5 0 4448 4457 1476 -11 4454 4455 -6 0 -13 4454 4455 -6 0 -3 4454 1477 -9 4454 4455 -6 0 1476 -12 4454 4455 -6 0 -13 4454 4455 -6 0 4454 1476 -11 4454 4455 -5 0 4458 -2 4459 4452 -8 4454 4451 4459 4460 -8 0 4458 4452 4454 1476 -5 4454 4455 -11 0 4458 -7 4459 4460 -25 0)
+    )
+  )
+  (sector
+    (name "sector2")
+    (init-script "Camera.set_scale(0.8);")
+    (ambient-light
+      (color 0.65 0.72 1)
+    )
+    (background
+      (scroll-offset-y 250)
+      (color 0.2 0.3 0.45)
+      (speed 0.025)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/antarctic/ice_mountains.png")
+      (z-pos -220)
+    )
+    (background
+      (scroll-offset-y 15)
+      (color 1 1 1 0.8)
+      (alignment "bottom")
+      (scroll-speed-x -50)
+      (speed 1.2)
+      (image "/images/background/arcticskies/arcticskies3.png")
+      (z-pos 200)
+    )
+    (background
+      (scroll-offset-y 250)
+      (color 0.1 0.2 0.35)
+      (speed 0.01)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/antarctic/ice_mountains_panorama.png")
+      (z-pos -250)
+    )
+    (background
+      (color 0.3 0.3 0.5)
+      (scroll-speed-x -0.1)
+      (speed 0)
+      (image "/images/background/misc/skybox.png")
+      (z-pos -290)
+    )
+    (background
+      (color 1 1 1)
+      (speed 0)
+      (image "/images/background/misc/skybox_stars.png")
+      (z-pos -295)
+    )
+    (background
+      (color 0.3 0.4 0.5)
+      (scroll-speed-x -2)
+      (speed 0)
+      (image "/images/background/misc/clouds.png")
+      (z-pos -280)
+    )
+    (background
+      (color 0.5 0.65 0.8)
+      (alignment "bottom")
+      (scroll-speed-x -20)
+      (speed 0.7)
+      (image "/images/background/arcticskies/arcticskies3.png")
+      (z-pos -200)
+    )
+    (bonusblock
+      (z-pos 51)
+      (contents "airgrow")
+      (x 624)
+      (y 1664)
+    )
+    (bonusblock
+      (type "orange")
+      (z-pos 51)
+      (x 3104)
+      (y 544)
+    )
+    (bonusblock
+      (z-pos 51)
+      (x 3264)
+      (y 1184)
+    )
+    (bonusblock
+      (type "purple")
+      (z-pos 51)
+      (x 3904)
+      (y 544)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (candle
+      (z-pos 0)
+      (x 240)
+      (y 1728)
+    )
+    (candle
+      (z-pos 0)
+      (x 624)
+      (y 1744)
+    )
+    (candle
+      (z-pos 0)
+      (x 1632)
+      (y 544)
+    )
+    (candle
+      (z-pos 0)
+      (x 736)
+      (y 272)
+    )
+    (candle
+      (z-pos 0)
+      (x 2768)
+      (y 1248)
+    )
+    (candle
+      (z-pos 0)
+      (x 2480)
+      (y 1280)
+    )
+    (candle
+      (z-pos 0)
+      (x 2192)
+      (y 1248)
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143517931135334580512")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143517931135334580512")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143517931135334580512")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143517931135334580512")
+    )
+    (coin
+      (z-pos -49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143530261135372900032")
+    )
+    (coin
+      (z-pos -49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143530331135372901152")
+    )
+    (coin
+      (z-pos -49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143530411135372900704")
+    )
+    (coin
+      (z-pos -49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143530461135372900256")
+    )
+    (coin
+      (z-pos 49)
+      (x 1280)
+      (y 352)
+    )
+    (coin
+      (z-pos 49)
+      (x 1312)
+      (y 384)
+    )
+    (coin
+      (z-pos 49)
+      (x 1248)
+      (y 384)
+    )
+    (coin
+      (z-pos 49)
+      (x 1280)
+      (y 416)
+    )
+    (coin
+      (z-pos 49)
+      (x 992)
+      (y 384)
+    )
+    (coin
+      (z-pos 49)
+      (x 960)
+      (y 352)
+    )
+    (coin
+      (z-pos 49)
+      (x 928)
+      (y 384)
+    )
+    (coin
+      (z-pos 49)
+      (x 960)
+      (y 416)
+    )
+    (coin
+      (z-pos 49)
+      (x 1280)
+      (y 1632)
+    )
+    (coin
+      (z-pos 49)
+      (x 1312)
+      (y 1664)
+    )
+    (coin
+      (z-pos 49)
+      (x 1248)
+      (y 1664)
+    )
+    (coin
+      (z-pos 49)
+      (x 1280)
+      (y 1696)
+    )
+    (coin
+      (z-pos 49)
+      (x 960)
+      (y 1632)
+    )
+    (coin
+      (z-pos 49)
+      (x 992)
+      (y 1664)
+    )
+    (coin
+      (z-pos 49)
+      (x 928)
+      (y 1664)
+    )
+    (coin
+      (z-pos 49)
+      (x 960)
+      (y 1696)
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143610321134741530752")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143610621134741530976")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143610671134741531424")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17143610731134741531648")
+    )
+    (coin
+      (z-pos 49)
+      (x 4608)
+      (y 1184)
+    )
+    (coin
+      (z-pos 49)
+      (x 4416)
+      (y 1216)
+    )
+    (coin
+      (z-pos 49)
+      (x 4512)
+      (y 1152)
+    )
+    (coin
+      (z-pos 49)
+      (x 4256)
+      (y 1248)
+    )
+    (coin
+      (z-pos 49)
+      (x 4768)
+      (y 1152)
+    )
+    (coin
+      (z-pos 49)
+      (x 4704)
+      (y 1120)
+    )
+    (coin
+      (z-pos 49)
+      (x 4320)
+      (y 1184)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1136)
+      (y 1040)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1040)
+      (y 1008)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1024)
+      (y 1040)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 944)
+      (y 1008)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 912)
+      (y 1040)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 736)
+      (y 976)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 848)
+      (y 976)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 800)
+      (y 976)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 848)
+      (y 1040)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 864)
+      (y 1008)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 768)
+      (y 1008)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 656)
+      (y 1024)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 656)
+      (y 992)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 656)
+      (y 944)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 624)
+      (y 976)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 608)
+      (y 912)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 624)
+      (y 880)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 576)
+      (y 816)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 608)
+      (y 752)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 576)
+      (y 672)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 608)
+      (y 592)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 640)
+      (y 512)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 624)
+      (y 448)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 656)
+      (y 368)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 672)
+      (y 288)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1488)
+      (y 496)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1504)
+      (y 528)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1568)
+      (y 560)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1488)
+      (y 560)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1424)
+      (y 592)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1376)
+      (y 640)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1328)
+      (y 624)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1264)
+      (y 656)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1200)
+      (y 656)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1104)
+      (y 688)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1024)
+      (y 688)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 944)
+      (y 688)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1072)
+      (y 720)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1184)
+      (y 720)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1216)
+      (y 688)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1408)
+      (y 688)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1312)
+      (y 688)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1264)
+      (y 720)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1504)
+      (y 752)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1536)
+      (y 624)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1536)
+      (y 704)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1488)
+      (y 832)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1520)
+      (y 912)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1504)
+      (y 1008)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1520)
+      (y 1088)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1536)
+      (y 1168)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1520)
+      (y 1232)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1504)
+      (y 1280)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1456)
+      (y 1296)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1392)
+      (y 1328)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1296)
+      (y 1328)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1200)
+      (y 1360)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1104)
+      (y 1360)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1072)
+      (y 1360)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/tiles/background/cloud.png")
+      (x 1264)
+      (y 1328)
+    )
+    (door
+      (z-pos 1)
+      (sector "main")
+      (locked #f)
+      (spawnpoint "main2")
+      (x 64)
+      (y 1664)
+    )
+    (firefly
+      (z-pos 0)
+      (x 384)
+      (y 1712)
+    )
+    (firefly
+      (z-pos 0)
+      (x 4208)
+      (y 1264)
+    )
+    (flame
+      (z-pos 150)
+      (x 2144)
+      (y 768)
+    )
+    (flame
+      (z-pos 150)
+      (x 1728)
+      (y 1088)
+    )
+    (flame
+      (z-pos 150)
+      (x 4608)
+      (y 1248)
+    )
+    (flame
+      (z-pos 150)
+      (x 4416)
+      (y 1280)
+    )
+    (flame
+      (z-pos 150)
+      (x 6656)
+      (y 1216)
+    )
+    (flame
+      (z-pos 150)
+      (x 6464)
+      (y 1248)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 1824)
+      (y 608)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 1984)
+      (y 640)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 2016)
+      (y 896)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 1856)
+      (y 992)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 1824)
+      (y 1216)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 1984)
+      (y 1248)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 6848)
+      (y 1248)
+    )
+    (gradient
+      (blend "none")
+      (top_color 0 0 0.05)
+      (bottom_color 0 0.2 0.4)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 2480)
+      (y 1184)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 6128)
+      (y 1232)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 5808)
+      (y 1232)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 5488)
+      (y 1232)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 5168)
+      (y 1232)
+    )
+    (music
+      (file "/music/antarctic/night.music")
+    )
+    (particles-clouds
+    )
+    (path
+      (name "gen17143517731135334578048")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 576)
+          (y 1776)
+        )
+      )
+    )
+    (path
+      (name "gen17143517931135334580512")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 624)
+          (y 1600)
+        )
+        (node
+          (x 688)
+          (y 1664)
+        )
+        (node
+          (x 624)
+          (y 1728)
+        )
+        (node
+          (x 560)
+          (y 1664)
+        )
+      )
+    )
+    (path
+      (name "gen17143520031135334580064")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 736)
+          (y 1280)
+          (time 20)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 736)
+          (y 0)
+        )
+      )
+    )
+    (path
+      (name "gen17143530261135372900032")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 1120)
+          (y 320)
+        )
+        (node
+          (x 1184)
+          (y 384)
+        )
+        (node
+          (x 1120)
+          (y 448)
+        )
+        (node
+          (x 1056)
+          (y 384)
+        )
+      )
+    )
+    (path
+      (name "gen17143530331135372901152")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 1120)
+          (y 320)
+        )
+        (node
+          (x 1184)
+          (y 384)
+        )
+        (node
+          (x 1120)
+          (y 448)
+        )
+        (node
+          (x 1056)
+          (y 384)
+        )
+      )
+    )
+    (path
+      (name "gen17143530411135372900704")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 1120)
+          (y 320)
+        )
+        (node
+          (x 1184)
+          (y 384)
+        )
+        (node
+          (x 1120)
+          (y 448)
+        )
+        (node
+          (x 1056)
+          (y 384)
+        )
+      )
+    )
+    (path
+      (name "gen17143530461135372900256")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 1120)
+          (y 320)
+        )
+        (node
+          (x 1184)
+          (y 384)
+        )
+        (node
+          (x 1120)
+          (y 448)
+        )
+        (node
+          (x 1056)
+          (y 384)
+        )
+      )
+    )
+    (path
+      (name "gen17143534271134742249616")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 2144)
+          (y 1280)
+        )
+      )
+    )
+    (path
+      (name "gen17143534311134742252976")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 2432)
+          (y 1312)
+        )
+      )
+    )
+    (path
+      (name "gen17143534331134742256112")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 2720)
+          (y 1280)
+        )
+      )
+    )
+    (path
+      (name "gen17143537151134742250960")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 3008)
+          (y 1024)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 3008)
+          (y 384)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 3648)
+          (y 384)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 3648)
+          (y 1024)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+      )
+    )
+    (path
+      (name "gen17143545751134742250064")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 4160)
+          (y 1312)
+        )
+      )
+    )
+    (path
+      (name "gen17143546771135334579392")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 4768)
+          (y 1216)
+        )
+      )
+    )
+    (path
+      (name "gen17143591981134756439216")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 5024)
+          (y 768)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 5024)
+          (y 608)
+        )
+      )
+    )
+    (path
+      (name "gen17143594071134756438320")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 5344)
+          (y 768)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 5344)
+          (y 608)
+        )
+      )
+    )
+    (path
+      (name "gen17143599331134756438992")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 5664)
+          (y 768)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 5664)
+          (y 608)
+        )
+      )
+    )
+    (path
+      (name "gen17143600841135331538592")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 5984)
+          (y 768)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 5984)
+          (y 608)
+        )
+      )
+    )
+    (path
+      (name "gen17143610321134741530752")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6560)
+          (y 960)
+        )
+        (node
+          (x 6656)
+          (y 1056)
+        )
+        (node
+          (x 6560)
+          (y 1152)
+        )
+        (node
+          (x 6464)
+          (y 1056)
+        )
+      )
+    )
+    (path
+      (name "gen17143610621134741530976")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6560)
+          (y 960)
+        )
+        (node
+          (x 6656)
+          (y 1056)
+        )
+        (node
+          (x 6560)
+          (y 1152)
+        )
+        (node
+          (x 6464)
+          (y 1056)
+        )
+      )
+    )
+    (path
+      (name "gen17143610671134741531424")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6560)
+          (y 960)
+        )
+        (node
+          (x 6656)
+          (y 1056)
+        )
+        (node
+          (x 6560)
+          (y 1152)
+        )
+        (node
+          (x 6464)
+          (y 1056)
+        )
+      )
+    )
+    (path
+      (name "gen17143610731134741531648")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6560)
+          (y 960)
+        )
+        (node
+          (x 6656)
+          (y 1056)
+        )
+        (node
+          (x 6560)
+          (y 1152)
+        )
+        (node
+          (x 6464)
+          (y 1056)
+        )
+      )
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17143517731135334578048")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17143534271134742249616")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17143534311134742252976")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17143534331134742256112")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17143545751134742250064")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17143546771135334579392")
+    )
+    (scripttrigger
+      (width 32)
+      (height 192)
+      (script "InIce.start_moving();
+InIce2.start_moving();
+InIce3.start_moving();")
+      (button #f)
+      (x 800)
+      (y 1600)
+    )
+    (scripttrigger
+      (width 32)
+      (height 1184)
+      (script "wave1.start_moving();
+wait(0.5);
+wave2.start_moving();
+wait(0.5);
+wave3.start_moving();
+wait(0.5);
+wave4.start_moving();")
+      (button #f)
+      (x 4864)
+      (y 32)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 320)
+      (x 7168)
+      (y 896)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 464)
+      (x 7920)
+      (y 960)
+    )
+    (smartball
+      (z-pos 50)
+      (x 6208)
+      (y 1248)
+    )
+    (smartball
+      (z-pos 50)
+      (x 5744)
+      (y 1248)
+    )
+    (smartball
+      (z-pos 50)
+      (x 5072)
+      (y 1248)
+    )
+    (smartball
+      (z-pos 50)
+      (x 5408)
+      (y 1248)
+    )
+    (spawnpoint
+      (name "main")
+      (x 72)
+      (y 1696)
+    )
+    (spawnpoint
+      (x 2816)
+      (y 1216)
+    )
+    (spawnpoint
+      (x 7072)
+      (y 1152)
+    )
+    (spawnpoint
+      (x 4800)
+      (y 1152)
+    )
+    (stalactite
+      (z-pos -1)
+      (sticky #t)
+      (x 5040)
+      (y 928)
+    )
+    (stalactite
+      (z-pos -1)
+      (sticky #t)
+      (x 5936)
+      (y 928)
+    )
+    (stalactite
+      (z-pos -1)
+      (sticky #t)
+      (x 5360)
+      (y 928)
+    )
+    (stalactite
+      (z-pos -1)
+      (sticky #t)
+      (x 5696)
+      (y 928)
+    )
+    (stalactite
+      (z-pos -1)
+      (sticky #t)
+      (x 5600)
+      (y 928)
+    )
+    (stalactite
+      (z-pos -1)
+      (sticky #t)
+      (x 6256)
+      (y 928)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -2)
+      (name "InIce")
+      (path-ref "gen17143520031135334580064")
+      (width 25)
+      (height 20)
+      (tiles 4553 4569 4556 -19 0 4553 4569 4556 4564 4565 4567 -3 0 4553 4555 4556 -2 0 4553 4569 4556 -2 0 4553 4555 4556 -3 0 4564 4565 4567 4557 4566 4559 4556 -2 0 4557 4566 4558 -2 0 4564 4565 4567 -2 0 4557 4566 4558 -2 0 4553 4560 4566 4558 4564 4565 4566 4559 4569 4555 4582 4565 4581 4555 4569 4560 4566 4559 4569 4555 4582 4565 4581 4555 4569 4560 4566 4565 4567 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 4564 4565 4566 4565 4566 4565 4566 4565 4566 4570 4580 4577 4580 4577 4580 4593 4566 4565 4566 4565 4566 4565 4566 4565 4567 4557 4566 4565 4566 4565 4566 4565 4592 4577 4578 -5 0 4575 4577 4593 4565 4566 4565 4566 4565 4566 4558 4564 4565 4566 4565 4566 4570 4580 4578 -9 0 4575 4580 4571 4566 4565 4566 4565 4567 4575 4593 4565 4592 4577 4578 -13 0 4575 4577 4593 4565 4592 4578 0 4575 4580 4578 -17 0 4575 4580 4578 -61 0 4553 4555 4569 4555 4556 -87 0 4553 4555 4569 4555 4569 4555 4569 4555 4569 4555 4569 4555 4569 4555 4569 4555 4569 4555 4569 4555 4556 -4 0 4575 4593 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4578 -5 0 4575 4593 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4578 -7 0 4575 4580 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4578 -4 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (running #t)
+      (z-pos 0)
+      (name "spinner1")
+      (path-ref "gen17143537151134742250960")
+      (width 12)
+      (height 12)
+      (tiles 0 -10 295 0 298 4553 4555 4569 4555 4569 4555 4569 4555 4569 4556 296 298 4557 4592 4577 4580 4577 4580 4577 4580 4571 4567 296 0 4575 4578 -6 0 4564 4558 296 -9 0 4557 4567 296 -9 0 4564 4558 296 -9 0 4557 4567 296 -9 0 4564 4558 296 0 4553 4556 -6 0 4557 4567 296 298 4564 4559 4569 4555 4556 -2 0 4553 4582 4558 296 298 4575 4580 4577 4580 4578 -2 0 4575 4577 4578 296 0 -4 297 -4 0 -2 297 0)
+    )
+    (tilemap
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (running #t)
+      (z-pos 0)
+      (name "spinner2")
+      (path-ref "gen17143537151134742250960")
+      (width 12)
+      (height 12)
+      (tiles 0 -4 295 -4 0 -2 295 0 298 4553 4555 4569 4555 4556 -2 0 4553 4555 4556 296 298 4557 4592 4577 4580 4578 -2 0 4575 4593 4558 296 298 4564 4558 -6 0 4557 4567 296 298 4557 4567 -6 0 4564 4558 296 298 4564 4558 -6 0 4557 4567 296 298 4557 4567 -6 0 4564 4558 296 298 4564 4558 -6 0 4557 4567 296 298 4557 4567 -6 0 4564 4558 296 298 4564 4559 4556 -2 0 4553 4555 4569 4560 4567 296 298 4575 4580 4578 -2 0 4575 4580 4577 4580 4578 296 0 -2 297 -4 0 -4 297 0)
+    )
+    (tilemap
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (running #t)
+      (z-pos 0)
+      (name "spinner3")
+      (path-ref "gen17143537151134742250960")
+      (width 12)
+      (height 12)
+      (tiles 0 -2 295 -4 0 -4 295 0 298 4553 4555 4556 -2 0 4553 4569 4555 4569 4556 296 298 4557 4592 4578 -2 0 4575 4577 4580 4571 4567 296 0 4575 4578 -6 0 4564 4558 296 -9 0 4557 4567 296 -9 0 4564 4558 296 -9 0 4557 4567 296 -9 0 4564 4558 296 0 4553 4556 -6 0 4557 4567 296 298 4564 4559 4569 4555 4569 4555 4569 4555 4582 4558 296 298 4575 4580 4577 4580 4577 4580 4577 4580 4577 4578 296 0 -10 297 0)
+    )
+    (tilemap
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (running #t)
+      (z-pos 0)
+      (name "spinner4")
+      (path-ref "gen17143537151134742250960")
+      (width 12)
+      (height 12)
+      (tiles 0 -10 295 0 298 4553 4569 4555 4569 4555 4569 4555 4569 4555 4556 0 298 4564 4570 4580 4577 4580 4577 4580 4577 4593 4558 0 298 4557 4567 -6 0 4575 4578 0 298 4564 4558 -9 0 298 4557 4567 -9 0 298 4564 4558 -9 0 298 4557 4567 -9 0 298 4564 4558 -6 0 4553 4556 0 298 4557 4581 4555 4569 4555 4569 4555 4569 4560 4567 0 298 4575 4577 4580 4577 4580 4577 4580 4577 4580 4578 -2 0 -10 297 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos 0)
+      (name "wave1")
+      (path-ref "gen17143591981134756439216")
+      (width 10)
+      (height 20)
+      (tiles 4553 4556 -6 0 4553 4556 4557 4581 4556 0 4553 4556 0 4553 4560 4567 4564 4565 4581 4555 4582 4559 4569 4560 4566 4558 4557 4592 4577 4580 4577 4580 4577 4580 4571 4567 4553 4556 -6 0 4553 4556 -110 0 4553 4555 4569 4555 4569 4555 4569 4555 4569 4556 4557 4566 4565 4566 4565 4566 4565 4566 4565 4567 4575 4571 4566 4565 4566 4565 4566 4565 4592 4578 0 4575 4577 4580 4577 4580 4577 4580 4578 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos 0)
+      (name "wave2")
+      (path-ref "gen17143594071134756438320")
+      (width 10)
+      (height 20)
+      (tiles 4553 4556 -6 0 4553 4556 4557 4581 4556 0 4553 4556 0 4553 4560 4567 4564 4565 4581 4555 4582 4559 4569 4560 4566 4558 4557 4592 4577 4580 4577 4580 4577 4580 4571 4567 4553 4556 -6 0 4553 4556 -110 0 4553 4555 4569 4555 4569 4555 4569 4555 4569 4556 4557 4566 4565 4566 4565 4566 4565 4566 4565 4567 4575 4571 4566 4565 4566 4565 4566 4565 4592 4578 0 4575 4577 4580 4577 4580 4577 4580 4578 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos 0)
+      (name "wave3")
+      (path-ref "gen17143599331134756438992")
+      (width 10)
+      (height 20)
+      (tiles 4553 4556 -6 0 4553 4556 4557 4581 4556 0 4553 4556 0 4553 4560 4567 4564 4565 4581 4555 4582 4559 4569 4560 4566 4558 4557 4592 4577 4580 4577 4580 4577 4580 4571 4567 4553 4556 -6 0 4553 4556 -110 0 4553 4555 4569 4555 4569 4555 4569 4555 4569 4556 4557 4566 4565 4566 4565 4566 4565 4566 4565 4567 4575 4571 4566 4565 4566 4565 4566 4565 4592 4578 0 4575 4577 4580 4577 4580 4577 4580 4578 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos 0)
+      (name "wave4")
+      (path-ref "gen17143600841135331538592")
+      (width 10)
+      (height 20)
+      (tiles 4553 4556 -6 0 4553 4556 4557 4581 4556 0 4553 4556 0 4553 4560 4567 4564 4565 4581 4555 4582 4559 4569 4560 4566 4558 4557 4592 4577 4580 4577 4580 4577 4580 4571 4567 4553 4556 -6 0 4553 4556 -110 0 4553 4555 4569 4555 4569 4555 4569 4555 4569 4556 4557 4566 4565 4566 4565 4566 4565 4566 4565 4567 4575 4571 4566 4565 4566 4565 4566 4565 4592 4578 0 4575 4577 4580 4577 4580 4577 4580 4578 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -150)
+      (width 250)
+      (height 60)
+      (tiles -1594 0 4448 -3 4449 4457 -22 4454 4456 4449 4450 -217 0 4448 4449 4450 4453 -28 4454 4456 4449 4450 -215 0 4453 4454 4456 4457 -30 4454 4456 -2 4449 4450 -212 0 4453 -36 4454 4455 -212 0 4458 4452 -34 4454 4451 4460 -213 0 4453 -34 4454 4455 -214 0 4458 4452 -32 4454 4451 4460 -215 0 4453 -32 4454 4455 -216 0 4458 4452 -30 4454 4451 4460 -35 0 4453 -3 4454 4451 4459 4452 -5 4454 4455 -2 0 4453 -13 4454 4456 -152 0 4453 -30 4454 4455 -36 0 4457 -29 4454 -152 0 4453 -30 4454 4455 -36 0 -30 4454 -152 0 4453 -30 4454 4455 -36 0 -30 4454 -152 0 4453 -29 4454 4451 4460 -36 0 -30 4454 -152 0 4458 4452 -28 4454 4455 -37 0 -30 4454 -153 0 4453 -28 4454 4455 -37 0 -30 4454 -153 0 4453 -28 4454 4455 -37 0 -30 4454 -153 0 4453 -28 4454 4455 -37 0 -30 4454 -153 0 4458 4452 -27 4454 4455 -37 0 -30 4454 -154 0 4453 -26 4454 4451 4460 -37 0 -30 4454 -154 0 4453 -26 4454 4455 -38 0 -30 4454 -154 0 4453 -26 4454 4455 -38 0 -30 4454 -25 0 85 86 87 88 -125 0 4453 -26 4454 4455 -38 0 -30 4454 -25 0 89 90 91 92 -125 0 4453 -26 4454 4455 -38 0 -30 4454 -154 0 4453 -26 4454 4455 -38 0 -30 4454 -154 0 4453 -26 4454 4455 -38 0 -30 4454 -154 0 4453 -26 4454 4455 -38 0 -30 4454 -39 0 85 86 87 88 -111 0 4453 -26 4454 4455 -38 0 -30 4454 -39 0 89 90 91 92 -111 0 4453 -26 4454 4455 -38 0 -30 4454 -154 0 4453 -26 4454 4455 -38 0 -30 4454 -154 0 4453 -26 4454 4455 -38 0 -30 4454 -26 0 85 86 87 88 -12 0 85 86 87 88 -107 0 4448 4457 -26 4454 4456 4450 -37 0 -30 4454 -26 0 89 90 91 92 -12 0 89 90 91 92 -107 0 4453 -28 4454 4455 -37 0 -30 4454 -29 0 85 86 87 88 86 85 86 87 88 -115 0 4453 -28 4454 4455 -37 0 -30 4454 -29 0 89 90 91 92 90 89 90 91 92 -115 0 4453 -28 4454 4455 -37 0 -30 4454 -29 0 85 86 87 88 -3 0 85 86 87 88 0 85 86 87 88 -4 0 4448 -2 4449 4450 -99 0 4448 4457 -28 4454 4456 4450 -36 0 -30 4454 -29 0 89 90 91 92 -3 0 89 90 91 92 0 89 90 91 92 -4 0 4453 -2 4454 4455 -99 0 4453 -30 4454 4455 -36 0 -30 4454 -33 0 85 86 87 88 -2 0 85 86 87 88 -6 0 4453 -2 4454 4455 -99 0 4453 -30 4454 4455 -36 0 -30 4454 -33 0 89 90 91 92 -2 0 89 90 91 92 -6 0 4453 4454 4451 4460 -99 0 4453 -30 4454 4455 -36 0 -30 4454 -43 0 85 86 87 88 -105 0 4453 -30 4454 4456 4450 -35 0 -30 4454 -35 0 85 86 87 88 -4 0 89 90 91 92 0 85 86 87 88 85 86 87 88 -95 0 4448 4457 -31 4454 4455 -35 0 -30 4454 -35 0 89 90 91 92 -3 0 85 86 87 88 -2 0 89 90 91 92 89 90 91 92 -94 0 4448 4457 -32 4454 4456 4450 -34 0 -30 4454 -42 0 89 90 91 92 85 86 87 88 -100 0 4453 -34 4454 4455 -34 0 -30 4454 -36 0 85 86 87 88 0 85 86 87 88 0 89 90 91 92 0 85 86 87 88 -4 0 4448 -2 4449 4450 -87 0 4458 -2 4459 4452 -31 4454 4455 -34 0 4454 4451 -2 4459 4452 -25 4454 -36 0 89 90 91 92 0 89 90 91 92 -6 0 89 90 91 92 -3 0 4448 4457 -2 4454 4455 0 4448 -2 4449 4450 -85 0 4453 -26 4454 4451 -4 4459 4460 -34 0 4459 4460 -2 0 4453 -18 4454 4451 4452 4454 4451 -3 4459 -37 0 85 86 87 88 -11 0 85 86 87 88 -2 0 4457 -3 4454 4456 4449 4457 -2 4454 4456 4450 -84 0 4453 -2 4454 4451 4452 -18 4454 4451 -3 4459 4460 -43 0 4458 -6 4459 4452 -10 4454 4451 4460 4458 4459 4460 -40 0 89 90 91 92 -11 0 89 90 91 92 -2 0 -10 4454 4455 -84 0 4458 -2 4459 4460 4458 -5 4459 4452 -9 4454 4451 -2 4459 4460 -54 0 4458 -2 4459 4452 -2 4454 4451 -4 4459 4460 -47 0 85 86 87 88 -14 0 -9 4454 4451 4460 -94 0 4458 -2 4459 4452 -3 4454 4451 -2 4459 4460 -60 0 4458 -2 4459 4460 -52 0 89 90 91 92 -9 0 85 86 87 88 0 -9 4454 4456 4450 -97 0 4458 -3 4459 4460 -132 0 89 90 91 92 0 4452 -9 4454 4456 4449 4450 -217 0 85 86 87 88 -16 0 4453 -2 4454 4451 -2 4459 4452 -5 4454 4455 -217 0 89 90 91 92 -10 0 85 86 87 88 -2 0 4458 -2 4459 4460 -2 0 4458 -5 4459 4460 -220 0 85 86 87 88 -7 0 89 90 91 92 -235 0 89 90 91 92 -242 0 85 86 87 88 -13 0 85 86 87 88 -229 0 89 90 91 92 -13 0 89 90 91 92)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 150)
+      (width 250)
+      (height 60)
+      (tiles -4329 0 85 86 87 88 -239 0 85 86 87 88 -3 0 89 90 91 92 -239 0 89 90 91 92 -253 0 85 86 87 88 -246 0 89 90 91 92 -490 0 85 86 87 88 -246 0 89 90 91 92 -250 0 85 86 87 88 -246 0 89 90 91 92 -494 0 85 86 87 88 -146 0 130 -99 0 89 90 91 92 -146 0 129 -249 0 129 -249 0 129 -249 0 129 -249 0 129 -14 0 4553 4556 -5 0 4553 4556 -226 0 129 -14 0 4557 4567 0 4561 0 4561 0 4564 4558 -226 0 129 -14 0 4575 7451 4569 4555 4569 4555 4569 7454 4578 -226 0 129 -15 0 4564 4565 4566 4565 4566 4565 4567 -221 0 85 86 87 88 0 85 4967 87 88 -13 0 4557 4566 4565 4566 4565 4566 4558 -221 0 89 90 91 92 0 89 90 91 92 85 86 87 88 -9 0 4564 4565 4566 4565 4566 4565 4567 -226 0 85 86 87 88 89 90 91 92 -9 0 4575 4580 4571 4566 4565 4566 4558 -226 0 89 90 91 92 85 86 87 88 -11 0 4564 4565 4566 4565 4567 -230 0 89 90 91 92 -11 0 4557 4566 4565 4566 4558 -222 0 85 86 87 88 0 85 86 87 88 -4 0 85 86 87 88 -6 0 4575 4577 4580 4577 4578 -222 0 89 90 91 92 0 89 90 91 92 85 86 87 88 89 90 91 92 -5 0 85 86 87 88 0 85 86 87 -223 0 85 86 87 88 -2 0 89 90 91 92 0 85 86 87 88 85 86 87 88 89 90 91 92 0 89 90 91 -223 0 89 90 91 92 -3 0 85 86 87 88 89 90 91 92 89 90 91 92 -4 0 85 86 87 88 -230 0 89 90 91 92 -2 0 85 86 87 88 0 85 86 87 88 0 89 90 91 92 -226 0 85 86 87 88 -6 0 89 90 91 92 0 89 90 91 92 -231 0 89 90 91 92 -2 0 85 86 87 88 -170 0 85 86 87 88 -34 0 85 86 87 88 -34 0 89 90 91 92 -170 0 89 90 91 92 -34 0 89 90 91 92 -393 0 85 86 87 88 -29 0 85 86 87 88 -65 0 85 86 87 88 -144 0 89 90 91 92 -29 0 89 90 91 92 -30 0 85 86 87 88 -31 0 89 90 91 92 -211 0 89 90 91 92 -211 0 85 86 87 88 -32 0 85 86 87 88 -97 0 85 86 87 88 -80 0 85 86 87 88 -25 0 89 90 91 92 -32 0 89 90 91 92 -28 0 85 86 87 88 -65 0 89 90 91 92 -80 0 89 90 91 92 0 85 86 87 88 -16 0 85 86 87 88 -37 0 85 86 87 88 -27 0 89 90 91 92 -62 0 85 86 87 88 -88 0 89 90 91 92 85 86 87 88 -7 0 85 86 87 88 0 89 90 91 92 -37 0 89 90 91 92 -93 0 89 90 91 92 -92 0 89 90 91 92 -7 0 89 90 91 92 -132 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos -1)
+      (width 250)
+      (height 60)
+      (tiles -89 0 -4 295 -34 0 -4 295 -208 0 4553 4569 4555 4556 -3 0 -3 295 -2 0 -3 295 -2 0 -3 295 -2 0 -3 295 -2 0 -3 295 -2 0 -3 295 -3 0 4553 4569 4555 4556 -208 0 4564 4565 4566 4558 295 -2 0 4553 4569 4556 -2 0 4553 4555 4556 -2 0 4553 4569 4556 -2 0 4553 4555 4556 -2 0 4553 4569 4556 -2 0 4553 4555 4556 -2 0 295 4564 4565 4566 4558 -208 0 4557 4566 4565 4581 4556 -2 295 4564 4565 4567 -2 295 4557 4566 4558 -2 295 4564 4565 4567 -2 295 4557 4566 4558 -2 295 4564 4565 4567 -2 295 4557 4566 4558 -2 295 4553 4560 4566 4565 4567 -208 0 4564 4565 4566 4565 4581 4555 4569 4560 4566 4559 4569 4555 4582 4565 4581 4555 4569 4560 4566 4559 4569 4555 4582 4565 4581 4555 4569 4560 4566 4559 4569 4555 4582 4565 4581 4555 4569 4560 4566 4565 4566 4558 -208 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -208 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4577 4580 4571 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4577 4580 4571 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -208 0 4575 4580 4571 4566 4565 4566 4565 4566 4565 4592 4578 -2 0 4575 4571 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4578 -2 0 4575 4571 4566 4565 4566 4565 4566 4565 4592 4577 4578 -210 0 4575 4577 4580 4577 4580 4577 4580 4578 -4 0 4575 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4578 -4 0 4575 4577 4580 4577 4580 4577 4580 4578 -277 0 -4 295 -34 0 -4 295 -75 0 1311 -132 0 4553 4569 4555 4556 -3 0 -3 295 -2 0 -3 295 -2 0 -3 295 -2 0 -3 295 -2 0 -3 295 -2 0 -3 295 -3 0 4553 4569 4555 4556 -208 0 4564 4565 4566 4558 295 -2 0 4553 4569 4556 -2 0 4553 4555 4556 -2 0 4553 4569 4556 -2 0 4553 4555 4556 -2 0 4553 4569 4556 -2 0 4553 4555 4556 -2 0 295 4564 4565 4566 4558 -74 0 -2 1311 -132 0 4557 4566 4565 4581 4556 -2 295 4564 4565 4567 -2 295 4557 4566 4558 -2 295 4564 4565 4567 -2 295 4557 4566 4558 -2 295 4564 4565 4567 -2 295 4557 4566 4558 -2 295 4553 4560 4566 4565 4567 -74 0 -2 1311 -49 0 -3 295 -3 0 -3 295 -74 0 4564 4565 4566 4565 4581 4555 4569 4560 4566 4559 4569 4555 4582 4565 4581 4555 4569 4560 4566 4559 4569 4555 4582 4565 4581 4555 4569 4560 4566 4559 4569 4555 4582 4565 4581 4555 4569 4560 4566 4565 4566 4558 -74 0 1311 -49 0 295 4553 4555 4556 -3 0 4553 4555 4556 295 -73 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -74 0 1311 -49 0 4553 4560 4566 4559 4556 0 4553 4560 4566 4559 4556 -73 0 4564 4565 4566 4565 4592 4577 4580 4571 4566 4565 4566 4565 4566 4565 4592 4577 4580 4571 4566 4565 4566 4565 4566 4565 4592 4577 4580 4571 4566 4565 4566 4565 4566 4565 4592 4577 4580 4571 4566 4565 4566 4558 -73 0 -3 1311 -23 0 -2 1311 2821 -22 0 4557 4566 4565 4566 4558 0 4557 4566 4565 4566 4558 -73 0 4575 4580 4571 4592 4578 -2 0 4575 4571 4566 4565 4566 4565 4592 4578 -2 0 4575 4571 4566 4565 4566 4565 4592 4578 -2 0 4575 4571 4566 4565 4566 4565 4592 4578 -2 0 4575 4571 4592 4577 4578 -73 0 -3 1311 -23 0 -3 1311 2821 -21 0 4575 4571 4566 4565 4581 4555 4582 4565 4566 4570 4578 -75 0 4575 4578 -4 0 4575 4577 4580 4577 4580 4578 -4 0 4575 4577 4580 4577 4580 4578 -4 0 4575 4577 4580 4577 4580 4578 -4 0 4575 4578 -75 0 -2 1311 -22 0 -2 295 -6 1311 -20 0 4564 4565 4566 4565 4566 4565 4566 4565 4567 -189 0 -2 1311 -19 0 -3 295 -8 1311 -20 0 4557 4566 4565 4566 4565 4566 4565 4566 4558 -189 0 -2 1311 -15 0 -4 295 -9 1311 -22 0 4575 4571 4566 4565 4566 4565 4566 4570 4578 -189 0 1311 -4 0 44 -3 0 -8 295 -12 1311 -24 0 4564 4565 4566 4565 4566 4565 4567 -190 0 1311 -3 0 44 0 44 -2 0 -20 1311 -24 0 4557 4566 4565 4566 4565 4566 4558 -190 0 1311 -4 0 44 -3 0 -4 297 -9 1311 -4 297 -3 1311 -24 0 4575 4571 4566 4565 4566 4570 4578 -190 0 -2 1311 -11 0 -9 297 -4 0 -3 1311 -17 0 62 -7 0 4564 4565 4566 4565 4567 -191 0 -2 1311 -24 0 297 -2 1311 -25 0 4575 4593 4565 4592 4578 -191 0 1311 -26 0 -2 1311 -26 0 4557 4566 4558 -192 0 1311 -13 0 44 -12 0 -2 1311 -26 0 4564 4565 4567 -192 0 -2 1311 -11 0 44 0 44 -11 0 -2 1311 -26 0 4575 4577 4578 -192 0 -2 1311 295 -11 0 44 -12 0 -2 1311 -221 0 -3 1311 -6 295 -18 0 -3 1311 -221 0 -8 1311 -6 295 -12 0 -3 1311 -120 0 -2 44 -8 0 -2 44 -89 0 -14 1311 -3 295 -4 0 44 -4 0 -3 1311 -110 0 -2 44 -7 0 44 -2 0 44 -6 0 44 -2 0 44 -7 0 -2 44 -79 0 -2 1311 -3 297 -12 1311 -3 0 44 0 44 -3 0 -3 1311 -109 0 44 -2 0 44 -26 0 44 -2 0 44 -83 0 -12 297 -4 0 44 -4 0 -3 1311 -3 0 62 -244 0 -2 1311 -248 0 -2 1311 -23 0 44 -6 0 44 -203 0 44 -13 0 -2 1311 -20 0 44 -12 0 44 -199 0 44 0 44 -11 0 295 -2 1311 -157 0 62 -11 0 -8 2817 2829 2825 -55 0 44 -12 0 -3 1311 -25 0 44 -2 0 44 -64 0 62 -57 0 62 -26 0 1311 2821 -65 0 -2 295 -2 1311 -88 0 62 -91 0 1311 2821 -58 0 -6 295 -3 1311 -182 0 1311 2821 -51 0 -6 295 -7 1311 297 -184 0 1311 2829 2825 -22 0 4553 4569 4555 4556 -23 0 -7 1311 -6 297 -187 0 1311 -15 2817 -7 0 4564 4565 4566 4558 -23 0 -7 297 -210 0 4553 4569 4556 -3 0 4557 4566 4565 4567 -240 0 4564 4565 4567 -2 0 4553 4582 4565 4566 4558 -145 0 -4 295 -34 0 -4 295 -52 0 4569 4560 4566 4559 4569 4555 4582 4565 4566 4565 4567 -81 0 -3 295 -30 0 -3 295 -28 0 4553 4569 4555 4556 -4 295 -26 0 -4 295 4553 4569 4555 4556 -52 0 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -24 0 44 -56 0 4553 4569 4556 -4 295 -22 0 -4 295 4553 4555 4556 -28 0 4564 4565 4566 4559 4569 4555 4569 4556 -4 295 -18 0 -4 295 4553 4555 4569 4555 4582 4565 4566 4558 -52 0 4566 4565 4566 4565 4566 4565 4566 4565 4566 4570 4578 -23 0 44 0 44 -55 0 4564 4565 4581 4555 4569 4555 4556 -5 295 -12 0 -5 295 4553 4569 4555 4569 4560 4566 4558 -28 0 4575 4593 4565 4566 4565 4566 4565 4581 4555 4569 4555 4556 -4 295 -10 0 -4 295 4553 4569 4555 4569 4560 4566 4565 4566 4565 4566 4570 4578 -52 0 4570 4580 4577 4580 4577 4580 4577 4580 4577 4578 -25 0 44 -56 0 4557 4566 4565 4566 4565 4566 4559 4569 4555 4569 4555 4556 -12 295 4553 4569 4555 4569 4555 4582 4565 4566 4565 4566 4565 4567 -29 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4559 4569 4555 4569 4556 -10 295 4553 4555 4569 4555 4582 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -53 0 4567 -91 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4581 4569 4555 4569 4555 4569 4555 4569 4555 4569 4555 4569 4555 4582 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -29 0 4575 4571 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4581 4555 4569 4555 4569 4555 4569 4555 4569 4555 4569 4560 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4578 -53 0 4558 -91 0 4575 4593 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4570 4578 -30 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -54 0 4567 -92 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -31 0 4575 4593 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4570 4578 -54 0 4558 -92 0 4575 4571 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4578 -32 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -55 0 4581 4555 4569 4555 4569 4555 4569 4555 4569 4555 4569 4555 4569 4556 -80 0 4575 4571 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4578 -33 0 4575 4571 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4578 -55 0 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4570 4578 -81 0 4575 4577 4593 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4570 4580 4578 -35 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -56 0 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4577 4578 -84 0 4575 4580 4577 4580 4571 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4577 4580 4577 4578 -37 0 4575 4593 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4570 4578 -56 0 4565 4566 4565 4566 4565 4566 4565 4566 4565 4592 4578 -90 0 4575 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4577 4580 4578 -42 0 4557 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4567 -57 0 4566 4565 4566 4565 4566 4565 4566 4565 4592 4578 -151 0 4564 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4565 4566 4558 -57 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -149)
+      (width 250)
+      (height 60)
+      (tiles -1850 0 4562 4563 -16 0 4562 4563 -230 0 4573 4574 -16 0 4573 4574 -230 0 4584 4585 -7 0 4562 4563 -7 0 4584 4585 -230 0 4584 4585 -7 0 4573 4574 -7 0 4584 4585 -230 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -230 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -230 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -230 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -230 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -230 0 4584 4585 -4 0 1511 1512 0 4584 4585 0 1511 1512 -4 0 4584 4585 -41 0 4562 4563 -8 0 4562 4563 -8 0 4562 4563 -8 0 4562 4563 -157 0 4584 4585 -4 0 1513 1514 0 4584 4585 0 1513 1514 -4 0 4584 4585 -41 0 4573 4574 -8 0 4573 4574 -8 0 4573 4574 -8 0 4573 4574 -157 0 4584 4585 -4 0 1515 1516 0 4584 4585 0 1515 1516 -4 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -157 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -157 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -157 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -157 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -157 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -157 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -157 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -157 0 4584 4585 -4 0 1511 1512 0 4584 4585 0 1511 1512 -4 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -157 0 4584 4585 -4 0 1513 1514 0 4584 4585 0 1513 1514 -4 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -157 0 4584 4585 -4 0 1515 1516 0 4584 4585 0 1515 1516 -4 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -30 0 130 -126 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -30 0 129 -126 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -30 0 129 -126 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 0 1511 1512 -2 0 1511 1512 0 4584 4585 0 1511 1512 -2 0 1511 1512 0 4584 4585 0 1511 1512 -2 0 1511 1512 0 4584 4585 -30 0 129 -126 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 0 1513 1514 -2 0 1513 1514 0 4584 4585 0 1513 1514 -2 0 1513 1514 0 4584 4585 0 1513 1514 -2 0 1513 1514 0 4584 4585 -30 0 129 -126 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 0 1515 1516 -2 0 1515 1516 0 4584 4585 0 1515 1516 -2 0 1515 1516 0 4584 4585 0 1515 1516 -2 0 1515 1516 0 4584 4585 -30 0 129 -126 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -30 0 129 -126 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -30 0 129 -126 0 4584 4585 -4 0 1511 1512 0 4584 4585 0 1511 1512 -4 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -30 0 129 -126 0 4584 4585 -4 0 1513 1514 0 4584 4585 0 1513 1514 -4 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -28 0 85 86 4967 85 86 87 88 87 88 -120 0 4584 4585 -4 0 1515 1516 0 4584 4585 0 1515 1516 -4 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -28 0 89 90 91 89 90 91 92 91 92 85 86 87 88 -116 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -30 0 85 86 87 88 -3 0 89 90 91 92 -7 0 4214 -2 4215 -106 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -30 0 89 90 91 92 85 86 87 88 85 86 87 88 -6 0 4214 -2 4215 -5 0 85 -100 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -30 0 85 86 87 88 89 90 91 92 89 90 91 92 -6 0 4214 -2 4215 -5 0 89 -100 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -30 0 89 90 91 92 0 85 86 87 88 -5 0 85 86 87 88 4214 -2 4215 -3 0 85 86 87 -100 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -31 0 85 86 87 88 89 90 91 92 -5 0 89 90 91 92 -3 0 85 86 87 88 90 91 -100 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -31 0 89 90 91 92 -9 0 85 86 87 88 -3 0 89 90 91 92 -102 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -8 0 4584 4585 -44 0 89 90 91 92 85 86 87 88 -105 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4595 4596 -8 0 4584 4585 -8 0 4584 4585 -8 0 4595 4596 -48 0 89 90 91 92 85 86 87 88 -101 0 4584 4585 -7 0 4584 4585 -7 0 4584 4585 -41 0 4606 4607 -8 0 4584 4585 -8 0 4584 4585 -8 0 4606 4607 -45 0 85 86 87 88 -3 0 89 90 91 92 85 -100 0 4595 4596 -7 0 4584 4585 -7 0 4595 4596 -51 0 4595 4596 -8 0 4595 4596 -55 0 89 90 91 92 -3 0 85 86 87 88 89 -100 0 4606 4607 -7 0 4595 4596 -7 0 4606 4607 -51 0 4606 4607 -8 0 4606 4607 -62 0 89 90 91 92 -110 0 4606 4607 -61 0 62 -8 0 62 -75 0 4562 4563 -248 0 4573 4574 -248 0 4595 4596 -248 0 4606 4607 -1491 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #f)
+      (z-pos -50)
+      (name "InIce2")
+      (path-ref "gen17143520031135334580064")
+      (width 25)
+      (height 20)
+      (tiles -229 0 4562 4563 -13 0 4562 4563 -8 0 4573 4574 0 1511 1512 -7 0 1511 1512 0 4573 4574 -8 0 4584 4585 0 1513 1514 -7 0 1513 1514 0 4584 4585 -8 0 4584 4585 0 1515 1516 -7 0 1515 1516 0 4584 4585 -8 0 4584 4585 -13 0 4584 4585 -8 0 4595 4596 -13 0 4595 4596 -8 0 4606 4607 -13 0 4606 4607 -104 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #f)
+      (z-pos -100)
+      (name "InIce3")
+      (path-ref "gen17143520031135334580064")
+      (width 25)
+      (height 20)
+      (tiles -110 0 4448 -5 4449 4450 -16 0 4448 4449 4457 -5 4454 4456 4450 -12 0 4448 -2 4449 4457 -8 4454 4456 4449 4450 -10 0 4453 -13 4454 4456 -10 0 4457 -14 4454 -2 0 4450 -7 0 -15 4454 -10 0 -15 4454 -10 0 -15 4454 -10 0 -15 4454 -10 0 4452 -13 4454 4451 -10 0 4457 -13 4454 4456 -10 0 -15 4454 -10 0 -2 4454 4451 -10 4459 4452 4454 -7 0 4458 -4 4459 4460 -10 0 4458 4459 -2 0 4460 -52 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 151)
+      (width 250)
+      (height 60)
+      (tiles -9469 0 85 86 87 88 0 85 86 87 88 -241 0 89 90 91 92 0 89 90 91 92 -17 0 1511 1512 -224 0 85 86 87 88 -2 0 85 86 87 88 -14 0 1513 1514 -224 0 89 90 91 92 -2 0 89 90 91 92 -14 0 1515 1516 -232 0 85 86 87 88 -246 0 89 90 91 92 -3 0 85 86 87 88 -5 0 85 86 87 88 -233 0 85 86 87 88 89 90 91 92 85 86 87 88 0 89 90 91 92 -233 0 89 90 91 92 -4 0 89 90 91 92 -3 0 85 86 87 -243 0 85 86 87 88 89 90 91 -243 0 89 90 91 92 -3253 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 152)
+      (width 250)
+      (height 60)
+      (tiles -9722 0 85 86 87 88 85 86 87 88 -242 0 89 90 91 92 89 90 91 92 -244 0 85 86 87 88 0 85 86 87 88 -241 0 89 90 91 92 0 89 90 91 92 -247 0 85 86 87 88 -7 0 85 86 87 88 -235 0 89 90 91 92 -3 0 85 86 87 88 89 90 91 92 -242 0 89 90 91 92 -246 0 85 86 87 88 -246 0 89 90 91 92 -3259 0)
+    )
+  )
+)

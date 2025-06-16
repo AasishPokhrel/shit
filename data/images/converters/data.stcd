@@ -1,0 +1,17 @@
+(supertux-converter-data
+  (nightly_all_tiles.sttc
+    (title (_ "Nightly Tiles"))
+    (author "SuperTux Team")
+    (description (_ "For levels, created in previous Nightly builds."))
+  )
+  (pre-0.6.3_crystal_tiles.sttc
+    (title (_ "Pre-0.6.3 Crystal Tiles"))
+    (author "tylerandari12")
+    (description (_ "For levels, created in pre-0.6.3 versions, which use crystal tiles."))
+  )
+  (rock_tiles_addon_to_vanilla.sttc
+    (title (_ "Jagged Rock Tiles from Addon"))
+    (author "Eauix")
+    (description (_ "For levels, created with the rock tiles addon, converts their IDs to vanilla rock tile IDs"))
+  )
+)

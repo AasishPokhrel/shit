@@ -1,0 +1,42 @@
+(supertux-sprite
+  (action
+   (name "empty")
+   (surfaces
+    (surface
+     (diffuse-texture (file "empty.png"))
+    (displacement-texture (file "displacement.png")))))
+
+ (action
+  (name "default")
+  (images "../../tiles/blocks/brick3.png"))
+
+ (action
+  (name "piece1")
+  (fps 1)
+  (images "../../tiles/blocks/brick_piece7.png"))
+
+ (action
+  (name "piece2")
+  (fps 1)
+  (images "../../tiles/blocks/brick_piece8.png"))
+
+ (action
+  (name "piece3")
+  (fps 1)
+  (images "../../tiles/blocks/brick_piece9.png"))
+
+ (action
+  (name "piece4")
+  (fps 1)
+  (images "../../tiles/blocks/brick_piece10.png"))
+
+ (action
+  (name "piece5")
+  (fps 1)
+  (images "../../tiles/blocks/brick_piece11.png"))
+
+ (action
+  (name "piece6")
+  (fps 1)
+  (images "../../tiles/blocks/brick_piece12.png"))
+ )

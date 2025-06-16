@@ -1,0 +1,31 @@
+(supertux-sprite
+  (action
+    (name "left")
+	(fps 14)
+    (hitbox 43 43 15 34)
+    (images "c1.png"
+	        "c2.png"
+			"c3.png"
+			"c4.png"
+			"c5.png"
+			"c6.png"
+			"c7.png"
+			"c8.png")
+  )
+  (action
+    (name "right")
+	(fps 14)
+    (hitbox 43 43 15 34)
+    (mirror-action "left")
+  )
+  (action
+    (name "iced-left")
+    (hitbox 27 35 45 43)
+    (images "c-ice.png")
+  )
+  (action
+    (name "iced-right")
+    (hitbox 26 35 45 43)
+    (mirror-action "iced-left")
+  )  
+)

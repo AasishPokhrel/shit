@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Junghee Lee <daemul72@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux v0.6.0-1010-gefc33a183\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2019-11-24 01:44+0100\n"
+"PO-Revision-Date: 2019-11-24 00:59+0000\n"
+"Last-Translator: Junghee Lee <daemul72@gmail.com>, 2022\n"
+"Language-Team: Korean (https://app.transifex.com/arctic-games/teams/95/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/levels/community2016/Ancient_Ruins (RustyBox).stl:3
+msgid "The Ancient Ruins Of The Forest"
+msgstr "숲의 고대 유적"
+
+#: data/levels/community2016/Double_Problems (herobrine).stl:3
+msgid "Double Problems"
+msgstr "두 배의 문제"
+
+#: data/levels/community2016/Double_Problems (herobrine).stl:82
+msgid "-Concentrate! Tux! It's not Mario!"
+msgstr "-집중해! 턱스! 마리오가 아니야!"
+
+#: data/levels/community2016/Double_Problems (herobrine).stl:142
+msgid "You found a secret area!"
+msgstr "비밀공간 구역을 찾았어요!"
+
+#: data/levels/community2016/Entrance_To_Cave (gelada).stl:3
+msgid "The Entrance To The Cave"
+msgstr "동굴로 입장"
+
+#: data/levels/community2016/Entrance_To_Lava_Castle (herobrine).stl:3
+msgid "The Entrance To The Lava Castle"
+msgstr "용암성으로 입장"
+
+#: data/levels/community2016/HMS_Snowballs_Ahoy (Vellidragon).stl:3
+msgid "HMS Snowball Ahoy!"
+msgstr "HMS 눈덩이 어어이!"
+
+#: data/levels/community2016/Into_The_Palace (ThomyW).stl:3
+msgid "Into The Palace"
+msgstr "궁전 속으로"
+
+#: data/levels/community2016/Is_The_Biggest_Fish (cookie monster).stl:3
+msgid "Is The Biggest Fish"
+msgstr "가장 큰 물고기"
+
+#: data/levels/community2016/Problem_With_Green (herobrine).stl:3
+msgid "The Problem With GREEN"
+msgstr "녹색의 문제점"
+
+#: data/levels/community2016/Sunny_Hills (Serano).stl:3
+msgid "Sunny Hills"
+msgstr "화창한 언덕"
+
+#: data/levels/community2016/The_Mountains (gelada).stl:3
+msgid "The Mountains"
+msgstr "산"
+
+#: data/levels/community2016/The_Strange_Thing (herobrine).stl:3
+msgid "The Strange Thing"
+msgstr "이상한 것"
+
+#: data/levels/community2016/Uncontrolled_Lift (gelada).stl:3
+msgid "Uncontrolled Lift"
+msgstr "제어되지 않은 리프트"
+
+#: data/levels/community2016/Up_Or_Down (Serano).stl:3
+msgid "Up, Or Down?"
+msgstr "올라가요? 아니면 내려가요?"
+
+#: data/levels/community2016/Welcome_To_Icy_Island (gelada).stl:3
+msgid "Welcome To The Icy Island"
+msgstr "얼음 섬에 오신 것을 환영합니다"
+
+#: data/levels/community2016/worldmap.stwm:3
+msgid "Community Island 2016"
+msgstr "커뮤니티 아일랜드 2016"

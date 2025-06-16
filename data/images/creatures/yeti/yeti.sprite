@@ -1,0 +1,354 @@
+(supertux-sprite
+ (action
+  (name "walk-left")
+  (fps 15)
+  (hitbox 31 27 72 100)
+  (images
+   "run-0.png"
+   "run-1.png"
+   "run-2.png"
+   "run-3.png"
+   "run-4.png"
+   "run-5.png"
+   "run-6.png"
+   "run-7.png"
+   )
+  )
+ (action
+  (name "walk-right")
+  (mirror-action "walk-left")
+  (fps 15)
+  (hitbox 37 27 72 100)
+  )
+  
+ (action
+  (name "jump-left")
+  (hitbox 31 27 72 100)
+  (fps 12)
+  (loop-frame 4)
+  (images
+   "jump-0.png"
+   "jump-1.png"
+   "jump-2.png"
+   "jump-3.png"
+   "jump-4.png"
+   "jump-5.png")
+  )
+ (action
+  (name "jump-right")
+  (mirror-action "jump-left")
+  (fps 12)
+  (loop-frame 4)
+  (hitbox 37 27 72 100)
+  )
+  
+ (action
+  (name "fall-left")
+  (hitbox 31 27 72 100)
+  (fps 12)
+  (loops 1)
+  (images
+   "jump-3.png"
+   "jump-2.png"
+   "jump-1.png")
+  )
+ (action
+  (name "fall-right")
+  (mirror-action "fall-left")
+  (fps 12)
+  (loops 1)
+  (hitbox 37 27 72 100)
+  )
+  
+ (action
+  (name "stand-left")
+  (fps 10)
+  (hitbox 31 27 72 100)
+  (images "stand-0.png"
+          "stand-1.png"
+		  "stand-2.png"
+		  "stand-3.png"
+		  "stand-4.png"
+		  "stand-5.png"
+		  "stand-6.png"
+		  "stand-7.png")
+ )
+ (action
+  (name "stand-right")
+  (fps 10)
+  (hitbox 37 27 72 100)
+  (mirror-action "stand-left")
+ )
+  
+ (action
+  (name "rage-left")
+  (fps 18)
+  (loops 1)
+  (hitbox 31 27 72 100)
+  (images "idle-0.png"
+          "idle-1.png"
+		  "idle-2.png"
+		  "idle-3.png"
+		  "idle-4.png"
+		  "idle-5.png"
+		  "idle-3.png"
+		  "idle-6.png"
+		  "idle-7.png"
+		  "idle-3.png"
+		  "idle-4.png"
+		  "idle-5.png"
+		  "idle-3.png"
+		  "idle-6.png"
+		  "idle-7.png"
+		  "idle-3.png"
+		  "idle-4.png"
+		  "idle-5.png"
+		  "idle-3.png"
+		  "idle-6.png"
+		  "idle-7.png"
+		  "idle-3.png"
+		  "idle-4.png"
+		  "idle-5.png"
+		  "idle-3.png"
+		  "idle-6.png"
+		  "idle-7.png"
+		  "idle-3.png"
+		  "idle-4.png"
+		  "idle-5.png"
+		  "idle-3.png"
+		  "idle-6.png"
+		  "idle-7.png"
+		  "idle-3.png"
+		  "idle-2.png"
+		  "idle-1.png"
+		  "stand-0.png")
+ )
+ (action
+  (name "rage-right")
+  (fps 18)
+  (loops 1)
+  (hitbox 37 27 72 100)
+  (mirror-action "rage-left")
+ )
+
+ (action
+  (name "taunt-left")
+  (fps 18)
+  (loop-frame 4)
+  (hitbox 31 27 72 100)
+  (images "idle-0.png"
+          "idle-1.png"
+          "idle-2.png"
+          "idle-3.png"
+          "idle-4.png"
+          "idle-5.png"
+          "idle-3.png"
+          "idle-6.png"
+          "idle-7.png")
+ )
+ (action
+  (name "taunt-right")
+  (fps 18)
+  (loop-frame 4)
+  (hitbox 37 27 72 100)
+  (mirror-action "taunt-left")
+ )
+ 
+ (action
+  (name "leap-left")
+  (hitbox 31 27 72 100)
+  (fps 15)
+  (loops 1)
+  (images
+   "leap-0.png"
+   "leap-1.png"
+   "leap-2.png"
+   "leap-3.png"
+   )
+  )
+ (action
+  (name "leap-right")
+  (mirror-action "leap-left")
+  (fps 15)
+  (hitbox 37 27 72 100)
+  )
+  
+ (action
+  (name "stomp-left")
+  (hitbox 31 27 72 100)
+  (fps 15)
+  (loops 1)
+  (images
+   "stomp-0.png"
+   "stomp-1.png"
+   "stomp-2.png"
+   "stomp-3.png"
+   "stomp-4.png"
+   "stomp-5.png"
+   "stomp-6.png"
+   "stomp-7.png"
+   )
+  )
+ (action
+  (name "stomp-right")
+  (mirror-action "stomp-left")
+  (fps 15)
+  (hitbox 37 27 72 100)
+  )
+  
+ (action
+  (name "throw-left")
+  (fps 12)
+  (loops 1)
+  (hitbox 31 27 72 100)
+  (images
+   "throw-0.png"
+   "throw-1.png"
+   "throw-2.png"
+   "throw-3.png"
+   "throw-4.png"
+   "throw-5.png"
+   "throw-6.png"
+   "throw-7.png"
+   "throw-8.png"
+   "throw-9.png"
+   "stand-0.png"
+   )
+  )
+ (action
+  (name "throw-right")
+  (mirror-action "throw-left")
+  (fps 12)
+  (loops 1)
+  (hitbox 37 27 72 100)
+ )
+
+(action
+  (name "big-throw-left")
+  (fps 20)
+  (loops 1)
+  (hitbox 31 27 72 100)
+  (images
+   "stomp-7.png"
+   "stomp-6.png"
+   "stomp-5.png"
+   "stomp-4.png"
+   "stomp-3.png"
+   "stomp-2.png"
+   "stomp-4.png"
+   "stomp-3.png"
+   "stomp-2.png"
+   "stomp-3.png"
+   "stomp-2.png"
+   "stomp-2.png"
+   "stomp-2.png"
+   "stomp-2.png"
+   "stomp-6.png"
+   "idle-3.png"
+   "leap-3.png"
+   "leap-4.png"
+   "leap-4.png"
+   "leap-3.png"
+   "leap-2.png"
+   "leap-1.png"
+   "leap-0.png"
+   "stand-0.png"
+   )
+ )
+ (action
+  (name "big-throw-right")
+  (mirror-action "big-throw-left")
+  (fps 20)
+  (loops 1)
+  (hitbox 37 27 72 100)
+ )
+  
+ (action
+  (name "dizzy-left")
+  (fps 15)
+  (hitbox 31 27 72 100)
+  (loop-frame 3)
+  (images
+   "jump-0.png"
+   "stomp-7.png"
+   "stunned-0.png"
+   "stunned-1.png"
+   "stunned-2.png"
+   "stunned-3.png"
+   "stunned-4.png"
+   "stunned-5.png"
+   "stunned-6.png"
+   "stunned-7.png"
+   )
+  )
+ (action
+  (name "dizzy-right")
+  (fps 15)
+  (mirror-action "dizzy-left")
+  (hitbox 37 27 72 100)
+  (loop-frame 3)
+  )
+  
+ (action
+  (name "busted-left")
+  (fps 15)
+  (hitbox 31 27 72 100)
+  (images
+   "stunned-8.png"
+   "stunned-9.png"
+   "stunned-10.png"
+   "stunned-11.png"
+   )
+  )
+ (action
+  (name "busted-right")
+  (fps 15)
+  (mirror-action "busted-left")
+  (hitbox 37 27 72 100)
+  )
+  
+ (action
+  (name "grab-left")
+  (fps 12)
+  (loops 1)
+  (hitbox 31 27 72 100)
+  (images
+   "throw-7.png"
+   "throw-8.png"
+   "throw-9.png"
+   "stand-0.png"
+   "idle-1.png"
+   "idle-2.png"
+   )
+  )
+ (action
+  (name "grab-right")
+  (mirror-action "grab-left")
+  (fps 12)
+  (loops 1)
+  (hitbox 37 27 72 100)
+  )
+ (action
+  (name "push-left")
+  (fps 12)
+  (loops 1)
+  (hitbox 31 27 72 100)
+  (images
+   "throw-10.png"
+   "throw-11.png"
+   "throw-5.png"
+   "throw-6.png"
+   "throw-7.png"
+   "throw-8.png"
+   "throw-9.png"
+   "stand-0.png"
+   )
+  )
+ (action
+  (name "push-right")
+  (mirror-action "push-left")
+  (fps 12)
+  (loops 1)
+  (hitbox 37 27 72 100)
+  )
+ )

@@ -1,0 +1,5 @@
+(supertux-music
+  (file "clavelian_march.ogg")
+  (loop-begin 0.5)
+  (loop-at    -1)
+)

@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Myeongjin <aranet100@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2015-10-19 18:02+0000\n"
+"Last-Translator: Myeongjin <aranet100@gmail.com>, 2016\n"
+"Language-Team: Korean (http://app.transifex.com/arctic-games/supertux/language/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/levels/halloween2014/halloween1.stl:3
+msgid "Darkness Prevails"
+msgstr "어두움의 통용"
+
+#: data/levels/halloween2014/halloween2.stl:3
+msgid "The Fog is Clearing Up"
+msgstr "안개가 걷히다"
+
+#: data/levels/halloween2014/halloween3.stl:3
+msgid "Graveyard Shift"
+msgstr "묘지 움직임"
+
+#: data/levels/halloween2014/intro.stl:3
+msgid "The Abandoned House"
+msgstr "버려진 집"
+
+#: data/levels/halloween2014/mound.stl:3
+msgid "Mound of the Dead"
+msgstr "죽음의 고분"
+
+#: data/levels/halloween2014/outro.stl:3
+msgid "Halloween Party?"
+msgstr "할로윈 파티?"
+
+#: data/levels/halloween2014/pools.stl:3
+msgid "Putrid Pools"
+msgstr "부패한 웅덩이"
+
+#: data/levels/halloween2014/worldmap.stwm:3
+msgid "Halloween 2014"
+msgstr "2014년 할로윈"

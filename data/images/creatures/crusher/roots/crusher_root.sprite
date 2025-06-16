@@ -1,0 +1,32 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 6 32 20 60)
+    (images "root-empty.png")
+  )
+  (action
+    (name "downwards")
+    (fps 16)
+    (hitbox 6 32 20 60)
+    (images
+      "root-0.png"
+      "root-1.png"
+      "root-2.png"
+      "root-3.png"
+      "root-4.png"
+      "root-5.png"
+      "root-5.png"
+      "root-4.png"
+      "root-3.png"
+      "root-2.png"
+      "root-1.png"
+      "root-0.png"
+    )
+    (loops 1)
+  )
+  (action
+    (name "upwards")
+    (hitbox 6 4 20 60)
+    (flip-action "downwards")
+  )
+)

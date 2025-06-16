@@ -1,0 +1,30 @@
+(supertux-text			
+  (background	"christmas/outro.jpg")
+  (music	"music/misc/christmas_theme.ogg")
+  (text "-Ready for Christmas!
+
+	After a long search, Tux was still able
+	to bring a beautiful Christmas tree in time.
+	They've quickly decorated their tree
+	and put on their christmas hats.
+
+	Now there is everything settled
+	for an amazing christmas day.
+
+	Merry Christmas!
+
+
+
+
+
+
+
+
+
+
+
+
+-The End
+ For now...
+")
+ )

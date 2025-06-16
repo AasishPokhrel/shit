@@ -1,0 +1,28 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (hitbox 0 0 0 0)
+(fps 1)
+  (images "sleep-1.png"
+"sleep-1.png"
+"sleep-1.png"
+"sleep-1.png"
+"sleep-1.png"
+"sleep-1.png"
+"sleep-2.png"
+)
+ )
+ (action
+  (name "ringing")
+(hitbox 0 32 0 0)
+(fps 7)
+  (images
+"firefly2.png"
+"firefly3.png"
+"firefly4.png"
+"firefly5.png"
+"firefly6.png"
+
+  )
+ )              
+)

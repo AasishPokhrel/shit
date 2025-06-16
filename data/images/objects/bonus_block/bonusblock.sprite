@@ -1,0 +1,32 @@
+(supertux-sprite
+      (action
+         (fps 15)
+         (name "default")
+         (images "full-0.png"
+                 "full-1.png"
+                 "full-2.png"
+                 "full-3.png"
+                 "full-4.png"
+                 "full-2.png"
+                 "full-1.png"
+                 "full-0.png"
+                 "full-0.png"
+                 "full-0.png"
+                 ))
+      (action
+         (name "empty")
+         (surfaces
+          (surface
+           (diffuse-texture (file "empty.png"))
+           (displacement-texture (file "displacement.png")))))
+      (action
+         (fps 12)
+		 (name "on")
+         (images "lightblock-0.png"
+				 "lightblock-1.png"
+				 "lightblock-2.png"
+				 "lightblock-3.png"))
+      (action
+		 (name "off")
+         (images "lightblock_off.png"))
+)

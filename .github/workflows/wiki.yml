@@ -1,0 +1,45 @@
+#  SuperTux
+#  Copyright (C) 2021 Mathnerd314
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either version 3
+#  of the License, or (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+
+name: wiki
+on:
+  gollum
+
+jobs:
+  update-wiki-repo:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout the .wiki repo
+        uses: actions/checkout@v4
+        with:
+          repository: 'SuperTux/supertux.wiki'
+          fetch-depth: 100
+
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.wiki_repo_key }}
+          known_hosts: ${{ secrets.wiki_repo_hosts }}
+
+      - name: Update the wiki
+        run: |
+          git --version
+          git config --global user.email "supertux-bot"
+          git config --global user.name "SuperTux Bot"
+          git pull --rebase git@github.com:SuperTux/wiki.git master
+          git push git@github.com:SuperTux/wiki.git HEAD:master
+          git push -f git@github.com:SuperTux/supertux.wiki.git HEAD:master

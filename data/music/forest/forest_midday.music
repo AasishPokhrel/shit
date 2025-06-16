@@ -1,0 +1,5 @@
+(supertux-music
+  (file "forest_midday.ogg")
+  (loop-begin 8.067)
+  (loop-at  112.941)
+)

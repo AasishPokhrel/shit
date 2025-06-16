@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# IAN RODRÍGUEZ Lorenzo, 2022
+# I will not tell you that <leftermos@yahoo.gr>, 2015
+# Vangelis Nomikos <nvangelis@gmail.com>, 2013-2014
+# Vangelis Skarmoutsos (SkarmoutsosV) <skarmoutsosv@gmail.com>, 2016,2019
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2013-08-10 22:58+0000\n"
+"Last-Translator: IAN RODRÍGUEZ Lorenzo, 2022\n"
+"Language-Team: Greek (http://app.transifex.com/arctic-games/supertux/language/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/levels/world1/23rd_airborne.stl:3
+msgid "23rd Airborne"
+msgstr "23η  Airborne"
+
+#: data/levels/world1/23rd_airborne.stl:598
+#: data/levels/world1/between_glaciers.stl:855
+#: data/levels/world1/between_glaciers.stl:863
+#: data/levels/world1/crystal_mine.stl:1535
+#: data/levels/world1/crystal_mine.stl:1543
+#: data/levels/world1/frosted_fields.stl:188
+#: data/levels/world1/path_in_the_clouds.stl:348
+#: data/levels/world1/path_in_the_clouds.stl:1126
+#: data/levels/world1/shattered_bridge.stl:628
+#: data/levels/world1/stone_cold.stl:397 data/levels/world1/worldmap.stwm:229
+msgid "You found a secret area!"
+msgstr "Βρήκες μια μυστική περιοχή!"
+
+#: data/levels/world1/above_arctic_skies.stl:3
+msgid "Above the Arctic Skies"
+msgstr "Πάνω από τους Αρκτικούς Ουρανούς"
+
+#: data/levels/world1/above_arctic_skies.stl:162
+msgid ""
+"-Air Flower\n"
+"!images/powerups/airflower/air_flower-0.png\n"
+"#The Air Flower gives Tux the ability to glide in the air for a few seconds, while holding the JUMP Key."
+msgstr "- Λουλούδι αέρα\n!images/powerups/airflower/air_flower-0.png\nΤο #The Air Flower δίνει στον Tux τη δυνατότητα να γλιστράει στον αέρα για λίγα δευτερόλεπτα, κρατώντας το κλειδί JUMP."
+
+#: data/levels/world1/between_glaciers.stl:3
+msgid "Between Two Glaciers"
+msgstr "Ανάμεσα σε δύο παγετώνες"
+
+#: data/levels/world1/between_glaciers.stl:108
+msgid ""
+"-Crystals\n"
+"#This level contains four coloured crystals. Can you find them?\n"
+"#\n"
+"#Note: These crystals do not serve any purpose at the moment but they might will in a future release of the game."
+msgstr "- Κρύσταλλοι\n#Αυτό το επίπεδο περιέχει τέσσερις έγχρωμους κρυστάλλους. Μπορείτε να τα βρείτε;\n#\n#Σημείωση: Αυτοί οι κρύσταλλοι δεν εξυπηρετούν κανένα σκοπό αυτή τη στιγμή, αλλά μπορεί να το κάνουν σε μελλοντική κυκλοφορία του παιχνιδιού."
+
+#: data/levels/world1/castle_of_nolok.stl:3
+msgid "The Castle of Nolok"
+msgstr "Το Κάστρο του Nolok"
+
+#: data/levels/world1/crystal_mine.stl:3
+msgid "The Crystal Mine"
+msgstr "Το Κρυσταλλωρυχείο"
+
+#: data/levels/world1/crystal_mine.stl:686
+msgid "#You have to activate two switches to open this door."
+msgstr "#Πρέπει να ενεργοποιήσετε δύο διακόπτες για να ανοίξετε αυτήν την πόρτα."
+
+#: data/levels/world1/end_of_tunnel.stl:3
+msgid "End of the Tunnel"
+msgstr "Τέλος του Τούνελ"
+
+#: data/levels/world1/entrance_cave.stl:3
+msgid "Entrance to the Cave"
+msgstr "Είσοδος στο Σπήλαιο"
+
+#: data/levels/world1/fork_in_the_road.stl:3
+msgid "A Fork in the Road"
+msgstr "Ένα Πιρούνι στο Δρόμο"
+
+#: data/levels/world1/fork_in_the_road.stl:84
+msgid ""
+"-Switches\n"
+"!images/objects/switch/switch-0.png\n"
+"!images/objects/pushbutton/pushbutton-0.png\n"
+"#Switches can be used to do all manner of things. Press the UP key to use a switch.\n"
+"#There are also buttons that you can press by jumping on them."
+msgstr "-Διακόπτες\n!images/objects/switch/switch-0.png\n!images/objects/pushbutton/pushbutton-0.png\nΟι #διακόπτες μπορούν να χρησιμοποιηθούν για κάθε είδους πράγματα. Πατήστε το πλήκτρο UP για να χρησιμοποιήσετε έναν διακόπτη.\n#Υπάρχουν επίσης κουμπιά που μπορείτε να πατήσετε πηδώντας πάνω τους."
+
+#: data/levels/world1/fork_in_the_road.stl:93
+msgid ""
+"-Trampolines\n"
+"!images/objects/trampoline/trampoline2-0.png\n"
+"#Trampolines allow Tux to jump to new heights. Hold down the JUMP key while bouncing on the trampoline to launch extra high."
+msgstr "-Τραμπολίνα\n!images/objects/trampoline/trampoline2-0.png\n#Τραμπολίνα επιτρέπουν στον Tux να πηδήξει σε νέα ύψη. Κρατήστε πατημένο το πλήκτρο JUMP ενώ αναπηδάτε στο τραμπολίνο για να εκτοξευτείτε πολύ ψηλά."
+
+#: data/levels/world1/fork_in_the_road.stl:100
+msgid ""
+"-Climbing\n"
+"#Tux can climb! Press the UP key to start climbing. Press the ACTION key or jump to let go."
+msgstr "-Ορειβασία\nΤο #Tux μπορεί να σκαρφαλώσει! Πατήστε το πλήκτρο UP για να ξεκινήσετε την αναρρίχηση. Πατήστε το πλήκτρο ACTION ή πηδήξτε για να το αφήσετε."
+
+#: data/levels/world1/fork_in_the_road.stl:106
+msgid ""
+"-Secret Exits\n"
+"#Some level can have multiple exits. They are mostly hidden, so keep an eye out for them.\n"
+"#Maybe they lead you to something special."
+msgstr "-Μυστικές έξοδοι\n#Κάποιο επίπεδο μπορεί να έχει πολλαπλές εξόδους. Είναι ως επί το πλείστον κρυφά, οπότε προσέξτε τα.\n#Ίσως σε οδηγήσουν σε κάτι ιδιαίτερο."
+
+#: data/levels/world1/frosted_fields.stl:3
+msgid "The Frosted Fields"
+msgstr "Τα Παγωμένα Πεδία"
+
+#: data/levels/world1/frozen_bridge.stl:3
+msgid "Over the Frozen Bridge"
+msgstr "Πάνω από την Παγωμένη Γέφυρα"
+
+#: data/levels/world1/ice_in_the_hole.stl:3
+msgid "Ice in the Hole"
+msgstr "Πάγος στην Τρύπα"
+
+#: data/levels/world1/icy_valley.stl:3
+msgid "Icy Valley"
+msgstr "Παγωμένη κοιλάδα"
+
+#: data/levels/world1/into_stars.stl:3
+msgid "Into the Stars"
+msgstr "Στα Αστέρια"
+
+#: data/levels/world1/intro.stl:3
+msgid "Picnic With Penny"
+msgstr "Πικνικ με την Penny"
+
+#: data/levels/world1/journey_begins.stl:3
+msgid "The Journey Begins"
+msgstr "Το Ταξίδι Ξεκινάει"
+
+#: data/levels/world1/living_inside_fridge.stl:3
+msgid "Living in a Fridge"
+msgstr "Ζώντας σε ένα Ψυγείο"
+
+#: data/levels/world1/miyamoto_monument.stl:3
+msgid "Miyamoto Monument"
+msgstr "Το Μνημείο του Miyamoto"
+
+#: data/levels/world1/more_snowballs.stl:3
+msgid "Oh No! More Snowballs!"
+msgstr "Ωχ όχι! Περισσότερες χιονόμπαλες!"
+
+#: data/levels/world1/night_chill.stl:3
+msgid "Night Chill"
+msgstr "Νυχτερινή Ψύχρα"
+
+#: data/levels/world1/or_just_me.stl:3
+msgid "...Or Is It Just Me?"
+msgstr "...Ή μήπως είναι μόνο εγώ;"
+
+#: data/levels/world1/path_in_the_clouds.stl:3
+msgid "A Path in the Clouds"
+msgstr "Ένα Μονοπάτι στα Σύννεφα"
+
+#: data/levels/world1/scripts_castle_cutscene.txt:2
+msgid "Tux had reached the end of the castle."
+msgstr "Ο Τοξ είχε φτάσει στο τέλος του κάστρου."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:3
+msgid "But to his surprise all he could find was a letter."
+msgstr "Αλλά προς έκπληξή του το μόνο που βρήκε ήταν ένα γράμμα."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:4
+msgid ""
+"A letter from Penny telling Tux that Nolok has taken her to a far forest."
+msgstr "Ένα γράμμα από την Penny που λέει στον Tux ότι ο Nolok την πήγε σε ένα μακρινό δάσος."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:5
+msgid ""
+"Unsure about what Nolok was doing to her, Tux became worried about his "
+"beloved Penny."
+msgstr "Αβέβαιος για το τι της έκανε ο Νόλοκ, ο Τοξ ανησυχούσε για την αγαπημένη του Πένυ."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:6
+msgid "Until suddenly..."
+msgstr "Μέχρι που ξαφνικά..."
+
+#: data/levels/world1/scripts_intro.txt:2
+msgid "Somewhere at the shores of Antarctica..."
+msgstr "Κάπου στις ακτές της Ανταρκτικής..."
+
+#: data/levels/world1/scripts_intro.txt:3
+msgid "Tux the penguin was going to meet his friend, Penny, for a picnic."
+msgstr "Ο πιγκουίνος Tux επρόκειτο να συναντήσει τον φίλο του, την Penny, για ένα πικνίκ."
+
+#: data/levels/world1/scripts_intro.txt:4
+msgid "Tux woke up, dizzy, to find that Penny was missing!"
+msgstr "Ο Τοξ ξύπνησε ζαλισμένος για να διαπιστώσει ότι η Πένυ έλειπε!"
+
+#: data/levels/world1/scripts_intro.txt:5
+msgid "Tux was starting to become worried. He then saw a letter, and it read:"
+msgstr "Ο Τοξ είχε αρχίσει να ανησυχεί. Τότε είδε ένα γράμμα και έγραφε:"
+
+#: data/levels/world1/scripts_intro.txt:6
+msgid ""
+"\"Tux, I have kidnapped your beloved Penny and have taken her to my "
+"fortress.\""
+msgstr "«Ταξ, απήγαγα την αγαπημένη σου Πένυ και την πήγα στο φρούριο μου»."
+
+#: data/levels/world1/scripts_intro.txt:7
+msgid "\"The path to my fortress is littered with my minions.\""
+msgstr "«Το μονοπάτι για το φρούριο μου είναι γεμάτο με τα τσιράκια μου»."
+
+#: data/levels/world1/scripts_intro.txt:8
+msgid "\"You don't have a chance of saving her! Signed, Nolok.\""
+msgstr "\"Δεν έχεις την ευκαιρία να τη σώσεις! Υπέγραψε, Νόλοκ.\""
+
+#: data/levels/world1/scripts_intro.txt:9
+msgid ""
+"Realizing the trouble Penny could be in, Tux became determined to save her."
+msgstr "Συνειδητοποιώντας το πρόβλημα που θα μπορούσε να αντιμετωπίσει η Πένυ, ο Τοξ έγινε αποφασισμένος να τη σώσει."
+
+#: data/levels/world1/scripts_intro.txt:10
+msgid ""
+"Then, Tux saw Nolok's castle in the distance and set off to rescue Penny!"
+msgstr "Τότε, ο Tux είδε το κάστρο του Nolok σε απόσταση και ξεκίνησε για να σώσει την Penny!"
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:2
+msgid "Exhausted from his long walk, Tux decided to take a little break."
+msgstr "Εξαντλημένος από τη μεγάλη του βόλτα, ο Τοξ αποφάσισε να κάνει ένα μικρό διάλειμμα."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:3
+msgid "But then, all of a sudden he heard a loud roar from a distance."
+msgstr "Αλλά τότε, ξαφνικά άκουσε ένα δυνατό βρυχηθμό από μακριά."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:4
+msgid "A yeti seems to have observed him from afar."
+msgstr "Ένα Yeti φαίνεται να τον παρατήρησε από μακριά."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:5
+msgid ""
+"Concerned by the yeti's sudden retreat, Tux decided to continue his journey,"
+" ..."
+msgstr "Ανησυχώντας για την ξαφνική υποχώρηση του Yeti, ο Tux αποφάσισε να συνεχίσει το ταξίδι του, ..."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:6
+msgid "...while secretly hoping not to run into the yeti again, by any means."
+msgstr "...ενώ κρυφά ελπίζει να μην ξαναπέσει στο yeti, με κανένα τρόπο."
+
+#: data/levels/world1/shattered_bridge.stl:3
+msgid "The Shattered Bridge"
+msgstr "H Γκρεμισμένη Γέφυρα"
+
+#: data/levels/world1/somewhat_smaller_bath.stl:3
+msgid "The Somewhat Smaller Bath"
+msgstr "Το Κάπως Μικρότερο Λουτρό"
+
+#: data/levels/world1/stone_cold.stl:3
+msgid "Stone Cold"
+msgstr "Πέτρινο Ψύχος"
+
+#: data/levels/world1/under_the_ice.stl:3
+msgid "Under the Ice"
+msgstr "Κάτω από τον Πάγο"
+
+#: data/levels/world1/via_nostalgica.stl:3
+msgid "Via Nostalgica"
+msgstr "Via Nostalgica"
+
+#: data/levels/world1/welcome_antarctica.stl:3
+msgid "Welcome to Antarctica"
+msgstr "Καλώς ήρθες στην Ανταρκτική"
+
+#: data/levels/world1/welcome_antarctica.stl:74
+msgid ""
+"-Bonus Blocks\n"
+"!images/objects/bonus_block/full-0.png\n"
+"#Bonus blocks can contain coins, power-ups or special items to help you in your quest.\n"
+"#\n"
+"#Hit them from below to get at their contents."
+msgstr "-Κουτάκια δώρων\n!images/objects/bonus_block/full-0.png\n#Τα κουτάκια δώρων μπορεί να περιέχουν νομίσματα, ενισχυτικά ή ειδικά αντικείμενα για να σας βοηθήσουν στην αναζήτηση.\n#\n#Χτυπήστε τα από κάτω για να δείτε τα περιεχόμενα τους."
+
+#: data/levels/world1/welcome_antarctica.stl:83
+msgid ""
+"-Eggs\n"
+"!images/powerups/egg/egg-shade.png\n"
+"#The egg makes Tux grow larger. Tux can then smash wooden blocks with his head."
+msgstr "-Αυγά\n!images/powerups/egg/egg-shade.png\n#Το αυγό κάνει το Tux να μεγαλώνει. Στη συνέχεια, ο Tux μπορεί να σπάσει ξύλινα μπλοκ με το κεφάλι του."
+
+#: data/levels/world1/welcome_antarctica.stl:90
+msgid ""
+"-Checkpoints\n"
+"!images/objects/resetpoints/bell-m.png\n"
+"#Activate the checkpoint. If you die, you can retry the level from here. Every time you retry from a checkpoint, you will lose 10 percent of your coins (at least 25 coins)."
+msgstr "-Σημεία ελέγχου\n!images/objects/resetpoints/bell-m.png\n#Ενεργοποιήστε το σημείο ελέγχου. Αν χάσετε, μπορείτε να συνεχίσετε το επίπεδο από εκεί. Κάθε φορά που ξανασυνεχίσετε από ένα σημείο ελέγχου, θα χάνετε το 10 τοις εκατό από τα νομίσματά σας (τουλάχιστον 25 νομίσματα)."
+
+#: data/levels/world1/welcome_antarctica.stl:97
+msgid ""
+"-Running\n"
+"!images/tiles/signs/run.png\n"
+"#The path in front of you is blocked. Gain some speed before jumping to pass over the blocks."
+msgstr "-Τρέξιμο\n!images/tiles/signs/run.png\n#Το μονοπάτι μπροστά σας έχει εμπόδιο. Πάρτε κάποια φόρα πριν πηδήσετε για να ξεπεράσετε το εμπόδιο."
+
+#: data/levels/world1/welcome_antarctica.stl:104
+msgid ""
+"-Fire Flower\n"
+"!images/powerups/fireflower/fire_flower-0.png\n"
+"#The fire flower gives Tux the ability to shoot fireballs."
+msgstr "-Λουλούδι φωτιάς\n!images/powerups/fireflower/fire_flower-0.png\n#Το λουλούδι φωτιάς δίνει στον Tux την δυνατότητα να πυροβολάει πύρινες μπάλες."
+
+#: data/levels/world1/welcome_antarctica.stl:111
+msgid ""
+"-Tux Doll\n"
+"!images/powerups/1up/1up.png\n"
+"#The Tux doll gives Tux 100 coins."
+msgstr "-Κούκλα Tux\n!images/powerups/1up/1up.png\n#Η κούκλα Tux σας δίνει 100 νομίσματα."
+
+#: data/levels/world1/welcome_antarctica.stl:118
+msgid ""
+"-Secret Areas\n"
+"#Many levels contain secret areas behind what seems to be plain walls. Look for clues to find them."
+msgstr "-Μυστικές περιοχές\n#Πολά επίπεδα περιέχουν μυστικές περιοχές πίσω από αυτό που φαίνεται να είναι απλός τοίχος. Ψάξτε για ενδείξεις ώστε για να τις βρείτε."
+
+#: data/levels/world1/worldmap.stwm:3
+msgid "Icy Island"
+msgstr "Παγωμένο νησί"
+
+#: data/levels/world1/yeti_boss.stl:3
+msgid "No More Mr. Ice Guy"
+msgstr "Όχι άλλο κύριος Ice Guy"
+
+#: data/levels/world1/yeti_cutscene.stl:3
+msgid "A Yeti in the Distance"
+msgstr "Ένα Yeti στην Απόσταση"

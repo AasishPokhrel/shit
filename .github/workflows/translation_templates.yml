@@ -1,0 +1,52 @@
+#  SuperTux
+#  Copyright (C) 2024 Tobias Markus
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either version 3
+#  of the License, or (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+
+name: translation_templates
+on:
+  workflow_dispatch:
+
+jobs:
+  update-all-templates:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout SuperTux repository
+        uses: actions/checkout@v4
+        with:
+          repository: 'SuperTux/supertux'
+          fetch-depth: 0
+
+      - name: Update translation templates
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Update packages
+          sudo apt-get update
+          sudo apt-get install -y gettext
+
+          # Checkout master to make git describe work
+          git checkout master
+          
+          # Update translation templates:
+          chmod +x makepot.sh
+          sh ./makepot.sh
+
+          # Commit
+          git status
+          git config --global user.email "SuperTux-bot@users.noreply.github.com"
+          git config --global user.name "SuperTux Bot"
+          git commit -am "Update translation templates" || true
+          git push https://git:$GITHUB_TOKEN@github.com/SuperTux/supertux.git master

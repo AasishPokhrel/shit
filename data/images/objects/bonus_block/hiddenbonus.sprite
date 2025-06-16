@@ -1,0 +1,11 @@
+(supertux-sprite
+      (action
+         (name "empty")
+         (surfaces
+          (surface
+           (diffuse-texture (file "empty.png"))
+           (displacement-texture (file "displacement.png")))))
+      (action 
+        (name "default")
+        (images "invisible.png"))
+)

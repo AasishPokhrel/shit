@@ -1,0 +1,24 @@
+[submodule "external/tinygettext"]
+	path = external/tinygettext
+	url = https://github.com/SuperTux/tinygettext.git
+[submodule "external/sexp-cpp"]
+	path = external/sexp-cpp
+	url = https://github.com/SuperTux/sexp-cpp.git
+[submodule "external/physfs"]
+	path = external/physfs
+	url = https://github.com/icculus/physfs.git
+[submodule "external/SDL_ttf"]
+	path = external/SDL_ttf
+	url = https://github.com/SuperTux/SDL_ttf
+[submodule "discord-sdk"]
+	path = external/discord-sdk
+	url = https://github.com/SuperTux/discord-rpc
+[submodule "external/fmt"]
+	path = external/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "external/glm"]
+	path = external/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "external/simplesquirrel"]
+	path = external/simplesquirrel
+	url = https://github.com/SuperTux/simplesquirrel

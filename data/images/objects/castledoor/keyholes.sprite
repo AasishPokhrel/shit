@@ -1,0 +1,6 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (hitbox 0 0 0 0)
+  (images "keyholes.png"))
+)

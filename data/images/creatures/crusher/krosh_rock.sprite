@@ -1,0 +1,35 @@
+(supertux-sprite
+ (action
+  (name "idle")
+  (hitbox 4 4 128 128)
+  (images "krosh_rock_main.png"
+  )
+ )
+ (action
+  (name "crushing")
+  (hitbox 4 4 128 128)
+  (images "krosh_rock_hit.png"
+  )
+ )
+ (action
+  (name "recovering")
+  (hitbox 4 4 128 128)
+  (images "krosh_rock_main.png"
+  )
+ )
+ (action
+  (name "whites")
+  (hitbox 4 4 128 128)
+  (images "krosh_rock_whites.png")
+ )
+ (action
+  (name "lefteye")
+  (hitbox 4 4 128 128)
+  (images "krosh_rock_lefteye.png")
+ )
+ (action
+  (name "righteye")
+  (hitbox 4 4 128 128)
+  (images "krosh_rock_righteye.png")
+ )
+)

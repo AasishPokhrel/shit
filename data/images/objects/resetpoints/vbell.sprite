@@ -1,0 +1,21 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (x-offset 0)
+  (y-offset 0)
+  (images "vbell-m.png")
+ )
+ (action
+  (name "ringing")
+  (images
+   "vbell-l_0.png"
+   "vbell-l.png"
+   "vbell-l_0.png"
+   "vbell-m.png"
+   "vbell-r_0.png"
+   "vbell-r.png"
+   "vbell-r_0.png"
+   "vbell-m.png"
+  )
+ )              
+)

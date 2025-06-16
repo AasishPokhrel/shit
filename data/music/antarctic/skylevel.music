@@ -1,0 +1,5 @@
+(supertux-music
+  (file "skylevel.ogg")
+  (loop-begin 11.639)
+  (loop-at 81.445)
+)

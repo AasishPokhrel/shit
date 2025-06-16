@@ -1,0 +1,339 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Ariadna Pascual <ariadnapascual7@gmail.com>, 2016
+# Catalanoic <catalanoic@gmail.com>, 2016
+# IAN RODRÍGUEZ Lorenzo, 2022
+# 76352799d6904fac47e3a0fa3ed5fd59_334826e <af5856938576e19ac7f099472ce1a9b6_234157>, 2014-2015
+# Yael Codesal, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2013-08-10 22:58+0000\n"
+"Last-Translator: IAN RODRÍGUEZ Lorenzo, 2022\n"
+"Language-Team: Catalan (http://app.transifex.com/arctic-games/supertux/language/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/levels/world1/23rd_airborne.stl:3
+msgid "23rd Airborne"
+msgstr "23a divisió aeroespacial"
+
+#: data/levels/world1/23rd_airborne.stl:598
+#: data/levels/world1/between_glaciers.stl:855
+#: data/levels/world1/between_glaciers.stl:863
+#: data/levels/world1/crystal_mine.stl:1535
+#: data/levels/world1/crystal_mine.stl:1543
+#: data/levels/world1/frosted_fields.stl:188
+#: data/levels/world1/path_in_the_clouds.stl:348
+#: data/levels/world1/path_in_the_clouds.stl:1126
+#: data/levels/world1/shattered_bridge.stl:628
+#: data/levels/world1/stone_cold.stl:397 data/levels/world1/worldmap.stwm:229
+msgid "You found a secret area!"
+msgstr "Has trobat una àrea secreta!"
+
+#: data/levels/world1/above_arctic_skies.stl:3
+msgid "Above the Arctic Skies"
+msgstr "Sobre els cels àrtics"
+
+#: data/levels/world1/above_arctic_skies.stl:162
+msgid ""
+"-Air Flower\n"
+"!images/powerups/airflower/air_flower-0.png\n"
+"#The Air Flower gives Tux the ability to glide in the air for a few seconds, while holding the JUMP Key."
+msgstr "- Flor d'aire\n!images/powerups/airflower/air_flower-0.png\n#The Air Flower li dóna a Tux la capacitat de lliscar per l'aire durant uns segons, mentre manté la tecla JUMP."
+
+#: data/levels/world1/between_glaciers.stl:3
+msgid "Between Two Glaciers"
+msgstr "Entre dues glaceres"
+
+#: data/levels/world1/between_glaciers.stl:108
+msgid ""
+"-Crystals\n"
+"#This level contains four coloured crystals. Can you find them?\n"
+"#\n"
+"#Note: These crystals do not serve any purpose at the moment but they might will in a future release of the game."
+msgstr "- Cristalls\n#Aquest nivell conté quatre cristalls de colors. Els pots trobar?\n#\n#Nota: aquests cristalls no tenen cap propòsit en aquest moment, però sí que ho faran en un futur llançament del joc."
+
+#: data/levels/world1/castle_of_nolok.stl:3
+msgid "The Castle of Nolok"
+msgstr "El castell d'en Nolok"
+
+#: data/levels/world1/crystal_mine.stl:3
+msgid "The Crystal Mine"
+msgstr "La Mina de Cristall"
+
+#: data/levels/world1/crystal_mine.stl:686
+msgid "#You have to activate two switches to open this door."
+msgstr "#Has d'activar dos interruptors per obrir aquesta porta."
+
+#: data/levels/world1/end_of_tunnel.stl:3
+msgid "End of the Tunnel"
+msgstr "La fi del túnel"
+
+#: data/levels/world1/entrance_cave.stl:3
+msgid "Entrance to the Cave"
+msgstr "Entrada a la cova"
+
+#: data/levels/world1/fork_in_the_road.stl:3
+msgid "A Fork in the Road"
+msgstr "Una forquilla a la carretera"
+
+#: data/levels/world1/fork_in_the_road.stl:84
+msgid ""
+"-Switches\n"
+"!images/objects/switch/switch-0.png\n"
+"!images/objects/pushbutton/pushbutton-0.png\n"
+"#Switches can be used to do all manner of things. Press the UP key to use a switch.\n"
+"#There are also buttons that you can press by jumping on them."
+msgstr "-Interruptors\n!imatges/objectes/switch/switch-0.png\n!imatges/objectes/pulsador/pulsador-0.png\nEls #interruptors es poden utilitzar per fer tot tipus de coses. Premeu la tecla UP per utilitzar un interruptor.\n#També hi ha botons que pots prémer saltant-hi."
+
+#: data/levels/world1/fork_in_the_road.stl:93
+msgid ""
+"-Trampolines\n"
+"!images/objects/trampoline/trampoline2-0.png\n"
+"#Trampolines allow Tux to jump to new heights. Hold down the JUMP key while bouncing on the trampoline to launch extra high."
+msgstr "- Trampolines\n!images/objects/trampoline/trampoline2-0.png\nEls #trampolines permeten a Tux saltar a noves altures. Mantingueu premuda la tecla JUMP mentre reboteu al llit elàstic per llançar-vos més alt."
+
+#: data/levels/world1/fork_in_the_road.stl:100
+msgid ""
+"-Climbing\n"
+"#Tux can climb! Press the UP key to start climbing. Press the ACTION key or jump to let go."
+msgstr "- Escalada\n#Tux pot escalar! Premeu la tecla UP per començar a escalar. Premeu la tecla ACCIÓ o salta per deixar anar."
+
+#: data/levels/world1/fork_in_the_road.stl:106
+msgid ""
+"-Secret Exits\n"
+"#Some level can have multiple exits. They are mostly hidden, so keep an eye out for them.\n"
+"#Maybe they lead you to something special."
+msgstr "- Sortides secretes\n#Algun nivell pot tenir múltiples sortides. La majoria estan ocults, així que estigueu atents a ells.\n#Potser et porten a alguna cosa especial."
+
+#: data/levels/world1/frosted_fields.stl:3
+msgid "The Frosted Fields"
+msgstr "Els camps congelats"
+
+#: data/levels/world1/frozen_bridge.stl:3
+msgid "Over the Frozen Bridge"
+msgstr "Sobre el pont congelat"
+
+#: data/levels/world1/ice_in_the_hole.stl:3
+msgid "Ice in the Hole"
+msgstr "Forat gelat"
+
+#: data/levels/world1/icy_valley.stl:3
+msgid "Icy Valley"
+msgstr "Vall Gelada"
+
+#: data/levels/world1/into_stars.stl:3
+msgid "Into the Stars"
+msgstr "Entre les estrelles"
+
+#: data/levels/world1/intro.stl:3
+msgid "Picnic With Penny"
+msgstr "Pícnic amb la Penny"
+
+#: data/levels/world1/journey_begins.stl:3
+msgid "The Journey Begins"
+msgstr "Comença l'aventura"
+
+#: data/levels/world1/living_inside_fridge.stl:3
+msgid "Living in a Fridge"
+msgstr "Vivint en una nevera"
+
+#: data/levels/world1/miyamoto_monument.stl:3
+msgid "Miyamoto Monument"
+msgstr "Monument a en Miyamoto"
+
+#: data/levels/world1/more_snowballs.stl:3
+msgid "Oh No! More Snowballs!"
+msgstr "Oh no! Més boles de neu!"
+
+#: data/levels/world1/night_chill.stl:3
+msgid "Night Chill"
+msgstr "Fred nocturn"
+
+#: data/levels/world1/or_just_me.stl:3
+msgid "...Or Is It Just Me?"
+msgstr "\"...o és cosa meva?\""
+
+#: data/levels/world1/path_in_the_clouds.stl:3
+msgid "A Path in the Clouds"
+msgstr "Un camí en els núvols"
+
+#: data/levels/world1/scripts_castle_cutscene.txt:2
+msgid "Tux had reached the end of the castle."
+msgstr "Tux havia arribat al final del castell."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:3
+msgid "But to his surprise all he could find was a letter."
+msgstr "Però, per a la seva sorpresa, tot el que va trobar va ser una carta."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:4
+msgid ""
+"A letter from Penny telling Tux that Nolok has taken her to a far forest."
+msgstr "Una carta de la Penny dient a la Tux que en Nolok l'ha portat a un bosc llunyà."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:5
+msgid ""
+"Unsure about what Nolok was doing to her, Tux became worried about his "
+"beloved Penny."
+msgstr "Sense saber què li estava fent Nolok, en Tux es va preocupar per la seva estimada Penny."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:6
+msgid "Until suddenly..."
+msgstr "Fins que de sobte..."
+
+#: data/levels/world1/scripts_intro.txt:2
+msgid "Somewhere at the shores of Antarctica..."
+msgstr "En algun lloc a les costes de l'Antàrtida..."
+
+#: data/levels/world1/scripts_intro.txt:3
+msgid "Tux the penguin was going to meet his friend, Penny, for a picnic."
+msgstr "El pingüí Tux anava a trobar-se amb el seu amic, Penny, per fer un pícnic."
+
+#: data/levels/world1/scripts_intro.txt:4
+msgid "Tux woke up, dizzy, to find that Penny was missing!"
+msgstr "En Tux es va despertar, marejat, en trobar que la Penny havia desaparegut!"
+
+#: data/levels/world1/scripts_intro.txt:5
+msgid "Tux was starting to become worried. He then saw a letter, and it read:"
+msgstr "Tux començava a preocupar-se. Aleshores va veure una carta i deia:"
+
+#: data/levels/world1/scripts_intro.txt:6
+msgid ""
+"\"Tux, I have kidnapped your beloved Penny and have taken her to my "
+"fortress.\""
+msgstr "\"Tux, he segrestat la teva estimada Penny i l'he portat a la meva fortalesa\"."
+
+#: data/levels/world1/scripts_intro.txt:7
+msgid "\"The path to my fortress is littered with my minions.\""
+msgstr "\"El camí cap a la meva fortalesa està ple de sequaços\"."
+
+#: data/levels/world1/scripts_intro.txt:8
+msgid "\"You don't have a chance of saving her! Signed, Nolok.\""
+msgstr "\"No tens cap possibilitat de salvar-la! Signat, Nolok.\""
+
+#: data/levels/world1/scripts_intro.txt:9
+msgid ""
+"Realizing the trouble Penny could be in, Tux became determined to save her."
+msgstr "En adonar-se dels problemes en què podia estar Penny, en Tux es va decidir a salvar-la."
+
+#: data/levels/world1/scripts_intro.txt:10
+msgid ""
+"Then, Tux saw Nolok's castle in the distance and set off to rescue Penny!"
+msgstr "Aleshores, Tux va veure el castell de Nolok a la distància i va marxar a rescatar la Penny!"
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:2
+msgid "Exhausted from his long walk, Tux decided to take a little break."
+msgstr "Esgotat de la seva llarga caminada, en Tux va decidir fer un petit descans."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:3
+msgid "But then, all of a sudden he heard a loud roar from a distance."
+msgstr "Però llavors, de sobte, va sentir un fort rugit des de lluny."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:4
+msgid "A yeti seems to have observed him from afar."
+msgstr "Un yeti sembla haver-lo observat des de lluny."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:5
+msgid ""
+"Concerned by the yeti's sudden retreat, Tux decided to continue his journey,"
+" ..."
+msgstr "Preocupat per la sobtada retirada del yeti, Tux va decidir continuar el seu viatge,..."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:6
+msgid "...while secretly hoping not to run into the yeti again, by any means."
+msgstr "... mentre secretament esperava no tornar a topar amb el yeti, de cap manera."
+
+#: data/levels/world1/shattered_bridge.stl:3
+msgid "The Shattered Bridge"
+msgstr "El pont destrossat"
+
+#: data/levels/world1/somewhat_smaller_bath.stl:3
+msgid "The Somewhat Smaller Bath"
+msgstr "El bany més petit"
+
+#: data/levels/world1/stone_cold.stl:3
+msgid "Stone Cold"
+msgstr "Pedra freda"
+
+#: data/levels/world1/under_the_ice.stl:3
+msgid "Under the Ice"
+msgstr "Sota el gel"
+
+#: data/levels/world1/via_nostalgica.stl:3
+msgid "Via Nostalgica"
+msgstr "Via nostàlgica"
+
+#: data/levels/world1/welcome_antarctica.stl:3
+msgid "Welcome to Antarctica"
+msgstr "Benvingut a l'Antàrtida"
+
+#: data/levels/world1/welcome_antarctica.stl:74
+msgid ""
+"-Bonus Blocks\n"
+"!images/objects/bonus_block/full-0.png\n"
+"#Bonus blocks can contain coins, power-ups or special items to help you in your quest.\n"
+"#\n"
+"#Hit them from below to get at their contents."
+msgstr "-Blocs de bonificació\n!images/objects/bonus_block/full-0.png\n#Els blocs de bonificació poden contenir monedes, potenciadors o elements especials per ajudar-te amb el teu recorregut.\n#\n#Colpeja'ls des d'abaix per aconseguir el que contenen."
+
+#: data/levels/world1/welcome_antarctica.stl:83
+msgid ""
+"-Eggs\n"
+"!images/powerups/egg/egg-shade.png\n"
+"#The egg makes Tux grow larger. Tux can then smash wooden blocks with his head."
+msgstr "-Ous\n!images/powerups/egg/egg-shade.png\n#L'ou fa que Tux creixi més gran. Aleshores, en Tux pot trencar blocs de fusta amb el cap."
+
+#: data/levels/world1/welcome_antarctica.stl:90
+msgid ""
+"-Checkpoints\n"
+"!images/objects/resetpoints/bell-m.png\n"
+"#Activate the checkpoint. If you die, you can retry the level from here. Every time you retry from a checkpoint, you will lose 10 percent of your coins (at least 25 coins)."
+msgstr "-Punts de control\n!images/objects/resetpoints/bell-m.png\n#Activa el punt de control. Si no ho aconsegueixes, pots tornar a intentar el nivell des d'aquí. Cada vegada que tornes a intentar-ho des d'un punt de control, perds el 10 per cent de les teves monedes (almenys 25 monedes)."
+
+#: data/levels/world1/welcome_antarctica.stl:97
+msgid ""
+"-Running\n"
+"!images/tiles/signs/run.png\n"
+"#The path in front of you is blocked. Gain some speed before jumping to pass over the blocks."
+msgstr "-Córrer\n!images/tiles/signs/run.png\n#El camí està bloquejat. Guanya una mica de velocitat abans de saltar per passar per sobre dels blocs."
+
+#: data/levels/world1/welcome_antarctica.stl:104
+msgid ""
+"-Fire Flower\n"
+"!images/powerups/fireflower/fire_flower-0.png\n"
+"#The fire flower gives Tux the ability to shoot fireballs."
+msgstr "-Flor de foc\n!images/powerups/fireflower/fire_flower-0.png\n#La flor de foc permet a en Tux disparar boles de foc."
+
+#: data/levels/world1/welcome_antarctica.stl:111
+msgid ""
+"-Tux Doll\n"
+"!images/powerups/1up/1up.png\n"
+"#The Tux doll gives Tux 100 coins."
+msgstr "-Ninot d'en Tux\n!images/powerups/1up/1up.png\n#El ninot d'en Tux et dóna 100 monedes."
+
+#: data/levels/world1/welcome_antarctica.stl:118
+msgid ""
+"-Secret Areas\n"
+"#Many levels contain secret areas behind what seems to be plain walls. Look for clues to find them."
+msgstr "-Llocs secrets\n#Molts nivells contenen zones secretes darrera del que semblen parets llises. Busca pistes per trobar-los."
+
+#: data/levels/world1/worldmap.stwm:3
+msgid "Icy Island"
+msgstr "Illa Gelada"
+
+#: data/levels/world1/yeti_boss.stl:3
+msgid "No More Mr. Ice Guy"
+msgstr "No més el senyor Ice Guy"
+
+#: data/levels/world1/yeti_cutscene.stl:3
+msgid "A Yeti in the Distance"
+msgstr "Un Yeti a la distància"

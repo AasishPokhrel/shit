@@ -1,0 +1,6 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 11 11 16 16)
+    (images "root_spike.png"))
+)

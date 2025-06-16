@@ -1,0 +1,18 @@
+(supertux-sprite
+ (action
+  (name "default")
+(fps 4.0)
+  (images 
+    "kracker-1.png"
+    "kracker-2.png"
+"kracker-3.png"
+"kracker-4.png"
+"kracker-5.png"
+"kracker-6.png"
+"kracker-7.png"
+"kracker-8.png"
+"kracker-9.png"
+
+  )
+ )
+)

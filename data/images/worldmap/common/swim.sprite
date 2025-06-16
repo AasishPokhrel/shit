@@ -1,0 +1,304 @@
+(supertux-sprite
+  (action
+    (hitbox 4 0 0 0)
+    (name "empty")
+    (images 
+      "big_swim_up5.png"
+    )
+  )
+  (action
+    (hitbox 4 20 0 0)
+    (name "small-stop")
+    (images 
+      "smalltux.png"
+    )
+  )
+  (action
+    (hitbox 4 0 0 0)
+    (name "small-walking-up")
+    (fps 9)
+    (images 
+      "big_swim_up1.png"
+      "big_swim_up2.png"
+      "big_swim_up3.png"
+      "big_swim_up4.png"
+      "big_swim_up5.png"
+    )
+  )
+  (action
+    (hitbox 4 0 0 0)
+    (name "small-walking-down")
+    (fps 9)
+    (images 
+      "big_swim_down1.png"
+      "big_swim_down2.png"
+      "big_swim_down3.png"
+      "big_swim_down4.png"
+      "big_swim_down5.png"
+    )
+  )
+  (action
+    (hitbox 4 4 0 0)
+    (name "small-walking-left")
+    (fps 9)
+    (images 
+      "big_swim_left1.png"
+      "big_swim_left2.png"
+      "big_swim_left3.png"
+      "big_swim_left4.png"
+      "big_swim_left5.png"
+    )
+  )
+  (action
+    (hitbox 4 4 0 0)
+    (name "small-walking-right")
+    (fps 9)
+    (mirror-action "small-walking-left")
+  )
+  (action
+    (hitbox 4 20 0 0)
+    (name "large-stop")
+    (images 
+      "tux.png"
+    )
+  )
+  (action
+    (hitbox 4 0 0 0)
+    (name "large-walking-up")
+    (fps 9)
+    (images 
+      "big_swim_up1.png"
+      "big_swim_up2.png"
+      "big_swim_up3.png"
+      "big_swim_up4.png"
+      "big_swim_up5.png"
+    )
+  )
+  (action
+    (hitbox 4 0 0 0)
+    (name "large-walking-down")
+    (fps 9)
+    (images 
+      "big_swim_down1.png"
+      "big_swim_down2.png"
+      "big_swim_down3.png"
+      "big_swim_down4.png"
+      "big_swim_down5.png"
+    )
+  )
+  (action
+    (hitbox 4 4 0 0)
+    (name "large-walking-left")
+    (fps 9)
+    (images 
+      "big_swim_left1.png"
+      "big_swim_left2.png"
+      "big_swim_left3.png"
+      "big_swim_left4.png"
+      "big_swim_left5.png"
+    )
+  )
+  (action
+    (hitbox 4 4 0 0)
+    (name "large-walking-right")
+    (fps 9)
+    (mirror-action "large-walking-left")
+  )
+  (action
+    (hitbox 4 20 0 0)
+    (name "air-stop")
+    (images 
+      "airtux.png"
+    )
+  )
+  (action
+    (hitbox 4 0 0 0)
+    (name "air-walking-up")
+    (fps 9)
+    (images 
+      "air_swim_up1.png"
+      "air_swim_up2.png"
+      "air_swim_up3.png"
+      "air_swim_up4.png"
+      "air_swim_up5.png"
+    )
+  )
+  (action
+    (hitbox 4 0 0 0)
+    (name "air-walking-down")
+    (fps 9)
+    (images 
+      "air_swim_down1.png"
+      "air_swim_down2.png"
+      "air_swim_down3.png"
+      "air_swim_down4.png"
+      "air_swim_down5.png"
+    )
+  )
+  (action
+    (hitbox 4 4 0 0)
+    (name "air-walking-left")
+    (fps 9)
+    (images 
+      "air_swim_left1.png"
+      "air_swim_left2.png"
+      "air_swim_left3.png"
+      "air_swim_left4.png"
+      "air_swim_left5.png"
+    )
+  )
+  (action
+    (hitbox 4 4 0 0)
+    (name "air-walking-right")
+    (fps 9)
+    (mirror-action "air-walking-left")
+  )
+  (action
+    (hitbox 4 20 0 0)
+    (name "fire-stop")
+    (images 
+      "firetux.png"
+    )
+  )
+  (action
+    (hitbox 4 0 0 0)
+    (name "fire-walking-up")
+    (fps 9)
+    (images 
+      "fire_swim_up1.png"
+      "fire_swim_up2.png"
+      "fire_swim_up3.png"
+      "fire_swim_up4.png"
+      "fire_swim_up5.png"
+    )
+  )
+  (action
+    (hitbox 4 0 0 0)
+    (name "fire-walking-down")
+    (fps 9)
+    (images 
+      "fire_swim_down1.png"
+      "fire_swim_down2.png"
+      "fire_swim_down3.png"
+      "fire_swim_down4.png"
+      "fire_swim_down5.png"
+    )
+  )
+  (action
+    (hitbox 4 4 0 0)
+    (name "fire-walking-left")
+    (fps 9)
+    (images 
+      "fire_swim_left1.png"
+      "fire_swim_left2.png"
+      "fire_swim_left3.png"
+      "fire_swim_left4.png"
+      "fire_swim_left5.png"
+    )
+  )
+  (action
+    (hitbox 4 4 0 0)
+    (name "fire-walking-right")
+    (fps 9)
+    (mirror-action "fire-walking-left")
+  )
+  (action
+    (hitbox 4 20 0 0)
+    (name "ice-stop")
+    (images 
+      "icetux.png"
+    )
+  )
+  (action
+    (hitbox 4 0 0 0)
+    (name "ice-walking-up")
+    (fps 9)
+    (images 
+      "ice_swim_up1.png"
+      "ice_swim_up2.png"
+      "ice_swim_up3.png"
+      "ice_swim_up4.png"
+      "ice_swim_up5.png"
+    )
+  )
+  (action
+    (hitbox 4 0 0 0)
+    (name "ice-walking-down")
+    (fps 9)
+    (images 
+      "ice_swim_down1.png"
+      "ice_swim_down2.png"
+      "ice_swim_down3.png"
+      "ice_swim_down4.png"
+      "ice_swim_down5.png"
+    )
+  )
+  (action
+    (hitbox 4 4 0 0)
+    (name "ice-walking-left")
+    (fps 9)
+    (images 
+      "ice_swim_left1.png"
+      "ice_swim_left2.png"
+      "ice_swim_left3.png"
+      "ice_swim_left4.png"
+      "ice_swim_left5.png"
+    )
+  )
+  (action
+    (hitbox 4 4 0 0)
+    (name "ice-walking-right")
+    (fps 9)
+    (mirror-action "ice-walking-left")
+  )
+  (action
+    (hitbox 4 20 0 0)
+    (name "earth-stop")
+    (fps 4)
+    (images 
+      "earthtux.png"
+    )
+  )
+  (action
+    (hitbox 4 0 0 0)
+    (name "earth-walking-up")
+    (fps 9)
+    (images 
+      "earth_swim_up1.png"
+      "earth_swim_up2.png"
+      "earth_swim_up3.png"
+      "earth_swim_up4.png"
+      "earth_swim_up5.png"
+    )
+  )
+  (action
+    (hitbox 4 0 0 0)
+    (name "earth-walking-down")
+    (fps 9)
+    (images 
+      "earth_swim_down1.png"
+      "earth_swim_down2.png"
+      "earth_swim_down3.png"
+      "earth_swim_down4.png"
+      "earth_swim_down5.png"
+    )
+  )
+  (action
+    (hitbox 4 4 0 0)
+    (name "earth-walking-left")
+    (fps 9)
+    (images 
+      "earth_swim_left1.png"
+      "earth_swim_left2.png"
+      "earth_swim_left3.png"
+      "earth_swim_left4.png"
+      "earth_swim_left5.png"
+    )
+  )
+  (action
+    (hitbox 4 4 0 0)
+    (name "earth-walking-right")
+    (fps 9)
+    (mirror-action "earth-walking-left")
+  )
+)

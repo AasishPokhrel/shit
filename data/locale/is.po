@@ -1,0 +1,3827 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# IAN RODRÍGUEZ Lorenzo, 2022
+# Kristján Magnússon, 2022
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2021-12-12 20:05+0100\n"
+"PO-Revision-Date: 2013-08-10 22:56+0000\n"
+"Last-Translator: IAN RODRÍGUEZ Lorenzo, 2022\n"
+"Language-Team: Icelandic (http://app.transifex.com/arctic-games/supertux/language/is/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: is\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
+
+#: src/trigger/secretarea_trigger.cpp:53 src/trigger/secretarea_trigger.cpp:61
+msgid "You found a secret area!"
+msgstr "Þú fannst leynisvæði!"
+
+#: src/trigger/secretarea_trigger.cpp:77 src/supertux/game_object.cpp:90
+#: src/supertux/menu/editor_sector_menu.cpp:34
+#: src/supertux/menu/editor_levelset_menu.cpp:58
+#: src/supertux/menu/editor_new_levelset_menu.cpp:34
+#: src/supertux/menu/editor_level_menu.cpp:33
+msgid "Name"
+msgstr "Nafn"
+
+#: src/trigger/secretarea_trigger.cpp:78
+msgid "Fade tilemap"
+msgstr "Fade flísakort"
+
+#: src/trigger/secretarea_trigger.cpp:79 src/trigger/climbable.cpp:81
+#: src/object/infoblock.cpp:57 src/editor/worldmap_objects.cpp:172
+#: src/editor/worldmap_objects.cpp:270
+msgid "Message"
+msgstr "Skilaboð"
+
+#: src/trigger/secretarea_trigger.cpp:80 src/trigger/scripttrigger.cpp:75
+#: src/trigger/door.cpp:73 src/object/ispy.cpp:67
+#: src/object/bonus_block.cpp:207 src/object/bonus_block.cpp:211
+#: src/object/pushbutton.cpp:51 src/object/powerup.cpp:190
+#: src/editor/worldmap_objects.cpp:272
+msgid "Script"
+msgstr "Handrit"
+
+#: src/trigger/scripttrigger.cpp:76 src/object/pushbutton.hpp:31
+msgid "Button"
+msgstr "Hnappur"
+
+#: src/trigger/scripttrigger.cpp:77
+msgid "Oneshot"
+msgstr "Eitt skot"
+
+#: src/trigger/sequence_trigger.hpp:33
+msgid "Sequence Trigger"
+msgstr "Sequence Trigger"
+
+#: src/trigger/door.cpp:74 src/badguy/willowisp.cpp:320
+#: src/supertux/menu/editor_sector_menu.cpp:32
+#: src/editor/layers_widget.cpp:342
+#: data//images/engine/editor/objects.stoi:321
+msgid "Sector"
+msgstr "Geiri"
+
+#: src/trigger/door.cpp:75 src/editor/worldmap_objects.hpp:101
+msgid "Spawn point"
+msgstr "Hrygna"
+
+#: src/trigger/switch.cpp:61 src/object/block.cpp:224 src/object/torch.cpp:102
+#: src/object/moving_sprite.cpp:156 src/object/pneumatic_platform.cpp:146
+msgid "Sprite"
+msgstr "Sprite"
+
+#: src/trigger/switch.cpp:62
+msgid "Turn on script"
+msgstr "Kveiktu á handriti"
+
+#: src/trigger/switch.cpp:63
+msgid "Turn off script"
+msgstr "Slökktu á handriti"
+
+#: src/trigger/scripttrigger.hpp:32
+msgid "Script Trigger"
+msgstr "Script kveikja"
+
+#: src/trigger/sequence_trigger.cpp:75
+msgid "Sequence"
+msgstr "Röð"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "end sequence"
+msgstr "enda röð"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "stop Tux"
+msgstr "hættu Tux"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "fireworks"
+msgstr "flugeldar"
+
+#: src/trigger/sequence_trigger.cpp:80
+msgid "New worldmap spawnpoint"
+msgstr "Nýr heimskort spawnpoint"
+
+#: src/trigger/sequence_trigger.cpp:81
+msgid "Worldmap fade tilemap"
+msgstr "Heimskort dofna flísakort"
+
+#: src/trigger/sequence_trigger.cpp:82
+#: src/object/custom_particle_system.cpp:430
+#: src/object/custom_particle_system.cpp:465
+msgid "Fade"
+msgstr "Hverfa"
+
+#: src/trigger/sequence_trigger.cpp:83 src/editor/particle_editor.cpp:161
+msgid "Fade in"
+msgstr "Hverfa inn"
+
+#: src/trigger/sequence_trigger.cpp:83 src/editor/particle_editor.cpp:167
+#: src/editor/particle_editor.cpp:212
+msgid "Fade out"
+msgstr "Hverfa út"
+
+#: src/trigger/climbable.hpp:37
+msgid "Climbable"
+msgstr "Klifurhæft"
+
+#: src/trigger/door.hpp:34
+msgid "Door"
+msgstr "Hurð"
+
+#: src/trigger/switch.hpp:33
+msgid "Switch"
+msgstr "Skipta"
+
+#: src/trigger/secretarea_trigger.hpp:36
+msgid "Secret Area"
+msgstr "Leynisvæði"
+
+#: src/object/thunderstorm.hpp:40
+msgid "Thunderstorm"
+msgstr "Þrumuveður"
+
+#: src/object/cloud_particle_system.cpp:79
+#: src/object/rain_particle_system.cpp:100
+msgid "Intensity"
+msgstr "Styrkur"
+
+#: src/object/custom_particle_system.hpp:45
+msgid "Custom Particles"
+msgstr "Sérsniðnar agnir"
+
+#: src/object/ispy.cpp:66
+msgid "Facing Down"
+msgstr "Horft niður"
+
+#: src/object/ispy.cpp:68 src/object/spotlight.cpp:103
+#: src/object/gradient.cpp:137 src/badguy/willowisp.cpp:319
+#: src/badguy/badguy.cpp:848 src/editor/worldmap_objects.cpp:207
+#: src/editor/worldmap_objects.cpp:274
+msgid "Direction"
+msgstr "Stefna"
+
+#: src/object/particle_zone.hpp:39
+msgid "Particle zone"
+msgstr "Agnasvæði"
+
+#: src/object/path_gameobject.hpp:44 src/object/coin.cpp:301
+#: src/object/camera.cpp:224 src/object/platform.cpp:73
+#: src/object/path_gameobject.cpp:173 src/object/tilemap.cpp:246
+#: src/gui/menu_paths.cpp:52 src/badguy/willowisp.cpp:326
+msgid "Path"
+msgstr "Leið"
+
+#: src/object/decal.cpp:49 src/object/scripted_object.cpp:67
+#: src/object/particlesystem.cpp:65 src/object/background.cpp:183
+#: src/object/thunderstorm.cpp:68 src/object/tilemap.cpp:239
+#: src/object/gradient.cpp:135
+msgid "Z-pos"
+msgstr "Z-staða"
+
+#: src/object/decal.cpp:50 src/object/scripted_object.cpp:70
+#: src/object/tilemap.cpp:228
+msgid "Solid"
+msgstr "Solid"
+
+#: src/object/decal.cpp:51 src/supertux/menu/keyboard_menu.cpp:37
+#: src/supertux/menu/joystick_menu.cpp:74
+msgid "Action"
+msgstr "Aðgerð"
+
+#: src/object/weak_block.hpp:35
+msgid "Weak Tile"
+msgstr "Veikar flísar"
+
+#: src/object/bumper.cpp:46
+msgid "Facing Left"
+msgstr "Snýr til vinstri"
+
+#: src/object/gradient.hpp:42
+msgid "Gradient"
+msgstr "Halli"
+
+#: src/object/tilemap.hpp:57
+msgid "Tilemap"
+msgstr "Flísakort"
+
+#: src/object/circleplatform.hpp:32
+msgid "Circular Platform"
+msgstr "Hringlaga pallur"
+
+#: src/object/brick.cpp:133
+msgid "Breakable"
+msgstr "Brjótanlegt"
+
+#: src/object/trampoline.cpp:136 src/object/rusty_trampoline.cpp:66
+msgid "Portable"
+msgstr "Færanlegt"
+
+#: src/object/spotlight.cpp:100 src/object/rain_particle_system.cpp:101
+msgid "Angle"
+msgstr "Horn"
+
+#: src/object/spotlight.cpp:101 src/object/magicblock.cpp:94
+#: src/object/candle.cpp:77 src/object/torch.cpp:104
+#: src/object/rublight.cpp:54 src/object/lantern.cpp:62
+#: src/object/ambient_light.cpp:131 src/badguy/willowisp.cpp:328
+#: src/badguy/walking_candle.cpp:82
+msgid "Color"
+msgstr "Litur"
+
+#: src/object/spotlight.cpp:102 src/object/textscroller.cpp:350
+#: src/object/rain_particle_system.cpp:102 src/object/circleplatform.cpp:55
+#: src/badguy/flame.cpp:59 src/editor/node_marker.cpp:125
+msgid "Speed"
+msgstr "Hraði"
+
+#: src/object/spotlight.cpp:104
+msgid "Clockwise"
+msgstr "Réssælis"
+
+#: src/object/spotlight.cpp:104
+msgid "Counter-clockwise"
+msgstr "Rangsælis"
+
+#: src/object/spotlight.cpp:104
+msgid "Stopped"
+msgstr "Hætt"
+
+#: src/object/spotlight.cpp:107 src/object/candle.cpp:78
+#: src/object/torch.cpp:103
+msgid "Layer"
+msgstr "Lag"
+
+#: src/object/scripted_object.cpp:71
+msgid "Physics enabled"
+msgstr "Eðlisfræði virkjuð"
+
+#: src/object/scripted_object.cpp:72
+msgid "Visible"
+msgstr "Sýnilegt"
+
+#: src/object/scripted_object.cpp:73 src/badguy/willowisp.cpp:322
+msgid "Hit script"
+msgstr "Hit handrit"
+
+#: src/object/custom_particle_system_file.cpp:50
+#: src/object/textscroller.cpp:348 src/object/music_object.cpp:109
+#: src/supertux/menu/particle_editor_open.cpp:38
+msgid "File"
+msgstr "Skrá"
+
+#: src/object/bonus_block.cpp:208
+msgid "Count"
+msgstr "Telja"
+
+#: src/object/bonus_block.cpp:209
+msgid "Content"
+msgstr "Efni"
+
+#: src/object/bonus_block.cpp:210 src/object/coin.hpp:43
+msgid "Coin"
+msgstr "Mynt"
+
+#: src/object/bonus_block.cpp:210
+msgid "Growth (fire flower)"
+msgstr "Vöxtur (eldblóm)"
+
+#: src/object/bonus_block.cpp:210
+msgid "Growth (ice flower)"
+msgstr "Vöxtur (ísblóm)"
+
+#: src/object/bonus_block.cpp:210
+msgid "Growth (air flower)"
+msgstr "Vöxtur (loftblóm)"
+
+#: src/object/bonus_block.cpp:211
+msgid "Growth (earth flower)"
+msgstr "Vöxtur (jarðblóm)"
+
+#: src/object/bonus_block.cpp:211
+msgid "Star"
+msgstr "Stjarna"
+
+#: src/object/bonus_block.cpp:211
+msgid "Tux doll"
+msgstr "Tux dúkka"
+
+#: src/object/bonus_block.cpp:211
+msgid "Custom"
+msgstr "Sérsniðin"
+
+#: src/object/bonus_block.cpp:211
+msgid "Light"
+msgstr "Ljós"
+
+#: src/object/bonus_block.cpp:211
+msgid "Light (On)"
+msgstr "Ljós (kveikt)"
+
+#: src/object/bonus_block.cpp:212 src/object/trampoline.hpp:35
+msgid "Trampoline"
+msgstr "Trampólín"
+
+#: src/object/bonus_block.cpp:212
+msgid "Coin rain"
+msgstr "Myntarignq"
+
+#: src/object/bonus_block.cpp:212
+msgid "Coin explosion"
+msgstr "Myntsprenging"
+
+#: src/object/bonus_block.cpp:216
+msgid "Custom Content"
+msgstr "Sérsniðið efni"
+
+#: src/object/pneumatic_platform.hpp:62
+msgid "Pneumatic Platform"
+msgstr "Pneumatic pallur"
+
+#: src/object/coin.cpp:303 src/object/tilemap.cpp:249
+msgid "Following path"
+msgstr "Eftir slóð"
+
+#: src/object/coin.cpp:306 src/object/camera.cpp:227
+#: src/object/platform.cpp:74 src/object/tilemap.cpp:252
+msgid "Path Mode"
+msgstr "Leið háttur"
+
+#: src/object/coin.cpp:307 src/object/camera.cpp:228
+#: src/object/platform.cpp:75 src/object/tilemap.cpp:253
+#: src/badguy/willowisp.cpp:331
+msgid "Adapt Speed"
+msgstr "Aðlaga hraða"
+
+#: src/object/coin.cpp:308 src/object/platform.cpp:77
+#: src/object/tilemap.cpp:247 src/badguy/willowisp.cpp:327
+msgid "Starting Node"
+msgstr "Byrjunarhnútur"
+
+#: src/object/coin.cpp:311 src/object/coin.cpp:339
+msgid "Collect script"
+msgstr "Safna handriti"
+
+#: src/object/ghost_particle_system.hpp:36
+msgid "Ghost Particles"
+msgstr "Draugagnir"
+
+#: src/object/camera.cpp:219
+msgid "Mode"
+msgstr "Mode"
+
+#: src/object/camera.cpp:220
+msgid "normal"
+msgstr "eðlilegt"
+
+#: src/object/camera.cpp:220
+msgid "manual"
+msgstr "handbók"
+
+#: src/object/camera.cpp:220
+msgid "autoscroll"
+msgstr "sjálfvirka flettingu"
+
+#: src/object/textscroller.cpp:349
+msgid "Finish Script"
+msgstr "Ljúktu handriti"
+
+#: src/object/textscroller.cpp:351
+msgid "X-offset"
+msgstr "X-jöfnun"
+
+#: src/object/textscroller.cpp:352
+msgid "Controllable"
+msgstr "Stjórnanleg"
+
+#: src/object/textscroller.cpp:353
+msgid "Anchor"
+msgstr "Akkeri"
+
+#: src/object/textscroller.cpp:354 src/object/textscroller.cpp:358
+#: src/supertux/menu/keyboard_menu.cpp:34
+#: src/supertux/menu/joystick_menu.cpp:71
+msgid "Left"
+msgstr "Vinstri"
+
+#: src/object/textscroller.cpp:354 src/object/textscroller.cpp:358
+msgid "Center"
+msgstr "Miðja"
+
+#: src/object/textscroller.cpp:354 src/object/textscroller.cpp:358
+#: src/supertux/menu/keyboard_menu.cpp:35
+#: src/supertux/menu/joystick_menu.cpp:72
+msgid "Right"
+msgstr "Hægri"
+
+#: src/object/textscroller.cpp:357
+msgid "Text Alignment"
+msgstr "Textajöfnun"
+
+#: src/object/spawnpoint.hpp:46 src/badguy/willowisp.cpp:321
+#: src/editor/worldmap_objects.cpp:171
+msgid "Spawnpoint"
+msgstr "Hrygna Punktur"
+
+#: src/object/rusty_trampoline.cpp:65
+msgid "Counter"
+msgstr "Teljari"
+
+#: src/object/candle.hpp:36
+msgid "Candle"
+msgstr "Kerti"
+
+#: src/object/particlesystem.cpp:64 src/object/particle_zone.cpp:79
+#: src/badguy/darttrap.cpp:127
+msgid "Enabled"
+msgstr "Virkt"
+
+#: src/object/invisible_block.hpp:31
+msgid "Invisible Block"
+msgstr "Ósýnileg blokk"
+
+#: src/object/snow_particle_system.hpp:35
+msgid "Snow Particles"
+msgstr "Snjóagnir"
+
+#: src/object/powerup.hpp:35
+msgid "Powerup"
+msgstr "Powerup"
+
+#: src/object/fallblock.hpp:39
+msgid "Falling Platform"
+msgstr "Fallandi pallur"
+
+#: src/object/level_time.hpp:55
+msgid "Time Limit"
+msgstr "Tímamörk"
+
+#: src/object/ambient_sound.cpp:119 src/supertux/menu/options_menu.cpp:391
+#: data//credits.stxt:352
+msgid "Sound"
+msgstr "Hljóð"
+
+#: src/object/ambient_sound.cpp:120
+msgid "Distance factor"
+msgstr "Fjarlægðarstuðull"
+
+#: src/object/ambient_sound.cpp:121
+msgid "Distance bias"
+msgstr "Fjarlægðarhlutdrægni"
+
+#: src/object/ambient_sound.cpp:122
+msgid "Volume"
+msgstr "Bindi"
+
+#: src/object/torch.hpp:41
+msgid "Torch"
+msgstr "Kyndill"
+
+#: src/object/icecrusher.hpp:53
+msgid "Icecrusher"
+msgstr "Ískrossari"
+
+#: src/object/rublight.hpp:33
+msgid "Rublight"
+msgstr "Rublight"
+
+#: src/object/background.hpp:43
+msgid "Background"
+msgstr "Bakgrunnur"
+
+#: src/object/firefly.hpp:36
+msgid "Checkpoint"
+msgstr "Eftirlitsstöð"
+
+#: src/object/ambient_light.hpp:36
+msgid "Ambient Light"
+msgstr "Umhverfisljós"
+
+#: src/object/lantern.hpp:37
+msgid "Lantern"
+msgstr "Ljósker"
+
+#: src/object/wind.hpp:40
+msgid "Wind"
+msgstr "Vindur"
+
+#: src/object/bicycle_platform.cpp:189 src/object/background.cpp:179
+#: src/object/pneumatic_platform.cpp:147
+#: src/supertux/menu/joystick_menu.cpp:170 src/supertux/moving_object.cpp:58
+#: src/editor/worldmap_objects.cpp:73
+msgid "X"
+msgstr "X"
+
+#: src/object/bicycle_platform.cpp:190 src/object/background.cpp:180
+#: src/object/pneumatic_platform.cpp:148
+#: src/supertux/menu/joystick_menu.cpp:172 src/supertux/moving_object.cpp:59
+#: src/editor/worldmap_objects.cpp:74
+msgid "Y"
+msgstr "Y"
+
+#: src/object/bicycle_platform.cpp:192
+msgid "Platforms"
+msgstr "Pallar"
+
+#: src/object/bicycle_platform.cpp:193 src/object/circleplatform.cpp:54
+#: src/badguy/flame.cpp:58 src/badguy/rcrystallo.cpp:50
+#: src/badguy/crystallo.cpp:35
+msgid "Radius"
+msgstr "Radíus"
+
+#: src/object/bicycle_platform.cpp:194
+msgid "Momentum change rate"
+msgstr "Skriðþungabreytingarhraði"
+
+#: src/object/rain_particle_system.hpp:40
+msgid "Rain Particles"
+msgstr "Rigningagnir"
+
+#: src/object/platform.hpp:45
+msgid "Platform"
+msgstr "Pallur"
+
+#: src/object/rock.hpp:42
+msgid "Rock"
+msgstr "Klettur"
+
+#: src/object/music_object.hpp:41 src/supertux/menu/options_menu.cpp:393
+#: data//credits.stxt:294
+msgid "Music"
+msgstr "Tónlist"
+
+#: src/object/rusty_trampoline.hpp:39
+msgid "Rusty Trampoline"
+msgstr "Ryðgað trampólín"
+
+#: src/object/particlesystem.hpp:57
+msgid "Particle system"
+msgstr "Agnakerfi"
+
+#: src/object/candle.cpp:75 src/object/torch.cpp:101
+msgid "Burning"
+msgstr "Brennandi"
+
+#: src/object/candle.cpp:76
+msgid "Flicker"
+msgstr "Flikka"
+
+#: src/object/text_array_object.hpp:50
+msgid "Text array"
+msgstr "Textaflokkur"
+
+#: src/object/infoblock.hpp:36
+msgid "Info Block"
+msgstr "Upplýsingablokk"
+
+#: src/object/powerup.cpp:191
+msgid "Disable gravity"
+msgstr "Slökktu á þyngdaraflinu"
+
+#: src/object/ambient_sound.hpp:62
+msgid "Ambient Sound"
+msgstr "Umhverfishljóð"
+
+#: src/object/level_time.cpp:51 src/supertux/statistics.cpp:297
+#: src/editor/node_marker.cpp:124
+msgid "Time"
+msgstr "Tími"
+
+#: src/object/hurting_platform.hpp:30
+msgid "Hurting Platform"
+msgstr "Meiða pallur"
+
+#: src/object/icecrusher.cpp:83
+msgid "Sideways"
+msgstr "Til hliðar"
+
+#: src/object/background.cpp:182
+msgid "Fill"
+msgstr "Fylla"
+
+#: src/object/background.cpp:184
+msgid "Alignment"
+msgstr "Alignment"
+
+#: src/object/background.cpp:185
+msgid "none"
+msgstr "enginn"
+
+#: src/object/background.cpp:185 src/editor/object_settings.cpp:119
+msgid "left"
+msgstr "vinstri"
+
+#: src/object/background.cpp:185 src/editor/object_settings.cpp:119
+msgid "right"
+msgstr "hægri"
+
+#: src/object/background.cpp:185
+msgid "top"
+msgstr "efst"
+
+#: src/object/background.cpp:185
+msgid "bottom"
+msgstr "neðst"
+
+#: src/object/background.cpp:188
+msgid "Scroll offset x"
+msgstr "Skrunajöfnun x"
+
+#: src/object/background.cpp:189
+msgid "Scroll offset y"
+msgstr "Skrunajöfnun y"
+
+#: src/object/background.cpp:190
+msgid "Scroll speed x"
+msgstr "Skrunahraði x"
+
+#: src/object/background.cpp:191
+msgid "Scroll speed y"
+msgstr "Skrunahraði y"
+
+#: src/object/background.cpp:192
+msgid "Parallax Speed x"
+msgstr "Parallax hraði x"
+
+#: src/object/background.cpp:193
+msgid "Parallax Speed y"
+msgstr "Parallax hraði y"
+
+#: src/object/background.cpp:194
+msgid "Top image"
+msgstr "Topp mynd"
+
+#: src/object/background.cpp:195
+msgid "Image"
+msgstr "Mynd"
+
+#: src/object/background.cpp:196
+msgid "Bottom image"
+msgstr "Neðri mynd"
+
+#: src/object/background.cpp:197
+msgid "Colour"
+msgstr "Litur"
+
+#: src/object/background.cpp:198 src/object/tilemap.cpp:240
+#: src/object/gradient.cpp:142
+msgid "Draw target"
+msgstr "Dragðu skotmark"
+
+#: src/object/background.cpp:199 src/object/tilemap.cpp:241
+#: src/object/gradient.cpp:143
+msgid "Normal"
+msgstr "Venjulegt"
+
+#: src/object/background.cpp:199 src/object/tilemap.cpp:241
+#: src/object/gradient.cpp:143
+msgid "Lightmap"
+msgstr "Ljósakort"
+
+#: src/object/shard.hpp:34
+msgid "Shard"
+msgstr "Shard"
+
+#: src/object/rublight.cpp:55
+msgid "Fading Speed"
+msgstr "Hraði dofnar"
+
+#: src/object/rublight.cpp:56
+msgid "Glowing Strength"
+msgstr "Glóandi styrkurq"
+
+#: src/object/wind.cpp:78 src/object/custom_particle_system.cpp:499
+msgid "Speed X"
+msgstr "Hraði X"
+
+#: src/object/wind.cpp:79 src/object/custom_particle_system.cpp:500
+msgid "Speed Y"
+msgstr "Hraði Y"
+
+#: src/object/wind.cpp:80
+msgid "Acceleration"
+msgstr "Hröðun"
+
+#: src/object/wind.cpp:81
+msgid "Blowing"
+msgstr "Blása"
+
+#: src/object/wind.cpp:82
+msgid "Affects Badguys"
+msgstr "Hefur áhrif á vondu krakkana"
+
+#: src/object/wind.cpp:83
+msgid "Affects Objects"
+msgstr "Hefur áhrif á hluti"
+
+#: src/object/wind.cpp:84
+msgid "Affects Player"
+msgstr "Hefur áhrif á spilara"
+
+#: src/object/wind.cpp:85
+msgid "Fancy Particles"
+msgstr "Fínar agnir"
+
+#: src/object/bicycle_platform.hpp:64
+msgid "Bicycle Platform"
+msgstr "Hjólapallur"
+
+#: src/object/platform.cpp:76 src/object/thunderstorm.cpp:69
+#: src/object/tilemap.cpp:254
+msgid "Running"
+msgstr "Hlaupandi"
+
+#: src/object/rock.cpp:192
+msgid "On-grab script"
+msgstr "Handrit á grip"
+
+#: src/object/rock.cpp:193
+msgid "On-ungrab script"
+msgstr "On-grap handrit"
+
+#: src/object/particlesystem_interactive.hpp:48
+msgid "Interactive particle system"
+msgstr "Gagnvirkt agnakerfi"
+
+#: src/object/thunderstorm.cpp:70
+msgid "Interval"
+msgstr "Tímabil"
+
+#: src/object/thunderstorm.cpp:71
+msgid "Strike Script"
+msgstr "Strike Script"
+
+#: src/object/cloud_particle_system.hpp:41
+msgid "Cloud Particles"
+msgstr "Skýagnir"
+
+#: src/object/custom_particle_system.cpp:423
+msgid "Texture"
+msgstr "Áferð"
+
+#: src/object/custom_particle_system.cpp:425
+msgid "Amount"
+msgstr "Magn"
+
+#: src/object/custom_particle_system.cpp:426 src/object/circleplatform.cpp:56
+#: src/editor/particle_editor.cpp:141
+msgid "Delay"
+msgstr "Töf"
+
+#: src/object/custom_particle_system.cpp:427
+msgid "Lifetime"
+msgstr "Líftími"
+
+#: src/object/custom_particle_system.cpp:428
+msgid "Lifetime variation"
+msgstr "Ævibreytingar"
+
+#: src/object/custom_particle_system.cpp:429
+#: src/editor/particle_editor.cpp:164
+msgid "Birth mode"
+msgstr "Fæðingarhamur"
+
+#: src/object/custom_particle_system.cpp:430
+#: src/object/custom_particle_system.cpp:465 src/object/gradient.cpp:149
+#: src/supertux/menu/keyboard_menu.cpp:58
+#: src/supertux/menu/joystick_menu.cpp:106
+#: src/supertux/menu/joystick_menu.cpp:213 src/editor/object_settings.cpp:131
+#: src/editor/particle_editor.cpp:162 src/editor/particle_editor.cpp:168
+msgid "None"
+msgstr "Ekkert"
+
+#: src/object/custom_particle_system.cpp:430
+#: src/object/custom_particle_system.cpp:465
+#: src/editor/particle_editor.cpp:166
+msgid "Shrink"
+msgstr "Minnka"
+
+#: src/object/custom_particle_system.cpp:434
+#: src/editor/particle_editor.cpp:172
+msgid "Birth easing"
+msgstr "Fæðingaraðlögun"
+
+#: src/object/custom_particle_system.cpp:436
+#: src/object/custom_particle_system.cpp:471 src/editor/node_marker.cpp:129
+msgid "No easing"
+msgstr "Engin slökun"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:130
+msgid "Quad in"
+msgstr "Fjórhjól inn"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:130
+msgid "Quad out"
+msgstr "Fjórmenningur út"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:130
+msgid "Quad in/out"
+msgstr "Fjórhjól inn/út"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:131
+msgid "Cubic in"
+msgstr "Kúbíkur inn"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:131
+msgid "Cubic out"
+msgstr "Kubik út"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:131
+msgid "Cubic in/out"
+msgstr "Kubik inn/út"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:132
+msgid "Quart in"
+msgstr "Quart inn"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:132
+msgid "Quart out"
+msgstr "Quart út"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:132
+msgid "Quart in/out"
+msgstr "Quart inn/út"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:133
+msgid "Quint in"
+msgstr "Quint inn"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:133
+msgid "Quint out"
+msgstr "Quint út"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:133
+msgid "Quint in/out"
+msgstr "Quint inn/út"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:134
+msgid "Sine in"
+msgstr "Sínu inn"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:134
+msgid "Sine out"
+msgstr "Sinna út"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:134
+msgid "Sine in/out"
+msgstr "Sinus inn/út"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:135
+msgid "Circular in"
+msgstr "Hringblað inn"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:135
+msgid "Circular out"
+msgstr "Hringlaga út"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:135
+msgid "Circular in/out"
+msgstr "Hringlaga inn/út"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:136
+msgid "Exponential in"
+msgstr "Veldisvísis inn"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:136
+msgid "Exponential out"
+msgstr "Veldisvísis út"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:136
+msgid "Exponential in/out"
+msgstr "Veldisvísis inn/út"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:137
+msgid "Elastic in"
+msgstr "Teygjanlegt í"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:137
+msgid "Elastic out"
+msgstr "Teygja út"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:137
+msgid "Elastic in/out"
+msgstr "Teygjanlegt inn/út"
+
+#: src/object/custom_particle_system.cpp:445
+#: src/object/custom_particle_system.cpp:480 src/editor/node_marker.cpp:138
+msgid "Back in"
+msgstr "Aftur inn"
+
+#: src/object/custom_particle_system.cpp:445
+#: src/object/custom_particle_system.cpp:480 src/editor/node_marker.cpp:138
+msgid "Back out"
+msgstr "Hætta við"
+
+#: src/object/custom_particle_system.cpp:445
+#: src/object/custom_particle_system.cpp:480 src/editor/node_marker.cpp:138
+msgid "Back in/out"
+msgstr "Aftur inn/út"
+
+#: src/object/custom_particle_system.cpp:446
+#: src/object/custom_particle_system.cpp:481 src/editor/node_marker.cpp:139
+msgid "Bounce in"
+msgstr "Hoppaðu inn"
+
+#: src/object/custom_particle_system.cpp:446
+#: src/object/custom_particle_system.cpp:481 src/editor/node_marker.cpp:139
+msgid "Bounce out"
+msgstr "Hopp út"
+
+#: src/object/custom_particle_system.cpp:446
+#: src/object/custom_particle_system.cpp:481 src/editor/node_marker.cpp:139
+msgid "Bounce in/out"
+msgstr "Hopp inn/út"
+
+#: src/object/custom_particle_system.cpp:462
+msgid "Birth time"
+msgstr "Fæðingartími"
+
+#: src/object/custom_particle_system.cpp:463
+msgid "Birth time variation"
+msgstr "Afbrigði fæðingartíma"
+
+#: src/object/custom_particle_system.cpp:464
+#: src/editor/particle_editor.cpp:170
+msgid "Death mode"
+msgstr "Dauðahamur"
+
+#: src/object/custom_particle_system.cpp:469
+#: src/editor/particle_editor.cpp:173
+msgid "Death easing"
+msgstr "Létt dauða"
+
+#: src/object/custom_particle_system.cpp:497
+msgid "Death time"
+msgstr "Dauðatími"
+
+#: src/object/custom_particle_system.cpp:498
+msgid "Death time variation"
+msgstr "Afbrigði dauðatíma"
+
+#: src/object/custom_particle_system.cpp:501
+msgid "Speed X (variation)"
+msgstr "Hraði X (afbrigði)"
+
+#: src/object/custom_particle_system.cpp:502
+msgid "Speed Y (variation)"
+msgstr "Hraði Y (afbrigði)"
+
+#: src/object/custom_particle_system.cpp:503
+msgid "Acceleration X"
+msgstr "Hröðun X"
+
+#: src/object/custom_particle_system.cpp:504
+msgid "Acceleration Y"
+msgstr "Hröðun Y"
+
+#: src/object/custom_particle_system.cpp:505
+msgid "Friction X"
+msgstr "Núningur X"
+
+#: src/object/custom_particle_system.cpp:506
+msgid "Friction Y"
+msgstr "Núningur Y"
+
+#: src/object/custom_particle_system.cpp:507
+#: src/editor/particle_editor.cpp:189
+msgid "Feather factor"
+msgstr "Fjöðurþáttur"
+
+#: src/object/custom_particle_system.cpp:508
+msgid "Rotation"
+msgstr "Snúningur"
+
+#: src/object/custom_particle_system.cpp:509
+msgid "Rotation (variation)"
+msgstr "Snúningur (afbrigði)"
+
+#: src/object/custom_particle_system.cpp:510
+#: src/editor/particle_editor.cpp:195
+msgid "Rotation speed"
+msgstr "Snúningshraði"
+
+#: src/object/custom_particle_system.cpp:511
+msgid "Rotation speed (variation)"
+msgstr "Snúningshraði (afbrigði)"
+
+#: src/object/custom_particle_system.cpp:512
+#: src/editor/particle_editor.cpp:200
+msgid "Rotation acceleration"
+msgstr "Snúningshröðun"
+
+#: src/object/custom_particle_system.cpp:513
+msgid "Rotation friction"
+msgstr "Snúningur núningur"
+
+#: src/object/custom_particle_system.cpp:514
+#: src/editor/particle_editor.cpp:208
+msgid "Rotation mode"
+msgstr "Snúningshamur"
+
+#: src/object/custom_particle_system.cpp:515
+#: src/editor/particle_editor.cpp:206
+msgid "Fixed"
+msgstr "Lagað"
+
+#: src/object/custom_particle_system.cpp:515
+#: src/editor/particle_editor.cpp:205
+msgid "Facing"
+msgstr "Frammi fyrir"
+
+#: src/object/custom_particle_system.cpp:515
+#: src/editor/particle_editor.cpp:204
+msgid "Wiggling"
+msgstr "Víkjandi"
+
+#: src/object/custom_particle_system.cpp:519
+#: src/editor/particle_editor.cpp:219
+msgid "Collision mode"
+msgstr "Áreksturshamur"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "None (pass through)"
+msgstr "Enginn (fara í gegnum)"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Stick"
+msgstr "Stafur"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Stick Forever"
+msgstr "Festu að eilífu"
+
+#: src/object/custom_particle_system.cpp:520
+#: src/editor/particle_editor.cpp:214
+msgid "Bounce (heavy)"
+msgstr "Hopp (þungt)"
+
+#: src/object/custom_particle_system.cpp:520
+#: src/editor/particle_editor.cpp:213
+msgid "Bounce (light)"
+msgstr "Hopp (létt)"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Kill particle"
+msgstr "Drepa ögn"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Fade out particle"
+msgstr "Fade out ögn"
+
+#: src/object/custom_particle_system.cpp:524
+msgid "Delete if off-screen"
+msgstr "Eyða ef það er ekki á skjánum"
+
+#: src/object/custom_particle_system.cpp:525
+#: src/editor/particle_editor.cpp:224
+msgid "Never"
+msgstr "Aldrei"
+
+#: src/object/custom_particle_system.cpp:525
+#: src/editor/particle_editor.cpp:223
+msgid "Only on exit"
+msgstr "Aðeins við brottför"
+
+#: src/object/custom_particle_system.cpp:525
+msgid "Always"
+msgstr "Alltaf"
+
+#: src/object/custom_particle_system.cpp:529
+msgid "Cover screen"
+msgstr "Hlífðarskjár"
+
+#: src/object/ispy.hpp:33
+msgid "Ispy"
+msgstr "Ég njósna"
+
+#: src/object/skull_tile.hpp:32
+msgid "Skull Tile"
+msgstr "Hauskúpuflísar"
+
+#: src/object/particle_zone.cpp:80
+msgid "Particle Name"
+msgstr "Nafn ögn"
+
+#: src/object/particle_zone.cpp:81
+msgid "Zone Type"
+msgstr "Tegund svæðis"
+
+#: src/object/particle_zone.cpp:82
+msgid "Spawn"
+msgstr "Hrygna"
+
+#: src/object/particle_zone.cpp:82
+msgid "Life zone"
+msgstr "Lífssvæði"
+
+#: src/object/particle_zone.cpp:82
+msgid "Life zone (clear)"
+msgstr "Lífssvæði (hreinsað)"
+
+#: src/object/particle_zone.cpp:82
+msgid "Kill particles"
+msgstr "Drepa agnir"
+
+#: src/object/particle_zone.cpp:82
+msgid "Clear particles"
+msgstr "Tærar agnir"
+
+#: src/object/weak_block.cpp:211
+msgid "Linked"
+msgstr "Tengd"
+
+#: src/object/decal.hpp:40
+msgid "Decal"
+msgstr "Límmiði"
+
+#: src/object/tilemap.cpp:229
+msgid "Resize offset x"
+msgstr "Breyta stærð offset x"
+
+#: src/object/tilemap.cpp:230
+msgid "Resize offset y"
+msgstr "Breyta stærð offset y"
+
+#: src/object/tilemap.cpp:232 src/supertux/menu/editor_sector_menu.cpp:39
+#: src/editor/object_option.cpp:173
+msgid "Width"
+msgstr "Breidd"
+
+#: src/object/tilemap.cpp:233 src/supertux/menu/editor_sector_menu.cpp:40
+#: src/editor/object_option.cpp:174
+msgid "Height"
+msgstr "Hæð"
+
+#: src/object/tilemap.cpp:235
+msgid "Alpha"
+msgstr "Alfa"
+
+#: src/object/tilemap.cpp:236
+msgid "Speed x"
+msgstr "Hraði x"
+
+#: src/object/tilemap.cpp:237
+msgid "Speed y"
+msgstr "Hraði y"
+
+#: src/object/tilemap.cpp:238
+msgid "Tint"
+msgstr "Litur"
+
+#: src/object/tilemap.cpp:257 src/supertux/menu/editor_tilegroup_menu.cpp:26
+#: src/editor/toolbox_widget.cpp:90
+msgid "Tiles"
+msgstr "Flísar"
+
+#: src/object/gradient.cpp:128
+msgid "Left Colour"
+msgstr "Vinstri litur"
+
+#: src/object/gradient.cpp:129
+msgid "Right Colour"
+msgstr "Réttur litur"
+
+#: src/object/gradient.cpp:131
+msgid "Top Colour"
+msgstr "Topp litur"
+
+#: src/object/gradient.cpp:132
+msgid "Bottom Colour"
+msgstr "Botn litur"
+
+#: src/object/gradient.cpp:138
+msgid "Vertical"
+msgstr "Lóðrétt"
+
+#: src/object/gradient.cpp:138
+msgid "Horizontal"
+msgstr "Lárétt"
+
+#: src/object/gradient.cpp:138
+msgid "Vertical (whole sector)"
+msgstr "Lóðrétt (allur geiri)"
+
+#: src/object/gradient.cpp:138
+msgid "Horizontal (whole sector)"
+msgstr "Lárétt (allur geiri)"
+
+#: src/object/gradient.cpp:148
+msgid "Blend mode"
+msgstr "Blöndunarstilling"
+
+#: src/object/gradient.cpp:149
+msgid "Blend"
+msgstr "Blanda"
+
+#: src/object/gradient.cpp:149
+msgid "Additive"
+msgstr "Aukefni"
+
+#: src/object/gradient.cpp:149
+msgid "Modulate"
+msgstr "Móta"
+
+#: src/object/bumper.hpp:35
+msgid "Bumper"
+msgstr "Stuðara"
+
+#: src/object/unstable_tile.hpp:37
+msgid "Unstable Tile"
+msgstr "Óstöðug flísar"
+
+#: src/object/brick.hpp:31
+msgid "Brick"
+msgstr "Múrsteinn"
+
+#: src/object/invisible_wall.hpp:34
+msgid "Invisible Wall"
+msgstr "Ósýnilegur veggur"
+
+#: src/object/spotlight.hpp:51
+msgid "Spotlight"
+msgstr "Kastljós"
+
+#: src/object/scripted_object.hpp:39
+msgid "Scripted Object"
+msgstr "Skrifað hlutur"
+
+#: src/object/custom_particle_system_file.hpp:39
+msgid "Custom Particles from file"
+msgstr "Sérsniðnar agnir úr skrá"
+
+#: src/object/coin.hpp:78
+msgid "Heavy Coin"
+msgstr "Þungur mynt"
+
+#: src/object/bonus_block.hpp:56
+msgid "Bonus Block"
+msgstr "Bónus blokk"
+
+#: src/object/magicblock.hpp:41
+msgid "Magic Tile"
+msgstr "Töfraflísar"
+
+#: src/object/camera.hpp:67
+msgid "Camera"
+msgstr "Myndavél"
+
+#: src/object/textscroller.hpp:44
+msgid "Text Scroller"
+msgstr "Textaskrollari"
+
+#: src/gui/menu_badguy_select.cpp:94
+msgid "List of enemies"
+msgstr "Listi yfir óvini"
+
+#: src/gui/menu_badguy_select.cpp:96
+msgid "Select enemy"
+msgstr "Veldu óvin"
+
+#: src/gui/menu_badguy_select.cpp:97
+msgid "Add"
+msgstr "Bæta við"
+
+#: src/gui/menu_badguy_select.cpp:107 src/gui/menu_color.cpp:37
+#: src/gui/dialog.hpp:81 src/gui/menu_script.cpp:47
+#: src/supertux/menu/editor_sector_menu.cpp:46
+#: src/supertux/menu/editor_levelset_menu.cpp:62
+#: src/supertux/menu/addon_menu.cpp:349
+#: src/supertux/menu/editor_new_levelset_menu.cpp:37
+#: src/supertux/menu/editor_level_menu.cpp:45 src/editor/object_menu.cpp:43
+msgid "OK"
+msgstr "OK"
+
+#: src/gui/menu_badguy_select.cpp:136
+msgid "Do you want to delete this badguy from the list?"
+msgstr "Viltu eyða þessum galla af listanum?"
+
+#: src/gui/menu_badguy_select.cpp:137 src/gui/dialog.hpp:90
+#: src/supertux/menu/editor_level_select_menu.cpp:164
+#: src/supertux/menu/editor_menu.cpp:164 src/editor/editor.cpp:583
+msgid "Yes"
+msgstr "Já"
+
+#: src/gui/menu_badguy_select.cpp:140 src/gui/dialog.hpp:91
+#: src/supertux/menu/editor_level_select_menu.cpp:168
+#: src/supertux/menu/editor_menu.cpp:167 src/editor/particle_editor.cpp:780
+#: src/editor/editor.cpp:590
+msgid "No"
+msgstr "Nei"
+
+#: src/gui/menu_color.cpp:24
+msgid "Mix the colour"
+msgstr "Blandið litnum saman"
+
+#: src/gui/menu_filesystem.cpp:112 src/gui/menu_paths.cpp:44
+#: src/supertux/menu/particle_editor_save_as.cpp:42
+#: src/supertux/menu/editor_sectors_menu.cpp:45
+#: src/supertux/menu/editor_sectors_menu.cpp:95
+#: src/supertux/menu/editor_sectors_menu.cpp:100
+#: src/supertux/menu/editor_objectgroup_menu.cpp:42
+#: src/supertux/menu/editor_tilegroup_menu.cpp:36
+#: src/supertux/menu/editor_level_select_menu.cpp:173
+#: src/supertux/menu/editor_save_as.cpp:42
+#: src/supertux/menu/particle_editor_open.cpp:43
+#: src/editor/particle_editor.cpp:784 src/editor/editor.cpp:594
+msgid "Cancel"
+msgstr "Hætta við"
+
+#: src/gui/menu_script.cpp:28
+msgid "Edit script"
+msgstr "Breyta handriti"
+
+#: src/gui/menu_paths.cpp:30
+msgid "Clone"
+msgstr "Klóna"
+
+#: src/gui/menu_paths.cpp:38
+msgid ""
+"An error occured and the game could\n"
+"not clone the path. Please contact\n"
+"the developers for support."
+msgstr "Villa kom upp og leikurinn gæti\nekki klóna slóðina. Vinsamlegast hafðu samband\nhönnuði fyrir stuðning."
+
+#: src/gui/menu_paths.cpp:41
+msgid "Bind"
+msgstr "Bind"
+
+#: src/gui/menu_paths.cpp:63 src/supertux/menu/integrations_menu.cpp:60
+#: src/supertux/menu/contrib_menu.cpp:161 src/supertux/menu/debug_menu.cpp:75
+#: src/supertux/menu/editor_level_select_menu.cpp:88
+#: src/supertux/menu/worldmap_cheat_menu.cpp:55
+#: src/supertux/menu/worldmap_cheat_menu.cpp:153
+#: src/supertux/menu/editor_levelset_select_menu.cpp:114
+#: src/supertux/menu/options_menu.cpp:442
+#: src/supertux/menu/profile_menu.cpp:54 src/supertux/menu/addon_menu.cpp:213
+#: src/supertux/menu/editor_new_levelset_menu.cpp:40
+#: src/supertux/menu/world_set_menu.cpp:33
+#: src/supertux/menu/web_asset_menu.cpp:48
+#: src/supertux/menu/keyboard_menu.cpp:49
+#: src/supertux/menu/language_menu.cpp:56
+#: src/supertux/menu/joystick_menu.cpp:97
+#: src/supertux/menu/contrib_levelset_menu.cpp:67
+#: src/supertux/menu/cheat_menu.cpp:44
+#: src/supertux/menu/editor_delete_level_menu.cpp:43
+msgid "Back"
+msgstr "Til baka"
+
+#: src/badguy/toad.hpp:37
+msgid "Toad"
+msgstr "Karta"
+
+#: src/badguy/mrtree.hpp:29
+msgid "Walking Tree"
+msgstr "Göngutré"
+
+#: src/badguy/plant.hpp:33
+msgid "Plant"
+msgstr "Planta"
+
+#: src/badguy/crystallo.hpp:30
+msgid "Crystallo"
+msgstr "Kristalló"
+
+#: src/badguy/totem.hpp:36
+msgid "Totem"
+msgstr "Tótem"
+
+#: src/badguy/stalactite.hpp:38
+msgid "Stalactite"
+msgstr "Sturlasteinn"
+
+#: src/badguy/haywire.hpp:45
+msgid "Haywire"
+msgstr "Heyvír"
+
+#: src/badguy/dispenser.hpp:48
+msgid "Dispenser"
+msgstr "Skammtari"
+
+#: src/badguy/short_fuse.hpp:29
+msgid "Short Fuse"
+msgstr "Stutt öryggi"
+
+#: src/badguy/zeekling.hpp:36
+msgid "Zeekling"
+msgstr "Zeekling"
+
+#: src/badguy/mriceblock.hpp:46
+msgid "Iceblock"
+msgstr "Ísblokk"
+
+#: src/badguy/scrystallo.cpp:52
+msgid "Walk Radius"
+msgstr "Ganga Radíus"
+
+#: src/badguy/scrystallo.cpp:53
+msgid "Awakening Radius"
+msgstr "Vakningarradíus"
+
+#: src/badguy/jumpy.hpp:36
+msgid "Jumpy"
+msgstr "Stökk"
+
+#: src/badguy/captainsnowball.hpp:31
+msgid "Captain Snowball"
+msgstr "Snjóbolti skipstjóri"
+
+#: src/badguy/ghosttree.hpp:42
+msgid "Ghost Tree"
+msgstr "Draugatré"
+
+#: src/badguy/willowisp.cpp:323
+msgid "Track range"
+msgstr "Lagasvið"
+
+#: src/badguy/willowisp.cpp:324
+msgid "Vanish range"
+msgstr "Vanish svið"
+
+#: src/badguy/willowisp.cpp:325
+msgid "Fly speed"
+msgstr "Flughraði"
+
+#: src/badguy/kugelblitz.hpp:39
+msgid "Kugelblitz"
+msgstr "Kugelblitz"
+
+#: src/badguy/mole_rock.hpp:43
+msgid "Mole's rock"
+msgstr "Mola steinn"
+
+#: src/badguy/badguy.cpp:849
+msgid "Death script"
+msgstr "Dauðahandrit"
+
+#: src/badguy/sspiky.hpp:36
+msgid "Sleeping Spiky"
+msgstr "Sofandi Spiky"
+
+#: src/badguy/yeti_stalactite.hpp:33
+msgid "Yeti's Stalactite"
+msgstr "Sturpsteinn Yeti"
+
+#: src/badguy/livefire.hpp:37
+msgid "Walking Flame"
+msgstr "Gangandi Logi"
+
+#: src/badguy/livefire.hpp:68
+msgid "Sleeping Flame"
+msgstr "Svefnlogi"
+
+#: src/badguy/livefire.hpp:84
+msgid "Dormant Flame"
+msgstr "Sofandi logi"
+
+#: src/badguy/owl.hpp:39
+msgid "Owl"
+msgstr "Ugla"
+
+#: src/badguy/igel.hpp:34
+msgid "Igel"
+msgstr "Igel"
+
+#: src/badguy/darttrap.cpp:126
+msgid "Initial delay"
+msgstr "Upphafleg seinkun"
+
+#: src/badguy/darttrap.cpp:128
+msgid "Fire delay"
+msgstr "Bruna seinkun"
+
+#: src/badguy/darttrap.cpp:129
+msgid "Ammo"
+msgstr "Ammo"
+
+#: src/badguy/snowball.hpp:29
+msgid "Snowball"
+msgstr "Snjóbolti"
+
+#: src/badguy/smartblock.hpp:29
+msgid "Smartblock"
+msgstr "Smartblock"
+
+#: src/badguy/yeti.cpp:369
+msgid "Fixed position"
+msgstr "Föst staða"
+
+#: src/badguy/yeti.cpp:370
+msgid "Lives"
+msgstr "Lifir"
+
+#: src/badguy/goldbomb.hpp:49
+msgid "Gold Bomb"
+msgstr "Gullsprengja"
+
+#: src/badguy/flyingsnowball.hpp:32
+msgid "Flying Snowball"
+msgstr "Fljúgandi snjóbolti"
+
+#: src/badguy/skullyhop.hpp:37
+msgid "Skullyhop"
+msgstr "Skullyhop"
+
+#: src/badguy/kamikazesnowball.hpp:32
+msgid "Snowshot"
+msgstr "Snjóskot"
+
+#: src/badguy/kamikazesnowball.hpp:52
+msgid "Leafshot"
+msgstr "Laufmynd"
+
+#: src/badguy/flame.hpp:41
+msgid "Flame"
+msgstr "Logi"
+
+#: src/badguy/scrystallo.hpp:30
+msgid "Sleeping Crystallo"
+msgstr "Sofandi Crystallo"
+
+#: src/badguy/poisonivy.hpp:30
+msgid "Spring Leaf"
+msgstr "Vorblað"
+
+#: src/badguy/willowisp.hpp:57
+msgid "Will o' Wisp"
+msgstr "Will o' Wisp"
+
+#: src/badguy/badguy.hpp:53
+msgid "Badguy"
+msgstr "Vondur kall"
+
+#: src/badguy/ghostflame.hpp:30
+msgid "Ghost Flame"
+msgstr "Draugalogi"
+
+#: src/badguy/rcrystallo.hpp:30
+msgid "Roof Crystallo"
+msgstr "Þak Crystallo"
+
+#: src/badguy/spiky.hpp:30
+msgid "Spiky"
+msgstr "Gagnótt"
+
+#: src/badguy/walkingleaf.hpp:30
+msgid "Autumn Leaf"
+msgstr "Haustblað"
+
+#: src/badguy/owl.cpp:227
+msgid "Carry"
+msgstr "Bera"
+
+#: src/badguy/darttrap.hpp:33
+msgid "Dart Trap"
+msgstr "Pílugildra"
+
+#: src/badguy/skydive.hpp:38
+msgid "Skydive"
+msgstr "Fallhlífarstökk"
+
+#: src/badguy/yeti.hpp:37
+msgid "Yeti"
+msgstr "Yeti"
+
+#: src/badguy/mole.hpp:39
+msgid "Mole"
+msgstr "Mól"
+
+#: src/badguy/mrbomb.hpp:42
+msgid "Bomb"
+msgstr "Sprengja"
+
+#: src/badguy/walking_candle.hpp:40
+msgid "Walking Candle"
+msgstr "Göngukerti"
+
+#: src/badguy/angrystone.hpp:34
+msgid "Angry Stone"
+msgstr "Reiður steinn"
+
+#: src/badguy/spidermite.hpp:35
+msgid "Spider"
+msgstr "Kónguló"
+
+#: src/badguy/ghoul.hpp:30
+msgid "Ghoul"
+msgstr "Gull"
+
+#: src/badguy/snowman.hpp:28
+msgid "Snowman"
+msgstr "Snjókarl"
+
+#: src/badguy/stumpy.hpp:35
+msgid "Walking Stump"
+msgstr "Gangandi stubbur"
+
+#: src/badguy/fish.hpp:40
+msgid "Fish"
+msgstr "Fiskur"
+
+#: src/badguy/dispenser.cpp:445
+msgid "Interval (seconds)"
+msgstr "Bil (sekúndur)"
+
+#: src/badguy/dispenser.cpp:446
+msgid "Random"
+msgstr "Handahófi"
+
+#: src/badguy/dispenser.cpp:447 data//images/engine/editor/objects.stoi:4
+msgid "Enemies"
+msgstr "Óvinir"
+
+#: src/badguy/dispenser.cpp:448
+msgid "Limit dispensed badguys"
+msgstr "Takmarka afgreidda krakka"
+
+#: src/badguy/dispenser.cpp:450
+msgid "Obey Gravity"
+msgstr "Hlýðið Gravity"
+
+#: src/badguy/dispenser.cpp:452
+msgid "Max concurrent badguys"
+msgstr "Hámark samtímis töffarar"
+
+#: src/badguy/dispenser.cpp:454 src/supertux/menu/editor_levelset_menu.cpp:60
+msgid "Type"
+msgstr "Tegund"
+
+#: src/badguy/dispenser.cpp:455
+msgid "dropper"
+msgstr "dropatæki"
+
+#: src/badguy/dispenser.cpp:455
+msgid "rocket launcher"
+msgstr "eldflaugar"
+
+#: src/badguy/dispenser.cpp:455
+msgid "cannon"
+msgstr "fallbyssu"
+
+#: src/badguy/dispenser.cpp:455
+msgid "invisible"
+msgstr "ósýnilegur"
+
+#: src/badguy/snail.hpp:42
+msgid "Snail"
+msgstr "Snigill"
+
+#: src/badguy/smartball.hpp:31
+msgid "Smartball"
+msgstr "Smartball"
+
+#: src/badguy/bouncing_snowball.hpp:32
+msgid "Bouncing Snowball"
+msgstr "Skoppandi snjóbolti"
+
+#: src/badguy/iceflame.hpp:33
+msgid "Ice Flame"
+msgstr "Íslogi"
+
+#: src/badguy/dart.hpp:43
+msgid "Dart"
+msgstr "Píla"
+
+#: src/supertux/statistics.cpp:54
+msgid "Max coins collected:"
+msgstr "Hámarks mynt sem safnast:"
+
+#: src/supertux/statistics.cpp:55
+msgid "Max fragging:"
+msgstr "Hámarks fragging:"
+
+#: src/supertux/statistics.cpp:56
+msgid "Max secrets found:"
+msgstr "Hámarks leyndarmál fundust:"
+
+#: src/supertux/statistics.cpp:57
+msgid "Best time completed:"
+msgstr "Besti tími lokið:"
+
+#: src/supertux/statistics.cpp:58
+msgid "Level target time:"
+msgstr "Stig marktími:"
+
+#: src/supertux/statistics.cpp:149 src/supertux/levelintro.cpp:160
+msgid "Best Level Statistics"
+msgstr "Bestu stigstölfræði"
+
+#: src/supertux/statistics.cpp:238
+msgid "You"
+msgstr "Þú"
+
+#: src/supertux/statistics.cpp:240
+msgid "Best"
+msgstr "Besta"
+
+#: src/supertux/statistics.cpp:242 src/supertux/levelintro.cpp:166
+msgid "Coins"
+msgstr "Mynt"
+
+#: src/supertux/statistics.cpp:265
+msgid "Badguys"
+msgstr "Badgus"
+
+#: src/supertux/statistics.cpp:281 src/supertux/levelintro.cpp:172
+msgid "Secrets"
+msgstr "Leyndarmál"
+
+#: src/supertux/game_object.hpp:78
+msgid "Unknown object"
+msgstr "Óþekktur hlutur"
+
+#: src/supertux/sector.cpp:414
+msgid "Press escape to skip"
+msgstr "Ýttu á Escape til að sleppa"
+
+#: src/supertux/command_line_arguments.cpp:94
+#, c-format
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "Notkun: {} [OPTIONS] [LEVELFILE]"
+
+#: src/supertux/command_line_arguments.cpp:95
+msgid "General Options:"
+msgstr "Almennir valkostir:"
+
+#: src/supertux/command_line_arguments.cpp:96
+msgid "  -h, --help                   Show this help message and quit"
+msgstr "-h, --help                     Sýndu þessi hjálparskilaboð og hættu"
+
+#: src/supertux/command_line_arguments.cpp:97
+msgid "  -v, --version                Show SuperTux version and quit"
+msgstr "-v, --version               Sýna SuperTux útgáfu og hætta"
+
+#: src/supertux/command_line_arguments.cpp:98
+msgid "  --verbose                    Print verbose messages"
+msgstr "--orðtak                         Prenta orðrétt skilaboð"
+
+#: src/supertux/command_line_arguments.cpp:99
+msgid "  --debug                      Print extra verbose messages"
+msgstr "--debug                        Prenta fleiri orðrétt skilaboð"
+
+#: src/supertux/command_line_arguments.cpp:100
+msgid ""
+"  --print-datadir              Print SuperTux's primary data directory."
+msgstr "-v, --version              Sýna SuperTux útgáfu og hætta"
+
+#: src/supertux/command_line_arguments.cpp:101
+msgid ""
+"  --acknowledgements           Print the licenses of libraries used by "
+"SuperTux."
+msgstr "--viðurkenningar                Prenta leyfi bókasöfnum sem SuperTux notar."
+
+#: src/supertux/command_line_arguments.cpp:103
+msgid "Video Options:"
+msgstr "Myndbandsvalkostir:"
+
+#: src/supertux/command_line_arguments.cpp:104
+msgid "  -f, --fullscreen             Run in fullscreen mode"
+msgstr "-f, --fullscreen               Keyra í fullskjásstillingu"
+
+#: src/supertux/command_line_arguments.cpp:105
+msgid "  -w, --window                 Run in window mode"
+msgstr "-w, --window                     Keyra í gluggaham"
+
+#: src/supertux/command_line_arguments.cpp:106
+msgid "  -g, --geometry WIDTHxHEIGHT  Run SuperTux in given resolution"
+msgstr "-g, --geometry WIDTHxHEIGHT  Keyrðu SuperTux í tiltekinni upplausn"
+
+#: src/supertux/command_line_arguments.cpp:107
+msgid "  -a, --aspect WIDTH:HEIGHT    Run SuperTux with given aspect ratio"
+msgstr "-a, --aspect WIDTH:HEIGHT     Keyrðu SuperTux með uppgefnu stærðarhlutfalli"
+
+#: src/supertux/command_line_arguments.cpp:108
+msgid "  -d, --default                Reset video settings to default values"
+msgstr "-d, --default                   Endurstilla myndbandsstillingar á sjálfgefin gildi"
+
+#: src/supertux/command_line_arguments.cpp:109
+msgid "  --renderer RENDERER          Use sdl, opengl, or auto to render"
+msgstr "--renderer RENDERER Notaðu sdl, opengl eða auto til að birta"
+
+#: src/supertux/command_line_arguments.cpp:111
+msgid "Audio Options:"
+msgstr "Hljóðvalkostir:"
+
+#: src/supertux/command_line_arguments.cpp:112
+msgid "  --disable-sound              Disable sound effects"
+msgstr "--disable-sound               Slökkva á hljóðbrellum"
+
+#: src/supertux/command_line_arguments.cpp:113
+msgid "  --disable-music              Disable music"
+msgstr "--disable-music               Slökkva á tónlist"
+
+#: src/supertux/command_line_arguments.cpp:115
+msgid "Game Options:"
+msgstr "Leikjavalkostir:"
+
+#: src/supertux/command_line_arguments.cpp:116
+msgid "  --edit-level                 Open given level in editor"
+msgstr "--edit-level                   Opna gefið stig í ritstjóra"
+
+#: src/supertux/command_line_arguments.cpp:117
+msgid "  --resave                     Loads given level and saves it"
+msgstr "  --resave                     Hleður gefið stig og vistar það"
+
+#: src/supertux/command_line_arguments.cpp:118
+msgid "  --show-fps                   Display framerate in levels"
+msgstr "--show-fps                     Sýna rammahraða í stigum"
+
+#: src/supertux/command_line_arguments.cpp:119
+msgid "  --no-show-fps                Do not display framerate in levels"
+msgstr "--no-show-fps                  Ekki sýna rammahraða í stigum"
+
+#: src/supertux/command_line_arguments.cpp:120
+msgid "  --show-pos                   Display player's current position"
+msgstr "--show-pos                     Sýna núverandi stöðu leikmanns"
+
+#: src/supertux/command_line_arguments.cpp:121
+msgid "  --no-show-pos                Do not display player's position"
+msgstr "  --no-show-pos               Ekki sýna stöðu leikmanns"
+
+#: src/supertux/command_line_arguments.cpp:122
+msgid "  --developer                  Switch on developer feature"
+msgstr "  --hönnuði                     Kveiktu á forritaraeiginleika"
+
+#: src/supertux/command_line_arguments.cpp:123
+msgid "  -s, --debug-scripts          Enable script debugger."
+msgstr "-s, --debug-scripts           Virkja scripta kembiforrit."
+
+#: src/supertux/command_line_arguments.cpp:124
+msgid ""
+"  --spawn-pos X,Y              Where in the level to spawn Tux. Only used if"
+" level is specified."
+msgstr "--spawn-pos X,Y              Hvar í borðinu til að spawna Tux. Aðeins notað ef stig er tilgreint."
+
+#: src/supertux/command_line_arguments.cpp:125
+msgid "  --sector SECTOR              Spawn Tux in SECTOR\n"
+msgstr " --sector SECTOR               Hrygna Tux í SECTOR\n"
+
+#: src/supertux/command_line_arguments.cpp:126
+msgid "  --spawnpoint SPAWNPOINT      Spawn Tux at SPAWNPOINT\n"
+msgstr " --spawnpoint SPAWNPOINT        Hrygna Tux á SPAWNPOINT\n"
+
+#: src/supertux/command_line_arguments.cpp:128
+msgid "Demo Recording Options:"
+msgstr "Demo Upptökuvalkostir:"
+
+#: src/supertux/command_line_arguments.cpp:129
+msgid "  --record-demo FILE LEVEL     Record a demo to FILE"
+msgstr "--record-demo FILE LEVEL       Taktu upp kynningu í FILE"
+
+#: src/supertux/command_line_arguments.cpp:130
+msgid "  --play-demo FILE LEVEL       Play a recorded demo"
+msgstr "  --play-demo FILE LEVEL       Spila upptöku demo"
+
+#: src/supertux/command_line_arguments.cpp:132
+msgid "Directory Options:"
+msgstr "Skráarvalkostir:"
+
+#: src/supertux/command_line_arguments.cpp:133
+msgid ""
+"  --datadir DIR                Set the directory for the games datafiles"
+msgstr " --datadir DIR                 Stilltu möppuna fyrir leikjagagnaskrárnar"
+
+#: src/supertux/command_line_arguments.cpp:134
+msgid ""
+"  --userdir DIR                Set the directory for user data (savegames, "
+"etc.)"
+msgstr " --userdir DIR                 Stilltu möppuna fyrir notendagögn (savegames, osfrv.)"
+
+#: src/supertux/command_line_arguments.cpp:136
+msgid "Add-On Options:"
+msgstr "Viðbótarvalkostir:"
+
+#: src/supertux/command_line_arguments.cpp:137
+msgid "  --repository-url URL         Set the URL to the Add-On repository"
+msgstr "--repository-url URL Stilltu slóðina á viðbótargeymsluna"
+
+#: src/supertux/command_line_arguments.cpp:139
+msgid "Environment variables:"
+msgstr "Umhverfisbreytur:"
+
+#: src/supertux/command_line_arguments.cpp:140
+msgid ""
+"  SUPERTUX2_USER_DIR           Directory for user data (savegames, etc.)"
+msgstr "SUPERTUX2_USER_DIR             Skrá fyrir notendagögn (savegames osfrv.)"
+
+#: src/supertux/command_line_arguments.cpp:141
+msgid "  SUPERTUX2_DATA_DIR           Directory for the games datafiles"
+msgstr "SUPERTUX2_USER_DIR             Skrá fyrir gagnaskrár leikjanna"
+
+#: src/supertux/title_screen.cpp:44
+msgid "Copyright"
+msgstr "Höfundarréttur"
+
+#: src/supertux/title_screen.cpp:45
+msgid ""
+"This game comes with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to\n"
+"redistribute it under certain conditions; see the license file for details.\n"
+msgstr "Þessi leikur kemur með ALGJÖR ENGA ÁBYRGÐ. Þetta er ókeypis hugbúnaður og þér er velkomið að\nendurdreifa því við ákveðnar aðstæður; sjá leyfisskrána fyrir frekari upplýsingar.\n"
+
+#: src/supertux/menu/integrations_menu.cpp:49
+msgid "Integrations"
+msgstr "Samþættingar"
+
+#: src/supertux/menu/integrations_menu.cpp:51
+msgid "Do not share level names when editing"
+msgstr "Ekki deila stigsnöfnum við breytingar"
+
+#: src/supertux/menu/integrations_menu.cpp:54
+msgid "Enable Discord integration"
+msgstr "Virkjaðu Discord samþættingu"
+
+#: src/supertux/menu/integrations_menu.cpp:57
+msgid "Discord (disabled; not compiled)"
+msgstr "Discord (óvirkt; ekki sett saman)"
+
+#: src/supertux/menu/contrib_menu.cpp:80
+#: src/supertux/menu/world_set_menu.cpp:31
+msgid "Contrib Levels"
+msgstr "Framlagsstig"
+
+#: src/supertux/menu/debug_menu.cpp:32
+msgid "Debug"
+msgstr "Villuleit"
+
+#: src/supertux/menu/debug_menu.cpp:56
+msgid "Game Speed"
+msgstr "Leikur Hraði"
+
+#: src/supertux/menu/debug_menu.cpp:57
+msgid "Adjust Game Speed"
+msgstr "Stilla leikhraða"
+
+#: src/supertux/menu/debug_menu.cpp:63
+msgid "Show Collision Rects"
+msgstr "Sýna árekstur rects"
+
+#: src/supertux/menu/debug_menu.cpp:64
+msgid "Show Worldmap Path"
+msgstr "Sýna heimskortsleið"
+
+#: src/supertux/menu/debug_menu.cpp:65
+msgid "Show Controller"
+msgstr "Sýna stjórnandi"
+
+#: src/supertux/menu/debug_menu.cpp:66
+msgid "Show Framerate"
+msgstr "Sýna FPS"
+
+#: src/supertux/menu/debug_menu.cpp:67
+msgid "Draw Redundant Frames"
+msgstr "Teiknaðu óþarfa ramma"
+
+#: src/supertux/menu/debug_menu.cpp:68
+msgid "Show Player Position"
+msgstr "Sýna stöðu leikmanns"
+
+#: src/supertux/menu/debug_menu.cpp:69
+msgid "Use Bitmap Fonts"
+msgstr "Notaðu Bitmap leturgerðir"
+
+#: src/supertux/menu/debug_menu.cpp:72
+msgid "Dump Texture Cache"
+msgstr "Afrita texture Cache"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:33
+msgid "Save particle as"
+msgstr "Vista ögn sem"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:37
+#: src/supertux/menu/editor_save_as.cpp:37
+msgid "File name"
+msgstr "Skráarnafn"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:38
+#: src/supertux/menu/editor_save_as.cpp:38 src/editor/particle_editor.cpp:766
+msgid "Save"
+msgstr "Vista"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:31
+msgid "Choose Sector"
+msgstr "Veldu Sector"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:41
+msgid "Sector Settings"
+msgstr "Geirastillingar"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:42
+msgid "Create Sector"
+msgstr "Búa til geira"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:43
+msgid "Delete Sector"
+msgstr "Eyða Sector"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:93
+msgid "Each level must have at least one sector."
+msgstr "Hvert stig verður að hafa að minnsta kosti einn geira."
+
+#: src/supertux/menu/editor_sectors_menu.cpp:98
+msgid "Do you really want to delete this sector?"
+msgstr "Viltu virkilega eyða þessum geira?"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:101
+msgid "Delete sector"
+msgstr "Eyða geira"
+
+#: src/supertux/menu/editor_objectgroup_menu.cpp:30
+#: src/editor/toolbox_widget.cpp:93
+msgid "Objects"
+msgstr "Hlutir"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:62
+msgid "Empty World"
+msgstr "Tómur heimur"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:77
+msgid "Create Level"
+msgstr "Búðu til stig"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:81
+msgid "Edit Worldmap"
+msgstr "Breyta heimskorti"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:83
+msgid "Create Worldmap"
+msgstr "Búðu til heimskort"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:85
+#: src/supertux/menu/editor_delete_level_menu.cpp:33
+msgid "Delete level"
+msgstr "Eyða stigi"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:87
+#: src/supertux/menu/editor_levelset_menu.cpp:56
+msgid "World Settings"
+msgstr "Heimsstillingar"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:127
+msgid ""
+"Share this worldmap under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in worldmap properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "Deildu þessu heimskorti með leyfi CC-BY-SA 4.0 International (ráðlagt). Það leyfir breytingar og endurdreifingu af þriðja aðila. Ef þú ert ekki sammála þessu leyfi skaltu breyta því í eiginleikum heimskortsins. FYRIRVARI: SuperTux höfundar taka enga ábyrgð á vali þínu á leyfi."
+
+#: src/supertux/menu/editor_level_select_menu.cpp:134
+msgid ""
+"Share this level under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in level properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "Deildu þessu stigi undir leyfi CC-BY-SA 4.0 International (ráðlagt). Það leyfir breytingar og endurdreifingu af þriðja aðila. Ef þú ert ekki sammála þessu leyfi skaltu breyta því í stigi eiginleika. FYRIRVARI: SuperTux höfundar taka enga ábyrgð á vali þínu á leyfi."
+
+#: src/supertux/menu/editor_level_select_menu.cpp:162
+msgid ""
+"An auto-save recovery file was found. Would you like to restore the recovery\n"
+"file and resume where you were before the editor crashed?"
+msgstr "Sjálfvirk vistun endurheimtarskrá fannst. Viltu endurheimta\nbatann\nskrá og halda áfram þar sem þú varst áður en ritstjórinn hrundi?"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:169
+msgid "This will delete the auto-save file. Are you sure?"
+msgstr "Þetta mun eyða sjálfvirku vistunarskránni. Ertu viss?"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:34
+#: src/supertux/menu/cheat_menu.cpp:30
+msgid "Cheats"
+msgstr "Svindlari"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:36
+#: src/supertux/menu/cheat_menu.cpp:32
+msgid "Bonus: Grow"
+msgstr "Bónus: Vaxa"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:37
+msgid "Bonus: Fire"
+msgstr "Bónus: Eldur"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:38
+msgid "Bonus: Ice"
+msgstr "Bónus: Ís"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:39
+msgid "Bonus: Air"
+msgstr "Bónus: Loft"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:40
+msgid "Bonus: Earth"
+msgstr "Bónus: Jörð"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:41
+msgid "Bonus: None"
+msgstr "Bónus: Enginn"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:44
+#: src/supertux/menu/cheat_menu.cpp:42
+msgid "Leave Ghost Mode"
+msgstr "Farðu úr draugastillingu"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:44
+#: src/supertux/menu/cheat_menu.cpp:42
+msgid "Activate Ghost Mode"
+msgstr "Virkjaðu draugaham"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:46
+#: src/supertux/menu/cheat_menu.cpp:40
+msgid "Finish Level"
+msgstr "Ljúka stig"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:47
+msgid "Reset Level"
+msgstr "Endurstilla stig"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:49
+msgid "Finish Worldmap"
+msgstr "Klára heimskort"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:50
+msgid "Reset Worldmap"
+msgstr "Endurstilla heimskort"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:52
+msgid "Go to level"
+msgstr "Farðu á stig"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:53
+msgid "Go to main spawnpoint"
+msgstr "Farðu í aðal spawnpoint"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:145
+msgid "Select level"
+msgstr "Veldu stig"
+
+#: src/supertux/menu/editor_save_as.cpp:33
+#: src/supertux/menu/editor_menu.cpp:49
+msgid "Save Level as"
+msgstr "Vista stig sem"
+
+#: src/supertux/menu/editor_save_as.cpp:33
+#: src/supertux/menu/editor_menu.cpp:50
+msgid "Save Copy"
+msgstr "Vista afrit"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:72
+msgid "Choose World"
+msgstr "Veldu Heimur"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:100
+#, c-format
+msgid "%d level"
+msgid_plural "%d levels"
+msgstr[0] "%d stigi"
+msgstr[1] "%d stigum"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:113
+msgid "Create World"
+msgstr "Skapa heim"
+
+#: src/supertux/menu/options_menu.cpp:98 src/supertux/menu/main_menu.cpp:64
+#: src/supertux/menu/game_menu.cpp:61 src/supertux/menu/worldmap_menu.cpp:31
+msgid "Options"
+msgstr "Valmöguleikar"
+
+#: src/supertux/menu/options_menu.cpp:104
+#: src/supertux/menu/options_menu.cpp:142
+#: src/supertux/menu/options_menu.cpp:455
+#: src/supertux/menu/options_menu.cpp:476 src/editor/object_settings.cpp:119
+msgid "auto"
+msgstr "sjálfvirkt"
+
+#: src/supertux/menu/options_menu.cpp:221
+msgid "Desktop"
+msgstr "Skrifborð"
+
+#: src/supertux/menu/options_menu.cpp:251
+msgid "on"
+msgstr "á"
+
+#: src/supertux/menu/options_menu.cpp:252
+msgid "off"
+msgstr "af"
+
+#: src/supertux/menu/options_menu.cpp:253
+msgid "adaptive"
+msgstr "aðlögunarhæfni"
+
+#: src/supertux/menu/options_menu.cpp:347
+msgid "Select Language"
+msgstr "Veldu tungumál"
+
+#: src/supertux/menu/options_menu.cpp:348
+msgid "Select a different language to display text in"
+msgstr "Veldu annað tungumál til að birta texta á"
+
+#: src/supertux/menu/options_menu.cpp:350
+msgid "Language Packs"
+msgstr "Tungumálapakkar"
+
+#: src/supertux/menu/options_menu.cpp:351
+msgid "Language packs contain up-to-date translations"
+msgstr "Tungumálapakkar innihalda uppfærðar þýðingar"
+
+#: src/supertux/menu/options_menu.cpp:353
+#: src/supertux/menu/profile_menu.cpp:34
+msgid "Select Profile"
+msgstr "Veldu prófíl"
+
+#: src/supertux/menu/options_menu.cpp:354
+msgid "Select a profile to play with"
+msgstr "Veldu prófíl til að spila með"
+
+#: src/supertux/menu/options_menu.cpp:358
+msgid "Window Resizable"
+msgstr "Hægt að breyta stærð glugga"
+
+#: src/supertux/menu/options_menu.cpp:359
+msgid "Allow window resizing, might require a restart to take effect"
+msgstr "Leyfa stærðarbreytingu glugga, gæti þurft endurræsingu til að taka gildi"
+
+#: src/supertux/menu/options_menu.cpp:361
+msgid "Window Resolution"
+msgstr "Gluggaupplausn"
+
+#: src/supertux/menu/options_menu.cpp:362
+msgid "Resize the window to the given size"
+msgstr "Breyttu stærð gluggans í tiltekna stærð"
+
+#: src/supertux/menu/options_menu.cpp:364
+msgid "Fullscreen"
+msgstr "Fullskjár"
+
+#: src/supertux/menu/options_menu.cpp:365
+msgid "Fill the entire screen"
+msgstr "Fylltu allan skjáinn"
+
+#: src/supertux/menu/options_menu.cpp:367
+msgid "Fullscreen Resolution"
+msgstr "Fullskjáupplausn"
+
+#: src/supertux/menu/options_menu.cpp:368
+msgid ""
+"Determine the resolution used in fullscreen mode (you must toggle fullscreen"
+" to complete the change)"
+msgstr "Ákvarða upplausnina sem notuð er í fullskjásstillingu (þú verður að skipta um allan skjá til að ljúka breytingunni)"
+
+#: src/supertux/menu/options_menu.cpp:373
+msgid "Fit to browser"
+msgstr "Passa við vafra"
+
+#: src/supertux/menu/options_menu.cpp:374
+msgid "Fit the resolution to the size of your browser"
+msgstr "Passaðu upplausnina að stærð vafrans þíns"
+
+#: src/supertux/menu/options_menu.cpp:378
+msgid "Magnification"
+msgstr "Stækkun"
+
+#: src/supertux/menu/options_menu.cpp:379
+msgid "Change the magnification of the game area"
+msgstr "Breyttu stækkun leiksvæðisins"
+
+#: src/supertux/menu/options_menu.cpp:381
+msgid "VSync"
+msgstr "VSync"
+
+#: src/supertux/menu/options_menu.cpp:382
+msgid "Set the VSync mode"
+msgstr "Stilltu VSync ham"
+
+#: src/supertux/menu/options_menu.cpp:385
+msgid "Aspect Ratio"
+msgstr "Stærðarhlutföll"
+
+#: src/supertux/menu/options_menu.cpp:386
+msgid "Adjust the aspect ratio"
+msgstr "Stilltu stærðarhlutfallið"
+
+#: src/supertux/menu/options_menu.cpp:392
+msgid "Disable all sound effects"
+msgstr "Slökktu á öllum hljóðbrellum"
+
+#: src/supertux/menu/options_menu.cpp:394
+msgid "Disable all music"
+msgstr "Slökktu á allri tónlist"
+
+#: src/supertux/menu/options_menu.cpp:396
+msgid "Sound Volume"
+msgstr "Hljóðstyrkur"
+
+#: src/supertux/menu/options_menu.cpp:397
+msgid "Adjust sound volume"
+msgstr "Stilla hljóðstyrk"
+
+#: src/supertux/menu/options_menu.cpp:399
+msgid "Music Volume"
+msgstr "Tónlistarstyrkur"
+
+#: src/supertux/menu/options_menu.cpp:400
+msgid "Adjust music volume"
+msgstr "Stilla hljóðstyrk tónlistar"
+
+#: src/supertux/menu/options_menu.cpp:404
+msgid "Sound (disabled)"
+msgstr "Hljóð (óvirkt)"
+
+#: src/supertux/menu/options_menu.cpp:405
+msgid "Music (disabled)"
+msgstr "Tónlist (óvirk)"
+
+#: src/supertux/menu/options_menu.cpp:408
+#: src/supertux/menu/keyboard_menu.cpp:30
+msgid "Setup Keyboard"
+msgstr "Uppsetning lyklaborðs"
+
+#: src/supertux/menu/options_menu.cpp:409
+msgid "Configure key-action mappings"
+msgstr "Stilltu kortlagningu lyklaaðgerða"
+
+#: src/supertux/menu/options_menu.cpp:412
+#: src/supertux/menu/joystick_menu.cpp:52
+msgid "Setup Joystick"
+msgstr "Setja upp stýripinnann"
+
+#: src/supertux/menu/options_menu.cpp:413
+msgid "Configure joystick control-action mappings"
+msgstr "Stilltu kortlagningaraðgerða stýripinnans"
+
+#: src/supertux/menu/options_menu.cpp:417
+msgid "On-screen controls"
+msgstr "Stýringar á skjánum"
+
+#: src/supertux/menu/options_menu.cpp:418
+msgid "Toggle on-screen controls for mobile devices"
+msgstr "Skiptu um stýringar á skjánum fyrir fartæki"
+
+#: src/supertux/menu/options_menu.cpp:420
+msgid "Enable transitions"
+msgstr "Virkja umbreytingar"
+
+#: src/supertux/menu/options_menu.cpp:421
+msgid "Enable screen transitions and smooth menu animation"
+msgstr "Virkjaðu skjáskipti og slétt valmyndarhreyfingu"
+
+#: src/supertux/menu/options_menu.cpp:425
+msgid "Developer Mode"
+msgstr "Þróunarhamur"
+
+#: src/supertux/menu/options_menu.cpp:430
+msgid "Christmas Mode"
+msgstr "Jólahamur"
+
+#: src/supertux/menu/options_menu.cpp:433
+msgid "Confirmation Dialog"
+msgstr "Staðfestingargluggi"
+
+#: src/supertux/menu/options_menu.cpp:433
+msgid "Confirm aborting level"
+msgstr "Staðfestu stöðvunarstig"
+
+#: src/supertux/menu/options_menu.cpp:434
+msgid "Pause on focus loss"
+msgstr "Hlé á fókusmissi"
+
+#: src/supertux/menu/options_menu.cpp:435
+msgid "Automatically pause the game when the window loses focus"
+msgstr "Gerðu sjálfkrafa hlé á leiknum þegar glugginn missir fókus"
+
+#: src/supertux/menu/options_menu.cpp:436
+msgid "Use custom mouse cursor"
+msgstr "Notaðu sérsniðna músarbendil"
+
+#: src/supertux/menu/options_menu.cpp:436
+msgid "Whether the game renders its own cursor or uses the system's cursor"
+msgstr "Hvort leikurinn gerir sinn eigin bendil eða notar bendilinn kerfisins"
+
+#: src/supertux/menu/options_menu.cpp:438
+msgid "Integrations and presence"
+msgstr "Samþættingar og nærvera"
+
+#: src/supertux/menu/options_menu.cpp:439
+msgid ""
+"Manage whether SuperTux should display the levels you play on your social "
+"media profiles (Discord)"
+msgstr "Stjórnaðu því hvort SuperTux ætti að birta borðin sem þú spilar á samfélagsmiðlum þínum (Discord)"
+
+#: src/supertux/menu/options_menu.cpp:559
+msgid ""
+"The game couldn't detect your browser resolution.\n"
+"This most likely happens because it is not embedded\n"
+"in the SuperTux custom HTML template.\n"
+msgstr "Leikurinn gat ekki greint upplausn vafrans þíns.\nÞetta gerist líklegast vegna þess að það er ekki innbyggt\ní SuperTux sérsniðnu HTML sniðmátinu.\n"
+
+#: src/supertux/menu/main_menu.cpp:56 src/supertux/menu/world_set_menu.cpp:28
+msgid "Start Game"
+msgstr "Byrja leik"
+
+#: src/supertux/menu/main_menu.cpp:60 src/supertux/menu/addon_menu.cpp:122
+msgid "Add-ons"
+msgstr "Viðbætur"
+
+#: src/supertux/menu/main_menu.cpp:62 src/supertux/menu/web_asset_menu.cpp:38
+msgid "Manage Assets"
+msgstr "Stjórna eignum"
+
+#: src/supertux/menu/main_menu.cpp:65 src/supertux/menu/editor_menu.cpp:43
+msgid "Level Editor"
+msgstr "Stig Ritstjóri"
+
+#: src/supertux/menu/main_menu.cpp:66
+msgid "Credits"
+msgstr "Inneign"
+
+#: src/supertux/menu/main_menu.cpp:67
+msgid "Donate"
+msgstr "Gefðu"
+
+#: src/supertux/menu/main_menu.cpp:69
+msgid "Quit"
+msgstr "Hætta"
+
+#: src/supertux/menu/editor_sector_menu.cpp:35
+msgid "Initialization script"
+msgstr "Frumstillingarhandrit"
+
+#: src/supertux/menu/editor_sector_menu.cpp:36
+msgid "Gravity"
+msgstr "Þyngdarafl"
+
+#: src/supertux/menu/editor_sector_menu.cpp:41
+msgid "Resize offset X"
+msgstr "Breyta stærð offset X"
+
+#: src/supertux/menu/editor_sector_menu.cpp:42
+msgid "Resize offset Y"
+msgstr "Breyta stærð offset Y"
+
+#: src/supertux/menu/editor_sector_menu.cpp:43
+msgid "Resize"
+msgstr "Breyta stærð"
+
+#: src/supertux/menu/profile_menu.cpp:41
+#, c-format
+msgid "[Profile {}]"
+msgstr "[Prófíll {}]"
+
+#: src/supertux/menu/profile_menu.cpp:45
+#, c-format
+msgid "Profile {}"
+msgstr "Prófíll {}"
+
+#: src/supertux/menu/profile_menu.cpp:50
+msgid "Reset profile"
+msgstr "Endurstilla prófíl"
+
+#: src/supertux/menu/profile_menu.cpp:51
+msgid "Reset all profiles"
+msgstr "Endurstilla öll snið"
+
+#: src/supertux/menu/profile_menu.cpp:67
+msgid "Deleting your profile will reset your game progress. Are you sure?"
+msgstr "Ef þú eyðir prófílnum þínum mun það endurstilla framvindu leiksins. Ertu viss?"
+
+#: src/supertux/menu/profile_menu.cpp:73
+msgid "This will reset your game progress on all profiles. Are you sure?"
+msgstr "Þetta mun endurstilla framvindu leiksins á öllum prófílum. Ertu viss?"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:59
+#: src/supertux/menu/editor_new_levelset_menu.cpp:35
+msgid "Description"
+msgstr "Lýsing"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:60
+#: src/supertux/menu/addon_menu.cpp:48
+#: data//images/engine/editor/objects.stoi:371
+msgid "Worldmap"
+msgstr "Heims Kort"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:60
+#: src/supertux/menu/addon_menu.cpp:45
+msgid "Levelset"
+msgstr "Stigsett"
+
+#: src/supertux/menu/addon_menu.cpp:51
+msgid "World"
+msgstr "Heimur"
+
+#: src/supertux/menu/addon_menu.cpp:54
+msgid "Add-on"
+msgstr "Viðbót"
+
+#: src/supertux/menu/addon_menu.cpp:60
+msgid "Unknown"
+msgstr "Óþekktur"
+
+#: src/supertux/menu/addon_menu.cpp:71
+#, c-format
+msgid "{} \"{}\" by \"{}\""
+msgstr "{}\"{}\" hjá \"{}\""
+
+#: src/supertux/menu/addon_menu.cpp:129
+msgid "No Add-ons installed"
+msgstr "Engar viðbætur settar upp"
+
+#: src/supertux/menu/addon_menu.cpp:133
+msgid "No Add-ons found"
+msgstr "Engar viðbætur fundust"
+
+#: src/supertux/menu/addon_menu.cpp:179
+#, c-format
+msgid "Install {} *NEW*"
+msgstr "Settu upp {} *NÝTT*"
+
+#: src/supertux/menu/addon_menu.cpp:190
+#, c-format
+msgid "Install {}"
+msgstr "Settu upp {}"
+
+#: src/supertux/menu/addon_menu.cpp:199
+msgid "No new Add-ons found"
+msgstr "Engar nýjar viðbætur fundust"
+
+#: src/supertux/menu/addon_menu.cpp:205
+msgid "Check Online (disabled)"
+msgstr "Athugaðu á netinu (óvirkt)"
+
+#: src/supertux/menu/addon_menu.cpp:209
+msgid "Check Online"
+msgstr "Athugaðu á netinu"
+
+#: src/supertux/menu/addon_menu.cpp:286
+msgid "Downloading Add-On Repository Index"
+msgstr "Hleður niður vísitölu viðbótargagnageymslu"
+
+#: src/supertux/menu/addon_menu.cpp:301
+#, c-format
+msgid "Downloading {}"
+msgstr "Niðurhal {}"
+
+#: src/supertux/menu/addon_menu.cpp:348
+msgid ""
+"Please restart SuperTux\n"
+"for these changes to take effect."
+msgstr "Vinsamlegast endurræstu SuperTux að þessar breytingar taki gildi."
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:31
+msgid "New World"
+msgstr "Nýr heimur"
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:51
+msgid "Please enter a name for this level subset."
+msgstr "Vinsamlega sláðu inn nafn fyrir þetta stig undirmengi."
+
+#: src/supertux/menu/world_set_menu.cpp:30
+msgid "Story Mode"
+msgstr "Söguhamur"
+
+#: src/supertux/menu/web_asset_menu.cpp:42
+msgid "New files location"
+msgstr "Ný staðsetning skráa"
+
+#: src/supertux/menu/web_asset_menu.cpp:43
+msgid "Add Files"
+msgstr "Bæta við skrám"
+
+#: src/supertux/menu/web_asset_menu.cpp:44
+msgid "Download Files"
+msgstr "Sækja skrár"
+
+#: src/supertux/menu/particle_editor_open.cpp:32
+msgid "Load particle file"
+msgstr "Hlaða agnaskrá"
+
+#: src/supertux/menu/particle_editor_open.cpp:39
+msgid "Open"
+msgstr "Opna"
+
+#: src/supertux/menu/game_menu.cpp:31
+msgid "Are you sure?"
+msgstr "Ertu viss?"
+
+#: src/supertux/menu/game_menu.cpp:54 src/supertux/menu/worldmap_menu.cpp:30
+msgid "Continue"
+msgstr "Halda áfram"
+
+#: src/supertux/menu/game_menu.cpp:55
+msgid "Restart Level"
+msgstr "Endurræstu stig"
+
+#: src/supertux/menu/game_menu.cpp:58
+msgid "Restart from Checkpoint"
+msgstr "Endurræstu frá Checkpoint"
+
+#: src/supertux/menu/game_menu.cpp:63
+msgid "Abort Level"
+msgstr "Hætta stig"
+
+#: src/supertux/menu/keyboard_menu.cpp:32
+#: src/supertux/menu/joystick_menu.cpp:69
+msgid "Up"
+msgstr "Upp"
+
+#: src/supertux/menu/keyboard_menu.cpp:33
+#: src/supertux/menu/joystick_menu.cpp:70
+msgid "Down"
+msgstr "Niður"
+
+#: src/supertux/menu/keyboard_menu.cpp:36
+#: src/supertux/menu/joystick_menu.cpp:73
+msgid "Jump"
+msgstr "Hoppa"
+
+#: src/supertux/menu/keyboard_menu.cpp:38
+#: src/supertux/menu/joystick_menu.cpp:76
+msgid "Peek Left"
+msgstr "Kíkið til vinstri"
+
+#: src/supertux/menu/keyboard_menu.cpp:39
+#: src/supertux/menu/joystick_menu.cpp:77
+msgid "Peek Right"
+msgstr "Kíkið til hægri"
+
+#: src/supertux/menu/keyboard_menu.cpp:40
+#: src/supertux/menu/joystick_menu.cpp:78
+msgid "Peek Up"
+msgstr "Kíktu upp"
+
+#: src/supertux/menu/keyboard_menu.cpp:41
+#: src/supertux/menu/joystick_menu.cpp:79
+msgid "Peek Down"
+msgstr "Kíktu niður"
+
+#: src/supertux/menu/keyboard_menu.cpp:43
+#: src/supertux/menu/joystick_menu.cpp:81
+msgid "Console"
+msgstr "Stjórnborð"
+
+#: src/supertux/menu/keyboard_menu.cpp:44
+#: src/supertux/menu/joystick_menu.cpp:82
+msgid "Cheat Menu"
+msgstr "Svindl matseðill"
+
+#: src/supertux/menu/keyboard_menu.cpp:45
+#: src/supertux/menu/joystick_menu.cpp:83
+msgid "Debug Menu"
+msgstr "Villuleitarvalmynd"
+
+#: src/supertux/menu/keyboard_menu.cpp:47
+#: src/supertux/menu/joystick_menu.cpp:85
+msgid "Jump with Up"
+msgstr "Hoppa með Upp"
+
+#: src/supertux/menu/keyboard_menu.cpp:60
+msgid "Up cursor"
+msgstr "Bendilinn upp"
+
+#: src/supertux/menu/keyboard_menu.cpp:62
+msgid "Down cursor"
+msgstr "Bendill niður"
+
+#: src/supertux/menu/keyboard_menu.cpp:64
+msgid "Left cursor"
+msgstr "Vinstri bendill"
+
+#: src/supertux/menu/keyboard_menu.cpp:66
+msgid "Right cursor"
+msgstr "Hægri bendill"
+
+#: src/supertux/menu/keyboard_menu.cpp:68
+msgid "Return"
+msgstr "Til baka"
+
+#: src/supertux/menu/keyboard_menu.cpp:70
+msgid "Space"
+msgstr "Rými"
+
+#: src/supertux/menu/keyboard_menu.cpp:72
+msgid "Right Shift"
+msgstr "Hægri Shift"
+
+#: src/supertux/menu/keyboard_menu.cpp:74
+msgid "Left Shift"
+msgstr "Vinstri vakt"
+
+#: src/supertux/menu/keyboard_menu.cpp:76
+msgid "Right Control"
+msgstr "Rétt stjórn"
+
+#: src/supertux/menu/keyboard_menu.cpp:78
+msgid "Left Control"
+msgstr "Vinstri stjórn"
+
+#: src/supertux/menu/keyboard_menu.cpp:80
+msgid "Right Alt"
+msgstr "Hægri Alt"
+
+#: src/supertux/menu/keyboard_menu.cpp:82
+msgid "Left Alt"
+msgstr "Vinstri Alt"
+
+#: src/supertux/menu/keyboard_menu.cpp:84
+msgid "Right Command"
+msgstr "Hægri stjórn"
+
+#: src/supertux/menu/keyboard_menu.cpp:86
+msgid "Left Command"
+msgstr "Vinstri stjórn"
+
+#: src/supertux/menu/keyboard_menu.cpp:100
+msgid "Press Key"
+msgstr "Ýttu á takka"
+
+#: src/supertux/menu/language_menu.cpp:40
+msgid "Language"
+msgstr "Tungumál"
+
+#: src/supertux/menu/language_menu.cpp:42
+msgid "<auto-detect>"
+msgstr "<auto-detect>"
+
+#: src/supertux/menu/joystick_menu.cpp:55
+msgid "Manual Configuration"
+msgstr "Handvirk stilling"
+
+#: src/supertux/menu/joystick_menu.cpp:57
+msgid ""
+"Use manual configuration instead of SDL2's automatic GameController support"
+msgstr "Notaðu handvirka stillingu í staðinn fyrir sjálfvirkan GameController stuðning SDL2"
+
+#: src/supertux/menu/joystick_menu.cpp:75
+msgid "Pause/Menu"
+msgstr "Hlé/valmynd"
+
+#: src/supertux/menu/joystick_menu.cpp:91
+msgid "No Joysticks found"
+msgstr "Engir stýripinnar fundust"
+
+#: src/supertux/menu/joystick_menu.cpp:92
+msgid "Scan for Joysticks"
+msgstr "Skannaðu eftir stýripinnum"
+
+#: src/supertux/menu/joystick_menu.cpp:125
+msgid "Press Button"
+msgstr "Ýttu á hnapp"
+
+#: src/supertux/menu/joystick_menu.cpp:162
+msgid "Axis "
+msgstr "Ás"
+
+#: src/supertux/menu/joystick_menu.cpp:165
+msgid "-"
+msgstr "-"
+
+#: src/supertux/menu/joystick_menu.cpp:167
+msgid "+"
+msgstr "+"
+
+#: src/supertux/menu/joystick_menu.cpp:174
+msgid "X2"
+msgstr "X2"
+
+#: src/supertux/menu/joystick_menu.cpp:176
+msgid "Y2"
+msgstr "Y2"
+
+#: src/supertux/menu/joystick_menu.cpp:189
+msgid "Hat Up"
+msgstr "Hat Up"
+
+#: src/supertux/menu/joystick_menu.cpp:193
+msgid "Hat Down"
+msgstr "Hatt niður"
+
+#: src/supertux/menu/joystick_menu.cpp:197
+msgid "Hat Left"
+msgstr "Hattur Vinstri"
+
+#: src/supertux/menu/joystick_menu.cpp:201
+msgid "Hat Right"
+msgstr "Hattur Hægri"
+
+#: src/supertux/menu/worldmap_menu.cpp:28
+msgid "Pause"
+msgstr "Gera hlé"
+
+#: src/supertux/menu/worldmap_menu.cpp:33
+msgid "Leave World"
+msgstr "Farðu úr heiminum"
+
+#: src/supertux/menu/download_dialog.cpp:27
+msgid "Abort Download"
+msgstr "Hætta niðurhali"
+
+#: src/supertux/menu/download_dialog.cpp:42
+msgid "Error:\n"
+msgstr "Villa:\n"
+
+#: src/supertux/menu/download_dialog.cpp:96
+msgid "Close"
+msgstr "Loka"
+
+#: src/supertux/menu/cheat_menu.cpp:33
+msgid "Bonus: Fire x 64"
+msgstr "Bónus: Eldur x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:34
+msgid "Bonus: Ice x 64"
+msgstr "Bónus: Ís x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:35
+msgid "Bonus: Air x 64"
+msgstr "Bónus: Loft x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:36
+msgid "Bonus: Earth x 64"
+msgstr "Bónus: Jörð x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:37
+msgid "Bonus: Star"
+msgstr "Bónus: Stjarna"
+
+#: src/supertux/menu/cheat_menu.cpp:38
+msgid "Shrink Tux"
+msgstr "Minnka Tux"
+
+#: src/supertux/menu/cheat_menu.cpp:39
+msgid "Kill Tux"
+msgstr "Drepa Tux"
+
+#: src/supertux/menu/particle_editor_menu.cpp:32
+msgid "Particle Editor"
+msgstr "Agna ritstjóri"
+
+#: src/supertux/menu/particle_editor_menu.cpp:36
+#: src/supertux/menu/editor_menu.cpp:45
+msgid "Return to Editor"
+msgstr "Fara aftur í ritstjóra"
+
+#: src/supertux/menu/particle_editor_menu.cpp:37
+msgid "New Particle Config"
+msgstr "Ný ögnstilling"
+
+#: src/supertux/menu/particle_editor_menu.cpp:38
+msgid "Save Particle Config"
+msgstr "Vista Particle Config"
+
+#: src/supertux/menu/particle_editor_menu.cpp:39
+msgid "Save Particle Config as..."
+msgstr "Vista particle config sem..."
+
+#: src/supertux/menu/particle_editor_menu.cpp:40
+msgid "Load Another Particle Config"
+msgstr "Hlaða upp annarri agnastillingu"
+
+#: src/supertux/menu/particle_editor_menu.cpp:44
+msgid "Open Particle Directory"
+msgstr "Opnaðu agnaskrá"
+
+#: src/supertux/menu/particle_editor_menu.cpp:45
+#: src/supertux/menu/editor_menu.cpp:88
+msgid "Keyboard Shortcuts"
+msgstr "Flýtivísar"
+
+#: src/supertux/menu/particle_editor_menu.cpp:49
+msgid "Exit Particle Editor"
+msgstr "Lokaðu Ögn Eritstjóri"
+
+#: src/supertux/menu/particle_editor_menu.cpp:120
+msgid ""
+"Keyboard Shortcuts:\n"
+"---------------------\n"
+"Esc = Open Menu\n"
+"Ctrl+S = Save\n"
+"Ctrl+Shift+S = Save as\n"
+"Ctrl+O = Open\n"
+"Ctrl+Z = Undo\n"
+"Ctrl+Y = Redo"
+msgstr "Flýtivísar:\n--------------------\nEsc = Opna valmynd\nCtrl+S = Vista\nCtrl+Shift+S = Vista sem\nCtrl+O = Opið\nCtrl+Z = Afturkalla\nCtrl+Y = Endurtaka"
+
+#: src/supertux/menu/particle_editor_menu.cpp:121
+#: src/supertux/menu/editor_menu.cpp:176
+msgid "Got it!"
+msgstr "Náði því!"
+
+#: src/supertux/menu/editor_level_menu.cpp:31
+#: src/supertux/menu/editor_menu.cpp:86
+msgid "Worldmap Settings"
+msgstr "Heimskortsstillingar"
+
+#: src/supertux/menu/editor_level_menu.cpp:31
+#: src/supertux/menu/editor_menu.cpp:86
+msgid "Level Settings"
+msgstr "Stigstillingar"
+
+#: src/supertux/menu/editor_level_menu.cpp:34
+msgid "Author"
+msgstr "Höfundur"
+
+#: src/supertux/menu/editor_level_menu.cpp:35 data//credits.stxt:1166
+msgid "Contact"
+msgstr "Hafðu samband"
+
+#: src/supertux/menu/editor_level_menu.cpp:36
+msgid "License"
+msgstr "Leyfi"
+
+#: src/supertux/menu/editor_level_menu.cpp:37
+msgid "Level Note"
+msgstr "Stig Athugið"
+
+#: src/supertux/menu/editor_level_menu.cpp:38
+msgid "Tileset"
+msgstr "Flísasett"
+
+#: src/supertux/menu/editor_level_menu.cpp:41
+msgid "Target Time"
+msgstr "Marktími"
+
+#: src/supertux/menu/editor_level_menu.cpp:83
+msgid "Please enter a name for this level."
+msgstr "Vinsamlegast sláðu inn nafn fyrir þetta stig."
+
+#: src/supertux/menu/editor_level_menu.cpp:87
+msgid "Please enter a level author for this level."
+msgstr "Vinsamlega sláðu inn stigshöfund fyrir þetta stig."
+
+#: src/supertux/menu/editor_level_menu.cpp:91
+msgid "Please enter a license for this level."
+msgstr "Vinsamlegast sláðu inn leyfi fyrir þetta stig."
+
+#: src/supertux/menu/editor_menu.cpp:38
+msgid "tiny tile (4px)"
+msgstr "örlítið flísar (4px)"
+
+#: src/supertux/menu/editor_menu.cpp:39
+msgid "small tile (8px)"
+msgstr "litlar flísar (8px)"
+
+#: src/supertux/menu/editor_menu.cpp:40
+msgid "medium tile (16px)"
+msgstr "miðlungs flísar (16px)"
+
+#: src/supertux/menu/editor_menu.cpp:41
+msgid "big tile (32px)"
+msgstr "stórar flísar (32px)"
+
+#: src/supertux/menu/editor_menu.cpp:46
+msgid "Save Worldmap"
+msgstr "Vista heimskort"
+
+#: src/supertux/menu/editor_menu.cpp:46
+msgid "Save Level"
+msgstr "Vista stig"
+
+#: src/supertux/menu/editor_menu.cpp:55
+msgid "Test Level"
+msgstr "Prófstig"
+
+#: src/supertux/menu/editor_menu.cpp:59
+msgid "Test Worldmap"
+msgstr "Prófaðu heimskort"
+
+#: src/supertux/menu/editor_menu.cpp:62
+msgid "Share Level"
+msgstr "Deila stig"
+
+#: src/supertux/menu/editor_menu.cpp:64
+msgid "Package Add-On"
+msgstr "Pakkaviðbót"
+
+#: src/supertux/menu/editor_menu.cpp:66
+msgid "Open Level Directory"
+msgstr "Opnaðu stigaskrá"
+
+#: src/supertux/menu/editor_menu.cpp:70
+msgid "Edit Another Level"
+msgstr "Breyta öðru stigi"
+
+#: src/supertux/menu/editor_menu.cpp:73
+msgid "Edit Another World"
+msgstr "Breyta öðrum heimi"
+
+#: src/supertux/menu/editor_menu.cpp:77
+msgid "Grid Size"
+msgstr "Grid Stærð"
+
+#: src/supertux/menu/editor_menu.cpp:78
+msgid "Show Grid"
+msgstr "Sýna töflu"
+
+#: src/supertux/menu/editor_menu.cpp:79
+msgid "Grid Snapping"
+msgstr "Smellur rist"
+
+#: src/supertux/menu/editor_menu.cpp:80
+msgid "Render Background"
+msgstr "Gerðu bakgrunn"
+
+#: src/supertux/menu/editor_menu.cpp:81
+msgid "Render Light"
+msgstr "Skildu ljós"
+
+#: src/supertux/menu/editor_menu.cpp:82
+msgid "Autotile Mode"
+msgstr "Sjálfvirk stilling"
+
+#: src/supertux/menu/editor_menu.cpp:83
+msgid "Enable Autotile Help"
+msgstr "Virkja sjálfvirka hjálp"
+
+#: src/supertux/menu/editor_menu.cpp:84
+msgid "Autosave Frequency"
+msgstr "Sjálfvirk vistunartíðni"
+
+#: src/supertux/menu/editor_menu.cpp:91
+msgid "Exit Level Editor"
+msgstr "Hætta stig ritstjóri"
+
+#: src/supertux/menu/editor_menu.cpp:140
+msgid "Do you want to package this world as an add-on?"
+msgstr "Viltu pakka þessum heimi sem viðbót?"
+
+#: src/supertux/menu/editor_menu.cpp:163
+msgid ""
+"We encourage you to share your levels in the SuperTux forum.\n"
+"To find your level, click the\n"
+"\"Open Level directory\" menu item.\n"
+"Do you want to go to the forum now?"
+msgstr "Við hvetjum þig til að deila stigum þínum á SuperTux spjallborðinu.\nTil að finna stig þitt, smelltu á\n\"Open Level directory\" valmyndaratriði.\nViltu fara á spjallið núna?"
+
+#: src/supertux/menu/editor_menu.cpp:175
+msgid ""
+"Keyboard Shortcuts:\n"
+"---------------------\n"
+"Esc = Open Menu\n"
+"Ctrl+S = Save\n"
+"Ctrl+T = Test\n"
+"Ctrl+Z = Undo\n"
+"Ctrl+Y = Redo\n"
+"F6 = Render Light\n"
+"F7 = Grid Snapping\n"
+"F8 = Show Grid"
+msgstr "Flýtivísar:\n--------------------\nEsc = Opna valmynd\nCtrl+S = Vista\nCtrl+T = Próf\nCtrl+Z = Afturkalla\nCtrl+Y = Endurtaka\nF6 = Render Light\nF7 = Grid Snapping\nF8 = Sýna töflu"
+
+#: src/supertux/menu/editor_delete_level_menu.cpp:53
+msgid "You cannot delete level that you are editing!"
+msgstr "Þú getur ekki eytt stigi sem þú ert að breyta!"
+
+#: src/supertux/levelintro.cpp:136
+#, c-format
+msgid "contributed by {}"
+msgstr "lagt af {}"
+
+#: src/supertux/levelintro.cpp:169
+msgid "Badguys killed"
+msgstr "Badgus drepnir"
+
+#: src/supertux/levelintro.cpp:177
+msgid "Best time"
+msgstr "Besti tími"
+
+#: src/supertux/levelintro.cpp:181
+msgid "Level target time"
+msgstr "Stig marktími"
+
+#: src/supertux/tile_set.cpp:118
+msgid "Others"
+msgstr "Aðrir"
+
+#: src/supertux/moving_object.cpp:55
+msgid "Region"
+msgstr "Svæði"
+
+#: src/supertux/main.cpp:563
+msgid ""
+"The UBports version is under heavy development!\n"
+"If you encounter issues, PLEASE contact the maintainter\n"
+"at https://github.com/supertux/supertux/issues or on the\n"
+"Open Store's Telegram at https://open-store.io/telegram"
+msgstr "UBports útgáfan er í mikilli þróun!\nEf þú lendir í vandræðum skaltu vinsamlegast hafa samband við umsjónarmanninn\ná https://github.com/supertux/supertux/issues eða á\nOpnaðu Telegram Store á https://open-store.io/telegram"
+
+#: src/control/joystick_config.cpp:85
+msgid "Joystick Mappings"
+msgstr "Stýripinna kortlagning"
+
+#: src/worldmap/worldmap_parser.cpp:167
+msgid "<no title>"
+msgstr "<no title>"
+
+#: src/editor/node_marker.cpp:122
+msgid "Path Node"
+msgstr "Slóð hnútur"
+
+#: src/editor/node_marker.cpp:123
+msgid "Press CTRL to move Bezier handles"
+msgstr "Ýttu á CTRL til að færa Bezier handföng"
+
+#: src/editor/node_marker.cpp:127
+msgid "Easing"
+msgstr "Léttir"
+
+#: src/editor/object_settings.cpp:119
+msgid "up"
+msgstr "upp"
+
+#: src/editor/object_settings.cpp:119
+msgid "down"
+msgstr "niður"
+
+#: src/editor/object_settings.cpp:131
+msgid "West"
+msgstr "Vestur"
+
+#: src/editor/object_settings.cpp:131
+msgid "East"
+msgstr "Austur"
+
+#: src/editor/object_settings.cpp:131
+msgid "North"
+msgstr "Norður"
+
+#: src/editor/object_settings.cpp:131
+msgid "South"
+msgstr "Suður"
+
+#: src/editor/object_settings.cpp:144
+msgid "One shot"
+msgstr "Eitt skot"
+
+#: src/editor/object_settings.cpp:144
+msgid "Ping-pong"
+msgstr "Borðtennis"
+
+#: src/editor/object_settings.cpp:144
+msgid "Circular"
+msgstr "Hringlaga"
+
+#: src/editor/object_settings.cpp:144
+msgid "Unordered"
+msgstr "Óraðað"
+
+#: src/editor/object_option.cpp:85
+msgid "true"
+msgstr "satt"
+
+#: src/editor/object_option.cpp:85
+msgid "false"
+msgstr "ósatt"
+
+#: src/editor/object_option.cpp:271 src/editor/object_option.cpp:320
+msgid "invalid"
+msgstr "ógild"
+
+#: src/editor/object_option.cpp:580
+msgid "Remove"
+msgstr "Fjarlægja"
+
+#: src/editor/object_option.cpp:597
+msgid "Test from here"
+msgstr "Próf héðan"
+
+#: src/editor/object_option.cpp:614
+msgid "Open Particle Editor"
+msgstr "Opnaðu Ögn Eritstjóri"
+
+#: src/editor/worldmap_objects.hpp:56 src/editor/worldmap_objects.cpp:127
+msgid "Level"
+msgstr "Stig"
+
+#: src/editor/worldmap_objects.hpp:79
+msgid "Teleporter"
+msgstr "Teleporter"
+
+#: src/editor/worldmap_objects.hpp:119
+msgid "Sprite Change"
+msgstr "Sprite breyting"
+
+#: src/editor/worldmap_objects.hpp:140
+msgid "Special tile"
+msgstr "Sérstakar flísar"
+
+#: src/editor/particle_editor.cpp:126
+msgid "Max amount"
+msgstr "Hámarksupphæð"
+
+#: src/editor/particle_editor.cpp:142
+msgid "Spawn anywhere"
+msgstr "Hrygna hvar sem er"
+
+#: src/editor/particle_editor.cpp:143
+msgid "Life duration"
+msgstr "Lífslengd"
+
+#: src/editor/particle_editor.cpp:148
+msgid "Birth duration"
+msgstr "Fæðingartími"
+
+#: src/editor/particle_editor.cpp:153
+msgid "Death duration"
+msgstr "Lengd dauða"
+
+#: src/editor/particle_editor.cpp:160
+msgid "Grow"
+msgstr "Vaxa"
+
+#: src/editor/particle_editor.cpp:175
+msgid "Horizontal speed"
+msgstr "Láréttur hraði"
+
+#: src/editor/particle_editor.cpp:180
+msgid "Vertical speed"
+msgstr "Lóðréttur hraði"
+
+#: src/editor/particle_editor.cpp:185
+msgid "Horizontal acceleration"
+msgstr "Lárétt hröðun"
+
+#: src/editor/particle_editor.cpp:186
+msgid "Vertical acceleration"
+msgstr "Lóðrétt hröðun"
+
+#: src/editor/particle_editor.cpp:187
+msgid "Horizontal friction"
+msgstr "Láréttur núningur"
+
+#: src/editor/particle_editor.cpp:188
+msgid "Vertical friction"
+msgstr "Lóðréttur núningur"
+
+#: src/editor/particle_editor.cpp:190
+msgid "Initial rotation"
+msgstr "Upphafssnúningur"
+
+#: src/editor/particle_editor.cpp:201
+msgid "Rotation friction/decceleration"
+msgstr "Snúningsnúning/hraðaminnkun"
+
+#: src/editor/particle_editor.cpp:211
+msgid "Destroy"
+msgstr "Eyðileggja"
+
+#: src/editor/particle_editor.cpp:215
+msgid "Stick to surface"
+msgstr "Haltu þig við yfirborðið"
+
+#: src/editor/particle_editor.cpp:216
+msgid "Stick and stay"
+msgstr "Haltu þig og vertu"
+
+#: src/editor/particle_editor.cpp:217
+msgid "No collision"
+msgstr "Enginn árekstur"
+
+#: src/editor/particle_editor.cpp:222
+msgid "Always destroy"
+msgstr "Alltaf eyðileggja"
+
+#: src/editor/particle_editor.cpp:226
+msgid "Offscreen mode"
+msgstr "Offscreen hamur"
+
+#: src/editor/particle_editor.cpp:765
+msgid ""
+"This particle configuration contains unsaved changes,\n"
+"do you want to save?"
+msgstr "Þessi agnastilling inniheldur óvistaðar breytingar,\nviltu spara?"
+
+#: src/editor/particle_editor.cpp:773
+msgid "Save as"
+msgstr "Vista sem"
+
+#: src/editor/editor.cpp:566
+msgid ""
+"Don't forget that your levels and assets\n"
+"aren't saved between sessions!\n"
+"If you want to keep your levels, download them\n"
+"from the \"Manage Assets\" menu."
+msgstr "Ekki gleyma því að stig þín og eignir\neru ekki vistaðar á milli lota!\nEf þú vilt halda stigunum þínum skaltu hlaða þeim niður\núr valmyndinni \"Stjórna eignum\"."
+
+#: src/editor/editor.cpp:582
+msgid "This level contains unsaved changes, do you want to save?"
+msgstr "Þetta stig inniheldur óvistaðar breytingar, viltu vista?"
+
+#: src/editor/editor.cpp:622
+msgid ""
+"Some obsolete add-ons are still active\n"
+"and might cause collisions with default Super Tux structure.\n"
+"You can still enable these add-ons in the menu.\n"
+"Disabling these add-ons will not delete your game progress."
+msgstr "Sumar úreltar viðbætur eru enn virkar\nog gæti valdið árekstrum með sjálfgefna Super Tux uppbyggingu.\nÞú getur samt virkjað þessar viðbætur í valmyndinni.\nAð slökkva á þessum viðbótum mun ekki eyða leiknum þínum."
+
+#: src/editor/editor.cpp:625
+msgid "Disable add-ons"
+msgstr "Slökktu á viðbótum"
+
+#: src/editor/editor.cpp:630
+msgid "Ignore (not advised)"
+msgstr "Hunsa (ekki ráðlagt)"
+
+#: src/editor/editor.cpp:634
+msgid "Leave editor"
+msgstr "Skildu ritstjóra"
+
+#: src/editor/editor.cpp:853
+msgid ""
+"Couldn't find a \"main\" sector.\n"
+"Please change the name of the sector where\n"
+"you'd like the player to start to \"main\""
+msgstr "Gat ekki fundið \"aðal\" geira.\nVinsamlegast breyttu nafni geirans þar sem\nþú vilt að spilarinn byrji að \"main\""
+
+#: src/editor/editor.cpp:857
+msgid ""
+"Couldn't find a \"main\" spawnpoint.\n"
+" Please change the name of the spawnpoint where\n"
+"you'd like the player to start to \"main\""
+msgstr "Gat ekki fundið \"aðal\" spawnpoint.\nVinsamlegast breyttu nafninu á spawnpoint hvar\nþú vilt að spilarinn byrji að \"main\""
+
+#: src/editor/worldmap_objects.cpp:128
+msgid "Outro script"
+msgstr "Outro handrit"
+
+#: src/editor/worldmap_objects.cpp:129
+msgid "Auto play"
+msgstr "Sjálfvirk spilun"
+
+#: src/editor/worldmap_objects.cpp:131
+msgid "Title colour"
+msgstr "Litur titils"
+
+#: src/editor/worldmap_objects.cpp:173
+msgid "Automatic"
+msgstr "Sjálfvirk"
+
+#: src/editor/worldmap_objects.cpp:175
+msgid "Target worldmap"
+msgstr "Markmið heimskort"
+
+#: src/editor/worldmap_objects.cpp:238
+msgid "Stay action"
+msgstr "Vertu í aðgerð"
+
+#: src/editor/worldmap_objects.cpp:239
+msgid "Initial stay action"
+msgstr "Fyrstu dvalaraðgerðir"
+
+#: src/editor/worldmap_objects.cpp:240
+msgid "Stay group"
+msgstr "Dvöl hópur"
+
+#: src/editor/worldmap_objects.cpp:241
+msgid "Change on touch"
+msgstr "Breyta við snertingu"
+
+#: src/editor/worldmap_objects.cpp:271
+msgid "Show message"
+msgstr "Sýna skilaboð"
+
+#: src/editor/worldmap_objects.cpp:273
+msgid "Invisible"
+msgstr "Ósýnilegur"
+
+#: src/editor/overlay_widget.cpp:1297
+msgid "Autotile mode is on"
+msgstr "Kveikt er á sjálfvirkri stillingu"
+
+#: src/editor/overlay_widget.cpp:1299
+msgid "Hold Ctrl to enable autotile"
+msgstr "Haltu Ctrl til að virkja sjálfvirkt"
+
+#: src/editor/overlay_widget.cpp:1303
+msgid "Autotile erasing mode is on"
+msgstr "Kveikt er á sjálfvirkri eyðingarstillingu"
+
+#: src/editor/overlay_widget.cpp:1305
+msgid "Selected tile isn't autotileable"
+msgstr "Valin flís er ekki sjálfvirk"
+
+#: src/editor/overlay_widget.cpp:1308
+msgid "Hold Ctrl to enable autotile erasing"
+msgstr "Haltu Ctrl til að virkja sjálfvirka eyðingu"
+
+#: data//credits.stxt:25
+msgid "Current SuperTux Team"
+msgstr "Núverandi SuperTux lið"
+
+#: data//credits.stxt:30
+msgid "Programming, project lead ad interim"
+msgstr "Forritun, verkefnastjóri til bráðabirgða"
+
+#: data//credits.stxt:35
+msgid "Graphics, Level Design, Story"
+msgstr "Grafík, stighönnun, saga"
+
+#: data//credits.stxt:40
+msgid "Level Design, Story, Optimisation, Coordination"
+msgstr "Stighönnun, saga, hagræðing, samhæfing"
+
+#: data//credits.stxt:45 data//credits.stxt:105 data//credits.stxt:191
+#: data//credits.stxt:519
+msgid "Graphics"
+msgstr "Grafík"
+
+#: data//credits.stxt:50 data//credits.stxt:87 data//credits.stxt:93
+msgid "Graphics, Programming, Level Design"
+msgstr "Grafík, forritun, stighönnun"
+
+#: data//credits.stxt:55
+msgid "Features and Programming"
+msgstr "Eiginleikar og forritun"
+
+#: data//credits.stxt:60
+msgid "Programming, Level Updates"
+msgstr "Forritun, stiguppfærslur"
+
+#: data//credits.stxt:65
+msgid "Graphics, Programming"
+msgstr "Grafík, forritun"
+
+#: data//credits.stxt:70 data//credits.stxt:135 data//credits.stxt:140
+#: data//credits.stxt:145 data//credits.stxt:150 data//credits.stxt:165
+#: data//credits.stxt:170 data//credits.stxt:515 data//credits.stxt:527
+msgid "Programming"
+msgstr "Forritun"
+
+#: data//credits.stxt:76
+msgid "Original Developers"
+msgstr "Upprunalegir hönnuðir"
+
+#: data//credits.stxt:81
+msgid "Original Developer"
+msgstr "Upprunalegur verktaki"
+
+#: data//credits.stxt:99
+msgid "Music, Level Design"
+msgstr "Tónlist, Level Design"
+
+#: data//credits.stxt:111
+msgid "Programming, Graphics, Level Design"
+msgstr "Forritun, grafík, stighönnun"
+
+#: data//credits.stxt:117
+msgid "Programming, Level Design"
+msgstr "Forritun, stighönnun"
+
+#: data//credits.stxt:123
+msgid "Graphics, Story"
+msgstr "Grafík, Saga"
+
+#: data//credits.stxt:129
+msgid "Programming, Documentation"
+msgstr "Forritun, skjöl"
+
+#: data//credits.stxt:155
+msgid "Coordination"
+msgstr "Coordination"
+
+#: data//credits.stxt:160
+msgid "Programming, \"Flexlay\" Level editor"
+msgstr "Forritun, „Flexlay“ Level ritstjóri"
+
+#: data//credits.stxt:175
+msgid "Windows build fixes"
+msgstr "Windows byggja lagfæringar"
+
+#: data//credits.stxt:180
+msgid "Packaging, Nightly builds"
+msgstr "Umbúðir, nætursmíðar"
+
+#: data//credits.stxt:185
+msgid "Translation Guru (and many details anyone else could have done)"
+msgstr "Þýðingargúrú (og margar upplýsingar sem einhver annar hefði getað gert)"
+
+#: data//credits.stxt:251
+msgid "Level Design"
+msgstr "Stig hönnun"
+
+#: data//credits.stxt:431
+msgid "Additional contributors"
+msgstr "Fleiri þátttakendur"
+
+#: data//credits.stxt:436
+msgid "Bug fixes"
+msgstr "Villuleiðréttingar"
+
+#: data//credits.stxt:440
+msgid "Scripting functions, Level fixes"
+msgstr "Forskriftaraðgerðir, stig lagfæringar"
+
+#: data//credits.stxt:444
+msgid "Code quality fixes"
+msgstr "Gæðaleiðréttingar kóða"
+
+#: data//credits.stxt:448 data//credits.stxt:452 data//credits.stxt:456
+#: data//credits.stxt:483
+msgid "Various contributions"
+msgstr "Ýmis framlög"
+
+#: data//credits.stxt:460
+msgid "Build issue fix"
+msgstr "Byggja vandamál laga"
+
+#: data//credits.stxt:464 data//credits.stxt:468
+msgid "Code contributions"
+msgstr "Code framlög"
+
+#: data//credits.stxt:471
+msgid "Code contribution, AppData file"
+msgstr "Kóðaframlag, AppData skrá"
+
+#: data//credits.stxt:475
+msgid "Bug fix"
+msgstr "Villuleiðrétting"
+
+#: data//credits.stxt:479
+msgid "Menu reorganization"
+msgstr "Endurskipulagning á matseðli"
+
+#: data//credits.stxt:487
+msgid "Fixing tile bugs"
+msgstr "Að laga flísargalla"
+
+#: data//credits.stxt:491
+msgid "Build error fix"
+msgstr "Byggja villuleiðrétting"
+
+#: data//credits.stxt:495
+msgid "Scripting function fix"
+msgstr "Forskriftaraðgerð lagfæring"
+
+#: data//credits.stxt:499
+msgid "New features and notable updates"
+msgstr "Nýir eiginleikar og athyglisverðar uppfærslur"
+
+#: data//credits.stxt:503
+msgid "Support for \"glbinding\" as optional OpenGL binding"
+msgstr "Stuðningur við \"glbinding\" sem valfrjálsa OpenGL bindingu"
+
+#: data//credits.stxt:507
+msgid "New menu code"
+msgstr "Nýr valmyndarkóði"
+
+#: data//credits.stxt:511
+msgid "Big Tux Walking Sprites improvements"
+msgstr "Stórt Tux Gangandi Sprites endurbætur"
+
+#: data//credits.stxt:523 data//credits.stxt:531
+msgid "Contrib Programming"
+msgstr "Framlagsforritun"
+
+#: data//credits.stxt:535
+msgid "Programming, Previous Maintainer"
+msgstr "Forritun, fyrri umsjónarmaður"
+
+#: data//credits.stxt:539
+msgid "Various Contributions"
+msgstr "Ýmis framlög"
+
+#: data//credits.stxt:543
+msgid "Minor features and programming"
+msgstr "Minniháttar eiginleikar og forritun"
+
+#: data//credits.stxt:547 data//credits.stxt:551 data//credits.stxt:555
+#: data//credits.stxt:559 data//credits.stxt:563 data//credits.stxt:567
+#: data//credits.stxt:571 data//credits.stxt:575 data//credits.stxt:579
+#: data//credits.stxt:583 data//credits.stxt:587 data//credits.stxt:591
+msgid "Contributions"
+msgstr "Framlög"
+
+#: data//credits.stxt:597
+msgid "Localization"
+msgstr "Staðfærsla"
+
+#: data//credits.stxt:1144
+msgid " Special Thanks to"
+msgstr "Sérstakar þakkir til"
+
+#: data//credits.stxt:1149
+msgid "Creator of Tux, the Linux penguin"
+msgstr "Höfundur Tux, Linux mörgæsarinnar"
+
+#: data//credits.stxt:1153
+msgid "SDL, OpenAL and OpenGL"
+msgstr "SDL, OpenAL og OpenGL"
+
+#: data//credits.stxt:1154
+msgid ""
+"For making such a great gaming experience\n"
+"        possible on Linux"
+msgstr "Fyrir að gera svona frábæra leikjaupplifun\n          mögulegt á Linux"
+
+#: data//credits.stxt:1159
+msgid "and you, the player"
+msgstr "og þú, leikmaðurinn"
+
+#: data//credits.stxt:1160
+msgid "for giving this game a chance and playing it"
+msgstr "fyrir að gefa þessum leik séns og spila hann"
+
+#: data//credits.stxt:1171
+msgid "Visit our webpage at"
+msgstr "Farðu á vefsíðu okkar á"
+
+#: data//credits.stxt:1180
+msgid "Or visit us directly at IRC:"
+msgstr "Eða heimsóttu okkur beint á IRC:"
+
+#: data//credits.stxt:1184
+msgid "#supertux at web.libera.chat"
+msgstr "#supertux á web.libera.chat"
+
+#: data//credits.stxt:1189
+msgid "Or at our Forum:"
+msgstr "Eða á spjallborðinu okkar:"
+
+#: data//credits.stxt:1198
+msgid "Comments, ideas and suggestions"
+msgstr "Athugasemdir, hugmyndir og tillögur"
+
+#: data//credits.stxt:1202
+msgid "go to our mailing list"
+msgstr "farðu á póstlistann okkar"
+
+#. l10n: typo contact
+#: data//credits.stxt:1212
+msgid "Typographical errors can be"
+msgstr "Prentvillur geta verið"
+
+#. l10n: typo contact
+#: data//credits.stxt:1217
+msgid "reported to"
+msgstr "tilkynnt til"
+
+#. l10n: typo contact, see <https://github.com/SuperTux/supertux/issues/611>
+#: data//credits.stxt:1222
+msgid "supertux-devel@lists.lethargik.org"
+msgstr "supertux-devel@lists.lethargik.org"
+
+#: data//credits.stxt:1229
+msgid "Want to help…"
+msgstr "Viltu hjálpa…"
+
+#: data//credits.stxt:1234
+msgid "…with localization?"
+msgstr "…með staðfæringu?"
+
+#: data//credits.stxt:1244
+msgid "…with something else?"
+msgstr "…með einhverju öðru?"
+
+#: data//credits.stxt:1255
+msgid "Thank you for"
+msgstr "Þakka þér fyrir"
+
+#: data//credits.stxt:1259
+msgid "playing"
+msgstr "leika sér"
+
+#: data//credits.stxt:1269
+msgid "Penny awaits you in warmer temperatures!"
+msgstr "Penny bíður þín í hlýrra hitastigi!"
+
+#: data//images/engine/editor/objects.stoi:162
+msgid "Bosses"
+msgstr "Yfirmenn"
+
+#: data//images/engine/editor/objects.stoi:173
+msgid "Projectiles"
+msgstr "Skotfæri"
+
+#: data//images/engine/editor/objects.stoi:187
+msgid "Environment"
+msgstr "Umhverfi"
+
+#: data//images/ice_world.strf:10 data//images/tiles.strf:28
+#: data//images/worldmap.strf:41
+msgid "Snow"
+msgstr "Snjór"
+
+#: data//images/ice_world.strf:80
+msgid "Ice Cave & Crystal"
+msgstr "Íshellir og kristal"
+
+#: data//images/ice_world.strf:127
+msgid "Embellishments"
+msgstr "Skreytingar"
+
+#: data//images/ice_world.strf:211 data//images/tiles.strf:386
+#: data//images/worldmap.strf:67
+msgid "Forest"
+msgstr "Skógur"
+
+#: data//images/ice_world.strf:320
+msgid "Underground Forest"
+msgstr "Neðanjarðar skógur"
+
+#: data//images/ice_world.strf:375
+msgid "Trees & Bushes"
+msgstr "Tré og runnar"
+
+#: data//images/ice_world.strf:406
+msgid "Seasonal"
+msgstr "Árstíðabundið"
+
+#: data//images/ice_world.strf:496
+msgid "Structure"
+msgstr "Uppbygging"
+
+#: data//images/ice_world.strf:557
+msgid "Pathing"
+msgstr "Pathing"
+
+#: data//images/ice_world.strf:718
+msgid "Water"
+msgstr "Vatn"
+
+#: data//images/tiles.strf:176
+msgid "Snow Background"
+msgstr "Snjór bakgrunnur"
+
+#: data//images/tiles.strf:231
+msgid "Snow Mountain"
+msgstr "Snjófjall"
+
+#: data//images/tiles.strf:305
+msgid "Crystal"
+msgstr "Kristal"
+
+#: data//images/tiles.strf:532
+msgid "Forest Background"
+msgstr "Bakgrunnur skógar"
+
+#: data//images/tiles.strf:663
+msgid "Block + Bonus"
+msgstr "Blokk + bónus"
+
+#: data//images/tiles.strf:715
+msgid "Pole + Signs"
+msgstr "Stöng + Merki"
+
+#: data//images/tiles.strf:760
+msgid "Liquid"
+msgstr "Vökvi"
+
+#: data//images/tiles.strf:793
+msgid "Castle"
+msgstr "Kastalinn"
+
+#: data//images/tiles.strf:930 data//images/worldmap.strf:199
+msgid "Halloween"
+msgstr "Hrekkjavaka"
+
+#: data//images/tiles.strf:958
+msgid "Industrial"
+msgstr "Iðnaðar"
+
+#: data//images/tiles.strf:973
+msgid "Unisolid + Lightmap"
+msgstr "Uni solid + Ljós kort"
+
+#: data//images/tiles.strf:1000
+msgid "Miscellaneous"
+msgstr "Ýmislegt"
+
+#: data//images/tiles.strf:1043
+msgid "Retro Snow"
+msgstr "Retro snjór"
+
+#: data//images/worldmap.strf:24
+msgid "Water paths"
+msgstr "Vatnsstígar"
+
+#: data//images/worldmap.strf:32
+msgid "Castle paths"
+msgstr "Kastalastígar"
+
+#: data//images/worldmap.strf:135
+msgid "Darker Forest"
+msgstr "Dekkri skógur"

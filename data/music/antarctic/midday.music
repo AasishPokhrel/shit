@@ -1,0 +1,5 @@
+(supertux-music
+  (file "midday.ogg")
+  (loop-begin 0)
+  (loop-at -1)
+)

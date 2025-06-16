@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# GunChleoc, 2016,2019
+# GunChleoc, 2016,2019
+# GunChleoc, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2024-11-11 21:50+0000\n"
+"PO-Revision-Date: 2013-08-10 23:04+0000\n"
+"Last-Translator: GunChleoc, 2016,2019\n"
+"Language-Team: Gaelic, Scottish (http://app.transifex.com/arctic-games/supertux/language/gd/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: gd\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;\n"
+
+#: data/levels/bonus1/abednego-level1.stl:3
+msgid "Flight Test"
+msgstr "Deuchainn itealaidh"
+
+#: data/levels/bonus1/abednego-level2.stl:3
+msgid "Dungeons but no Dragons"
+msgstr "Tuill-dhubha gun dràgon"
+
+#: data/levels/bonus1/abednego-level3.stl:3
+msgid "Lies!"
+msgstr "Breugan!"
+
+#: data/levels/bonus1/abednego-level4.stl:3
+msgid "Train Leaves in One Minute"
+msgstr "Tha an trèana gu bhith falbh an ceann mionaid"
+
+#: data/levels/bonus1/bonus-level1.stl:3
+msgid "Bonus Dias!"
+msgstr "Gun dèid an latha leat!"
+
+#: data/levels/bonus1/bonus-level2.stl:3
+msgid "Castle Gate"
+msgstr "Geata a' chaisteil"
+
+#: data/levels/bonus1/bonus-level3.stl:3
+msgid "A Long Way Home"
+msgstr "Slighe dhachaigh fhada"
+
+#: data/levels/bonus1/bonus-level4.stl:3
+msgid "Bonus Island Castle"
+msgstr "Caisteal eilean duaise"
+
+#: data/levels/bonus1/bonus-level5.stl:3
+msgid "Area 42"
+msgstr "Raon 42"
+
+#: data/levels/bonus1/extro.txt:3
+msgid ""
+"-Congratulations!\n"
+"\n"
+"#You have successfully finished\n"
+"#Bonus Island I\n"
+"\n"
+"\tfeaturing levels contributed by\n"
+"\tJason W. Thompson\n"
+"\tTorfi Gunnarsson\n"
+"\tAbednego\n"
+"\tMatr1x\n"
+"\n"
+"\n"
+"#If you didn't clear all levels yet,\n"
+"#find your way back home and take\n"
+"#another path. There is still more\n"
+"#challenge waiting for you!\n"
+"\n"
+"#And there is a secret level to be\n"
+"#found as well...\n"
+"\n"
+"#A big \"Thank you\" goes out to\n"
+"#everyone who contributed to this\n"
+"#release. We hope you enjoyed it!"
+msgstr "-Meal do naidheachd!\n\n#Chrìochnaich thu\n#Eilean duaise I\n\n\ta' gabhail a-steach leibheilean le\n\tJason W. Thompson\n\tTorfi Gunnarsson\n\tAbednego\n\tMatr1x\n\n\n#Mura rinn thu a' chùis air gach leibheil fhathast,\n#till dhachaigh is gabh slighe eile.\n#Tha barrachd dhùbhlannan\n#romhad fhathast!\n\n#Agus tha leibheil dìomhair ri lorg ann cuideachd…\n\n#Mòran taing dhan a h-uile duine a chuidich\n#leis an sgaoileadh seo. Tha sinn an dòchas\n#gun do chòrd e riut!"
+
+#: data/levels/bonus1/matr1x-level1.stl:3
+msgid "Pipe Down Over There"
+msgstr "Sìos na pìoba thall"
+
+#: data/levels/bonus1/matr1x-level2.stl:3
+msgid "Something Fishy"
+msgstr "Ris an iasgach"
+
+#: data/levels/bonus1/matr1x-level3.stl:3
+msgid "Fire In The Sky"
+msgstr "Teine san speur"
+
+#: data/levels/bonus1/thompson-level1.stl:3
+msgid "Have I been here before?"
+msgstr "Nach robh mi an-seo roimhe?"
+
+#: data/levels/bonus1/thompson-level2.stl:3
+msgid "Bad Guys Stink!"
+msgstr "Tha dorch-fhàileadh air droch-chreutairean!"
+
+#: data/levels/bonus1/thompson-level2.stl:96
+msgid ""
+"#These levels were made Swimming-Ready by Serano and revamped by "
+"AllyTheOcelot"
+msgstr "#Dh’ullaich Serano na leibheilean seo airson snàmh agus thug AllyTheOcelot dreach ùr orra"
+
+#: data/levels/bonus1/torfi-level1.stl:3
+msgid "A good start"
+msgstr "Toiseach math"
+
+#: data/levels/bonus1/torfi-level2.stl:3
+msgid "Too easy"
+msgstr "Ro fhurasta"
+
+#: data/levels/bonus1/torfi-level2.stl:56
+msgid "#All these levels were upgraded for milestone 2 by Hume."
+msgstr "#Chaidh na leibheilean uile seo ùrachadh dhan dàrna chlach-mhìle le Hume."
+
+#: data/levels/bonus1/torfi-level3.stl:3
+msgid "Still too easy"
+msgstr "Ro fhurasta fhathast"
+
+#: data/levels/bonus1/wansti-level1.stl:3
+msgid "Semi-Frozen"
+msgstr "Leth-reòite"
+
+#: data/levels/bonus1/wansti-level2.stl:3
+msgid "Cave Of Mirrors"
+msgstr "Uamh sgàthanan"
+
+#: data/levels/bonus1/wansti-level3.stl:3
+msgid "A Maze In The Sky"
+msgstr "Cuartan san speur"
+
+#: data/levels/bonus1/wansti-level4.stl:3
+msgid "Collapse Imminent!"
+msgstr "Gu bhith tuiteam sìos!"
+
+#: data/levels/bonus1/wansti-level5.stl:3
+msgid "Tip Of The Iceberg"
+msgstr "Air barr na h-eigh-bheinne"
+
+#: data/levels/bonus1/worldmap.stwm:3
+msgid "Bonus Island I"
+msgstr "Eilean duaise I"
+
+#: data/levels/bonus1/worldmap.stwm:127
+msgid "You found a secret place!"
+msgstr "Lorg thu àite dìomhair!"
+
+#: data/levels/bonus1/worldmap.stwm:135
+msgid "Hint: Use igloos to get back here."
+msgstr "Oidheam: Chleachd taighean-sneachda gus tilleadh an-seo."
+
+#: data/levels/bonus1/worldmap.stwm:144
+msgid "Warp to Matr1x' Sector"
+msgstr "Siubhal gu machair Matr1x"
+
+#: data/levels/bonus1/worldmap.stwm:151 data/levels/bonus1/worldmap.stwm:228
+msgid "Warp to Thompson's Domain"
+msgstr "Siubhal gu talamh Thompson"
+
+#: data/levels/bonus1/worldmap.stwm:158 data/levels/bonus1/worldmap.stwm:221
+msgid "Leave the SuperTux Team Island"
+msgstr "Fàg eilean an sgioba SuperTux"
+
+#: data/levels/bonus1/worldmap.stwm:165
+msgid "Warp to Abednego's Area"
+msgstr "Siubhal gu àrainn Abednego"
+
+#: data/levels/bonus1/worldmap.stwm:172 data/levels/bonus1/worldmap.stwm:262
+msgid "Leave Torfi's Territory"
+msgstr "Fàg tìr Torfi"
+
+#: data/levels/bonus1/worldmap.stwm:179 data/levels/bonus1/worldmap.stwm:207
+msgid "Leave Abednego's Area"
+msgstr "Fàg àrainn Abednego"
+
+#: data/levels/bonus1/worldmap.stwm:186 data/levels/bonus1/worldmap.stwm:234
+msgid "Leave Thompson's Domain"
+msgstr "Fàg talamh Thompson"
+
+#: data/levels/bonus1/worldmap.stwm:193
+msgid "Back to Matr1x' Sector"
+msgstr "Till gu machair Matr1x"
+
+#: data/levels/bonus1/worldmap.stwm:200
+msgid "Warp home"
+msgstr "Siubhal dhachaigh"
+
+#: data/levels/bonus1/worldmap.stwm:214
+msgid "Warp to the SuperTux Team Island"
+msgstr "Siubhal gu eilean an sgioba SuperTux"
+
+#: data/levels/bonus1/worldmap.stwm:241
+msgid "Leave Matr1x' Sector"
+msgstr "F?ag machair Matr1x"
+
+#: data/levels/bonus1/worldmap.stwm:248
+msgid "Continue Matr1x' Sector"
+msgstr "Lean air machair Matr1x"
+
+#: data/levels/bonus1/worldmap.stwm:255
+msgid "Warp to Torfi's Territory"
+msgstr "Siubhal gu tìr Torfi"

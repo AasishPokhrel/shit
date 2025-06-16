@@ -1,0 +1,24 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (surfaces
+   (surface
+    (translate 0 0)
+    (scale 1.0 1.0)
+    (rotate 0)
+    (rotate-center 0.0 0.0)
+    (flip #f #f)
+
+    (diffuse-texture
+     (file "heatshimmer.png"))
+
+    (displacement-texture
+     (file "heatshimmer-displacement.png")
+     (wrap "repeat")
+     (filter "nearest")
+     (animate 0 32)
+     )
+    )
+   )
+  )
+ )

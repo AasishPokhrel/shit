@@ -1,0 +1,21 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (images "bell-m.png")
+  (hitbox 8 5 32 32)
+ )
+ (action
+  (name "ringing")
+  (images
+   "bell-l_0.png"
+   "bell-l.png"
+   "bell-l_0.png"
+   "bell-m.png"
+   "bell-r_0.png"
+   "bell-r.png"
+   "bell-r_0.png"
+   "bell-m.png"
+   )
+  (hitbox 8 5 32 32)
+ )
+)

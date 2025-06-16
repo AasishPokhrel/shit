@@ -1,0 +1,335 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# abuyop <abuyop@gmail.com>, 2018,2021
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2013-08-10 22:58+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>, 2018,2021\n"
+"Language-Team: Malay (Malaysia) (http://app.transifex.com/arctic-games/supertux/language/ms_MY/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ms_MY\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/levels/world1/23rd_airborne.stl:3
+msgid "23rd Airborne"
+msgstr "Penerbangan ke-23"
+
+#: data/levels/world1/23rd_airborne.stl:598
+#: data/levels/world1/between_glaciers.stl:855
+#: data/levels/world1/between_glaciers.stl:863
+#: data/levels/world1/crystal_mine.stl:1535
+#: data/levels/world1/crystal_mine.stl:1543
+#: data/levels/world1/frosted_fields.stl:188
+#: data/levels/world1/path_in_the_clouds.stl:348
+#: data/levels/world1/path_in_the_clouds.stl:1126
+#: data/levels/world1/shattered_bridge.stl:628
+#: data/levels/world1/stone_cold.stl:397 data/levels/world1/worldmap.stwm:229
+msgid "You found a secret area!"
+msgstr "Anda telah menemui satu tempat rahsia!"
+
+#: data/levels/world1/above_arctic_skies.stl:3
+msgid "Above the Arctic Skies"
+msgstr "Di atas Langit Artik"
+
+#: data/levels/world1/above_arctic_skies.stl:162
+msgid ""
+"-Air Flower\n"
+"!images/powerups/airflower/air_flower-0.png\n"
+"#The Air Flower gives Tux the ability to glide in the air for a few seconds, while holding the JUMP Key."
+msgstr "-Bunga Udara\n!images/powerups/airflower/air_flower-0.png\n#Bunga Udara memberi Tux keupayaan melungsur di udara dalam tempoh beberapa saat, ketika menahan Kekunci LOMPAT."
+
+#: data/levels/world1/between_glaciers.stl:3
+msgid "Between Two Glaciers"
+msgstr "Antara Dua Glasier"
+
+#: data/levels/world1/between_glaciers.stl:108
+msgid ""
+"-Crystals\n"
+"#This level contains four coloured crystals. Can you find them?\n"
+"#\n"
+"#Note: These crystals do not serve any purpose at the moment but they might will in a future release of the game."
+msgstr "-Hablur\n#Aras ini mengandungi empat hablur berwarna. Dapatkah anda menemuinya?\n#\n#Petua: Hablur-hablur ini tidak memberi apa-apa kelebihan tetapi ia mungkin dapat mendedahkan keluaran permainan akan datang."
+
+#: data/levels/world1/castle_of_nolok.stl:3
+msgid "The Castle of Nolok"
+msgstr "Istana Nolok"
+
+#: data/levels/world1/crystal_mine.stl:3
+msgid "The Crystal Mine"
+msgstr "Lombong Hablur"
+
+#: data/levels/world1/crystal_mine.stl:686
+msgid "#You have to activate two switches to open this door."
+msgstr "#Anda perlu aktifkan dua suis untuk membuka pintu ini."
+
+#: data/levels/world1/end_of_tunnel.stl:3
+msgid "End of the Tunnel"
+msgstr "Penghujung Terowong"
+
+#: data/levels/world1/entrance_cave.stl:3
+msgid "Entrance to the Cave"
+msgstr "Pintu Masuk ke Gua"
+
+#: data/levels/world1/fork_in_the_road.stl:3
+msgid "A Fork in the Road"
+msgstr "Jalan Bercabang"
+
+#: data/levels/world1/fork_in_the_road.stl:84
+msgid ""
+"-Switches\n"
+"!images/objects/switch/switch-0.png\n"
+"!images/objects/pushbutton/pushbutton-0.png\n"
+"#Switches can be used to do all manner of things. Press the UP key to use a switch.\n"
+"#There are also buttons that you can press by jumping on them."
+msgstr "-Suis\n!images/objects/switch/switch-0.png\n!images/objects/pushbutton/pushbutton-0.png\n#Suis boleh digunakan untuk membuat macam-macam perkara. Tekan kekunci ATAS untuk aktifkan suis tersebut.\n#Ada juga butang yang boleh ditekan dengan cara melompat di atasnya."
+
+#: data/levels/world1/fork_in_the_road.stl:93
+msgid ""
+"-Trampolines\n"
+"!images/objects/trampoline/trampoline2-0.png\n"
+"#Trampolines allow Tux to jump to new heights. Hold down the JUMP key while bouncing on the trampoline to launch extra high."
+msgstr "-Trampolin\n!images/objects/trampoline/trampoline2-0.png\n#Trampolin membolehkan Tux lompat lebih tinggi. Tahan kekunci LOMPAT ketika melantun di atas trampolin lompatan lebih tinggi."
+
+#: data/levels/world1/fork_in_the_road.stl:100
+msgid ""
+"-Climbing\n"
+"#Tux can climb! Press the UP key to start climbing. Press the ACTION key or jump to let go."
+msgstr "-Memanjat\n#Tux sebenarnya boleh memanjat! Ketik kekunci ATAS untuk mula memanjat. Ketik kekunci AKSI atau lompat keluar."
+
+#: data/levels/world1/fork_in_the_road.stl:106
+msgid ""
+"-Secret Exits\n"
+"#Some level can have multiple exits. They are mostly hidden, so keep an eye out for them.\n"
+"#Maybe they lead you to something special."
+msgstr "-Pintu Keluar Rahsia\n#Sesetengah aras mempunyai lebih dari satu jalan keluar. Kebanyakannya tersembunyi, jadi sentiasa peka dengan sekeliling.\n#Mungkin anda menemui sesuatu yang istimewa."
+
+#: data/levels/world1/frosted_fields.stl:3
+msgid "The Frosted Fields"
+msgstr "Padang Berfros"
+
+#: data/levels/world1/frozen_bridge.stl:3
+msgid "Over the Frozen Bridge"
+msgstr "Melalui Jambatan Beku"
+
+#: data/levels/world1/ice_in_the_hole.stl:3
+msgid "Ice in the Hole"
+msgstr "Ais dalam Lubang"
+
+#: data/levels/world1/icy_valley.stl:3
+msgid "Icy Valley"
+msgstr "Lembah Ais"
+
+#: data/levels/world1/into_stars.stl:3
+msgid "Into the Stars"
+msgstr "Menuju Bintang"
+
+#: data/levels/world1/intro.stl:3
+msgid "Picnic With Penny"
+msgstr "Berkelah Dengan si Penny"
+
+#: data/levels/world1/journey_begins.stl:3
+msgid "The Journey Begins"
+msgstr "Pengembaraan Bermula"
+
+#: data/levels/world1/living_inside_fridge.stl:3
+msgid "Living in a Fridge"
+msgstr "Kehidupan seperti di dalam Peti Ais"
+
+#: data/levels/world1/miyamoto_monument.stl:3
+msgid "Miyamoto Monument"
+msgstr "Monumen Miyamoto"
+
+#: data/levels/world1/more_snowballs.stl:3
+msgid "Oh No! More Snowballs!"
+msgstr "Alamak! Bola Salji Lagi!"
+
+#: data/levels/world1/night_chill.stl:3
+msgid "Night Chill"
+msgstr "Kesejukan Malam"
+
+#: data/levels/world1/or_just_me.stl:3
+msgid "...Or Is It Just Me?"
+msgstr "...Atau Saya Seorang Jer?"
+
+#: data/levels/world1/path_in_the_clouds.stl:3
+msgid "A Path in the Clouds"
+msgstr "Laluan di atas Awan"
+
+#: data/levels/world1/scripts_castle_cutscene.txt:2
+msgid "Tux had reached the end of the castle."
+msgstr "Tux sudah sampai di penghujung istana."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:3
+msgid "But to his surprise all he could find was a letter."
+msgstr "Tetapi beliau hanya menemui sepucuk surat."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:4
+msgid ""
+"A letter from Penny telling Tux that Nolok has taken her to a far forest."
+msgstr "Surat daripada Penny yang memberitahu Tux bahawa si Nolox durjana telah membawanya jauh ke dalam hutan."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:5
+msgid ""
+"Unsure about what Nolok was doing to her, Tux became worried about his "
+"beloved Penny."
+msgstr "Tidak pasti apa tujuan Nolox, Tux semakin risau akan keselamatan Penny."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:6
+msgid "Until suddenly..."
+msgstr "Sehinggalah..."
+
+#: data/levels/world1/scripts_intro.txt:2
+msgid "Somewhere at the shores of Antarctica..."
+msgstr "Di suatu tempat, persisiran pantai Antartika..."
+
+#: data/levels/world1/scripts_intro.txt:3
+msgid "Tux the penguin was going to meet his friend, Penny, for a picnic."
+msgstr "Tux si penguin akan bertemu dengan rakannya, Penny, untuk berkelah."
+
+#: data/levels/world1/scripts_intro.txt:4
+msgid "Tux woke up, dizzy, to find that Penny was missing!"
+msgstr "Tux tersedar, masih berasa pening, beliau mendapati si Penny sudah hilang!"
+
+#: data/levels/world1/scripts_intro.txt:5
+msgid "Tux was starting to become worried. He then saw a letter, and it read:"
+msgstr "Tux menjadi risau. Kemudian beliau menemui sepucuk surat, seraya membaca:"
+
+#: data/levels/world1/scripts_intro.txt:6
+msgid ""
+"\"Tux, I have kidnapped your beloved Penny and have taken her to my "
+"fortress.\""
+msgstr "\"Tux, Aku telah menculik si Penny kesayangan kamu dan bawa balik ke kubuku.\""
+
+#: data/levels/world1/scripts_intro.txt:7
+msgid "\"The path to my fortress is littered with my minions.\""
+msgstr "\"Laluan ke kubu aku dipenuhi dengan para pengikutku.\""
+
+#: data/levels/world1/scripts_intro.txt:8
+msgid "\"You don't have a chance of saving her! Signed, Nolok.\""
+msgstr "\"Kamu pasti sukar menyelamat Penny! Tanda tangan, Nolok.\""
+
+#: data/levels/world1/scripts_intro.txt:9
+msgid ""
+"Realizing the trouble Penny could be in, Tux became determined to save her."
+msgstr "Menyedari si Penny mungkin ada di dalam, Tux semakin nekad menyelamatkannya."
+
+#: data/levels/world1/scripts_intro.txt:10
+msgid ""
+"Then, Tux saw Nolok's castle in the distance and set off to rescue Penny!"
+msgstr "Kemudian, dari jauh Tux nampak istana Nolok dan berazam untuk menyelamatkan Penny!"
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:2
+msgid "Exhausted from his long walk, Tux decided to take a little break."
+msgstr "Setelah penat berjalan jauh, Tux berhenti sebentar untuk menghilangkan lelahnya."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:3
+msgid "But then, all of a sudden he heard a loud roar from a distance."
+msgstr "Tiba-tiba, beliau terdengar laungan kuat dari jauh."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:4
+msgid "A yeti seems to have observed him from afar."
+msgstr "Ada seekor Yeti memerhati beliau dari jarak jauh."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:5
+msgid ""
+"Concerned by the yeti's sudden retreat, Tux decided to continue his journey,"
+" ..."
+msgstr "Disebabkan si yeti tiba-tiba menghilangkan diri, Tux bercadang untuk meneruskan perjalanannya."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:6
+msgid "...while secretly hoping not to run into the yeti again, by any means."
+msgstr "...tetapi masih berharap tidak lagi bertembung dengan yeti itu lagi."
+
+#: data/levels/world1/shattered_bridge.stl:3
+msgid "The Shattered Bridge"
+msgstr "Jambatan Rapuh"
+
+#: data/levels/world1/somewhat_smaller_bath.stl:3
+msgid "The Somewhat Smaller Bath"
+msgstr "Kolam Mandi yang Kecil"
+
+#: data/levels/world1/stone_cold.stl:3
+msgid "Stone Cold"
+msgstr "Batu yang Dingin"
+
+#: data/levels/world1/under_the_ice.stl:3
+msgid "Under the Ice"
+msgstr "Di bawah Ais"
+
+#: data/levels/world1/via_nostalgica.stl:3
+msgid "Via Nostalgica"
+msgstr "Melalui Nostalgica"
+
+#: data/levels/world1/welcome_antarctica.stl:3
+msgid "Welcome to Antarctica"
+msgstr "Selamat Datang ke Antartika"
+
+#: data/levels/world1/welcome_antarctica.stl:74
+msgid ""
+"-Bonus Blocks\n"
+"!images/objects/bonus_block/full-0.png\n"
+"#Bonus blocks can contain coins, power-ups or special items to help you in your quest.\n"
+"#\n"
+"#Hit them from below to get at their contents."
+msgstr "-Blok Bonus\n!images/objects/bonus_block/full-0.png\n#Blok bonus mengandungi syiling, tingkat-kuasa atau item istimewa yang dapat membantu anda dalam pencarian anda.\n#\n#Sentuh ia dari arah bawah untuk mengeluarkan kandungannya."
+
+#: data/levels/world1/welcome_antarctica.stl:83
+msgid ""
+"-Eggs\n"
+"!images/powerups/egg/egg-shade.png\n"
+"#The egg makes Tux grow larger. Tux can then smash wooden blocks with his head."
+msgstr "-Telur\n!images/powerups/egg/egg-shade.png\n#Telur boleh menjadikan Tux lebih besar. Dengan keupayaan ini, Tux boleh memecahkan kotak kayu hanya menggunakan kepalanya."
+
+#: data/levels/world1/welcome_antarctica.stl:90
+msgid ""
+"-Checkpoints\n"
+"!images/objects/resetpoints/bell-m.png\n"
+"#Activate the checkpoint. If you die, you can retry the level from here. Every time you retry from a checkpoint, you will lose 10 percent of your coins (at least 25 coins)."
+msgstr "-Titik Semakan\n!images/objects/resetpoints/bell-m.png\n#Aktifkan titik semakan. Jika anda mati, anda boleh ulang kembali aras bermula di sini. Setiap kali anda mula semula dari titik semakan, anda akan kehilangan 10% dari syiling terkumpul yang ada (sekurang-kurangnya 25 syiling)."
+
+#: data/levels/world1/welcome_antarctica.stl:97
+msgid ""
+"-Running\n"
+"!images/tiles/signs/run.png\n"
+"#The path in front of you is blocked. Gain some speed before jumping to pass over the blocks."
+msgstr "-Berlari\n!images/tiles/signs/run.png\n#Laluan di hadapan anda telah disekat. Tambah kelajuan sebelum melompat dan melepasi sekatan tersebut."
+
+#: data/levels/world1/welcome_antarctica.stl:104
+msgid ""
+"-Fire Flower\n"
+"!images/powerups/fireflower/fire_flower-0.png\n"
+"#The fire flower gives Tux the ability to shoot fireballs."
+msgstr "-Bunga Api\n!images/powerups/fireflower/fire_flower-0.png\n#Bunga api memberi Tux keupayaan menembak bola api."
+
+#: data/levels/world1/welcome_antarctica.stl:111
+msgid ""
+"-Tux Doll\n"
+"!images/powerups/1up/1up.png\n"
+"#The Tux doll gives Tux 100 coins."
+msgstr "-Anak Patung Tux\n!images/powerups/1up/1up.png\n#Anak Patung Tux menyumbang 100 syiling kepada Tux."
+
+#: data/levels/world1/welcome_antarctica.stl:118
+msgid ""
+"-Secret Areas\n"
+"#Many levels contain secret areas behind what seems to be plain walls. Look for clues to find them."
+msgstr "-Kawasan Rahsia\n#Banyak aras mengandungi kawasan rahsia walaupun nampak seperti dinding biasa. Cari petunjuk-petunjuk untuk menemuinya."
+
+#: data/levels/world1/worldmap.stwm:3
+msgid "Icy Island"
+msgstr "Pulau Ais"
+
+#: data/levels/world1/yeti_boss.stl:3
+msgid "No More Mr. Ice Guy"
+msgstr "Tiada Lagi Si Jejaka Ais Berhati Baik"
+
+#: data/levels/world1/yeti_cutscene.stl:3
+msgid "A Yeti in the Distance"
+msgstr "Seekor Yeti Jauh Nun Di Sana"

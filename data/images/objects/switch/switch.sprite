@@ -1,0 +1,158 @@
+(supertux-sprite
+  (action
+    (name "off")
+    (hitbox 0 0 32 48)
+    (images
+      "switch-0.png"
+    )
+  )
+  (action
+    (name "turnon")
+    (fps 18)
+	(loops 1)
+    (hitbox 0 0 32 48)
+    (images
+      "switch-1.png"
+      "switch-2.png"
+      "switch-3.png"
+    )
+  )
+  (action
+    (name "on")
+    (hitbox 0 0 32 48)
+    (images
+      "switch-4.png"
+    )
+  )
+  (action
+    (name "turnoff")
+    (fps 18)
+	(loops 1)
+    (hitbox 0 0 32 48)
+    (images
+      "switch-3.png"	
+      "switch-2.png"
+      "switch-1.png"
+    )
+  )
+  (action
+    (name "off-left")
+    (hitbox 0 0 32 48)
+    (images
+      "left-0.png"
+    )
+  )
+  (action
+    (name "turnon-left")
+    (fps 18)
+	(loops 1)
+    (hitbox 0 0 32 48)
+    (images
+      "left-1.png"
+      "left-2.png"
+      "left-3.png"
+    )
+  )
+  (action
+    (name "on-left")
+    (hitbox 0 0 32 48)
+    (images
+      "left-4.png"
+    )
+  )
+  (action
+    (name "turnoff-left")
+    (fps 18)
+	(loops 1)
+    (hitbox 0 0 32 48)
+    (images
+      "left-3.png"
+      "left-2.png"
+      "left-1.png"
+    )
+  )
+  (action
+    (name "off-right")
+    (hitbox 0 0 32 48)
+    (mirror-action "off-left")
+  )
+  (action
+    (name "turnon-right")
+    (fps 18)
+	(loops 1)
+    (hitbox 0 0 32 48)
+    (mirror-action "turnon-left")
+  )
+  (action
+    (name "on-right")
+    (hitbox 0 0 32 48)
+    (mirror-action "on-left")
+  )
+  (action
+    (name "turnoff-right")
+    (fps 18)
+	(loops 1)
+    (hitbox 0 0 32 48)
+    (mirror-action "turnoff-left")
+  )
+  (action
+    (name "off-down")
+    (hitbox 0 0 32 48)
+    (images
+      "down-0.png"
+    )
+  )
+  (action
+    (name "turnon-down")
+    (fps 18)
+	(loops 1)
+    (hitbox 0 0 32 48)
+    (images
+      "down-1.png"
+      "down-2.png"
+      "down-3.png"
+    )
+  )
+  (action
+    (name "on-down")
+    (hitbox 0 0 32 48)
+    (images
+      "down-4.png"
+    )
+  )
+  (action
+    (name "turnoff-down")
+    (fps 18)
+	(loops 1)
+    (hitbox 0 0 32 48)
+    (images
+      "down-3.png"
+      "down-2.png"
+      "down-1.png"
+    )
+  )
+  (action
+    (name "off-up")
+    (hitbox 0 0 32 48)
+    (flip-action "off-down")
+  )
+  (action
+    (name "turnon-up")
+    (fps 18)
+	(loops 1)
+    (hitbox 0 0 32 48)
+    (flip-action "turnon-down")
+  )
+  (action
+    (name "on-up")
+    (hitbox 0 0 32 48)
+    (flip-action "on-down")
+  )
+  (action
+    (name "turnoff-up")
+    (fps 18)
+	(loops 1)
+    (hitbox 0 0 32 48)
+    (flip-action "turnoff-down")
+  )
+)

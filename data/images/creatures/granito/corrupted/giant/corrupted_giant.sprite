@@ -1,0 +1,42 @@
+(supertux-sprite
+  (action
+    (name "husk1-left")
+	(hitbox 85 27 90 156)
+    (fps 5)
+    (images "corrupted_granito_husk-0.png")
+  )
+  (action
+    (name "husk1-right")
+	(hitbox 47 27 90 156)
+    (fps 5)
+    (mirror-action "husk1-left")
+  )
+  (action
+    (name "husk2-left")
+	(hitbox 88 28 80 156)
+    (images "corrupted_granito_husk-1.png")
+  )
+  (action
+    (name "husk2-right")
+	(hitbox 82 28 80 156)
+    (mirror-action "husk2-left")
+  )
+  (action
+    (name "husk3-left")
+	(hitbox 69 36 80 148)
+    (fps 5)
+    (images "corrupted_granito_husk-2.png")
+  )
+  (action
+    (name "husk3-right")
+	(hitbox 89 36 80 148)
+    (fps 5)
+    (mirror-action "husk3-left")
+  )
+  (action
+    (name "idle-left")
+    (clone-action "husk1-left"))
+  (action
+    (name "idle-right")
+    (clone-action "husk1-right"))
+)

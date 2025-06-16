@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Angela <angelapellegrino@hotmail.it>, 2014
+# A-TNT DC, 2021
+# Ioma Taani, 2015
+# Seb47 <seb47tv@gmail.com>, 2016
+# Andrius Štikonas <andrius@stikonas.eu>, 2006
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2024-11-11 21:50+0000\n"
+"PO-Revision-Date: 2013-08-10 23:04+0000\n"
+"Last-Translator: A-TNT DC, 2021\n"
+"Language-Team: Italian (http://app.transifex.com/arctic-games/supertux/language/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: data/levels/bonus1/abednego-level1.stl:3
+msgid "Flight Test"
+msgstr "Prova di Volo"
+
+#: data/levels/bonus1/abednego-level2.stl:3
+msgid "Dungeons but no Dragons"
+msgstr "Dungeons Senza Dragons"
+
+#: data/levels/bonus1/abednego-level3.stl:3
+msgid "Lies!"
+msgstr "Bugie!"
+
+#: data/levels/bonus1/abednego-level4.stl:3
+msgid "Train Leaves in One Minute"
+msgstr "Il Treno Parte Tra Un Minuto"
+
+#: data/levels/bonus1/bonus-level1.stl:3
+msgid "Bonus Dias!"
+msgstr "Bonus Dias!"
+
+#: data/levels/bonus1/bonus-level2.stl:3
+msgid "Castle Gate"
+msgstr "Cancello del Castello"
+
+#: data/levels/bonus1/bonus-level3.stl:3
+msgid "A Long Way Home"
+msgstr "La Lunga Strada Verso Casa"
+
+#: data/levels/bonus1/bonus-level4.stl:3
+msgid "Bonus Island Castle"
+msgstr "Castello dell'Isola Bonus"
+
+#: data/levels/bonus1/bonus-level5.stl:3
+msgid "Area 42"
+msgstr "Area 42"
+
+#: data/levels/bonus1/extro.txt:3
+msgid ""
+"-Congratulations!\n"
+"\n"
+"#You have successfully finished\n"
+"#Bonus Island I\n"
+"\n"
+"\tfeaturing levels contributed by\n"
+"\tJason W. Thompson\n"
+"\tTorfi Gunnarsson\n"
+"\tAbednego\n"
+"\tMatr1x\n"
+"\n"
+"\n"
+"#If you didn't clear all levels yet,\n"
+"#find your way back home and take\n"
+"#another path. There is still more\n"
+"#challenge waiting for you!\n"
+"\n"
+"#And there is a secret level to be\n"
+"#found as well...\n"
+"\n"
+"#A big \"Thank you\" goes out to\n"
+"#everyone who contributed to this\n"
+"#release. We hope you enjoyed it!"
+msgstr "-Congratulazioni!\n\n#Hai terminato con successo\n#Bonus Isola I\n⇥featuring levels contributed by\n⇥Jason W. Thompson\n⇥Torfi Gunnarsson\n⇥Abednego\n⇥Matr1x\n\n\n#If you didn't clear all levels yet,\n#find your way back home and take\n#another path. There is still more\n#challenge waiting for you!\n\n#And there is a secret level to be\n#found as well...\n\n#A big \"Thank you\" goes out to\n#everyone who contributed to this\n#release. We hope you enjoyed it!"
+
+#: data/levels/bonus1/matr1x-level1.stl:3
+msgid "Pipe Down Over There"
+msgstr "Tubature Laggiù"
+
+#: data/levels/bonus1/matr1x-level2.stl:3
+msgid "Something Fishy"
+msgstr "Qualcosa Di Sospetto"
+
+#: data/levels/bonus1/matr1x-level3.stl:3
+msgid "Fire In The Sky"
+msgstr "Fuoco Nel Cielo"
+
+#: data/levels/bonus1/thompson-level1.stl:3
+msgid "Have I been here before?"
+msgstr "Sono già stato qui prima?"
+
+#: data/levels/bonus1/thompson-level2.stl:3
+msgid "Bad Guys Stink!"
+msgstr "I cattivi puzzano!"
+
+#: data/levels/bonus1/thompson-level2.stl:96
+msgid ""
+"#These levels were made Swimming-Ready by Serano and revamped by "
+"AllyTheOcelot"
+msgstr "#Questi livelli sono stati creati Swimming-Ready da Serano e rinnovati da AllyTheOcelot"
+
+#: data/levels/bonus1/torfi-level1.stl:3
+msgid "A good start"
+msgstr "Un buon inizio"
+
+#: data/levels/bonus1/torfi-level2.stl:3
+msgid "Too easy"
+msgstr "Troppo facile"
+
+#: data/levels/bonus1/torfi-level2.stl:56
+msgid "#All these levels were upgraded for milestone 2 by Hume."
+msgstr "#Tutti questi livelli sono stati aggiornati alla Milestone 2 da Hume."
+
+#: data/levels/bonus1/torfi-level3.stl:3
+msgid "Still too easy"
+msgstr "Ancora troppo facile"
+
+#: data/levels/bonus1/wansti-level1.stl:3
+msgid "Semi-Frozen"
+msgstr "Semi-Congelato"
+
+#: data/levels/bonus1/wansti-level2.stl:3
+msgid "Cave Of Mirrors"
+msgstr "Cava Degli Specchi"
+
+#: data/levels/bonus1/wansti-level3.stl:3
+msgid "A Maze In The Sky"
+msgstr "Un Labirinto Nel Cielo"
+
+#: data/levels/bonus1/wansti-level4.stl:3
+msgid "Collapse Imminent!"
+msgstr "Collasso Imminente!"
+
+#: data/levels/bonus1/wansti-level5.stl:3
+msgid "Tip Of The Iceberg"
+msgstr "Punta Dell'Iceberg"
+
+#: data/levels/bonus1/worldmap.stwm:3
+msgid "Bonus Island I"
+msgstr "Isola Bonus I"
+
+#: data/levels/bonus1/worldmap.stwm:127
+msgid "You found a secret place!"
+msgstr "Hai trovato un luogo segreto!"
+
+#: data/levels/bonus1/worldmap.stwm:135
+msgid "Hint: Use igloos to get back here."
+msgstr "Suggerimento: Usa gli igloo per tornare qui."
+
+#: data/levels/bonus1/worldmap.stwm:144
+msgid "Warp to Matr1x' Sector"
+msgstr "Teletrasportati al Settore di Matr1x"
+
+#: data/levels/bonus1/worldmap.stwm:151 data/levels/bonus1/worldmap.stwm:228
+msgid "Warp to Thompson's Domain"
+msgstr "Teletrasportati al Dominio di Thompson"
+
+#: data/levels/bonus1/worldmap.stwm:158 data/levels/bonus1/worldmap.stwm:221
+msgid "Leave the SuperTux Team Island"
+msgstr "Abbandona l'Isola del SuperTux Team "
+
+#: data/levels/bonus1/worldmap.stwm:165
+msgid "Warp to Abednego's Area"
+msgstr "Teletrasportati all'Area di Abednego"
+
+#: data/levels/bonus1/worldmap.stwm:172 data/levels/bonus1/worldmap.stwm:262
+msgid "Leave Torfi's Territory"
+msgstr "Abbandona il Territorio di Torfi"
+
+#: data/levels/bonus1/worldmap.stwm:179 data/levels/bonus1/worldmap.stwm:207
+msgid "Leave Abednego's Area"
+msgstr "Abbandona l'Area di Abednego"
+
+#: data/levels/bonus1/worldmap.stwm:186 data/levels/bonus1/worldmap.stwm:234
+msgid "Leave Thompson's Domain"
+msgstr "Abbandona il Dominio di Thompson"
+
+#: data/levels/bonus1/worldmap.stwm:193
+msgid "Back to Matr1x' Sector"
+msgstr "Ritorna al Settore Matr1x"
+
+#: data/levels/bonus1/worldmap.stwm:200
+msgid "Warp home"
+msgstr "Teletrasportati a casa"
+
+#: data/levels/bonus1/worldmap.stwm:214
+msgid "Warp to the SuperTux Team Island"
+msgstr "Teletrasportati all'Isola del Super Tux Team"
+
+#: data/levels/bonus1/worldmap.stwm:241
+msgid "Leave Matr1x' Sector"
+msgstr "Abbandona il Settore Matr1x"
+
+#: data/levels/bonus1/worldmap.stwm:248
+msgid "Continue Matr1x' Sector"
+msgstr "Continua il Settore Matr1x"
+
+#: data/levels/bonus1/worldmap.stwm:255
+msgid "Warp to Torfi's Territory"
+msgstr "Teletrasportati al Territorio di Torfi"

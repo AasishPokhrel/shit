@@ -1,0 +1,43 @@
+(supertux-sprite
+	(action
+	  (name "idle-left")
+	  (hitbox 18 26 48 48)
+	  (images "rock_mine-0.png")
+	)
+	(action
+	  (name "cracked-1-left")
+	  (hitbox 18 26 48 48)
+	  (images "rock_mine-1.png")
+	)
+	(action
+	  (name "cracked-2-left")
+	  (hitbox 18 26 48 48)
+	  (images "rock_mine-2.png")
+	)
+	(action
+	  (name "broken-left")
+	  (hitbox 18 26 48 48)
+	  (images "rock_mine-3.png")
+	)
+	
+	(action
+	  (name "idle-right")
+	  (hitbox 18 26 48 48)
+	  (mirror-action "idle-left")
+	)
+	(action
+	  (name "cracked-1-right")
+	  (hitbox 18 26 48 48)
+	  (mirror-action "cracked-1-left")
+	)
+	(action
+	  (name "cracked-2-right")
+	  (hitbox 18 26 48 48)
+	  (mirror-action "cracked-2-left")
+	)
+	(action
+	  (name "broken-right")
+	  (hitbox 18 26 48 48)
+	  (mirror-action "broken-left")
+	)
+)

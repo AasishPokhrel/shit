@@ -1,0 +1,28 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (hitbox 0 0 0 0)
+(fps 1)
+  (images "torch-off1.png"
+"torch-off1.png"
+"torch-off1.png"
+"torch-off1.png"
+"torch-off1.png"
+"torch-off1.png"
+"torch-off2.png"
+)
+ )
+ (action
+  (name "ringing")
+(hitbox 0 32 0 0)
+(fps 7)
+  (images
+"torch2.png"
+"torch3.png"
+"torch4.png"
+"torch5.png"
+"torch6.png"
+
+  )
+ )              
+)

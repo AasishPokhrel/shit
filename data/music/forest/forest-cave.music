@@ -1,0 +1,5 @@
+(supertux-music
+  (file "forest-cave.ogg")
+  (loop-begin 0)
+  (loop-at    149)
+)

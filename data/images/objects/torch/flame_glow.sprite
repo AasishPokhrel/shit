@@ -1,0 +1,22 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (fps 16)
+    (hitbox -2 30 14 128)
+    (images "flame_glow1.png"
+            "flame_glow2.png"
+            "flame_glow3.png"
+            "flame_glow4.png"
+            )
+  )
+  (action
+    (name "greyscale")
+    (fps 16)
+    (hitbox -2 30 14 128)
+    (images "greyscale/flame_glow1.png"
+            "greyscale/flame_glow2.png"
+            "greyscale/flame_glow3.png"
+            "greyscale/flame_glow4.png"
+            )
+  )
+)

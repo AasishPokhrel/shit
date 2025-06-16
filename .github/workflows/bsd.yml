@@ -1,0 +1,83 @@
+#  SuperTux
+#  Copyright (C) 2020-2021 Jacob Burroughs <maths22@gmail.com>
+#                2020-2022 A. Semphris <semphris@protonmail.com>
+#
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+name: BSD
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - '*'
+  pull_request: {}
+
+jobs:
+  bsd:
+
+    strategy:
+      fail-fast: false
+      matrix:
+        # TODO: Add the OpenBSD, NetBSD and Solaris VMs whenever possible
+        vm_os: [freebsd]
+        build_type: [Debug, Release]
+        # FreeBSD does not have glbinding
+        # glbiactions/checkout@v4
+
+    runs-on: macos-10.15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Fetch the whole tree so git describe works
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Build in FreeBSD
+        if: ${{ matrix.vm_os == 'freebsd' }}
+        env:
+          BUILD_TYPE: ${{ matrix.build_type }}
+          CMAKE_POLICY_VERSION_MINIMUM: 3.5
+          # GLBINDING: ${{ matrix.glbinding }} # TODO: Re-add if available
+        uses: vmactions/freebsd-vm@v0.1.4
+        with:
+          envs: 'BUILD_TYPE' # TODO: Add GLBINDING here if it comes to FreeBSD
+          sync: rsync
+          usesh: true
+          prepare: |
+            pkg install -y pkgconf
+            pkg install -y git
+            pkg install -y cmake
+            pkg install -y googletest
+            pkg install -y sdl2
+            pkg install -y sdl2_image
+            pkg install -y openal-soft
+            pkg install -y glew
+            # pkg install -y glbinding # TODO: Uncomment whenever possible
+            pkg install -y curl
+            pkg install -y libogg
+            pkg install -y libvorbis
+            pkg install -y freetype
+            pkg install -y libraqm
+            pkg install -y glm
+          run: |
+            mkdir build && cd build
+            cmake .. -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DWARNINGS=ON -DWERROR=ON  \
+                     -DBUILD_TESTS=ON -DINSTALL_SUBDIR_SHARE=share/supertux2   \
+                     -DCMAKE_INSTALL_MESSAGE=NEVER -DCMAKE_INSTALL_PREFIX=/usr \
+                     -DINSTALL_SUBDIR_BIN=bin # -DGLBINDING_ENABLED=$GLBINDING
+                                            # TODO: Uncomment whenever possible
+            make -j3 VERBOSE=1
+            make install DESTDIR="/tmp/supertux" VERBOSE=1
+            ./test_supertux2

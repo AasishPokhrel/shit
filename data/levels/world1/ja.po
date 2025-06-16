@@ -1,0 +1,342 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# 515ce455fbf38ec9585626e8d26b6324_7a9a6ef, 2017
+# Ryo Nakano, 2018-2021
+# b1e11c107ebf1f339ff7adfc86b9dbe0_2e3e89d, 2016
+# Masayuki Sugahara <brindflontia@gmail.com>, 2016
+# Sanshiro sumita, 2015-2016
+# Sanshiro sumita, 2015
+# Ubuntu Jackson <santenichiyonitchigo@gmail.com>, 2020
+# 0ea743a388003249c3a27027490eb004_eb62725 <93be5fa112647d5d896be9f7b3c2eda8_426397>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2013-08-10 22:58+0000\n"
+"Last-Translator: Ryo Nakano, 2018-2021\n"
+"Language-Team: Japanese (http://app.transifex.com/arctic-games/supertux/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/levels/world1/23rd_airborne.stl:3
+msgid "23rd Airborne"
+msgstr "第23空挺団"
+
+#: data/levels/world1/23rd_airborne.stl:598
+#: data/levels/world1/between_glaciers.stl:855
+#: data/levels/world1/between_glaciers.stl:863
+#: data/levels/world1/crystal_mine.stl:1535
+#: data/levels/world1/crystal_mine.stl:1543
+#: data/levels/world1/frosted_fields.stl:188
+#: data/levels/world1/path_in_the_clouds.stl:348
+#: data/levels/world1/path_in_the_clouds.stl:1126
+#: data/levels/world1/shattered_bridge.stl:628
+#: data/levels/world1/stone_cold.stl:397 data/levels/world1/worldmap.stwm:229
+msgid "You found a secret area!"
+msgstr "秘密の場所を見つけました！"
+
+#: data/levels/world1/above_arctic_skies.stl:3
+msgid "Above the Arctic Skies"
+msgstr "極寒の空の上"
+
+#: data/levels/world1/above_arctic_skies.stl:162
+msgid ""
+"-Air Flower\n"
+"!images/powerups/airflower/air_flower-0.png\n"
+"#The Air Flower gives Tux the ability to glide in the air for a few seconds, while holding the JUMP Key."
+msgstr "-エアーフラワー\n!images/powerups/airflower/air_flower-0.png\n#エアーフラワーをとると、ジャンプキーを押している間、Tuxは数秒間空を飛べるようになります。"
+
+#: data/levels/world1/between_glaciers.stl:3
+msgid "Between Two Glaciers"
+msgstr "氷壁に囲まれるペンギン"
+
+#: data/levels/world1/between_glaciers.stl:108
+msgid ""
+"-Crystals\n"
+"#This level contains four coloured crystals. Can you find them?\n"
+"#\n"
+"#Note: These crystals do not serve any purpose at the moment but they might will in a future release of the game."
+msgstr "-クリスタル\n#このステージには4つのカラークリスタルがあります。見つけられますか？\n#\n#注意: 現時点では、クリスタルは特に意味を持ちませんが、ゲームの今後のリリースでは意味を持つ可能性があります。"
+
+#: data/levels/world1/castle_of_nolok.stl:3
+msgid "The Castle of Nolok"
+msgstr "Nolokの城"
+
+#: data/levels/world1/crystal_mine.stl:3
+msgid "The Crystal Mine"
+msgstr "クリスタルの鉱山"
+
+#: data/levels/world1/crystal_mine.stl:686
+msgid "#You have to activate two switches to open this door."
+msgstr "#このドアを開くには、2つのスイッチを切り替える必要があります。"
+
+#: data/levels/world1/end_of_tunnel.stl:3
+msgid "End of the Tunnel"
+msgstr "トンネルの出口"
+
+#: data/levels/world1/entrance_cave.stl:3
+msgid "Entrance to the Cave"
+msgstr "洞窟への入り口"
+
+#: data/levels/world1/fork_in_the_road.stl:3
+msgid "A Fork in the Road"
+msgstr "分かれ道"
+
+#: data/levels/world1/fork_in_the_road.stl:84
+msgid ""
+"-Switches\n"
+"!images/objects/switch/switch-0.png\n"
+"!images/objects/pushbutton/pushbutton-0.png\n"
+"#Switches can be used to do all manner of things. Press the UP key to use a switch.\n"
+"#There are also buttons that you can press by jumping on them."
+msgstr "-スイッチ\n!images/objects/switch/switch-0.png\n!images/objects/pushbutton/pushbutton-0.png\n#スイッチでさまざまな操作ができます。スイッチを使うには上キーを押してください。\n#ジャンプすることで押下できるボタンもあります。"
+
+#: data/levels/world1/fork_in_the_road.stl:93
+msgid ""
+"-Trampolines\n"
+"!images/objects/trampoline/trampoline2-0.png\n"
+"#Trampolines allow Tux to jump to new heights. Hold down the JUMP key while bouncing on the trampoline to launch extra high."
+msgstr "-トランポリン\n!images/objects/trampoline/trampoline2-0.png\n#トランポリンを使うと、より高くジャンプできるようになります。ジャンプキーを押したままジャンプすると、さらに高くジャンプできます。"
+
+#: data/levels/world1/fork_in_the_road.stl:100
+msgid ""
+"-Climbing\n"
+"#Tux can climb! Press the UP key to start climbing. Press the ACTION key or jump to let go."
+msgstr "-登る\n#タックスは登れます。登るには、上キーを押してください。アクションキーまたはジャンプキーを押すと、登るのをやめます。"
+
+#: data/levels/world1/fork_in_the_road.stl:106
+msgid ""
+"-Secret Exits\n"
+"#Some level can have multiple exits. They are mostly hidden, so keep an eye out for them.\n"
+"#Maybe they lead you to something special."
+msgstr "-隠しゴール\n#複数のゴールがあるステージもあります。こういったゴールは隠されていることが多いので、注意してみてください。\n#特別なことが起こることがあります。"
+
+#: data/levels/world1/frosted_fields.stl:3
+msgid "The Frosted Fields"
+msgstr "霧の平原"
+
+#: data/levels/world1/frozen_bridge.stl:3
+msgid "Over the Frozen Bridge"
+msgstr "腹滑って橋を渡って"
+
+#: data/levels/world1/ice_in_the_hole.stl:3
+msgid "Ice in the Hole"
+msgstr "ひやひやな穴探索"
+
+#: data/levels/world1/icy_valley.stl:3
+msgid "Icy Valley"
+msgstr "氷の谷"
+
+#: data/levels/world1/into_stars.stl:3
+msgid "Into the Stars"
+msgstr "星空の中へ"
+
+#: data/levels/world1/intro.stl:3
+msgid "Picnic With Penny"
+msgstr "Pennyとピクニック"
+
+#: data/levels/world1/journey_begins.stl:3
+msgid "The Journey Begins"
+msgstr "旅の始まり"
+
+#: data/levels/world1/living_inside_fridge.stl:3
+msgid "Living in a Fridge"
+msgstr "呑気な冷蔵庫生活"
+
+#: data/levels/world1/miyamoto_monument.stl:3
+msgid "Miyamoto Monument"
+msgstr "ミヤモト・モニュメント"
+
+#: data/levels/world1/more_snowballs.stl:3
+msgid "Oh No! More Snowballs!"
+msgstr "あああ！雪玉来たー！"
+
+#: data/levels/world1/night_chill.stl:3
+msgid "Night Chill"
+msgstr "夜の寒さ"
+
+#: data/levels/world1/or_just_me.stl:3
+msgid "...Or Is It Just Me?"
+msgstr "…私だけですか？"
+
+#: data/levels/world1/path_in_the_clouds.stl:3
+msgid "A Path in the Clouds"
+msgstr "雲の通り道"
+
+#: data/levels/world1/scripts_castle_cutscene.txt:2
+msgid "Tux had reached the end of the castle."
+msgstr "タックスは城の奥にたどり着いた。"
+
+#: data/levels/world1/scripts_castle_cutscene.txt:3
+msgid "But to his surprise all he could find was a letter."
+msgstr "しかし、驚いたことに、見つかったのは一枚の手紙だけだった。"
+
+#: data/levels/world1/scripts_castle_cutscene.txt:4
+msgid ""
+"A letter from Penny telling Tux that Nolok has taken her to a far forest."
+msgstr "それは、ノロークに遠く離れた森へと連れ去られたことをタックスに伝える、ペニーからの手紙だった。"
+
+#: data/levels/world1/scripts_castle_cutscene.txt:5
+msgid ""
+"Unsure about what Nolok was doing to her, Tux became worried about his "
+"beloved Penny."
+msgstr "ノロークが最愛のペニーに何をしたのか分からなかったので、タックスはうろたえた。"
+
+#: data/levels/world1/scripts_castle_cutscene.txt:6
+msgid "Until suddenly..."
+msgstr "すると突然…"
+
+#: data/levels/world1/scripts_intro.txt:2
+msgid "Somewhere at the shores of Antarctica..."
+msgstr "これは、南極のどこかの海岸でのお話…"
+
+#: data/levels/world1/scripts_intro.txt:3
+msgid "Tux the penguin was going to meet his friend, Penny, for a picnic."
+msgstr "ペンギンのタックスは、ピクニックをしようと友達のペニーに会いに行くところだった。"
+
+#: data/levels/world1/scripts_intro.txt:4
+msgid "Tux woke up, dizzy, to find that Penny was missing!"
+msgstr "タックスがめまいとともに目覚めると、ペニーがいなくなっていた！"
+
+#: data/levels/world1/scripts_intro.txt:5
+msgid "Tux was starting to become worried. He then saw a letter, and it read:"
+msgstr "タックスはうろたえた。その時、彼は一枚の手紙を見つけた。それには、こう書いてあった。"
+
+#: data/levels/world1/scripts_intro.txt:6
+msgid ""
+"\"Tux, I have kidnapped your beloved Penny and have taken her to my "
+"fortress.\""
+msgstr "「タックスよ、俺はお前の最愛のペニーを誘拐して、要塞に連れて行ってやった。」"
+
+#: data/levels/world1/scripts_intro.txt:7
+msgid "\"The path to my fortress is littered with my minions.\""
+msgstr "「要塞への道には俺の手先を用意しておいた。」"
+
+#: data/levels/world1/scripts_intro.txt:8
+msgid "\"You don't have a chance of saving her! Signed, Nolok.\""
+msgstr "「彼女を救うチャンスはないぞ！ノロークより。」"
+
+#: data/levels/world1/scripts_intro.txt:9
+msgid ""
+"Realizing the trouble Penny could be in, Tux became determined to save her."
+msgstr "ペニーが陥ったトラブルに気づき、タックスは彼女を救う決心をした。"
+
+#: data/levels/world1/scripts_intro.txt:10
+msgid ""
+"Then, Tux saw Nolok's castle in the distance and set off to rescue Penny!"
+msgstr "タックスは遠くにノロークの城を見つけて、ペニーを救うべく出発した！"
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:2
+msgid "Exhausted from his long walk, Tux decided to take a little break."
+msgstr "長旅の疲れから、タックスは少し休憩を取ることにした。"
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:3
+msgid "But then, all of a sudden he heard a loud roar from a distance."
+msgstr "しかしその時、突然遠くで大きく吠える声が聞こえた。"
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:4
+msgid "A yeti seems to have observed him from afar."
+msgstr "イエティは遠くからタックスを見つけたようだ。"
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:5
+msgid ""
+"Concerned by the yeti's sudden retreat, Tux decided to continue his journey,"
+" ..."
+msgstr "イエティが突然逃げたのを受けて、タックスは旅を続けることにした。…"
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:6
+msgid "...while secretly hoping not to run into the yeti again, by any means."
+msgstr "…絶対に二度とイエティに偶然出会いませんようにと、密かに願いながら。"
+
+#: data/levels/world1/shattered_bridge.stl:3
+msgid "The Shattered Bridge"
+msgstr "閉ざされた橋"
+
+#: data/levels/world1/somewhat_smaller_bath.stl:3
+msgid "The Somewhat Smaller Bath"
+msgstr "やや小さめのお風呂"
+
+#: data/levels/world1/stone_cold.stl:3
+msgid "Stone Cold"
+msgstr "ストーンコールド"
+
+#: data/levels/world1/under_the_ice.stl:3
+msgid "Under the Ice"
+msgstr "氷の下"
+
+#: data/levels/world1/via_nostalgica.stl:3
+msgid "Via Nostalgica"
+msgstr "ノスタルジカを経由して"
+
+#: data/levels/world1/welcome_antarctica.stl:3
+msgid "Welcome to Antarctica"
+msgstr "南極へようこそ"
+
+#: data/levels/world1/welcome_antarctica.stl:74
+msgid ""
+"-Bonus Blocks\n"
+"!images/objects/bonus_block/full-0.png\n"
+"#Bonus blocks can contain coins, power-ups or special items to help you in your quest.\n"
+"#\n"
+"#Hit them from below to get at their contents."
+msgstr "-ボーナスブロック\n!images/objects/bonus_block/full-0.png\n#ボーナスブロックには、冒険を助けるコインやパワーアップアイテム、特別なアイテムが入っていることがあります。\n#\n#中身を取るには、ブロックをジャンプして叩いてください。"
+
+#: data/levels/world1/welcome_antarctica.stl:83
+msgid ""
+"-Eggs\n"
+"!images/powerups/egg/egg-shade.png\n"
+"#The egg makes Tux grow larger. Tux can then smash wooden blocks with his head."
+msgstr "-タマゴ\n!images/powerups/egg/egg-shade.png\n#タマゴを取ると、タックスの体が大きくなります。大きくなったタックスは、木のブロックを壊せるようになります。"
+
+#: data/levels/world1/welcome_antarctica.stl:90
+msgid ""
+"-Checkpoints\n"
+"!images/objects/resetpoints/bell-m.png\n"
+"#Activate the checkpoint. If you die, you can retry the level from here. Every time you retry from a checkpoint, you will lose 10 percent of your coins (at least 25 coins)."
+msgstr "-チェックポイント\n!images/objects/resetpoints/bell-m.png\n#これに触れると、チェックポイントを追加します。タックスが死んだ場合、ここからレベルを再開できます。ただし、持っているコインの10%以上 (最低でも25枚) を失います。"
+
+#: data/levels/world1/welcome_antarctica.stl:97
+msgid ""
+"-Running\n"
+"!images/tiles/signs/run.png\n"
+"#The path in front of you is blocked. Gain some speed before jumping to pass over the blocks."
+msgstr "-走って！\n!images/tiles/signs/run.png\n#行く手が塞がれています。ブロックを超えるには、ジャンプする前にスピードをつけてください。"
+
+#: data/levels/world1/welcome_antarctica.stl:104
+msgid ""
+"-Fire Flower\n"
+"!images/powerups/fireflower/fire_flower-0.png\n"
+"#The fire flower gives Tux the ability to shoot fireballs."
+msgstr "-ファイアフラワー\n!images/powerups/fireflower/fire_flower-0.png\n#ファイアフラワーを取ると、タックスはファイアボールを打てるようになります。"
+
+#: data/levels/world1/welcome_antarctica.stl:111
+msgid ""
+"-Tux Doll\n"
+"!images/powerups/1up/1up.png\n"
+"#The Tux doll gives Tux 100 coins."
+msgstr "-Tuxの人形\n!images/powerups/1up/1up.png\n#これを取ると、コインを100枚獲得できます。"
+
+#: data/levels/world1/welcome_antarctica.stl:118
+msgid ""
+"-Secret Areas\n"
+"#Many levels contain secret areas behind what seems to be plain walls. Look for clues to find them."
+msgstr "-秘密の場所\n#多くのコースには、壁に見えるようで、実は入ることができる秘密の場所があります。手がかりをさがしてみてください。"
+
+#: data/levels/world1/worldmap.stwm:3
+msgid "Icy Island"
+msgstr "氷の島"
+
+#: data/levels/world1/yeti_boss.stl:3
+msgid "No More Mr. Ice Guy"
+msgstr "アイス野郎はもうこりごり"
+
+#: data/levels/world1/yeti_cutscene.stl:3
+msgid "A Yeti in the Distance"
+msgstr "遠方のイエティ"

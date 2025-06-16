@@ -1,0 +1,22 @@
+(supertux-sprite
+  (action
+    (name "appearing")
+    (fps 16)
+    (images 
+      "root-base-0.png"
+      "root-base-1.png"
+      "root-base-2.png"
+      "root-base-3.png"
+    )
+  )
+  (action
+    (name "vanishing")
+    (fps 16)
+    (images 
+      "root-base-3.png"
+      "root-base-2.png"
+      "root-base-1.png"
+      "root-base-0.png"
+    )
+  )
+)

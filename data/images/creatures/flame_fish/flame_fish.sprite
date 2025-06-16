@@ -1,0 +1,13 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (hitbox 2 3 0 0)
+  (images "left-0.png"
+          "left-1.png"))
+
+ (action
+  (name "down")
+  (hitbox 2 11 0 0)
+  (images "down.png"))
+)
+

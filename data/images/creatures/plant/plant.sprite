@@ -1,0 +1,74 @@
+(supertux-sprite
+ (action
+  (name "left")
+  (hitbox 12 20 71.8 55.8)
+  (images "left-0.png"
+   "left-1.png"
+   "left-2.png"
+   "left-1.png"))
+ (action
+  (name "right")
+  (hitbox 12 20 71.8 55.8)
+  (mirror-action "left"))
+ (action
+  (name "sleeping-left")
+  (hitbox 12 20 71.8 55.8)
+  (images "sleeping-left.png"))
+ (action
+  (name "sleeping-right")
+  (hitbox 12 20 71.8 55.8)
+  (mirror-action "sleeping-left"))
+ (action
+  (name "waking-left")
+  (hitbox 12 20 71.8 55.8)
+  (fps 6.0)
+  (images "waking-left-0.png"
+   "waking-left-1.png"
+   "waking-left-2.png"
+   "waking-left-3.png"
+   "waking-left-4.png"
+   "waking-left-5.png"))
+ (action
+  (name "waking-right")
+  (fps 6.0)
+  (hitbox 12 20 71.8 55.8)
+  (mirror-action "waking-left"))
+ (action
+  (name "burning-left")
+  (hitbox 12 52 71.8 55.8)
+  (fps 15.0)
+  (images "burning-0.png"
+   "burning-1.png"
+   "burning-2.png"
+   "burning-3.png"
+   "burning-4.png"
+   "burning-5.png"
+   "burning-6.png"
+   "burning-7.png"
+   "burning-8.png"
+   "burning-9.png"
+   "burning-10.png"))
+ (action
+  (name "burning-right")
+  (fps 15.0)
+  (hitbox 12 52 71.8 55.8)
+  (mirror-action "burning-left"))
+ (action
+  (name "sleeping-burning-left")
+  (hitbox 12 20 71.8 55.8)
+  (fps 15.0)
+  (images "sleeping-burning-0.png"
+   "sleeping-burning-1.png"
+   "sleeping-burning-2.png"
+   "sleeping-burning-3.png"
+   "sleeping-burning-4.png"
+   "sleeping-burning-5.png"
+   "sleeping-burning-6.png"
+   "sleeping-burning-7.png"
+   "sleeping-burning-8.png"))
+ (action
+  (name "sleeping-burning-right")
+  (fps 15.0)
+  (hitbox 12 20 71.8 55.8)
+  (mirror-action "sleeping-burning-left"))
+)

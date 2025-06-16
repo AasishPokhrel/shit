@@ -1,0 +1,5 @@
+(supertux-music
+  (file "snowfort.ogg")
+  (loop-begin 7.683)
+  (loop-at 88.320)
+)

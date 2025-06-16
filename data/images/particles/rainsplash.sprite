@@ -1,0 +1,9 @@
+(supertux-sprite
+    (action
+      (fps 20)
+      (images "rainsplash-1.png"
+              "rainsplash-2.png"
+              "rainsplash-3.png"
+              "rainsplash-4.png")
+    )
+)

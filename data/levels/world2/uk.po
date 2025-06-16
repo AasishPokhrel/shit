@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# IAN RODRÍGUEZ Lorenzo, 2022
+# Max Lyashuk <m_lyashuk@ukr.net>, 2015-2016
+# Olexandr Nesterenko <nolexndr@gmail.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2013-08-10 23:00+0000\n"
+"Last-Translator: IAN RODRÍGUEZ Lorenzo, 2022\n"
+"Language-Team: Ukrainian (http://app.transifex.com/arctic-games/supertux/language/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: data/levels/world2/ancient_ruins.stl:3
+msgid "Ancient Ruins"
+msgstr "Античні руїни"
+
+#: data/levels/world2/ancient_ruins.stl:1463
+#: data/levels/world2/ancient_ruins.stl:1471
+#: data/levels/world2/bouncy_coils.stl:380
+#: data/levels/world2/bouncy_coils.stl:388
+#: data/levels/world2/bye_bye_forest.stl:1607
+#: data/levels/world2/crumbling_path.stl:278
+#: data/levels/world2/crumbling_path.stl:1651
+#: data/levels/world2/going_underground.stl:246
+#: data/levels/world2/going_underground.stl:1249
+#: data/levels/world2/mouldy_grotto.stl:559
+#: data/levels/world2/penguin_grow_trees.stl:459
+#: data/levels/world2/penguin_grow_trees.stl:467
+#: data/levels/world2/through_dark.stl:361
+#: data/levels/world2/tux_builder.stl:384
+#: data/levels/world2/wooden_roots.stl:285
+#: data/levels/world2/worldmap.stwm:223
+msgid "You found a secret area!"
+msgstr "Ви знайшли сховок!"
+
+#: data/levels/world2/beside_bushes.stl:3
+msgid "Beside the Bushes"
+msgstr "Біля кущів"
+
+#: data/levels/world2/bouncy_coils.stl:3
+msgid "Bouncy Coils"
+msgstr "Стрибучі котушки"
+
+#: data/levels/world2/bye_bye_forest.stl:3
+msgid "Bye Bye Forest"
+msgstr "До побачення, ліс"
+
+#: data/levels/world2/crumbling_path.stl:3
+msgid "Crumbling Path"
+msgstr "Хиткий шлях"
+
+#: data/levels/world2/darkness_awaits.stl:3
+msgid "Darkness Awaits"
+msgstr "Темрява чекає"
+
+#: data/levels/world2/find_big_fish.stl:3
+msgid "Find the Bigger Fish!"
+msgstr "Знайди Велику Рибину!"
+
+#: data/levels/world2/find_big_fish.stl:1058
+msgid "-A big fish... for you."
+msgstr "-Велика рибина... для тебе."
+
+#: data/levels/world2/forest_intro.stl:3
+msgid "A New Location"
+msgstr "Нова локація"
+
+#: data/levels/world2/ghost_cutscene.stl:3
+msgid "What is Happening?"
+msgstr "Що відбувається?"
+
+#: data/levels/world2/ghostly_misery.stl:3
+msgid "Ghostly Misery"
+msgstr "Примарне нещастя"
+
+#: data/levels/world2/ghosttrees_challenges.stl:3
+msgid "Ghosttree's Challenges"
+msgstr "Виклики Ghosttree"
+
+#: data/levels/world2/ghouls_lair.stl:3
+msgid "Ghouls' Lair"
+msgstr "Лігво упирів"
+
+#: data/levels/world2/ghouls_lair.stl:859
+msgid ""
+"#Lanterns are used to make magic blocks solid, so you're able to walk atop "
+"of them."
+msgstr "#Ліхтарі використовуються для створення твердих магічних блоків, тож ви можете ходити по них."
+
+#: data/levels/world2/going_underground.stl:3
+msgid "Going Underground"
+msgstr "Спускання під землю"
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:3
+msgid "I Spy With My Little Eye"
+msgstr "Я шпигую своїм маленьким оком"
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:218
+msgid ""
+"-Ispy\n"
+"#Ispys will activate things like platforms whenever Tux is in their sight."
+msgstr "Шпигую\n#Шпигую буде активувати такі речі, як платформи, коли Тукс буде в їхньому полі зору."
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:674
+msgid "Hint: Use snails to break blocks!"
+msgstr "Підказка: використовуйте равликів, щоб розбивати блоки!"
+
+#: data/levels/world2/leaf_wind.stl:3
+msgid "Like a leaf in the Wind"
+msgstr "Як листок на вітрі"
+
+#: data/levels/world2/lost_village.stl:3
+msgid "Lost Village"
+msgstr "Загублене село"
+
+#: data/levels/world2/lost_village.stl:185
+msgid "#Don't forget to hit the switch!"
+msgstr "#Не забудьте натиснути перемикач!"
+
+#: data/levels/world2/mouldy_grotto.stl:3
+msgid "A Mouldy Grotto"
+msgstr "Запліснявілий грот"
+
+#: data/levels/world2/owls_again.stl:3
+msgid "The Owls again..."
+msgstr "Знову Сови..."
+
+#: data/levels/world2/owls_skydive_commando.stl:3
+msgid "Owls' Skydive Commando"
+msgstr "Сови стрибають з парашутом командос"
+
+#: data/levels/world2/penguin_grow_trees.stl:3
+msgid "Penguins don't grow on Trees"
+msgstr "Пінгвіни не ростуть на деревах"
+
+#: data/levels/world2/shocking.stl:3
+msgid "Shocking"
+msgstr "Шокуюче"
+
+#: data/levels/world2/the_forest_is_rotting.stl:3
+msgid "The Forest Is Rotting"
+msgstr "Ліс Гниє"
+
+#: data/levels/world2/through_dark.stl:3
+msgid "Through the Dark"
+msgstr "Крізь темряву"
+
+#: data/levels/world2/through_dark.stl:96
+msgid ""
+"-Earth Flower\n"
+"!images/powerups/earthflower/earth_flower-1.png\n"
+"#The earth flower gives Tux the ability to turn into stone by pressing the ACTION Key and the DOWN Key at the same time.\n"
+"#This does not work while jumping or falling!"
+msgstr "- Земляна квітка\n!images/powerups/earthflower/earth_flower-1.png\n#Земляна квітка дає Туксу здатність перетворюватися на камінь, натиснувши одночасно клавіші ДІЯ та ВНИЗ.\n#Це не працює під час стрибка чи падіння!"
+
+#: data/levels/world2/tower_of_ghosts.stl:3
+msgid "Tower Of Ghosts"
+msgstr "Вежа Привидів"
+
+#: data/levels/world2/tux_builder.stl:3
+msgid "Tux the Builder"
+msgstr "Тукс - будівельник"
+
+#: data/levels/world2/tux_builder.stl:77
+msgid ""
+"-Portable Objects:\n"
+"!images/objects/rock/rock.png\n"
+"#Tux can pick up certain objects and carry them around.\n"
+"#Press the ACTION key to grab an object and hold it pressed as long as you want to carry the object. Release the ACTION key to drop the object."
+msgstr "-Портативні об'єкти:\n!images/objects/rock/rock.png\n#Tux може брати певні предмети та носити їх із собою.\n#Натисніть клавішу ДІЯ, щоб схопити об'єкт, і утримуйте її натиснутою до тих пір, поки ви хочете нести об'єкт. Відпустіть клавішу ACTION, щоб скинути об’єкт."
+
+#: data/levels/world2/tux_own_horror_show.stl:3
+msgid "Tux' Own Horror Show"
+msgstr "Власне шоу жахів Тукса"
+
+#: data/levels/world2/tux_own_horror_show.stl:947
+msgid ""
+"#Will o' Wisps are small, annoying ghosts, which transport you to different,"
+" often dangerous places."
+msgstr "#Вілли — це маленькі надокучливі привиди, які переносять вас у різні, часто небезпечні місця."
+
+#: data/levels/world2/walking_leaves.stl:3
+msgid "Walking Leaves"
+msgstr "Ходяче листя"
+
+#: data/levels/world2/welcome_forest.stl:3
+msgid "Welcome to the Forest"
+msgstr "Вітаємо у Лісі"
+
+#: data/levels/world2/welcome_forest.stl:50
+msgid ""
+"-Doors\n"
+"!images/objects/door/door-0.png\n"
+"#Tux can go through a door by pressing the UP key."
+msgstr "-Двері\n!images/objects/door/door-0.png\n#Tux може пройти через двері, натиснувши клавішу ВГОРУ."
+
+#: data/levels/world2/wooden_roots.stl:3
+msgid "Wooden Roots"
+msgstr "Дерев'яні корені"
+
+#: data/levels/world2/worldmap.stwm:3
+msgid "Rooted Forest"
+msgstr "Вкорінений ліс"
+
+#: data/levels/world2/worldmap.stwm:239
+msgid "To be continued..."
+msgstr "Далі буде..."

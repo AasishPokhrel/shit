@@ -1,0 +1,3827 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Grant Davtjan, 2017
+# IAN RODRÍGUEZ Lorenzo, 2022-2023
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2021-12-12 20:05+0100\n"
+"PO-Revision-Date: 2013-08-10 22:56+0000\n"
+"Last-Translator: IAN RODRÍGUEZ Lorenzo, 2022-2023\n"
+"Language-Team: Armenian (http://app.transifex.com/arctic-games/supertux/language/hy/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hy\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/trigger/secretarea_trigger.cpp:53 src/trigger/secretarea_trigger.cpp:61
+msgid "You found a secret area!"
+msgstr "Դուք գտել եք գաղտնի տարածք:"
+
+#: src/trigger/secretarea_trigger.cpp:77 src/supertux/game_object.cpp:90
+#: src/supertux/menu/editor_sector_menu.cpp:34
+#: src/supertux/menu/editor_levelset_menu.cpp:58
+#: src/supertux/menu/editor_new_levelset_menu.cpp:34
+#: src/supertux/menu/editor_level_menu.cpp:33
+msgid "Name"
+msgstr "Անուն"
+
+#: src/trigger/secretarea_trigger.cpp:78
+msgid "Fade tilemap"
+msgstr "Գունաթափել սալիկի քարտեզը"
+
+#: src/trigger/secretarea_trigger.cpp:79 src/trigger/climbable.cpp:81
+#: src/object/infoblock.cpp:57 src/editor/worldmap_objects.cpp:172
+#: src/editor/worldmap_objects.cpp:270
+msgid "Message"
+msgstr "Հաղորդագրություն"
+
+#: src/trigger/secretarea_trigger.cpp:80 src/trigger/scripttrigger.cpp:75
+#: src/trigger/door.cpp:73 src/object/ispy.cpp:67
+#: src/object/bonus_block.cpp:207 src/object/bonus_block.cpp:211
+#: src/object/pushbutton.cpp:51 src/object/powerup.cpp:190
+#: src/editor/worldmap_objects.cpp:272
+msgid "Script"
+msgstr "Սցենար"
+
+#: src/trigger/scripttrigger.cpp:76 src/object/pushbutton.hpp:31
+msgid "Button"
+msgstr "Կոճակ"
+
+#: src/trigger/scripttrigger.cpp:77
+msgid "Oneshot"
+msgstr "Մեկ կրակոց"
+
+#: src/trigger/sequence_trigger.hpp:33
+msgid "Sequence Trigger"
+msgstr "Հաջորդականության ձգան"
+
+#: src/trigger/door.cpp:74 src/badguy/willowisp.cpp:320
+#: src/supertux/menu/editor_sector_menu.cpp:32
+#: src/editor/layers_widget.cpp:342
+#: data//images/engine/editor/objects.stoi:321
+msgid "Sector"
+msgstr "Ոլորտ"
+
+#: src/trigger/door.cpp:75 src/editor/worldmap_objects.hpp:101
+msgid "Spawn point"
+msgstr "Ձվադրման կետ"
+
+#: src/trigger/switch.cpp:61 src/object/block.cpp:224 src/object/torch.cpp:102
+#: src/object/moving_sprite.cpp:156 src/object/pneumatic_platform.cpp:146
+msgid "Sprite"
+msgstr "Ուրվական"
+
+#: src/trigger/switch.cpp:62
+msgid "Turn on script"
+msgstr "Միացնել սցենարը"
+
+#: src/trigger/switch.cpp:63
+msgid "Turn off script"
+msgstr "Անջատել սցենարը"
+
+#: src/trigger/scripttrigger.hpp:32
+msgid "Script Trigger"
+msgstr "Սցենարի ձգան"
+
+#: src/trigger/sequence_trigger.cpp:75
+msgid "Sequence"
+msgstr "Հերթականություն"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "end sequence"
+msgstr "ավարտի հաջորդականությունը"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "stop Tux"
+msgstr "դադարեցնել Tux"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "fireworks"
+msgstr "հրավառություն"
+
+#: src/trigger/sequence_trigger.cpp:80
+msgid "New worldmap spawnpoint"
+msgstr "Աշխարհի քարտեզի նոր կետ"
+
+#: src/trigger/sequence_trigger.cpp:81
+msgid "Worldmap fade tilemap"
+msgstr "Համաշխարհային քարտեզի խամրած տախտակի քարտեզ"
+
+#: src/trigger/sequence_trigger.cpp:82
+#: src/object/custom_particle_system.cpp:430
+#: src/object/custom_particle_system.cpp:465
+msgid "Fade"
+msgstr "Մարել"
+
+#: src/trigger/sequence_trigger.cpp:83 src/editor/particle_editor.cpp:161
+msgid "Fade in"
+msgstr "Թոռոմել"
+
+#: src/trigger/sequence_trigger.cpp:83 src/editor/particle_editor.cpp:167
+#: src/editor/particle_editor.cpp:212
+msgid "Fade out"
+msgstr "Աներեւութանալ"
+
+#: src/trigger/climbable.hpp:37
+msgid "Climbable"
+msgstr "Մագլցելի"
+
+#: src/trigger/door.hpp:34
+msgid "Door"
+msgstr "Դուռ"
+
+#: src/trigger/switch.hpp:33
+msgid "Switch"
+msgstr "Անջատիչ"
+
+#: src/trigger/secretarea_trigger.hpp:36
+msgid "Secret Area"
+msgstr "Գաղտնի տարածք"
+
+#: src/object/thunderstorm.hpp:40
+msgid "Thunderstorm"
+msgstr "Ամպրոպ"
+
+#: src/object/cloud_particle_system.cpp:79
+#: src/object/rain_particle_system.cpp:100
+msgid "Intensity"
+msgstr "Ինտենսիվացնել"
+
+#: src/object/custom_particle_system.hpp:45
+msgid "Custom Particles"
+msgstr "Պատվերով մասնիկներ"
+
+#: src/object/ispy.cpp:66
+msgid "Facing Down"
+msgstr "Դեմքով դեպի ներքև"
+
+#: src/object/ispy.cpp:68 src/object/spotlight.cpp:103
+#: src/object/gradient.cpp:137 src/badguy/willowisp.cpp:319
+#: src/badguy/badguy.cpp:848 src/editor/worldmap_objects.cpp:207
+#: src/editor/worldmap_objects.cpp:274
+msgid "Direction"
+msgstr "Ուղղություն"
+
+#: src/object/particle_zone.hpp:39
+msgid "Particle zone"
+msgstr "Մասնիկների գոտի"
+
+#: src/object/path_gameobject.hpp:44 src/object/coin.cpp:301
+#: src/object/camera.cpp:224 src/object/platform.cpp:73
+#: src/object/path_gameobject.cpp:173 src/object/tilemap.cpp:246
+#: src/gui/menu_paths.cpp:52 src/badguy/willowisp.cpp:326
+msgid "Path"
+msgstr "Ճանապարհ"
+
+#: src/object/decal.cpp:49 src/object/scripted_object.cpp:67
+#: src/object/particlesystem.cpp:65 src/object/background.cpp:183
+#: src/object/thunderstorm.cpp:68 src/object/tilemap.cpp:239
+#: src/object/gradient.cpp:135
+msgid "Z-pos"
+msgstr "Z-pos"
+
+#: src/object/decal.cpp:50 src/object/scripted_object.cpp:70
+#: src/object/tilemap.cpp:228
+msgid "Solid"
+msgstr "Պինդ"
+
+#: src/object/decal.cpp:51 src/supertux/menu/keyboard_menu.cpp:37
+#: src/supertux/menu/joystick_menu.cpp:74
+msgid "Action"
+msgstr "Գործողություն"
+
+#: src/object/weak_block.hpp:35
+msgid "Weak Tile"
+msgstr "Թույլ սալիկ"
+
+#: src/object/bumper.cpp:46
+msgid "Facing Left"
+msgstr "Դեմքով դեպի ձախ"
+
+#: src/object/gradient.hpp:42
+msgid "Gradient"
+msgstr "Գրադիենտ"
+
+#: src/object/tilemap.hpp:57
+msgid "Tilemap"
+msgstr "Կղմինդր քարտեզ"
+
+#: src/object/circleplatform.hpp:32
+msgid "Circular Platform"
+msgstr "Շրջանաձև հարթակ"
+
+#: src/object/brick.cpp:133
+msgid "Breakable"
+msgstr "Կոտրվող"
+
+#: src/object/trampoline.cpp:136 src/object/rusty_trampoline.cpp:66
+msgid "Portable"
+msgstr "Դյուրակիր"
+
+#: src/object/spotlight.cpp:100 src/object/rain_particle_system.cpp:101
+msgid "Angle"
+msgstr "Անկյուն"
+
+#: src/object/spotlight.cpp:101 src/object/magicblock.cpp:94
+#: src/object/candle.cpp:77 src/object/torch.cpp:104
+#: src/object/rublight.cpp:54 src/object/lantern.cpp:62
+#: src/object/ambient_light.cpp:131 src/badguy/willowisp.cpp:328
+#: src/badguy/walking_candle.cpp:82
+msgid "Color"
+msgstr "Գույն"
+
+#: src/object/spotlight.cpp:102 src/object/textscroller.cpp:350
+#: src/object/rain_particle_system.cpp:102 src/object/circleplatform.cpp:55
+#: src/badguy/flame.cpp:59 src/editor/node_marker.cpp:125
+msgid "Speed"
+msgstr "Արագություն"
+
+#: src/object/spotlight.cpp:104
+msgid "Clockwise"
+msgstr "Ժամացույցի սլաքի ուղղությամբ"
+
+#: src/object/spotlight.cpp:104
+msgid "Counter-clockwise"
+msgstr "Ժամացույցի սլաքի հակառակ ուղղությամբ"
+
+#: src/object/spotlight.cpp:104
+msgid "Stopped"
+msgstr "Դադարեցվեց"
+
+#: src/object/spotlight.cpp:107 src/object/candle.cpp:78
+#: src/object/torch.cpp:103
+msgid "Layer"
+msgstr "Շերտ"
+
+#: src/object/scripted_object.cpp:71
+msgid "Physics enabled"
+msgstr "Ֆիզիկան միացված է"
+
+#: src/object/scripted_object.cpp:72
+msgid "Visible"
+msgstr "Տեսանելի"
+
+#: src/object/scripted_object.cpp:73 src/badguy/willowisp.cpp:322
+msgid "Hit script"
+msgstr "Հիթ սցենար"
+
+#: src/object/custom_particle_system_file.cpp:50
+#: src/object/textscroller.cpp:348 src/object/music_object.cpp:109
+#: src/supertux/menu/particle_editor_open.cpp:38
+msgid "File"
+msgstr "Ֆայլ"
+
+#: src/object/bonus_block.cpp:208
+msgid "Count"
+msgstr "Քանակ"
+
+#: src/object/bonus_block.cpp:209
+msgid "Content"
+msgstr "Բովանդակություն"
+
+#: src/object/bonus_block.cpp:210 src/object/coin.hpp:43
+msgid "Coin"
+msgstr "Դրամ"
+
+#: src/object/bonus_block.cpp:210
+msgid "Growth (fire flower)"
+msgstr "Աճ (կրակի ծաղիկ)"
+
+#: src/object/bonus_block.cpp:210
+msgid "Growth (ice flower)"
+msgstr "Աճ (սառցե ծաղիկ)"
+
+#: src/object/bonus_block.cpp:210
+msgid "Growth (air flower)"
+msgstr "Աճ (օդային ծաղիկ)"
+
+#: src/object/bonus_block.cpp:211
+msgid "Growth (earth flower)"
+msgstr "Աճ (երկրի ծաղիկ)"
+
+#: src/object/bonus_block.cpp:211
+msgid "Star"
+msgstr "Աստղ"
+
+#: src/object/bonus_block.cpp:211
+msgid "Tux doll"
+msgstr "Tux տիկնիկ"
+
+#: src/object/bonus_block.cpp:211
+msgid "Custom"
+msgstr "Պատվերով"
+
+#: src/object/bonus_block.cpp:211
+msgid "Light"
+msgstr "Լույս"
+
+#: src/object/bonus_block.cpp:211
+msgid "Light (On)"
+msgstr "Լույս (Միացված)"
+
+#: src/object/bonus_block.cpp:212 src/object/trampoline.hpp:35
+msgid "Trampoline"
+msgstr "Բատուտ"
+
+#: src/object/bonus_block.cpp:212
+msgid "Coin rain"
+msgstr "Մետաղադրամների անձրև"
+
+#: src/object/bonus_block.cpp:212
+msgid "Coin explosion"
+msgstr "Մետաղադրամի պայթյուն"
+
+#: src/object/bonus_block.cpp:216
+msgid "Custom Content"
+msgstr "Պատվերով բովանդակություն"
+
+#: src/object/pneumatic_platform.hpp:62
+msgid "Pneumatic Platform"
+msgstr "Օդաճնշական հարթակ"
+
+#: src/object/coin.cpp:303 src/object/tilemap.cpp:249
+msgid "Following path"
+msgstr "Հետևելով ճանապարհին"
+
+#: src/object/coin.cpp:306 src/object/camera.cpp:227
+#: src/object/platform.cpp:74 src/object/tilemap.cpp:252
+msgid "Path Mode"
+msgstr "Ուղու ռեժիմ"
+
+#: src/object/coin.cpp:307 src/object/camera.cpp:228
+#: src/object/platform.cpp:75 src/object/tilemap.cpp:253
+#: src/badguy/willowisp.cpp:331
+msgid "Adapt Speed"
+msgstr "Հարմարեցրեք արագությունը"
+
+#: src/object/coin.cpp:308 src/object/platform.cpp:77
+#: src/object/tilemap.cpp:247 src/badguy/willowisp.cpp:327
+msgid "Starting Node"
+msgstr "Մեկնարկային հանգույց"
+
+#: src/object/coin.cpp:311 src/object/coin.cpp:339
+msgid "Collect script"
+msgstr "Հավաքել սցենար"
+
+#: src/object/ghost_particle_system.hpp:36
+msgid "Ghost Particles"
+msgstr "Ուրվական մասնիկներ"
+
+#: src/object/camera.cpp:219
+msgid "Mode"
+msgstr "Ռեժիմ"
+
+#: src/object/camera.cpp:220
+msgid "normal"
+msgstr "նորմալ"
+
+#: src/object/camera.cpp:220
+msgid "manual"
+msgstr "ձեռնարկ"
+
+#: src/object/camera.cpp:220
+msgid "autoscroll"
+msgstr "ավտոմատ ոլորել"
+
+#: src/object/textscroller.cpp:349
+msgid "Finish Script"
+msgstr "Ավարտել սցենարը"
+
+#: src/object/textscroller.cpp:351
+msgid "X-offset"
+msgstr "X-օֆսեթ"
+
+#: src/object/textscroller.cpp:352
+msgid "Controllable"
+msgstr "Վերահսկելի"
+
+#: src/object/textscroller.cpp:353
+msgid "Anchor"
+msgstr "Խարիսխ"
+
+#: src/object/textscroller.cpp:354 src/object/textscroller.cpp:358
+#: src/supertux/menu/keyboard_menu.cpp:34
+#: src/supertux/menu/joystick_menu.cpp:71
+msgid "Left"
+msgstr "Ձախ"
+
+#: src/object/textscroller.cpp:354 src/object/textscroller.cpp:358
+msgid "Center"
+msgstr "Կենտրոն"
+
+#: src/object/textscroller.cpp:354 src/object/textscroller.cpp:358
+#: src/supertux/menu/keyboard_menu.cpp:35
+#: src/supertux/menu/joystick_menu.cpp:72
+msgid "Right"
+msgstr "Աջ"
+
+#: src/object/textscroller.cpp:357
+msgid "Text Alignment"
+msgstr "Տեքստի հավասարեցում"
+
+#: src/object/spawnpoint.hpp:46 src/badguy/willowisp.cpp:321
+#: src/editor/worldmap_objects.cpp:171
+msgid "Spawnpoint"
+msgstr "Ձվադրման կետ"
+
+#: src/object/rusty_trampoline.cpp:65
+msgid "Counter"
+msgstr "Հաշվիչ"
+
+#: src/object/candle.hpp:36
+msgid "Candle"
+msgstr "Մոմ"
+
+#: src/object/particlesystem.cpp:64 src/object/particle_zone.cpp:79
+#: src/badguy/darttrap.cpp:127
+msgid "Enabled"
+msgstr "Միացված է"
+
+#: src/object/invisible_block.hpp:31
+msgid "Invisible Block"
+msgstr "Անտեսանելի բլոկ"
+
+#: src/object/snow_particle_system.hpp:35
+msgid "Snow Particles"
+msgstr "Ձյան մասնիկներ"
+
+#: src/object/powerup.hpp:35
+msgid "Powerup"
+msgstr "Միացնել"
+
+#: src/object/fallblock.hpp:39
+msgid "Falling Platform"
+msgstr "Ընկնող հարթակ"
+
+#: src/object/level_time.hpp:55
+msgid "Time Limit"
+msgstr "Ժամկետը"
+
+#: src/object/ambient_sound.cpp:119 src/supertux/menu/options_menu.cpp:391
+#: data//credits.stxt:352
+msgid "Sound"
+msgstr "Ձայն"
+
+#: src/object/ambient_sound.cpp:120
+msgid "Distance factor"
+msgstr "Հեռավորության գործոն"
+
+#: src/object/ambient_sound.cpp:121
+msgid "Distance bias"
+msgstr "Հեռավորության գործոն"
+
+#: src/object/ambient_sound.cpp:122
+msgid "Volume"
+msgstr "Ծավալը"
+
+#: src/object/torch.hpp:41
+msgid "Torch"
+msgstr "Ջահը"
+
+#: src/object/icecrusher.hpp:53
+msgid "Icecrusher"
+msgstr "Սառցահատ"
+
+#: src/object/rublight.hpp:33
+msgid "Rublight"
+msgstr "Լույս քսել"
+
+#: src/object/background.hpp:43
+msgid "Background"
+msgstr "Ֆոն"
+
+#: src/object/firefly.hpp:36
+msgid "Checkpoint"
+msgstr "Անցակետ"
+
+#: src/object/ambient_light.hpp:36
+msgid "Ambient Light"
+msgstr "Շրջակա միջավայրի լույս"
+
+#: src/object/lantern.hpp:37
+msgid "Lantern"
+msgstr "Լապտեր"
+
+#: src/object/wind.hpp:40
+msgid "Wind"
+msgstr "Քամի"
+
+#: src/object/bicycle_platform.cpp:189 src/object/background.cpp:179
+#: src/object/pneumatic_platform.cpp:147
+#: src/supertux/menu/joystick_menu.cpp:170 src/supertux/moving_object.cpp:58
+#: src/editor/worldmap_objects.cpp:73
+msgid "X"
+msgstr "X"
+
+#: src/object/bicycle_platform.cpp:190 src/object/background.cpp:180
+#: src/object/pneumatic_platform.cpp:148
+#: src/supertux/menu/joystick_menu.cpp:172 src/supertux/moving_object.cpp:59
+#: src/editor/worldmap_objects.cpp:74
+msgid "Y"
+msgstr "Y"
+
+#: src/object/bicycle_platform.cpp:192
+msgid "Platforms"
+msgstr "Հարթակներ"
+
+#: src/object/bicycle_platform.cpp:193 src/object/circleplatform.cpp:54
+#: src/badguy/flame.cpp:58 src/badguy/rcrystallo.cpp:50
+#: src/badguy/crystallo.cpp:35
+msgid "Radius"
+msgstr "Շառավիղ"
+
+#: src/object/bicycle_platform.cpp:194
+msgid "Momentum change rate"
+msgstr "Իմպուլսի փոփոխության արագությունը"
+
+#: src/object/rain_particle_system.hpp:40
+msgid "Rain Particles"
+msgstr "Անձրևի մասնիկներ"
+
+#: src/object/platform.hpp:45
+msgid "Platform"
+msgstr "Հարթակ"
+
+#: src/object/rock.hpp:42
+msgid "Rock"
+msgstr "Ռոք"
+
+#: src/object/music_object.hpp:41 src/supertux/menu/options_menu.cpp:393
+#: data//credits.stxt:294
+msgid "Music"
+msgstr "Երաժշտություն"
+
+#: src/object/rusty_trampoline.hpp:39
+msgid "Rusty Trampoline"
+msgstr "Ժանգոտ բատուտ"
+
+#: src/object/particlesystem.hpp:57
+msgid "Particle system"
+msgstr "Մասնիկների համակարգ"
+
+#: src/object/candle.cpp:75 src/object/torch.cpp:101
+msgid "Burning"
+msgstr "Վառվող"
+
+#: src/object/candle.cpp:76
+msgid "Flicker"
+msgstr "Թարթում"
+
+#: src/object/text_array_object.hpp:50
+msgid "Text array"
+msgstr "Տեքստային զանգված"
+
+#: src/object/infoblock.hpp:36
+msgid "Info Block"
+msgstr "Տեղեկատվության բլոկ"
+
+#: src/object/powerup.cpp:191
+msgid "Disable gravity"
+msgstr "Անջատել ձգողականությունը"
+
+#: src/object/ambient_sound.hpp:62
+msgid "Ambient Sound"
+msgstr "Շրջակա միջավայրի ձայն"
+
+#: src/object/level_time.cpp:51 src/supertux/statistics.cpp:297
+#: src/editor/node_marker.cpp:124
+msgid "Time"
+msgstr "Ժամանակը"
+
+#: src/object/hurting_platform.hpp:30
+msgid "Hurting Platform"
+msgstr "Վնասող հարթակ"
+
+#: src/object/icecrusher.cpp:83
+msgid "Sideways"
+msgstr "Կողքից"
+
+#: src/object/background.cpp:182
+msgid "Fill"
+msgstr "Լրացնել"
+
+#: src/object/background.cpp:184
+msgid "Alignment"
+msgstr "Հավասարեցում"
+
+#: src/object/background.cpp:185
+msgid "none"
+msgstr "ոչ ոք"
+
+#: src/object/background.cpp:185 src/editor/object_settings.cpp:119
+msgid "left"
+msgstr "ձախ"
+
+#: src/object/background.cpp:185 src/editor/object_settings.cpp:119
+msgid "right"
+msgstr "աջ"
+
+#: src/object/background.cpp:185
+msgid "top"
+msgstr "գագաթ"
+
+#: src/object/background.cpp:185
+msgid "bottom"
+msgstr "ներքեւ"
+
+#: src/object/background.cpp:188
+msgid "Scroll offset x"
+msgstr "Ոլորել օֆսեթ x"
+
+#: src/object/background.cpp:189
+msgid "Scroll offset y"
+msgstr "Ոլորման օֆսեթ y"
+
+#: src/object/background.cpp:190
+msgid "Scroll speed x"
+msgstr "Ոլորման արագություն x"
+
+#: src/object/background.cpp:191
+msgid "Scroll speed y"
+msgstr "Ոլորման արագություն y"
+
+#: src/object/background.cpp:192
+msgid "Parallax Speed x"
+msgstr "Պարալաքսի արագություն x"
+
+#: src/object/background.cpp:193
+msgid "Parallax Speed y"
+msgstr "Պարալաքսի արագությունը y"
+
+#: src/object/background.cpp:194
+msgid "Top image"
+msgstr "Վերևի պատկեր"
+
+#: src/object/background.cpp:195
+msgid "Image"
+msgstr "Պատկեր"
+
+#: src/object/background.cpp:196
+msgid "Bottom image"
+msgstr "Ներքևի պատկեր"
+
+#: src/object/background.cpp:197
+msgid "Colour"
+msgstr "Գույն"
+
+#: src/object/background.cpp:198 src/object/tilemap.cpp:240
+#: src/object/gradient.cpp:142
+msgid "Draw target"
+msgstr "Նկարել թիրախը"
+
+#: src/object/background.cpp:199 src/object/tilemap.cpp:241
+#: src/object/gradient.cpp:143
+msgid "Normal"
+msgstr "Նորմալ"
+
+#: src/object/background.cpp:199 src/object/tilemap.cpp:241
+#: src/object/gradient.cpp:143
+msgid "Lightmap"
+msgstr "Լույսի քարտեզ"
+
+#: src/object/shard.hpp:34
+msgid "Shard"
+msgstr "Շարդ"
+
+#: src/object/rublight.cpp:55
+msgid "Fading Speed"
+msgstr "Մարման արագություն"
+
+#: src/object/rublight.cpp:56
+msgid "Glowing Strength"
+msgstr "Փայլող ուժ"
+
+#: src/object/wind.cpp:78 src/object/custom_particle_system.cpp:499
+msgid "Speed X"
+msgstr "արագություն X"
+
+#: src/object/wind.cpp:79 src/object/custom_particle_system.cpp:500
+msgid "Speed Y"
+msgstr "արագություն Y"
+
+#: src/object/wind.cpp:80
+msgid "Acceleration"
+msgstr "արագացում"
+
+#: src/object/wind.cpp:81
+msgid "Blowing"
+msgstr "Բոուլինգ"
+
+#: src/object/wind.cpp:82
+msgid "Affects Badguys"
+msgstr "Էֆեկտներ Վատ տղաներ"
+
+#: src/object/wind.cpp:83
+msgid "Affects Objects"
+msgstr "Ազդում է օբյեկտների վրա"
+
+#: src/object/wind.cpp:84
+msgid "Affects Player"
+msgstr "Ազդում է խաղացողի վրա"
+
+#: src/object/wind.cpp:85
+msgid "Fancy Particles"
+msgstr "Շքեղ մասնիկներ"
+
+#: src/object/bicycle_platform.hpp:64
+msgid "Bicycle Platform"
+msgstr "Հեծանիվների հարթակ"
+
+#: src/object/platform.cpp:76 src/object/thunderstorm.cpp:69
+#: src/object/tilemap.cpp:254
+msgid "Running"
+msgstr "Վազում"
+
+#: src/object/rock.cpp:192
+msgid "On-grab script"
+msgstr "Ձեռք բերող սցենար"
+
+#: src/object/rock.cpp:193
+msgid "On-ungrab script"
+msgstr "Անընդունելի սցենար"
+
+#: src/object/particlesystem_interactive.hpp:48
+msgid "Interactive particle system"
+msgstr "Ինտերակտիվ մասնիկների համակարգ"
+
+#: src/object/thunderstorm.cpp:70
+msgid "Interval"
+msgstr "Ինտերվալ"
+
+#: src/object/thunderstorm.cpp:71
+msgid "Strike Script"
+msgstr "Հարվածային սցենար"
+
+#: src/object/cloud_particle_system.hpp:41
+msgid "Cloud Particles"
+msgstr "Ամպի մասնիկներ"
+
+#: src/object/custom_particle_system.cpp:423
+msgid "Texture"
+msgstr "Հյուսվածք"
+
+#: src/object/custom_particle_system.cpp:425
+msgid "Amount"
+msgstr "Գումարը"
+
+#: src/object/custom_particle_system.cpp:426 src/object/circleplatform.cpp:56
+#: src/editor/particle_editor.cpp:141
+msgid "Delay"
+msgstr "Հետաձգում"
+
+#: src/object/custom_particle_system.cpp:427
+msgid "Lifetime"
+msgstr "Կյանքի ընթացքում"
+
+#: src/object/custom_particle_system.cpp:428
+msgid "Lifetime variation"
+msgstr "Կյանքի տատանումներ"
+
+#: src/object/custom_particle_system.cpp:429
+#: src/editor/particle_editor.cpp:164
+msgid "Birth mode"
+msgstr "Ծննդյան ռեժիմ"
+
+#: src/object/custom_particle_system.cpp:430
+#: src/object/custom_particle_system.cpp:465 src/object/gradient.cpp:149
+#: src/supertux/menu/keyboard_menu.cpp:58
+#: src/supertux/menu/joystick_menu.cpp:106
+#: src/supertux/menu/joystick_menu.cpp:213 src/editor/object_settings.cpp:131
+#: src/editor/particle_editor.cpp:162 src/editor/particle_editor.cpp:168
+msgid "None"
+msgstr "Ոչ ոք"
+
+#: src/object/custom_particle_system.cpp:430
+#: src/object/custom_particle_system.cpp:465
+#: src/editor/particle_editor.cpp:166
+msgid "Shrink"
+msgstr "Նեղանալ"
+
+#: src/object/custom_particle_system.cpp:434
+#: src/editor/particle_editor.cpp:172
+msgid "Birth easing"
+msgstr "Ծննդաբերության հեշտացում"
+
+#: src/object/custom_particle_system.cpp:436
+#: src/object/custom_particle_system.cpp:471 src/editor/node_marker.cpp:129
+msgid "No easing"
+msgstr "Ոչ մի մեղմացում"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:130
+msgid "Quad in"
+msgstr "Չորս ներս"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:130
+msgid "Quad out"
+msgstr "Quad դուրս"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:130
+msgid "Quad in/out"
+msgstr "Քառակի մուտք/դուրս"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:131
+msgid "Cubic in"
+msgstr "խորանարդ դյույմ"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:131
+msgid "Cubic out"
+msgstr "Խորանարդ դուրս"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:131
+msgid "Cubic in/out"
+msgstr "Խորանարդ ներս/դուրս"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:132
+msgid "Quart in"
+msgstr "Քվարտ ներս"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:132
+msgid "Quart out"
+msgstr "Քառյակ դուրս"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:132
+msgid "Quart in/out"
+msgstr "Քառյակ ներս/դուրս"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:133
+msgid "Quint in"
+msgstr "Քվինտ ներս"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:133
+msgid "Quint out"
+msgstr "Հանգստացեք"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:133
+msgid "Quint in/out"
+msgstr "Quint in/out"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:134
+msgid "Sine in"
+msgstr "Սինուսի մեջ"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:134
+msgid "Sine out"
+msgstr "Սինուս դուրս"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:134
+msgid "Sine in/out"
+msgstr "Սինուս ներս/դուրս"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:135
+msgid "Circular in"
+msgstr "Շրջանաձև ներս"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:135
+msgid "Circular out"
+msgstr "Շրջանաձև դուրս"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:135
+msgid "Circular in/out"
+msgstr "Շրջանաձև ներս/դուրս"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:136
+msgid "Exponential in"
+msgstr "Էքսպոնենցիալ մեջ"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:136
+msgid "Exponential out"
+msgstr "Էքսպոնենցիալ դուրս"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:136
+msgid "Exponential in/out"
+msgstr "Էքսպոնենցիալ ներս/դուրս"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:137
+msgid "Elastic in"
+msgstr "Էլաստիկ մեջ"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:137
+msgid "Elastic out"
+msgstr "Էլաստիկ դուրս"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:137
+msgid "Elastic in/out"
+msgstr "Էլաստիկ ներս/դուրս"
+
+#: src/object/custom_particle_system.cpp:445
+#: src/object/custom_particle_system.cpp:480 src/editor/node_marker.cpp:138
+msgid "Back in"
+msgstr "Վերադարձ ներս"
+
+#: src/object/custom_particle_system.cpp:445
+#: src/object/custom_particle_system.cpp:480 src/editor/node_marker.cpp:138
+msgid "Back out"
+msgstr "Հետ դուրս"
+
+#: src/object/custom_particle_system.cpp:445
+#: src/object/custom_particle_system.cpp:480 src/editor/node_marker.cpp:138
+msgid "Back in/out"
+msgstr "Հետ ներս/դուրս"
+
+#: src/object/custom_particle_system.cpp:446
+#: src/object/custom_particle_system.cpp:481 src/editor/node_marker.cpp:139
+msgid "Bounce in"
+msgstr "Ներս ցատկել"
+
+#: src/object/custom_particle_system.cpp:446
+#: src/object/custom_particle_system.cpp:481 src/editor/node_marker.cpp:139
+msgid "Bounce out"
+msgstr "Դուրս ցատկել"
+
+#: src/object/custom_particle_system.cpp:446
+#: src/object/custom_particle_system.cpp:481 src/editor/node_marker.cpp:139
+msgid "Bounce in/out"
+msgstr "Ցատկել ներս/դուրս"
+
+#: src/object/custom_particle_system.cpp:462
+msgid "Birth time"
+msgstr "Ծննդյան ժամանակը"
+
+#: src/object/custom_particle_system.cpp:463
+msgid "Birth time variation"
+msgstr "Ծննդյան ժամանակի փոփոխություն"
+
+#: src/object/custom_particle_system.cpp:464
+#: src/editor/particle_editor.cpp:170
+msgid "Death mode"
+msgstr "Մահվան ռեժիմ"
+
+#: src/object/custom_particle_system.cpp:469
+#: src/editor/particle_editor.cpp:173
+msgid "Death easing"
+msgstr "Մահվան թեթևացում"
+
+#: src/object/custom_particle_system.cpp:497
+msgid "Death time"
+msgstr "Մահվան ժամանակը"
+
+#: src/object/custom_particle_system.cpp:498
+msgid "Death time variation"
+msgstr "Մահվան ժամանակի փոփոխություն"
+
+#: src/object/custom_particle_system.cpp:501
+msgid "Speed X (variation)"
+msgstr "Արագություն X (տարբերակ)"
+
+#: src/object/custom_particle_system.cpp:502
+msgid "Speed Y (variation)"
+msgstr "Արագություն Y (տարբերակում)"
+
+#: src/object/custom_particle_system.cpp:503
+msgid "Acceleration X"
+msgstr "Արագացում X"
+
+#: src/object/custom_particle_system.cpp:504
+msgid "Acceleration Y"
+msgstr "Արագացում Y"
+
+#: src/object/custom_particle_system.cpp:505
+msgid "Friction X"
+msgstr "Շփում X"
+
+#: src/object/custom_particle_system.cpp:506
+msgid "Friction Y"
+msgstr "Շփում Y"
+
+#: src/object/custom_particle_system.cpp:507
+#: src/editor/particle_editor.cpp:189
+msgid "Feather factor"
+msgstr "Փետուր գործոն"
+
+#: src/object/custom_particle_system.cpp:508
+msgid "Rotation"
+msgstr "Ռոտացիա"
+
+#: src/object/custom_particle_system.cpp:509
+msgid "Rotation (variation)"
+msgstr "Ռոտացիա (տարբերակում)"
+
+#: src/object/custom_particle_system.cpp:510
+#: src/editor/particle_editor.cpp:195
+msgid "Rotation speed"
+msgstr "Պտտման արագություն"
+
+#: src/object/custom_particle_system.cpp:511
+msgid "Rotation speed (variation)"
+msgstr "Պտտման արագություն (տարբերակում)"
+
+#: src/object/custom_particle_system.cpp:512
+#: src/editor/particle_editor.cpp:200
+msgid "Rotation acceleration"
+msgstr "Պտտման արագացում"
+
+#: src/object/custom_particle_system.cpp:513
+msgid "Rotation friction"
+msgstr "Պտտման շփում"
+
+#: src/object/custom_particle_system.cpp:514
+#: src/editor/particle_editor.cpp:208
+msgid "Rotation mode"
+msgstr "Պտտման ռեժիմ"
+
+#: src/object/custom_particle_system.cpp:515
+#: src/editor/particle_editor.cpp:206
+msgid "Fixed"
+msgstr "Ամրագրված"
+
+#: src/object/custom_particle_system.cpp:515
+#: src/editor/particle_editor.cpp:205
+msgid "Facing"
+msgstr "Երեսապատում"
+
+#: src/object/custom_particle_system.cpp:515
+#: src/editor/particle_editor.cpp:204
+msgid "Wiggling"
+msgstr "Թրթռալ"
+
+#: src/object/custom_particle_system.cpp:519
+#: src/editor/particle_editor.cpp:219
+msgid "Collision mode"
+msgstr "Բախման ռեժիմ"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "None (pass through)"
+msgstr "Ոչ մեկը (անցնում է)"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Stick"
+msgstr "Ձողիկ"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Stick Forever"
+msgstr "Կպչեք ընդմիշտ"
+
+#: src/object/custom_particle_system.cpp:520
+#: src/editor/particle_editor.cpp:214
+msgid "Bounce (heavy)"
+msgstr "Ցատկում (ծանր)"
+
+#: src/object/custom_particle_system.cpp:520
+#: src/editor/particle_editor.cpp:213
+msgid "Bounce (light)"
+msgstr "Ցատկում (թեթև)"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Kill particle"
+msgstr "Սպանել մասնիկը"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Fade out particle"
+msgstr "Մարել մասնիկը"
+
+#: src/object/custom_particle_system.cpp:524
+msgid "Delete if off-screen"
+msgstr "Ջնջել, եթե էկրանից դուրս է"
+
+#: src/object/custom_particle_system.cpp:525
+#: src/editor/particle_editor.cpp:224
+msgid "Never"
+msgstr "Երբեք"
+
+#: src/object/custom_particle_system.cpp:525
+#: src/editor/particle_editor.cpp:223
+msgid "Only on exit"
+msgstr "Միայն ելքի վրա"
+
+#: src/object/custom_particle_system.cpp:525
+msgid "Always"
+msgstr "Միշտ"
+
+#: src/object/custom_particle_system.cpp:529
+msgid "Cover screen"
+msgstr "Կափարիչ էկրան"
+
+#: src/object/ispy.hpp:33
+msgid "Ispy"
+msgstr "Իսպին"
+
+#: src/object/skull_tile.hpp:32
+msgid "Skull Tile"
+msgstr "Գանգի սալիկ"
+
+#: src/object/particle_zone.cpp:80
+msgid "Particle Name"
+msgstr "Մասնիկների անվանումը"
+
+#: src/object/particle_zone.cpp:81
+msgid "Zone Type"
+msgstr "Գոտու տեսակը"
+
+#: src/object/particle_zone.cpp:82
+msgid "Spawn"
+msgstr "Ձվադրել"
+
+#: src/object/particle_zone.cpp:82
+msgid "Life zone"
+msgstr "Կյանքի գոտի"
+
+#: src/object/particle_zone.cpp:82
+msgid "Life zone (clear)"
+msgstr "Կյանքի գոտի (պարզ)"
+
+#: src/object/particle_zone.cpp:82
+msgid "Kill particles"
+msgstr "Սպանեք մասնիկները"
+
+#: src/object/particle_zone.cpp:82
+msgid "Clear particles"
+msgstr "Մաքուր մասնիկներ"
+
+#: src/object/weak_block.cpp:211
+msgid "Linked"
+msgstr "կապված"
+
+#: src/object/decal.hpp:40
+msgid "Decal"
+msgstr "Սկավառակ"
+
+#: src/object/tilemap.cpp:229
+msgid "Resize offset x"
+msgstr "Չափափոխել օֆսեթ x"
+
+#: src/object/tilemap.cpp:230
+msgid "Resize offset y"
+msgstr "Չափափոխել օֆսեթ y"
+
+#: src/object/tilemap.cpp:232 src/supertux/menu/editor_sector_menu.cpp:39
+#: src/editor/object_option.cpp:173
+msgid "Width"
+msgstr "Լայնությունը"
+
+#: src/object/tilemap.cpp:233 src/supertux/menu/editor_sector_menu.cpp:40
+#: src/editor/object_option.cpp:174
+msgid "Height"
+msgstr "Բարձրություն"
+
+#: src/object/tilemap.cpp:235
+msgid "Alpha"
+msgstr "Ալֆա"
+
+#: src/object/tilemap.cpp:236
+msgid "Speed x"
+msgstr "Արագություն x"
+
+#: src/object/tilemap.cpp:237
+msgid "Speed y"
+msgstr "Արագություն y"
+
+#: src/object/tilemap.cpp:238
+msgid "Tint"
+msgstr "Երանգ"
+
+#: src/object/tilemap.cpp:257 src/supertux/menu/editor_tilegroup_menu.cpp:26
+#: src/editor/toolbox_widget.cpp:90
+msgid "Tiles"
+msgstr "Սալիկներ"
+
+#: src/object/gradient.cpp:128
+msgid "Left Colour"
+msgstr "Ձախ Գույնը"
+
+#: src/object/gradient.cpp:129
+msgid "Right Colour"
+msgstr "Աջ Գույնը"
+
+#: src/object/gradient.cpp:131
+msgid "Top Colour"
+msgstr "Վերին Գույնը"
+
+#: src/object/gradient.cpp:132
+msgid "Bottom Colour"
+msgstr "Ներքեւի Գույնը"
+
+#: src/object/gradient.cpp:138
+msgid "Vertical"
+msgstr "Ուղղահայաց"
+
+#: src/object/gradient.cpp:138
+msgid "Horizontal"
+msgstr "Հորիզոնական"
+
+#: src/object/gradient.cpp:138
+msgid "Vertical (whole sector)"
+msgstr "Ուղղահայաց (ամբողջ հատված)"
+
+#: src/object/gradient.cpp:138
+msgid "Horizontal (whole sector)"
+msgstr "Հորիզոնական (ամբողջ հատված)"
+
+#: src/object/gradient.cpp:148
+msgid "Blend mode"
+msgstr "Խառնուրդի ռեժիմ"
+
+#: src/object/gradient.cpp:149
+msgid "Blend"
+msgstr "Խառնել"
+
+#: src/object/gradient.cpp:149
+msgid "Additive"
+msgstr "Հավելանյութ"
+
+#: src/object/gradient.cpp:149
+msgid "Modulate"
+msgstr "Մոդուլացնել"
+
+#: src/object/bumper.hpp:35
+msgid "Bumper"
+msgstr "Բամպեր"
+
+#: src/object/unstable_tile.hpp:37
+msgid "Unstable Tile"
+msgstr "Անկայուն կղմինդր"
+
+#: src/object/brick.hpp:31
+msgid "Brick"
+msgstr "Աղյուս"
+
+#: src/object/invisible_wall.hpp:34
+msgid "Invisible Wall"
+msgstr "Անտեսանելի պատ"
+
+#: src/object/spotlight.hpp:51
+msgid "Spotlight"
+msgstr "Ուշադրության կենտրոնում"
+
+#: src/object/scripted_object.hpp:39
+msgid "Scripted Object"
+msgstr "Սցենարավորված օբյեկտ"
+
+#: src/object/custom_particle_system_file.hpp:39
+msgid "Custom Particles from file"
+msgstr "Պատվերով մասնիկներ ֆայլից"
+
+#: src/object/coin.hpp:78
+msgid "Heavy Coin"
+msgstr "Ծանր մետաղադրամ"
+
+#: src/object/bonus_block.hpp:56
+msgid "Bonus Block"
+msgstr "Բոնուսային բլոկ"
+
+#: src/object/magicblock.hpp:41
+msgid "Magic Tile"
+msgstr "Կախարդական սալիկ"
+
+#: src/object/camera.hpp:67
+msgid "Camera"
+msgstr "Տեսախցիկ"
+
+#: src/object/textscroller.hpp:44
+msgid "Text Scroller"
+msgstr "Տեքստի ոլորիչ"
+
+#: src/gui/menu_badguy_select.cpp:94
+msgid "List of enemies"
+msgstr "Թշնամիների ցուցակ"
+
+#: src/gui/menu_badguy_select.cpp:96
+msgid "Select enemy"
+msgstr "Ընտրեք թշնամուն"
+
+#: src/gui/menu_badguy_select.cpp:97
+msgid "Add"
+msgstr "Ավելացնել"
+
+#: src/gui/menu_badguy_select.cpp:107 src/gui/menu_color.cpp:37
+#: src/gui/dialog.hpp:81 src/gui/menu_script.cpp:47
+#: src/supertux/menu/editor_sector_menu.cpp:46
+#: src/supertux/menu/editor_levelset_menu.cpp:62
+#: src/supertux/menu/addon_menu.cpp:349
+#: src/supertux/menu/editor_new_levelset_menu.cpp:37
+#: src/supertux/menu/editor_level_menu.cpp:45 src/editor/object_menu.cpp:43
+msgid "OK"
+msgstr "Լավ"
+
+#: src/gui/menu_badguy_select.cpp:136
+msgid "Do you want to delete this badguy from the list?"
+msgstr " Ուզում ե՞ք ջնջել այս վատ տղային ցանկից:"
+
+#: src/gui/menu_badguy_select.cpp:137 src/gui/dialog.hpp:90
+#: src/supertux/menu/editor_level_select_menu.cpp:164
+#: src/supertux/menu/editor_menu.cpp:164 src/editor/editor.cpp:583
+msgid "Yes"
+msgstr "Այո"
+
+#: src/gui/menu_badguy_select.cpp:140 src/gui/dialog.hpp:91
+#: src/supertux/menu/editor_level_select_menu.cpp:168
+#: src/supertux/menu/editor_menu.cpp:167 src/editor/particle_editor.cpp:780
+#: src/editor/editor.cpp:590
+msgid "No"
+msgstr "Ոչ"
+
+#: src/gui/menu_color.cpp:24
+msgid "Mix the colour"
+msgstr "Խառնել գույնը"
+
+#: src/gui/menu_filesystem.cpp:112 src/gui/menu_paths.cpp:44
+#: src/supertux/menu/particle_editor_save_as.cpp:42
+#: src/supertux/menu/editor_sectors_menu.cpp:45
+#: src/supertux/menu/editor_sectors_menu.cpp:95
+#: src/supertux/menu/editor_sectors_menu.cpp:100
+#: src/supertux/menu/editor_objectgroup_menu.cpp:42
+#: src/supertux/menu/editor_tilegroup_menu.cpp:36
+#: src/supertux/menu/editor_level_select_menu.cpp:173
+#: src/supertux/menu/editor_save_as.cpp:42
+#: src/supertux/menu/particle_editor_open.cpp:43
+#: src/editor/particle_editor.cpp:784 src/editor/editor.cpp:594
+msgid "Cancel"
+msgstr "Չեղարկել"
+
+#: src/gui/menu_script.cpp:28
+msgid "Edit script"
+msgstr "Խմբագրել սցենարը"
+
+#: src/gui/menu_paths.cpp:30
+msgid "Clone"
+msgstr "Կլոնավորում"
+
+#: src/gui/menu_paths.cpp:38
+msgid ""
+"An error occured and the game could\n"
+"not clone the path. Please contact\n"
+"the developers for support."
+msgstr "Սխալ է տեղի ունեցել, և խաղը կարող է\nմի կլոնավորեք ուղին: Խնդրում եմ կապնվել\nմշակողները աջակցության համար:"
+
+#: src/gui/menu_paths.cpp:41
+msgid "Bind"
+msgstr "Կապել"
+
+#: src/gui/menu_paths.cpp:63 src/supertux/menu/integrations_menu.cpp:60
+#: src/supertux/menu/contrib_menu.cpp:161 src/supertux/menu/debug_menu.cpp:75
+#: src/supertux/menu/editor_level_select_menu.cpp:88
+#: src/supertux/menu/worldmap_cheat_menu.cpp:55
+#: src/supertux/menu/worldmap_cheat_menu.cpp:153
+#: src/supertux/menu/editor_levelset_select_menu.cpp:114
+#: src/supertux/menu/options_menu.cpp:442
+#: src/supertux/menu/profile_menu.cpp:54 src/supertux/menu/addon_menu.cpp:213
+#: src/supertux/menu/editor_new_levelset_menu.cpp:40
+#: src/supertux/menu/world_set_menu.cpp:33
+#: src/supertux/menu/web_asset_menu.cpp:48
+#: src/supertux/menu/keyboard_menu.cpp:49
+#: src/supertux/menu/language_menu.cpp:56
+#: src/supertux/menu/joystick_menu.cpp:97
+#: src/supertux/menu/contrib_levelset_menu.cpp:67
+#: src/supertux/menu/cheat_menu.cpp:44
+#: src/supertux/menu/editor_delete_level_menu.cpp:43
+msgid "Back"
+msgstr "Ետ"
+
+#: src/badguy/toad.hpp:37
+msgid "Toad"
+msgstr "Դոդոշ"
+
+#: src/badguy/mrtree.hpp:29
+msgid "Walking Tree"
+msgstr "Քայլող ծառ"
+
+#: src/badguy/plant.hpp:33
+msgid "Plant"
+msgstr "Գործարան"
+
+#: src/badguy/crystallo.hpp:30
+msgid "Crystallo"
+msgstr "Բյուրեղիկ"
+
+#: src/badguy/totem.hpp:36
+msgid "Totem"
+msgstr "Տոտեմ"
+
+#: src/badguy/stalactite.hpp:38
+msgid "Stalactite"
+msgstr "Ստալակտիտ"
+
+#: src/badguy/haywire.hpp:45
+msgid "Haywire"
+msgstr "Հայվայր"
+
+#: src/badguy/dispenser.hpp:48
+msgid "Dispenser"
+msgstr "Դիսպենսեր"
+
+#: src/badguy/short_fuse.hpp:29
+msgid "Short Fuse"
+msgstr "Կարճ ապահովիչ"
+
+#: src/badguy/zeekling.hpp:36
+msgid "Zeekling"
+msgstr "Զիքլինգ"
+
+#: src/badguy/mriceblock.hpp:46
+msgid "Iceblock"
+msgstr "Սառցե բլոկ"
+
+#: src/badguy/scrystallo.cpp:52
+msgid "Walk Radius"
+msgstr "Քայլելու շառավիղ"
+
+#: src/badguy/scrystallo.cpp:53
+msgid "Awakening Radius"
+msgstr "Զարթոնքի շառավիղ"
+
+#: src/badguy/jumpy.hpp:36
+msgid "Jumpy"
+msgstr "ցատկոտ"
+
+#: src/badguy/captainsnowball.hpp:31
+msgid "Captain Snowball"
+msgstr "Կապիտան Սնոուբոլ"
+
+#: src/badguy/ghosttree.hpp:42
+msgid "Ghost Tree"
+msgstr "Ուրվական ծառ"
+
+#: src/badguy/willowisp.cpp:323
+msgid "Track range"
+msgstr "Հետևման տիրույթ"
+
+#: src/badguy/willowisp.cpp:324
+msgid "Vanish range"
+msgstr "Անհետացման միջակայք"
+
+#: src/badguy/willowisp.cpp:325
+msgid "Fly speed"
+msgstr "Թռիչքի արագություն"
+
+#: src/badguy/kugelblitz.hpp:39
+msgid "Kugelblitz"
+msgstr "Կուգելբլից"
+
+#: src/badguy/mole_rock.hpp:43
+msgid "Mole's rock"
+msgstr "Խլուրդի քար"
+
+#: src/badguy/badguy.cpp:849
+msgid "Death script"
+msgstr "Մահվան սցենար"
+
+#: src/badguy/sspiky.hpp:36
+msgid "Sleeping Spiky"
+msgstr "Կծու քնած"
+
+#: src/badguy/yeti_stalactite.hpp:33
+msgid "Yeti's Stalactite"
+msgstr "Յետի ստալակտիտ"
+
+#: src/badguy/livefire.hpp:37
+msgid "Walking Flame"
+msgstr "Քայլող բոց"
+
+#: src/badguy/livefire.hpp:68
+msgid "Sleeping Flame"
+msgstr "Քնած բոց"
+
+#: src/badguy/livefire.hpp:84
+msgid "Dormant Flame"
+msgstr "Քնած կրակ"
+
+#: src/badguy/owl.hpp:39
+msgid "Owl"
+msgstr "Բու"
+
+#: src/badguy/igel.hpp:34
+msgid "Igel"
+msgstr "Իգել"
+
+#: src/badguy/darttrap.cpp:126
+msgid "Initial delay"
+msgstr "Նախնական ուշացում"
+
+#: src/badguy/darttrap.cpp:128
+msgid "Fire delay"
+msgstr "Կրակելու ուշացում"
+
+#: src/badguy/darttrap.cpp:129
+msgid "Ammo"
+msgstr "Զինամթերք"
+
+#: src/badguy/snowball.hpp:29
+msgid "Snowball"
+msgstr "Ձնագնդի"
+
+#: src/badguy/smartblock.hpp:29
+msgid "Smartblock"
+msgstr "Խելացի բլոկ"
+
+#: src/badguy/yeti.cpp:369
+msgid "Fixed position"
+msgstr "Հաստատուն դիրք"
+
+#: src/badguy/yeti.cpp:370
+msgid "Lives"
+msgstr "Ապրում է"
+
+#: src/badguy/goldbomb.hpp:49
+msgid "Gold Bomb"
+msgstr "Ոսկե ռումբ"
+
+#: src/badguy/flyingsnowball.hpp:32
+msgid "Flying Snowball"
+msgstr "Թռչող ձնագնդի"
+
+#: src/badguy/skullyhop.hpp:37
+msgid "Skullyhop"
+msgstr "Գանգի պարծենկոտ"
+
+#: src/badguy/kamikazesnowball.hpp:32
+msgid "Snowshot"
+msgstr "Ձյան կրակոց"
+
+#: src/badguy/kamikazesnowball.hpp:52
+msgid "Leafshot"
+msgstr "Տերեւային կրակոց"
+
+#: src/badguy/flame.hpp:41
+msgid "Flame"
+msgstr "Բոց"
+
+#: src/badguy/scrystallo.hpp:30
+msgid "Sleeping Crystallo"
+msgstr "Քնած բյուրեղյա"
+
+#: src/badguy/poisonivy.hpp:30
+msgid "Spring Leaf"
+msgstr "Գարնանային տերեւ"
+
+#: src/badguy/willowisp.hpp:57
+msgid "Will o' Wisp"
+msgstr "Պոլտերգեյսթ"
+
+#: src/badguy/badguy.hpp:53
+msgid "Badguy"
+msgstr "Վատ տղա"
+
+#: src/badguy/ghostflame.hpp:30
+msgid "Ghost Flame"
+msgstr "Ուրվական բոց"
+
+#: src/badguy/rcrystallo.hpp:30
+msgid "Roof Crystallo"
+msgstr "Տանիքի բյուրեղյա"
+
+#: src/badguy/spiky.hpp:30
+msgid "Spiky"
+msgstr "Կծու"
+
+#: src/badguy/walkingleaf.hpp:30
+msgid "Autumn Leaf"
+msgstr "Աշնանային տերեւ"
+
+#: src/badguy/owl.cpp:227
+msgid "Carry"
+msgstr "Կրել"
+
+#: src/badguy/darttrap.hpp:33
+msgid "Dart Trap"
+msgstr "Դարտ թակարդ"
+
+#: src/badguy/skydive.hpp:38
+msgid "Skydive"
+msgstr "Երկնային սուզում"
+
+#: src/badguy/yeti.hpp:37
+msgid "Yeti"
+msgstr "Յեթի"
+
+#: src/badguy/mole.hpp:39
+msgid "Mole"
+msgstr "Խլուրդ"
+
+#: src/badguy/mrbomb.hpp:42
+msgid "Bomb"
+msgstr "Ռումբ"
+
+#: src/badguy/walking_candle.hpp:40
+msgid "Walking Candle"
+msgstr "Քայլող մոմ"
+
+#: src/badguy/angrystone.hpp:34
+msgid "Angry Stone"
+msgstr "Զայրացած քար"
+
+#: src/badguy/spidermite.hpp:35
+msgid "Spider"
+msgstr "Սարդ"
+
+#: src/badguy/ghoul.hpp:30
+msgid "Ghoul"
+msgstr "Գուլ"
+
+#: src/badguy/snowman.hpp:28
+msgid "Snowman"
+msgstr "Ձնեմարդ"
+
+#: src/badguy/stumpy.hpp:35
+msgid "Walking Stump"
+msgstr "Քայլող կոճղ"
+
+#: src/badguy/fish.hpp:40
+msgid "Fish"
+msgstr "Ձուկ"
+
+#: src/badguy/dispenser.cpp:445
+msgid "Interval (seconds)"
+msgstr "Ինտերվալ (վայրկյան)"
+
+#: src/badguy/dispenser.cpp:446
+msgid "Random"
+msgstr "Պատահական"
+
+#: src/badguy/dispenser.cpp:447 data//images/engine/editor/objects.stoi:4
+msgid "Enemies"
+msgstr "Թշնամիներ"
+
+#: src/badguy/dispenser.cpp:448
+msgid "Limit dispensed badguys"
+msgstr "Սահմանափակեք բաշխված վատ տղաներին"
+
+#: src/badguy/dispenser.cpp:450
+msgid "Obey Gravity"
+msgstr "Հնազանդվեք գրավիտացիային"
+
+#: src/badguy/dispenser.cpp:452
+msgid "Max concurrent badguys"
+msgstr "Առավելագույն միաժամանակյա վատ տղաներ"
+
+#: src/badguy/dispenser.cpp:454 src/supertux/menu/editor_levelset_menu.cpp:60
+msgid "Type"
+msgstr "Տիպ"
+
+#: src/badguy/dispenser.cpp:455
+msgid "dropper"
+msgstr "կաթոցիկ"
+
+#: src/badguy/dispenser.cpp:455
+msgid "rocket launcher"
+msgstr "հրթիռային կայան"
+
+#: src/badguy/dispenser.cpp:455
+msgid "cannon"
+msgstr "թնդանոթ"
+
+#: src/badguy/dispenser.cpp:455
+msgid "invisible"
+msgstr "անտեսանելի"
+
+#: src/badguy/snail.hpp:42
+msgid "Snail"
+msgstr "Խխունջ"
+
+#: src/badguy/smartball.hpp:31
+msgid "Smartball"
+msgstr "Խելացի գնդակ"
+
+#: src/badguy/bouncing_snowball.hpp:32
+msgid "Bouncing Snowball"
+msgstr "Ցատկող ձնագնդիկ"
+
+#: src/badguy/iceflame.hpp:33
+msgid "Ice Flame"
+msgstr "Սառցե բոց"
+
+#: src/badguy/dart.hpp:43
+msgid "Dart"
+msgstr "Նետ"
+
+#: src/supertux/statistics.cpp:54
+msgid "Max coins collected:"
+msgstr "Հավաքված առավելագույն մետաղադրամներ."
+
+#: src/supertux/statistics.cpp:55
+msgid "Max fragging:"
+msgstr "Առավելագույն փխրունություն."
+
+#: src/supertux/statistics.cpp:56
+msgid "Max secrets found:"
+msgstr "Գտնված առավելագույն գաղտնիքները."
+
+#: src/supertux/statistics.cpp:57
+msgid "Best time completed:"
+msgstr "Ավարտված լավագույն ժամանակը."
+
+#: src/supertux/statistics.cpp:58
+msgid "Level target time:"
+msgstr "Նպատակային մակարդակի ժամանակը."
+
+#: src/supertux/statistics.cpp:149 src/supertux/levelintro.cpp:160
+msgid "Best Level Statistics"
+msgstr "Լավագույն մակարդակի վիճակագրություն"
+
+#: src/supertux/statistics.cpp:238
+msgid "You"
+msgstr "Դու"
+
+#: src/supertux/statistics.cpp:240
+msgid "Best"
+msgstr "Լավագույնը"
+
+#: src/supertux/statistics.cpp:242 src/supertux/levelintro.cpp:166
+msgid "Coins"
+msgstr "Մետաղադրամներ"
+
+#: src/supertux/statistics.cpp:265
+msgid "Badguys"
+msgstr "Վատ տղաներ"
+
+#: src/supertux/statistics.cpp:281 src/supertux/levelintro.cpp:172
+msgid "Secrets"
+msgstr "Գաղտնիքներ"
+
+#: src/supertux/game_object.hpp:78
+msgid "Unknown object"
+msgstr "Անհայտ օբյեկտ"
+
+#: src/supertux/sector.cpp:414
+msgid "Press escape to skip"
+msgstr "Բաց թողնելու համար սեղմեք Escape"
+
+#: src/supertux/command_line_arguments.cpp:94
+#, c-format
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "Օգտագործում՝: {} [OPTIONS] [LEVELFILE]"
+
+#: src/supertux/command_line_arguments.cpp:95
+msgid "General Options:"
+msgstr "Ընդհանուր ընտրանքներ."
+
+#: src/supertux/command_line_arguments.cpp:96
+msgid "  -h, --help                   Show this help message and quit"
+msgstr " -h, --help                   Ցույց տալ այս օգնության հաղորդագրությունը և դուրս գալ"
+
+#: src/supertux/command_line_arguments.cpp:97
+msgid "  -v, --version                Show SuperTux version and quit"
+msgstr "-v, --version Ցուցադրել SuperTux տարբերակը և դուրս գալ"
+
+#: src/supertux/command_line_arguments.cpp:98
+msgid "  --verbose                    Print verbose messages"
+msgstr " --verbose Տպել բազմակողմանի հաղորդագրություններ"
+
+#: src/supertux/command_line_arguments.cpp:99
+msgid "  --debug                      Print extra verbose messages"
+msgstr " --վրիպազերծում Տպել լրացուցիչ ծավալուն հաղորդագրություններ"
+
+#: src/supertux/command_line_arguments.cpp:100
+msgid ""
+"  --print-datadir              Print SuperTux's primary data directory."
+msgstr " --print-datadir Տպել SuperTux-ի հիմնական տվյալների գրացուցակը:"
+
+#: src/supertux/command_line_arguments.cpp:101
+msgid ""
+"  --acknowledgements           Print the licenses of libraries used by "
+"SuperTux."
+msgstr " --acknowledgements            Տպել SuperTux-ի կողմից օգտագործվող գրադարանների լիցենզիաները:"
+
+#: src/supertux/command_line_arguments.cpp:103
+msgid "Video Options:"
+msgstr "Տեսանյութի ընտրանքներ."
+
+#: src/supertux/command_line_arguments.cpp:104
+msgid "  -f, --fullscreen             Run in fullscreen mode"
+msgstr "-f, --fullscreen Գործարկել լիաէկրան ռեժիմովq"
+
+#: src/supertux/command_line_arguments.cpp:105
+msgid "  -w, --window                 Run in window mode"
+msgstr " -w, --window Գործարկել պատուհանի ռեժիմում"
+
+#: src/supertux/command_line_arguments.cpp:106
+msgid "  -g, --geometry WIDTHxHEIGHT  Run SuperTux in given resolution"
+msgstr "-g, --geometry WIDTHxHEIGHT Գործարկեք SuperTux-ը տվյալ լուծաչափով"
+
+#: src/supertux/command_line_arguments.cpp:107
+msgid "  -a, --aspect WIDTH:HEIGHT    Run SuperTux with given aspect ratio"
+msgstr " -a, --aspect WIDTH:HEIGHT   Գործարկեք SuperTux-ը տվյալ կողմի հարաբերակցությամբ"
+
+#: src/supertux/command_line_arguments.cpp:108
+msgid "  -d, --default                Reset video settings to default values"
+msgstr " -d, --default Վերականգնել տեսանյութի կարգավորումները լռելյայն արժեքներին"
+
+#: src/supertux/command_line_arguments.cpp:109
+msgid "  --renderer RENDERER          Use sdl, opengl, or auto to render"
+msgstr "  --renderer RENDERER Օգտագործեք sdl, opengl կամ auto վերարտադրության համար"
+
+#: src/supertux/command_line_arguments.cpp:111
+msgid "Audio Options:"
+msgstr "Աուդիո ընտրանքներ."
+
+#: src/supertux/command_line_arguments.cpp:112
+msgid "  --disable-sound              Disable sound effects"
+msgstr "--disable-sound Անջատել ձայնային էֆեկտները"
+
+#: src/supertux/command_line_arguments.cpp:113
+msgid "  --disable-music              Disable music"
+msgstr "--disable-music Անջատել երաժշտությունը"
+
+#: src/supertux/command_line_arguments.cpp:115
+msgid "Game Options:"
+msgstr "Խաղի ընտրանքներ."
+
+#: src/supertux/command_line_arguments.cpp:116
+msgid "  --edit-level                 Open given level in editor"
+msgstr "--edit-level Բացել տվյալ մակարդակը խմբագրում"
+
+#: src/supertux/command_line_arguments.cpp:117
+msgid "  --resave                     Loads given level and saves it"
+msgstr "--resave-ը Բեռնում է տվյալ մակարդակը և պահպանում է այն"
+
+#: src/supertux/command_line_arguments.cpp:118
+msgid "  --show-fps                   Display framerate in levels"
+msgstr "--show-fps Ցուցադրել կադրերի արագությունը մակարդակներում"
+
+#: src/supertux/command_line_arguments.cpp:119
+msgid "  --no-show-fps                Do not display framerate in levels"
+msgstr "--no-show-fps Մի ցուցադրեք կադրերի արագությունը մակարդակներում"
+
+#: src/supertux/command_line_arguments.cpp:120
+msgid "  --show-pos                   Display player's current position"
+msgstr "--show-pos Ցուցադրել խաղացողի ընթացիկ դիրքը"
+
+#: src/supertux/command_line_arguments.cpp:121
+msgid "  --no-show-pos                Do not display player's position"
+msgstr "--no-show-pos Մի ցուցադրիր խաղացողի դիրքը"
+
+#: src/supertux/command_line_arguments.cpp:122
+msgid "  --developer                  Switch on developer feature"
+msgstr "--ծրագրավորող Միացնել մշակողի հատկությունը"
+
+#: src/supertux/command_line_arguments.cpp:123
+msgid "  -s, --debug-scripts          Enable script debugger."
+msgstr "-s, --debug-scripts           Միացնել սցենարի վրիպազերծիչը:"
+
+#: src/supertux/command_line_arguments.cpp:124
+msgid ""
+"  --spawn-pos X,Y              Where in the level to spawn Tux. Only used if"
+" level is specified."
+msgstr " --spawn-pos X,Y              Որտեղ է մակարդակում ձվադրել Tux. Օգտագործվում է միայն այն դեպքում, եթե մակարդակը նշված է:"
+
+#: src/supertux/command_line_arguments.cpp:125
+msgid "  --sector SECTOR              Spawn Tux in SECTOR\n"
+msgstr " --sector SECTOR               Ձվադրող Tux-ը SECTOR-ում\n"
+
+#: src/supertux/command_line_arguments.cpp:126
+msgid "  --spawnpoint SPAWNPOINT      Spawn Tux at SPAWNPOINT\n"
+msgstr "--spawnpoint SPAWNPOINT       Կրկին ձվադրել Tux-ը SPAWNPOINT-ում\n"
+
+#: src/supertux/command_line_arguments.cpp:128
+msgid "Demo Recording Options:"
+msgstr "Դեմո ձայնագրման ընտրանքներ."
+
+#: src/supertux/command_line_arguments.cpp:129
+msgid "  --record-demo FILE LEVEL     Record a demo to FILE"
+msgstr "--record-demo FILE LEVEL Ձայնագրեք ցուցադրություն FILE-ում"
+
+#: src/supertux/command_line_arguments.cpp:130
+msgid "  --play-demo FILE LEVEL       Play a recorded demo"
+msgstr "--play-demo FILE LEVEL Նվագարկել ձայնագրված ցուցադրություն"
+
+#: src/supertux/command_line_arguments.cpp:132
+msgid "Directory Options:"
+msgstr "Գրացուցակի ընտրանքներ."
+
+#: src/supertux/command_line_arguments.cpp:133
+msgid ""
+"  --datadir DIR                Set the directory for the games datafiles"
+msgstr "--datadir DIR Սահմանել տեղեկատու խաղերի տվյալների ֆայլերի համար"
+
+#: src/supertux/command_line_arguments.cpp:134
+msgid ""
+"  --userdir DIR                Set the directory for user data (savegames, "
+"etc.)"
+msgstr "--userdir DIR                 Սահմանել գրացուցակը օգտվողի տվյալների համար (պահպանել խաղեր և այլն)"
+
+#: src/supertux/command_line_arguments.cpp:136
+msgid "Add-On Options:"
+msgstr "Հավելյալ ընտրանքներ."
+
+#: src/supertux/command_line_arguments.cpp:137
+msgid "  --repository-url URL         Set the URL to the Add-On repository"
+msgstr "--repository-url URL Սահմանեք URL-ը հավելումների պահոցում"
+
+#: src/supertux/command_line_arguments.cpp:139
+msgid "Environment variables:"
+msgstr "Շրջակա միջավայրի փոփոխականներ."
+
+#: src/supertux/command_line_arguments.cpp:140
+msgid ""
+"  SUPERTUX2_USER_DIR           Directory for user data (savegames, etc.)"
+msgstr " SUPERTUX2_USER_DIR           գրացուցակ օգտատիրոջ տվյալների համար (պահել խաղեր և այլն)"
+
+#: src/supertux/command_line_arguments.cpp:141
+msgid "  SUPERTUX2_DATA_DIR           Directory for the games datafiles"
+msgstr " SUPERTUX2_DATA_DIR           տեղեկատու խաղերի տվյալների ֆայլերի համար"
+
+#: src/supertux/title_screen.cpp:44
+msgid "Copyright"
+msgstr "Հեղինակային իրավունք"
+
+#: src/supertux/title_screen.cpp:45
+msgid ""
+"This game comes with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to\n"
+"redistribute it under certain conditions; see the license file for details.\n"
+msgstr "Այս խաղը բացարձակապես ՈՉ ԵՐԱՇԽԻՔ ունի: Սա անվճար ծրագիր է, և դուք ողջունում եք\nվերաբաշխել այն որոշակի պայմաններում. մանրամասների համար տես լիցենզիայի ֆայլը:\n"
+
+#: src/supertux/menu/integrations_menu.cpp:49
+msgid "Integrations"
+msgstr "Ինտեգրումներ"
+
+#: src/supertux/menu/integrations_menu.cpp:51
+msgid "Do not share level names when editing"
+msgstr "Մի տարածեք մակարդակների անունները խմբագրելիս"
+
+#: src/supertux/menu/integrations_menu.cpp:54
+msgid "Enable Discord integration"
+msgstr "Միացնել Discord-ի ինտեգրումը"
+
+#: src/supertux/menu/integrations_menu.cpp:57
+msgid "Discord (disabled; not compiled)"
+msgstr "Discord (անջատված է, չի կազմված)"
+
+#: src/supertux/menu/contrib_menu.cpp:80
+#: src/supertux/menu/world_set_menu.cpp:31
+msgid "Contrib Levels"
+msgstr "Ներդրումների մակարդակներ"
+
+#: src/supertux/menu/debug_menu.cpp:32
+msgid "Debug"
+msgstr "Վրիպազերծել"
+
+#: src/supertux/menu/debug_menu.cpp:56
+msgid "Game Speed"
+msgstr "Խաղի արագություն"
+
+#: src/supertux/menu/debug_menu.cpp:57
+msgid "Adjust Game Speed"
+msgstr "Կարգավորել խաղի արագությունը"
+
+#: src/supertux/menu/debug_menu.cpp:63
+msgid "Show Collision Rects"
+msgstr "Ցույց տալ բախման ուղղությունները"
+
+#: src/supertux/menu/debug_menu.cpp:64
+msgid "Show Worldmap Path"
+msgstr "Ցույց տալ աշխարհի քարտեզի ուղին"
+
+#: src/supertux/menu/debug_menu.cpp:65
+msgid "Show Controller"
+msgstr "Ցույց տալ վերահսկիչը"
+
+#: src/supertux/menu/debug_menu.cpp:66
+msgid "Show Framerate"
+msgstr "Ցույց տալ շրջանակը"
+
+#: src/supertux/menu/debug_menu.cpp:67
+msgid "Draw Redundant Frames"
+msgstr "Նկարեք ավելորդ շրջանակներ"
+
+#: src/supertux/menu/debug_menu.cpp:68
+msgid "Show Player Position"
+msgstr "Ցույց տալ խաղացողի դիրքը"
+
+#: src/supertux/menu/debug_menu.cpp:69
+msgid "Use Bitmap Fonts"
+msgstr "Օգտագործեք Bitmap տառատեսակներ"
+
+#: src/supertux/menu/debug_menu.cpp:72
+msgid "Dump Texture Cache"
+msgstr "Թափել հյուսվածքների քեշը"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:33
+msgid "Save particle as"
+msgstr "Պահպանել մասնիկը որպես"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:37
+#: src/supertux/menu/editor_save_as.cpp:37
+msgid "File name"
+msgstr "Ֆայլի անունը"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:38
+#: src/supertux/menu/editor_save_as.cpp:38 src/editor/particle_editor.cpp:766
+msgid "Save"
+msgstr "Պահպանել"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:31
+msgid "Choose Sector"
+msgstr "Ընտրեք ոլորտ"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:41
+msgid "Sector Settings"
+msgstr "Ոլորտի կարգավորումներ"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:42
+msgid "Create Sector"
+msgstr "Ստեղծել հատված"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:43
+msgid "Delete Sector"
+msgstr "Ջնջել ոլորտը"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:93
+msgid "Each level must have at least one sector."
+msgstr "Յուրաքանչյուր մակարդակ պետք է ունենա առնվազն մեկ հատված:"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:98
+msgid "Do you really want to delete this sector?"
+msgstr "Իսկապե՞ս ցանկանում եք ջնջել այս հատվածը:"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:101
+msgid "Delete sector"
+msgstr "Ջնջել հատվածը"
+
+#: src/supertux/menu/editor_objectgroup_menu.cpp:30
+#: src/editor/toolbox_widget.cpp:93
+msgid "Objects"
+msgstr "Օբյեկտներ"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:62
+msgid "Empty World"
+msgstr "Դատարկ աշխարհ"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:77
+msgid "Create Level"
+msgstr "Ստեղծել մակարդակ"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:81
+msgid "Edit Worldmap"
+msgstr "Խմբագրել աշխարհի քարտեզը"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:83
+msgid "Create Worldmap"
+msgstr "Ստեղծեք աշխարհի քարտեզ"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:85
+#: src/supertux/menu/editor_delete_level_menu.cpp:33
+msgid "Delete level"
+msgstr "Ջնջել մակարդակը"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:87
+#: src/supertux/menu/editor_levelset_menu.cpp:56
+msgid "World Settings"
+msgstr "Համաշխարհային կարգավորումներ"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:127
+msgid ""
+"Share this worldmap under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in worldmap properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "Կիսեք այս աշխարհի քարտեզը CC-BY-SA 4.0 International լիցենզիայի ներքո (խորհուրդ է տրվում):\nԱյն թույլ է տալիս փոփոխություններ և վերաբաշխում երրորդ կողմերի կողմից:\nԵթե ​​համաձայն չեք այս լիցենզիայի հետ, փոխեք այն աշխարհի քարտեզի հատկություններում:\nՀՐԱԺԵՇՏՈՒՄ. SuperTux-ի հեղինակները պատասխանատվություն չեն կրում ձեր լիցենզիայի ընտրության համար:"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:134
+msgid ""
+"Share this level under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in level properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "Կիսեք այս մակարդակը CC-BY-SA 4.0 International լիցենզիայի ներքո (խորհուրդ է տրվում):\nԱյն թույլ է տալիս փոփոխություններ և վերաբաշխում երրորդ կողմերի կողմից:\nԵթե ​​համաձայն չեք այս լիցենզիայի հետ, փոխեք այն մակարդակի հատկություններում:\nՀՐԱԺԵՇՏՈՒՄ. SuperTux-ի հեղինակները պատասխանատվություն չեն կրում ձեր լիցենզիայի ընտրության համար:"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:162
+msgid ""
+"An auto-save recovery file was found. Would you like to restore the recovery\n"
+"file and resume where you were before the editor crashed?"
+msgstr "Գտնվել է ավտոմատ պահման վերականգնման ֆայլ: Ցանկանու՞մ եք վերականգնել վերականգնումը\nֆայլ և վերսկսե՞լ այնտեղ, որտեղ էիք մինչ խմբագրի խափանումը:"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:169
+msgid "This will delete the auto-save file. Are you sure?"
+msgstr "Սա կջնջի ավտոմատ պահվող ֆայլը: Համոզված ես?"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:34
+#: src/supertux/menu/cheat_menu.cpp:30
+msgid "Cheats"
+msgstr "Խաբեբաներ"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:36
+#: src/supertux/menu/cheat_menu.cpp:32
+msgid "Bonus: Grow"
+msgstr "Բոնուս. Աճում"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:37
+msgid "Bonus: Fire"
+msgstr "Բոնուս. Կրակ"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:38
+msgid "Bonus: Ice"
+msgstr "Բոնուս. Սառույց"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:39
+msgid "Bonus: Air"
+msgstr "Բոնուս. Օդ"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:40
+msgid "Bonus: Earth"
+msgstr "Բոնուս. Հող"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:41
+msgid "Bonus: None"
+msgstr "Բոնուս: Ոչ"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:44
+#: src/supertux/menu/cheat_menu.cpp:42
+msgid "Leave Ghost Mode"
+msgstr "Թողնել ուրվական ռեժիմը"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:44
+#: src/supertux/menu/cheat_menu.cpp:42
+msgid "Activate Ghost Mode"
+msgstr "Ակտիվացրեք ուրվականի ռեժիմը"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:46
+#: src/supertux/menu/cheat_menu.cpp:40
+msgid "Finish Level"
+msgstr "Ավարտման մակարդակ"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:47
+msgid "Reset Level"
+msgstr "Վերականգնել մակարդակը"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:49
+msgid "Finish Worldmap"
+msgstr "Ավարտել աշխարհի քարտեզը"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:50
+msgid "Reset Worldmap"
+msgstr "Վերականգնել աշխարհի քարտեզը"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:52
+msgid "Go to level"
+msgstr "Անցեք մակարդակի"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:53
+msgid "Go to main spawnpoint"
+msgstr "Գնացեք հիմնական ստեղծման կետ"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:145
+msgid "Select level"
+msgstr "Select level"
+
+#: src/supertux/menu/editor_save_as.cpp:33
+#: src/supertux/menu/editor_menu.cpp:49
+msgid "Save Level as"
+msgstr "Պահպանել մակարդակը որպես"
+
+#: src/supertux/menu/editor_save_as.cpp:33
+#: src/supertux/menu/editor_menu.cpp:50
+msgid "Save Copy"
+msgstr "Պահպանել պատճենը"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:72
+msgid "Choose World"
+msgstr "Ընտրեք աշխարհը"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:100
+#, c-format
+msgid "%d level"
+msgid_plural "%d levels"
+msgstr[0] "%d մակարդակ"
+msgstr[1] "%d մակարդակները"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:113
+msgid "Create World"
+msgstr "Ստեղծել աշխարհը"
+
+#: src/supertux/menu/options_menu.cpp:98 src/supertux/menu/main_menu.cpp:64
+#: src/supertux/menu/game_menu.cpp:61 src/supertux/menu/worldmap_menu.cpp:31
+msgid "Options"
+msgstr "Ընտրանքներ"
+
+#: src/supertux/menu/options_menu.cpp:104
+#: src/supertux/menu/options_menu.cpp:142
+#: src/supertux/menu/options_menu.cpp:455
+#: src/supertux/menu/options_menu.cpp:476 src/editor/object_settings.cpp:119
+msgid "auto"
+msgstr "ավտո"
+
+#: src/supertux/menu/options_menu.cpp:221
+msgid "Desktop"
+msgstr "Սեղան"
+
+#: src/supertux/menu/options_menu.cpp:251
+msgid "on"
+msgstr "վրա"
+
+#: src/supertux/menu/options_menu.cpp:252
+msgid "off"
+msgstr "անջատված"
+
+#: src/supertux/menu/options_menu.cpp:253
+msgid "adaptive"
+msgstr "հարմարվողական"
+
+#: src/supertux/menu/options_menu.cpp:347
+msgid "Select Language"
+msgstr "Ընտրեք Լեզուն"
+
+#: src/supertux/menu/options_menu.cpp:348
+msgid "Select a different language to display text in"
+msgstr "Ընտրեք այլ լեզու տեքստը ցուցադրելու համար"
+
+#: src/supertux/menu/options_menu.cpp:350
+msgid "Language Packs"
+msgstr "Լեզուների փաթեթներ"
+
+#: src/supertux/menu/options_menu.cpp:351
+msgid "Language packs contain up-to-date translations"
+msgstr "Լեզուների փաթեթները պարունակում են արդի թարգմանություններ"
+
+#: src/supertux/menu/options_menu.cpp:353
+#: src/supertux/menu/profile_menu.cpp:34
+msgid "Select Profile"
+msgstr "Ընտրեք պրոֆիլը"
+
+#: src/supertux/menu/options_menu.cpp:354
+msgid "Select a profile to play with"
+msgstr "Ընտրեք պրոֆիլ՝ խաղալու համար"
+
+#: src/supertux/menu/options_menu.cpp:358
+msgid "Window Resizable"
+msgstr "Պատուհանի չափափոխելի"
+
+#: src/supertux/menu/options_menu.cpp:359
+msgid "Allow window resizing, might require a restart to take effect"
+msgstr "Թույլատրել պատուհանի չափափոխումը, հնարավոր է, որ պահանջվի վերագործարկում՝ ուժի մեջ մտնելու համար"
+
+#: src/supertux/menu/options_menu.cpp:361
+msgid "Window Resolution"
+msgstr "Պատուհանների լուծում"
+
+#: src/supertux/menu/options_menu.cpp:362
+msgid "Resize the window to the given size"
+msgstr "Պատուհանը չափափոխել նշված չափի"
+
+#: src/supertux/menu/options_menu.cpp:364
+msgid "Fullscreen"
+msgstr "Ամբողջ էկրանով"
+
+#: src/supertux/menu/options_menu.cpp:365
+msgid "Fill the entire screen"
+msgstr "Լրացրեք ամբողջ էկրանը"
+
+#: src/supertux/menu/options_menu.cpp:367
+msgid "Fullscreen Resolution"
+msgstr "Ամբողջ էկրանով լուծում"
+
+#: src/supertux/menu/options_menu.cpp:368
+msgid ""
+"Determine the resolution used in fullscreen mode (you must toggle fullscreen"
+" to complete the change)"
+msgstr "Որոշեք լիաէկրան ռեժիմում օգտագործվող լուծաչափը (փոփոխությունն ավարտելու համար դուք պետք է միացնեք ամբողջական էկրանը)"
+
+#: src/supertux/menu/options_menu.cpp:373
+msgid "Fit to browser"
+msgstr "Հարմարեցված դիտարկիչին"
+
+#: src/supertux/menu/options_menu.cpp:374
+msgid "Fit the resolution to the size of your browser"
+msgstr "Հարմարեցրեք բանաձեւը ձեր բրաուզերի չափին"
+
+#: src/supertux/menu/options_menu.cpp:378
+msgid "Magnification"
+msgstr "Խոշորացում"
+
+#: src/supertux/menu/options_menu.cpp:379
+msgid "Change the magnification of the game area"
+msgstr "Փոխեք խաղի տարածքի խոշորացումը"
+
+#: src/supertux/menu/options_menu.cpp:381
+msgid "VSync"
+msgstr "VSync"
+
+#: src/supertux/menu/options_menu.cpp:382
+msgid "Set the VSync mode"
+msgstr "Սահմանեք VSync ռեժիմը"
+
+#: src/supertux/menu/options_menu.cpp:385
+msgid "Aspect Ratio"
+msgstr "Ասպեկտների հարաբերակցություն"
+
+#: src/supertux/menu/options_menu.cpp:386
+msgid "Adjust the aspect ratio"
+msgstr "Կարգավորեք կողմի հարաբերակցությունը"
+
+#: src/supertux/menu/options_menu.cpp:392
+msgid "Disable all sound effects"
+msgstr "Անջատել բոլոր ձայնային էֆեկտները"
+
+#: src/supertux/menu/options_menu.cpp:394
+msgid "Disable all music"
+msgstr "Անջատել ամբողջ երաժշտությունը"
+
+#: src/supertux/menu/options_menu.cpp:396
+msgid "Sound Volume"
+msgstr "Ձայնի ծավալը"
+
+#: src/supertux/menu/options_menu.cpp:397
+msgid "Adjust sound volume"
+msgstr "Կարգավորել ձայնի ծավալը"
+
+#: src/supertux/menu/options_menu.cpp:399
+msgid "Music Volume"
+msgstr "Ձայնի ծավալը"
+
+#: src/supertux/menu/options_menu.cpp:400
+msgid "Adjust music volume"
+msgstr "Կարգավորել երաժշտության ձայնը"
+
+#: src/supertux/menu/options_menu.cpp:404
+msgid "Sound (disabled)"
+msgstr "Ձայն (անջատված)"
+
+#: src/supertux/menu/options_menu.cpp:405
+msgid "Music (disabled)"
+msgstr "Երաժշտություն (անջատված)"
+
+#: src/supertux/menu/options_menu.cpp:408
+#: src/supertux/menu/keyboard_menu.cpp:30
+msgid "Setup Keyboard"
+msgstr "Կարգավորեք ստեղնաշարը"
+
+#: src/supertux/menu/options_menu.cpp:409
+msgid "Configure key-action mappings"
+msgstr "Կարգավորել հիմնական գործողությունների քարտեզագրումները"
+
+#: src/supertux/menu/options_menu.cpp:412
+#: src/supertux/menu/joystick_menu.cpp:52
+msgid "Setup Joystick"
+msgstr "Տեղադրեք Joystick-ը"
+
+#: src/supertux/menu/options_menu.cpp:413
+msgid "Configure joystick control-action mappings"
+msgstr "Կարգավորեք joystick-ի կառավարման գործողությունների քարտեզագրումները"
+
+#: src/supertux/menu/options_menu.cpp:417
+msgid "On-screen controls"
+msgstr "Էկրանի կառավարում"
+
+#: src/supertux/menu/options_menu.cpp:418
+msgid "Toggle on-screen controls for mobile devices"
+msgstr "Միացնել շարժական սարքերի էկրանի կառավարումը"
+
+#: src/supertux/menu/options_menu.cpp:420
+msgid "Enable transitions"
+msgstr "Միացնել անցումները"
+
+#: src/supertux/menu/options_menu.cpp:421
+msgid "Enable screen transitions and smooth menu animation"
+msgstr "Միացնել էկրանի անցումները և սահուն մենյուի անիմացիան"
+
+#: src/supertux/menu/options_menu.cpp:425
+msgid "Developer Mode"
+msgstr "Մշակողի Ռեժիմը"
+
+#: src/supertux/menu/options_menu.cpp:430
+msgid "Christmas Mode"
+msgstr "Սուրբ Ծննդյան ռեժիմ"
+
+#: src/supertux/menu/options_menu.cpp:433
+msgid "Confirmation Dialog"
+msgstr "Հաստատման երկխոսություն"
+
+#: src/supertux/menu/options_menu.cpp:433
+msgid "Confirm aborting level"
+msgstr "Հաստատեք ընդհատման մակարդակը"
+
+#: src/supertux/menu/options_menu.cpp:434
+msgid "Pause on focus loss"
+msgstr "Դադար՝ կենտրոնացման կորստի վրա"
+
+#: src/supertux/menu/options_menu.cpp:435
+msgid "Automatically pause the game when the window loses focus"
+msgstr "Ավտոմատ դադարեցնել խաղը, երբ պատուհանը կորցնում է ուշադրությունը"
+
+#: src/supertux/menu/options_menu.cpp:436
+msgid "Use custom mouse cursor"
+msgstr "Օգտագործեք մկնիկի հատուկ կուրսորը"
+
+#: src/supertux/menu/options_menu.cpp:436
+msgid "Whether the game renders its own cursor or uses the system's cursor"
+msgstr "Անկախ նրանից՝ խաղը ցուցադրում է իր սեփական կուրսորը, թե օգտագործում է համակարգի կուրսորը"
+
+#: src/supertux/menu/options_menu.cpp:438
+msgid "Integrations and presence"
+msgstr "Ինտեգրումներ և ներկայություն"
+
+#: src/supertux/menu/options_menu.cpp:439
+msgid ""
+"Manage whether SuperTux should display the levels you play on your social "
+"media profiles (Discord)"
+msgstr "Կառավարեք՝ արդյոք SuperTux-ը պետք է ցուցադրի այն մակարդակները, որոնք խաղում եք ձեր սոցիալական մեդիայի պրոֆիլներում (Discord)"
+
+#: src/supertux/menu/options_menu.cpp:559
+msgid ""
+"The game couldn't detect your browser resolution.\n"
+"This most likely happens because it is not embedded\n"
+"in the SuperTux custom HTML template.\n"
+msgstr "Խաղը չկարողացավ հայտնաբերել ձեր դիտարկիչի լուծումը:\nՍա, ամենայն հավանականությամբ, տեղի է ունենում, քանի որ այն ներկառուցված չէ\nSuperTux մաքսային HTML ձևանմուշում:\n"
+
+#: src/supertux/menu/main_menu.cpp:56 src/supertux/menu/world_set_menu.cpp:28
+msgid "Start Game"
+msgstr "Սկսել Խաղը"
+
+#: src/supertux/menu/main_menu.cpp:60 src/supertux/menu/addon_menu.cpp:122
+msgid "Add-ons"
+msgstr "Հավելումներ"
+
+#: src/supertux/menu/main_menu.cpp:62 src/supertux/menu/web_asset_menu.cpp:38
+msgid "Manage Assets"
+msgstr "Կառավարեք ակտիվները"
+
+#: src/supertux/menu/main_menu.cpp:65 src/supertux/menu/editor_menu.cpp:43
+msgid "Level Editor"
+msgstr "Մակարդակի խմբագիր"
+
+#: src/supertux/menu/main_menu.cpp:66
+msgid "Credits"
+msgstr "Վարկեր"
+
+#: src/supertux/menu/main_menu.cpp:67
+msgid "Donate"
+msgstr "Նվիրաբերել"
+
+#: src/supertux/menu/main_menu.cpp:69
+msgid "Quit"
+msgstr "Դուրս գալ"
+
+#: src/supertux/menu/editor_sector_menu.cpp:35
+msgid "Initialization script"
+msgstr "Նախնականացման սցենար"
+
+#: src/supertux/menu/editor_sector_menu.cpp:36
+msgid "Gravity"
+msgstr "Ձգողականություն"
+
+#: src/supertux/menu/editor_sector_menu.cpp:41
+msgid "Resize offset X"
+msgstr "Չափափոխել օֆսեթ X"
+
+#: src/supertux/menu/editor_sector_menu.cpp:42
+msgid "Resize offset Y"
+msgstr "Չափափոխել օֆսեթ X"
+
+#: src/supertux/menu/editor_sector_menu.cpp:43
+msgid "Resize"
+msgstr "Չափափոխել"
+
+#: src/supertux/menu/profile_menu.cpp:41
+#, c-format
+msgid "[Profile {}]"
+msgstr "[Պրոֆիլ {}]"
+
+#: src/supertux/menu/profile_menu.cpp:45
+#, c-format
+msgid "Profile {}"
+msgstr "Անձնագիր {}"
+
+#: src/supertux/menu/profile_menu.cpp:50
+msgid "Reset profile"
+msgstr "Վերականգնել պրոֆիլը"
+
+#: src/supertux/menu/profile_menu.cpp:51
+msgid "Reset all profiles"
+msgstr "Վերականգնել բոլոր պրոֆիլները"
+
+#: src/supertux/menu/profile_menu.cpp:67
+msgid "Deleting your profile will reset your game progress. Are you sure?"
+msgstr "Ձեր պրոֆիլը ջնջելը կվերակայի ձեր խաղի առաջընթացը: Համոզված ես?"
+
+#: src/supertux/menu/profile_menu.cpp:73
+msgid "This will reset your game progress on all profiles. Are you sure?"
+msgstr "Սա կվերակայի ձեր խաղի առաջընթացը բոլոր պրոֆիլներում: Համոզված ես?"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:59
+#: src/supertux/menu/editor_new_levelset_menu.cpp:35
+msgid "Description"
+msgstr "Նկարագրություն"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:60
+#: src/supertux/menu/addon_menu.cpp:48
+#: data//images/engine/editor/objects.stoi:371
+msgid "Worldmap"
+msgstr "Աշխարհի Քարտեզ"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:60
+#: src/supertux/menu/addon_menu.cpp:45
+msgid "Levelset"
+msgstr "Մակարդակի հավաքածու"
+
+#: src/supertux/menu/addon_menu.cpp:51
+msgid "World"
+msgstr "Աշխարհ"
+
+#: src/supertux/menu/addon_menu.cpp:54
+msgid "Add-on"
+msgstr "Ավելացնել"
+
+#: src/supertux/menu/addon_menu.cpp:60
+msgid "Unknown"
+msgstr "Անհայտ"
+
+#: src/supertux/menu/addon_menu.cpp:71
+#, c-format
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} \"{}\" կողմից \"{}\""
+
+#: src/supertux/menu/addon_menu.cpp:129
+msgid "No Add-ons installed"
+msgstr "Տեղադրված հավելումներ չկան"
+
+#: src/supertux/menu/addon_menu.cpp:133
+msgid "No Add-ons found"
+msgstr "Հավելումներ չեն գտնվել"
+
+#: src/supertux/menu/addon_menu.cpp:179
+#, c-format
+msgid "Install {} *NEW*"
+msgstr "Տեղադրեք {} *ՆՈՐ*"
+
+#: src/supertux/menu/addon_menu.cpp:190
+#, c-format
+msgid "Install {}"
+msgstr "Տեղադրեք {}"
+
+#: src/supertux/menu/addon_menu.cpp:199
+msgid "No new Add-ons found"
+msgstr "Նոր հավելումներ չեն գտնվել"
+
+#: src/supertux/menu/addon_menu.cpp:205
+msgid "Check Online (disabled)"
+msgstr "Ստուգեք առցանց (անջատված)"
+
+#: src/supertux/menu/addon_menu.cpp:209
+msgid "Check Online"
+msgstr "Ստուգեք առցանց"
+
+#: src/supertux/menu/addon_menu.cpp:286
+msgid "Downloading Add-On Repository Index"
+msgstr "Լրացուցիչ պահեստի ինդեքսը ներբեռնվում է"
+
+#: src/supertux/menu/addon_menu.cpp:301
+#, c-format
+msgid "Downloading {}"
+msgstr "Ներբեռնում {}"
+
+#: src/supertux/menu/addon_menu.cpp:348
+msgid ""
+"Please restart SuperTux\n"
+"for these changes to take effect."
+msgstr "Խնդրում ենք վերագործարկել SuperTux-ը\nորպեսզի այս փոփոխություններն ուժի մեջ մտնեն։"
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:31
+msgid "New World"
+msgstr "Նոր աշխարհ"
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:51
+msgid "Please enter a name for this level subset."
+msgstr "Խնդրում ենք մուտքագրել անուն այս մակարդակի ենթաբազմության համար:"
+
+#: src/supertux/menu/world_set_menu.cpp:30
+msgid "Story Mode"
+msgstr "Պատմության ռեժիմ"
+
+#: src/supertux/menu/web_asset_menu.cpp:42
+msgid "New files location"
+msgstr "Նոր ֆայլերի գտնվելու վայրը"
+
+#: src/supertux/menu/web_asset_menu.cpp:43
+msgid "Add Files"
+msgstr "Ավելացնել ֆայլեր"
+
+#: src/supertux/menu/web_asset_menu.cpp:44
+msgid "Download Files"
+msgstr "Ներբեռնեք Ֆայլեր"
+
+#: src/supertux/menu/particle_editor_open.cpp:32
+msgid "Load particle file"
+msgstr "Բեռնել մասնիկների ֆայլը"
+
+#: src/supertux/menu/particle_editor_open.cpp:39
+msgid "Open"
+msgstr "Բաց"
+
+#: src/supertux/menu/game_menu.cpp:31
+msgid "Are you sure?"
+msgstr "Համոզված ես?"
+
+#: src/supertux/menu/game_menu.cpp:54 src/supertux/menu/worldmap_menu.cpp:30
+msgid "Continue"
+msgstr "Շարունակել"
+
+#: src/supertux/menu/game_menu.cpp:55
+msgid "Restart Level"
+msgstr "Վերագործարկեք մակարդակը"
+
+#: src/supertux/menu/game_menu.cpp:58
+msgid "Restart from Checkpoint"
+msgstr "Վերագործարկեք անցակետից"
+
+#: src/supertux/menu/game_menu.cpp:63
+msgid "Abort Level"
+msgstr "Ընդհատել մակարդակը"
+
+#: src/supertux/menu/keyboard_menu.cpp:32
+#: src/supertux/menu/joystick_menu.cpp:69
+msgid "Up"
+msgstr "Վեր"
+
+#: src/supertux/menu/keyboard_menu.cpp:33
+#: src/supertux/menu/joystick_menu.cpp:70
+msgid "Down"
+msgstr "Ներքեւ"
+
+#: src/supertux/menu/keyboard_menu.cpp:36
+#: src/supertux/menu/joystick_menu.cpp:73
+msgid "Jump"
+msgstr "Ցատկել"
+
+#: src/supertux/menu/keyboard_menu.cpp:38
+#: src/supertux/menu/joystick_menu.cpp:76
+msgid "Peek Left"
+msgstr "Նայեք ձախ"
+
+#: src/supertux/menu/keyboard_menu.cpp:39
+#: src/supertux/menu/joystick_menu.cpp:77
+msgid "Peek Right"
+msgstr "Նայեք աջ"
+
+#: src/supertux/menu/keyboard_menu.cpp:40
+#: src/supertux/menu/joystick_menu.cpp:78
+msgid "Peek Up"
+msgstr "Նայեք Վեր"
+
+#: src/supertux/menu/keyboard_menu.cpp:41
+#: src/supertux/menu/joystick_menu.cpp:79
+msgid "Peek Down"
+msgstr "Նայեք ներքև"
+
+#: src/supertux/menu/keyboard_menu.cpp:43
+#: src/supertux/menu/joystick_menu.cpp:81
+msgid "Console"
+msgstr "Վահանակ"
+
+#: src/supertux/menu/keyboard_menu.cpp:44
+#: src/supertux/menu/joystick_menu.cpp:82
+msgid "Cheat Menu"
+msgstr "Խաբելու մենյու"
+
+#: src/supertux/menu/keyboard_menu.cpp:45
+#: src/supertux/menu/joystick_menu.cpp:83
+msgid "Debug Menu"
+msgstr "Վրիպազերծման ընտրացանկ"
+
+#: src/supertux/menu/keyboard_menu.cpp:47
+#: src/supertux/menu/joystick_menu.cpp:85
+msgid "Jump with Up"
+msgstr "Անցնել վերևի հետ"
+
+#: src/supertux/menu/keyboard_menu.cpp:60
+msgid "Up cursor"
+msgstr "Վերև կուրսորը"
+
+#: src/supertux/menu/keyboard_menu.cpp:62
+msgid "Down cursor"
+msgstr "Ցած կուրսորը"
+
+#: src/supertux/menu/keyboard_menu.cpp:64
+msgid "Left cursor"
+msgstr "Ձախ կուրսորը"
+
+#: src/supertux/menu/keyboard_menu.cpp:66
+msgid "Right cursor"
+msgstr "Աջ կուրսորը"
+
+#: src/supertux/menu/keyboard_menu.cpp:68
+msgid "Return"
+msgstr "Վերադարձ"
+
+#: src/supertux/menu/keyboard_menu.cpp:70
+msgid "Space"
+msgstr "Տիեզերք"
+
+#: src/supertux/menu/keyboard_menu.cpp:72
+msgid "Right Shift"
+msgstr "Աջ Shift"
+
+#: src/supertux/menu/keyboard_menu.cpp:74
+msgid "Left Shift"
+msgstr "Ձախ հերթափոխ"
+
+#: src/supertux/menu/keyboard_menu.cpp:76
+msgid "Right Control"
+msgstr "Ճիշտ Control"
+
+#: src/supertux/menu/keyboard_menu.cpp:78
+msgid "Left Control"
+msgstr "Ձախ հսկողություն"
+
+#: src/supertux/menu/keyboard_menu.cpp:80
+msgid "Right Alt"
+msgstr "Աջ Alt"
+
+#: src/supertux/menu/keyboard_menu.cpp:82
+msgid "Left Alt"
+msgstr "Ձախ Alt"
+
+#: src/supertux/menu/keyboard_menu.cpp:84
+msgid "Right Command"
+msgstr "Ճիշտ հրաման"
+
+#: src/supertux/menu/keyboard_menu.cpp:86
+msgid "Left Command"
+msgstr "Ձախ հրաման"
+
+#: src/supertux/menu/keyboard_menu.cpp:100
+msgid "Press Key"
+msgstr "Սեղմեք ստեղնը"
+
+#: src/supertux/menu/language_menu.cpp:40
+msgid "Language"
+msgstr "Լեզու"
+
+#: src/supertux/menu/language_menu.cpp:42
+msgid "<auto-detect>"
+msgstr "<auto-detect>"
+
+#: src/supertux/menu/joystick_menu.cpp:55
+msgid "Manual Configuration"
+msgstr "Ձեռնարկի կոնֆիգուրացիա"
+
+#: src/supertux/menu/joystick_menu.cpp:57
+msgid ""
+"Use manual configuration instead of SDL2's automatic GameController support"
+msgstr "Օգտագործեք ձեռքով կոնֆիգուրացիա SDL2-ի ավտոմատ GameController-ի աջակցության փոխարեն"
+
+#: src/supertux/menu/joystick_menu.cpp:75
+msgid "Pause/Menu"
+msgstr "Դադար/Մենյու"
+
+#: src/supertux/menu/joystick_menu.cpp:91
+msgid "No Joysticks found"
+msgstr "Joysticks չեն գտնվել"
+
+#: src/supertux/menu/joystick_menu.cpp:92
+msgid "Scan for Joysticks"
+msgstr "Ջոյստիկների սկանավորում"
+
+#: src/supertux/menu/joystick_menu.cpp:125
+msgid "Press Button"
+msgstr "Սեղմեք կոճակը"
+
+#: src/supertux/menu/joystick_menu.cpp:162
+msgid "Axis "
+msgstr "Առանցք"
+
+#: src/supertux/menu/joystick_menu.cpp:165
+msgid "-"
+msgstr "-"
+
+#: src/supertux/menu/joystick_menu.cpp:167
+msgid "+"
+msgstr "+"
+
+#: src/supertux/menu/joystick_menu.cpp:174
+msgid "X2"
+msgstr "X2"
+
+#: src/supertux/menu/joystick_menu.cpp:176
+msgid "Y2"
+msgstr "Y2"
+
+#: src/supertux/menu/joystick_menu.cpp:189
+msgid "Hat Up"
+msgstr "Գլխարկ վեր"
+
+#: src/supertux/menu/joystick_menu.cpp:193
+msgid "Hat Down"
+msgstr "Գլխարկը ներքեւ"
+
+#: src/supertux/menu/joystick_menu.cpp:197
+msgid "Hat Left"
+msgstr "Ձախ գլխարկ"
+
+#: src/supertux/menu/joystick_menu.cpp:201
+msgid "Hat Right"
+msgstr "Գլխարկը ճիշտ է"
+
+#: src/supertux/menu/worldmap_menu.cpp:28
+msgid "Pause"
+msgstr "Դադար"
+
+#: src/supertux/menu/worldmap_menu.cpp:33
+msgid "Leave World"
+msgstr "Թողեք աշխարհը"
+
+#: src/supertux/menu/download_dialog.cpp:27
+msgid "Abort Download"
+msgstr "Դադարեցրեք ներբեռնումը"
+
+#: src/supertux/menu/download_dialog.cpp:42
+msgid "Error:\n"
+msgstr "Սխալ.\n"
+
+#: src/supertux/menu/download_dialog.cpp:96
+msgid "Close"
+msgstr "Փակել"
+
+#: src/supertux/menu/cheat_menu.cpp:33
+msgid "Bonus: Fire x 64"
+msgstr "Բոնուս՝ կրակ x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:34
+msgid "Bonus: Ice x 64"
+msgstr "Բոնուս՝ սառույց x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:35
+msgid "Bonus: Air x 64"
+msgstr "Բոնուս՝ Օդ x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:36
+msgid "Bonus: Earth x 64"
+msgstr "Բոնուս՝ Երկիր x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:37
+msgid "Bonus: Star"
+msgstr "Բոնուս. Աստղ"
+
+#: src/supertux/menu/cheat_menu.cpp:38
+msgid "Shrink Tux"
+msgstr "Շրինկ Թաքս"
+
+#: src/supertux/menu/cheat_menu.cpp:39
+msgid "Kill Tux"
+msgstr "Սպանիր Թաքսին"
+
+#: src/supertux/menu/particle_editor_menu.cpp:32
+msgid "Particle Editor"
+msgstr "Մասնիկների խմբագիր"
+
+#: src/supertux/menu/particle_editor_menu.cpp:36
+#: src/supertux/menu/editor_menu.cpp:45
+msgid "Return to Editor"
+msgstr "Վերադարձ դեպի Խմբագիր"
+
+#: src/supertux/menu/particle_editor_menu.cpp:37
+msgid "New Particle Config"
+msgstr "Նոր մասնիկների կազմաձևում"
+
+#: src/supertux/menu/particle_editor_menu.cpp:38
+msgid "Save Particle Config"
+msgstr "Պահպանել մասնիկների կազմաձևը"
+
+#: src/supertux/menu/particle_editor_menu.cpp:39
+msgid "Save Particle Config as..."
+msgstr "Պահպանել մասնիկների կազմաձևումը որպես..."
+
+#: src/supertux/menu/particle_editor_menu.cpp:40
+msgid "Load Another Particle Config"
+msgstr "Բեռնել մեկ այլ մասնիկի կազմաձև"
+
+#: src/supertux/menu/particle_editor_menu.cpp:44
+msgid "Open Particle Directory"
+msgstr "Բացեք Մասնիկների գրացուցակը"
+
+#: src/supertux/menu/particle_editor_menu.cpp:45
+#: src/supertux/menu/editor_menu.cpp:88
+msgid "Keyboard Shortcuts"
+msgstr "Ստեղնաշարի դյուրանցումներ"
+
+#: src/supertux/menu/particle_editor_menu.cpp:49
+msgid "Exit Particle Editor"
+msgstr "Դուրս գալ մասնիկների խմբագրիչից"
+
+#: src/supertux/menu/particle_editor_menu.cpp:120
+msgid ""
+"Keyboard Shortcuts:\n"
+"---------------------\n"
+"Esc = Open Menu\n"
+"Ctrl+S = Save\n"
+"Ctrl+Shift+S = Save as\n"
+"Ctrl+O = Open\n"
+"Ctrl+Z = Undo\n"
+"Ctrl+Y = Redo"
+msgstr "Ստեղնաշարի դյուրանցումներ.\n---------------------\nEsc = Բացել ընտրացանկը\nCtrl+S = Պահպանել\nCtrl+Shift+S = Պահել որպես\nCtrl+O = Բաց\nCtrl+Z = Հետարկել\nCtrl+Y = Կրկնել"
+
+#: src/supertux/menu/particle_editor_menu.cpp:121
+#: src/supertux/menu/editor_menu.cpp:176
+msgid "Got it!"
+msgstr "Հասկացա!"
+
+#: src/supertux/menu/editor_level_menu.cpp:31
+#: src/supertux/menu/editor_menu.cpp:86
+msgid "Worldmap Settings"
+msgstr "Համաշխարհային քարտեզի կարգավորումներ"
+
+#: src/supertux/menu/editor_level_menu.cpp:31
+#: src/supertux/menu/editor_menu.cpp:86
+msgid "Level Settings"
+msgstr "Մակարդակի կարգավորումներ"
+
+#: src/supertux/menu/editor_level_menu.cpp:34
+msgid "Author"
+msgstr "Հեղինակ"
+
+#: src/supertux/menu/editor_level_menu.cpp:35 data//credits.stxt:1166
+msgid "Contact"
+msgstr "Կապ"
+
+#: src/supertux/menu/editor_level_menu.cpp:36
+msgid "License"
+msgstr "Լիցենզիա"
+
+#: src/supertux/menu/editor_level_menu.cpp:37
+msgid "Level Note"
+msgstr "Մակարդակի նշում"
+
+#: src/supertux/menu/editor_level_menu.cpp:38
+msgid "Tileset"
+msgstr "Սալիկապատ"
+
+#: src/supertux/menu/editor_level_menu.cpp:41
+msgid "Target Time"
+msgstr "Թիրախային ժամանակ"
+
+#: src/supertux/menu/editor_level_menu.cpp:83
+msgid "Please enter a name for this level."
+msgstr "Խնդրում ենք մուտքագրել անուն այս մակարդակի համար:"
+
+#: src/supertux/menu/editor_level_menu.cpp:87
+msgid "Please enter a level author for this level."
+msgstr "Խնդրում ենք մուտքագրել մակարդակի հեղինակ այս մակարդակի համար:"
+
+#: src/supertux/menu/editor_level_menu.cpp:91
+msgid "Please enter a license for this level."
+msgstr "Խնդրում ենք մուտքագրել լիցենզիա այս մակարդակի համար:"
+
+#: src/supertux/menu/editor_menu.cpp:38
+msgid "tiny tile (4px)"
+msgstr "փոքրիկ սալիկ (4px)"
+
+#: src/supertux/menu/editor_menu.cpp:39
+msgid "small tile (8px)"
+msgstr "փոքր սալիկ (8px)"
+
+#: src/supertux/menu/editor_menu.cpp:40
+msgid "medium tile (16px)"
+msgstr "միջին սալիկ (16px)"
+
+#: src/supertux/menu/editor_menu.cpp:41
+msgid "big tile (32px)"
+msgstr "մեծ սալիկ (32px)"
+
+#: src/supertux/menu/editor_menu.cpp:46
+msgid "Save Worldmap"
+msgstr "Պահպանել աշխարհի քարտեզը"
+
+#: src/supertux/menu/editor_menu.cpp:46
+msgid "Save Level"
+msgstr "Պահպանել մակարդակը"
+
+#: src/supertux/menu/editor_menu.cpp:55
+msgid "Test Level"
+msgstr "Փորձարկման մակարդակ"
+
+#: src/supertux/menu/editor_menu.cpp:59
+msgid "Test Worldmap"
+msgstr "Փորձարկել աշխարհի քարտեզը"
+
+#: src/supertux/menu/editor_menu.cpp:62
+msgid "Share Level"
+msgstr "Համօգտագործման մակարդակ"
+
+#: src/supertux/menu/editor_menu.cpp:64
+msgid "Package Add-On"
+msgstr "Փաթեթի հավելում"
+
+#: src/supertux/menu/editor_menu.cpp:66
+msgid "Open Level Directory"
+msgstr "Բացեք մակարդակի գրացուցակը"
+
+#: src/supertux/menu/editor_menu.cpp:70
+msgid "Edit Another Level"
+msgstr "Խմբագրել մեկ այլ մակարդակ"
+
+#: src/supertux/menu/editor_menu.cpp:73
+msgid "Edit Another World"
+msgstr "Խմբագրել մեկ այլ աշխարհ"
+
+#: src/supertux/menu/editor_menu.cpp:77
+msgid "Grid Size"
+msgstr "Ցանցի չափը"
+
+#: src/supertux/menu/editor_menu.cpp:78
+msgid "Show Grid"
+msgstr "Ցուցադրել Ցանցը"
+
+#: src/supertux/menu/editor_menu.cpp:79
+msgid "Grid Snapping"
+msgstr "Ցանցի խզում"
+
+#: src/supertux/menu/editor_menu.cpp:80
+msgid "Render Background"
+msgstr "Պատկերացրեք ֆոնը"
+
+#: src/supertux/menu/editor_menu.cpp:81
+msgid "Render Light"
+msgstr "Ներկայացրեք լույսը"
+
+#: src/supertux/menu/editor_menu.cpp:82
+msgid "Autotile Mode"
+msgstr "Ավտոմատ ռեժիմ"
+
+#: src/supertux/menu/editor_menu.cpp:83
+msgid "Enable Autotile Help"
+msgstr "Միացնել ավտոմատ սալիկի օգնությունը"
+
+#: src/supertux/menu/editor_menu.cpp:84
+msgid "Autosave Frequency"
+msgstr "Ավտոպահպանման հաճախականություն"
+
+#: src/supertux/menu/editor_menu.cpp:91
+msgid "Exit Level Editor"
+msgstr "Ելք մակարդակի խմբագրիչից"
+
+#: src/supertux/menu/editor_menu.cpp:140
+msgid "Do you want to package this world as an add-on?"
+msgstr "Ցանկանու՞մ եք փաթեթավորել այս աշխարհը որպես հավելում:"
+
+#: src/supertux/menu/editor_menu.cpp:163
+msgid ""
+"We encourage you to share your levels in the SuperTux forum.\n"
+"To find your level, click the\n"
+"\"Open Level directory\" menu item.\n"
+"Do you want to go to the forum now?"
+msgstr "Մենք խրախուսում ենք ձեզ կիսել ձեր մակարդակները SuperTux ֆորումում:\nՁեր մակարդակը գտնելու համար սեղմեք\n«Բաց մակարդակի գրացուցակ» ցանկի տարր:\nՑանկանու՞մ եք հիմա գնալ ֆորում:"
+
+#: src/supertux/menu/editor_menu.cpp:175
+msgid ""
+"Keyboard Shortcuts:\n"
+"---------------------\n"
+"Esc = Open Menu\n"
+"Ctrl+S = Save\n"
+"Ctrl+T = Test\n"
+"Ctrl+Z = Undo\n"
+"Ctrl+Y = Redo\n"
+"F6 = Render Light\n"
+"F7 = Grid Snapping\n"
+"F8 = Show Grid"
+msgstr "Ստեղնաշարի դյուրանցումներ.\n---------------------\nEsc = Բացել ընտրացանկը\nCtrl+S = Պահպանել\nCtrl+T = Փորձարկում\nCtrl+Z = Հետարկել\nCtrl+Y = Կրկնել\nF6 = Render Light\nF7 = Ցանցի ճեղքում\nF8 = Ցուցադրել Ցանցը"
+
+#: src/supertux/menu/editor_delete_level_menu.cpp:53
+msgid "You cannot delete level that you are editing!"
+msgstr "Դուք չեք կարող ջնջել այն մակարդակը, որը դուք խմբագրում եք:"
+
+#: src/supertux/levelintro.cpp:136
+#, c-format
+msgid "contributed by {}"
+msgstr "նպաստել է {}"
+
+#: src/supertux/levelintro.cpp:169
+msgid "Badguys killed"
+msgstr "Սպանված չարագործները"
+
+#: src/supertux/levelintro.cpp:177
+msgid "Best time"
+msgstr "Լավագույն ժամանակ"
+
+#: src/supertux/levelintro.cpp:181
+msgid "Level target time"
+msgstr "Նպատակային մակարդակի ժամանակը"
+
+#: src/supertux/tile_set.cpp:118
+msgid "Others"
+msgstr "Մյուսները"
+
+#: src/supertux/moving_object.cpp:55
+msgid "Region"
+msgstr "Տարածաշրջան"
+
+#: src/supertux/main.cpp:563
+msgid ""
+"The UBports version is under heavy development!\n"
+"If you encounter issues, PLEASE contact the maintainter\n"
+"at https://github.com/supertux/supertux/issues or on the\n"
+"Open Store's Telegram at https://open-store.io/telegram"
+msgstr "CADENA SIN TRADUCIR\nUBports տարբերակը լուրջ մշակման փուլում է:\nԵթե ​​խնդիրներ եք ունենում, ԽՆԴՐՈՒՄ ԵՆՔ կապ հաստատել սպասարկողի հետ\nhttps://github.com/supertux/supertux/issues կամ կայքում\nԲացեք խանութի Telegram-ը https://open-store.io/telegram հասցեով"
+
+#: src/control/joystick_config.cpp:85
+msgid "Joystick Mappings"
+msgstr "Joystick քարտեզագրում"
+
+#: src/worldmap/worldmap_parser.cpp:167
+msgid "<no title>"
+msgstr "<no title>"
+
+#: src/editor/node_marker.cpp:122
+msgid "Path Node"
+msgstr "Ուղու հանգույց"
+
+#: src/editor/node_marker.cpp:123
+msgid "Press CTRL to move Bezier handles"
+msgstr "Սեղմեք CTRL՝ Bezier բռնակները տեղափոխելու համար"
+
+#: src/editor/node_marker.cpp:127
+msgid "Easing"
+msgstr "Թուլացում"
+
+#: src/editor/object_settings.cpp:119
+msgid "up"
+msgstr "դեպի վեր"
+
+#: src/editor/object_settings.cpp:119
+msgid "down"
+msgstr "ներքեւ"
+
+#: src/editor/object_settings.cpp:131
+msgid "West"
+msgstr "Արեւմուտք"
+
+#: src/editor/object_settings.cpp:131
+msgid "East"
+msgstr "Արևելք"
+
+#: src/editor/object_settings.cpp:131
+msgid "North"
+msgstr "Հյուսիսային"
+
+#: src/editor/object_settings.cpp:131
+msgid "South"
+msgstr "Հարավ"
+
+#: src/editor/object_settings.cpp:144
+msgid "One shot"
+msgstr "Մեկ կրակոց"
+
+#: src/editor/object_settings.cpp:144
+msgid "Ping-pong"
+msgstr "Սեղանի թենիս"
+
+#: src/editor/object_settings.cpp:144
+msgid "Circular"
+msgstr "Շրջանաձև"
+
+#: src/editor/object_settings.cpp:144
+msgid "Unordered"
+msgstr "Չպատվիրված"
+
+#: src/editor/object_option.cpp:85
+msgid "true"
+msgstr "ճիշտ"
+
+#: src/editor/object_option.cpp:85
+msgid "false"
+msgstr "սխալ"
+
+#: src/editor/object_option.cpp:271 src/editor/object_option.cpp:320
+msgid "invalid"
+msgstr "անվավեր"
+
+#: src/editor/object_option.cpp:580
+msgid "Remove"
+msgstr "Հեռացնել"
+
+#: src/editor/object_option.cpp:597
+msgid "Test from here"
+msgstr "Փորձարկում այստեղից"
+
+#: src/editor/object_option.cpp:614
+msgid "Open Particle Editor"
+msgstr "Բացեք Մասնիկների խմբագրիչը"
+
+#: src/editor/worldmap_objects.hpp:56 src/editor/worldmap_objects.cpp:127
+msgid "Level"
+msgstr "Փուլ"
+
+#: src/editor/worldmap_objects.hpp:79
+msgid "Teleporter"
+msgstr "Հեռահաղորդավար"
+
+#: src/editor/worldmap_objects.hpp:119
+msgid "Sprite Change"
+msgstr "Փոփոխություն ուրվական"
+
+#: src/editor/worldmap_objects.hpp:140
+msgid "Special tile"
+msgstr "Հատուկ սալիկ"
+
+#: src/editor/particle_editor.cpp:126
+msgid "Max amount"
+msgstr "Առավելագույն գումարը"
+
+#: src/editor/particle_editor.cpp:142
+msgid "Spawn anywhere"
+msgstr "Ձվադրել ցանկացած վայրում"
+
+#: src/editor/particle_editor.cpp:143
+msgid "Life duration"
+msgstr "Կյանքի տևողությունը"
+
+#: src/editor/particle_editor.cpp:148
+msgid "Birth duration"
+msgstr "Ծննդյան տևողությունը"
+
+#: src/editor/particle_editor.cpp:153
+msgid "Death duration"
+msgstr "Մահվան տևողությունը"
+
+#: src/editor/particle_editor.cpp:160
+msgid "Grow"
+msgstr "Աճել"
+
+#: src/editor/particle_editor.cpp:175
+msgid "Horizontal speed"
+msgstr "Հորիզոնական արագություն"
+
+#: src/editor/particle_editor.cpp:180
+msgid "Vertical speed"
+msgstr "Ուղղահայաց արագություն"
+
+#: src/editor/particle_editor.cpp:185
+msgid "Horizontal acceleration"
+msgstr "Հորիզոնական արագացում"
+
+#: src/editor/particle_editor.cpp:186
+msgid "Vertical acceleration"
+msgstr "Ուղղահայաց արագացում"
+
+#: src/editor/particle_editor.cpp:187
+msgid "Horizontal friction"
+msgstr "Հորիզոնական շփում"
+
+#: src/editor/particle_editor.cpp:188
+msgid "Vertical friction"
+msgstr "Ուղղահայաց շփում"
+
+#: src/editor/particle_editor.cpp:190
+msgid "Initial rotation"
+msgstr "Նախնական ռոտացիա"
+
+#: src/editor/particle_editor.cpp:201
+msgid "Rotation friction/decceleration"
+msgstr "Պտտման շփում/դանդաղացում"
+
+#: src/editor/particle_editor.cpp:211
+msgid "Destroy"
+msgstr "Ոչնչացնել"
+
+#: src/editor/particle_editor.cpp:215
+msgid "Stick to surface"
+msgstr "Կպչեք մակերեսին"
+
+#: src/editor/particle_editor.cpp:216
+msgid "Stick and stay"
+msgstr "Կպչեք և մնացեք"
+
+#: src/editor/particle_editor.cpp:217
+msgid "No collision"
+msgstr "Ոչ մի բախում"
+
+#: src/editor/particle_editor.cpp:222
+msgid "Always destroy"
+msgstr "Միշտ ոչնչացնել"
+
+#: src/editor/particle_editor.cpp:226
+msgid "Offscreen mode"
+msgstr "Էկրանից դուրս ռեժիմ"
+
+#: src/editor/particle_editor.cpp:765
+msgid ""
+"This particle configuration contains unsaved changes,\n"
+"do you want to save?"
+msgstr "Այս մասնիկների կոնֆիգուրացիան պարունակում է չպահված փոփոխություններ,\nուզում եք խնայել"
+
+#: src/editor/particle_editor.cpp:773
+msgid "Save as"
+msgstr "Պահպանել որպես"
+
+#: src/editor/editor.cpp:566
+msgid ""
+"Don't forget that your levels and assets\n"
+"aren't saved between sessions!\n"
+"If you want to keep your levels, download them\n"
+"from the \"Manage Assets\" menu."
+msgstr "Մի մոռացեք, որ ձեր մակարդակներն ու ակտիվները\nչեն պահվում նիստերի միջև:\nԵթե ​​ցանկանում եք պահպանել ձեր մակարդակները, ներբեռնեք դրանք\n«Կառավարել ակտիվները» ցանկից:"
+
+#: src/editor/editor.cpp:582
+msgid "This level contains unsaved changes, do you want to save?"
+msgstr "Այս մակարդակը պարունակում է չպահված փոփոխություններ: Ցանկանու՞մ եք պահպանել:"
+
+#: src/editor/editor.cpp:622
+msgid ""
+"Some obsolete add-ons are still active\n"
+"and might cause collisions with default Super Tux structure.\n"
+"You can still enable these add-ons in the menu.\n"
+"Disabling these add-ons will not delete your game progress."
+msgstr "Որոշ հնացած հավելումներ դեռ ակտիվ են\nև կարող է առաջացնել բախումներ լռելյայն Super Tux կառուցվածքի հետ:\nԴուք դեռ կարող եք ակտիվացնել այս հավելումները ընտրացանկում:\nԱյս հավելումների անջատումը չի ջնջի ձեր խաղի առաջընթացը:"
+
+#: src/editor/editor.cpp:625
+msgid "Disable add-ons"
+msgstr "Անջատել հավելումները"
+
+#: src/editor/editor.cpp:630
+msgid "Ignore (not advised)"
+msgstr "Անտեսել (խորհուրդ չի տրվում)"
+
+#: src/editor/editor.cpp:634
+msgid "Leave editor"
+msgstr "Հեռանալ խմբագրից"
+
+#: src/editor/editor.cpp:853
+msgid ""
+"Couldn't find a \"main\" sector.\n"
+"Please change the name of the sector where\n"
+"you'd like the player to start to \"main\""
+msgstr "Չհաջողվեց գտնել «հիմնական» հատված:\nԽնդրում ենք փոխել այն հատվածի անվանումը, որտեղ\nդուք կցանկանայիք, որ խաղացողը սկսի «հիմնական»"
+
+#: src/editor/editor.cpp:857
+msgid ""
+"Couldn't find a \"main\" spawnpoint.\n"
+" Please change the name of the spawnpoint where\n"
+"you'd like the player to start to \"main\""
+msgstr "Չհաջողվեց գտնել «հիմնական» ստեղծման կետ:\n Խնդրում ենք փոխեք այն կետի անվանումը, որտեղ\nդուք կցանկանայիք, որ խաղացողը սկսի «հիմնական»"
+
+#: src/editor/worldmap_objects.cpp:128
+msgid "Outro script"
+msgstr "Outro սցենար"
+
+#: src/editor/worldmap_objects.cpp:129
+msgid "Auto play"
+msgstr "Ավտոմատ միացում"
+
+#: src/editor/worldmap_objects.cpp:131
+msgid "Title colour"
+msgstr "Վերնագրի գույնը"
+
+#: src/editor/worldmap_objects.cpp:173
+msgid "Automatic"
+msgstr "Ավտոմատ"
+
+#: src/editor/worldmap_objects.cpp:175
+msgid "Target worldmap"
+msgstr "Թիրախային աշխարհի քարտեզ"
+
+#: src/editor/worldmap_objects.cpp:238
+msgid "Stay action"
+msgstr "Մնացեք գործողություն"
+
+#: src/editor/worldmap_objects.cpp:239
+msgid "Initial stay action"
+msgstr "Նախնական մնալու գործողություն"
+
+#: src/editor/worldmap_objects.cpp:240
+msgid "Stay group"
+msgstr "Մնացեք խմբում"
+
+#: src/editor/worldmap_objects.cpp:241
+msgid "Change on touch"
+msgstr "Փոխել հպումով"
+
+#: src/editor/worldmap_objects.cpp:271
+msgid "Show message"
+msgstr "Ցույց տալ հաղորդագրությունը"
+
+#: src/editor/worldmap_objects.cpp:273
+msgid "Invisible"
+msgstr "Անտեսանելի"
+
+#: src/editor/overlay_widget.cpp:1297
+msgid "Autotile mode is on"
+msgstr "Ավտոմատ ռեժիմը միացված է"
+
+#: src/editor/overlay_widget.cpp:1299
+msgid "Hold Ctrl to enable autotile"
+msgstr "Պահեք Ctrl-ը` ավտոմատ ռեժիմը միացնելու համար"
+
+#: src/editor/overlay_widget.cpp:1303
+msgid "Autotile erasing mode is on"
+msgstr "Ավտոմատ ջնջման ռեժիմը միացված է"
+
+#: src/editor/overlay_widget.cpp:1305
+msgid "Selected tile isn't autotileable"
+msgstr "Ընտրված սալիկն ավտոմատ կերպով կառավարելի չէ"
+
+#: src/editor/overlay_widget.cpp:1308
+msgid "Hold Ctrl to enable autotile erasing"
+msgstr "Պահեք Ctrl՝ ավտոմատ ջնջումը միացնելու համար"
+
+#: data//credits.stxt:25
+msgid "Current SuperTux Team"
+msgstr "Ներկայիս SuperTux թիմը"
+
+#: data//credits.stxt:30
+msgid "Programming, project lead ad interim"
+msgstr "Ծրագրավորում, ծրագրի առաջատար գովազդի միջանկյալ"
+
+#: data//credits.stxt:35
+msgid "Graphics, Level Design, Story"
+msgstr "Գրաֆիկա, մակարդակի դիզայն, պատմություն"
+
+#: data//credits.stxt:40
+msgid "Level Design, Story, Optimisation, Coordination"
+msgstr "Մակարդակի ձևավորում, պատմություն, օպտիմիզացում, համակարգում"
+
+#: data//credits.stxt:45 data//credits.stxt:105 data//credits.stxt:191
+#: data//credits.stxt:519
+msgid "Graphics"
+msgstr "Գրաֆիկա"
+
+#: data//credits.stxt:50 data//credits.stxt:87 data//credits.stxt:93
+msgid "Graphics, Programming, Level Design"
+msgstr "Գրաֆիկա, ծրագրավորում, մակարդակի դիզայն"
+
+#: data//credits.stxt:55
+msgid "Features and Programming"
+msgstr "Հատկություններ և ծրագրավորում"
+
+#: data//credits.stxt:60
+msgid "Programming, Level Updates"
+msgstr "Ծրագրավորում, մակարդակի թարմացումներ"
+
+#: data//credits.stxt:65
+msgid "Graphics, Programming"
+msgstr "Գրաֆիկա, ծրագրավորում"
+
+#: data//credits.stxt:70 data//credits.stxt:135 data//credits.stxt:140
+#: data//credits.stxt:145 data//credits.stxt:150 data//credits.stxt:165
+#: data//credits.stxt:170 data//credits.stxt:515 data//credits.stxt:527
+msgid "Programming"
+msgstr "Ծրագրավորում"
+
+#: data//credits.stxt:76
+msgid "Original Developers"
+msgstr "Բնօրինակ մշակողներ"
+
+#: data//credits.stxt:81
+msgid "Original Developer"
+msgstr "Բնօրինակ մշակող"
+
+#: data//credits.stxt:99
+msgid "Music, Level Design"
+msgstr "Երաժշտություն, մակարդակի դիզայն"
+
+#: data//credits.stxt:111
+msgid "Programming, Graphics, Level Design"
+msgstr "Ծրագրավորում, գրաֆիկա, մակարդակի դիզայն"
+
+#: data//credits.stxt:117
+msgid "Programming, Level Design"
+msgstr "Ծրագրավորում, մակարդակի դիզայն"
+
+#: data//credits.stxt:123
+msgid "Graphics, Story"
+msgstr "Գրաֆիկա, Պատմություն"
+
+#: data//credits.stxt:129
+msgid "Programming, Documentation"
+msgstr "Ծրագրավորում, Փաստաթղթավորում"
+
+#: data//credits.stxt:155
+msgid "Coordination"
+msgstr "Համակարգում"
+
+#: data//credits.stxt:160
+msgid "Programming, \"Flexlay\" Level editor"
+msgstr "Ծրագրավորում, «Flexlay» մակարդակի խմբագիր"
+
+#: data//credits.stxt:175
+msgid "Windows build fixes"
+msgstr "Windows-Կառուցեք ուղղումներ"
+
+#: data//credits.stxt:180
+msgid "Packaging, Nightly builds"
+msgstr "Փաթեթավորում, Գիշերային կառուցումներ"
+
+#: data//credits.stxt:185
+msgid "Translation Guru (and many details anyone else could have done)"
+msgstr "Թարգմանության գուրու (և շատ մանրամասներ, որոնք որևէ մեկը կարող էր անել)"
+
+#: data//credits.stxt:251
+msgid "Level Design"
+msgstr "Մակարդակի դիզայն"
+
+#: data//credits.stxt:431
+msgid "Additional contributors"
+msgstr "Լրացուցիչ ներդրողներ"
+
+#: data//credits.stxt:436
+msgid "Bug fixes"
+msgstr "Սխալների շտկում"
+
+#: data//credits.stxt:440
+msgid "Scripting functions, Level fixes"
+msgstr "Սցենարավորման գործառույթներ, մակարդակի շտկում"
+
+#: data//credits.stxt:444
+msgid "Code quality fixes"
+msgstr "Կոդի որակի շտկում"
+
+#: data//credits.stxt:448 data//credits.stxt:452 data//credits.stxt:456
+#: data//credits.stxt:483
+msgid "Various contributions"
+msgstr "Տարբեր ներդրումներ"
+
+#: data//credits.stxt:460
+msgid "Build issue fix"
+msgstr "Կառուցման խնդրի շտկում"
+
+#: data//credits.stxt:464 data//credits.stxt:468
+msgid "Code contributions"
+msgstr "Կոդի ներդրում"
+
+#: data//credits.stxt:471
+msgid "Code contribution, AppData file"
+msgstr "Կոդի ներդրում, AppData ֆայլ"
+
+#: data//credits.stxt:475
+msgid "Bug fix"
+msgstr "Սխալների ուղղում"
+
+#: data//credits.stxt:479
+msgid "Menu reorganization"
+msgstr "Մենյուի վերակազմավորում"
+
+#: data//credits.stxt:487
+msgid "Fixing tile bugs"
+msgstr "Սալիկների սխալների շտկում"
+
+#: data//credits.stxt:491
+msgid "Build error fix"
+msgstr "Կառուցման սխալի ուղղում"
+
+#: data//credits.stxt:495
+msgid "Scripting function fix"
+msgstr "Սկրիպտավորման ֆունկցիայի շտկում"
+
+#: data//credits.stxt:499
+msgid "New features and notable updates"
+msgstr "Նոր առանձնահատկություններ և ուշագրավ թարմացումներ"
+
+#: data//credits.stxt:503
+msgid "Support for \"glbinding\" as optional OpenGL binding"
+msgstr "Աջակցություն «glbinding»-ին որպես ընտրովի OpenGL պարտադիր"
+
+#: data//credits.stxt:507
+msgid "New menu code"
+msgstr "Մենյուի նոր կոդ"
+
+#: data//credits.stxt:511
+msgid "Big Tux Walking Sprites improvements"
+msgstr "Big Tux ուրվական քայլելու բարելավումներ"
+
+#: data//credits.stxt:523 data//credits.stxt:531
+msgid "Contrib Programming"
+msgstr "Ներդրեք ծրագրավորում"
+
+#: data//credits.stxt:535
+msgid "Programming, Previous Maintainer"
+msgstr "Ծրագրավորում, Նախորդ սպասարկող"
+
+#: data//credits.stxt:539
+msgid "Various Contributions"
+msgstr "Տարբեր ներդրումներ"
+
+#: data//credits.stxt:543
+msgid "Minor features and programming"
+msgstr "Փոքր առանձնահատկություններ և ծրագրավորում"
+
+#: data//credits.stxt:547 data//credits.stxt:551 data//credits.stxt:555
+#: data//credits.stxt:559 data//credits.stxt:563 data//credits.stxt:567
+#: data//credits.stxt:571 data//credits.stxt:575 data//credits.stxt:579
+#: data//credits.stxt:583 data//credits.stxt:587 data//credits.stxt:591
+msgid "Contributions"
+msgstr "Ներդրումներ"
+
+#: data//credits.stxt:597
+msgid "Localization"
+msgstr "Տեղայնացում"
+
+#: data//credits.stxt:1144
+msgid " Special Thanks to"
+msgstr "Հատուկ շնորհակալություն"
+
+#: data//credits.stxt:1149
+msgid "Creator of Tux, the Linux penguin"
+msgstr "Tux-ի ստեղծողը՝ Linux-ի պինգվինը"
+
+#: data//credits.stxt:1153
+msgid "SDL, OpenAL and OpenGL"
+msgstr "SDL, OpenAL և OpenGL"
+
+#: data//credits.stxt:1154
+msgid ""
+"For making such a great gaming experience\n"
+"        possible on Linux"
+msgstr "Նման հիանալի խաղային փորձ ստեղծելու համար\n      հնարավոր է Linux-ում"
+
+#: data//credits.stxt:1159
+msgid "and you, the player"
+msgstr "իսկ դու՝ խաղացող"
+
+#: data//credits.stxt:1160
+msgid "for giving this game a chance and playing it"
+msgstr "այս խաղին հնարավորություն տալու և այն խաղալու համար"
+
+#: data//credits.stxt:1171
+msgid "Visit our webpage at"
+msgstr "Այցելեք մեր վեբ էջը"
+
+#: data//credits.stxt:1180
+msgid "Or visit us directly at IRC:"
+msgstr "Կամ այցելեք մեզ անմիջապես IRC-ում."
+
+#: data//credits.stxt:1184
+msgid "#supertux at web.libera.chat"
+msgstr "#supertux web.libera.chat-ում"
+
+#: data//credits.stxt:1189
+msgid "Or at our Forum:"
+msgstr "Կամ մեր ֆորումում՝"
+
+#: data//credits.stxt:1198
+msgid "Comments, ideas and suggestions"
+msgstr "Մեկնաբանություններ, գաղափարներ և առաջարկություններ"
+
+#: data//credits.stxt:1202
+msgid "go to our mailing list"
+msgstr "գնացեք մեր փոստային ցուցակը"
+
+#. l10n: typo contact
+#: data//credits.stxt:1212
+msgid "Typographical errors can be"
+msgstr "Տպագրական սխալները կարող են լինել"
+
+#. l10n: typo contact
+#: data//credits.stxt:1217
+msgid "reported to"
+msgstr "հաղորդում է"
+
+#. l10n: typo contact, see <https://github.com/SuperTux/supertux/issues/611>
+#: data//credits.stxt:1222
+msgid "supertux-devel@lists.lethargik.org"
+msgstr "supertux-devel@lists.lethargik.org"
+
+#: data//credits.stxt:1229
+msgid "Want to help…"
+msgstr "Ցանկանում եք օգնել…"
+
+#: data//credits.stxt:1234
+msgid "…with localization?"
+msgstr "…տեղայնացմամբ?"
+
+#: data//credits.stxt:1244
+msgid "…with something else?"
+msgstr "…այլ բանի հետ?"
+
+#: data//credits.stxt:1255
+msgid "Thank you for"
+msgstr "Շնորհակալություն"
+
+#: data//credits.stxt:1259
+msgid "playing"
+msgstr "խաղում"
+
+#: data//credits.stxt:1269
+msgid "Penny awaits you in warmer temperatures!"
+msgstr "Penny-ը սպասում է ձեզ ավելի տաք ջերմաստիճանի պայմաններում:"
+
+#: data//images/engine/editor/objects.stoi:162
+msgid "Bosses"
+msgstr "Բոսեր"
+
+#: data//images/engine/editor/objects.stoi:173
+msgid "Projectiles"
+msgstr "Արկետներ"
+
+#: data//images/engine/editor/objects.stoi:187
+msgid "Environment"
+msgstr "Շրջակա միջավայր"
+
+#: data//images/ice_world.strf:10 data//images/tiles.strf:28
+#: data//images/worldmap.strf:41
+msgid "Snow"
+msgstr "Ձյուն"
+
+#: data//images/ice_world.strf:80
+msgid "Ice Cave & Crystal"
+msgstr "Սառցե քարանձավ և բյուրեղյա"
+
+#: data//images/ice_world.strf:127
+msgid "Embellishments"
+msgstr "Զարդանախշեր"
+
+#: data//images/ice_world.strf:211 data//images/tiles.strf:386
+#: data//images/worldmap.strf:67
+msgid "Forest"
+msgstr "Անտառ"
+
+#: data//images/ice_world.strf:320
+msgid "Underground Forest"
+msgstr "Ստորգետնյա անտառ"
+
+#: data//images/ice_world.strf:375
+msgid "Trees & Bushes"
+msgstr "Ծառեր և թփեր"
+
+#: data//images/ice_world.strf:406
+msgid "Seasonal"
+msgstr "Սեզոնային"
+
+#: data//images/ice_world.strf:496
+msgid "Structure"
+msgstr "Կառուցվածք"
+
+#: data//images/ice_world.strf:557
+msgid "Pathing"
+msgstr "Ճանապարհ"
+
+#: data//images/ice_world.strf:718
+msgid "Water"
+msgstr "Ջուր"
+
+#: data//images/tiles.strf:176
+msgid "Snow Background"
+msgstr "Ձյան ֆոն"
+
+#: data//images/tiles.strf:231
+msgid "Snow Mountain"
+msgstr "Ձյուն լեռ"
+
+#: data//images/tiles.strf:305
+msgid "Crystal"
+msgstr "Բյուրեղյա"
+
+#: data//images/tiles.strf:532
+msgid "Forest Background"
+msgstr "Անտառային ֆոն"
+
+#: data//images/tiles.strf:663
+msgid "Block + Bonus"
+msgstr "Բլոկ + բոնուս"
+
+#: data//images/tiles.strf:715
+msgid "Pole + Signs"
+msgstr "Բևեռ + նշաններ"
+
+#: data//images/tiles.strf:760
+msgid "Liquid"
+msgstr "Հեղուկ"
+
+#: data//images/tiles.strf:793
+msgid "Castle"
+msgstr "Ամրոց"
+
+#: data//images/tiles.strf:930 data//images/worldmap.strf:199
+msgid "Halloween"
+msgstr "Հելոուին"
+
+#: data//images/tiles.strf:958
+msgid "Industrial"
+msgstr "Արդյունաբերական"
+
+#: data//images/tiles.strf:973
+msgid "Unisolid + Lightmap"
+msgstr "Միատարր + Լույսի քարտեզ"
+
+#: data//images/tiles.strf:1000
+msgid "Miscellaneous"
+msgstr "Տարբեր"
+
+#: data//images/tiles.strf:1043
+msgid "Retro Snow"
+msgstr "Ռետրո ձյուն"
+
+#: data//images/worldmap.strf:24
+msgid "Water paths"
+msgstr "Ջրի ուղիներ"
+
+#: data//images/worldmap.strf:32
+msgid "Castle paths"
+msgstr "Ամրոցի ուղիներ"
+
+#: data//images/worldmap.strf:135
+msgid "Darker Forest"
+msgstr "Մութ Անտառ"

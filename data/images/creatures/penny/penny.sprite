@@ -1,0 +1,135 @@
+(supertux-sprite
+ (action
+  (name "stand-right")
+  (fps 10.0)
+  (hitbox 16 14 32 64)
+  (images "stand-0.png"
+		  "stand-1.png"
+		  "stand-2.png"
+		  "stand-3.png"
+		  "stand-4.png"
+		  "stand-3.png"
+		  "stand-2.png"
+		  "stand-1.png"
+		  "stand-0.png"
+		  "stand-5.png"
+		  "stand-0.png"
+		  "stand-1.png"
+		  "stand-2.png"
+		  "stand-3.png"
+		  "stand-4.png"
+		  "stand-3.png"
+		  "stand-2.png"
+		  "stand-1.png"
+		  "stand-0.png"
+		  "stand-5.png"
+		  "stand-0.png"
+		  "stand-1.png"
+		  "stand-2.png"
+		  "stand-3.png"
+		  "stand-4.png"
+		  "stand-3.png"
+		  "stand-2.png"
+		  "stand-1.png"
+		  "stand-0.png"
+		  "stand-6.png"
+		  "stand-7.png"
+		  "stand-8.png"
+		  "stand-2.png"
+		  "stand-3.png"
+		  "stand-4.png"
+		  "stand-3.png"
+		  "stand-2.png"
+		  "stand-1.png"
+		  "stand-0.png"
+		  "stand-5.png")
+ )
+
+ (action
+  (name "stand-left")
+  (fps 10.0)
+  (hitbox 16 14 32 64)
+  (mirror-action "stand-right")
+ )
+
+
+; Cutscenes And Extras
+
+ (action
+  (name "credits-right")
+  (fps 10.0)
+  (hitbox 16 14 32 64)
+  (images "credits-0.png"
+		  "credits-1.png"
+		  "credits-2.png"
+		  "credits-3.png"
+		  "credits-2.png"
+		  "credits-1.png"
+		  "credits-0.png"
+		  "credits-4.png"
+		  "credits-0.png"
+		  "credits-1.png"
+		  "credits-2.png"
+		  "credits-3.png"
+		  "credits-2.png"
+		  "credits-1.png"
+		  "credits-0.png"
+		  "credits-4.png"
+		  "credits-0.png"
+		  "credits-1.png"
+		  "credits-2.png"
+		  "credits-3.png"
+		  "credits-2.png"
+		  "credits-1.png"
+		  "credits-0.png"
+		  "credits-4.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-5.png"
+		  "credits-6.png"
+		  "credits-7.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-0.png"
+		  "credits-5.png"
+		  "credits-6.png"
+		  "credits-7.png"
+		  )
+ )
+ (action
+  (name "credits-left")
+  (fps 10.0)
+  (hitbox 16 14 32 64)
+  (mirror-action "credits-right")
+ )
+)

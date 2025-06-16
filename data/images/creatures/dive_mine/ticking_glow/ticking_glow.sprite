@@ -1,0 +1,19 @@
+(supertux-sprite
+    (action
+      (name "idle")
+      (fps 15)
+      (images "ticking_glow-4.png")
+      (hitbox 48 48 0 0)
+    )
+    
+    (action
+      (name "ticking")
+      (fps 15)
+      (images "ticking_glow-0.png"
+              "ticking_glow-1.png"
+              "ticking_glow-2.png"
+              "ticking_glow-3.png"
+              "ticking_glow-4.png")
+      (hitbox 48 48 0 0)
+    )
+)

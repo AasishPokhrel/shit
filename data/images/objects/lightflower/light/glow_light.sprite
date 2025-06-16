@@ -1,0 +1,52 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 357 384 384 384)
+	(fps 12)
+    (images "lightflower_light0.png"
+			"lightflower_light1.png"
+			"lightflower_light2.png"
+			"lightflower_light3.png"
+			"lightflower_light4.png"
+			"lightflower_light5.png"
+			"lightflower_light6.png"
+			"lightflower_light7.png"
+			"lightflower_light8.png"
+			"lightflower_light9.png"
+			"lightflower_light10.png"
+			"lightflower_light9.png"
+			"lightflower_light8.png"
+			"lightflower_light7.png"
+			"lightflower_light6.png"
+			"lightflower_light5.png"
+			"lightflower_light4.png"
+			"lightflower_light3.png"
+			"lightflower_light2.png"
+			"lightflower_light1.png")
+  )
+  (action
+    (name "greyscale")
+    (hitbox 357 384 384 384)
+	(fps 12)
+    (images "greyscale/lightflower_light0_greyscale.png"
+			"greyscale/lightflower_light1_greyscale.png"
+			"greyscale/lightflower_light2_greyscale.png"
+			"greyscale/lightflower_light3_greyscale.png"
+			"greyscale/lightflower_light4_greyscale.png"
+			"greyscale/lightflower_light5_greyscale.png"
+			"greyscale/lightflower_light6_greyscale.png"
+			"greyscale/lightflower_light7_greyscale.png"
+			"greyscale/lightflower_light8_greyscale.png"
+			"greyscale/lightflower_light9_greyscale.png"
+			"greyscale/lightflower_light10_greyscale.png"
+			"greyscale/lightflower_light9_greyscale.png"
+			"greyscale/lightflower_light8_greyscale.png"
+			"greyscale/lightflower_light7_greyscale.png"
+			"greyscale/lightflower_light6_greyscale.png"
+			"greyscale/lightflower_light5_greyscale.png"
+			"greyscale/lightflower_light4_greyscale.png"
+			"greyscale/lightflower_light3_greyscale.png"
+			"greyscale/lightflower_light2_greyscale.png"
+			"greyscale/lightflower_light1_greyscale.png")
+  )
+)

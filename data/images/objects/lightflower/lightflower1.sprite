@@ -1,0 +1,27 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 0 0 20 96)
+	(fps 12)
+    (images "lightflower1-0.png"
+			"lightflower1-1.png"
+			"lightflower1-2.png"
+			"lightflower1-3.png"
+			"lightflower1-4.png"
+			"lightflower1-5.png"
+			"lightflower1-6.png"
+			"lightflower1-7.png"
+			"lightflower1-8.png"
+			"lightflower1-9.png"
+			"lightflower1-10.png"
+			"lightflower1-9.png"
+			"lightflower1-8.png"
+			"lightflower1-7.png"
+			"lightflower1-6.png"
+			"lightflower1-5.png"
+			"lightflower1-4.png"
+			"lightflower1-3.png"
+			"lightflower1-2.png"
+			"lightflower1-1.png")
+  )
+)

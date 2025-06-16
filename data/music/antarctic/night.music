@@ -1,0 +1,5 @@
+(supertux-music
+  (file "night.ogg")
+  (loop-begin 2.912)
+  (loop-at 72.727)
+)

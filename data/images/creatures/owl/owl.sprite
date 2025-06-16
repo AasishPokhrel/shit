@@ -1,0 +1,63 @@
+(supertux-sprite
+ (action
+  (name "carry-left")
+  (fps 15)
+  (hitbox 24 15 45 44)
+  (images "carry-0.png"
+          "carry-1.png"
+          "carry-2.png"
+          "carry-3.png"
+          "carry-4.png"
+          "carry-5.png"
+          "carry-6.png"
+          "carry-7.png"
+          "carry-8.png"
+  		    "carry-9.png"))
+
+ (action
+  (name "carry-right")
+  (fps 15)
+  (hitbox 31 15 45 44)
+  (mirror-action "carry-left"))
+
+ (action
+  (name "fly-left")
+  (fps 15)
+  (hitbox 24 15 45 44)
+  (images "fly-0.png"
+          "fly-1.png"
+          "fly-2.png"
+          "fly-3.png"
+          "fly-4.png"
+          "fly-5.png"
+          "fly-6.png"
+          "fly-7.png"
+          "fly-8.png"
+  		    "fly-9.png"))
+
+ (action
+  (name "fly-right")
+  (fps 15)
+  (hitbox 31 15 45 44)
+  (mirror-action "fly-left"))
+  
+ (action
+  (name "iced-left")
+  (hitbox 20 15 64 64)
+  (images "carry-8.png"))
+
+ (action
+  (name "iced-right")
+  (hitbox 20 15 64 64)
+  (mirror-action "iced-left"))
+
+ (action
+  (hitbox 24 15 45 44)
+  (name "burning-left")
+  (images "carry-8.png"))
+
+ (action
+  (hitbox 31 15 45 44)
+  (name "burning-right")
+  (mirror-action "burning-left"))
+)

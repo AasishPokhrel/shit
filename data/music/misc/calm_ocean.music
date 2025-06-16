@@ -1,0 +1,5 @@
+(supertux-music
+  (file "calm_ocean.ogg")
+  (loop-begin 16)
+  (loop-at    -1)
+)

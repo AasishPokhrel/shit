@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# IAN RODRÍGUEZ Lorenzo, 2022
+# Karl Ove Hufthammer <karl@huftis.org>, 2006-2007,2013-2016,2018-2020
+# Karl Ove Hufthammer <karl@huftis.org>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2013-08-10 23:00+0000\n"
+"Last-Translator: IAN RODRÍGUEZ Lorenzo, 2022\n"
+"Language-Team: Norwegian Nynorsk (http://app.transifex.com/arctic-games/supertux/language/nn/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/levels/world2/ancient_ruins.stl:3
+msgid "Ancient Ruins"
+msgstr "Eldgamle ruinar"
+
+#: data/levels/world2/ancient_ruins.stl:1463
+#: data/levels/world2/ancient_ruins.stl:1471
+#: data/levels/world2/bouncy_coils.stl:380
+#: data/levels/world2/bouncy_coils.stl:388
+#: data/levels/world2/bye_bye_forest.stl:1607
+#: data/levels/world2/crumbling_path.stl:278
+#: data/levels/world2/crumbling_path.stl:1651
+#: data/levels/world2/going_underground.stl:246
+#: data/levels/world2/going_underground.stl:1249
+#: data/levels/world2/mouldy_grotto.stl:559
+#: data/levels/world2/penguin_grow_trees.stl:459
+#: data/levels/world2/penguin_grow_trees.stl:467
+#: data/levels/world2/through_dark.stl:361
+#: data/levels/world2/tux_builder.stl:384
+#: data/levels/world2/wooden_roots.stl:285
+#: data/levels/world2/worldmap.stwm:223
+msgid "You found a secret area!"
+msgstr "Du fann ein hemmeleg plass!"
+
+#: data/levels/world2/beside_bushes.stl:3
+msgid "Beside the Bushes"
+msgstr "I busk og kratt"
+
+#: data/levels/world2/bouncy_coils.stl:3
+msgid "Bouncy Coils"
+msgstr "Kveilkrattet"
+
+#: data/levels/world2/bye_bye_forest.stl:3
+msgid "Bye Bye Forest"
+msgstr "Farvel, skogen min"
+
+#: data/levels/world2/crumbling_path.stl:3
+msgid "Crumbling Path"
+msgstr "Vaklande veg"
+
+#: data/levels/world2/darkness_awaits.stl:3
+msgid "Darkness Awaits"
+msgstr "Mørket ventar"
+
+#: data/levels/world2/find_big_fish.stl:3
+msgid "Find the Bigger Fish!"
+msgstr "Den største fisken"
+
+#: data/levels/world2/find_big_fish.stl:1058
+msgid "-A big fish... for you."
+msgstr "-Ein stor fisk … til deg."
+
+#: data/levels/world2/forest_intro.stl:3
+msgid "A New Location"
+msgstr "Ein ny stad"
+
+#: data/levels/world2/ghost_cutscene.stl:3
+msgid "What is Happening?"
+msgstr "Kva er det som skjer?"
+
+#: data/levels/world2/ghostly_misery.stl:3
+msgid "Ghostly Misery"
+msgstr "Skremd av skrømt"
+
+#: data/levels/world2/ghosttrees_challenges.stl:3
+msgid "Ghosttree's Challenges"
+msgstr "Spøkjelsestreets utfordringar"
+
+#: data/levels/world2/ghouls_lair.stl:3
+msgid "Ghouls' Lair"
+msgstr "Leiren til liketarane"
+
+#: data/levels/world2/ghouls_lair.stl:859
+msgid ""
+"#Lanterns are used to make magic blocks solid, so you're able to walk atop "
+"of them."
+msgstr "#Du kan bruka lykter til å gjera magiblokker faste, slik at du kan gå på dei."
+
+#: data/levels/world2/going_underground.stl:3
+msgid "Going Underground"
+msgstr "Til underverda"
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:3
+msgid "I Spy With My Little Eye"
+msgstr "Spionauget ser deg"
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:218
+msgid ""
+"-Ispy\n"
+"#Ispys will activate things like platforms whenever Tux is in their sight."
+msgstr "-Spionauga\n#Spionauga startar ulike ting, som plattformer, når dei kan sjå Tux."
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:674
+msgid "Hint: Use snails to break blocks!"
+msgstr "Hint: Bruk sniglar for å knusa blokker!"
+
+#: data/levels/world2/leaf_wind.stl:3
+msgid "Like a leaf in the Wind"
+msgstr "Som lauv i vinden"
+
+#: data/levels/world2/lost_village.stl:3
+msgid "Lost Village"
+msgstr "Den fortapte landsbyen"
+
+#: data/levels/world2/lost_village.stl:185
+msgid "#Don't forget to hit the switch!"
+msgstr "#Gløym ikkje å slå på brytaren!"
+
+#: data/levels/world2/mouldy_grotto.stl:3
+msgid "A Mouldy Grotto"
+msgstr "Mugg-grotta"
+
+#: data/levels/world2/owls_again.stl:3
+msgid "The Owls again..."
+msgstr "Uglene vender tilbake …"
+
+#: data/levels/world2/owls_skydive_commando.stl:3
+msgid "Owls' Skydive Commando"
+msgstr "Uglepatruljen slår til"
+
+#: data/levels/world2/penguin_grow_trees.stl:3
+msgid "Penguins don't grow on Trees"
+msgstr "Pingvinar veks ikkje på tre"
+
+#: data/levels/world2/shocking.stl:3
+msgid "Shocking"
+msgstr "Sjokkerande"
+
+#: data/levels/world2/the_forest_is_rotting.stl:3
+msgid "The Forest Is Rotting"
+msgstr "Treròte"
+
+#: data/levels/world2/through_dark.stl:3
+msgid "Through the Dark"
+msgstr "Gjennom mørket"
+
+#: data/levels/world2/through_dark.stl:96
+msgid ""
+"-Earth Flower\n"
+"!images/powerups/earthflower/earth_flower-1.png\n"
+"#The earth flower gives Tux the ability to turn into stone by pressing the ACTION Key and the DOWN Key at the same time.\n"
+"#This does not work while jumping or falling!"
+msgstr "-Jordblome\n!images/powerups/earthflower/earth_flower-1.png\n#Med jordblomen kan du gjera deg til stein ved å halda inne handlings- og nedtasten samtidig.\n#Dette verkar ikkje når du hoppar eller fell!"
+
+#: data/levels/world2/tower_of_ghosts.stl:3
+msgid "Tower Of Ghosts"
+msgstr "Spøkjelsestårnet"
+
+#: data/levels/world2/tux_builder.stl:3
+msgid "Tux the Builder"
+msgstr "Byggmeister Tux"
+
+#: data/levels/world2/tux_builder.stl:77
+msgid ""
+"-Portable Objects:\n"
+"!images/objects/rock/rock.png\n"
+"#Tux can pick up certain objects and carry them around.\n"
+"#Press the ACTION key to grab an object and hold it pressed as long as you want to carry the object. Release the ACTION key to drop the object."
+msgstr "-Flyttbare gjenstandar:\n!images/objects/rock/rock.png\n#Nokre gjenstandar kan du bera med deg.\n#Trykk på handlingstasten for å løfta ein gjenstand, og hald han inne så lenge du vil bera på gjenstanden. Slepp tasten for å setja gjenstanden frå deg."
+
+#: data/levels/world2/tux_own_horror_show.stl:3
+msgid "Tux' Own Horror Show"
+msgstr "Tux sitt skrekkabinett"
+
+#: data/levels/world2/tux_own_horror_show.stl:947
+msgid ""
+"#Will o' Wisps are small, annoying ghosts, which transport you to different,"
+" often dangerous places."
+msgstr "#Will o' Wisps er små, irriterende spøkelser, som transporterer deg til forskjellige, ofte farlige steder."
+
+#: data/levels/world2/walking_leaves.stl:3
+msgid "Walking Leaves"
+msgstr "Haustgule blader"
+
+#: data/levels/world2/welcome_forest.stl:3
+msgid "Welcome to the Forest"
+msgstr "Velkommen til skogen"
+
+#: data/levels/world2/welcome_forest.stl:50
+msgid ""
+"-Doors\n"
+"!images/objects/door/door-0.png\n"
+"#Tux can go through a door by pressing the UP key."
+msgstr "-Dører\n!images/objects/door/door-0.png\n#Trykk på opptasten for å gå gjennom dører."
+
+#: data/levels/world2/wooden_roots.stl:3
+msgid "Wooden Roots"
+msgstr "Trerøter"
+
+#: data/levels/world2/worldmap.stwm:3
+msgid "Rooted Forest"
+msgstr "Rotfestet skog"
+
+#: data/levels/world2/worldmap.stwm:239
+msgid "To be continued..."
+msgstr "Framhald følgjer …"

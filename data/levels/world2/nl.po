@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Dennis Holierhoek <dennis.hh@hotmail.com>, 2016
+# Heimen Stoffels <vistausss@fastmail.com>, 2021
+# Heimen Stoffels <vistausss@fastmail.com>, 2015-2016,2018-2020
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2013-08-10 23:00+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>, 2021\n"
+"Language-Team: Dutch (http://app.transifex.com/arctic-games/supertux/language/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/levels/world2/ancient_ruins.stl:3
+msgid "Ancient Ruins"
+msgstr "Eeuwenoude ruïnes"
+
+#: data/levels/world2/ancient_ruins.stl:1463
+#: data/levels/world2/ancient_ruins.stl:1471
+#: data/levels/world2/bouncy_coils.stl:380
+#: data/levels/world2/bouncy_coils.stl:388
+#: data/levels/world2/bye_bye_forest.stl:1607
+#: data/levels/world2/crumbling_path.stl:278
+#: data/levels/world2/crumbling_path.stl:1651
+#: data/levels/world2/going_underground.stl:246
+#: data/levels/world2/going_underground.stl:1249
+#: data/levels/world2/mouldy_grotto.stl:559
+#: data/levels/world2/penguin_grow_trees.stl:459
+#: data/levels/world2/penguin_grow_trees.stl:467
+#: data/levels/world2/through_dark.stl:361
+#: data/levels/world2/tux_builder.stl:384
+#: data/levels/world2/wooden_roots.stl:285
+#: data/levels/world2/worldmap.stwm:223
+msgid "You found a secret area!"
+msgstr "Je hebt een geheim gebied gevonden!"
+
+#: data/levels/world2/beside_bushes.stl:3
+msgid "Beside the Bushes"
+msgstr "Achter de bosjes"
+
+#: data/levels/world2/bouncy_coils.stl:3
+msgid "Bouncy Coils"
+msgstr "Springende spiralen"
+
+#: data/levels/world2/bye_bye_forest.stl:3
+msgid "Bye Bye Forest"
+msgstr "Dag, dag, oerbos"
+
+#: data/levels/world2/crumbling_path.stl:3
+msgid "Crumbling Path"
+msgstr "Afbrokkelend pad"
+
+#: data/levels/world2/darkness_awaits.stl:3
+msgid "Darkness Awaits"
+msgstr "Duisternis ligt op de loer"
+
+#: data/levels/world2/find_big_fish.stl:3
+msgid "Find the Bigger Fish!"
+msgstr "Zoek de grotere vis!"
+
+#: data/levels/world2/find_big_fish.stl:1058
+msgid "-A big fish... for you."
+msgstr "-Een grote vis... voor jou."
+
+#: data/levels/world2/forest_intro.stl:3
+msgid "A New Location"
+msgstr "Een nieuwe locatie"
+
+#: data/levels/world2/ghost_cutscene.stl:3
+msgid "What is Happening?"
+msgstr "Wat gebeurt er allemaal?"
+
+#: data/levels/world2/ghostly_misery.stl:3
+msgid "Ghostly Misery"
+msgstr "Spookachtige misère"
+
+#: data/levels/world2/ghosttrees_challenges.stl:3
+msgid "Ghosttree's Challenges"
+msgstr "Uitdagingen van de spookboom"
+
+#: data/levels/world2/ghouls_lair.stl:3
+msgid "Ghouls' Lair"
+msgstr "Geestenverblijf"
+
+#: data/levels/world2/ghouls_lair.stl:859
+msgid ""
+"#Lanterns are used to make magic blocks solid, so you're able to walk atop "
+"of them."
+msgstr "#Lantaarns worden gebruikt om magische blokken te egaliseren zodat je er over kunt lopen."
+
+#: data/levels/world2/going_underground.stl:3
+msgid "Going Underground"
+msgstr "Ondergronds gaan"
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:3
+msgid "I Spy With My Little Eye"
+msgstr "Ik zie, ik zie wat jij niet ziet"
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:218
+msgid ""
+"-Ispy\n"
+"#Ispys will activate things like platforms whenever Tux is in their sight."
+msgstr "-Bespeurders\n#Bespeurders activeren dingen als platformen zodra Tux er dichtbij is."
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:674
+msgid "Hint: Use snails to break blocks!"
+msgstr "Tip: gebruik slakken om ijsblokken te breken!"
+
+#: data/levels/world2/leaf_wind.stl:3
+msgid "Like a leaf in the Wind"
+msgstr "Als een blad in de wind"
+
+#: data/levels/world2/lost_village.stl:3
+msgid "Lost Village"
+msgstr "Verloren gewaand dorp"
+
+#: data/levels/world2/lost_village.stl:185
+msgid "#Don't forget to hit the switch!"
+msgstr "#Vergeet niet de schakelaar om te zetten!"
+
+#: data/levels/world2/mouldy_grotto.stl:3
+msgid "A Mouldy Grotto"
+msgstr "Een beschimmelde Grotto"
+
+#: data/levels/world2/owls_again.stl:3
+msgid "The Owls again..."
+msgstr "Alwéér die uilen..."
+
+#: data/levels/world2/owls_skydive_commando.stl:3
+msgid "Owls' Skydive Commando"
+msgstr "Skydive-opdracht van de uilen"
+
+#: data/levels/world2/penguin_grow_trees.stl:3
+msgid "Penguins don't grow on Trees"
+msgstr "Pinguins groeien niet aan bomen"
+
+#: data/levels/world2/shocking.stl:3
+msgid "Shocking"
+msgstr "Schokkend"
+
+#: data/levels/world2/the_forest_is_rotting.stl:3
+msgid "The Forest Is Rotting"
+msgstr "Dit oerbos rot weg"
+
+#: data/levels/world2/through_dark.stl:3
+msgid "Through the Dark"
+msgstr "Door het duister"
+
+#: data/levels/world2/through_dark.stl:96
+msgid ""
+"-Earth Flower\n"
+"!images/powerups/earthflower/earth_flower-1.png\n"
+"#The earth flower gives Tux the ability to turn into stone by pressing the ACTION Key and the DOWN Key at the same time.\n"
+"#This does not work while jumping or falling!"
+msgstr "-Aardbloem\n!images/powerups/earthflower/earth_flower-1.png\n#De aardbloem zorgt ervoor dat Tux in steen kan veranderen door de actietoets en pijltje omlaag gelijktijdig in te drukken.\n#Dit werkt niet tijdens springen of vallen!"
+
+#: data/levels/world2/tower_of_ghosts.stl:3
+msgid "Tower Of Ghosts"
+msgstr "Spooktoren"
+
+#: data/levels/world2/tux_builder.stl:3
+msgid "Tux the Builder"
+msgstr "Tux de Bouwer"
+
+#: data/levels/world2/tux_builder.stl:77
+msgid ""
+"-Portable Objects:\n"
+"!images/objects/rock/rock.png\n"
+"#Tux can pick up certain objects and carry them around.\n"
+"#Press the ACTION key to grab an object and hold it pressed as long as you want to carry the object. Release the ACTION key to drop the object."
+msgstr "-Draagbare objecten:\n!images/objects/rock/rock.png\n#Tux kan bepaalde objecten oppakken en meenemen.\n#Druk op de actietoets om een object te pakken. Houdt de actietoets ingedrukt totdat je het object wilt loslaten."
+
+#: data/levels/world2/tux_own_horror_show.stl:3
+msgid "Tux' Own Horror Show"
+msgstr "Tux' eigen horrorshow"
+
+#: data/levels/world2/tux_own_horror_show.stl:947
+msgid ""
+"#Will o' Wisps are small, annoying ghosts, which transport you to different,"
+" often dangerous places."
+msgstr "#Wilgenzwaluwen zijn kleine, irritante spoken die je naar andere, vaak gevaarlijke, locaties teleporteren."
+
+#: data/levels/world2/walking_leaves.stl:3
+msgid "Walking Leaves"
+msgstr "Wandelende bladeren"
+
+#: data/levels/world2/welcome_forest.stl:3
+msgid "Welcome to the Forest"
+msgstr "Welkom in het bos"
+
+#: data/levels/world2/welcome_forest.stl:50
+msgid ""
+"-Doors\n"
+"!images/objects/door/door-0.png\n"
+"#Tux can go through a door by pressing the UP key."
+msgstr "-Deuren\n!images/objects/door/door-0.png\n#Tux kan door een deur gaan door op pijltje omhoog te drukken."
+
+#: data/levels/world2/wooden_roots.stl:3
+msgid "Wooden Roots"
+msgstr "Houten wortels"
+
+#: data/levels/world2/worldmap.stwm:3
+msgid "Rooted Forest"
+msgstr "Boomwortelbos"
+
+#: data/levels/world2/worldmap.stwm:239
+msgid "To be continued..."
+msgstr "Wordt vervolgd..."

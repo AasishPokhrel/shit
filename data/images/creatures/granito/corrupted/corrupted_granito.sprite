@@ -1,0 +1,73 @@
+(supertux-sprite
+	(action
+	  (name "standing-left")
+	  (hitbox 15 15 32 42)
+	  (fps 15)
+	  (loops 1)
+	  (images "idle_left-0.png"
+			  "idle_left-1.png"
+			  "idle_left-2.png"
+			  "idle_left-3.png"
+			  "idle_left-4.png"
+			  "idle_left-5.png"))
+	
+	(action
+	  (name "standing-right")
+	  (hitbox 28 15 32 42)
+	  (fps 15)
+	  (loops 1)
+	  (images "idle_right-0.png"
+			  "idle_right-1.png"
+			  "idle_right-2.png"
+			  "idle_right-3.png"
+			  "idle_right-4.png"
+			  "idle_right-5.png"))
+	
+	(action
+	  (name "charging-left")
+	  (hitbox 15 15 32 42)
+	  (loops 1)
+	  (fps 20)
+	  (images "idle_left-0.png"
+			  "idle_left-1.png"
+			  "idle_left-2.png"))
+
+	(action
+	  (name "charging-right")
+	  (hitbox 28 15 32 42)
+	  (loops 1)
+	  (fps 20)
+	  (images "idle_right-0.png"
+			  "idle_right-1.png"
+			  "idle_right-2.png"))
+	
+	(action
+	  (name "jumping-left")
+	  (hitbox 15 15 32 42)
+	  (loops 1)
+	  (fps 20)
+	  (images "jump_left-0.png"
+	          "jump_left-1.png"
+			  "jump_left-2.png"
+			  "jump_left-3.png"))
+	
+	(action
+	  (name "jumping-right")
+	  (hitbox 28 15 32 42)
+	  (loops 1)
+	  (fps 20)
+	  (images "jump_right-0.png"
+	          "jump_right-1.png"
+			  "jump_right-2.png"
+			  "jump_right-3.png"))
+	
+	(action
+	  (name "squished-left")
+	  (hitbox 15 15 32 42)
+	  (images "squished-left.png"))
+	
+	(action
+	  (name "squished-right")
+	  (hitbox 28 15 32 42)
+	  (images "squished-right.png"))
+)

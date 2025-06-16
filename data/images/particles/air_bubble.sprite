@@ -1,0 +1,23 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (fps 15)
+  (loops 1)
+  (images "air_bubble-0.png"
+		  "air_bubble-1.png"
+		  "air_bubble-2.png"
+		  "air_bubble-3.png"
+		  "air_bubble-4.png"
+  )
+ )
+ (action
+  (name "small")
+  (fps 15)
+  (loops 1)
+  (images "air_bubble-0.png"
+		  "air_bubble-1.png"
+		  "air_bubble-2.png"
+		  "air_bubble-3.png"
+  )
+ )
+)

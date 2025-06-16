@@ -1,0 +1,13 @@
+(supertux-font
+  (rtl #t)
+  (glyph-height 22)
+  (glyph-width 22)
+  (glyph-border 1)
+  (surface
+    (glyphs "arabic/white-big.png")
+    (shadows "arabic/shadow-big.png")
+    (chars
+        "ا?,'لمتريةو+عقسىخ@ك"
+    "طصنشدبأحهفغجئؤء][ضزث"
+  ) )
+)

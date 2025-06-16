@@ -1,0 +1,56 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (fps 12)
+    (hitbox 10 15 40 40)
+    (images "walk-1-0.png"
+            "walk-1-1.png"
+            "walk-1-2.png"
+            "walk-1-3.png"
+            "walk-1-4.png"
+            "walk-1-5.png"
+            "walk-1-6.png"
+            "walk-1-7.png"
+   )
+  )
+  (action
+    (name "right")
+    (fps 12)
+    (hitbox 6 15 40 40)
+    (mirror-action "left")
+  )
+
+  (action
+    (name "squished-left")
+    (hitbox 10 15 40 40)
+    (images "b-squished.png")
+  )
+  (action
+    (name "squished-right")
+    (hitbox 6 15 40 40)
+    (mirror-action "squished-left")
+  )
+
+  (action
+    (name "iced-left")
+    (fps 12)
+    (hitbox 6 10 45 43)
+    (images "walk-1-0.png"))
+
+  (action
+    (name "iced-right")
+    (fps 12)
+    (hitbox 6 10 45 43)
+    (mirror-action "iced-left"))
+
+  (action
+    (hitbox 10 15 40 40)
+    (name "burning-left")
+    (images "walk-1-0.png"))
+
+  (action
+    (hitbox 6 15 40 40)
+    (name "burning-right")
+    (mirror-action "burning-left"))
+
+)

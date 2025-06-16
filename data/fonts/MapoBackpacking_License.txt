@@ -1,0 +1,133 @@
+MapoBackpacking.ttf is licensed under the KOGL Type 1
+
+(c) Mapo-gu (Mapo district office, Govt.), Seoul, Republic of Korea
+
+License documentation original link: https://www.kogl.or.kr/info/license.do
+
+Use Terms Guide for Korea Open Government License (KOGL)
+
+  This page is a summary for an easy understanding of the General Agreement for Korea Open Government License (KOGL) and its type of registered work.
+
+- On/Off-line sharing and use
+  sharing and use through on/off-line possible
+
+- Indication of the source
+  Shall indicate the source of the work.
+  ※ The indication of the source shall not be used to misguide a third party as it is sponsored by public institutions or as it has special relationship with public institutions.
+
+- Commercial Use Prohibition
+  The works shall be used only for nonprofit purposes. However, it is possible to use public works for commercial purpose with special permissions.(Related with type2, 4)
+
+- Change Prohibition
+  It is prohibited to modify the work, or change it to create a secondary work.
+
+  - Display and Changes of the Use Terms
+    User must indicate its source when using KOGL's work.
+    The use terms of KOGL's work may be changed. However, the user can use the work without altering its purpose of use if the user used that work prior to the change of the use terms.
+
+  - Use Terms Violation
+    Use permission is immediately terminated when the user violates the KOGL's Use Terms.
+    If the user keeps using public works after violating the Use Terms, it establishes infringement of copyright which may charge the user criminal and/or civil charges.
+
+  - Exemption Clause for Public Institutions
+    Public institutions do not guarantee the accuracy or the continuous service provision of public works.
+    Also, public institutions and its employees shall not be responsible for any kind of damage or disadvantage that may arise by using public works.
+
+  - Others
+    Use terms for KOGL may not be applied if the user has a special permission from the public institution that possesses the work.
+    Users willing to utilize the intellectual property rights in addition to public institution's copyright shall get a separate permission from its service institution.
+
+Open License Marking Criteria for Public Works
+
+  Public Notice by the Ministry of Culture, Sports and Tourism (Draft)
+
+  > Open license marking criteria are specified as follows to prevent confusion of using it, and to promote the use of public works with clear and uniform marking criteria by allowing citizens' free use of works (referred as "public work" hereinafter), that are created, acquired and managed by government institutions, local governments and public institutions according to the Article 2, Item 3 of 「Official Information Disclosure Act」 (referred as "public institution" hereinafter), without the need of individual use permission according to Article 22 of 「Public Work's Copyright Management Instruction」(Public Notice by the Ministry of Culture, Sports and Tourism No.:2010-41).
+
+  - Name and Basic Marking Design
+    The name of 'open license for public work' is set as "Gonggongnuri", and its English term is set as “KOGL ( Korea Open Government License)". Basic designs that symbolizes KOGL is as follows:
+
+  - Types and Mark Design for KOGL
+    It is the basic liability for KOGL to indicate the copyright (source), and can impose obligations such as change prohibition, commercial use prohibition, etc. KOGL's 4 types of symbol marks and scope of the license are shown in the table.
+
+    - Type 1 (Source Indication)
+      The user can freely use the public work without fee, and can change it to create secondary work.
+
+    - Type 2 (Type 1 + Commercial Use Prohibition)
+      The user can freely use the public work without fee, and can change it to create secondary work, but it is not permitted to use for commercial purpose.
+
+    - Type 3 (Type 1 + Change Prohibition)
+      The user can freely use the public work regardless of its commercial use without fee, but it is not permitted to change or modify the contents of public work.
+      
+    - Type 4 (Type 1 + Commercial Use Prohibition + Change Prohibition)
+      The user can freely use the public work without fee, but it is not permitted to use for commercial purpose, or to change or modify the contents of public work.
+
+  - Location of KOGL Mark
+    Public institutions shall place the KOGL symbol mark to the proper location such as close to title or at the end of the corresponding public work so that user can recognize it. The size of the symbol mark may be different according to the public works, and it shall be the size that normal users can recognize it.
+
+  - Use Terms for KOGL
+    Public institutions shall provide use terms such as source indication liability, use prohibited information, public institution's liability exemption, effect of use term violation, etc. with proper method (ex: hyperlink with symbol mark) when providing public works using KOGL.
+
+    Refer to Attachment for Use Terms by KOGL Types.
+
+    Public institutions may change the license terms of public works. However, users who already use prior to the change shall be allowed to use according to the license terms before change even after it is changed.
+
+  - Relationship with other free licenses
+    KOGL can be used selectively with other free licenses such as Creative Commons License.
+
+    - Attachment 1: Use Term for KOGL Type 1(Source Indication)
+
+      - Korean: 공공누리 공공저작물 자유이용허락, 출처표시
+      - English: KOGL Korea Open Government License, BY
+      
+      According to above KOGL, user can use public works freely and without fee regardless of its commercial use, and can change or modify to create secondary works when user complies with the terms provided as follows:
+
+      1. Source Indication Liability
+        Users who use public works shall indicate source or copyright as follows:
+        <EX : >“000(public institution's name)'s public work is used according to KOGL”
+        
+        The link shall be provided when online hyperlink for the source website is available.
+
+        Marking shall not be used to misguide the third party that the user is sponsored by public institution or user has a special relationship with public institutions.
+
+      2. Use Prohibited Information
+        Personal information that is protected by Personal Information Protection Act, Promotion for Information Network Use and Information Protection Act, etc.
+
+        Credit information protected by the Use and Protection of Credit Information Act, etc.
+
+        Military secrets protected by Military Secret Protection Act, etc.
+
+        Information that is the object of other rights such as trademark right, design right, design right or patent right, etc., or that is owned by third party's copyright.
+
+        Other information that is use prohibited information according to other laws.
+
+      3. Public Institution's Liability Exemption
+        Public institution does not guarantee the accuracy or continued service of public works.
+
+        Public institution and its employees do not have any liability for any kind of damage or disadvantage that may arise by using public works.
+
+      4. Effect of Use Term Violation
+        The use permission is automatically terminated when user violates any of the KOGL's Use Terms, and the user shall immediately stop using public works.
+
+    - Attachment 2: Use Term for KOGL Type 2
+      - Korean: 공공누리 공공저작물 자유이용허락, 출처표시, 상업용금지
+      - English: KOGL, Korea Open Government License, BY, NC
+      
+      According to above KOGL, user can use public works freely and without fee, and can change or modify to create secondary work when user complies with the terms provided as follows except for commercial use :
+
+      1.～4. (Same as Type 1)
+      
+    - Attachment 3: Use Term for KOGL Type 3
+      - Korean: 공공누리 공공저작물 자유이용허락, 출처표시, 변경금지
+      - English: KOGL, Korea Open Government License, BY, ND
+      
+      According to above KOGL, user can use public works freely and without fee regardless of its commercial use when user complies with the terms provided as follows, while the contents of public works is not modified or changed:
+
+      1.～4. (Same as Type 1)
+
+    - Attachment 4: Use Term for KOGL Type 4
+      - Korean: 공공누리 공공저작물 자유이용허락, 출처표시, 상업용금지, 변경금지
+      - English: KOGL, Korea Open Government License, BY, NC, ND
+      
+      According to above KOGL, user can use public works freely and without fee when user complies with the terms provided as follows. However, it is prohibited to use public works for commercial purpose, or to create secondary works by changing or modifying it.
+
+      1.～4. (Same as Type 1)

@@ -1,0 +1,3830 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# IAN RODRÍGUEZ Lorenzo, 2022
+# Benjamin Leduc <giby_the_kid@yahoo.fr>, 2015
+# I will not tell you that <leftermos@yahoo.gr>, 2015
+# Vangelis Nomikos <nvangelis@gmail.com>, 2013-2015
+# Vangelis Skarmoutsos <skarmoutsosv@gmail.com>, 2016,2019
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2021-12-12 20:05+0100\n"
+"PO-Revision-Date: 2013-08-10 22:56+0000\n"
+"Last-Translator: IAN RODRÍGUEZ Lorenzo, 2022\n"
+"Language-Team: Greek (http://app.transifex.com/arctic-games/supertux/language/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/trigger/secretarea_trigger.cpp:53 src/trigger/secretarea_trigger.cpp:61
+msgid "You found a secret area!"
+msgstr "Βρήκες μια μυστική περιοχή!"
+
+#: src/trigger/secretarea_trigger.cpp:77 src/supertux/game_object.cpp:90
+#: src/supertux/menu/editor_sector_menu.cpp:34
+#: src/supertux/menu/editor_levelset_menu.cpp:58
+#: src/supertux/menu/editor_new_levelset_menu.cpp:34
+#: src/supertux/menu/editor_level_menu.cpp:33
+msgid "Name"
+msgstr "Όνομα"
+
+#: src/trigger/secretarea_trigger.cpp:78
+msgid "Fade tilemap"
+msgstr "Αχνό-χαρτοπλακίδιο"
+
+#: src/trigger/secretarea_trigger.cpp:79 src/trigger/climbable.cpp:81
+#: src/object/infoblock.cpp:57 src/editor/worldmap_objects.cpp:172
+#: src/editor/worldmap_objects.cpp:270
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: src/trigger/secretarea_trigger.cpp:80 src/trigger/scripttrigger.cpp:75
+#: src/trigger/door.cpp:73 src/object/ispy.cpp:67
+#: src/object/bonus_block.cpp:207 src/object/bonus_block.cpp:211
+#: src/object/pushbutton.cpp:51 src/object/powerup.cpp:190
+#: src/editor/worldmap_objects.cpp:272
+msgid "Script"
+msgstr "Σενάριο"
+
+#: src/trigger/scripttrigger.cpp:76 src/object/pushbutton.hpp:31
+msgid "Button"
+msgstr "Κουμπί"
+
+#: src/trigger/scripttrigger.cpp:77
+msgid "Oneshot"
+msgstr "Μια βολή"
+
+#: src/trigger/sequence_trigger.hpp:33
+msgid "Sequence Trigger"
+msgstr "Ενεργοποίηση ακολουθίας"
+
+#: src/trigger/door.cpp:74 src/badguy/willowisp.cpp:320
+#: src/supertux/menu/editor_sector_menu.cpp:32
+#: src/editor/layers_widget.cpp:342
+#: data//images/engine/editor/objects.stoi:321
+msgid "Sector"
+msgstr "Τομέας"
+
+#: src/trigger/door.cpp:75 src/editor/worldmap_objects.hpp:101
+msgid "Spawn point"
+msgstr "Σημείο ωοτοκίας"
+
+#: src/trigger/switch.cpp:61 src/object/block.cpp:224 src/object/torch.cpp:102
+#: src/object/moving_sprite.cpp:156 src/object/pneumatic_platform.cpp:146
+msgid "Sprite"
+msgstr "Σπράιτ"
+
+#: src/trigger/switch.cpp:62
+msgid "Turn on script"
+msgstr "Έναρξη σεναρίου"
+
+#: src/trigger/switch.cpp:63
+msgid "Turn off script"
+msgstr "Διακοπή σεναρίου"
+
+#: src/trigger/scripttrigger.hpp:32
+msgid "Script Trigger"
+msgstr "Έναρξη σεναρίου"
+
+#: src/trigger/sequence_trigger.cpp:75
+msgid "Sequence"
+msgstr "Αλληλουχία"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "end sequence"
+msgstr "τέλος αλληλουχίας"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "stop Tux"
+msgstr "σταμάτημα Tux"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "fireworks"
+msgstr "πυροτεχνήματα"
+
+#: src/trigger/sequence_trigger.cpp:80
+msgid "New worldmap spawnpoint"
+msgstr "Νέο σημείο αναπαραγωγής παγκόσμιου χάρτη"
+
+#: src/trigger/sequence_trigger.cpp:81
+msgid "Worldmap fade tilemap"
+msgstr "Παγκόσμιος χάρτης χάρτης πλακιδίων ξεθωριάσματος"
+
+#: src/trigger/sequence_trigger.cpp:82
+#: src/object/custom_particle_system.cpp:430
+#: src/object/custom_particle_system.cpp:465
+msgid "Fade"
+msgstr "Ξεθωριάζει"
+
+#: src/trigger/sequence_trigger.cpp:83 src/editor/particle_editor.cpp:161
+msgid "Fade in"
+msgstr "Ξεθωριάζω"
+
+#: src/trigger/sequence_trigger.cpp:83 src/editor/particle_editor.cpp:167
+#: src/editor/particle_editor.cpp:212
+msgid "Fade out"
+msgstr "Σβήνω εικόνα"
+
+#: src/trigger/climbable.hpp:37
+msgid "Climbable"
+msgstr "Αναρριχώμενο"
+
+#: src/trigger/door.hpp:34
+msgid "Door"
+msgstr "Πόρτα"
+
+#: src/trigger/switch.hpp:33
+msgid "Switch"
+msgstr "Διακόπτης"
+
+#: src/trigger/secretarea_trigger.hpp:36
+msgid "Secret Area"
+msgstr "Μυστική Περιοχή"
+
+#: src/object/thunderstorm.hpp:40
+msgid "Thunderstorm"
+msgstr "Καταιγίδα"
+
+#: src/object/cloud_particle_system.cpp:79
+#: src/object/rain_particle_system.cpp:100
+msgid "Intensity"
+msgstr "Ενταση"
+
+#: src/object/custom_particle_system.hpp:45
+msgid "Custom Particles"
+msgstr "Προσαρμοσμένα Σωματίδια"
+
+#: src/object/ispy.cpp:66
+msgid "Facing Down"
+msgstr "Κοιτάζοντας προς τα κάτω"
+
+#: src/object/ispy.cpp:68 src/object/spotlight.cpp:103
+#: src/object/gradient.cpp:137 src/badguy/willowisp.cpp:319
+#: src/badguy/badguy.cpp:848 src/editor/worldmap_objects.cpp:207
+#: src/editor/worldmap_objects.cpp:274
+msgid "Direction"
+msgstr "Κατεύθυνση"
+
+#: src/object/particle_zone.hpp:39
+msgid "Particle zone"
+msgstr "Ζώνη σωματιδίων"
+
+#: src/object/path_gameobject.hpp:44 src/object/coin.cpp:301
+#: src/object/camera.cpp:224 src/object/platform.cpp:73
+#: src/object/path_gameobject.cpp:173 src/object/tilemap.cpp:246
+#: src/gui/menu_paths.cpp:52 src/badguy/willowisp.cpp:326
+msgid "Path"
+msgstr "Μονοπάτι"
+
+#: src/object/decal.cpp:49 src/object/scripted_object.cpp:67
+#: src/object/particlesystem.cpp:65 src/object/background.cpp:183
+#: src/object/thunderstorm.cpp:68 src/object/tilemap.cpp:239
+#: src/object/gradient.cpp:135
+msgid "Z-pos"
+msgstr "Z-pos"
+
+#: src/object/decal.cpp:50 src/object/scripted_object.cpp:70
+#: src/object/tilemap.cpp:228
+msgid "Solid"
+msgstr "Στερεό"
+
+#: src/object/decal.cpp:51 src/supertux/menu/keyboard_menu.cpp:37
+#: src/supertux/menu/joystick_menu.cpp:74
+msgid "Action"
+msgstr "Δράση"
+
+#: src/object/weak_block.hpp:35
+msgid "Weak Tile"
+msgstr "Αδύναμο Πλακάκι"
+
+#: src/object/bumper.cpp:46
+msgid "Facing Left"
+msgstr "Αντικρίζοντας αριστερά"
+
+#: src/object/gradient.hpp:42
+msgid "Gradient"
+msgstr "Διαβάθμιση"
+
+#: src/object/tilemap.hpp:57
+msgid "Tilemap"
+msgstr "Τηλεχάρτης"
+
+#: src/object/circleplatform.hpp:32
+msgid "Circular Platform"
+msgstr "Κυκλική πλατφόρμα"
+
+#: src/object/brick.cpp:133
+msgid "Breakable"
+msgstr "Εύθραυστο"
+
+#: src/object/trampoline.cpp:136 src/object/rusty_trampoline.cpp:66
+msgid "Portable"
+msgstr "Φορητό"
+
+#: src/object/spotlight.cpp:100 src/object/rain_particle_system.cpp:101
+msgid "Angle"
+msgstr "Γωνία"
+
+#: src/object/spotlight.cpp:101 src/object/magicblock.cpp:94
+#: src/object/candle.cpp:77 src/object/torch.cpp:104
+#: src/object/rublight.cpp:54 src/object/lantern.cpp:62
+#: src/object/ambient_light.cpp:131 src/badguy/willowisp.cpp:328
+#: src/badguy/walking_candle.cpp:82
+msgid "Color"
+msgstr "Χρώμα"
+
+#: src/object/spotlight.cpp:102 src/object/textscroller.cpp:350
+#: src/object/rain_particle_system.cpp:102 src/object/circleplatform.cpp:55
+#: src/badguy/flame.cpp:59 src/editor/node_marker.cpp:125
+msgid "Speed"
+msgstr "Ταχύτητα"
+
+#: src/object/spotlight.cpp:104
+msgid "Clockwise"
+msgstr "Δεξιόστροφος"
+
+#: src/object/spotlight.cpp:104
+msgid "Counter-clockwise"
+msgstr "Αριστερόστροφα"
+
+#: src/object/spotlight.cpp:104
+msgid "Stopped"
+msgstr "Σταμάτησε"
+
+#: src/object/spotlight.cpp:107 src/object/candle.cpp:78
+#: src/object/torch.cpp:103
+msgid "Layer"
+msgstr "Στρώμα"
+
+#: src/object/scripted_object.cpp:71
+msgid "Physics enabled"
+msgstr "Ενεργοποιημένη φυσική"
+
+#: src/object/scripted_object.cpp:72
+msgid "Visible"
+msgstr "Ορατό"
+
+#: src/object/scripted_object.cpp:73 src/badguy/willowisp.cpp:322
+msgid "Hit script"
+msgstr "Σενάριο επιτυχίας"
+
+#: src/object/custom_particle_system_file.cpp:50
+#: src/object/textscroller.cpp:348 src/object/music_object.cpp:109
+#: src/supertux/menu/particle_editor_open.cpp:38
+msgid "File"
+msgstr "Αρχείο"
+
+#: src/object/bonus_block.cpp:208
+msgid "Count"
+msgstr "Μέτρηση"
+
+#: src/object/bonus_block.cpp:209
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: src/object/bonus_block.cpp:210 src/object/coin.hpp:43
+msgid "Coin"
+msgstr "Νόμισμα"
+
+#: src/object/bonus_block.cpp:210
+msgid "Growth (fire flower)"
+msgstr "Ανάπτυξη (λουλούδι φωτιάς)"
+
+#: src/object/bonus_block.cpp:210
+msgid "Growth (ice flower)"
+msgstr "Ανάπτυξη (λουλούδι πάγου)"
+
+#: src/object/bonus_block.cpp:210
+msgid "Growth (air flower)"
+msgstr "Ανάπτυξη (λουλούδι αέρα)"
+
+#: src/object/bonus_block.cpp:211
+msgid "Growth (earth flower)"
+msgstr "Ανάπτυξη (λουλούδι γης)"
+
+#: src/object/bonus_block.cpp:211
+msgid "Star"
+msgstr "Αστέρι"
+
+#: src/object/bonus_block.cpp:211
+msgid "Tux doll"
+msgstr "Κούκλα Tux"
+
+#: src/object/bonus_block.cpp:211
+msgid "Custom"
+msgstr "Προσαρμοσμένο"
+
+#: src/object/bonus_block.cpp:211
+msgid "Light"
+msgstr "Φως"
+
+#: src/object/bonus_block.cpp:211
+msgid "Light (On)"
+msgstr "Φως (Ενεργό)"
+
+#: src/object/bonus_block.cpp:212 src/object/trampoline.hpp:35
+msgid "Trampoline"
+msgstr "Τραμπολίνο"
+
+#: src/object/bonus_block.cpp:212
+msgid "Coin rain"
+msgstr "Βροχή νομίσματος"
+
+#: src/object/bonus_block.cpp:212
+msgid "Coin explosion"
+msgstr "Έκρηξη νομίσματος"
+
+#: src/object/bonus_block.cpp:216
+msgid "Custom Content"
+msgstr "Προσαρμοσμένο περιεχόμενο"
+
+#: src/object/pneumatic_platform.hpp:62
+msgid "Pneumatic Platform"
+msgstr "Πνευματική πλατφόρμα"
+
+#: src/object/coin.cpp:303 src/object/tilemap.cpp:249
+msgid "Following path"
+msgstr "Ακολουθούμενο μονοπάτι"
+
+#: src/object/coin.cpp:306 src/object/camera.cpp:227
+#: src/object/platform.cpp:74 src/object/tilemap.cpp:252
+msgid "Path Mode"
+msgstr "Κατάσταση μονοπατιού"
+
+#: src/object/coin.cpp:307 src/object/camera.cpp:228
+#: src/object/platform.cpp:75 src/object/tilemap.cpp:253
+#: src/badguy/willowisp.cpp:331
+msgid "Adapt Speed"
+msgstr "Προσαρμογή ταχύτητας"
+
+#: src/object/coin.cpp:308 src/object/platform.cpp:77
+#: src/object/tilemap.cpp:247 src/badguy/willowisp.cpp:327
+msgid "Starting Node"
+msgstr "Κόμβος εκκίνησης"
+
+#: src/object/coin.cpp:311 src/object/coin.cpp:339
+msgid "Collect script"
+msgstr "Σενάριο συλλογής"
+
+#: src/object/ghost_particle_system.hpp:36
+msgid "Ghost Particles"
+msgstr "Σωματίδια φάντασμα"
+
+#: src/object/camera.cpp:219
+msgid "Mode"
+msgstr "Κατάσταση"
+
+#: src/object/camera.cpp:220
+msgid "normal"
+msgstr "φυσιολογικό"
+
+#: src/object/camera.cpp:220
+msgid "manual"
+msgstr "χειροκίνητο"
+
+#: src/object/camera.cpp:220
+msgid "autoscroll"
+msgstr "αυτόματη κύλιση"
+
+#: src/object/textscroller.cpp:349
+msgid "Finish Script"
+msgstr "Ολοκλήρωση σεναρίου"
+
+#: src/object/textscroller.cpp:351
+msgid "X-offset"
+msgstr "X-offset"
+
+#: src/object/textscroller.cpp:352
+msgid "Controllable"
+msgstr "Συγκράτητος"
+
+#: src/object/textscroller.cpp:353
+msgid "Anchor"
+msgstr "Αγκυρα"
+
+#: src/object/textscroller.cpp:354 src/object/textscroller.cpp:358
+#: src/supertux/menu/keyboard_menu.cpp:34
+#: src/supertux/menu/joystick_menu.cpp:71
+msgid "Left"
+msgstr "Αριστερά"
+
+#: src/object/textscroller.cpp:354 src/object/textscroller.cpp:358
+msgid "Center"
+msgstr "Κέντροq"
+
+#: src/object/textscroller.cpp:354 src/object/textscroller.cpp:358
+#: src/supertux/menu/keyboard_menu.cpp:35
+#: src/supertux/menu/joystick_menu.cpp:72
+msgid "Right"
+msgstr "Δεξιά"
+
+#: src/object/textscroller.cpp:357
+msgid "Text Alignment"
+msgstr "Ευθυγράμμιση κειμένου"
+
+#: src/object/spawnpoint.hpp:46 src/badguy/willowisp.cpp:321
+#: src/editor/worldmap_objects.cpp:171
+msgid "Spawnpoint"
+msgstr "Εκκολαπτήριο"
+
+#: src/object/rusty_trampoline.cpp:65
+msgid "Counter"
+msgstr "Μετρητής"
+
+#: src/object/candle.hpp:36
+msgid "Candle"
+msgstr "Κερί"
+
+#: src/object/particlesystem.cpp:64 src/object/particle_zone.cpp:79
+#: src/badguy/darttrap.cpp:127
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: src/object/invisible_block.hpp:31
+msgid "Invisible Block"
+msgstr "Αόρατο Μπλοκ"
+
+#: src/object/snow_particle_system.hpp:35
+msgid "Snow Particles"
+msgstr "Σωματίδια χιονιού"
+
+#: src/object/powerup.hpp:35
+msgid "Powerup"
+msgstr "Ενεργοποίηση"
+
+#: src/object/fallblock.hpp:39
+msgid "Falling Platform"
+msgstr "Πτώση πλατφόρμα"
+
+#: src/object/level_time.hpp:55
+msgid "Time Limit"
+msgstr "Προθεσμία"
+
+#: src/object/ambient_sound.cpp:119 src/supertux/menu/options_menu.cpp:391
+#: data//credits.stxt:352
+msgid "Sound"
+msgstr "Ήχος"
+
+#: src/object/ambient_sound.cpp:120
+msgid "Distance factor"
+msgstr "Συντελεστής απόστασης"
+
+#: src/object/ambient_sound.cpp:121
+msgid "Distance bias"
+msgstr "Προκατάληψη απόστασης"
+
+#: src/object/ambient_sound.cpp:122
+msgid "Volume"
+msgstr "Ένταση"
+
+#: src/object/torch.hpp:41
+msgid "Torch"
+msgstr "Φακός"
+
+#: src/object/icecrusher.hpp:53
+msgid "Icecrusher"
+msgstr "Παγοθραυστής"
+
+#: src/object/rublight.hpp:33
+msgid "Rublight"
+msgstr "Φωτεινή επαφή"
+
+#: src/object/background.hpp:43
+msgid "Background"
+msgstr "Υπόβαθρο"
+
+#: src/object/firefly.hpp:36
+msgid "Checkpoint"
+msgstr "Σημείο ελέγχου"
+
+#: src/object/ambient_light.hpp:36
+msgid "Ambient Light"
+msgstr "Φως περιβάλλοντος"
+
+#: src/object/lantern.hpp:37
+msgid "Lantern"
+msgstr "Φανάρι"
+
+#: src/object/wind.hpp:40
+msgid "Wind"
+msgstr "Άνεμος"
+
+#: src/object/bicycle_platform.cpp:189 src/object/background.cpp:179
+#: src/object/pneumatic_platform.cpp:147
+#: src/supertux/menu/joystick_menu.cpp:170 src/supertux/moving_object.cpp:58
+#: src/editor/worldmap_objects.cpp:73
+msgid "X"
+msgstr "X"
+
+#: src/object/bicycle_platform.cpp:190 src/object/background.cpp:180
+#: src/object/pneumatic_platform.cpp:148
+#: src/supertux/menu/joystick_menu.cpp:172 src/supertux/moving_object.cpp:59
+#: src/editor/worldmap_objects.cpp:74
+msgid "Y"
+msgstr "Y"
+
+#: src/object/bicycle_platform.cpp:192
+msgid "Platforms"
+msgstr "Πλατφόρμες"
+
+#: src/object/bicycle_platform.cpp:193 src/object/circleplatform.cpp:54
+#: src/badguy/flame.cpp:58 src/badguy/rcrystallo.cpp:50
+#: src/badguy/crystallo.cpp:35
+msgid "Radius"
+msgstr "Ακτίνα"
+
+#: src/object/bicycle_platform.cpp:194
+msgid "Momentum change rate"
+msgstr "Ρυθμός αλλαγής αδράνειας"
+
+#: src/object/rain_particle_system.hpp:40
+msgid "Rain Particles"
+msgstr "Σωματίδια βροχής"
+
+#: src/object/platform.hpp:45
+msgid "Platform"
+msgstr "Πλατφόρμα"
+
+#: src/object/rock.hpp:42
+msgid "Rock"
+msgstr "Βράχος"
+
+#: src/object/music_object.hpp:41 src/supertux/menu/options_menu.cpp:393
+#: data//credits.stxt:294
+msgid "Music"
+msgstr "Μουσική"
+
+#: src/object/rusty_trampoline.hpp:39
+msgid "Rusty Trampoline"
+msgstr "Σκουριασμένο τραμπολίνο"
+
+#: src/object/particlesystem.hpp:57
+msgid "Particle system"
+msgstr "Σύστημα σωματιδίων"
+
+#: src/object/candle.cpp:75 src/object/torch.cpp:101
+msgid "Burning"
+msgstr "Κάψιμο"
+
+#: src/object/candle.cpp:76
+msgid "Flicker"
+msgstr "Τρεμούλιασμα"
+
+#: src/object/text_array_object.hpp:50
+msgid "Text array"
+msgstr "Πίνακας κειμένου"
+
+#: src/object/infoblock.hpp:36
+msgid "Info Block"
+msgstr "Μπλοκ πληροφοριών"
+
+#: src/object/powerup.cpp:191
+msgid "Disable gravity"
+msgstr "Απενεργοποίηση βαρύτητας"
+
+#: src/object/ambient_sound.hpp:62
+msgid "Ambient Sound"
+msgstr "Ήχος περιβάλλοντος"
+
+#: src/object/level_time.cpp:51 src/supertux/statistics.cpp:297
+#: src/editor/node_marker.cpp:124
+msgid "Time"
+msgstr "Χρόνος"
+
+#: src/object/hurting_platform.hpp:30
+msgid "Hurting Platform"
+msgstr "Πλατφόρμα που πονάει"
+
+#: src/object/icecrusher.cpp:83
+msgid "Sideways"
+msgstr "Στα πλάγια"
+
+#: src/object/background.cpp:182
+msgid "Fill"
+msgstr "Γέμισμα"
+
+#: src/object/background.cpp:184
+msgid "Alignment"
+msgstr "Στοίχιση"
+
+#: src/object/background.cpp:185
+msgid "none"
+msgstr "τίποτα"
+
+#: src/object/background.cpp:185 src/editor/object_settings.cpp:119
+msgid "left"
+msgstr "αριστερά"
+
+#: src/object/background.cpp:185 src/editor/object_settings.cpp:119
+msgid "right"
+msgstr "δεξιά"
+
+#: src/object/background.cpp:185
+msgid "top"
+msgstr "κορυφή"
+
+#: src/object/background.cpp:185
+msgid "bottom"
+msgstr "πάτος"
+
+#: src/object/background.cpp:188
+msgid "Scroll offset x"
+msgstr "Μετατόπιση κύλισης x"
+
+#: src/object/background.cpp:189
+msgid "Scroll offset y"
+msgstr "Μετατόπιση κύλισης y"
+
+#: src/object/background.cpp:190
+msgid "Scroll speed x"
+msgstr "Ταχύτητα κύλισης x"
+
+#: src/object/background.cpp:191
+msgid "Scroll speed y"
+msgstr "Ταχύτητα κύλισης y"
+
+#: src/object/background.cpp:192
+msgid "Parallax Speed x"
+msgstr "Ταχύτητα παράλλαξης x"
+
+#: src/object/background.cpp:193
+msgid "Parallax Speed y"
+msgstr "Ταχύτητα παράλλαξης y"
+
+#: src/object/background.cpp:194
+msgid "Top image"
+msgstr "Κορυφαία εικόνα"
+
+#: src/object/background.cpp:195
+msgid "Image"
+msgstr "Εικόνα"
+
+#: src/object/background.cpp:196
+msgid "Bottom image"
+msgstr "Εικόνα πυθμένα"
+
+#: src/object/background.cpp:197
+msgid "Colour"
+msgstr "Χρώμα"
+
+#: src/object/background.cpp:198 src/object/tilemap.cpp:240
+#: src/object/gradient.cpp:142
+msgid "Draw target"
+msgstr "Σχεδίαση στόχου"
+
+#: src/object/background.cpp:199 src/object/tilemap.cpp:241
+#: src/object/gradient.cpp:143
+msgid "Normal"
+msgstr "Φυσιολογικό"
+
+#: src/object/background.cpp:199 src/object/tilemap.cpp:241
+#: src/object/gradient.cpp:143
+msgid "Lightmap"
+msgstr "Φωτεινός χάρτης"
+
+#: src/object/shard.hpp:34
+msgid "Shard"
+msgstr "Θραύσμα αγγείου"
+
+#: src/object/rublight.cpp:55
+msgid "Fading Speed"
+msgstr "Ταχύτητα εξασθένισης"
+
+#: src/object/rublight.cpp:56
+msgid "Glowing Strength"
+msgstr "Λαμπερή δύναμη"
+
+#: src/object/wind.cpp:78 src/object/custom_particle_system.cpp:499
+msgid "Speed X"
+msgstr "Ταχύτητα Χ"
+
+#: src/object/wind.cpp:79 src/object/custom_particle_system.cpp:500
+msgid "Speed Y"
+msgstr "Ταχύτητα Υ"
+
+#: src/object/wind.cpp:80
+msgid "Acceleration"
+msgstr "Επιτάχυνση"
+
+#: src/object/wind.cpp:81
+msgid "Blowing"
+msgstr "Έκρηξη"
+
+#: src/object/wind.cpp:82
+msgid "Affects Badguys"
+msgstr "Επιπτώσεις Κακοί"
+
+#: src/object/wind.cpp:83
+msgid "Affects Objects"
+msgstr "Επηρεάζει αντικείμενα"
+
+#: src/object/wind.cpp:84
+msgid "Affects Player"
+msgstr "Επηρεάζει τον παίκτη"
+
+#: src/object/wind.cpp:85
+msgid "Fancy Particles"
+msgstr "Φανταχτερά σωματίδια"
+
+#: src/object/bicycle_platform.hpp:64
+msgid "Bicycle Platform"
+msgstr "Πλατφόρμα ποδηλάτου"
+
+#: src/object/platform.cpp:76 src/object/thunderstorm.cpp:69
+#: src/object/tilemap.cpp:254
+msgid "Running"
+msgstr "Τρέχοντας"
+
+#: src/object/rock.cpp:192
+msgid "On-grab script"
+msgstr "Σενάριο κατά τη λήψη"
+
+#: src/object/rock.cpp:193
+msgid "On-ungrab script"
+msgstr "Σενάριο που δεν αποτυπώνεται"
+
+#: src/object/particlesystem_interactive.hpp:48
+msgid "Interactive particle system"
+msgstr "Διαδραστικό σύστημα σωματιδίων"
+
+#: src/object/thunderstorm.cpp:70
+msgid "Interval"
+msgstr "Μεσοδιάστημα"
+
+#: src/object/thunderstorm.cpp:71
+msgid "Strike Script"
+msgstr "Σενάριο απεργίας"
+
+#: src/object/cloud_particle_system.hpp:41
+msgid "Cloud Particles"
+msgstr "Σωματίδια σύννεφου"
+
+#: src/object/custom_particle_system.cpp:423
+msgid "Texture"
+msgstr "Υφή"
+
+#: src/object/custom_particle_system.cpp:425
+msgid "Amount"
+msgstr "Ποσό"
+
+#: src/object/custom_particle_system.cpp:426 src/object/circleplatform.cpp:56
+#: src/editor/particle_editor.cpp:141
+msgid "Delay"
+msgstr "Καθυστέρηση"
+
+#: src/object/custom_particle_system.cpp:427
+msgid "Lifetime"
+msgstr "Διάρκεια Ζωής"
+
+#: src/object/custom_particle_system.cpp:428
+msgid "Lifetime variation"
+msgstr "Παραλλαγή διάρκειας ζωής"
+
+#: src/object/custom_particle_system.cpp:429
+#: src/editor/particle_editor.cpp:164
+msgid "Birth mode"
+msgstr "Λειτουργία γέννησης"
+
+#: src/object/custom_particle_system.cpp:430
+#: src/object/custom_particle_system.cpp:465 src/object/gradient.cpp:149
+#: src/supertux/menu/keyboard_menu.cpp:58
+#: src/supertux/menu/joystick_menu.cpp:106
+#: src/supertux/menu/joystick_menu.cpp:213 src/editor/object_settings.cpp:131
+#: src/editor/particle_editor.cpp:162 src/editor/particle_editor.cpp:168
+msgid "None"
+msgstr "Κανένας"
+
+#: src/object/custom_particle_system.cpp:430
+#: src/object/custom_particle_system.cpp:465
+#: src/editor/particle_editor.cpp:166
+msgid "Shrink"
+msgstr "Μαζεύω"
+
+#: src/object/custom_particle_system.cpp:434
+#: src/editor/particle_editor.cpp:172
+msgid "Birth easing"
+msgstr "Χαλάρωση τοκετού"
+
+#: src/object/custom_particle_system.cpp:436
+#: src/object/custom_particle_system.cpp:471 src/editor/node_marker.cpp:129
+msgid "No easing"
+msgstr "Καμία χαλάρωση"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:130
+msgid "Quad in"
+msgstr "Τετράδυμο σε"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:130
+msgid "Quad out"
+msgstr "Τετράδυμο έξω"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:130
+msgid "Quad in/out"
+msgstr "Τετράδυμο μέσα/έξω"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:131
+msgid "Cubic in"
+msgstr "Κυβικά μέσα"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:131
+msgid "Cubic out"
+msgstr "Κυβικά έξω"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:131
+msgid "Cubic in/out"
+msgstr "Κυβικά μέσα/έξω"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:132
+msgid "Quart in"
+msgstr "Τετάρτη μέσα"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:132
+msgid "Quart out"
+msgstr "Τέταρτο έξω"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:132
+msgid "Quart in/out"
+msgstr "Τεταρτάκι μέσα/έξω"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:133
+msgid "Quint in"
+msgstr "Κουμπί μέσα"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:133
+msgid "Quint out"
+msgstr "Περάστε έξω"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:133
+msgid "Quint in/out"
+msgstr "Περάστε μέσα/έξω"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:134
+msgid "Sine in"
+msgstr "Ημίτονο σε"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:134
+msgid "Sine out"
+msgstr "Ημίτονο έξω"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:134
+msgid "Sine in/out"
+msgstr "Ημίτονο σε/έξω"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:135
+msgid "Circular in"
+msgstr "Εγκύκλιος μέσα"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:135
+msgid "Circular out"
+msgstr "Κυκλικά έξω"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:135
+msgid "Circular in/out"
+msgstr "Κυκλικό μέσα/έξω"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:136
+msgid "Exponential in"
+msgstr "Εκθετική σε"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:136
+msgid "Exponential out"
+msgstr "Εκθετικά έξω"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:136
+msgid "Exponential in/out"
+msgstr "Εκθετικά μέσα/έξω"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:137
+msgid "Elastic in"
+msgstr "Ελαστικό μέσα"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:137
+msgid "Elastic out"
+msgstr "Ελαστικό έξω"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:137
+msgid "Elastic in/out"
+msgstr "Ελαστικό μέσα/έξω"
+
+#: src/object/custom_particle_system.cpp:445
+#: src/object/custom_particle_system.cpp:480 src/editor/node_marker.cpp:138
+msgid "Back in"
+msgstr "Πίσω στο"
+
+#: src/object/custom_particle_system.cpp:445
+#: src/object/custom_particle_system.cpp:480 src/editor/node_marker.cpp:138
+msgid "Back out"
+msgstr "Υποχώρηση"
+
+#: src/object/custom_particle_system.cpp:445
+#: src/object/custom_particle_system.cpp:480 src/editor/node_marker.cpp:138
+msgid "Back in/out"
+msgstr "Πίσω μέσα/έξω"
+
+#: src/object/custom_particle_system.cpp:446
+#: src/object/custom_particle_system.cpp:481 src/editor/node_marker.cpp:139
+msgid "Bounce in"
+msgstr "Αναπήδηση μέσα"
+
+#: src/object/custom_particle_system.cpp:446
+#: src/object/custom_particle_system.cpp:481 src/editor/node_marker.cpp:139
+msgid "Bounce out"
+msgstr "Αναπήδηση έξω"
+
+#: src/object/custom_particle_system.cpp:446
+#: src/object/custom_particle_system.cpp:481 src/editor/node_marker.cpp:139
+msgid "Bounce in/out"
+msgstr "Αναπήδηση μέσα/έξω"
+
+#: src/object/custom_particle_system.cpp:462
+msgid "Birth time"
+msgstr "Ώρα γέννησης"
+
+#: src/object/custom_particle_system.cpp:463
+msgid "Birth time variation"
+msgstr "Διακύμανση ώρας γέννησης"
+
+#: src/object/custom_particle_system.cpp:464
+#: src/editor/particle_editor.cpp:170
+msgid "Death mode"
+msgstr "Λειτουργία θανάτου"
+
+#: src/object/custom_particle_system.cpp:469
+#: src/editor/particle_editor.cpp:173
+msgid "Death easing"
+msgstr "Θανατηφόρα ανακούφιση"
+
+#: src/object/custom_particle_system.cpp:497
+msgid "Death time"
+msgstr "Ώρα θανάτου"
+
+#: src/object/custom_particle_system.cpp:498
+msgid "Death time variation"
+msgstr "Παραλλαγή χρόνου θανάτου"
+
+#: src/object/custom_particle_system.cpp:501
+msgid "Speed X (variation)"
+msgstr "Ταχύτητα X (παραλλαγή)"
+
+#: src/object/custom_particle_system.cpp:502
+msgid "Speed Y (variation)"
+msgstr "Ταχύτητα Υ (παραλλαγή)"
+
+#: src/object/custom_particle_system.cpp:503
+msgid "Acceleration X"
+msgstr "Επιτάχυνση Χ"
+
+#: src/object/custom_particle_system.cpp:504
+msgid "Acceleration Y"
+msgstr "Επιτάχυνση Υ"
+
+#: src/object/custom_particle_system.cpp:505
+msgid "Friction X"
+msgstr "Τριβή Χ"
+
+#: src/object/custom_particle_system.cpp:506
+msgid "Friction Y"
+msgstr "Τριβή Υ"
+
+#: src/object/custom_particle_system.cpp:507
+#: src/editor/particle_editor.cpp:189
+msgid "Feather factor"
+msgstr "Παράγοντας φτερό"
+
+#: src/object/custom_particle_system.cpp:508
+msgid "Rotation"
+msgstr "Περιστροφή"
+
+#: src/object/custom_particle_system.cpp:509
+msgid "Rotation (variation)"
+msgstr "Περιστροφή (παραλλαγή)"
+
+#: src/object/custom_particle_system.cpp:510
+#: src/editor/particle_editor.cpp:195
+msgid "Rotation speed"
+msgstr "Ταχύτητα περιστροφής"
+
+#: src/object/custom_particle_system.cpp:511
+msgid "Rotation speed (variation)"
+msgstr "Ταχύτητα περιστροφής (παραλλαγή)"
+
+#: src/object/custom_particle_system.cpp:512
+#: src/editor/particle_editor.cpp:200
+msgid "Rotation acceleration"
+msgstr "Επιτάχυνση περιστροφής"
+
+#: src/object/custom_particle_system.cpp:513
+msgid "Rotation friction"
+msgstr "Τριβή περιστροφής"
+
+#: src/object/custom_particle_system.cpp:514
+#: src/editor/particle_editor.cpp:208
+msgid "Rotation mode"
+msgstr "Λειτουργία περιστροφής"
+
+#: src/object/custom_particle_system.cpp:515
+#: src/editor/particle_editor.cpp:206
+msgid "Fixed"
+msgstr "Σταθερός"
+
+#: src/object/custom_particle_system.cpp:515
+#: src/editor/particle_editor.cpp:205
+msgid "Facing"
+msgstr "Αντιμέτωπος"
+
+#: src/object/custom_particle_system.cpp:515
+#: src/editor/particle_editor.cpp:204
+msgid "Wiggling"
+msgstr "Κουνώντας"
+
+#: src/object/custom_particle_system.cpp:519
+#: src/editor/particle_editor.cpp:219
+msgid "Collision mode"
+msgstr "Λειτουργία σύγκρουσης"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "None (pass through)"
+msgstr "Κανένα (πέρασμα)"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Stick"
+msgstr "Ραβδί"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Stick Forever"
+msgstr "Κολλήστε για πάντα"
+
+#: src/object/custom_particle_system.cpp:520
+#: src/editor/particle_editor.cpp:214
+msgid "Bounce (heavy)"
+msgstr "Αναπήδηση (βαρύ)"
+
+#: src/object/custom_particle_system.cpp:520
+#: src/editor/particle_editor.cpp:213
+msgid "Bounce (light)"
+msgstr "Αναπήδηση (ελαφριά)"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Kill particle"
+msgstr "Σκοτώστε το σωματίδιο"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Fade out particle"
+msgstr "Εξασθενεί το σωματίδιο"
+
+#: src/object/custom_particle_system.cpp:524
+msgid "Delete if off-screen"
+msgstr "Διαγραφή εάν είναι εκτός οθόνης"
+
+#: src/object/custom_particle_system.cpp:525
+#: src/editor/particle_editor.cpp:224
+msgid "Never"
+msgstr "Ποτέ"
+
+#: src/object/custom_particle_system.cpp:525
+#: src/editor/particle_editor.cpp:223
+msgid "Only on exit"
+msgstr "Μόνο στην έξοδο"
+
+#: src/object/custom_particle_system.cpp:525
+msgid "Always"
+msgstr "Πάντα"
+
+#: src/object/custom_particle_system.cpp:529
+msgid "Cover screen"
+msgstr "Εξώφυλλο οθόνη"
+
+#: src/object/ispy.hpp:33
+msgid "Ispy"
+msgstr "Ispy"
+
+#: src/object/skull_tile.hpp:32
+msgid "Skull Tile"
+msgstr "Πλακάκι κρανίου"
+
+#: src/object/particle_zone.cpp:80
+msgid "Particle Name"
+msgstr "Όνομα σωματιδίου"
+
+#: src/object/particle_zone.cpp:81
+msgid "Zone Type"
+msgstr "Τύπος ζώνης"
+
+#: src/object/particle_zone.cpp:82
+msgid "Spawn"
+msgstr "Ωα ψαριών"
+
+#: src/object/particle_zone.cpp:82
+msgid "Life zone"
+msgstr "Ζώνη ζωής"
+
+#: src/object/particle_zone.cpp:82
+msgid "Life zone (clear)"
+msgstr "Ζώνη ζωής (καθαρή)"
+
+#: src/object/particle_zone.cpp:82
+msgid "Kill particles"
+msgstr "Σκοτώστε τα σωματίδια"
+
+#: src/object/particle_zone.cpp:82
+msgid "Clear particles"
+msgstr "Διαυγή σωματίδια"
+
+#: src/object/weak_block.cpp:211
+msgid "Linked"
+msgstr "Συνδεδεμένο"
+
+#: src/object/decal.hpp:40
+msgid "Decal"
+msgstr "Decal"
+
+#: src/object/tilemap.cpp:229
+msgid "Resize offset x"
+msgstr "Αλλαγή μεγέθους μετατόπιση x"
+
+#: src/object/tilemap.cpp:230
+msgid "Resize offset y"
+msgstr "Αλλαγή μεγέθους μετατόπιση y"
+
+#: src/object/tilemap.cpp:232 src/supertux/menu/editor_sector_menu.cpp:39
+#: src/editor/object_option.cpp:173
+msgid "Width"
+msgstr "Πλάτος"
+
+#: src/object/tilemap.cpp:233 src/supertux/menu/editor_sector_menu.cpp:40
+#: src/editor/object_option.cpp:174
+msgid "Height"
+msgstr "Ύψος"
+
+#: src/object/tilemap.cpp:235
+msgid "Alpha"
+msgstr "Άλφα"
+
+#: src/object/tilemap.cpp:236
+msgid "Speed x"
+msgstr "Ταχύτητα x"
+
+#: src/object/tilemap.cpp:237
+msgid "Speed y"
+msgstr "Ταχύτητα y"
+
+#: src/object/tilemap.cpp:238
+msgid "Tint"
+msgstr "Απόχρωση"
+
+#: src/object/tilemap.cpp:257 src/supertux/menu/editor_tilegroup_menu.cpp:26
+#: src/editor/toolbox_widget.cpp:90
+msgid "Tiles"
+msgstr "Πλακάκια"
+
+#: src/object/gradient.cpp:128
+msgid "Left Colour"
+msgstr "Αριστερό χρώμα"
+
+#: src/object/gradient.cpp:129
+msgid "Right Colour"
+msgstr "Δεξί χρώμα"
+
+#: src/object/gradient.cpp:131
+msgid "Top Colour"
+msgstr "Επάνω χρώμα"
+
+#: src/object/gradient.cpp:132
+msgid "Bottom Colour"
+msgstr "Κάτω χρώμα"
+
+#: src/object/gradient.cpp:138
+msgid "Vertical"
+msgstr "Κάθετα"
+
+#: src/object/gradient.cpp:138
+msgid "Horizontal"
+msgstr "Οριζόντια"
+
+#: src/object/gradient.cpp:138
+msgid "Vertical (whole sector)"
+msgstr "Κάθετη (ολόκληρος ο τομέας)"
+
+#: src/object/gradient.cpp:138
+msgid "Horizontal (whole sector)"
+msgstr "Οριζόντια (όλος ο τομέας)"
+
+#: src/object/gradient.cpp:148
+msgid "Blend mode"
+msgstr "Λειτουργία ανάμειξης"
+
+#: src/object/gradient.cpp:149
+msgid "Blend"
+msgstr "Μείγμα"
+
+#: src/object/gradient.cpp:149
+msgid "Additive"
+msgstr "Πρόσθετος"
+
+#: src/object/gradient.cpp:149
+msgid "Modulate"
+msgstr "Μετατονίζω"
+
+#: src/object/bumper.hpp:35
+msgid "Bumper"
+msgstr "Προφυλακτήρας"
+
+#: src/object/unstable_tile.hpp:37
+msgid "Unstable Tile"
+msgstr "Ασταθές πλακίδιο"
+
+#: src/object/brick.hpp:31
+msgid "Brick"
+msgstr "Τούβλο"
+
+#: src/object/invisible_wall.hpp:34
+msgid "Invisible Wall"
+msgstr "Αόρατος τοίχος"
+
+#: src/object/spotlight.hpp:51
+msgid "Spotlight"
+msgstr "Προβολέας"
+
+#: src/object/scripted_object.hpp:39
+msgid "Scripted Object"
+msgstr "Σενάριο Αντικείμενο"
+
+#: src/object/custom_particle_system_file.hpp:39
+msgid "Custom Particles from file"
+msgstr "Προσαρμοσμένα σωματίδια από αρχείο"
+
+#: src/object/coin.hpp:78
+msgid "Heavy Coin"
+msgstr "Βαρύ νόμισμα"
+
+#: src/object/bonus_block.hpp:56
+msgid "Bonus Block"
+msgstr "Μπλοκ μπόνους"
+
+#: src/object/magicblock.hpp:41
+msgid "Magic Tile"
+msgstr "Μαγικό Πλακάκι"
+
+#: src/object/camera.hpp:67
+msgid "Camera"
+msgstr "Κάμερα"
+
+#: src/object/textscroller.hpp:44
+msgid "Text Scroller"
+msgstr "Κύλιση κειμένου"
+
+#: src/gui/menu_badguy_select.cpp:94
+msgid "List of enemies"
+msgstr "Λίστα εχθρών"
+
+#: src/gui/menu_badguy_select.cpp:96
+msgid "Select enemy"
+msgstr "Επιλέξτε εχθρό"
+
+#: src/gui/menu_badguy_select.cpp:97
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: src/gui/menu_badguy_select.cpp:107 src/gui/menu_color.cpp:37
+#: src/gui/dialog.hpp:81 src/gui/menu_script.cpp:47
+#: src/supertux/menu/editor_sector_menu.cpp:46
+#: src/supertux/menu/editor_levelset_menu.cpp:62
+#: src/supertux/menu/addon_menu.cpp:349
+#: src/supertux/menu/editor_new_levelset_menu.cpp:37
+#: src/supertux/menu/editor_level_menu.cpp:45 src/editor/object_menu.cpp:43
+msgid "OK"
+msgstr "Εντάξει"
+
+#: src/gui/menu_badguy_select.cpp:136
+msgid "Do you want to delete this badguy from the list?"
+msgstr "Θέλεις να διαγράψεις αυτό τον κακό από την λίστα;"
+
+#: src/gui/menu_badguy_select.cpp:137 src/gui/dialog.hpp:90
+#: src/supertux/menu/editor_level_select_menu.cpp:164
+#: src/supertux/menu/editor_menu.cpp:164 src/editor/editor.cpp:583
+msgid "Yes"
+msgstr "Ναι"
+
+#: src/gui/menu_badguy_select.cpp:140 src/gui/dialog.hpp:91
+#: src/supertux/menu/editor_level_select_menu.cpp:168
+#: src/supertux/menu/editor_menu.cpp:167 src/editor/particle_editor.cpp:780
+#: src/editor/editor.cpp:590
+msgid "No"
+msgstr "Όχι"
+
+#: src/gui/menu_color.cpp:24
+msgid "Mix the colour"
+msgstr "Ανακάτεμα του χρώματος"
+
+#: src/gui/menu_filesystem.cpp:112 src/gui/menu_paths.cpp:44
+#: src/supertux/menu/particle_editor_save_as.cpp:42
+#: src/supertux/menu/editor_sectors_menu.cpp:45
+#: src/supertux/menu/editor_sectors_menu.cpp:95
+#: src/supertux/menu/editor_sectors_menu.cpp:100
+#: src/supertux/menu/editor_objectgroup_menu.cpp:42
+#: src/supertux/menu/editor_tilegroup_menu.cpp:36
+#: src/supertux/menu/editor_level_select_menu.cpp:173
+#: src/supertux/menu/editor_save_as.cpp:42
+#: src/supertux/menu/particle_editor_open.cpp:43
+#: src/editor/particle_editor.cpp:784 src/editor/editor.cpp:594
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: src/gui/menu_script.cpp:28
+msgid "Edit script"
+msgstr "Επεξεργασία σεναρίου"
+
+#: src/gui/menu_paths.cpp:30
+msgid "Clone"
+msgstr "Κλώνος"
+
+#: src/gui/menu_paths.cpp:38
+msgid ""
+"An error occured and the game could\n"
+"not clone the path. Please contact\n"
+"the developers for support."
+msgstr "Παρουσιάστηκε σφάλμα και το παιχνίδι μπορούσε\nμην κλωνοποιήσετε το μονοπάτι. Παρακαλώ επικοινώνησε\nτους προγραμματιστές για υποστήριξη."
+
+#: src/gui/menu_paths.cpp:41
+msgid "Bind"
+msgstr "Δένω"
+
+#: src/gui/menu_paths.cpp:63 src/supertux/menu/integrations_menu.cpp:60
+#: src/supertux/menu/contrib_menu.cpp:161 src/supertux/menu/debug_menu.cpp:75
+#: src/supertux/menu/editor_level_select_menu.cpp:88
+#: src/supertux/menu/worldmap_cheat_menu.cpp:55
+#: src/supertux/menu/worldmap_cheat_menu.cpp:153
+#: src/supertux/menu/editor_levelset_select_menu.cpp:114
+#: src/supertux/menu/options_menu.cpp:442
+#: src/supertux/menu/profile_menu.cpp:54 src/supertux/menu/addon_menu.cpp:213
+#: src/supertux/menu/editor_new_levelset_menu.cpp:40
+#: src/supertux/menu/world_set_menu.cpp:33
+#: src/supertux/menu/web_asset_menu.cpp:48
+#: src/supertux/menu/keyboard_menu.cpp:49
+#: src/supertux/menu/language_menu.cpp:56
+#: src/supertux/menu/joystick_menu.cpp:97
+#: src/supertux/menu/contrib_levelset_menu.cpp:67
+#: src/supertux/menu/cheat_menu.cpp:44
+#: src/supertux/menu/editor_delete_level_menu.cpp:43
+msgid "Back"
+msgstr "Πίσω"
+
+#: src/badguy/toad.hpp:37
+msgid "Toad"
+msgstr "Φρύνος"
+
+#: src/badguy/mrtree.hpp:29
+msgid "Walking Tree"
+msgstr "Δέντρο που περπατά"
+
+#: src/badguy/plant.hpp:33
+msgid "Plant"
+msgstr "Φυτό"
+
+#: src/badguy/crystallo.hpp:30
+msgid "Crystallo"
+msgstr "Κρύσταλλο"
+
+#: src/badguy/totem.hpp:36
+msgid "Totem"
+msgstr "Τοτέμ"
+
+#: src/badguy/stalactite.hpp:38
+msgid "Stalactite"
+msgstr "Σταλακτίτης"
+
+#: src/badguy/haywire.hpp:45
+msgid "Haywire"
+msgstr "Αχυρόσυρμα"
+
+#: src/badguy/dispenser.hpp:48
+msgid "Dispenser"
+msgstr "Σκορπιστής"
+
+#: src/badguy/short_fuse.hpp:29
+msgid "Short Fuse"
+msgstr "Κοντή ασφάλεια"
+
+#: src/badguy/zeekling.hpp:36
+msgid "Zeekling"
+msgstr "Zeekling"
+
+#: src/badguy/mriceblock.hpp:46
+msgid "Iceblock"
+msgstr "Μπλοκ πάγου"
+
+#: src/badguy/scrystallo.cpp:52
+msgid "Walk Radius"
+msgstr "Ακτίνα πεζοπορίας"
+
+#: src/badguy/scrystallo.cpp:53
+msgid "Awakening Radius"
+msgstr "Ακτίνα αφύπνισης"
+
+#: src/badguy/jumpy.hpp:36
+msgid "Jumpy"
+msgstr "Jumpy"
+
+#: src/badguy/captainsnowball.hpp:31
+msgid "Captain Snowball"
+msgstr "Καπετάνιος χιονόμπαλα"
+
+#: src/badguy/ghosttree.hpp:42
+msgid "Ghost Tree"
+msgstr "Δέντρο φάντασμα"
+
+#: src/badguy/willowisp.cpp:323
+msgid "Track range"
+msgstr "Έκταση πίστας"
+
+#: src/badguy/willowisp.cpp:324
+msgid "Vanish range"
+msgstr "Εκταση εξαφάνισης"
+
+#: src/badguy/willowisp.cpp:325
+msgid "Fly speed"
+msgstr "Ταχύτητα μύγας"
+
+#: src/badguy/kugelblitz.hpp:39
+msgid "Kugelblitz"
+msgstr "Kugelblitz"
+
+#: src/badguy/mole_rock.hpp:43
+msgid "Mole's rock"
+msgstr "Βράχος τυφλοπόντικα"
+
+#: src/badguy/badguy.cpp:849
+msgid "Death script"
+msgstr "Σενάριο θανάτου"
+
+#: src/badguy/sspiky.hpp:36
+msgid "Sleeping Spiky"
+msgstr "Ο ύπνος αιχμηρός"
+
+#: src/badguy/yeti_stalactite.hpp:33
+msgid "Yeti's Stalactite"
+msgstr "Ο Σταλακτίτης του Yeti"
+
+#: src/badguy/livefire.hpp:37
+msgid "Walking Flame"
+msgstr "Φλόγα περπατήματος"
+
+#: src/badguy/livefire.hpp:68
+msgid "Sleeping Flame"
+msgstr "Φλόγα ύπνου"
+
+#: src/badguy/livefire.hpp:84
+msgid "Dormant Flame"
+msgstr "Αδρανή Φλόγα"
+
+#: src/badguy/owl.hpp:39
+msgid "Owl"
+msgstr "Κουκουβάγια"
+
+#: src/badguy/igel.hpp:34
+msgid "Igel"
+msgstr "Σκατζόχοιρος"
+
+#: src/badguy/darttrap.cpp:126
+msgid "Initial delay"
+msgstr "Αρχική καθυστέρηση"
+
+#: src/badguy/darttrap.cpp:128
+msgid "Fire delay"
+msgstr "Καθυστέρηση πυρός"
+
+#: src/badguy/darttrap.cpp:129
+msgid "Ammo"
+msgstr "Πυρομαχικά"
+
+#: src/badguy/snowball.hpp:29
+msgid "Snowball"
+msgstr "Χιονόμπαλα"
+
+#: src/badguy/smartblock.hpp:29
+msgid "Smartblock"
+msgstr "Έξυπνο μπλοκ"
+
+#: src/badguy/yeti.cpp:369
+msgid "Fixed position"
+msgstr "Σταθερή θέση"
+
+#: src/badguy/yeti.cpp:370
+msgid "Lives"
+msgstr "Ζωές"
+
+#: src/badguy/goldbomb.hpp:49
+msgid "Gold Bomb"
+msgstr "Χρυσή βόμβα"
+
+#: src/badguy/flyingsnowball.hpp:32
+msgid "Flying Snowball"
+msgstr "Πετώντας χιονόμπαλα"
+
+#: src/badguy/skullyhop.hpp:37
+msgid "Skullyhop"
+msgstr "Skullyhop"
+
+#: src/badguy/kamikazesnowball.hpp:32
+msgid "Snowshot"
+msgstr "Πυροβολισμός χιονιού"
+
+#: src/badguy/kamikazesnowball.hpp:52
+msgid "Leafshot"
+msgstr "Φύλλο βολή"
+
+#: src/badguy/flame.hpp:41
+msgid "Flame"
+msgstr "Φλόγα"
+
+#: src/badguy/scrystallo.hpp:30
+msgid "Sleeping Crystallo"
+msgstr "Κοιμώμενος Κρύσταλλο"
+
+#: src/badguy/poisonivy.hpp:30
+msgid "Spring Leaf"
+msgstr "Ανοιξιάτικο φύλλο"
+
+#: src/badguy/willowisp.hpp:57
+msgid "Will o' Wisp"
+msgstr "Will o' Wisp"
+
+#: src/badguy/badguy.hpp:53
+msgid "Badguy"
+msgstr "Κακός"
+
+#: src/badguy/ghostflame.hpp:30
+msgid "Ghost Flame"
+msgstr "Φλόγα φάντασμα"
+
+#: src/badguy/rcrystallo.hpp:30
+msgid "Roof Crystallo"
+msgstr "Κρύσταλλο οροφής"
+
+#: src/badguy/spiky.hpp:30
+msgid "Spiky"
+msgstr "Ακιδωτός"
+
+#: src/badguy/walkingleaf.hpp:30
+msgid "Autumn Leaf"
+msgstr "Φθινοπωρινό φύλλο"
+
+#: src/badguy/owl.cpp:227
+msgid "Carry"
+msgstr "Μεταφέρω"
+
+#: src/badguy/darttrap.hpp:33
+msgid "Dart Trap"
+msgstr "Βελοπαγίδα"
+
+#: src/badguy/skydive.hpp:38
+msgid "Skydive"
+msgstr "Αλεξίπτωτο"
+
+#: src/badguy/yeti.hpp:37
+msgid "Yeti"
+msgstr "Γιέτι"
+
+#: src/badguy/mole.hpp:39
+msgid "Mole"
+msgstr "Τυφλοπόντικας"
+
+#: src/badguy/mrbomb.hpp:42
+msgid "Bomb"
+msgstr "Βόμβα"
+
+#: src/badguy/walking_candle.hpp:40
+msgid "Walking Candle"
+msgstr "Κερί περπατήματος"
+
+#: src/badguy/angrystone.hpp:34
+msgid "Angry Stone"
+msgstr "Θυμωμένη πέτρα"
+
+#: src/badguy/spidermite.hpp:35
+msgid "Spider"
+msgstr "Αράχνη"
+
+#: src/badguy/ghoul.hpp:30
+msgid "Ghoul"
+msgstr "Λάμια"
+
+#: src/badguy/snowman.hpp:28
+msgid "Snowman"
+msgstr "Χιονάνθρωπος"
+
+#: src/badguy/stumpy.hpp:35
+msgid "Walking Stump"
+msgstr "Βαδιστικό κούτσουρο"
+
+#: src/badguy/fish.hpp:40
+msgid "Fish"
+msgstr "Ψάρι"
+
+#: src/badguy/dispenser.cpp:445
+msgid "Interval (seconds)"
+msgstr "Μεσοδιάστημα (δευτερόλεπτα)"
+
+#: src/badguy/dispenser.cpp:446
+msgid "Random"
+msgstr "Τυχαίο"
+
+#: src/badguy/dispenser.cpp:447 data//images/engine/editor/objects.stoi:4
+msgid "Enemies"
+msgstr "Εχθροί"
+
+#: src/badguy/dispenser.cpp:448
+msgid "Limit dispensed badguys"
+msgstr "Περιορίστε τους κακούς που διανέμονται"
+
+#: src/badguy/dispenser.cpp:450
+msgid "Obey Gravity"
+msgstr "Υπακούστε στη Βαρύτητα"
+
+#: src/badguy/dispenser.cpp:452
+msgid "Max concurrent badguys"
+msgstr "Max ταυτόχρονα κακοί"
+
+#: src/badguy/dispenser.cpp:454 src/supertux/menu/editor_levelset_menu.cpp:60
+msgid "Type"
+msgstr "Μορφή"
+
+#: src/badguy/dispenser.cpp:455
+msgid "dropper"
+msgstr "σταγονόμετρο"
+
+#: src/badguy/dispenser.cpp:455
+msgid "rocket launcher"
+msgstr "εκτοξευτής ρουκέτας"
+
+#: src/badguy/dispenser.cpp:455
+msgid "cannon"
+msgstr "κανόνι"
+
+#: src/badguy/dispenser.cpp:455
+msgid "invisible"
+msgstr "αόρατο"
+
+#: src/badguy/snail.hpp:42
+msgid "Snail"
+msgstr "Σαλιγκάρι"
+
+#: src/badguy/smartball.hpp:31
+msgid "Smartball"
+msgstr "Έξυπνη μπάλα"
+
+#: src/badguy/bouncing_snowball.hpp:32
+msgid "Bouncing Snowball"
+msgstr "Χοροπηδηχτή χιονόμπαλα"
+
+#: src/badguy/iceflame.hpp:33
+msgid "Ice Flame"
+msgstr "Φλόγα πάγου"
+
+#: src/badguy/dart.hpp:43
+msgid "Dart"
+msgstr "Βελάκι"
+
+#: src/supertux/statistics.cpp:54
+msgid "Max coins collected:"
+msgstr "Μέγιστος αριθμός νομισμάτων που συγκεντρώθηκαν:"
+
+#: src/supertux/statistics.cpp:55
+msgid "Max fragging:"
+msgstr "Μέγιστο fragging:"
+
+#: src/supertux/statistics.cpp:56
+msgid "Max secrets found:"
+msgstr "Μέγιστα μυστικά που βρέθηκαν:"
+
+#: src/supertux/statistics.cpp:57
+msgid "Best time completed:"
+msgstr "Καλύτερος χρόνος ολοκλήρωσης:"
+
+#: src/supertux/statistics.cpp:58
+msgid "Level target time:"
+msgstr "Χρόνος στόχος επιπέδου:"
+
+#: src/supertux/statistics.cpp:149 src/supertux/levelintro.cpp:160
+msgid "Best Level Statistics"
+msgstr "Καλύτερα Στατιστικά Επιπέδου"
+
+#: src/supertux/statistics.cpp:238
+msgid "You"
+msgstr "Εσύ"
+
+#: src/supertux/statistics.cpp:240
+msgid "Best"
+msgstr "Καλύτερος"
+
+#: src/supertux/statistics.cpp:242 src/supertux/levelintro.cpp:166
+msgid "Coins"
+msgstr "Νομίσματα"
+
+#: src/supertux/statistics.cpp:265
+msgid "Badguys"
+msgstr "Κακοί"
+
+#: src/supertux/statistics.cpp:281 src/supertux/levelintro.cpp:172
+msgid "Secrets"
+msgstr "Μυστικά"
+
+#: src/supertux/game_object.hpp:78
+msgid "Unknown object"
+msgstr "Άγνωστο αντικείμενο"
+
+#: src/supertux/sector.cpp:414
+msgid "Press escape to skip"
+msgstr "Πατήστε το escape για παράβλεψη"
+
+#: src/supertux/command_line_arguments.cpp:94
+#, c-format
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "Χρήση: {} [OPTIONS] [LEVELFILE]"
+
+#: src/supertux/command_line_arguments.cpp:95
+msgid "General Options:"
+msgstr "Γενικές Επιλογές:"
+
+#: src/supertux/command_line_arguments.cpp:96
+msgid "  -h, --help                   Show this help message and quit"
+msgstr "-h, --help Εμφάνισε αυτό το μήνυμα βοήθειας και έξοδος"
+
+#: src/supertux/command_line_arguments.cpp:97
+msgid "  -v, --version                Show SuperTux version and quit"
+msgstr "-v, --version Εμφάνισε την έκδοση του SuperTux και έξοδος"
+
+#: src/supertux/command_line_arguments.cpp:98
+msgid "  --verbose                    Print verbose messages"
+msgstr "--verbose Εκτύπωσε λεπτομερή μηνύματα"
+
+#: src/supertux/command_line_arguments.cpp:99
+msgid "  --debug                      Print extra verbose messages"
+msgstr "--debug Εκτύπωσε επιπλέον λεπτομερή μηνύματα"
+
+#: src/supertux/command_line_arguments.cpp:100
+msgid ""
+"  --print-datadir              Print SuperTux's primary data directory."
+msgstr "--print-datadir Εκτύπωση του κύριου καταλόγου δεδομένων του SuperTux"
+
+#: src/supertux/command_line_arguments.cpp:101
+msgid ""
+"  --acknowledgements           Print the licenses of libraries used by "
+"SuperTux."
+msgstr "--acknowledgements             Εκτυπώστε τις άδειες των βιβλιοθηκών που χρησιμοποιούνται από το SuperTux."
+
+#: src/supertux/command_line_arguments.cpp:103
+msgid "Video Options:"
+msgstr "Επιλογές Βίντεο:"
+
+#: src/supertux/command_line_arguments.cpp:104
+msgid "  -f, --fullscreen             Run in fullscreen mode"
+msgstr "-f, --fullscreen Εκτέλεση σε λειτουργία πλήρους οθόνης"
+
+#: src/supertux/command_line_arguments.cpp:105
+msgid "  -w, --window                 Run in window mode"
+msgstr "-w, --window Εκτέλεση σε λειτουργία παραθύρου"
+
+#: src/supertux/command_line_arguments.cpp:106
+msgid "  -g, --geometry WIDTHxHEIGHT  Run SuperTux in given resolution"
+msgstr "-g, --geometry WIDTHxHEIGHT Εκτέλεση SuperTux σε δεδομένη ανάλυση"
+
+#: src/supertux/command_line_arguments.cpp:107
+msgid "  -a, --aspect WIDTH:HEIGHT    Run SuperTux with given aspect ratio"
+msgstr "-a, --aspect WIDTH:HEIGHT Εκτέλεση SuperTux με δεδομένη αναλογία εικόνας"
+
+#: src/supertux/command_line_arguments.cpp:108
+msgid "  -d, --default                Reset video settings to default values"
+msgstr "-d, --default Επαναφορά ρυθμίσεων βίντεο στις προεπιλεγμένες τιμές"
+
+#: src/supertux/command_line_arguments.cpp:109
+msgid "  --renderer RENDERER          Use sdl, opengl, or auto to render"
+msgstr "--renderer RENDERER Χρήση sdl, opengl, ή auto για αποτύπωση"
+
+#: src/supertux/command_line_arguments.cpp:111
+msgid "Audio Options:"
+msgstr "Επιλογές Ήχου:"
+
+#: src/supertux/command_line_arguments.cpp:112
+msgid "  --disable-sound              Disable sound effects"
+msgstr "--disable-sound Απενεργοποίηση ηχητικών εφέ"
+
+#: src/supertux/command_line_arguments.cpp:113
+msgid "  --disable-music              Disable music"
+msgstr "--disable-music Απενεργοποίηση μουσικής"
+
+#: src/supertux/command_line_arguments.cpp:115
+msgid "Game Options:"
+msgstr "Επιλογές Παιχνιδιού:"
+
+#: src/supertux/command_line_arguments.cpp:116
+msgid "  --edit-level                 Open given level in editor"
+msgstr "  --edit-level Άνοιγμα επιπέδου στον επεξεργαστή"
+
+#: src/supertux/command_line_arguments.cpp:117
+msgid "  --resave                     Loads given level and saves it"
+msgstr "--resave                      Φορτώνει το δεδομένο επίπεδο και το αποθηκεύει"
+
+#: src/supertux/command_line_arguments.cpp:118
+msgid "  --show-fps                   Display framerate in levels"
+msgstr "--show-fps Εμφάνιση framerate σε επίπεδα"
+
+#: src/supertux/command_line_arguments.cpp:119
+msgid "  --no-show-fps                Do not display framerate in levels"
+msgstr "--no-show-fps Μη εμφάνιση framerate σε επίπεδα"
+
+#: src/supertux/command_line_arguments.cpp:120
+msgid "  --show-pos                   Display player's current position"
+msgstr "  --show-pos                   Εμφάνιση τρέχουσας θέσης παίκτη"
+
+#: src/supertux/command_line_arguments.cpp:121
+msgid "  --no-show-pos                Do not display player's position"
+msgstr "  --no-show-pos                Μη εμφάνιση τρέχουσας θέσης παίκτη"
+
+#: src/supertux/command_line_arguments.cpp:122
+msgid "  --developer                  Switch on developer feature"
+msgstr "--developer Ενεργοποίηση χαρακτηριστικού προγραμματιστή"
+
+#: src/supertux/command_line_arguments.cpp:123
+msgid "  -s, --debug-scripts          Enable script debugger."
+msgstr "-s, --debug-scripts Ενεργοποίηση αποσφαλματωτή σεναρίου"
+
+#: src/supertux/command_line_arguments.cpp:124
+msgid ""
+"  --spawn-pos X,Y              Where in the level to spawn Tux. Only used if"
+" level is specified."
+msgstr "  --spawn-pos X,Y Σε ποιο σημείο του επιπέδου να              γεννηθεί ο Tux. Χρησιμοποιείται μόνο αν καθοριστεί το επίπεδο."
+
+#: src/supertux/command_line_arguments.cpp:125
+msgid "  --sector SECTOR              Spawn Tux in SECTOR\n"
+msgstr "--sector SECTOR               Ωοτοκία στο SECTOR\n"
+
+#: src/supertux/command_line_arguments.cpp:126
+msgid "  --spawnpoint SPAWNPOINT      Spawn Tux at SPAWNPOINT\n"
+msgstr "--spawnpoint SPAWNPOINT         Spawn Tux στο SPAWNPOINT\n"
+
+#: src/supertux/command_line_arguments.cpp:128
+msgid "Demo Recording Options:"
+msgstr "Demo Επιλογή Εγγραφής:"
+
+#: src/supertux/command_line_arguments.cpp:129
+msgid "  --record-demo FILE LEVEL     Record a demo to FILE"
+msgstr "--record-demo FILE LEVEL Καταγραφή ενός demo στο FILE"
+
+#: src/supertux/command_line_arguments.cpp:130
+msgid "  --play-demo FILE LEVEL       Play a recorded demo"
+msgstr "--play-demo FILE LEVEL Εκτέλεση ενός ηχογραφημένου demo"
+
+#: src/supertux/command_line_arguments.cpp:132
+msgid "Directory Options:"
+msgstr "Επιλογές Καταλόγου:"
+
+#: src/supertux/command_line_arguments.cpp:133
+msgid ""
+"  --datadir DIR                Set the directory for the games datafiles"
+msgstr "--datadir DIR Ορισμός του καταλόγου για τα αρχεία δεδομένων των παιχνιδιών"
+
+#: src/supertux/command_line_arguments.cpp:134
+msgid ""
+"  --userdir DIR                Set the directory for user data (savegames, "
+"etc.)"
+msgstr "--userdir DIR Ορισμός του καταλόγου για τα δεδομένα χρήστη (savegames, κτλ.)"
+
+#: src/supertux/command_line_arguments.cpp:136
+msgid "Add-On Options:"
+msgstr "Επιλογές πρόσθετου:"
+
+#: src/supertux/command_line_arguments.cpp:137
+msgid "  --repository-url URL         Set the URL to the Add-On repository"
+msgstr "  --repository-url URL         Set the URL to the Add-On repository"
+
+#: src/supertux/command_line_arguments.cpp:139
+msgid "Environment variables:"
+msgstr "Μεταβλητές περιβάλλοντος:"
+
+#: src/supertux/command_line_arguments.cpp:140
+msgid ""
+"  SUPERTUX2_USER_DIR           Directory for user data (savegames, etc.)"
+msgstr "SUPERTUX2_USER_DIR Κατάλογος για δεδομένα χρήστη (savegames, κτλ.)"
+
+#: src/supertux/command_line_arguments.cpp:141
+msgid "  SUPERTUX2_DATA_DIR           Directory for the games datafiles"
+msgstr "SUPERTUX2_DATA_DIR Κατάλογος για αρχεία δεδομένων παιχνιδιών"
+
+#: src/supertux/title_screen.cpp:44
+msgid "Copyright"
+msgstr "Πνευματικά Δικαιώματα"
+
+#: src/supertux/title_screen.cpp:45
+msgid ""
+"This game comes with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to\n"
+"redistribute it under certain conditions; see the license file for details.\n"
+msgstr "Το παιχνίδι αυτό δεν έχει ΚΑΜΙΑ ΑΠΟΛΥΤΩΣ ΕΓΓΥΗΣΗ. Είναι ελεύθερο λογισμικό και μπορείτε να το\nαναδιανείμετε κάτω από συγκεκριμένους όρους. Δείτε το αρχείο αδειοδότησης για λεπτομέρειες.\n"
+
+#: src/supertux/menu/integrations_menu.cpp:49
+msgid "Integrations"
+msgstr "Ενσωματώσεις"
+
+#: src/supertux/menu/integrations_menu.cpp:51
+msgid "Do not share level names when editing"
+msgstr "Μην κοινοποιείτε ονόματα επιπέδων κατά την επεξεργασία"
+
+#: src/supertux/menu/integrations_menu.cpp:54
+msgid "Enable Discord integration"
+msgstr "Ενεργοποιήστε την ενσωμάτωση Discord"
+
+#: src/supertux/menu/integrations_menu.cpp:57
+msgid "Discord (disabled; not compiled)"
+msgstr "Discord (απενεργοποιημένο, μη μεταγλωττισμένο)"
+
+#: src/supertux/menu/contrib_menu.cpp:80
+#: src/supertux/menu/world_set_menu.cpp:31
+msgid "Contrib Levels"
+msgstr "Επίπεδα συνεισφοράς"
+
+#: src/supertux/menu/debug_menu.cpp:32
+msgid "Debug"
+msgstr "Αποσφαλμάτωση"
+
+#: src/supertux/menu/debug_menu.cpp:56
+msgid "Game Speed"
+msgstr "Ταχύτητα παιχνιδιού"
+
+#: src/supertux/menu/debug_menu.cpp:57
+msgid "Adjust Game Speed"
+msgstr "Προσαρμογή ταχύτητας παιχνιδιού"
+
+#: src/supertux/menu/debug_menu.cpp:63
+msgid "Show Collision Rects"
+msgstr "Εμφάνιση ορθών σύγκρουσης"
+
+#: src/supertux/menu/debug_menu.cpp:64
+msgid "Show Worldmap Path"
+msgstr "Εμφάνιση διαδρομής παγκόσμιου χάρτη"
+
+#: src/supertux/menu/debug_menu.cpp:65
+msgid "Show Controller"
+msgstr "Εμφάνιση ελεγκτή"
+
+#: src/supertux/menu/debug_menu.cpp:66
+msgid "Show Framerate"
+msgstr "Εμφάνιση FPS"
+
+#: src/supertux/menu/debug_menu.cpp:67
+msgid "Draw Redundant Frames"
+msgstr "Σχεδιάστε περιττά πλαίσια"
+
+#: src/supertux/menu/debug_menu.cpp:68
+msgid "Show Player Position"
+msgstr "Εμφάνιση θέσης παίκτη"
+
+#: src/supertux/menu/debug_menu.cpp:69
+msgid "Use Bitmap Fonts"
+msgstr "Χρησιμοποιήστε γραμματοσειρές Bitmap"
+
+#: src/supertux/menu/debug_menu.cpp:72
+msgid "Dump Texture Cache"
+msgstr "Απόρριψη προσωρινής μνήμης υφής"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:33
+msgid "Save particle as"
+msgstr "Αποθήκευση σωματιδίου ως"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:37
+#: src/supertux/menu/editor_save_as.cpp:37
+msgid "File name"
+msgstr "Ονομα αρχείου"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:38
+#: src/supertux/menu/editor_save_as.cpp:38 src/editor/particle_editor.cpp:766
+msgid "Save"
+msgstr "Αποθηκεύσετε"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:31
+msgid "Choose Sector"
+msgstr "Επιλέξτε Τομέας"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:41
+msgid "Sector Settings"
+msgstr "Ρυθμίσεις τομέα"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:42
+msgid "Create Sector"
+msgstr "Δημιουργία Τομέα"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:43
+msgid "Delete Sector"
+msgstr "Διαγραφή Τομέα"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:93
+msgid "Each level must have at least one sector."
+msgstr "Κάθε επίπεδο πρέπει να έχει τουλάχιστον ένα τομέα."
+
+#: src/supertux/menu/editor_sectors_menu.cpp:98
+msgid "Do you really want to delete this sector?"
+msgstr "Θέλεις σίγουρα να διαγράψεις αυτό τον τομέα;"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:101
+msgid "Delete sector"
+msgstr "Διαγραφή τομέα"
+
+#: src/supertux/menu/editor_objectgroup_menu.cpp:30
+#: src/editor/toolbox_widget.cpp:93
+msgid "Objects"
+msgstr "Αντικείμενα"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:62
+msgid "Empty World"
+msgstr "Κενός Κόσμος"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:77
+msgid "Create Level"
+msgstr "Δημιουργία επιπέδου"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:81
+msgid "Edit Worldmap"
+msgstr "Επεξεργασία παγκόσμιου χάρτη"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:83
+msgid "Create Worldmap"
+msgstr "Δημιουργία παγκόσμιου χάρτη"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:85
+#: src/supertux/menu/editor_delete_level_menu.cpp:33
+msgid "Delete level"
+msgstr "Διαγραφή επιπέδου"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:87
+#: src/supertux/menu/editor_levelset_menu.cpp:56
+msgid "World Settings"
+msgstr "Ρυθμίσεις του κόσμου"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:127
+msgid ""
+"Share this worldmap under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in worldmap properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "Διανομή αυτού του επιπέδου υπό την άδεια CC-BY-SA 4.0 International (συνιστάται).\nΕπιτρέπει τροποποιήσεις και αναδιανομή από τρίτα-μέρη.\nΑν διαφωνείτε με αυτή την άδεια, αλλάξτε την στις ιδιότητες του επιπέδου.\nΑΠΟΠΟΙΗΣΗ: Οι συγγραφείς του SuperTux δεν έχουν καμία ευθύνη για την επιλογή σας."
+
+#: src/supertux/menu/editor_level_select_menu.cpp:134
+msgid ""
+"Share this level under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in level properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "Διανομή αυτού του επιπέδου υπό την άδεια CC-BY-SA 4.0 International (συνιστάται).\nΕπιτρέπει μετατροπές και αναδιανομή από τρίτα-μέρη.\nΑν διαφωνείτε με αυτή την άδεια, αλλάξτε την στις ιδιότητες του επιπέδου.\nΑΠΟΠΟΙΗΣΗ: Οι συγγραφείς του SuperTux δεν έχουν καμία ευθύνη για την επιλογή σας."
+
+#: src/supertux/menu/editor_level_select_menu.cpp:162
+msgid ""
+"An auto-save recovery file was found. Would you like to restore the recovery\n"
+"file and resume where you were before the editor crashed?"
+msgstr "Βρέθηκε ένα αρχείο ανάκτησης αυτόματης αποθήκευσης. Θέλετε να επαναφέρετε την ανάκτηση\nαρχείο και συνέχιση στο σημείο που ήσασταν πριν διακοπεί το πρόγραμμα επεξεργασίας;"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:169
+msgid "This will delete the auto-save file. Are you sure?"
+msgstr "Αυτό θα διαγράψει το αρχείο αυτόματης αποθήκευσης. Είσαι σίγουρος?"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:34
+#: src/supertux/menu/cheat_menu.cpp:30
+msgid "Cheats"
+msgstr "Εξαπατήσεις"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:36
+#: src/supertux/menu/cheat_menu.cpp:32
+msgid "Bonus: Grow"
+msgstr "Μπόνους: Μεγάλωμα"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:37
+msgid "Bonus: Fire"
+msgstr "Μπόνους: Φωτιά"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:38
+msgid "Bonus: Ice"
+msgstr "Μπόνους: Πάγος"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:39
+msgid "Bonus: Air"
+msgstr "Μπόνους: Αέρας"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:40
+msgid "Bonus: Earth"
+msgstr "Μπόνους: Γη"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:41
+msgid "Bonus: None"
+msgstr "Μπόνους: Κανένα"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:44
+#: src/supertux/menu/cheat_menu.cpp:42
+msgid "Leave Ghost Mode"
+msgstr "Εγκατάλειψη κατάστασης φαντάσματος"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:44
+#: src/supertux/menu/cheat_menu.cpp:42
+msgid "Activate Ghost Mode"
+msgstr "Ενεργοποίηση κατάσταση φαντάσματος"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:46
+#: src/supertux/menu/cheat_menu.cpp:40
+msgid "Finish Level"
+msgstr "Τελείωσε Επίπεδο "
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:47
+msgid "Reset Level"
+msgstr "Επανάφερε Επίπεδο"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:49
+msgid "Finish Worldmap"
+msgstr "Ολοκλήρωση χάρτη κόσμου"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:50
+msgid "Reset Worldmap"
+msgstr "Επαναφορά χάρτη κόσμου"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:52
+msgid "Go to level"
+msgstr "Πήγαινε στο επίπεδο"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:53
+msgid "Go to main spawnpoint"
+msgstr "Μεταβείτε στο κύριο σημείο αναπαραγωγής"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:145
+msgid "Select level"
+msgstr "Επιλέξτε επίπεδο"
+
+#: src/supertux/menu/editor_save_as.cpp:33
+#: src/supertux/menu/editor_menu.cpp:49
+msgid "Save Level as"
+msgstr "Πήγαινε στο επίπεδο"
+
+#: src/supertux/menu/editor_save_as.cpp:33
+#: src/supertux/menu/editor_menu.cpp:50
+msgid "Save Copy"
+msgstr "Αποθήκευση αντιγράφου"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:72
+msgid "Choose World"
+msgstr "Επιλέξτε τον κόσμο"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:100
+#, c-format
+msgid "%d level"
+msgid_plural "%d levels"
+msgstr[0] "%d επίπεδο"
+msgstr[1] "%d επίπεδα"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:113
+msgid "Create World"
+msgstr "Δημιουργία Κόσμου"
+
+#: src/supertux/menu/options_menu.cpp:98 src/supertux/menu/main_menu.cpp:64
+#: src/supertux/menu/game_menu.cpp:61 src/supertux/menu/worldmap_menu.cpp:31
+msgid "Options"
+msgstr "Επιλογές"
+
+#: src/supertux/menu/options_menu.cpp:104
+#: src/supertux/menu/options_menu.cpp:142
+#: src/supertux/menu/options_menu.cpp:455
+#: src/supertux/menu/options_menu.cpp:476 src/editor/object_settings.cpp:119
+msgid "auto"
+msgstr "αυτόματο"
+
+#: src/supertux/menu/options_menu.cpp:221
+msgid "Desktop"
+msgstr "Επιφάνεια εργασίας"
+
+#: src/supertux/menu/options_menu.cpp:251
+msgid "on"
+msgstr "επί"
+
+#: src/supertux/menu/options_menu.cpp:252
+msgid "off"
+msgstr "μακριά από"
+
+#: src/supertux/menu/options_menu.cpp:253
+msgid "adaptive"
+msgstr "προσαρμοστικός"
+
+#: src/supertux/menu/options_menu.cpp:347
+msgid "Select Language"
+msgstr "Επιλογή γλώσσας"
+
+#: src/supertux/menu/options_menu.cpp:348
+msgid "Select a different language to display text in"
+msgstr "Επέλεξε διαφορετική γλώσσα για την εμφάνιση κειμένου στην"
+
+#: src/supertux/menu/options_menu.cpp:350
+msgid "Language Packs"
+msgstr "Πακέτα γλωσσών"
+
+#: src/supertux/menu/options_menu.cpp:351
+msgid "Language packs contain up-to-date translations"
+msgstr "Τα πακέτα γλωσσών διαθέτουν ενημερωμένες μεταφράσεις"
+
+#: src/supertux/menu/options_menu.cpp:353
+#: src/supertux/menu/profile_menu.cpp:34
+msgid "Select Profile"
+msgstr "Επιλογή προφίλ"
+
+#: src/supertux/menu/options_menu.cpp:354
+msgid "Select a profile to play with"
+msgstr "Επέλεξε ένα προφίλ για να παίξεις"
+
+#: src/supertux/menu/options_menu.cpp:358
+msgid "Window Resizable"
+msgstr "Παράθυρο με δυνατότητα αλλαγής μεγέθους"
+
+#: src/supertux/menu/options_menu.cpp:359
+msgid "Allow window resizing, might require a restart to take effect"
+msgstr "Να επιτρέπεται η αλλαγή μεγέθους παραθύρου, μπορεί να απαιτηθεί επανεκκίνηση για να επιδράσει"
+
+#: src/supertux/menu/options_menu.cpp:361
+msgid "Window Resolution"
+msgstr "Ανάλυση παραθύρου"
+
+#: src/supertux/menu/options_menu.cpp:362
+msgid "Resize the window to the given size"
+msgstr "Αλλαγή μεγέθους του παραθύρου στο δοθέν μέγεθος"
+
+#: src/supertux/menu/options_menu.cpp:364
+msgid "Fullscreen"
+msgstr "Πλήρης οθόνη"
+
+#: src/supertux/menu/options_menu.cpp:365
+msgid "Fill the entire screen"
+msgstr "Γέμισε ολόκληρη την οθόνη"
+
+#: src/supertux/menu/options_menu.cpp:367
+msgid "Fullscreen Resolution"
+msgstr "Ανάλυση πλήρους οθόνης"
+
+#: src/supertux/menu/options_menu.cpp:368
+msgid ""
+"Determine the resolution used in fullscreen mode (you must toggle fullscreen"
+" to complete the change)"
+msgstr "Καθόρισε την ανάλυση για λειτουργία πλήρης οθόνης (θα πρέπει να κάνεις εναλλαγή σε πλήρη οθόνη για να ολοκληρώσεις την αλλαγή) "
+
+#: src/supertux/menu/options_menu.cpp:373
+msgid "Fit to browser"
+msgstr "Προσαρμογή στο πρόγραμμα περιήγησης"
+
+#: src/supertux/menu/options_menu.cpp:374
+msgid "Fit the resolution to the size of your browser"
+msgstr "Προσαρμόστε την ανάλυση στο μέγεθος του προγράμματος περιήγησής σας"
+
+#: src/supertux/menu/options_menu.cpp:378
+msgid "Magnification"
+msgstr "Μεγέθυνση"
+
+#: src/supertux/menu/options_menu.cpp:379
+msgid "Change the magnification of the game area"
+msgstr "Άλλαξε τη μεγέθυνση της περιοχής παιχνιδιού "
+
+#: src/supertux/menu/options_menu.cpp:381
+msgid "VSync"
+msgstr "VSync"
+
+#: src/supertux/menu/options_menu.cpp:382
+msgid "Set the VSync mode"
+msgstr "Ορισμός της κατάστασης VSync"
+
+#: src/supertux/menu/options_menu.cpp:385
+msgid "Aspect Ratio"
+msgstr "Αναλογία διαστάσεων"
+
+#: src/supertux/menu/options_menu.cpp:386
+msgid "Adjust the aspect ratio"
+msgstr "Προσάρμοσε το λόγο διαστάσεων"
+
+#: src/supertux/menu/options_menu.cpp:392
+msgid "Disable all sound effects"
+msgstr "Απενεργοποίησε όλα τα ηχητικά εφέ"
+
+#: src/supertux/menu/options_menu.cpp:394
+msgid "Disable all music"
+msgstr "Απενεργοποίησε όλα τα αρχεία μουσικής"
+
+#: src/supertux/menu/options_menu.cpp:396
+msgid "Sound Volume"
+msgstr "Ένταση ήχου"
+
+#: src/supertux/menu/options_menu.cpp:397
+msgid "Adjust sound volume"
+msgstr "Προσαρμογή έντασης ήχου"
+
+#: src/supertux/menu/options_menu.cpp:399
+msgid "Music Volume"
+msgstr "Ένταση μουσικής"
+
+#: src/supertux/menu/options_menu.cpp:400
+msgid "Adjust music volume"
+msgstr "Προσαρμογή έντασης μουσικής"
+
+#: src/supertux/menu/options_menu.cpp:404
+msgid "Sound (disabled)"
+msgstr "Ήχος (απενεργοποιημένος)"
+
+#: src/supertux/menu/options_menu.cpp:405
+msgid "Music (disabled)"
+msgstr "Μουσική (απενεργοποιημένη)"
+
+#: src/supertux/menu/options_menu.cpp:408
+#: src/supertux/menu/keyboard_menu.cpp:30
+msgid "Setup Keyboard"
+msgstr "Εγκατάσταση Πληκτρολογίου"
+
+#: src/supertux/menu/options_menu.cpp:409
+msgid "Configure key-action mappings"
+msgstr "Ρύθμισε τις αντιστοιχίσεις των πλήκτρων"
+
+#: src/supertux/menu/options_menu.cpp:412
+#: src/supertux/menu/joystick_menu.cpp:52
+msgid "Setup Joystick"
+msgstr "Εγκατάσταση Χειριστηρίου"
+
+#: src/supertux/menu/options_menu.cpp:413
+msgid "Configure joystick control-action mappings"
+msgstr "Ρύθμισε τις αντιστοιχίσεις ελέγχου του χειριστηρίου"
+
+#: src/supertux/menu/options_menu.cpp:417
+msgid "On-screen controls"
+msgstr "Χειριστήρια επί της οθόνης"
+
+#: src/supertux/menu/options_menu.cpp:418
+msgid "Toggle on-screen controls for mobile devices"
+msgstr "Εναλλαγή στοιχείων ελέγχου στην οθόνη για κινητές συσκευές"
+
+#: src/supertux/menu/options_menu.cpp:420
+msgid "Enable transitions"
+msgstr "Ενεργοποίηση μεταβάσεων"
+
+#: src/supertux/menu/options_menu.cpp:421
+msgid "Enable screen transitions and smooth menu animation"
+msgstr "Ενεργοποίησε τις μεταβάσεις οθόνης και ομαλοποίηση της κίνησης του μενού"
+
+#: src/supertux/menu/options_menu.cpp:425
+msgid "Developer Mode"
+msgstr "Λειτουργία Προγραμματιστή"
+
+#: src/supertux/menu/options_menu.cpp:430
+msgid "Christmas Mode"
+msgstr "Κατάσταση Χριστουγέννων"
+
+#: src/supertux/menu/options_menu.cpp:433
+msgid "Confirmation Dialog"
+msgstr "Διάλογος επιβεβαίωσης"
+
+#: src/supertux/menu/options_menu.cpp:433
+msgid "Confirm aborting level"
+msgstr "Επιβεβαιώστε το επίπεδο ματαίωσης"
+
+#: src/supertux/menu/options_menu.cpp:434
+msgid "Pause on focus loss"
+msgstr "Παύση όταν χάνεται η εστίαση"
+
+#: src/supertux/menu/options_menu.cpp:435
+msgid "Automatically pause the game when the window loses focus"
+msgstr "Αυτόματη παύση του παιχνιδιού όταν το παράθυρο χάνει την εστίαση"
+
+#: src/supertux/menu/options_menu.cpp:436
+msgid "Use custom mouse cursor"
+msgstr "Χρησιμοποιήστε προσαρμοσμένο δρομέα ποντικιού"
+
+#: src/supertux/menu/options_menu.cpp:436
+msgid "Whether the game renders its own cursor or uses the system's cursor"
+msgstr "Είτε το παιχνίδι αποδίδει τον δικό του δρομέα είτε χρησιμοποιεί τον κέρσορα του συστήματος"
+
+#: src/supertux/menu/options_menu.cpp:438
+msgid "Integrations and presence"
+msgstr "Ενσωματώσεις και παρουσία"
+
+#: src/supertux/menu/options_menu.cpp:439
+msgid ""
+"Manage whether SuperTux should display the levels you play on your social "
+"media profiles (Discord)"
+msgstr "Διαχειριστείτε εάν το SuperTux θα εμφανίζει τα επίπεδα που παίζετε στα προφίλ σας στα μέσα κοινωνικής δικτύωσης (Discord)"
+
+#: src/supertux/menu/options_menu.cpp:559
+msgid ""
+"The game couldn't detect your browser resolution.\n"
+"This most likely happens because it is not embedded\n"
+"in the SuperTux custom HTML template.\n"
+msgstr "Το παιχνίδι δεν μπόρεσε να εντοπίσει την ανάλυση του προγράμματος περιήγησής σας.\nΑυτό πιθανότατα συμβαίνει επειδή δεν είναι ενσωματωμένο\nστο πρότυπο προσαρμοσμένο HTML SuperTux.\n"
+
+#: src/supertux/menu/main_menu.cpp:56 src/supertux/menu/world_set_menu.cpp:28
+msgid "Start Game"
+msgstr "Έναρξη παιχνιδιού"
+
+#: src/supertux/menu/main_menu.cpp:60 src/supertux/menu/addon_menu.cpp:122
+msgid "Add-ons"
+msgstr "Πρόσθετα"
+
+#: src/supertux/menu/main_menu.cpp:62 src/supertux/menu/web_asset_menu.cpp:38
+msgid "Manage Assets"
+msgstr "Διαχείριση περιουσιακών στοιχείων"
+
+#: src/supertux/menu/main_menu.cpp:65 src/supertux/menu/editor_menu.cpp:43
+msgid "Level Editor"
+msgstr "Επεξεργαστής επιπέδων"
+
+#: src/supertux/menu/main_menu.cpp:66
+msgid "Credits"
+msgstr "Αναγνώριση Προσφοράς"
+
+#: src/supertux/menu/main_menu.cpp:67
+msgid "Donate"
+msgstr "Κάντε δωρεά"
+
+#: src/supertux/menu/main_menu.cpp:69
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: src/supertux/menu/editor_sector_menu.cpp:35
+msgid "Initialization script"
+msgstr "Σενάριο αρχικοποίησης"
+
+#: src/supertux/menu/editor_sector_menu.cpp:36
+msgid "Gravity"
+msgstr "Βαρύτητα"
+
+#: src/supertux/menu/editor_sector_menu.cpp:41
+msgid "Resize offset X"
+msgstr "Αλλαγή μεγέθους μετατόπιση Χ"
+
+#: src/supertux/menu/editor_sector_menu.cpp:42
+msgid "Resize offset Y"
+msgstr "Αλλαγή μεγέθους μετατόπιση Υ"
+
+#: src/supertux/menu/editor_sector_menu.cpp:43
+msgid "Resize"
+msgstr "Αλλαγή μεγέθους"
+
+#: src/supertux/menu/profile_menu.cpp:41
+#, c-format
+msgid "[Profile {}]"
+msgstr "[Προφίλ {}]"
+
+#: src/supertux/menu/profile_menu.cpp:45
+#, c-format
+msgid "Profile {}"
+msgstr "Προφίλ {}"
+
+#: src/supertux/menu/profile_menu.cpp:50
+msgid "Reset profile"
+msgstr "Επαναφορά προφίλ"
+
+#: src/supertux/menu/profile_menu.cpp:51
+msgid "Reset all profiles"
+msgstr "Επαναφορά όλων των προφίλ"
+
+#: src/supertux/menu/profile_menu.cpp:67
+msgid "Deleting your profile will reset your game progress. Are you sure?"
+msgstr "Η διαγραφή του προφίλ σας θα επαναφέρει την πρόοδο του παιχνιδιού σας. Είσαι σίγουρος?"
+
+#: src/supertux/menu/profile_menu.cpp:73
+msgid "This will reset your game progress on all profiles. Are you sure?"
+msgstr "Αυτό θα επαναφέρει την πρόοδο του παιχνιδιού σας σε όλα τα προφίλ. Είσαι σίγουρος?"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:59
+#: src/supertux/menu/editor_new_levelset_menu.cpp:35
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:60
+#: src/supertux/menu/addon_menu.cpp:48
+#: data//images/engine/editor/objects.stoi:371
+msgid "Worldmap"
+msgstr "Χάρτης του κόσμου"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:60
+#: src/supertux/menu/addon_menu.cpp:45
+msgid "Levelset"
+msgstr "Σύνολο επιπέδων"
+
+#: src/supertux/menu/addon_menu.cpp:51
+msgid "World"
+msgstr "Κόσμος"
+
+#: src/supertux/menu/addon_menu.cpp:54
+msgid "Add-on"
+msgstr "Πρόσθετο"
+
+#: src/supertux/menu/addon_menu.cpp:60
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: src/supertux/menu/addon_menu.cpp:71
+#, c-format
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} \"{}\" από \"{}\""
+
+#: src/supertux/menu/addon_menu.cpp:129
+msgid "No Add-ons installed"
+msgstr "Δεν έχουν εγκατασταθεί Πρόσθετα"
+
+#: src/supertux/menu/addon_menu.cpp:133
+msgid "No Add-ons found"
+msgstr "Δεν βρέθηκαν Πρόσθετα"
+
+#: src/supertux/menu/addon_menu.cpp:179
+#, c-format
+msgid "Install {} *NEW*"
+msgstr "Εγκατάσταση {} *ΝΕΟ*"
+
+#: src/supertux/menu/addon_menu.cpp:190
+#, c-format
+msgid "Install {}"
+msgstr "Εγκατάσταση {}"
+
+#: src/supertux/menu/addon_menu.cpp:199
+msgid "No new Add-ons found"
+msgstr "Δεν βρέθηκαν νέα Πρόσθετα"
+
+#: src/supertux/menu/addon_menu.cpp:205
+msgid "Check Online (disabled)"
+msgstr "Online έλεγχος (απενεργοποιημένος)"
+
+#: src/supertux/menu/addon_menu.cpp:209
+msgid "Check Online"
+msgstr "Online έλεγχος"
+
+#: src/supertux/menu/addon_menu.cpp:286
+msgid "Downloading Add-On Repository Index"
+msgstr "Κατέβασμα λίστας αποθετηρίου Πρόσθετων"
+
+#: src/supertux/menu/addon_menu.cpp:301
+#, c-format
+msgid "Downloading {}"
+msgstr "Λήψη {}"
+
+#: src/supertux/menu/addon_menu.cpp:348
+msgid ""
+"Please restart SuperTux\n"
+"for these changes to take effect."
+msgstr "Παρακαλώ επανεκινήστε το SuperTux\nγια να ενεργοποιηθούν αυτές οι αλλαγές."
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:31
+msgid "New World"
+msgstr "Νέο κόσμο"
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:51
+msgid "Please enter a name for this level subset."
+msgstr "Παρακαλώ εισάγετε ένα όνομα για αυτό το υποσύνολο επιπέδου."
+
+#: src/supertux/menu/world_set_menu.cpp:30
+msgid "Story Mode"
+msgstr "Κατάσταση αφήγησης"
+
+#: src/supertux/menu/web_asset_menu.cpp:42
+msgid "New files location"
+msgstr "Θέση νέων αρχείων"
+
+#: src/supertux/menu/web_asset_menu.cpp:43
+msgid "Add Files"
+msgstr "Πρόσθεσε αρχεία"
+
+#: src/supertux/menu/web_asset_menu.cpp:44
+msgid "Download Files"
+msgstr "Λήψη Αρχείων"
+
+#: src/supertux/menu/particle_editor_open.cpp:32
+msgid "Load particle file"
+msgstr "Φόρτωση αρχείου σωματιδίων"
+
+#: src/supertux/menu/particle_editor_open.cpp:39
+msgid "Open"
+msgstr "Ανοιξε"
+
+#: src/supertux/menu/game_menu.cpp:31
+msgid "Are you sure?"
+msgstr "Είστε σίγουροι;"
+
+#: src/supertux/menu/game_menu.cpp:54 src/supertux/menu/worldmap_menu.cpp:30
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: src/supertux/menu/game_menu.cpp:55
+msgid "Restart Level"
+msgstr "Επανεκκίνηση Επιπέδου"
+
+#: src/supertux/menu/game_menu.cpp:58
+msgid "Restart from Checkpoint"
+msgstr "Επανεκκίνηση από το Checkpoint"
+
+#: src/supertux/menu/game_menu.cpp:63
+msgid "Abort Level"
+msgstr "Εγκατάλειψη Επιπέδου"
+
+#: src/supertux/menu/keyboard_menu.cpp:32
+#: src/supertux/menu/joystick_menu.cpp:69
+msgid "Up"
+msgstr "Πάνω"
+
+#: src/supertux/menu/keyboard_menu.cpp:33
+#: src/supertux/menu/joystick_menu.cpp:70
+msgid "Down"
+msgstr "Κάτω"
+
+#: src/supertux/menu/keyboard_menu.cpp:36
+#: src/supertux/menu/joystick_menu.cpp:73
+msgid "Jump"
+msgstr "Άλμα"
+
+#: src/supertux/menu/keyboard_menu.cpp:38
+#: src/supertux/menu/joystick_menu.cpp:76
+msgid "Peek Left"
+msgstr "Κρυφοκοίταγμα Αριστερά"
+
+#: src/supertux/menu/keyboard_menu.cpp:39
+#: src/supertux/menu/joystick_menu.cpp:77
+msgid "Peek Right"
+msgstr "Κρυφοκοίταγμα Δεξιά"
+
+#: src/supertux/menu/keyboard_menu.cpp:40
+#: src/supertux/menu/joystick_menu.cpp:78
+msgid "Peek Up"
+msgstr "Κρυφοκοίταγμα Πάνω"
+
+#: src/supertux/menu/keyboard_menu.cpp:41
+#: src/supertux/menu/joystick_menu.cpp:79
+msgid "Peek Down"
+msgstr "Κρυφοκοίταγμα Κάτω"
+
+#: src/supertux/menu/keyboard_menu.cpp:43
+#: src/supertux/menu/joystick_menu.cpp:81
+msgid "Console"
+msgstr "Κονσόλα"
+
+#: src/supertux/menu/keyboard_menu.cpp:44
+#: src/supertux/menu/joystick_menu.cpp:82
+msgid "Cheat Menu"
+msgstr "Μενού κλεψίματος"
+
+#: src/supertux/menu/keyboard_menu.cpp:45
+#: src/supertux/menu/joystick_menu.cpp:83
+msgid "Debug Menu"
+msgstr "Μενού αποσφαλμάτωσης"
+
+#: src/supertux/menu/keyboard_menu.cpp:47
+#: src/supertux/menu/joystick_menu.cpp:85
+msgid "Jump with Up"
+msgstr "Πήδα με Ανοδικό Βέλος"
+
+#: src/supertux/menu/keyboard_menu.cpp:60
+msgid "Up cursor"
+msgstr "Πάνω δρόμεας"
+
+#: src/supertux/menu/keyboard_menu.cpp:62
+msgid "Down cursor"
+msgstr "Κάτω δρομέας"
+
+#: src/supertux/menu/keyboard_menu.cpp:64
+msgid "Left cursor"
+msgstr "Αριστερός δρομέας"
+
+#: src/supertux/menu/keyboard_menu.cpp:66
+msgid "Right cursor"
+msgstr "Δεξιός δρομέας"
+
+#: src/supertux/menu/keyboard_menu.cpp:68
+msgid "Return"
+msgstr "Επιστροφή"
+
+#: src/supertux/menu/keyboard_menu.cpp:70
+msgid "Space"
+msgstr "Διάστημα"
+
+#: src/supertux/menu/keyboard_menu.cpp:72
+msgid "Right Shift"
+msgstr "Δεξί Shift"
+
+#: src/supertux/menu/keyboard_menu.cpp:74
+msgid "Left Shift"
+msgstr "Αριστερό Shift"
+
+#: src/supertux/menu/keyboard_menu.cpp:76
+msgid "Right Control"
+msgstr "Δεξί Control"
+
+#: src/supertux/menu/keyboard_menu.cpp:78
+msgid "Left Control"
+msgstr "Αριστερό Control"
+
+#: src/supertux/menu/keyboard_menu.cpp:80
+msgid "Right Alt"
+msgstr "Δεξί Alt"
+
+#: src/supertux/menu/keyboard_menu.cpp:82
+msgid "Left Alt"
+msgstr "Αριστερό Alt"
+
+#: src/supertux/menu/keyboard_menu.cpp:84
+msgid "Right Command"
+msgstr "Δεξιά Εντολή"
+
+#: src/supertux/menu/keyboard_menu.cpp:86
+msgid "Left Command"
+msgstr "Αριστερή Εντολή"
+
+#: src/supertux/menu/keyboard_menu.cpp:100
+msgid "Press Key"
+msgstr "Πάτησε Πλήκτρο"
+
+#: src/supertux/menu/language_menu.cpp:40
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: src/supertux/menu/language_menu.cpp:42
+msgid "<auto-detect>"
+msgstr "<αυτόματη-ανίχνευση>"
+
+#: src/supertux/menu/joystick_menu.cpp:55
+msgid "Manual Configuration"
+msgstr "Χειροκίνητη Ρύθμιση"
+
+#: src/supertux/menu/joystick_menu.cpp:57
+msgid ""
+"Use manual configuration instead of SDL2's automatic GameController support"
+msgstr "Χρήση χειροκίνητης ρύθμισης αντί της SDL2 αυτόματης υποστήριξης του GameController"
+
+#: src/supertux/menu/joystick_menu.cpp:75
+msgid "Pause/Menu"
+msgstr "Παύση/Μενού"
+
+#: src/supertux/menu/joystick_menu.cpp:91
+msgid "No Joysticks found"
+msgstr "Δε βρέθηκαν χειριστήρια"
+
+#: src/supertux/menu/joystick_menu.cpp:92
+msgid "Scan for Joysticks"
+msgstr "Σάρωση για χειριστήρια"
+
+#: src/supertux/menu/joystick_menu.cpp:125
+msgid "Press Button"
+msgstr "Πίεσε το Πλήκτρο"
+
+#: src/supertux/menu/joystick_menu.cpp:162
+msgid "Axis "
+msgstr "Άξονας"
+
+#: src/supertux/menu/joystick_menu.cpp:165
+msgid "-"
+msgstr "-"
+
+#: src/supertux/menu/joystick_menu.cpp:167
+msgid "+"
+msgstr "+"
+
+#: src/supertux/menu/joystick_menu.cpp:174
+msgid "X2"
+msgstr "X2"
+
+#: src/supertux/menu/joystick_menu.cpp:176
+msgid "Y2"
+msgstr "Y2"
+
+#: src/supertux/menu/joystick_menu.cpp:189
+msgid "Hat Up"
+msgstr "Κοίταφμα επάνω"
+
+#: src/supertux/menu/joystick_menu.cpp:193
+msgid "Hat Down"
+msgstr "Κοίταγμα κάτω"
+
+#: src/supertux/menu/joystick_menu.cpp:197
+msgid "Hat Left"
+msgstr "Κοίταγμα αριστερά"
+
+#: src/supertux/menu/joystick_menu.cpp:201
+msgid "Hat Right"
+msgstr "Κοίταγμα δεξιά"
+
+#: src/supertux/menu/worldmap_menu.cpp:28
+msgid "Pause"
+msgstr "Παύση"
+
+#: src/supertux/menu/worldmap_menu.cpp:33
+msgid "Leave World"
+msgstr "Εγκατάλειψη κόσμου"
+
+#: src/supertux/menu/download_dialog.cpp:27
+msgid "Abort Download"
+msgstr "Ματαίωση Λήψης "
+
+#: src/supertux/menu/download_dialog.cpp:42
+msgid "Error:\n"
+msgstr "Σφάλμα:\n"
+
+#: src/supertux/menu/download_dialog.cpp:96
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: src/supertux/menu/cheat_menu.cpp:33
+msgid "Bonus: Fire x 64"
+msgstr "Μπόνους: φωτιά x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:34
+msgid "Bonus: Ice x 64"
+msgstr "Μπόνους: πάγος x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:35
+msgid "Bonus: Air x 64"
+msgstr "Μπόνους: αέρας x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:36
+msgid "Bonus: Earth x 64"
+msgstr "Μπόνους: γη x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:37
+msgid "Bonus: Star"
+msgstr "Μπόνους: Αστέρι"
+
+#: src/supertux/menu/cheat_menu.cpp:38
+msgid "Shrink Tux"
+msgstr "Συρρίκνωσε τον Tux"
+
+#: src/supertux/menu/cheat_menu.cpp:39
+msgid "Kill Tux"
+msgstr "Σκότωσε τον Tux"
+
+#: src/supertux/menu/particle_editor_menu.cpp:32
+msgid "Particle Editor"
+msgstr "Επεξεργαστής Σωματιδίων"
+
+#: src/supertux/menu/particle_editor_menu.cpp:36
+#: src/supertux/menu/editor_menu.cpp:45
+msgid "Return to Editor"
+msgstr "Επιστροφή στον Επεξεργαστή"
+
+#: src/supertux/menu/particle_editor_menu.cpp:37
+msgid "New Particle Config"
+msgstr "Νέα διαμόρφωση σωματιδίων"
+
+#: src/supertux/menu/particle_editor_menu.cpp:38
+msgid "Save Particle Config"
+msgstr "Αποθήκευση διαμόρφωσης σωματιδίων"
+
+#: src/supertux/menu/particle_editor_menu.cpp:39
+msgid "Save Particle Config as..."
+msgstr "Αποθήκευση διαμόρφωσης σωματιδίων ως..."
+
+#: src/supertux/menu/particle_editor_menu.cpp:40
+msgid "Load Another Particle Config"
+msgstr "Φόρτωση άλλης διαμόρφωσης σωματιδίων"
+
+#: src/supertux/menu/particle_editor_menu.cpp:44
+msgid "Open Particle Directory"
+msgstr "Ανοίξτε τον Κατάλογο σωματιδίων"
+
+#: src/supertux/menu/particle_editor_menu.cpp:45
+#: src/supertux/menu/editor_menu.cpp:88
+msgid "Keyboard Shortcuts"
+msgstr "Συντομεύσεις πληκτρολογίου"
+
+#: src/supertux/menu/particle_editor_menu.cpp:49
+msgid "Exit Particle Editor"
+msgstr "Έξοδος από το πρόγραμμα επεξεργασίας σωματιδίων"
+
+#: src/supertux/menu/particle_editor_menu.cpp:120
+msgid ""
+"Keyboard Shortcuts:\n"
+"---------------------\n"
+"Esc = Open Menu\n"
+"Ctrl+S = Save\n"
+"Ctrl+Shift+S = Save as\n"
+"Ctrl+O = Open\n"
+"Ctrl+Z = Undo\n"
+"Ctrl+Y = Redo"
+msgstr "Συντομεύσεις πληκτρολογίου:\n----------------------\nEsc = Άνοιγμα μενού\nCtrl+S = Αποθήκευση\nCtrl+Shift+S = Αποθήκευση ως\nCtrl+O = Άνοιγμα\nCtrl+Z = Αναίρεση\nCtrl+Y = Επανάληψη"
+
+#: src/supertux/menu/particle_editor_menu.cpp:121
+#: src/supertux/menu/editor_menu.cpp:176
+msgid "Got it!"
+msgstr "Το έπιασα!"
+
+#: src/supertux/menu/editor_level_menu.cpp:31
+#: src/supertux/menu/editor_menu.cpp:86
+msgid "Worldmap Settings"
+msgstr "Ρυθμίσεις παγκόσμιου χάρτη"
+
+#: src/supertux/menu/editor_level_menu.cpp:31
+#: src/supertux/menu/editor_menu.cpp:86
+msgid "Level Settings"
+msgstr "Ρυθμίσεις επιπέδου"
+
+#: src/supertux/menu/editor_level_menu.cpp:34
+msgid "Author"
+msgstr "Συγγραφέας"
+
+#: src/supertux/menu/editor_level_menu.cpp:35 data//credits.stxt:1166
+msgid "Contact"
+msgstr "Επικοινωνία"
+
+#: src/supertux/menu/editor_level_menu.cpp:36
+msgid "License"
+msgstr "Άδεια"
+
+#: src/supertux/menu/editor_level_menu.cpp:37
+msgid "Level Note"
+msgstr "Σημείωση επιπέδου"
+
+#: src/supertux/menu/editor_level_menu.cpp:38
+msgid "Tileset"
+msgstr "Σετ πλακιδίων"
+
+#: src/supertux/menu/editor_level_menu.cpp:41
+msgid "Target Time"
+msgstr "Χρόνος στόχος"
+
+#: src/supertux/menu/editor_level_menu.cpp:83
+msgid "Please enter a name for this level."
+msgstr "Παρακαλώ εισάγετε ένα όνομα για αυτό το επίπεδο."
+
+#: src/supertux/menu/editor_level_menu.cpp:87
+msgid "Please enter a level author for this level."
+msgstr "Παρακαλώ εισάγετε ένα συγγραφέα επιπέδου γι' αυτό το επίπεδο."
+
+#: src/supertux/menu/editor_level_menu.cpp:91
+msgid "Please enter a license for this level."
+msgstr "Παρακαλώ εισάγετε μία άδεια για αυτό το επίπεδο."
+
+#: src/supertux/menu/editor_menu.cpp:38
+msgid "tiny tile (4px)"
+msgstr "μικροσκοπικό πλακίδιο (4 εικονοστοιχεία)"
+
+#: src/supertux/menu/editor_menu.cpp:39
+msgid "small tile (8px)"
+msgstr "μικρό πλακίδιο (8 εικονοστοιχεία)"
+
+#: src/supertux/menu/editor_menu.cpp:40
+msgid "medium tile (16px)"
+msgstr "μεσαίο πλακίδιο (16 εικονοστοιχεία)"
+
+#: src/supertux/menu/editor_menu.cpp:41
+msgid "big tile (32px)"
+msgstr "μεγάλο πλακίδιο (32 εικονοστοιχεία)"
+
+#: src/supertux/menu/editor_menu.cpp:46
+msgid "Save Worldmap"
+msgstr "Αποθήκευση παγκόσμιου χάρτη"
+
+#: src/supertux/menu/editor_menu.cpp:46
+msgid "Save Level"
+msgstr "Αποθήκευση επιπέδου"
+
+#: src/supertux/menu/editor_menu.cpp:55
+msgid "Test Level"
+msgstr "Επίπεδο δοκιμής"
+
+#: src/supertux/menu/editor_menu.cpp:59
+msgid "Test Worldmap"
+msgstr "Δοκιμή παγκόσμιου χάρτη"
+
+#: src/supertux/menu/editor_menu.cpp:62
+msgid "Share Level"
+msgstr "Επίπεδο κοινής χρήσης"
+
+#: src/supertux/menu/editor_menu.cpp:64
+msgid "Package Add-On"
+msgstr "Πρόσθετο πακέτου"
+
+#: src/supertux/menu/editor_menu.cpp:66
+msgid "Open Level Directory"
+msgstr "Ανοίξτε τον Κατάλογο επιπέδου"
+
+#: src/supertux/menu/editor_menu.cpp:70
+msgid "Edit Another Level"
+msgstr "Επεξεργασία άλλου επιπέδου"
+
+#: src/supertux/menu/editor_menu.cpp:73
+msgid "Edit Another World"
+msgstr "Επεξεργαστείτε έναν άλλο κόσμο"
+
+#: src/supertux/menu/editor_menu.cpp:77
+msgid "Grid Size"
+msgstr "Μέγεθος πλέγματος"
+
+#: src/supertux/menu/editor_menu.cpp:78
+msgid "Show Grid"
+msgstr "Εμφάνιση Πλέγματος"
+
+#: src/supertux/menu/editor_menu.cpp:79
+msgid "Grid Snapping"
+msgstr "Σπάσιμο πλέγματος"
+
+#: src/supertux/menu/editor_menu.cpp:80
+msgid "Render Background"
+msgstr "Απόδοση φόντου"
+
+#: src/supertux/menu/editor_menu.cpp:81
+msgid "Render Light"
+msgstr "Δώσε Φως"
+
+#: src/supertux/menu/editor_menu.cpp:82
+msgid "Autotile Mode"
+msgstr "Λειτουργία αυτόματης πλακιδίων"
+
+#: src/supertux/menu/editor_menu.cpp:83
+msgid "Enable Autotile Help"
+msgstr "Ενεργοποίηση αυτόματης βοήθειας πλακιδίων"
+
+#: src/supertux/menu/editor_menu.cpp:84
+msgid "Autosave Frequency"
+msgstr "Συχνότητα αυτόματης αποθήκευσης"
+
+#: src/supertux/menu/editor_menu.cpp:91
+msgid "Exit Level Editor"
+msgstr "Έξοδος από το πρόγραμμα επεξεργασίας επιπέδου"
+
+#: src/supertux/menu/editor_menu.cpp:140
+msgid "Do you want to package this world as an add-on?"
+msgstr "Θέλετε να συσκευάσετε αυτόν τον κόσμο ως πρόσθετο;"
+
+#: src/supertux/menu/editor_menu.cpp:163
+msgid ""
+"We encourage you to share your levels in the SuperTux forum.\n"
+"To find your level, click the\n"
+"\"Open Level directory\" menu item.\n"
+"Do you want to go to the forum now?"
+msgstr "Σας ενθαρρύνουμε να μοιραστείτε τα επίπεδά σας στο φόρουμ του SuperTux.\nΓια να βρείτε το επίπεδό σας, κάντε κλικ στο\nΣτοιχείο μενού \"Άνοιγμα καταλόγου επιπέδου\".\nΘέλετε να πάτε στο φόρουμ τώρα;"
+
+#: src/supertux/menu/editor_menu.cpp:175
+msgid ""
+"Keyboard Shortcuts:\n"
+"---------------------\n"
+"Esc = Open Menu\n"
+"Ctrl+S = Save\n"
+"Ctrl+T = Test\n"
+"Ctrl+Z = Undo\n"
+"Ctrl+Y = Redo\n"
+"F6 = Render Light\n"
+"F7 = Grid Snapping\n"
+"F8 = Show Grid"
+msgstr "Συντομεύσεις πληκτρολογίου:\n----------------------\nEsc = Άνοιγμα μενού\nCtrl+S = Αποθήκευση\nCtrl+T = Δοκιμή\nCtrl+Z = Αναίρεση\nCtrl+Y = Επανάληψη\nF6 = Render Light\nF7 = Πλέγμα Snapping\nF8 = Εμφάνιση Πλέγματος"
+
+#: src/supertux/menu/editor_delete_level_menu.cpp:53
+msgid "You cannot delete level that you are editing!"
+msgstr "Δεν μπορείτε να διαγράψετε το επίπεδο που επεξεργάζεστε!"
+
+#: src/supertux/levelintro.cpp:136
+#, c-format
+msgid "contributed by {}"
+msgstr "συμβολή από {}"
+
+#: src/supertux/levelintro.cpp:169
+msgid "Badguys killed"
+msgstr "Κακοί σκοτώθηκαν"
+
+#: src/supertux/levelintro.cpp:177
+msgid "Best time"
+msgstr "Καλύτερος χρόνος"
+
+#: src/supertux/levelintro.cpp:181
+msgid "Level target time"
+msgstr "Χρόνος στόχος επιπέδου"
+
+#: src/supertux/tile_set.cpp:118
+msgid "Others"
+msgstr "Άλλοι"
+
+#: src/supertux/moving_object.cpp:55
+msgid "Region"
+msgstr "Περιοχή"
+
+#: src/supertux/main.cpp:563
+msgid ""
+"The UBports version is under heavy development!\n"
+"If you encounter issues, PLEASE contact the maintainter\n"
+"at https://github.com/supertux/supertux/issues or on the\n"
+"Open Store's Telegram at https://open-store.io/telegram"
+msgstr "Η έκδοση UBports βρίσκεται υπό ανάπτυξη!\nΕάν αντιμετωπίσετε προβλήματα, Επικοινωνήστε με τον συντηρητή\nστη διεύθυνση https://github.com/supertux/supertux/issues ή στο\nΑνοίξτε το Telegram του καταστήματος στη διεύθυνση https://open-store.io/telegram"
+
+#: src/control/joystick_config.cpp:85
+msgid "Joystick Mappings"
+msgstr "Αντιστοιχίσεις Χειριστηρίου"
+
+#: src/worldmap/worldmap_parser.cpp:167
+msgid "<no title>"
+msgstr "<δεν υπάρχει τίτλος>"
+
+#: src/editor/node_marker.cpp:122
+msgid "Path Node"
+msgstr "Κόμβος μονοπατιού"
+
+#: src/editor/node_marker.cpp:123
+msgid "Press CTRL to move Bezier handles"
+msgstr "Πατήστε CTRL για να μετακινήσετε τις λαβές Bezier"
+
+#: src/editor/node_marker.cpp:127
+msgid "Easing"
+msgstr "Χαλάρωση"
+
+#: src/editor/object_settings.cpp:119
+msgid "up"
+msgstr "επάνω"
+
+#: src/editor/object_settings.cpp:119
+msgid "down"
+msgstr "κάτω"
+
+#: src/editor/object_settings.cpp:131
+msgid "West"
+msgstr "Δύση"
+
+#: src/editor/object_settings.cpp:131
+msgid "East"
+msgstr "Ανατολή"
+
+#: src/editor/object_settings.cpp:131
+msgid "North"
+msgstr "Βορράς"
+
+#: src/editor/object_settings.cpp:131
+msgid "South"
+msgstr "Νότος"
+
+#: src/editor/object_settings.cpp:144
+msgid "One shot"
+msgstr "Μια βολή"
+
+#: src/editor/object_settings.cpp:144
+msgid "Ping-pong"
+msgstr "Πινγκ πονγκ"
+
+#: src/editor/object_settings.cpp:144
+msgid "Circular"
+msgstr "Κυκλικό"
+
+#: src/editor/object_settings.cpp:144
+msgid "Unordered"
+msgstr "Αταξινόμητο"
+
+#: src/editor/object_option.cpp:85
+msgid "true"
+msgstr "αληθές"
+
+#: src/editor/object_option.cpp:85
+msgid "false"
+msgstr "ψευδές"
+
+#: src/editor/object_option.cpp:271 src/editor/object_option.cpp:320
+msgid "invalid"
+msgstr "άκυρο"
+
+#: src/editor/object_option.cpp:580
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: src/editor/object_option.cpp:597
+msgid "Test from here"
+msgstr "Δοκιμή από εδώ"
+
+#: src/editor/object_option.cpp:614
+msgid "Open Particle Editor"
+msgstr "Ανοίξτε το πρόγραμμα επεξεργασίας σωματιδίων"
+
+#: src/editor/worldmap_objects.hpp:56 src/editor/worldmap_objects.cpp:127
+msgid "Level"
+msgstr "Επίπεδο"
+
+#: src/editor/worldmap_objects.hpp:79
+msgid "Teleporter"
+msgstr "Τηλεμεταφορά"
+
+#: src/editor/worldmap_objects.hpp:119
+msgid "Sprite Change"
+msgstr "Αλλαγή περιουσιακού στοιχείου"
+
+#: src/editor/worldmap_objects.hpp:140
+msgid "Special tile"
+msgstr "Ειδικό πλακίδιο"
+
+#: src/editor/particle_editor.cpp:126
+msgid "Max amount"
+msgstr "Μέγιστο ποσό"
+
+#: src/editor/particle_editor.cpp:142
+msgid "Spawn anywhere"
+msgstr "Ωοτοκία οπουδήποτε"
+
+#: src/editor/particle_editor.cpp:143
+msgid "Life duration"
+msgstr "Διάρκεια ζωής"
+
+#: src/editor/particle_editor.cpp:148
+msgid "Birth duration"
+msgstr "Διάρκεια γέννησης"
+
+#: src/editor/particle_editor.cpp:153
+msgid "Death duration"
+msgstr "Διάρκεια θανάτου"
+
+#: src/editor/particle_editor.cpp:160
+msgid "Grow"
+msgstr "Καλλιεργώ"
+
+#: src/editor/particle_editor.cpp:175
+msgid "Horizontal speed"
+msgstr "Οριζόντια ταχύτητα"
+
+#: src/editor/particle_editor.cpp:180
+msgid "Vertical speed"
+msgstr "Κατακόρυφη ταχύτητα"
+
+#: src/editor/particle_editor.cpp:185
+msgid "Horizontal acceleration"
+msgstr "Οριζόντια επιτάχυνση"
+
+#: src/editor/particle_editor.cpp:186
+msgid "Vertical acceleration"
+msgstr "Κατακόρυφη επιτάχυνση"
+
+#: src/editor/particle_editor.cpp:187
+msgid "Horizontal friction"
+msgstr "Οριζόντια τριβή"
+
+#: src/editor/particle_editor.cpp:188
+msgid "Vertical friction"
+msgstr "Κάθετη τριβή"
+
+#: src/editor/particle_editor.cpp:190
+msgid "Initial rotation"
+msgstr "Αρχική περιστροφή"
+
+#: src/editor/particle_editor.cpp:201
+msgid "Rotation friction/decceleration"
+msgstr "Τριβή/επιβράδυνση περιστροφής"
+
+#: src/editor/particle_editor.cpp:211
+msgid "Destroy"
+msgstr "Καταστρέφω"
+
+#: src/editor/particle_editor.cpp:215
+msgid "Stick to surface"
+msgstr "Κολλήστε στην επιφάνεια"
+
+#: src/editor/particle_editor.cpp:216
+msgid "Stick and stay"
+msgstr "Κολλήστε και μείνετε"
+
+#: src/editor/particle_editor.cpp:217
+msgid "No collision"
+msgstr "Χωρίς σύγκρουση"
+
+#: src/editor/particle_editor.cpp:222
+msgid "Always destroy"
+msgstr "Να καταστρέφετε πάντα"
+
+#: src/editor/particle_editor.cpp:226
+msgid "Offscreen mode"
+msgstr "Λειτουργία εκτός οθόνης"
+
+#: src/editor/particle_editor.cpp:765
+msgid ""
+"This particle configuration contains unsaved changes,\n"
+"do you want to save?"
+msgstr "Αυτή η διαμόρφωση σωματιδίων περιέχει μη αποθηκευμένες αλλαγές,\nθέλεις να σώσεις?"
+
+#: src/editor/particle_editor.cpp:773
+msgid "Save as"
+msgstr "Αποθήκευση ως"
+
+#: src/editor/editor.cpp:566
+msgid ""
+"Don't forget that your levels and assets\n"
+"aren't saved between sessions!\n"
+"If you want to keep your levels, download them\n"
+"from the \"Manage Assets\" menu."
+msgstr "Μην ξεχνάτε ότι τα επίπεδα και τα περιουσιακά σας στοιχεία\nδεν αποθηκεύονται μεταξύ των περιόδων σύνδεσης!\nΑν θέλετε να διατηρήσετε τα επίπεδά σας, κατεβάστε τα\nαπό το μενού \"Διαχείριση στοιχείων\"."
+
+#: src/editor/editor.cpp:582
+msgid "This level contains unsaved changes, do you want to save?"
+msgstr "Αυτό το επίπεδο περιέχει μη αποθηκευμένες αλλαγές, θέλετε να αποθηκεύσετε;"
+
+#: src/editor/editor.cpp:622
+msgid ""
+"Some obsolete add-ons are still active\n"
+"and might cause collisions with default Super Tux structure.\n"
+"You can still enable these add-ons in the menu.\n"
+"Disabling these add-ons will not delete your game progress."
+msgstr "Μερικά παρωχημένα πρόσθετα είναι ακόμη ενεργά\nκαι μπορεί να δημιουργήσουν συγκρούσεις με την\nπροκαθορισμένη δομή του Super Tux.\nΜπορείτε ακόμη να τα ενεργοποιήσετε από το μενού.\nΗ απενεργοποίηση τους δεν θα διαγράψει την πρόοδο σας."
+
+#: src/editor/editor.cpp:625
+msgid "Disable add-ons"
+msgstr "Απενεργοποίηση πρόσθετων"
+
+#: src/editor/editor.cpp:630
+msgid "Ignore (not advised)"
+msgstr "Αγνόηση (δεν συνιστάται)"
+
+#: src/editor/editor.cpp:634
+msgid "Leave editor"
+msgstr "Εγκατάλειψη διορθωτή"
+
+#: src/editor/editor.cpp:853
+msgid ""
+"Couldn't find a \"main\" sector.\n"
+"Please change the name of the sector where\n"
+"you'd like the player to start to \"main\""
+msgstr "Δεν βρέθηκε \"κύριος\" τομέας.\nΑλλάξτε το όνομα του τομέα όπου\nθα θέλατε ο παίκτης να αρχίσει να \"κύριος\""
+
+#: src/editor/editor.cpp:857
+msgid ""
+"Couldn't find a \"main\" spawnpoint.\n"
+" Please change the name of the spawnpoint where\n"
+"you'd like the player to start to \"main\""
+msgstr "Δεν βρέθηκε ένα \"κύριο\" σημείο αναπαραγωγής.\nΑλλάξτε το όνομα του σημείου αναπαραγωγής όπου\nθα θέλατε ο παίκτης να αρχίσει να \"κύριος\""
+
+#: src/editor/worldmap_objects.cpp:128
+msgid "Outro script"
+msgstr "Εξωτερικό σενάριο"
+
+#: src/editor/worldmap_objects.cpp:129
+msgid "Auto play"
+msgstr "Αυτόματο παίξιμο"
+
+#: src/editor/worldmap_objects.cpp:131
+msgid "Title colour"
+msgstr "Χρώμα τίτλου"
+
+#: src/editor/worldmap_objects.cpp:173
+msgid "Automatic"
+msgstr "Αυτόματο"
+
+#: src/editor/worldmap_objects.cpp:175
+msgid "Target worldmap"
+msgstr "Στόχος χάρτη κόσμου"
+
+#: src/editor/worldmap_objects.cpp:238
+msgid "Stay action"
+msgstr "Αναβολή δράσης"
+
+#: src/editor/worldmap_objects.cpp:239
+msgid "Initial stay action"
+msgstr "Αρχική αναβολή δράσης"
+
+#: src/editor/worldmap_objects.cpp:240
+msgid "Stay group"
+msgstr "Ομάδα αναβολής"
+
+#: src/editor/worldmap_objects.cpp:241
+msgid "Change on touch"
+msgstr "Αλλαγή στο άγγιγμα"
+
+#: src/editor/worldmap_objects.cpp:271
+msgid "Show message"
+msgstr "Εμφάνιση μηνύματος"
+
+#: src/editor/worldmap_objects.cpp:273
+msgid "Invisible"
+msgstr "Αόρατο"
+
+#: src/editor/overlay_widget.cpp:1297
+msgid "Autotile mode is on"
+msgstr "Η λειτουργία αυτόματης πλακιδίων είναι ενεργοποιημένη"
+
+#: src/editor/overlay_widget.cpp:1299
+msgid "Hold Ctrl to enable autotile"
+msgstr "Κρατήστε πατημένο το Ctrl για να ενεργοποιήσετε το αυτόματο πλακίδιο"
+
+#: src/editor/overlay_widget.cpp:1303
+msgid "Autotile erasing mode is on"
+msgstr "Η λειτουργία αυτόματης διαγραφής είναι ενεργοποιημένη"
+
+#: src/editor/overlay_widget.cpp:1305
+msgid "Selected tile isn't autotileable"
+msgstr "Το επιλεγμένο πλακίδιο δεν είναι αυτόματο"
+
+#: src/editor/overlay_widget.cpp:1308
+msgid "Hold Ctrl to enable autotile erasing"
+msgstr "Κρατήστε πατημένο το Ctrl για να ενεργοποιήσετε την αυτόματη διαγραφή"
+
+#: data//credits.stxt:25
+msgid "Current SuperTux Team"
+msgstr "Τρέχουσα ομάδα SuperTux"
+
+#: data//credits.stxt:30
+msgid "Programming, project lead ad interim"
+msgstr "Προγραμματισμός, προσωρινή ηγεσία έργου "
+
+#: data//credits.stxt:35
+msgid "Graphics, Level Design, Story"
+msgstr "Γραφικά, Σχεδιασμός Επιπέδων, Ιστορία"
+
+#: data//credits.stxt:40
+msgid "Level Design, Story, Optimisation, Coordination"
+msgstr "Σχεδιασμός επιπέδου, ιστορία, βελτιστοποίηση, συντονισμός"
+
+#: data//credits.stxt:45 data//credits.stxt:105 data//credits.stxt:191
+#: data//credits.stxt:519
+msgid "Graphics"
+msgstr "Γραφικά"
+
+#: data//credits.stxt:50 data//credits.stxt:87 data//credits.stxt:93
+msgid "Graphics, Programming, Level Design"
+msgstr "Γραφικά, Προγραμματισμός, Σχεδίαση επιπέδων"
+
+#: data//credits.stxt:55
+msgid "Features and Programming"
+msgstr "Χαρακτηριστικά και Προγραμματισμός"
+
+#: data//credits.stxt:60
+msgid "Programming, Level Updates"
+msgstr "Προγραμματισμός, ενημερώσεις επιπέδου"
+
+#: data//credits.stxt:65
+msgid "Graphics, Programming"
+msgstr "Γραφικά, Προγραμματισμός"
+
+#: data//credits.stxt:70 data//credits.stxt:135 data//credits.stxt:140
+#: data//credits.stxt:145 data//credits.stxt:150 data//credits.stxt:165
+#: data//credits.stxt:170 data//credits.stxt:515 data//credits.stxt:527
+msgid "Programming"
+msgstr "Προγραμματισμός"
+
+#: data//credits.stxt:76
+msgid "Original Developers"
+msgstr "Πρωτότυποι προγραμματιστές"
+
+#: data//credits.stxt:81
+msgid "Original Developer"
+msgstr "Αρχικός προγραμματιστής"
+
+#: data//credits.stxt:99
+msgid "Music, Level Design"
+msgstr "Μουσική, Σχεδίαση επιπέδων"
+
+#: data//credits.stxt:111
+msgid "Programming, Graphics, Level Design"
+msgstr "Προγραμματισμός, Γραφικά, Σχεδίαση επιπέδων"
+
+#: data//credits.stxt:117
+msgid "Programming, Level Design"
+msgstr "Προγραμματισμός, Σχεδίαση επιπέδων"
+
+#: data//credits.stxt:123
+msgid "Graphics, Story"
+msgstr "Γραφικά, Ιστορία"
+
+#: data//credits.stxt:129
+msgid "Programming, Documentation"
+msgstr "Προγραμματισμός, Τεκμηρίωση"
+
+#: data//credits.stxt:155
+msgid "Coordination"
+msgstr "Συντονισμός"
+
+#: data//credits.stxt:160
+msgid "Programming, \"Flexlay\" Level editor"
+msgstr "Προγραμματισμός, Επεξεργαστής επιπέδων \"Flexlay\""
+
+#: data//credits.stxt:175
+msgid "Windows build fixes"
+msgstr "Διορθώσεις χτισίματος για Windows"
+
+#: data//credits.stxt:180
+msgid "Packaging, Nightly builds"
+msgstr "Πακετάρισμα, Νυχτερινά χτισίματα"
+
+#: data//credits.stxt:185
+msgid "Translation Guru (and many details anyone else could have done)"
+msgstr "Γκουρού μετάφρασης (και πολλές λεπτομέρειες που οποιοσδήποτε άλλος θα μπορούσε νε έχει κάνει)"
+
+#: data//credits.stxt:251
+msgid "Level Design"
+msgstr "Σχεδίαση επιπέδων"
+
+#: data//credits.stxt:431
+msgid "Additional contributors"
+msgstr "Πρόσθετοι συντονιστές"
+
+#: data//credits.stxt:436
+msgid "Bug fixes"
+msgstr "Διόρθωση σφαλμάτων"
+
+#: data//credits.stxt:440
+msgid "Scripting functions, Level fixes"
+msgstr "Λειτουργίες σεναρίων, Διορθώσεις επιπέδων"
+
+#: data//credits.stxt:444
+msgid "Code quality fixes"
+msgstr "Διορθώσεις ποιότητας κώδικα"
+
+#: data//credits.stxt:448 data//credits.stxt:452 data//credits.stxt:456
+#: data//credits.stxt:483
+msgid "Various contributions"
+msgstr "Διάφορες συνεισφορές"
+
+#: data//credits.stxt:460
+msgid "Build issue fix"
+msgstr "Διόρθωση θέματος χτισίματος"
+
+#: data//credits.stxt:464 data//credits.stxt:468
+msgid "Code contributions"
+msgstr "Συνεισφορές κώδικα"
+
+#: data//credits.stxt:471
+msgid "Code contribution, AppData file"
+msgstr "Συνεισφορά κώδικα, Αρχείο AppData"
+
+#: data//credits.stxt:475
+msgid "Bug fix"
+msgstr "Διόρθωση σφάλματος"
+
+#: data//credits.stxt:479
+msgid "Menu reorganization"
+msgstr "Αναδιοργάνωση μενού"
+
+#: data//credits.stxt:487
+msgid "Fixing tile bugs"
+msgstr "Διόρθωση σφαλμάτων πλακιδίων"
+
+#: data//credits.stxt:491
+msgid "Build error fix"
+msgstr "Διόρθωση σφάλματος χτισίματος"
+
+#: data//credits.stxt:495
+msgid "Scripting function fix"
+msgstr "Διόρθωση λειτουργίας σεναρίου"
+
+#: data//credits.stxt:499
+msgid "New features and notable updates"
+msgstr "Νέες δυνατότητες και αξιοσημείωτες ενημερώσεις"
+
+#: data//credits.stxt:503
+msgid "Support for \"glbinding\" as optional OpenGL binding"
+msgstr "Υποστήριξη του \"glbinding\" ως προαιρετικού OpenGL binding"
+
+#: data//credits.stxt:507
+msgid "New menu code"
+msgstr "Νέος κώδικας μενού"
+
+#: data//credits.stxt:511
+msgid "Big Tux Walking Sprites improvements"
+msgstr "Βελτιώσεις στα περπάτημα του Big Tux"
+
+#: data//credits.stxt:523 data//credits.stxt:531
+msgid "Contrib Programming"
+msgstr "Συνεισφ προγραμματισμός"
+
+#: data//credits.stxt:535
+msgid "Programming, Previous Maintainer"
+msgstr "Προγραμματισμός, Πρώην συντηρητής"
+
+#: data//credits.stxt:539
+msgid "Various Contributions"
+msgstr "Διάφορες Συνεισφορές"
+
+#: data//credits.stxt:543
+msgid "Minor features and programming"
+msgstr "Μικρά χαρακτηριστικά και προγραμματισμός"
+
+#: data//credits.stxt:547 data//credits.stxt:551 data//credits.stxt:555
+#: data//credits.stxt:559 data//credits.stxt:563 data//credits.stxt:567
+#: data//credits.stxt:571 data//credits.stxt:575 data//credits.stxt:579
+#: data//credits.stxt:583 data//credits.stxt:587 data//credits.stxt:591
+msgid "Contributions"
+msgstr "Συνεισφορές"
+
+#: data//credits.stxt:597
+msgid "Localization"
+msgstr "Τοπικοποίηση"
+
+#: data//credits.stxt:1144
+msgid " Special Thanks to"
+msgstr "Ιδιαίτερες ευχαριστίες προς"
+
+#: data//credits.stxt:1149
+msgid "Creator of Tux, the Linux penguin"
+msgstr "Δημιουργό του Tux, του πιγκουίνου του Linux"
+
+#: data//credits.stxt:1153
+msgid "SDL, OpenAL and OpenGL"
+msgstr "SDL, OpenAL και OpenGL"
+
+#: data//credits.stxt:1154
+msgid ""
+"For making such a great gaming experience\n"
+"        possible on Linux"
+msgstr "Για το ότι έκαναν δυνατή την υπέροχη\nεμπειρία παιχνιδιού στο Linux"
+
+#: data//credits.stxt:1159
+msgid "and you, the player"
+msgstr "και εσύ, ο παίκτης"
+
+#: data//credits.stxt:1160
+msgid "for giving this game a chance and playing it"
+msgstr "για να δώσεις μια ευκαιρία σε αυτό το παιχνίδι και να το παίξεις"
+
+#: data//credits.stxt:1171
+msgid "Visit our webpage at"
+msgstr "Επισκευτείτε την ιστοσελίδα μας  στο"
+
+#: data//credits.stxt:1180
+msgid "Or visit us directly at IRC:"
+msgstr "ή επισκεφτείτε μας άμεσα στο IRC:"
+
+#: data//credits.stxt:1184
+msgid "#supertux at web.libera.chat"
+msgstr "#supertux στο web.libera.chat"
+
+#: data//credits.stxt:1189
+msgid "Or at our Forum:"
+msgstr "ή στο φόρουμ μας:"
+
+#: data//credits.stxt:1198
+msgid "Comments, ideas and suggestions"
+msgstr "Σχόλια, ιδέες και προτάσεις"
+
+#: data//credits.stxt:1202
+msgid "go to our mailing list"
+msgstr "πηγαίνετε στην λίστα αλληλογραφίας μας"
+
+#. l10n: typo contact
+#: data//credits.stxt:1212
+msgid "Typographical errors can be"
+msgstr "Τυπογραφικά σφάλματα μπορούν να"
+
+#. l10n: typo contact
+#: data//credits.stxt:1217
+msgid "reported to"
+msgstr "αναφέρονται σε"
+
+#. l10n: typo contact, see <https://github.com/SuperTux/supertux/issues/611>
+#: data//credits.stxt:1222
+msgid "supertux-devel@lists.lethargik.org"
+msgstr "supertux-devel@lists.lethargik.org"
+
+#: data//credits.stxt:1229
+msgid "Want to help…"
+msgstr "Θέλετε να βοηθήσετε..."
+
+#: data//credits.stxt:1234
+msgid "…with localization?"
+msgstr "...με την τοπικοποίηση;"
+
+#: data//credits.stxt:1244
+msgid "…with something else?"
+msgstr "...με κάτι άλλο;"
+
+#: data//credits.stxt:1255
+msgid "Thank you for"
+msgstr "Σας ευχαριστούμε που"
+
+#: data//credits.stxt:1259
+msgid "playing"
+msgstr "παίξατε"
+
+#: data//credits.stxt:1269
+msgid "Penny awaits you in warmer temperatures!"
+msgstr "Η Penny σας περιμένει σε πιο ζεστές θερμοκρασίες!"
+
+#: data//images/engine/editor/objects.stoi:162
+msgid "Bosses"
+msgstr "Όγκοι"
+
+#: data//images/engine/editor/objects.stoi:173
+msgid "Projectiles"
+msgstr "Βλήματα"
+
+#: data//images/engine/editor/objects.stoi:187
+msgid "Environment"
+msgstr "Περιβάλλον"
+
+#: data//images/ice_world.strf:10 data//images/tiles.strf:28
+#: data//images/worldmap.strf:41
+msgid "Snow"
+msgstr "Χιόνι"
+
+#: data//images/ice_world.strf:80
+msgid "Ice Cave & Crystal"
+msgstr "Σπήλαιο πάγου και κρύσταλλοι"
+
+#: data//images/ice_world.strf:127
+msgid "Embellishments"
+msgstr "Καλωπισμοί"
+
+#: data//images/ice_world.strf:211 data//images/tiles.strf:386
+#: data//images/worldmap.strf:67
+msgid "Forest"
+msgstr "Δάσος"
+
+#: data//images/ice_world.strf:320
+msgid "Underground Forest"
+msgstr "Υπόγειο Δάσος"
+
+#: data//images/ice_world.strf:375
+msgid "Trees & Bushes"
+msgstr "Δέντρα & Θάμνοι"
+
+#: data//images/ice_world.strf:406
+msgid "Seasonal"
+msgstr "Εποχής"
+
+#: data//images/ice_world.strf:496
+msgid "Structure"
+msgstr "Δομή"
+
+#: data//images/ice_world.strf:557
+msgid "Pathing"
+msgstr "Μονοπάτια"
+
+#: data//images/ice_world.strf:718
+msgid "Water"
+msgstr "Νερό"
+
+#: data//images/tiles.strf:176
+msgid "Snow Background"
+msgstr "Φόντο χιονιού"
+
+#: data//images/tiles.strf:231
+msgid "Snow Mountain"
+msgstr "Χιονισμένο βουνό"
+
+#: data//images/tiles.strf:305
+msgid "Crystal"
+msgstr "Κρύσταλλο"
+
+#: data//images/tiles.strf:532
+msgid "Forest Background"
+msgstr "Δάσος υπόβαθρο"
+
+#: data//images/tiles.strf:663
+msgid "Block + Bonus"
+msgstr "Μπλοκ + Μπόνους"
+
+#: data//images/tiles.strf:715
+msgid "Pole + Signs"
+msgstr "Πόλος + Σημάδια"
+
+#: data//images/tiles.strf:760
+msgid "Liquid"
+msgstr "Υγρό"
+
+#: data//images/tiles.strf:793
+msgid "Castle"
+msgstr "Κάστρο"
+
+#: data//images/tiles.strf:930 data//images/worldmap.strf:199
+msgid "Halloween"
+msgstr "Halloween"
+
+#: data//images/tiles.strf:958
+msgid "Industrial"
+msgstr "Βιομηχανικό"
+
+#: data//images/tiles.strf:973
+msgid "Unisolid + Lightmap"
+msgstr "Μονοστερεό + ελαφρύς χάρτης"
+
+#: data//images/tiles.strf:1000
+msgid "Miscellaneous"
+msgstr "Διάφορα"
+
+#: data//images/tiles.strf:1043
+msgid "Retro Snow"
+msgstr "Ρετρό χιόνι"
+
+#: data//images/worldmap.strf:24
+msgid "Water paths"
+msgstr "Υδάτινα μονοπάτια"
+
+#: data//images/worldmap.strf:32
+msgid "Castle paths"
+msgstr "Μονοπάτια κάστρου"
+
+#: data//images/worldmap.strf:135
+msgid "Darker Forest"
+msgstr "Σκοτεινότερο δάσος"

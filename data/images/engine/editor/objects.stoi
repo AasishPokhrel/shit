@@ -1,0 +1,423 @@
+(supertux-objectinfo
+
+ (objectgroup
+  (name ( _"Enemies"))
+  (worldmap #f)
+  (object
+    (class "snowball")
+    (icon "images/creatures/snowball/snowball-1.png"))
+  (object
+    (class "smartball")
+    (icon "images/creatures/snowball/smartball-1.png"))
+  (object
+    (class "captainsnowball")
+    (icon "images/creatures/snowball/captain_left-1.png"))
+  (object
+    (class "bouncingsnowball")
+    (icon "images/creatures/bouncing_snowball/jump-3.png"))
+  (object
+    (class "flyingsnowball")
+    (icon "images/creatures/flying_snowball/flying_snowball-0.png"))
+  (object
+    (class "kamikazesnowball")
+    (icon "images/creatures/snowball/kamikaze-editor.png"))
+  (object
+    (class "snowman")
+    (icon "images/creatures/snowman/snowman-5.png"))
+  (object
+    (class "spiky")
+    (icon "images/creatures/spiky/spiky-1.png"))
+  (object
+    (class "sspiky")
+    (icon "images/creatures/spiky/spiky_sleep-0.png"))
+  (object
+    (class "jumpy")
+    (icon "images/creatures/jumpy/snow_down-0.png"))
+  (object
+    (class "mriceblock")
+    (icon "images/creatures/iceblock/iceblock-1.png"))
+  (object
+    (class "smartblock")
+    (icon "images/creatures/iceblock/smartblock-1.png"))
+  (object
+    (class "crystallo")
+    (icon "images/creatures/crystallo/left-2.png"))
+  (object
+    (class "scrystallo")
+    (icon "images/creatures/crystallo/sleep-0.png"))
+  (object
+    (class "rcrystallo")
+    (icon "images/creatures/crystallo/roof_crystallo-editor.png"))
+  (object
+    (class "crusher")
+    (icon "images/creatures/crusher/krush_ice_hit.png"))
+  (object
+    (class "stalactite")
+    (icon "images/creatures/stalactite/stalactite_ice.png"))
+  (object
+    (class "fish-harmless")
+    (icon "images/creatures/fish/ice/swim_orange-0.png"))
+  (object
+    (class "fish-swimming")
+    (icon "images/creatures/fish/ice/swim_blue-0.png"))
+  (object
+    (class "fish-chasing")
+    (icon "images/creatures/fish/ice/swim_green-0.png"))
+  (object
+    (class "fish-jumping")
+    (icon "images/creatures/fish/forest/jump_blue-3.png"))
+  (object
+    (class "viciousivy")
+    (icon "images/creatures/vicious_ivy/left-0.png"))
+  (object
+    (class "walkingleaf")
+    (icon "images/creatures/walkingleaf/left-0.png"))
+  (object
+    (class "leafshot")
+    (icon "images/creatures/leafshot/leafshot-1.png"))
+  (object
+    (class "mrtree")
+    (icon "images/creatures/mr_tree/mr_tree-8.png"))
+  (object
+    (class "stumpy")
+    (icon "images/creatures/mr_tree/stumpy-8.png"))
+  (object
+    (class "igel")
+    (icon "images/creatures/igel/walk-0.png"))
+  (object
+    (class "snail")
+    (icon "images/creatures/snail/left-0.png"))
+  (object
+    (class "owl")
+    (icon "images/creatures/owl/carry-0.png"))
+  (object
+    (class "mole")
+    (icon "images/creatures/mole/center.png"))
+  (object
+    (class "zeekling")
+    (icon "images/creatures/zeekling/zeekling-0.png"))
+  (object
+    (class "corrupted_granito")
+    (icon "images/creatures/granito/corrupted/idle_left-0.png"))
+  (object
+    (class "corrupted_granito_big")
+    (icon "images/creatures/granito/corrupted/big/rock_mine-0.png"))
+  (object
+    (class "darttrap")
+    (icon "images/creatures/darttrap/granito/empty_left.png"))
+(object
+    (class "root_sapling")
+    (icon "images/creatures/mole/corrupted/root_sapling-0.png"))  
+(object
+    (class "ghoul")
+    (icon "images/creatures/ghoul/g1.png"))
+  (object
+    (class "mrbomb")
+    (icon "images/creatures/mr_bomb/left-0.png"))
+  (object
+    (class "goldbomb")
+    (icon "images/creatures/gold_bomb/left-0.png"))
+  (object
+    (class "haywire")
+    (icon "images/creatures/haywire/left-0.png"))
+  (object
+    (class "dive-mine")
+    (icon "images/creatures/dive_mine/left-0.png"))
+  (object
+    (class "short_fuse")
+    (icon "images/creatures/short_fuse/short_fuse-0.png"))
+  (object
+    (class "skydive")
+    (icon "images/creatures/skydive/skydive-0.png"))
+  (object
+    (class "flame")
+    (icon "images/creatures/flame/flame-0.png"))
+  (object
+    (class "willowisp")
+    (icon "images/creatures/willowisp/editor.png"))
+  (object
+    (class "walking_candle")
+    (icon "images/creatures/mr_candle/mrcandle-editor.png"))
+  (object
+    (class "livefire")
+    (icon "images/creatures/livefire/f2.png"))
+  (object
+    (class "livefire_asleep")
+    (icon "images/creatures/livefire/waking2.png"))
+  (object
+    (class "livefire_dormant")
+    (icon "images/creatures/livefire/sleeping8.png"))
+  (object
+    (class "toad")
+    (icon "images/creatures/toad/toad-idle-0.png"))
+  (object
+    (class "tarantula")
+    (icon "images/creatures/tarantula/tarantula-0.png"))
+  (object
+    (class "totem")
+    (icon "images/creatures/totem/walking1.png"))
+ )
+
+ (objectgroup
+  (name (_"Bosses"))
+  (worldmap #f)
+  (object
+    (class "yeti")
+    (icon "images/creatures/yeti/hudlife.png"))
+  (object
+    (class "ghosttree")
+    (icon "images/creatures/ghosttree/ghosttree.png"))
+ )
+
+ (objectgroup
+  (name (_"Projectiles"))
+  (worldmap #f)
+  (object
+    (class "yeti_stalactite")
+    (icon "images/engine/editor/stalactite_ice_yeti.png"))
+  (object
+    (class "dart")
+    (icon "images/creatures/darttrap/granito/root_dart_left.png"))
+  (object
+    (class "bigsnowball")
+    (icon "images/objects/big_snowball/big_snowball.png"))
+ )
+
+ (objectgroup
+  (name (_"Environment"))
+  (worldmap #f)
+  (object
+    (class "bonusblock")
+    (icon "images/objects/bonus_block/full-0.png"))
+  (object
+    (class "infoblock")
+    (icon "images/objects/bonus_block/infoblock-0.png"))
+  (object
+    (class "invisible_block")
+    (icon "images/objects/bonus_block/bonus-invisible.png"))
+  (object
+    (class "brick")
+    (icon "images/tiles/blocks/brick0.png"))
+  (object
+    (class "heavy-brick")
+    (icon "images/tiles/blocks/brick3.png"))
+  (object
+    (class "coin")
+    (icon "images/objects/coin/coin-0.png"))
+  (object
+    (class "heavycoin")
+    (icon "images/engine/editor/heavy_coin.png"))
+  (object
+    (class "powerup")
+    (icon "images/engine/editor/powerup.png"))
+  (object
+    (class "spawnpoint")
+    (icon "images/engine/editor/spawnpoint.png"))
+  (object
+    (class "firefly")
+    (icon "images/engine/editor/resetpoint.png"))
+  (object
+    (class "granito")
+    (icon "images/creatures/granito/granito_stand-0.png"))
+  (object
+    (class "granito_big")
+    (icon "images/creatures/granito/big/granito_stand-0.png"))
+  (object
+    (class "granito_giant")
+    (icon "images/creatures/granito/giant/granito_sleep-0.png"))
+  (object
+    (class "dispenser")
+    (icon "images/creatures/dispenser/dropper.png"))
+  (object
+    (class "ispy")
+    (icon "images/objects/ispy/i-idle.png"))
+;;(object
+;;  (class "path")
+;;  (icon "images/engine/editor/path.png"))
+  (object
+    (class "platform")
+    (icon "images/engine/editor/flyingplatform.png"))
+  (object
+    (class "fallblock")
+    (icon "images/engine/editor/fallplatform.png"))
+  (object
+    (class "hurting_platform")
+    (icon "images/engine/editor/hurtplatform.png"))
+  (object
+    (class "circleplatform")
+    (icon "images/engine/editor/circeplatform.png"))
+  (object
+    (class "bicycle-platform")
+    (icon "images/engine/editor/bicycleplatform.png"))
+  (object
+    (class "pneumatic-platform")
+    (icon "images/engine/editor/pneumaticplatform.png"))
+  (object
+    (class "rock")
+    (icon "images/objects/rock/rock.png"))
+  (object
+    (class "rublight")
+    (icon "images/objects/rublight/rublight-0.png"))
+  (object
+    (class "unstable_tile")
+    (icon "images/objects/unstable_tile/snow-3.png"))
+  (object
+    (class "weak_block")
+    (icon "images/objects/weak_block/meltbox-0.png"))
+  (object
+    (class "conveyor-belt")
+    (icon "images/objects/conveyor_belt/conveyor_left0.png"))
+  (object
+    (class "trampoline")
+    (icon "images/objects/trampoline/trampoline-editor.png"))
+  (object
+    (class "rustytrampoline")
+    (icon "images/objects/rusty-trampoline/rustytrampoline-editor.png"))
+  (object
+    (class "bumper")
+    (icon "images/objects/trampoline/right-0.png"))
+  (object
+    (class "door")
+    (icon "images/objects/door/door-0.png"))
+  (object
+    (class "key")
+    (icon "images/objects/keys/key_silver.png"))
+  (object
+    (class "pushbutton")
+    (icon "images/objects/pushbutton/pushbutton-0.png"))
+  (object
+    (class "switch")
+    (icon "images/objects/switch/left-0.png"))
+  (object
+    (class "lit-object")
+    (icon "images/objects/lightflower/lightflower1-0.png"))
+  (object
+    (class "torch")
+    (icon "images/objects/torch/torch1.png"))
+  (object
+    (class "candle")
+    (icon "images/objects/candle/candle-1.png"))
+  (object
+    (class "lantern")
+    (icon "images/objects/lantern/lantern-1.png"))
+  (object
+    (class "magicblock")
+    (icon "images/objects/magicblock/magicblock.png"))
+  (object
+    (class "spotlight")
+    (icon "images/objects/spotlight/spotlight_center.png"))
+  (object
+    (class "scriptedobject")
+    (icon "images/engine/editor/scriptedobject.png"))
+  (object
+    (class "decal")
+    (icon "images/engine/editor/decal.png"))
+  (object
+    (class "climbable")
+    (icon "images/engine/editor/climbable.png"))
+  (object
+    (class "secretarea")
+    (icon "images/engine/editor/secretarea.png"))
+  (object
+    (class "scripttrigger")
+    (icon "images/engine/editor/scripttrigger.png"))
+  (object
+    (class "sequencetrigger")
+    (icon "images/engine/editor/sequencetrigger.png"))
+  (object
+    (class "invisible_wall")
+    (icon "images/engine/editor/invisible_wall.png"))
+  (object
+    (class "wind")
+    (icon "images/engine/editor/wind.png"))
+  (object
+    (class "ambient_sound")
+    (icon "images/engine/editor/ambientsound.png"))
+  (object
+    (class "particle-zone")
+    (icon "images/engine/editor/particle_zone.png"))
+  (object
+    (class "text-area")
+    (icon "images/engine/editor/textarray.png"))
+  (object
+    (class "editor-comment")
+    (icon "images/engine/editor/editor-comment.png"))
+ )
+
+ (layers
+  (object
+    (class "tilemap")
+    (icon "images/engine/editor/tilemap.png"))
+  (object
+    (class "background")
+    (icon "images/engine/editor/background.png"))
+  (object
+    (class "gradient")
+    (icon "images/engine/editor/gradient.png"))
+  (object
+    (class "leveltime")
+    (icon "images/engine/editor/clock.png"))
+  (object
+    (class "particles-snow")
+    (icon "images/engine/editor/snow.png"))
+  (object
+    (class "particles-rain")
+    (icon "images/engine/editor/rain.png"))
+  (object
+    (class "thunderstorm")
+    (icon "images/engine/editor/thunderstorm.png"))
+  (object
+    (class "particles-clouds")
+    (icon "images/engine/editor/clouds.png"))
+  (object
+    (class "particles-ghosts")
+    (icon "images/engine/editor/ghostparticles.png"))
+;;  +-- This should be disabled, as it probably won't support multiple textures
+;;  |   per config object.
+;;  v                               ~ Semphris
+  (object
+    (class "particles-custom")
+    (icon "images/engine/editor/particle.png"))
+  (object
+    (class "particles-custom-file")
+    (icon "images/engine/editor/particle_file.png"))
+  (object
+    (class "textscroller")
+    (icon "images/engine/editor/textscroller.png"))
+  (object
+    (class "sound-object")
+    (icon "images/engine/editor/sound.png"))
+ )
+
+ (objectgroup
+  (name (_"Worldmap"))
+  (worldmap #t)
+  (object
+    (class "worldmap-spawnpoint")
+    (icon "images/worldmap/common/tux.png"))
+  (object
+    (class "level")
+    (icon "images/worldmap/common/leveldot_red.png"))
+  (object
+    (class "teleporter")
+    (icon "images/worldmap/common/teleporterdot.png"))
+  (object
+    (class "special-tile")
+    (icon "images/engine/editor/specialtile.png"))
+  (object
+    (class "sprite-change")
+    (icon "images/engine/editor/spritechange.png"))
+  (object
+    (class "decal")
+    (icon "images/engine/editor/decal.png"))
+ )
+
+ (layers-worldmap
+  (object
+    (class "tilemap")
+    (icon "images/engine/editor/tilemap.png"))
+  (object
+    (class "background")
+    (icon "images/engine/editor/background.png"))
+ )
+)

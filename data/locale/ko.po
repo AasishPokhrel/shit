@@ -1,0 +1,3831 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Go Nam Hyeon <gnh1201@gmail.com>, 2021
+# IAN RODRÍGUEZ Lorenzo, 2022
+# 최이준, 2023
+# JungHee Lee <daemul72@gmail.com>, 2022
+# JungHee Lee <daemul72@gmail.com>, 2022
+# Myeongjin <aranet100@gmail.com>, 2016-2022
+# Roland Kim <dyn4micwork@gmail.com>, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2021-12-12 20:05+0100\n"
+"PO-Revision-Date: 2013-08-10 22:56+0000\n"
+"Last-Translator: 최이준, 2023\n"
+"Language-Team: Korean (http://app.transifex.com/arctic-games/supertux/language/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/trigger/secretarea_trigger.cpp:53 src/trigger/secretarea_trigger.cpp:61
+msgid "You found a secret area!"
+msgstr "숨겨진 공간을 찾았어요!"
+
+#: src/trigger/secretarea_trigger.cpp:77 src/supertux/game_object.cpp:90
+#: src/supertux/menu/editor_sector_menu.cpp:34
+#: src/supertux/menu/editor_levelset_menu.cpp:58
+#: src/supertux/menu/editor_new_levelset_menu.cpp:34
+#: src/supertux/menu/editor_level_menu.cpp:33
+msgid "Name"
+msgstr "이름"
+
+#: src/trigger/secretarea_trigger.cpp:78
+msgid "Fade tilemap"
+msgstr "페이드 타일맵"
+
+#: src/trigger/secretarea_trigger.cpp:79 src/trigger/climbable.cpp:81
+#: src/object/infoblock.cpp:57 src/editor/worldmap_objects.cpp:172
+#: src/editor/worldmap_objects.cpp:270
+msgid "Message"
+msgstr "메시지"
+
+#: src/trigger/secretarea_trigger.cpp:80 src/trigger/scripttrigger.cpp:75
+#: src/trigger/door.cpp:73 src/object/ispy.cpp:67
+#: src/object/bonus_block.cpp:207 src/object/bonus_block.cpp:211
+#: src/object/pushbutton.cpp:51 src/object/powerup.cpp:190
+#: src/editor/worldmap_objects.cpp:272
+msgid "Script"
+msgstr "스크립트"
+
+#: src/trigger/scripttrigger.cpp:76 src/object/pushbutton.hpp:31
+msgid "Button"
+msgstr "버튼"
+
+#: src/trigger/scripttrigger.cpp:77
+msgid "Oneshot"
+msgstr "한번쏘기"
+
+#: src/trigger/sequence_trigger.hpp:33
+msgid "Sequence Trigger"
+msgstr "시퀀스 트리거"
+
+#: src/trigger/door.cpp:74 src/badguy/willowisp.cpp:320
+#: src/supertux/menu/editor_sector_menu.cpp:32
+#: src/editor/layers_widget.cpp:342
+#: data//images/engine/editor/objects.stoi:321
+msgid "Sector"
+msgstr "구역"
+
+#: src/trigger/door.cpp:75 src/editor/worldmap_objects.hpp:101
+msgid "Spawn point"
+msgstr "스폰 지점"
+
+#: src/trigger/switch.cpp:61 src/object/block.cpp:224 src/object/torch.cpp:102
+#: src/object/moving_sprite.cpp:156 src/object/pneumatic_platform.cpp:146
+msgid "Sprite"
+msgstr "스프라이트"
+
+#: src/trigger/switch.cpp:62
+msgid "Turn on script"
+msgstr "스크립트 켜기"
+
+#: src/trigger/switch.cpp:63
+msgid "Turn off script"
+msgstr "스크립트 끄기"
+
+#: src/trigger/scripttrigger.hpp:32
+msgid "Script Trigger"
+msgstr "스크립트 트리거"
+
+#: src/trigger/sequence_trigger.cpp:75
+msgid "Sequence"
+msgstr "시퀀스"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "end sequence"
+msgstr "끝 시퀀스"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "stop Tux"
+msgstr "턱스 멈춤"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "fireworks"
+msgstr "폭죽"
+
+#: src/trigger/sequence_trigger.cpp:80
+msgid "New worldmap spawnpoint"
+msgstr "새 세계지도 스폰지점"
+
+#: src/trigger/sequence_trigger.cpp:81
+msgid "Worldmap fade tilemap"
+msgstr "세계지도 페이드 타일맵"
+
+#: src/trigger/sequence_trigger.cpp:82
+#: src/object/custom_particle_system.cpp:430
+#: src/object/custom_particle_system.cpp:465
+msgid "Fade"
+msgstr "페이드"
+
+#: src/trigger/sequence_trigger.cpp:83 src/editor/particle_editor.cpp:161
+msgid "Fade in"
+msgstr "페이드 인"
+
+#: src/trigger/sequence_trigger.cpp:83 src/editor/particle_editor.cpp:167
+#: src/editor/particle_editor.cpp:212
+msgid "Fade out"
+msgstr "페이드 아웃"
+
+#: src/trigger/climbable.hpp:37
+msgid "Climbable"
+msgstr "오를 수 있음"
+
+#: src/trigger/door.hpp:34
+msgid "Door"
+msgstr "문"
+
+#: src/trigger/switch.hpp:33
+msgid "Switch"
+msgstr "전환"
+
+#: src/trigger/secretarea_trigger.hpp:36
+msgid "Secret Area"
+msgstr "비밀공간 구역"
+
+#: src/object/thunderstorm.hpp:40
+msgid "Thunderstorm"
+msgstr "천둥 번개"
+
+#: src/object/cloud_particle_system.cpp:79
+#: src/object/rain_particle_system.cpp:100
+msgid "Intensity"
+msgstr "빛의 강도"
+
+#: src/object/custom_particle_system.hpp:45
+msgid "Custom Particles"
+msgstr "사용자 지정 입자"
+
+#: src/object/ispy.cpp:66
+msgid "Facing Down"
+msgstr "아래로 향하는 중"
+
+#: src/object/ispy.cpp:68 src/object/spotlight.cpp:103
+#: src/object/gradient.cpp:137 src/badguy/willowisp.cpp:319
+#: src/badguy/badguy.cpp:848 src/editor/worldmap_objects.cpp:207
+#: src/editor/worldmap_objects.cpp:274
+msgid "Direction"
+msgstr "방향"
+
+#: src/object/particle_zone.hpp:39
+msgid "Particle zone"
+msgstr "입자 영역"
+
+#: src/object/path_gameobject.hpp:44 src/object/coin.cpp:301
+#: src/object/camera.cpp:224 src/object/platform.cpp:73
+#: src/object/path_gameobject.cpp:173 src/object/tilemap.cpp:246
+#: src/gui/menu_paths.cpp:52 src/badguy/willowisp.cpp:326
+msgid "Path"
+msgstr "길"
+
+#: src/object/decal.cpp:49 src/object/scripted_object.cpp:67
+#: src/object/particlesystem.cpp:65 src/object/background.cpp:183
+#: src/object/thunderstorm.cpp:68 src/object/tilemap.cpp:239
+#: src/object/gradient.cpp:135
+msgid "Z-pos"
+msgstr "Z-위치"
+
+#: src/object/decal.cpp:50 src/object/scripted_object.cpp:70
+#: src/object/tilemap.cpp:228
+msgid "Solid"
+msgstr "고체"
+
+#: src/object/decal.cpp:51 src/supertux/menu/keyboard_menu.cpp:37
+#: src/supertux/menu/joystick_menu.cpp:74
+msgid "Action"
+msgstr "동작"
+
+#: src/object/weak_block.hpp:35
+msgid "Weak Tile"
+msgstr "약한 타일"
+
+#: src/object/bumper.cpp:46
+msgid "Facing Left"
+msgstr "왼쪽 방향전환"
+
+#: src/object/gradient.hpp:42
+msgid "Gradient"
+msgstr "그라디언트"
+
+#: src/object/tilemap.hpp:57
+msgid "Tilemap"
+msgstr "타일맵"
+
+#: src/object/circleplatform.hpp:32
+msgid "Circular Platform"
+msgstr "원형 플랫폼"
+
+#: src/object/brick.cpp:133
+msgid "Breakable"
+msgstr "부술 수 있음"
+
+#: src/object/trampoline.cpp:136 src/object/rusty_trampoline.cpp:66
+msgid "Portable"
+msgstr "휴대할 수 있음"
+
+#: src/object/spotlight.cpp:100 src/object/rain_particle_system.cpp:101
+msgid "Angle"
+msgstr "각도"
+
+#: src/object/spotlight.cpp:101 src/object/magicblock.cpp:94
+#: src/object/candle.cpp:77 src/object/torch.cpp:104
+#: src/object/rublight.cpp:54 src/object/lantern.cpp:62
+#: src/object/ambient_light.cpp:131 src/badguy/willowisp.cpp:328
+#: src/badguy/walking_candle.cpp:82
+msgid "Color"
+msgstr "색"
+
+#: src/object/spotlight.cpp:102 src/object/textscroller.cpp:350
+#: src/object/rain_particle_system.cpp:102 src/object/circleplatform.cpp:55
+#: src/badguy/flame.cpp:59 src/editor/node_marker.cpp:125
+msgid "Speed"
+msgstr "속도"
+
+#: src/object/spotlight.cpp:104
+msgid "Clockwise"
+msgstr "시계 방향"
+
+#: src/object/spotlight.cpp:104
+msgid "Counter-clockwise"
+msgstr "반 시계 방향"
+
+#: src/object/spotlight.cpp:104
+msgid "Stopped"
+msgstr "멈춤"
+
+#: src/object/spotlight.cpp:107 src/object/candle.cpp:78
+#: src/object/torch.cpp:103
+msgid "Layer"
+msgstr "레이어"
+
+#: src/object/scripted_object.cpp:71
+msgid "Physics enabled"
+msgstr "물리 활성화됨"
+
+#: src/object/scripted_object.cpp:72
+msgid "Visible"
+msgstr "보임"
+
+#: src/object/scripted_object.cpp:73 src/badguy/willowisp.cpp:322
+msgid "Hit script"
+msgstr "치기 스크립트"
+
+#: src/object/custom_particle_system_file.cpp:50
+#: src/object/textscroller.cpp:348 src/object/music_object.cpp:109
+#: src/supertux/menu/particle_editor_open.cpp:38
+msgid "File"
+msgstr "파일"
+
+#: src/object/bonus_block.cpp:208
+msgid "Count"
+msgstr "횟수"
+
+#: src/object/bonus_block.cpp:209
+msgid "Content"
+msgstr "내용"
+
+#: src/object/bonus_block.cpp:210 src/object/coin.hpp:43
+msgid "Coin"
+msgstr "동전"
+
+#: src/object/bonus_block.cpp:210
+msgid "Growth (fire flower)"
+msgstr "성장 (불 꽃)"
+
+#: src/object/bonus_block.cpp:210
+msgid "Growth (ice flower)"
+msgstr "성장 (얼음 꽃)"
+
+#: src/object/bonus_block.cpp:210
+msgid "Growth (air flower)"
+msgstr "성장 (공기 꽃)"
+
+#: src/object/bonus_block.cpp:211
+msgid "Growth (earth flower)"
+msgstr "성장 (땅 꽃)"
+
+#: src/object/bonus_block.cpp:211
+msgid "Star"
+msgstr "별"
+
+#: src/object/bonus_block.cpp:211
+msgid "Tux doll"
+msgstr "턱스 인형"
+
+#: src/object/bonus_block.cpp:211
+msgid "Custom"
+msgstr "사용자 지정"
+
+#: src/object/bonus_block.cpp:211
+msgid "Light"
+msgstr "조명"
+
+#: src/object/bonus_block.cpp:211
+msgid "Light (On)"
+msgstr "조명 (켜짐)"
+
+#: src/object/bonus_block.cpp:212 src/object/trampoline.hpp:35
+msgid "Trampoline"
+msgstr "트램폴린"
+
+#: src/object/bonus_block.cpp:212
+msgid "Coin rain"
+msgstr "동전 비"
+
+#: src/object/bonus_block.cpp:212
+msgid "Coin explosion"
+msgstr "동전 폭발"
+
+#: src/object/bonus_block.cpp:216
+msgid "Custom Content"
+msgstr "사용자 지정 내용"
+
+#: src/object/pneumatic_platform.hpp:62
+msgid "Pneumatic Platform"
+msgstr "공압 플랫폼"
+
+#: src/object/coin.cpp:303 src/object/tilemap.cpp:249
+msgid "Following path"
+msgstr "따라오는 길"
+
+#: src/object/coin.cpp:306 src/object/camera.cpp:227
+#: src/object/platform.cpp:74 src/object/tilemap.cpp:252
+msgid "Path Mode"
+msgstr "길 모드"
+
+#: src/object/coin.cpp:307 src/object/camera.cpp:228
+#: src/object/platform.cpp:75 src/object/tilemap.cpp:253
+#: src/badguy/willowisp.cpp:331
+msgid "Adapt Speed"
+msgstr "속도 적응하기"
+
+#: src/object/coin.cpp:308 src/object/platform.cpp:77
+#: src/object/tilemap.cpp:247 src/badguy/willowisp.cpp:327
+msgid "Starting Node"
+msgstr "시작 노드"
+
+#: src/object/coin.cpp:311 src/object/coin.cpp:339
+msgid "Collect script"
+msgstr "모음 스크립트"
+
+#: src/object/ghost_particle_system.hpp:36
+msgid "Ghost Particles"
+msgstr "유령 입자"
+
+#: src/object/camera.cpp:219
+msgid "Mode"
+msgstr "모드"
+
+#: src/object/camera.cpp:220
+msgid "normal"
+msgstr "일반"
+
+#: src/object/camera.cpp:220
+msgid "manual"
+msgstr "수동"
+
+#: src/object/camera.cpp:220
+msgid "autoscroll"
+msgstr "자동스크롤"
+
+#: src/object/textscroller.cpp:349
+msgid "Finish Script"
+msgstr "스크립트 완료"
+
+#: src/object/textscroller.cpp:351
+msgid "X-offset"
+msgstr "X-오프셋"
+
+#: src/object/textscroller.cpp:352
+msgid "Controllable"
+msgstr "조정 가능"
+
+#: src/object/textscroller.cpp:353
+msgid "Anchor"
+msgstr "고정시키기"
+
+#: src/object/textscroller.cpp:354 src/object/textscroller.cpp:358
+#: src/supertux/menu/keyboard_menu.cpp:34
+#: src/supertux/menu/joystick_menu.cpp:71
+msgid "Left"
+msgstr "왼쪽 방향키"
+
+#: src/object/textscroller.cpp:354 src/object/textscroller.cpp:358
+msgid "Center"
+msgstr "중앙"
+
+#: src/object/textscroller.cpp:354 src/object/textscroller.cpp:358
+#: src/supertux/menu/keyboard_menu.cpp:35
+#: src/supertux/menu/joystick_menu.cpp:72
+msgid "Right"
+msgstr "오른쪽 방향키"
+
+#: src/object/textscroller.cpp:357
+msgid "Text Alignment"
+msgstr "텍스트 정렬"
+
+#: src/object/spawnpoint.hpp:46 src/badguy/willowisp.cpp:321
+#: src/editor/worldmap_objects.cpp:171
+msgid "Spawnpoint"
+msgstr "스폰지점"
+
+#: src/object/rusty_trampoline.cpp:65
+msgid "Counter"
+msgstr "카운터"
+
+#: src/object/candle.hpp:36
+msgid "Candle"
+msgstr "양초"
+
+#: src/object/particlesystem.cpp:64 src/object/particle_zone.cpp:79
+#: src/badguy/darttrap.cpp:127
+msgid "Enabled"
+msgstr "활성화됨"
+
+#: src/object/invisible_block.hpp:31
+msgid "Invisible Block"
+msgstr "보이지 않는 상자"
+
+#: src/object/snow_particle_system.hpp:35
+msgid "Snow Particles"
+msgstr "눈 입자"
+
+#: src/object/powerup.hpp:35
+msgid "Powerup"
+msgstr "파워업"
+
+#: src/object/fallblock.hpp:39
+msgid "Falling Platform"
+msgstr "하강 플랫폼"
+
+#: src/object/level_time.hpp:55
+msgid "Time Limit"
+msgstr "시간 제한"
+
+#: src/object/ambient_sound.cpp:119 src/supertux/menu/options_menu.cpp:391
+#: data//credits.stxt:352
+msgid "Sound"
+msgstr "소리"
+
+#: src/object/ambient_sound.cpp:120
+msgid "Distance factor"
+msgstr "거리 인자"
+
+#: src/object/ambient_sound.cpp:121
+msgid "Distance bias"
+msgstr "거리 치우침"
+
+#: src/object/ambient_sound.cpp:122
+msgid "Volume"
+msgstr "음량"
+
+#: src/object/torch.hpp:41
+msgid "Torch"
+msgstr "횃불"
+
+#: src/object/icecrusher.hpp:53
+msgid "Icecrusher"
+msgstr "얼음분쇄기"
+
+#: src/object/rublight.hpp:33
+msgid "Rublight"
+msgstr "러블라이트"
+
+#: src/object/background.hpp:43
+msgid "Background"
+msgstr "배경"
+
+#: src/object/firefly.hpp:36
+msgid "Checkpoint"
+msgstr "체크포인트"
+
+#: src/object/ambient_light.hpp:36
+msgid "Ambient Light"
+msgstr "주변 조명"
+
+#: src/object/lantern.hpp:37
+msgid "Lantern"
+msgstr "랜턴"
+
+#: src/object/wind.hpp:40
+msgid "Wind"
+msgstr "바람"
+
+#: src/object/bicycle_platform.cpp:189 src/object/background.cpp:179
+#: src/object/pneumatic_platform.cpp:147
+#: src/supertux/menu/joystick_menu.cpp:170 src/supertux/moving_object.cpp:58
+#: src/editor/worldmap_objects.cpp:73
+msgid "X"
+msgstr "X"
+
+#: src/object/bicycle_platform.cpp:190 src/object/background.cpp:180
+#: src/object/pneumatic_platform.cpp:148
+#: src/supertux/menu/joystick_menu.cpp:172 src/supertux/moving_object.cpp:59
+#: src/editor/worldmap_objects.cpp:74
+msgid "Y"
+msgstr "Y"
+
+#: src/object/bicycle_platform.cpp:192
+msgid "Platforms"
+msgstr "플랫폼"
+
+#: src/object/bicycle_platform.cpp:193 src/object/circleplatform.cpp:54
+#: src/badguy/flame.cpp:58 src/badguy/rcrystallo.cpp:50
+#: src/badguy/crystallo.cpp:35
+msgid "Radius"
+msgstr "반지름"
+
+#: src/object/bicycle_platform.cpp:194
+msgid "Momentum change rate"
+msgstr "운동량 변화율"
+
+#: src/object/rain_particle_system.hpp:40
+msgid "Rain Particles"
+msgstr "비 입자"
+
+#: src/object/platform.hpp:45
+msgid "Platform"
+msgstr "플랫폼"
+
+#: src/object/rock.hpp:42
+msgid "Rock"
+msgstr "바위"
+
+#: src/object/music_object.hpp:41 src/supertux/menu/options_menu.cpp:393
+#: data//credits.stxt:294
+msgid "Music"
+msgstr "음악"
+
+#: src/object/rusty_trampoline.hpp:39
+msgid "Rusty Trampoline"
+msgstr "녹슨 트램폴린"
+
+#: src/object/particlesystem.hpp:57
+msgid "Particle system"
+msgstr "입자 시스템"
+
+#: src/object/candle.cpp:75 src/object/torch.cpp:101
+msgid "Burning"
+msgstr "타고 있음"
+
+#: src/object/candle.cpp:76
+msgid "Flicker"
+msgstr "깜박임"
+
+#: src/object/text_array_object.hpp:50
+msgid "Text array"
+msgstr "텍스트 배열"
+
+#: src/object/infoblock.hpp:36
+msgid "Info Block"
+msgstr "정보 상자"
+
+#: src/object/powerup.cpp:191
+msgid "Disable gravity"
+msgstr "중력 비활성화"
+
+#: src/object/ambient_sound.hpp:62
+msgid "Ambient Sound"
+msgstr "주변 소리"
+
+#: src/object/level_time.cpp:51 src/supertux/statistics.cpp:297
+#: src/editor/node_marker.cpp:124
+msgid "Time"
+msgstr "시간"
+
+#: src/object/hurting_platform.hpp:30
+msgid "Hurting Platform"
+msgstr "다침 플랫폼"
+
+#: src/object/icecrusher.cpp:83
+msgid "Sideways"
+msgstr "샛길"
+
+#: src/object/background.cpp:182
+msgid "Fill"
+msgstr "채우기"
+
+#: src/object/background.cpp:184
+msgid "Alignment"
+msgstr "정렬"
+
+#: src/object/background.cpp:185
+msgid "none"
+msgstr "없음"
+
+#: src/object/background.cpp:185 src/editor/object_settings.cpp:119
+msgid "left"
+msgstr "왼쪽"
+
+#: src/object/background.cpp:185 src/editor/object_settings.cpp:119
+msgid "right"
+msgstr "오른쪽"
+
+#: src/object/background.cpp:185
+msgid "top"
+msgstr "위"
+
+#: src/object/background.cpp:185
+msgid "bottom"
+msgstr "아래"
+
+#: src/object/background.cpp:188
+msgid "Scroll offset x"
+msgstr "스크롤 오프셋 x"
+
+#: src/object/background.cpp:189
+msgid "Scroll offset y"
+msgstr "스크롤 오프셋 y"
+
+#: src/object/background.cpp:190
+msgid "Scroll speed x"
+msgstr "스크롤 속도 x"
+
+#: src/object/background.cpp:191
+msgid "Scroll speed y"
+msgstr "스크롤 속도 y"
+
+#: src/object/background.cpp:192
+msgid "Parallax Speed x"
+msgstr "패럴랙스 속도 x"
+
+#: src/object/background.cpp:193
+msgid "Parallax Speed y"
+msgstr "패럴랙스 속도 y"
+
+#: src/object/background.cpp:194
+msgid "Top image"
+msgstr "위 그림"
+
+#: src/object/background.cpp:195
+msgid "Image"
+msgstr "그림"
+
+#: src/object/background.cpp:196
+msgid "Bottom image"
+msgstr "아래 그림"
+
+#: src/object/background.cpp:197
+msgid "Colour"
+msgstr "빛깔"
+
+#: src/object/background.cpp:198 src/object/tilemap.cpp:240
+#: src/object/gradient.cpp:142
+msgid "Draw target"
+msgstr "그리기 대상"
+
+#: src/object/background.cpp:199 src/object/tilemap.cpp:241
+#: src/object/gradient.cpp:143
+msgid "Normal"
+msgstr "보통"
+
+#: src/object/background.cpp:199 src/object/tilemap.cpp:241
+#: src/object/gradient.cpp:143
+msgid "Lightmap"
+msgstr "라이트맵"
+
+#: src/object/shard.hpp:34
+msgid "Shard"
+msgstr "파편"
+
+#: src/object/rublight.cpp:55
+msgid "Fading Speed"
+msgstr "페이딩 속도"
+
+#: src/object/rublight.cpp:56
+msgid "Glowing Strength"
+msgstr "빛나는 기운"
+
+#: src/object/wind.cpp:78 src/object/custom_particle_system.cpp:499
+msgid "Speed X"
+msgstr "속도 X"
+
+#: src/object/wind.cpp:79 src/object/custom_particle_system.cpp:500
+msgid "Speed Y"
+msgstr "속도 Y"
+
+#: src/object/wind.cpp:80
+msgid "Acceleration"
+msgstr "가속도"
+
+#: src/object/wind.cpp:81
+msgid "Blowing"
+msgstr "취주"
+
+#: src/object/wind.cpp:82
+msgid "Affects Badguys"
+msgstr "악당 침범"
+
+#: src/object/wind.cpp:83
+msgid "Affects Objects"
+msgstr "객체에 영향을 줍니다"
+
+#: src/object/wind.cpp:84
+msgid "Affects Player"
+msgstr "플레이어에게 영향을 미침"
+
+#: src/object/wind.cpp:85
+msgid "Fancy Particles"
+msgstr "변덕 입자"
+
+#: src/object/bicycle_platform.hpp:64
+msgid "Bicycle Platform"
+msgstr "자전거 플랫폼"
+
+#: src/object/platform.cpp:76 src/object/thunderstorm.cpp:69
+#: src/object/tilemap.cpp:254
+msgid "Running"
+msgstr "달리기"
+
+#: src/object/rock.cpp:192
+msgid "On-grab script"
+msgstr "잡은 상태 스크립트"
+
+#: src/object/rock.cpp:193
+msgid "On-ungrab script"
+msgstr "놓은 상태 스크립트"
+
+#: src/object/particlesystem_interactive.hpp:48
+msgid "Interactive particle system"
+msgstr "대화식 입자 시스템"
+
+#: src/object/thunderstorm.cpp:70
+msgid "Interval"
+msgstr "간격"
+
+#: src/object/thunderstorm.cpp:71
+msgid "Strike Script"
+msgstr "스트라이크 스크립트"
+
+#: src/object/cloud_particle_system.hpp:41
+msgid "Cloud Particles"
+msgstr "구름 입자"
+
+#: src/object/custom_particle_system.cpp:423
+msgid "Texture"
+msgstr "텍스쳐"
+
+#: src/object/custom_particle_system.cpp:425
+msgid "Amount"
+msgstr "양"
+
+#: src/object/custom_particle_system.cpp:426 src/object/circleplatform.cpp:56
+#: src/editor/particle_editor.cpp:141
+msgid "Delay"
+msgstr "지연"
+
+#: src/object/custom_particle_system.cpp:427
+msgid "Lifetime"
+msgstr "수명"
+
+#: src/object/custom_particle_system.cpp:428
+msgid "Lifetime variation"
+msgstr "수명 변동"
+
+#: src/object/custom_particle_system.cpp:429
+#: src/editor/particle_editor.cpp:164
+msgid "Birth mode"
+msgstr "출현 모드"
+
+#: src/object/custom_particle_system.cpp:430
+#: src/object/custom_particle_system.cpp:465 src/object/gradient.cpp:149
+#: src/supertux/menu/keyboard_menu.cpp:58
+#: src/supertux/menu/joystick_menu.cpp:106
+#: src/supertux/menu/joystick_menu.cpp:213 src/editor/object_settings.cpp:131
+#: src/editor/particle_editor.cpp:162 src/editor/particle_editor.cpp:168
+msgid "None"
+msgstr "없음"
+
+#: src/object/custom_particle_system.cpp:430
+#: src/object/custom_particle_system.cpp:465
+#: src/editor/particle_editor.cpp:166
+msgid "Shrink"
+msgstr "줄어듬"
+
+#: src/object/custom_particle_system.cpp:434
+#: src/editor/particle_editor.cpp:172
+msgid "Birth easing"
+msgstr "출현 완화"
+
+#: src/object/custom_particle_system.cpp:436
+#: src/object/custom_particle_system.cpp:471 src/editor/node_marker.cpp:129
+msgid "No easing"
+msgstr "완화 없음"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:130
+msgid "Quad in"
+msgstr "쿼드 인"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:130
+msgid "Quad out"
+msgstr "쿼드 아웃"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:130
+msgid "Quad in/out"
+msgstr "쿼드 인/아웃"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:131
+msgid "Cubic in"
+msgstr "큐빅 인"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:131
+msgid "Cubic out"
+msgstr "큐빅 아웃"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:131
+msgid "Cubic in/out"
+msgstr "큐빅 인/아웃"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:132
+msgid "Quart in"
+msgstr "쿼트 인"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:132
+msgid "Quart out"
+msgstr "쿼트 아웃"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:132
+msgid "Quart in/out"
+msgstr "쿼트 인/아웃"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:133
+msgid "Quint in"
+msgstr "퀸트 인"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:133
+msgid "Quint out"
+msgstr "퀸트 아웃"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:133
+msgid "Quint in/out"
+msgstr "퀸트 인/아웃"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:134
+msgid "Sine in"
+msgstr "사인 인"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:134
+msgid "Sine out"
+msgstr "사인 아웃"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:134
+msgid "Sine in/out"
+msgstr "사인 인/아웃"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:135
+msgid "Circular in"
+msgstr "서큘러 인"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:135
+msgid "Circular out"
+msgstr "서큘러 아웃"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:135
+msgid "Circular in/out"
+msgstr "서큘러 인/아웃"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:136
+msgid "Exponential in"
+msgstr "기하급수적"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:136
+msgid "Exponential out"
+msgstr "지수 출력"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:136
+msgid "Exponential in/out"
+msgstr "지수 인/아웃"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:137
+msgid "Elastic in"
+msgstr "탄성"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:137
+msgid "Elastic out"
+msgstr "엘라스틱 아웃"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:137
+msgid "Elastic in/out"
+msgstr "탄력적 인/아웃"
+
+#: src/object/custom_particle_system.cpp:445
+#: src/object/custom_particle_system.cpp:480 src/editor/node_marker.cpp:138
+msgid "Back in"
+msgstr "다시"
+
+#: src/object/custom_particle_system.cpp:445
+#: src/object/custom_particle_system.cpp:480 src/editor/node_marker.cpp:138
+msgid "Back out"
+msgstr "물러서다"
+
+#: src/object/custom_particle_system.cpp:445
+#: src/object/custom_particle_system.cpp:480 src/editor/node_marker.cpp:138
+msgid "Back in/out"
+msgstr "뒤로 인/아웃"
+
+#: src/object/custom_particle_system.cpp:446
+#: src/object/custom_particle_system.cpp:481 src/editor/node_marker.cpp:139
+msgid "Bounce in"
+msgstr "바운스 인"
+
+#: src/object/custom_particle_system.cpp:446
+#: src/object/custom_particle_system.cpp:481 src/editor/node_marker.cpp:139
+msgid "Bounce out"
+msgstr "바운스 아웃"
+
+#: src/object/custom_particle_system.cpp:446
+#: src/object/custom_particle_system.cpp:481 src/editor/node_marker.cpp:139
+msgid "Bounce in/out"
+msgstr "바운스 인/아웃"
+
+#: src/object/custom_particle_system.cpp:462
+msgid "Birth time"
+msgstr "출현 시간"
+
+#: src/object/custom_particle_system.cpp:463
+msgid "Birth time variation"
+msgstr "출현 시간 변동"
+
+#: src/object/custom_particle_system.cpp:464
+#: src/editor/particle_editor.cpp:170
+msgid "Death mode"
+msgstr "죽은 상태 모드"
+
+#: src/object/custom_particle_system.cpp:469
+#: src/editor/particle_editor.cpp:173
+msgid "Death easing"
+msgstr "죽은 상태 완화"
+
+#: src/object/custom_particle_system.cpp:497
+msgid "Death time"
+msgstr "죽은 상태 시간"
+
+#: src/object/custom_particle_system.cpp:498
+msgid "Death time variation"
+msgstr "죽은 상태 시간 변동"
+
+#: src/object/custom_particle_system.cpp:501
+msgid "Speed X (variation)"
+msgstr "속도 X (변동)"
+
+#: src/object/custom_particle_system.cpp:502
+msgid "Speed Y (variation)"
+msgstr "속도 Y (변동)"
+
+#: src/object/custom_particle_system.cpp:503
+msgid "Acceleration X"
+msgstr "가속도 X"
+
+#: src/object/custom_particle_system.cpp:504
+msgid "Acceleration Y"
+msgstr "가속도 Y"
+
+#: src/object/custom_particle_system.cpp:505
+msgid "Friction X"
+msgstr "마찰 저항 X"
+
+#: src/object/custom_particle_system.cpp:506
+msgid "Friction Y"
+msgstr "마찰 저항 Y"
+
+#: src/object/custom_particle_system.cpp:507
+#: src/editor/particle_editor.cpp:189
+msgid "Feather factor"
+msgstr "깃털 요인"
+
+#: src/object/custom_particle_system.cpp:508
+msgid "Rotation"
+msgstr "회전"
+
+#: src/object/custom_particle_system.cpp:509
+msgid "Rotation (variation)"
+msgstr "회전 (변동)"
+
+#: src/object/custom_particle_system.cpp:510
+#: src/editor/particle_editor.cpp:195
+msgid "Rotation speed"
+msgstr "회전 속도"
+
+#: src/object/custom_particle_system.cpp:511
+msgid "Rotation speed (variation)"
+msgstr "회전 속도 (변동)"
+
+#: src/object/custom_particle_system.cpp:512
+#: src/editor/particle_editor.cpp:200
+msgid "Rotation acceleration"
+msgstr "회전 가속도"
+
+#: src/object/custom_particle_system.cpp:513
+msgid "Rotation friction"
+msgstr "회전마찰"
+
+#: src/object/custom_particle_system.cpp:514
+#: src/editor/particle_editor.cpp:208
+msgid "Rotation mode"
+msgstr "회전 모드"
+
+#: src/object/custom_particle_system.cpp:515
+#: src/editor/particle_editor.cpp:206
+msgid "Fixed"
+msgstr "결정된"
+
+#: src/object/custom_particle_system.cpp:515
+#: src/editor/particle_editor.cpp:205
+msgid "Facing"
+msgstr "면함"
+
+#: src/object/custom_particle_system.cpp:515
+#: src/editor/particle_editor.cpp:204
+msgid "Wiggling"
+msgstr "흔들흔들"
+
+#: src/object/custom_particle_system.cpp:519
+#: src/editor/particle_editor.cpp:219
+msgid "Collision mode"
+msgstr "충돌 모드"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "None (pass through)"
+msgstr "없음(통과)"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Stick"
+msgstr "막대"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Stick Forever"
+msgstr "영원히 스틱"
+
+#: src/object/custom_particle_system.cpp:520
+#: src/editor/particle_editor.cpp:214
+msgid "Bounce (heavy)"
+msgstr "튀어오름 (무거움)"
+
+#: src/object/custom_particle_system.cpp:520
+#: src/editor/particle_editor.cpp:213
+msgid "Bounce (light)"
+msgstr "튀어오름 (가벼움)"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Kill particle"
+msgstr "죽임 입자"
+
+#: src/object/custom_particle_system.cpp:520
+msgid "Fade out particle"
+msgstr "페이드 아웃 입자"
+
+#: src/object/custom_particle_system.cpp:524
+msgid "Delete if off-screen"
+msgstr "화면을 벗어난 경우 삭제하기"
+
+#: src/object/custom_particle_system.cpp:525
+#: src/editor/particle_editor.cpp:224
+msgid "Never"
+msgstr "안함"
+
+#: src/object/custom_particle_system.cpp:525
+#: src/editor/particle_editor.cpp:223
+msgid "Only on exit"
+msgstr "종료 시에만"
+
+#: src/object/custom_particle_system.cpp:525
+msgid "Always"
+msgstr "항상"
+
+#: src/object/custom_particle_system.cpp:529
+msgid "Cover screen"
+msgstr "커버 화면"
+
+#: src/object/ispy.hpp:33
+msgid "Ispy"
+msgstr "아이스파이"
+
+#: src/object/skull_tile.hpp:32
+msgid "Skull Tile"
+msgstr "두개골 타일"
+
+#: src/object/particle_zone.cpp:80
+msgid "Particle Name"
+msgstr "입자 이름"
+
+#: src/object/particle_zone.cpp:81
+msgid "Zone Type"
+msgstr "영역 유형"
+
+#: src/object/particle_zone.cpp:82
+msgid "Spawn"
+msgstr "알"
+
+#: src/object/particle_zone.cpp:82
+msgid "Life zone"
+msgstr "생명 영역"
+
+#: src/object/particle_zone.cpp:82
+msgid "Life zone (clear)"
+msgstr "라이프존(클리어)"
+
+#: src/object/particle_zone.cpp:82
+msgid "Kill particles"
+msgstr "죽임 입자"
+
+#: src/object/particle_zone.cpp:82
+msgid "Clear particles"
+msgstr "입자 지우기"
+
+#: src/object/weak_block.cpp:211
+msgid "Linked"
+msgstr "연결됨"
+
+#: src/object/decal.hpp:40
+msgid "Decal"
+msgstr "데칼"
+
+#: src/object/tilemap.cpp:229
+msgid "Resize offset x"
+msgstr "오프셋 x 크기 조정"
+
+#: src/object/tilemap.cpp:230
+msgid "Resize offset y"
+msgstr "오프셋 y 크기 조정"
+
+#: src/object/tilemap.cpp:232 src/supertux/menu/editor_sector_menu.cpp:39
+#: src/editor/object_option.cpp:173
+msgid "Width"
+msgstr "너비"
+
+#: src/object/tilemap.cpp:233 src/supertux/menu/editor_sector_menu.cpp:40
+#: src/editor/object_option.cpp:174
+msgid "Height"
+msgstr "높이"
+
+#: src/object/tilemap.cpp:235
+msgid "Alpha"
+msgstr "알파"
+
+#: src/object/tilemap.cpp:236
+msgid "Speed x"
+msgstr "속도 x"
+
+#: src/object/tilemap.cpp:237
+msgid "Speed y"
+msgstr "속도 y"
+
+#: src/object/tilemap.cpp:238
+msgid "Tint"
+msgstr "색조"
+
+#: src/object/tilemap.cpp:257 src/supertux/menu/editor_tilegroup_menu.cpp:26
+#: src/editor/toolbox_widget.cpp:90
+msgid "Tiles"
+msgstr "타일"
+
+#: src/object/gradient.cpp:128
+msgid "Left Colour"
+msgstr "왼쪽 색"
+
+#: src/object/gradient.cpp:129
+msgid "Right Colour"
+msgstr "오른쪽 색"
+
+#: src/object/gradient.cpp:131
+msgid "Top Colour"
+msgstr "위 색"
+
+#: src/object/gradient.cpp:132
+msgid "Bottom Colour"
+msgstr "아래 색"
+
+#: src/object/gradient.cpp:138
+msgid "Vertical"
+msgstr "수직"
+
+#: src/object/gradient.cpp:138
+msgid "Horizontal"
+msgstr "수평"
+
+#: src/object/gradient.cpp:138
+msgid "Vertical (whole sector)"
+msgstr "수직 (온전한 섹터)"
+
+#: src/object/gradient.cpp:138
+msgid "Horizontal (whole sector)"
+msgstr "수평 (온전한 섹터)"
+
+#: src/object/gradient.cpp:148
+msgid "Blend mode"
+msgstr "혼합 모드"
+
+#: src/object/gradient.cpp:149
+msgid "Blend"
+msgstr "혼합"
+
+#: src/object/gradient.cpp:149
+msgid "Additive"
+msgstr "첨가"
+
+#: src/object/gradient.cpp:149
+msgid "Modulate"
+msgstr "변조"
+
+#: src/object/bumper.hpp:35
+msgid "Bumper"
+msgstr "범퍼"
+
+#: src/object/unstable_tile.hpp:37
+msgid "Unstable Tile"
+msgstr "불안정한 타일"
+
+#: src/object/brick.hpp:31
+msgid "Brick"
+msgstr "벽돌"
+
+#: src/object/invisible_wall.hpp:34
+msgid "Invisible Wall"
+msgstr "보이지 않는 벽"
+
+#: src/object/spotlight.hpp:51
+msgid "Spotlight"
+msgstr "스포트라이트"
+
+#: src/object/scripted_object.hpp:39
+msgid "Scripted Object"
+msgstr "스크립트된 객체"
+
+#: src/object/custom_particle_system_file.hpp:39
+msgid "Custom Particles from file"
+msgstr "파일의 사용자 지정 입자"
+
+#: src/object/coin.hpp:78
+msgid "Heavy Coin"
+msgstr "많은 동전"
+
+#: src/object/bonus_block.hpp:56
+msgid "Bonus Block"
+msgstr "보너스 상자"
+
+#: src/object/magicblock.hpp:41
+msgid "Magic Tile"
+msgstr "마법 타일"
+
+#: src/object/camera.hpp:67
+msgid "Camera"
+msgstr "카메라"
+
+#: src/object/textscroller.hpp:44
+msgid "Text Scroller"
+msgstr "텍스트 스크롤러"
+
+#: src/gui/menu_badguy_select.cpp:94
+msgid "List of enemies"
+msgstr "적의 목록"
+
+#: src/gui/menu_badguy_select.cpp:96
+msgid "Select enemy"
+msgstr "적 선택하기"
+
+#: src/gui/menu_badguy_select.cpp:97
+msgid "Add"
+msgstr "추가"
+
+#: src/gui/menu_badguy_select.cpp:107 src/gui/menu_color.cpp:37
+#: src/gui/dialog.hpp:81 src/gui/menu_script.cpp:47
+#: src/supertux/menu/editor_sector_menu.cpp:46
+#: src/supertux/menu/editor_levelset_menu.cpp:62
+#: src/supertux/menu/addon_menu.cpp:349
+#: src/supertux/menu/editor_new_levelset_menu.cpp:37
+#: src/supertux/menu/editor_level_menu.cpp:45 src/editor/object_menu.cpp:43
+msgid "OK"
+msgstr "확인"
+
+#: src/gui/menu_badguy_select.cpp:136
+msgid "Do you want to delete this badguy from the list?"
+msgstr "이 악당을 목록에서 삭제하겠습니까?"
+
+#: src/gui/menu_badguy_select.cpp:137 src/gui/dialog.hpp:90
+#: src/supertux/menu/editor_level_select_menu.cpp:164
+#: src/supertux/menu/editor_menu.cpp:164 src/editor/editor.cpp:583
+msgid "Yes"
+msgstr "예"
+
+#: src/gui/menu_badguy_select.cpp:140 src/gui/dialog.hpp:91
+#: src/supertux/menu/editor_level_select_menu.cpp:168
+#: src/supertux/menu/editor_menu.cpp:167 src/editor/particle_editor.cpp:780
+#: src/editor/editor.cpp:590
+msgid "No"
+msgstr "아니오"
+
+#: src/gui/menu_color.cpp:24
+msgid "Mix the colour"
+msgstr "색 섞기"
+
+#: src/gui/menu_filesystem.cpp:112 src/gui/menu_paths.cpp:44
+#: src/supertux/menu/particle_editor_save_as.cpp:42
+#: src/supertux/menu/editor_sectors_menu.cpp:45
+#: src/supertux/menu/editor_sectors_menu.cpp:95
+#: src/supertux/menu/editor_sectors_menu.cpp:100
+#: src/supertux/menu/editor_objectgroup_menu.cpp:42
+#: src/supertux/menu/editor_tilegroup_menu.cpp:36
+#: src/supertux/menu/editor_level_select_menu.cpp:173
+#: src/supertux/menu/editor_save_as.cpp:42
+#: src/supertux/menu/particle_editor_open.cpp:43
+#: src/editor/particle_editor.cpp:784 src/editor/editor.cpp:594
+msgid "Cancel"
+msgstr "취소"
+
+#: src/gui/menu_script.cpp:28
+msgid "Edit script"
+msgstr "스크립트 편집하기"
+
+#: src/gui/menu_paths.cpp:30
+msgid "Clone"
+msgstr "복제"
+
+#: src/gui/menu_paths.cpp:38
+msgid ""
+"An error occured and the game could\n"
+"not clone the path. Please contact\n"
+"the developers for support."
+msgstr "오류가 발생하여 게임에서 경로를 복제할\n수 없습니다. 지원이 필요하시면\n개발자에게 문의해주세요."
+
+#: src/gui/menu_paths.cpp:41
+msgid "Bind"
+msgstr "묶다"
+
+#: src/gui/menu_paths.cpp:63 src/supertux/menu/integrations_menu.cpp:60
+#: src/supertux/menu/contrib_menu.cpp:161 src/supertux/menu/debug_menu.cpp:75
+#: src/supertux/menu/editor_level_select_menu.cpp:88
+#: src/supertux/menu/worldmap_cheat_menu.cpp:55
+#: src/supertux/menu/worldmap_cheat_menu.cpp:153
+#: src/supertux/menu/editor_levelset_select_menu.cpp:114
+#: src/supertux/menu/options_menu.cpp:442
+#: src/supertux/menu/profile_menu.cpp:54 src/supertux/menu/addon_menu.cpp:213
+#: src/supertux/menu/editor_new_levelset_menu.cpp:40
+#: src/supertux/menu/world_set_menu.cpp:33
+#: src/supertux/menu/web_asset_menu.cpp:48
+#: src/supertux/menu/keyboard_menu.cpp:49
+#: src/supertux/menu/language_menu.cpp:56
+#: src/supertux/menu/joystick_menu.cpp:97
+#: src/supertux/menu/contrib_levelset_menu.cpp:67
+#: src/supertux/menu/cheat_menu.cpp:44
+#: src/supertux/menu/editor_delete_level_menu.cpp:43
+msgid "Back"
+msgstr "뒤로"
+
+#: src/badguy/toad.hpp:37
+msgid "Toad"
+msgstr "두꺼비"
+
+#: src/badguy/mrtree.hpp:29
+msgid "Walking Tree"
+msgstr "걸어다니는 나무"
+
+#: src/badguy/plant.hpp:33
+msgid "Plant"
+msgstr "식물"
+
+#: src/badguy/crystallo.hpp:30
+msgid "Crystallo"
+msgstr "수정 괴물"
+
+#: src/badguy/totem.hpp:36
+msgid "Totem"
+msgstr "토템"
+
+#: src/badguy/stalactite.hpp:38
+msgid "Stalactite"
+msgstr "종유석"
+
+#: src/badguy/haywire.hpp:45
+msgid "Haywire"
+msgstr "얽히는 폭탄"
+
+#: src/badguy/dispenser.hpp:48
+msgid "Dispenser"
+msgstr "디스펜서"
+
+#: src/badguy/short_fuse.hpp:29
+msgid "Short Fuse"
+msgstr "짧은 퓨즈"
+
+#: src/badguy/zeekling.hpp:36
+msgid "Zeekling"
+msgstr "찍새"
+
+#: src/badguy/mriceblock.hpp:46
+msgid "Iceblock"
+msgstr "얼음상자"
+
+#: src/badguy/scrystallo.cpp:52
+msgid "Walk Radius"
+msgstr "보행 반경"
+
+#: src/badguy/scrystallo.cpp:53
+msgid "Awakening Radius"
+msgstr "각성 반경"
+
+#: src/badguy/jumpy.hpp:36
+msgid "Jumpy"
+msgstr "점피"
+
+#: src/badguy/captainsnowball.hpp:31
+msgid "Captain Snowball"
+msgstr "선장 눈덩이"
+
+#: src/badguy/ghosttree.hpp:42
+msgid "Ghost Tree"
+msgstr "유령 나무"
+
+#: src/badguy/willowisp.cpp:323
+msgid "Track range"
+msgstr "트랙 범위"
+
+#: src/badguy/willowisp.cpp:324
+msgid "Vanish range"
+msgstr "소멸 범위"
+
+#: src/badguy/willowisp.cpp:325
+msgid "Fly speed"
+msgstr "날기 속도"
+
+#: src/badguy/kugelblitz.hpp:39
+msgid "Kugelblitz"
+msgstr "쿠겔블리츠"
+
+#: src/badguy/mole_rock.hpp:43
+msgid "Mole's rock"
+msgstr "두더지의 바위"
+
+#: src/badguy/badguy.cpp:849
+msgid "Death script"
+msgstr "죽음 스크립트"
+
+#: src/badguy/sspiky.hpp:36
+msgid "Sleeping Spiky"
+msgstr "자고 있는 못박이"
+
+#: src/badguy/yeti_stalactite.hpp:33
+msgid "Yeti's Stalactite"
+msgstr "예티의 종유석"
+
+#: src/badguy/livefire.hpp:37
+msgid "Walking Flame"
+msgstr "걸어다니는 불꽃"
+
+#: src/badguy/livefire.hpp:68
+msgid "Sleeping Flame"
+msgstr "자고 있는 불꽃"
+
+#: src/badguy/livefire.hpp:84
+msgid "Dormant Flame"
+msgstr "휴면 중인 불꽃"
+
+#: src/badguy/owl.hpp:39
+msgid "Owl"
+msgstr "올빼미"
+
+#: src/badguy/igel.hpp:34
+msgid "Igel"
+msgstr "고슴도치"
+
+#: src/badguy/darttrap.cpp:126
+msgid "Initial delay"
+msgstr "초기 지연"
+
+#: src/badguy/darttrap.cpp:128
+msgid "Fire delay"
+msgstr "불 지연"
+
+#: src/badguy/darttrap.cpp:129
+msgid "Ammo"
+msgstr "총알"
+
+#: src/badguy/snowball.hpp:29
+msgid "Snowball"
+msgstr "눈덩이"
+
+#: src/badguy/smartblock.hpp:29
+msgid "Smartblock"
+msgstr "똑똑한상자"
+
+#: src/badguy/yeti.cpp:369
+msgid "Fixed position"
+msgstr "고정된 위치"
+
+#: src/badguy/yeti.cpp:370
+msgid "Lives"
+msgstr "생명"
+
+#: src/badguy/goldbomb.hpp:49
+msgid "Gold Bomb"
+msgstr "황금 폭탄"
+
+#: src/badguy/flyingsnowball.hpp:32
+msgid "Flying Snowball"
+msgstr "나는 눈덩이"
+
+#: src/badguy/skullyhop.hpp:37
+msgid "Skullyhop"
+msgstr "날뛰는 두개골"
+
+#: src/badguy/kamikazesnowball.hpp:32
+msgid "Snowshot"
+msgstr "눈샷"
+
+#: src/badguy/kamikazesnowball.hpp:52
+msgid "Leafshot"
+msgstr "잎샷"
+
+#: src/badguy/flame.hpp:41
+msgid "Flame"
+msgstr "불꽃"
+
+#: src/badguy/scrystallo.hpp:30
+msgid "Sleeping Crystallo"
+msgstr "잠자는 수정 괴물"
+
+#: src/badguy/poisonivy.hpp:30
+msgid "Spring Leaf"
+msgstr "봄 잎"
+
+#: src/badguy/willowisp.hpp:57
+msgid "Will o' Wisp"
+msgstr "윌 오 위스프"
+
+#: src/badguy/badguy.hpp:53
+msgid "Badguy"
+msgstr "악당"
+
+#: src/badguy/ghostflame.hpp:30
+msgid "Ghost Flame"
+msgstr "유령 불꽃"
+
+#: src/badguy/rcrystallo.hpp:30
+msgid "Roof Crystallo"
+msgstr "천장 수정 괴물"
+
+#: src/badguy/spiky.hpp:30
+msgid "Spiky"
+msgstr "못박이"
+
+#: src/badguy/walkingleaf.hpp:30
+msgid "Autumn Leaf"
+msgstr "가을 잎"
+
+#: src/badguy/owl.cpp:227
+msgid "Carry"
+msgstr "옮기기"
+
+#: src/badguy/darttrap.hpp:33
+msgid "Dart Trap"
+msgstr "다트 함정"
+
+#: src/badguy/skydive.hpp:38
+msgid "Skydive"
+msgstr "스카이다이브"
+
+#: src/badguy/yeti.hpp:37
+msgid "Yeti"
+msgstr "예티"
+
+#: src/badguy/mole.hpp:39
+msgid "Mole"
+msgstr "두더지"
+
+#: src/badguy/mrbomb.hpp:42
+msgid "Bomb"
+msgstr "폭탄"
+
+#: src/badguy/walking_candle.hpp:40
+msgid "Walking Candle"
+msgstr "걸아다니는 양초"
+
+#: src/badguy/angrystone.hpp:34
+msgid "Angry Stone"
+msgstr "화난 돌"
+
+#: src/badguy/spidermite.hpp:35
+msgid "Spider"
+msgstr "거미"
+
+#: src/badguy/ghoul.hpp:30
+msgid "Ghoul"
+msgstr "악귀"
+
+#: src/badguy/snowman.hpp:28
+msgid "Snowman"
+msgstr "눈사람"
+
+#: src/badguy/stumpy.hpp:35
+msgid "Walking Stump"
+msgstr "걸아다니는 그루터기"
+
+#: src/badguy/fish.hpp:40
+msgid "Fish"
+msgstr "물고기"
+
+#: src/badguy/dispenser.cpp:445
+msgid "Interval (seconds)"
+msgstr "간격 (초)"
+
+#: src/badguy/dispenser.cpp:446
+msgid "Random"
+msgstr "임의"
+
+#: src/badguy/dispenser.cpp:447 data//images/engine/editor/objects.stoi:4
+msgid "Enemies"
+msgstr "적"
+
+#: src/badguy/dispenser.cpp:448
+msgid "Limit dispensed badguys"
+msgstr "분배된 악당 제한"
+
+#: src/badguy/dispenser.cpp:450
+msgid "Obey Gravity"
+msgstr "중력에 복종하다"
+
+#: src/badguy/dispenser.cpp:452
+msgid "Max concurrent badguys"
+msgstr "동시에 발생하는 최대 악당 수"
+
+#: src/badguy/dispenser.cpp:454 src/supertux/menu/editor_levelset_menu.cpp:60
+msgid "Type"
+msgstr "유형"
+
+#: src/badguy/dispenser.cpp:455
+msgid "dropper"
+msgstr "투척기"
+
+#: src/badguy/dispenser.cpp:455
+msgid "rocket launcher"
+msgstr "로켓 발사기"
+
+#: src/badguy/dispenser.cpp:455
+msgid "cannon"
+msgstr "대포"
+
+#: src/badguy/dispenser.cpp:455
+msgid "invisible"
+msgstr "보이지 않음"
+
+#: src/badguy/snail.hpp:42
+msgid "Snail"
+msgstr "달팽이"
+
+#: src/badguy/smartball.hpp:31
+msgid "Smartball"
+msgstr "똑똑한덩이"
+
+#: src/badguy/bouncing_snowball.hpp:32
+msgid "Bouncing Snowball"
+msgstr "뛰는 눈덩이"
+
+#: src/badguy/iceflame.hpp:33
+msgid "Ice Flame"
+msgstr "얼음꽃"
+
+#: src/badguy/dart.hpp:43
+msgid "Dart"
+msgstr "다트"
+
+#: src/supertux/statistics.cpp:54
+msgid "Max coins collected:"
+msgstr "최대 모은 동전 수:"
+
+#: src/supertux/statistics.cpp:55
+msgid "Max fragging:"
+msgstr "최대 퇴치 수:"
+
+#: src/supertux/statistics.cpp:56
+msgid "Max secrets found:"
+msgstr "최대 비밀공간 발견 수:"
+
+#: src/supertux/statistics.cpp:57
+msgid "Best time completed:"
+msgstr "최단 시간 기록:"
+
+#: src/supertux/statistics.cpp:58
+msgid "Level target time:"
+msgstr "레벨 목표 시간:"
+
+#: src/supertux/statistics.cpp:149 src/supertux/levelintro.cpp:160
+msgid "Best Level Statistics"
+msgstr "최고 레벨 통계"
+
+#: src/supertux/statistics.cpp:238
+msgid "You"
+msgstr "플레이어"
+
+#: src/supertux/statistics.cpp:240
+msgid "Best"
+msgstr "최고 기록"
+
+#: src/supertux/statistics.cpp:242 src/supertux/levelintro.cpp:166
+msgid "Coins"
+msgstr "동전"
+
+#: src/supertux/statistics.cpp:265
+msgid "Badguys"
+msgstr "악당"
+
+#: src/supertux/statistics.cpp:281 src/supertux/levelintro.cpp:172
+msgid "Secrets"
+msgstr "비밀공간 발견 수"
+
+#: src/supertux/game_object.hpp:78
+msgid "Unknown object"
+msgstr "알 수 없는 물건"
+
+#: src/supertux/sector.cpp:414
+msgid "Press escape to skip"
+msgstr "건너뛰려면 Esc 키를 누르세요"
+
+#: src/supertux/command_line_arguments.cpp:94
+#, c-format
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "사용법: {} [옵션] [레벨파일]"
+
+#: src/supertux/command_line_arguments.cpp:95
+msgid "General Options:"
+msgstr "일반 옵션:"
+
+#: src/supertux/command_line_arguments.cpp:96
+msgid "  -h, --help                   Show this help message and quit"
+msgstr "  -h, --help                   이 도움말 메시지를 보여주고 종료합니다"
+
+#: src/supertux/command_line_arguments.cpp:97
+msgid "  -v, --version                Show SuperTux version and quit"
+msgstr "  -v, --version                슈퍼턱스의 버전을 보여주고 종료합니다"
+
+#: src/supertux/command_line_arguments.cpp:98
+msgid "  --verbose                    Print verbose messages"
+msgstr "  --verbose                    자세한 메시지 내용을 출력합니다"
+
+#: src/supertux/command_line_arguments.cpp:99
+msgid "  --debug                      Print extra verbose messages"
+msgstr "  --debug                      더 자세한 메시지 내용을 출력합니다"
+
+#: src/supertux/command_line_arguments.cpp:100
+msgid ""
+"  --print-datadir              Print SuperTux's primary data directory."
+msgstr "  --print-datadir              슈퍼턱스의 기본 데이터 디렉터리를 출력합니다."
+
+#: src/supertux/command_line_arguments.cpp:101
+msgid ""
+"  --acknowledgements           Print the licenses of libraries used by "
+"SuperTux."
+msgstr " --acknowledgements           SuperTux에서 사용하는 라이브러리의 라이센스를 인쇄합니다."
+
+#: src/supertux/command_line_arguments.cpp:103
+msgid "Video Options:"
+msgstr "비디오 옵션:"
+
+#: src/supertux/command_line_arguments.cpp:104
+msgid "  -f, --fullscreen             Run in fullscreen mode"
+msgstr "  -f, --fullscreen             전체 화면 모드로 실행합니다"
+
+#: src/supertux/command_line_arguments.cpp:105
+msgid "  -w, --window                 Run in window mode"
+msgstr "  -w, --window                 창 모드로 실행합니다"
+
+#: src/supertux/command_line_arguments.cpp:106
+msgid "  -g, --geometry WIDTHxHEIGHT  Run SuperTux in given resolution"
+msgstr "  -g, --geometry 너비x높이  슈퍼턱스를 지정된 해상도로 실행합니다"
+
+#: src/supertux/command_line_arguments.cpp:107
+msgid "  -a, --aspect WIDTH:HEIGHT    Run SuperTux with given aspect ratio"
+msgstr "  -a, --aspect 너비:높이    슈퍼턱스를 지정된 화면 비율로 실행합니다"
+
+#: src/supertux/command_line_arguments.cpp:108
+msgid "  -d, --default                Reset video settings to default values"
+msgstr "  -d, --default                비디오 설정을 기본값으로 재설정합니다"
+
+#: src/supertux/command_line_arguments.cpp:109
+msgid "  --renderer RENDERER          Use sdl, opengl, or auto to render"
+msgstr "  --renderer 렌더러          사용할 그래픽 엔진을 sdl, opengl, 또는 auto로 설정합니다"
+
+#: src/supertux/command_line_arguments.cpp:111
+msgid "Audio Options:"
+msgstr "오디오 옵션:"
+
+#: src/supertux/command_line_arguments.cpp:112
+msgid "  --disable-sound              Disable sound effects"
+msgstr "  --disable-sound              효과음을 비활성화합니다"
+
+#: src/supertux/command_line_arguments.cpp:113
+msgid "  --disable-music              Disable music"
+msgstr "  --disable-music              음악을 비활성화합니다"
+
+#: src/supertux/command_line_arguments.cpp:115
+msgid "Game Options:"
+msgstr "게임 옵션:"
+
+#: src/supertux/command_line_arguments.cpp:116
+msgid "  --edit-level                 Open given level in editor"
+msgstr "  --edit-level                 편집기에서 주어진 레벨을 엽니다"
+
+#: src/supertux/command_line_arguments.cpp:117
+msgid "  --resave                     Loads given level and saves it"
+msgstr "  --resave                     주어진 레벨을 불러오고 이를 저장합니다"
+
+#: src/supertux/command_line_arguments.cpp:118
+msgid "  --show-fps                   Display framerate in levels"
+msgstr "  --show-fps                   레벨에 초당 프레임 수(FPS)를 표시합니다"
+
+#: src/supertux/command_line_arguments.cpp:119
+msgid "  --no-show-fps                Do not display framerate in levels"
+msgstr "  --no-show-fps                레벨에 초당 프레임 수(FPS)를 표시하지 않습니다"
+
+#: src/supertux/command_line_arguments.cpp:120
+msgid "  --show-pos                   Display player's current position"
+msgstr "  --show-pos                   플레이어의 현재 위치를 표시합니다"
+
+#: src/supertux/command_line_arguments.cpp:121
+msgid "  --no-show-pos                Do not display player's position"
+msgstr "  --no-show-pos                플레이어의 위치를 표시하지 않습니다"
+
+#: src/supertux/command_line_arguments.cpp:122
+msgid "  --developer                  Switch on developer feature"
+msgstr "  --developer                  개발자 기능으로 전환합니다"
+
+#: src/supertux/command_line_arguments.cpp:123
+msgid "  -s, --debug-scripts          Enable script debugger."
+msgstr "  -s, --debug-scripts          스크립트 디버거를 활성화합니다."
+
+#: src/supertux/command_line_arguments.cpp:124
+msgid ""
+"  --spawn-pos X,Y              Where in the level to spawn Tux. Only used if"
+" level is specified."
+msgstr "  --spawn-pos X,Y              턱스가 레벨에 스폰할 위치. 레벨이 특정한 경우에만 사용하세요."
+
+#: src/supertux/command_line_arguments.cpp:125
+msgid "  --sector SECTOR              Spawn Tux in SECTOR\n"
+msgstr "  --sector 섹터              섹터에서 턱스 스폰하기\n"
+
+#: src/supertux/command_line_arguments.cpp:126
+msgid "  --spawnpoint SPAWNPOINT      Spawn Tux at SPAWNPOINT\n"
+msgstr "  --spawnpoint 스폰지점      턱스를 스폰지점으로 스폰합니다\n"
+
+#: src/supertux/command_line_arguments.cpp:128
+msgid "Demo Recording Options:"
+msgstr "데모 녹화 옵션:"
+
+#: src/supertux/command_line_arguments.cpp:129
+msgid "  --record-demo FILE LEVEL     Record a demo to FILE"
+msgstr "  --record-demo 파일이름 레벨     데모를 지정한 파일이름으로 녹화합니다"
+
+#: src/supertux/command_line_arguments.cpp:130
+msgid "  --play-demo FILE LEVEL       Play a recorded demo"
+msgstr "  --play-demo 파일이름 레벨       녹화된 데모를 봅니다"
+
+#: src/supertux/command_line_arguments.cpp:132
+msgid "Directory Options:"
+msgstr "디렉터리 옵션:"
+
+#: src/supertux/command_line_arguments.cpp:133
+msgid ""
+"  --datadir DIR                Set the directory for the games datafiles"
+msgstr "  --datadir DIR                게임 데이터 파일을 저장할 디렉터리를 설정합니다"
+
+#: src/supertux/command_line_arguments.cpp:134
+msgid ""
+"  --userdir DIR                Set the directory for user data (savegames, "
+"etc.)"
+msgstr "  --userdir DIR                사용자 데이터의 디렉터리 설정하기 (게임저장 등)"
+
+#: src/supertux/command_line_arguments.cpp:136
+msgid "Add-On Options:"
+msgstr "애드온 옵션:"
+
+#: src/supertux/command_line_arguments.cpp:137
+msgid "  --repository-url URL         Set the URL to the Add-On repository"
+msgstr "  --repository-url URL         애드온 저장소로의 URL을 설정합니다"
+
+#: src/supertux/command_line_arguments.cpp:139
+msgid "Environment variables:"
+msgstr "환경 변수:"
+
+#: src/supertux/command_line_arguments.cpp:140
+msgid ""
+"  SUPERTUX2_USER_DIR           Directory for user data (savegames, etc.)"
+msgstr "  SUPERTUX2_USER_DIR           사용자 데이터의 디렉터리 (게임저장 등)"
+
+#: src/supertux/command_line_arguments.cpp:141
+msgid "  SUPERTUX2_DATA_DIR           Directory for the games datafiles"
+msgstr "  SUPERTUX2_DATA_DIR           게임 데이터 파일의 디렉터리"
+
+#: src/supertux/title_screen.cpp:44
+msgid "Copyright"
+msgstr "저작권"
+
+#: src/supertux/title_screen.cpp:45
+msgid ""
+"This game comes with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to\n"
+"redistribute it under certain conditions; see the license file for details.\n"
+msgstr "이 게임은 어떠한 보증도 존재하지 않는 자유 소프트웨어이며, 특정 조건에서 재배포할 수 있습니다.\n자세한 내용은 라이선스 파일을 참조하십시오.\n"
+
+#: src/supertux/menu/integrations_menu.cpp:49
+msgid "Integrations"
+msgstr "통합"
+
+#: src/supertux/menu/integrations_menu.cpp:51
+msgid "Do not share level names when editing"
+msgstr "편집할 때 레벨 이름 공유하지 않음"
+
+#: src/supertux/menu/integrations_menu.cpp:54
+msgid "Enable Discord integration"
+msgstr "디스코드 통합 활성화"
+
+#: src/supertux/menu/integrations_menu.cpp:57
+msgid "Discord (disabled; not compiled)"
+msgstr "Discord (비활성화됨, 컴파일되지 않음)"
+
+#: src/supertux/menu/contrib_menu.cpp:80
+#: src/supertux/menu/world_set_menu.cpp:31
+msgid "Contrib Levels"
+msgstr "기여 레벨"
+
+#: src/supertux/menu/debug_menu.cpp:32
+msgid "Debug"
+msgstr "디버그"
+
+#: src/supertux/menu/debug_menu.cpp:56
+msgid "Game Speed"
+msgstr "게임 속도"
+
+#: src/supertux/menu/debug_menu.cpp:57
+msgid "Adjust Game Speed"
+msgstr "게임 속도 조정"
+
+#: src/supertux/menu/debug_menu.cpp:63
+msgid "Show Collision Rects"
+msgstr "충돌 구형 보이기"
+
+#: src/supertux/menu/debug_menu.cpp:64
+msgid "Show Worldmap Path"
+msgstr "세계지도 길 보이기"
+
+#: src/supertux/menu/debug_menu.cpp:65
+msgid "Show Controller"
+msgstr "컨트롤러 보이기"
+
+#: src/supertux/menu/debug_menu.cpp:66
+msgid "Show Framerate"
+msgstr "프레임 속도 보이기"
+
+#: src/supertux/menu/debug_menu.cpp:67
+msgid "Draw Redundant Frames"
+msgstr "중복 프레임 그리기"
+
+#: src/supertux/menu/debug_menu.cpp:68
+msgid "Show Player Position"
+msgstr "플레이어 위치 보이기"
+
+#: src/supertux/menu/debug_menu.cpp:69
+msgid "Use Bitmap Fonts"
+msgstr "비트맵 글꼴 사용"
+
+#: src/supertux/menu/debug_menu.cpp:72
+msgid "Dump Texture Cache"
+msgstr "텍스처 캐시 덤프"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:33
+msgid "Save particle as"
+msgstr "다른 이름으로 입자 저장하기"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:37
+#: src/supertux/menu/editor_save_as.cpp:37
+msgid "File name"
+msgstr "파일 이름"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:38
+#: src/supertux/menu/editor_save_as.cpp:38 src/editor/particle_editor.cpp:766
+msgid "Save"
+msgstr "저장하기"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:31
+msgid "Choose Sector"
+msgstr "섹터 선정하기"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:41
+msgid "Sector Settings"
+msgstr "섹터 설정"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:42
+msgid "Create Sector"
+msgstr "섹터 만들기"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:43
+msgid "Delete Sector"
+msgstr "섹터 삭제하기"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:93
+msgid "Each level must have at least one sector."
+msgstr "각 레벨에는 최소한 하나의 섹터가 있어야 합니다."
+
+#: src/supertux/menu/editor_sectors_menu.cpp:98
+msgid "Do you really want to delete this sector?"
+msgstr "이 섹터를 삭제하시겠습니까?"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:101
+msgid "Delete sector"
+msgstr "섹터 삭제하기"
+
+#: src/supertux/menu/editor_objectgroup_menu.cpp:30
+#: src/editor/toolbox_widget.cpp:93
+msgid "Objects"
+msgstr "물건"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:62
+msgid "Empty World"
+msgstr "빈 세계"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:77
+msgid "Create Level"
+msgstr "레벨 만들기"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:81
+msgid "Edit Worldmap"
+msgstr "세계지도 편집하기"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:83
+msgid "Create Worldmap"
+msgstr "세계지도 만들기"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:85
+#: src/supertux/menu/editor_delete_level_menu.cpp:33
+msgid "Delete level"
+msgstr "레벨 삭제하기"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:87
+#: src/supertux/menu/editor_levelset_menu.cpp:56
+msgid "World Settings"
+msgstr "세계 설정"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:127
+msgid ""
+"Share this worldmap under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in worldmap properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "이 세계지도를 CC-BY-SA 4.0 국제 사용 허가에 따라 공유합니다 (권장).\n제3자에 의해 수정 및 재배포를 할 수 있도록 합니다.\n이 라이선스에 동의하지 않는다면, 세계지도 속성에서 라이선스를 바꾸세요.\n면책 조항: 슈퍼턱스 저자는 라이선스 선택에 대한 책임을 지지 않습니다."
+
+#: src/supertux/menu/editor_level_select_menu.cpp:134
+msgid ""
+"Share this level under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in level properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "이 레벨을 CC-BY-SA 4.0 국제 사용 허가에 따라 공유합니다 (권장).\n제3자에 의해 수정 및 재배포를 할 수 있도록 합니다.\n이 라이선스에 동의하지 않는다면, 레벨 속성에서 라이선스를 바꾸세요.\n면책 조항: 슈퍼턱스 저자는 라이선스 선택에 대한 책임을 지지 않습니다."
+
+#: src/supertux/menu/editor_level_select_menu.cpp:162
+msgid ""
+"An auto-save recovery file was found. Would you like to restore the recovery\n"
+"file and resume where you were before the editor crashed?"
+msgstr "자동 저장 복구 파일을 찾았어요. 복구 파일을 복원하고 편집기가 충돌하기 전의\n위치로 다시 시작할까요?"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:169
+msgid "This will delete the auto-save file. Are you sure?"
+msgstr "자동 저장 파일이 삭제됩니다. 확실한가요?"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:34
+#: src/supertux/menu/cheat_menu.cpp:30
+msgid "Cheats"
+msgstr "치트"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:36
+#: src/supertux/menu/cheat_menu.cpp:32
+msgid "Bonus: Grow"
+msgstr "보너스: 알"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:37
+msgid "Bonus: Fire"
+msgstr "보너스: 불"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:38
+msgid "Bonus: Ice"
+msgstr "보너스: 얼음"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:39
+msgid "Bonus: Air"
+msgstr "보너스: 공기"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:40
+msgid "Bonus: Earth"
+msgstr "보너스: 지면"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:41
+msgid "Bonus: None"
+msgstr "보너스: 없음"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:44
+#: src/supertux/menu/cheat_menu.cpp:42
+msgid "Leave Ghost Mode"
+msgstr "유령 모드 떠나기"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:44
+#: src/supertux/menu/cheat_menu.cpp:42
+msgid "Activate Ghost Mode"
+msgstr "유령 모드 활성시키기"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:46
+#: src/supertux/menu/cheat_menu.cpp:40
+msgid "Finish Level"
+msgstr "레벨 도착"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:47
+msgid "Reset Level"
+msgstr "레벨 재설정"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:49
+msgid "Finish Worldmap"
+msgstr "세계지도 마침"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:50
+msgid "Reset Worldmap"
+msgstr "세계지도 재설정"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:52
+msgid "Go to level"
+msgstr "레벨로 가기"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:53
+msgid "Go to main spawnpoint"
+msgstr "주요 스폰지점으로 가기"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:145
+msgid "Select level"
+msgstr "레벨 선택하기"
+
+#: src/supertux/menu/editor_save_as.cpp:33
+#: src/supertux/menu/editor_menu.cpp:49
+msgid "Save Level as"
+msgstr "다른 이름으로 레벨 저장하기"
+
+#: src/supertux/menu/editor_save_as.cpp:33
+#: src/supertux/menu/editor_menu.cpp:50
+msgid "Save Copy"
+msgstr "사본 저장하기"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:72
+msgid "Choose World"
+msgstr "세계 선택"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:100
+#, c-format
+msgid "%d level"
+msgid_plural "%d levels"
+msgstr[0] "레벨 %d개"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:113
+msgid "Create World"
+msgstr "세계 만들기"
+
+#: src/supertux/menu/options_menu.cpp:98 src/supertux/menu/main_menu.cpp:64
+#: src/supertux/menu/game_menu.cpp:61 src/supertux/menu/worldmap_menu.cpp:31
+msgid "Options"
+msgstr "옵션"
+
+#: src/supertux/menu/options_menu.cpp:104
+#: src/supertux/menu/options_menu.cpp:142
+#: src/supertux/menu/options_menu.cpp:455
+#: src/supertux/menu/options_menu.cpp:476 src/editor/object_settings.cpp:119
+msgid "auto"
+msgstr "자동"
+
+#: src/supertux/menu/options_menu.cpp:221
+msgid "Desktop"
+msgstr "데스크톱"
+
+#: src/supertux/menu/options_menu.cpp:251
+msgid "on"
+msgstr "켜기"
+
+#: src/supertux/menu/options_menu.cpp:252
+msgid "off"
+msgstr "끄기"
+
+#: src/supertux/menu/options_menu.cpp:253
+msgid "adaptive"
+msgstr "적응형"
+
+#: src/supertux/menu/options_menu.cpp:347
+msgid "Select Language"
+msgstr "언어 선택하기"
+
+#: src/supertux/menu/options_menu.cpp:348
+msgid "Select a different language to display text in"
+msgstr "텍스트를 표시할 다른 언어를 선택합니다"
+
+#: src/supertux/menu/options_menu.cpp:350
+msgid "Language Packs"
+msgstr "언어 팩"
+
+#: src/supertux/menu/options_menu.cpp:351
+msgid "Language packs contain up-to-date translations"
+msgstr "언어 팩에는 최신 번역을 포함합니다"
+
+#: src/supertux/menu/options_menu.cpp:353
+#: src/supertux/menu/profile_menu.cpp:34
+msgid "Select Profile"
+msgstr "프로필 선택하기"
+
+#: src/supertux/menu/options_menu.cpp:354
+msgid "Select a profile to play with"
+msgstr "사용할 프로필 선택하기"
+
+#: src/supertux/menu/options_menu.cpp:358
+msgid "Window Resizable"
+msgstr "창 크기 조정 가능"
+
+#: src/supertux/menu/options_menu.cpp:359
+msgid "Allow window resizing, might require a restart to take effect"
+msgstr "창 크기 조정할 수 있도록 합니다, 적용하려면 다시 시작해야 할 수 있습니다"
+
+#: src/supertux/menu/options_menu.cpp:361
+msgid "Window Resolution"
+msgstr "창 해상도"
+
+#: src/supertux/menu/options_menu.cpp:362
+msgid "Resize the window to the given size"
+msgstr "창을 주어진 크기로 조정합니다"
+
+#: src/supertux/menu/options_menu.cpp:364
+msgid "Fullscreen"
+msgstr "전체 화면"
+
+#: src/supertux/menu/options_menu.cpp:365
+msgid "Fill the entire screen"
+msgstr "전체 화면 모드로 전환합니다"
+
+#: src/supertux/menu/options_menu.cpp:367
+msgid "Fullscreen Resolution"
+msgstr "전체 화면 해상도"
+
+#: src/supertux/menu/options_menu.cpp:368
+msgid ""
+"Determine the resolution used in fullscreen mode (you must toggle fullscreen"
+" to complete the change)"
+msgstr "전체 화면 모드에서 사용할 해상도를 선택합니다 (설정하기 위해 전체 화면 모드로 전환해야 합니다)"
+
+#: src/supertux/menu/options_menu.cpp:373
+msgid "Fit to browser"
+msgstr "브라우저에 맞추기"
+
+#: src/supertux/menu/options_menu.cpp:374
+msgid "Fit the resolution to the size of your browser"
+msgstr "브라우저 크기에 해상도 맞추기"
+
+#: src/supertux/menu/options_menu.cpp:378
+msgid "Magnification"
+msgstr "배율"
+
+#: src/supertux/menu/options_menu.cpp:379
+msgid "Change the magnification of the game area"
+msgstr "게임 화면 배율을 조정합니다"
+
+#: src/supertux/menu/options_menu.cpp:381
+msgid "VSync"
+msgstr "VSync"
+
+#: src/supertux/menu/options_menu.cpp:382
+msgid "Set the VSync mode"
+msgstr "VSync 모드 설정"
+
+#: src/supertux/menu/options_menu.cpp:385
+msgid "Aspect Ratio"
+msgstr "화면 비율"
+
+#: src/supertux/menu/options_menu.cpp:386
+msgid "Adjust the aspect ratio"
+msgstr "화면 비율을 조정합니다"
+
+#: src/supertux/menu/options_menu.cpp:392
+msgid "Disable all sound effects"
+msgstr "모든 효과음을 끕니다"
+
+#: src/supertux/menu/options_menu.cpp:394
+msgid "Disable all music"
+msgstr "모든 음악을 끕니다"
+
+#: src/supertux/menu/options_menu.cpp:396
+msgid "Sound Volume"
+msgstr "소리 음량"
+
+#: src/supertux/menu/options_menu.cpp:397
+msgid "Adjust sound volume"
+msgstr "소리 음량을 조정합니다"
+
+#: src/supertux/menu/options_menu.cpp:399
+msgid "Music Volume"
+msgstr "음악 음량"
+
+#: src/supertux/menu/options_menu.cpp:400
+msgid "Adjust music volume"
+msgstr "음악 음량을 조정합니다"
+
+#: src/supertux/menu/options_menu.cpp:404
+msgid "Sound (disabled)"
+msgstr "소리 (음소거)"
+
+#: src/supertux/menu/options_menu.cpp:405
+msgid "Music (disabled)"
+msgstr "음악 (음소거)"
+
+#: src/supertux/menu/options_menu.cpp:408
+#: src/supertux/menu/keyboard_menu.cpp:30
+msgid "Setup Keyboard"
+msgstr "키보드 설정"
+
+#: src/supertux/menu/options_menu.cpp:409
+msgid "Configure key-action mappings"
+msgstr "키 배치 조합을 구성합니다"
+
+#: src/supertux/menu/options_menu.cpp:412
+#: src/supertux/menu/joystick_menu.cpp:52
+msgid "Setup Joystick"
+msgstr "조이스틱 설정"
+
+#: src/supertux/menu/options_menu.cpp:413
+msgid "Configure joystick control-action mappings"
+msgstr "조이스틱 배치 조합을 구성합니다"
+
+#: src/supertux/menu/options_menu.cpp:417
+msgid "On-screen controls"
+msgstr "스크린 위에 조작키"
+
+#: src/supertux/menu/options_menu.cpp:418
+msgid "Toggle on-screen controls for mobile devices"
+msgstr "모바일 장치의 화면 컨트롤 전환"
+
+#: src/supertux/menu/options_menu.cpp:420
+msgid "Enable transitions"
+msgstr "전환 효과 활성화"
+
+#: src/supertux/menu/options_menu.cpp:421
+msgid "Enable screen transitions and smooth menu animation"
+msgstr "화면 전환 효과와 매끄러운 메뉴 애니메이션을 활성화합니다"
+
+#: src/supertux/menu/options_menu.cpp:425
+msgid "Developer Mode"
+msgstr "개발자 모드"
+
+#: src/supertux/menu/options_menu.cpp:430
+msgid "Christmas Mode"
+msgstr "크리스마스 모드"
+
+#: src/supertux/menu/options_menu.cpp:433
+msgid "Confirmation Dialog"
+msgstr "확정 대화상자"
+
+#: src/supertux/menu/options_menu.cpp:433
+msgid "Confirm aborting level"
+msgstr "레벨 중단 확정하기"
+
+#: src/supertux/menu/options_menu.cpp:434
+msgid "Pause on focus loss"
+msgstr "초점 손실시 일시 정지"
+
+#: src/supertux/menu/options_menu.cpp:435
+msgid "Automatically pause the game when the window loses focus"
+msgstr "창이 포커스를 잃으면 자동으로 게임을 일시 중지합니다."
+
+#: src/supertux/menu/options_menu.cpp:436
+msgid "Use custom mouse cursor"
+msgstr "사용자 정의 마우스 커서 사용"
+
+#: src/supertux/menu/options_menu.cpp:436
+msgid "Whether the game renders its own cursor or uses the system's cursor"
+msgstr "게임이 자체 커서를 렌더링할지 또는 시스템의 커서를 사용할지 여부"
+
+#: src/supertux/menu/options_menu.cpp:438
+msgid "Integrations and presence"
+msgstr "통합 및 현재 상태"
+
+#: src/supertux/menu/options_menu.cpp:439
+msgid ""
+"Manage whether SuperTux should display the levels you play on your social "
+"media profiles (Discord)"
+msgstr "SuperTux가 소셜 미디어 프로필(Discord)에서 플레이하는 레벨을 표시할지 여부를 관리합니다"
+
+#: src/supertux/menu/options_menu.cpp:559
+msgid ""
+"The game couldn't detect your browser resolution.\n"
+"This most likely happens because it is not embedded\n"
+"in the SuperTux custom HTML template.\n"
+msgstr "게임이 브라우저 해상도를 감지하지 못했습니다.\n내장되어 있지 않기 때문에 발생하는 경우가 많습니다.\nSuperTux 사용자 정의 HTML 템플릿에서.\n"
+
+#: src/supertux/menu/main_menu.cpp:56 src/supertux/menu/world_set_menu.cpp:28
+msgid "Start Game"
+msgstr "게임 시작"
+
+#: src/supertux/menu/main_menu.cpp:60 src/supertux/menu/addon_menu.cpp:122
+msgid "Add-ons"
+msgstr "애드온"
+
+#: src/supertux/menu/main_menu.cpp:62 src/supertux/menu/web_asset_menu.cpp:38
+msgid "Manage Assets"
+msgstr "자산 관리하기"
+
+#: src/supertux/menu/main_menu.cpp:65 src/supertux/menu/editor_menu.cpp:43
+msgid "Level Editor"
+msgstr "레벨 편집기"
+
+#: src/supertux/menu/main_menu.cpp:66
+msgid "Credits"
+msgstr "제작진"
+
+#: src/supertux/menu/main_menu.cpp:67
+msgid "Donate"
+msgstr "기부하기"
+
+#: src/supertux/menu/main_menu.cpp:69
+msgid "Quit"
+msgstr "종료"
+
+#: src/supertux/menu/editor_sector_menu.cpp:35
+msgid "Initialization script"
+msgstr "스크립트 초기화"
+
+#: src/supertux/menu/editor_sector_menu.cpp:36
+msgid "Gravity"
+msgstr "중력"
+
+#: src/supertux/menu/editor_sector_menu.cpp:41
+msgid "Resize offset X"
+msgstr "오프셋 X 크기 조정"
+
+#: src/supertux/menu/editor_sector_menu.cpp:42
+msgid "Resize offset Y"
+msgstr "오프셋 Y 크기 조정"
+
+#: src/supertux/menu/editor_sector_menu.cpp:43
+msgid "Resize"
+msgstr "크기 조절"
+
+#: src/supertux/menu/profile_menu.cpp:41
+#, c-format
+msgid "[Profile {}]"
+msgstr "[프로필 {}]"
+
+#: src/supertux/menu/profile_menu.cpp:45
+#, c-format
+msgid "Profile {}"
+msgstr "프로필 {}"
+
+#: src/supertux/menu/profile_menu.cpp:50
+msgid "Reset profile"
+msgstr "프로필 재설정"
+
+#: src/supertux/menu/profile_menu.cpp:51
+msgid "Reset all profiles"
+msgstr "모든 프로필 재설정"
+
+#: src/supertux/menu/profile_menu.cpp:67
+msgid "Deleting your profile will reset your game progress. Are you sure?"
+msgstr "프로필을 삭제하면 사용자의 게임 진행률이 재설정됩니다. 확실합니까?"
+
+#: src/supertux/menu/profile_menu.cpp:73
+msgid "This will reset your game progress on all profiles. Are you sure?"
+msgstr "모든 프로필에서 사용자의 게임 진행률이 재설정됩니다. 확실합니까?"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:59
+#: src/supertux/menu/editor_new_levelset_menu.cpp:35
+msgid "Description"
+msgstr "설명"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:60
+#: src/supertux/menu/addon_menu.cpp:48
+#: data//images/engine/editor/objects.stoi:371
+msgid "Worldmap"
+msgstr "세계지도"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:60
+#: src/supertux/menu/addon_menu.cpp:45
+msgid "Levelset"
+msgstr "레벨셋"
+
+#: src/supertux/menu/addon_menu.cpp:51
+msgid "World"
+msgstr "세계"
+
+#: src/supertux/menu/addon_menu.cpp:54
+msgid "Add-on"
+msgstr "애드온"
+
+#: src/supertux/menu/addon_menu.cpp:60
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: src/supertux/menu/addon_menu.cpp:71
+#, c-format
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} \"{}\" 기여자: \"{}\""
+
+#: src/supertux/menu/addon_menu.cpp:129
+msgid "No Add-ons installed"
+msgstr "설치된 애드온이 없습니다"
+
+#: src/supertux/menu/addon_menu.cpp:133
+msgid "No Add-ons found"
+msgstr "애드온을 찾을 수 없습니다"
+
+#: src/supertux/menu/addon_menu.cpp:179
+#, c-format
+msgid "Install {} *NEW*"
+msgstr "{} 설치 *신규*"
+
+#: src/supertux/menu/addon_menu.cpp:190
+#, c-format
+msgid "Install {}"
+msgstr "{} 설치"
+
+#: src/supertux/menu/addon_menu.cpp:199
+msgid "No new Add-ons found"
+msgstr "새로운 애드온을 찾을 수 없습니다"
+
+#: src/supertux/menu/addon_menu.cpp:205
+msgid "Check Online (disabled)"
+msgstr "온라인에서 확인 (비활성화됨)"
+
+#: src/supertux/menu/addon_menu.cpp:209
+msgid "Check Online"
+msgstr "온라인에서 확인"
+
+#: src/supertux/menu/addon_menu.cpp:286
+msgid "Downloading Add-On Repository Index"
+msgstr "애드온 저장소 색인을 다운로드 중"
+
+#: src/supertux/menu/addon_menu.cpp:301
+#, c-format
+msgid "Downloading {}"
+msgstr "{} 다운로드 중"
+
+#: src/supertux/menu/addon_menu.cpp:348
+msgid ""
+"Please restart SuperTux\n"
+"for these changes to take effect."
+msgstr "변경을 적용하려면 슈퍼턱스를\n다시 시작해주세요."
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:31
+msgid "New World"
+msgstr "새 세계"
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:51
+msgid "Please enter a name for this level subset."
+msgstr "이 레벨 서브셋의 이름을 입력하세요."
+
+#: src/supertux/menu/world_set_menu.cpp:30
+msgid "Story Mode"
+msgstr "이야기 모드"
+
+#: src/supertux/menu/web_asset_menu.cpp:42
+msgid "New files location"
+msgstr "새 파일 경로"
+
+#: src/supertux/menu/web_asset_menu.cpp:43
+msgid "Add Files"
+msgstr "파일 추가"
+
+#: src/supertux/menu/web_asset_menu.cpp:44
+msgid "Download Files"
+msgstr "파일 다운로드"
+
+#: src/supertux/menu/particle_editor_open.cpp:32
+msgid "Load particle file"
+msgstr "입자 파일 불러오기"
+
+#: src/supertux/menu/particle_editor_open.cpp:39
+msgid "Open"
+msgstr "열기"
+
+#: src/supertux/menu/game_menu.cpp:31
+msgid "Are you sure?"
+msgstr "확실합니까?"
+
+#: src/supertux/menu/game_menu.cpp:54 src/supertux/menu/worldmap_menu.cpp:30
+msgid "Continue"
+msgstr "계속하기"
+
+#: src/supertux/menu/game_menu.cpp:55
+msgid "Restart Level"
+msgstr "레벨 다시 시작"
+
+#: src/supertux/menu/game_menu.cpp:58
+msgid "Restart from Checkpoint"
+msgstr "체크포인트에서 다시 시작"
+
+#: src/supertux/menu/game_menu.cpp:63
+msgid "Abort Level"
+msgstr "레벨 중단하기"
+
+#: src/supertux/menu/keyboard_menu.cpp:32
+#: src/supertux/menu/joystick_menu.cpp:69
+msgid "Up"
+msgstr "위쪽 방향키"
+
+#: src/supertux/menu/keyboard_menu.cpp:33
+#: src/supertux/menu/joystick_menu.cpp:70
+msgid "Down"
+msgstr "아래쪽 방향키"
+
+#: src/supertux/menu/keyboard_menu.cpp:36
+#: src/supertux/menu/joystick_menu.cpp:73
+msgid "Jump"
+msgstr "점프"
+
+#: src/supertux/menu/keyboard_menu.cpp:38
+#: src/supertux/menu/joystick_menu.cpp:76
+msgid "Peek Left"
+msgstr "왼쪽으로 화면 이동"
+
+#: src/supertux/menu/keyboard_menu.cpp:39
+#: src/supertux/menu/joystick_menu.cpp:77
+msgid "Peek Right"
+msgstr "오른쪽으로 화면 이동"
+
+#: src/supertux/menu/keyboard_menu.cpp:40
+#: src/supertux/menu/joystick_menu.cpp:78
+msgid "Peek Up"
+msgstr "위쪽으로 화면 이동"
+
+#: src/supertux/menu/keyboard_menu.cpp:41
+#: src/supertux/menu/joystick_menu.cpp:79
+msgid "Peek Down"
+msgstr "아래쪽으로 화면 이동"
+
+#: src/supertux/menu/keyboard_menu.cpp:43
+#: src/supertux/menu/joystick_menu.cpp:81
+msgid "Console"
+msgstr "콘솔"
+
+#: src/supertux/menu/keyboard_menu.cpp:44
+#: src/supertux/menu/joystick_menu.cpp:82
+msgid "Cheat Menu"
+msgstr "치트 메뉴"
+
+#: src/supertux/menu/keyboard_menu.cpp:45
+#: src/supertux/menu/joystick_menu.cpp:83
+msgid "Debug Menu"
+msgstr "디버그 메뉴"
+
+#: src/supertux/menu/keyboard_menu.cpp:47
+#: src/supertux/menu/joystick_menu.cpp:85
+msgid "Jump with Up"
+msgstr "위쪽 방향키로 점프"
+
+#: src/supertux/menu/keyboard_menu.cpp:60
+msgid "Up cursor"
+msgstr "위쪽 커서"
+
+#: src/supertux/menu/keyboard_menu.cpp:62
+msgid "Down cursor"
+msgstr "아래쪽 커서"
+
+#: src/supertux/menu/keyboard_menu.cpp:64
+msgid "Left cursor"
+msgstr "왼쪽 커서"
+
+#: src/supertux/menu/keyboard_menu.cpp:66
+msgid "Right cursor"
+msgstr "오른쪽 커서"
+
+#: src/supertux/menu/keyboard_menu.cpp:68
+msgid "Return"
+msgstr "Enter 키"
+
+#: src/supertux/menu/keyboard_menu.cpp:70
+msgid "Space"
+msgstr "스페이스 키"
+
+#: src/supertux/menu/keyboard_menu.cpp:72
+msgid "Right Shift"
+msgstr "오른쪽 Shift"
+
+#: src/supertux/menu/keyboard_menu.cpp:74
+msgid "Left Shift"
+msgstr "왼쪽 Shift"
+
+#: src/supertux/menu/keyboard_menu.cpp:76
+msgid "Right Control"
+msgstr "오른쪽 Control"
+
+#: src/supertux/menu/keyboard_menu.cpp:78
+msgid "Left Control"
+msgstr "왼쪽 Control"
+
+#: src/supertux/menu/keyboard_menu.cpp:80
+msgid "Right Alt"
+msgstr "오른쪽 Alt"
+
+#: src/supertux/menu/keyboard_menu.cpp:82
+msgid "Left Alt"
+msgstr "왼쪽 Alt"
+
+#: src/supertux/menu/keyboard_menu.cpp:84
+msgid "Right Command"
+msgstr "오른쪽 Command"
+
+#: src/supertux/menu/keyboard_menu.cpp:86
+msgid "Left Command"
+msgstr "왼쪽 Command"
+
+#: src/supertux/menu/keyboard_menu.cpp:100
+msgid "Press Key"
+msgstr "키 누르기"
+
+#: src/supertux/menu/language_menu.cpp:40
+msgid "Language"
+msgstr "언어"
+
+#: src/supertux/menu/language_menu.cpp:42
+msgid "<auto-detect>"
+msgstr "<자동 감지>"
+
+#: src/supertux/menu/joystick_menu.cpp:55
+msgid "Manual Configuration"
+msgstr "수동 구성"
+
+#: src/supertux/menu/joystick_menu.cpp:57
+msgid ""
+"Use manual configuration instead of SDL2's automatic GameController support"
+msgstr "SDL2의 자동 게임 컨트롤러 지원 대신 수동 구성을 사용합니다"
+
+#: src/supertux/menu/joystick_menu.cpp:75
+msgid "Pause/Menu"
+msgstr "일시정지/메뉴"
+
+#: src/supertux/menu/joystick_menu.cpp:91
+msgid "No Joysticks found"
+msgstr "조이스틱을 찾을 수 없습니다"
+
+#: src/supertux/menu/joystick_menu.cpp:92
+msgid "Scan for Joysticks"
+msgstr "조이스틱 검색"
+
+#: src/supertux/menu/joystick_menu.cpp:125
+msgid "Press Button"
+msgstr "버튼 누르기"
+
+#: src/supertux/menu/joystick_menu.cpp:162
+msgid "Axis "
+msgstr "축"
+
+#: src/supertux/menu/joystick_menu.cpp:165
+msgid "-"
+msgstr "-"
+
+#: src/supertux/menu/joystick_menu.cpp:167
+msgid "+"
+msgstr "+"
+
+#: src/supertux/menu/joystick_menu.cpp:174
+msgid "X2"
+msgstr "X2"
+
+#: src/supertux/menu/joystick_menu.cpp:176
+msgid "Y2"
+msgstr "Y2"
+
+#: src/supertux/menu/joystick_menu.cpp:189
+msgid "Hat Up"
+msgstr "모자 위"
+
+#: src/supertux/menu/joystick_menu.cpp:193
+msgid "Hat Down"
+msgstr "모자 아래"
+
+#: src/supertux/menu/joystick_menu.cpp:197
+msgid "Hat Left"
+msgstr "모자 왼쪽"
+
+#: src/supertux/menu/joystick_menu.cpp:201
+msgid "Hat Right"
+msgstr "모자 오른쪽"
+
+#: src/supertux/menu/worldmap_menu.cpp:28
+msgid "Pause"
+msgstr "일시 정지"
+
+#: src/supertux/menu/worldmap_menu.cpp:33
+msgid "Leave World"
+msgstr "세계 떠나기"
+
+#: src/supertux/menu/download_dialog.cpp:27
+msgid "Abort Download"
+msgstr "다운로드 중지"
+
+#: src/supertux/menu/download_dialog.cpp:42
+msgid "Error:\n"
+msgstr "오류:\n"
+
+#: src/supertux/menu/download_dialog.cpp:96
+msgid "Close"
+msgstr "닫기"
+
+#: src/supertux/menu/cheat_menu.cpp:33
+msgid "Bonus: Fire x 64"
+msgstr "보너스: 불 x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:34
+msgid "Bonus: Ice x 64"
+msgstr "보너스: 얼음 x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:35
+msgid "Bonus: Air x 64"
+msgstr "보너스: 공기 x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:36
+msgid "Bonus: Earth x 64"
+msgstr "보너스: 지면 x 64"
+
+#: src/supertux/menu/cheat_menu.cpp:37
+msgid "Bonus: Star"
+msgstr "보너스: 별"
+
+#: src/supertux/menu/cheat_menu.cpp:38
+msgid "Shrink Tux"
+msgstr "턱스를 축소시킵니다"
+
+#: src/supertux/menu/cheat_menu.cpp:39
+msgid "Kill Tux"
+msgstr "턱스를 죽입니다"
+
+#: src/supertux/menu/particle_editor_menu.cpp:32
+msgid "Particle Editor"
+msgstr "입자 편집기"
+
+#: src/supertux/menu/particle_editor_menu.cpp:36
+#: src/supertux/menu/editor_menu.cpp:45
+msgid "Return to Editor"
+msgstr "편집기로 돌아가기"
+
+#: src/supertux/menu/particle_editor_menu.cpp:37
+msgid "New Particle Config"
+msgstr "새 입자 구성"
+
+#: src/supertux/menu/particle_editor_menu.cpp:38
+msgid "Save Particle Config"
+msgstr "입자 구성 저장하기"
+
+#: src/supertux/menu/particle_editor_menu.cpp:39
+msgid "Save Particle Config as..."
+msgstr "다른 이름으로 입자 구성 저장하기..."
+
+#: src/supertux/menu/particle_editor_menu.cpp:40
+msgid "Load Another Particle Config"
+msgstr "다른 입자 구성 불러오기"
+
+#: src/supertux/menu/particle_editor_menu.cpp:44
+msgid "Open Particle Directory"
+msgstr "입자 디렉터리 열기"
+
+#: src/supertux/menu/particle_editor_menu.cpp:45
+#: src/supertux/menu/editor_menu.cpp:88
+msgid "Keyboard Shortcuts"
+msgstr "키보드 단축키"
+
+#: src/supertux/menu/particle_editor_menu.cpp:49
+msgid "Exit Particle Editor"
+msgstr "입자 편집기 나가기"
+
+#: src/supertux/menu/particle_editor_menu.cpp:120
+msgid ""
+"Keyboard Shortcuts:\n"
+"---------------------\n"
+"Esc = Open Menu\n"
+"Ctrl+S = Save\n"
+"Ctrl+Shift+S = Save as\n"
+"Ctrl+O = Open\n"
+"Ctrl+Z = Undo\n"
+"Ctrl+Y = Redo"
+msgstr "키보드 단축키:\n---------------------\nEsc = 메뉴 열기\nCtrl+S = 저장\nCtrl+Shift+S = 다른 이름으로 저장\nCtrl+O = 열기\nCtrl+Z = 실행 취소\nCtrl+Y = 다시 실행"
+
+#: src/supertux/menu/particle_editor_menu.cpp:121
+#: src/supertux/menu/editor_menu.cpp:176
+msgid "Got it!"
+msgstr "알았어요!"
+
+#: src/supertux/menu/editor_level_menu.cpp:31
+#: src/supertux/menu/editor_menu.cpp:86
+msgid "Worldmap Settings"
+msgstr "세계지도 설정"
+
+#: src/supertux/menu/editor_level_menu.cpp:31
+#: src/supertux/menu/editor_menu.cpp:86
+msgid "Level Settings"
+msgstr "레벨 설정"
+
+#: src/supertux/menu/editor_level_menu.cpp:34
+msgid "Author"
+msgstr "저자"
+
+#: src/supertux/menu/editor_level_menu.cpp:35 data//credits.stxt:1166
+msgid "Contact"
+msgstr "연락처"
+
+#: src/supertux/menu/editor_level_menu.cpp:36
+msgid "License"
+msgstr "라이선스"
+
+#: src/supertux/menu/editor_level_menu.cpp:37
+msgid "Level Note"
+msgstr "레벨 노트"
+
+#: src/supertux/menu/editor_level_menu.cpp:38
+msgid "Tileset"
+msgstr "타일셋"
+
+#: src/supertux/menu/editor_level_menu.cpp:41
+msgid "Target Time"
+msgstr "목표 시간"
+
+#: src/supertux/menu/editor_level_menu.cpp:83
+msgid "Please enter a name for this level."
+msgstr "이 레벨의 이름을 입력하세요."
+
+#: src/supertux/menu/editor_level_menu.cpp:87
+msgid "Please enter a level author for this level."
+msgstr "이 레벨의 레벨 저자를 입력하세요."
+
+#: src/supertux/menu/editor_level_menu.cpp:91
+msgid "Please enter a license for this level."
+msgstr "이 레벨의 라이선스를 입력하세요."
+
+#: src/supertux/menu/editor_menu.cpp:38
+msgid "tiny tile (4px)"
+msgstr "아주 작은 타일 (4px)"
+
+#: src/supertux/menu/editor_menu.cpp:39
+msgid "small tile (8px)"
+msgstr "작은 타일 (8px)"
+
+#: src/supertux/menu/editor_menu.cpp:40
+msgid "medium tile (16px)"
+msgstr "중간 타일 (16px)"
+
+#: src/supertux/menu/editor_menu.cpp:41
+msgid "big tile (32px)"
+msgstr "큰 타일 (32px)"
+
+#: src/supertux/menu/editor_menu.cpp:46
+msgid "Save Worldmap"
+msgstr "세계지도 저장하기"
+
+#: src/supertux/menu/editor_menu.cpp:46
+msgid "Save Level"
+msgstr "레벨 저장하기"
+
+#: src/supertux/menu/editor_menu.cpp:55
+msgid "Test Level"
+msgstr "레벨 테스트"
+
+#: src/supertux/menu/editor_menu.cpp:59
+msgid "Test Worldmap"
+msgstr "세계지도 테스트"
+
+#: src/supertux/menu/editor_menu.cpp:62
+msgid "Share Level"
+msgstr "레벨 공유"
+
+#: src/supertux/menu/editor_menu.cpp:64
+msgid "Package Add-On"
+msgstr "패키지 애드온"
+
+#: src/supertux/menu/editor_menu.cpp:66
+msgid "Open Level Directory"
+msgstr "레벨 디렉터리 열기"
+
+#: src/supertux/menu/editor_menu.cpp:70
+msgid "Edit Another Level"
+msgstr "다른 레벨 편집하기"
+
+#: src/supertux/menu/editor_menu.cpp:73
+msgid "Edit Another World"
+msgstr "다른 세계 편집하기"
+
+#: src/supertux/menu/editor_menu.cpp:77
+msgid "Grid Size"
+msgstr "격자 크기"
+
+#: src/supertux/menu/editor_menu.cpp:78
+msgid "Show Grid"
+msgstr "격자 보이기"
+
+#: src/supertux/menu/editor_menu.cpp:79
+msgid "Grid Snapping"
+msgstr "격자에 맞추기"
+
+#: src/supertux/menu/editor_menu.cpp:80
+msgid "Render Background"
+msgstr "배경 렌더링"
+
+#: src/supertux/menu/editor_menu.cpp:81
+msgid "Render Light"
+msgstr "조명 렌더링"
+
+#: src/supertux/menu/editor_menu.cpp:82
+msgid "Autotile Mode"
+msgstr "자동타일 모드"
+
+#: src/supertux/menu/editor_menu.cpp:83
+msgid "Enable Autotile Help"
+msgstr "자동타일 도움말 활성화"
+
+#: src/supertux/menu/editor_menu.cpp:84
+msgid "Autosave Frequency"
+msgstr "자동 저장 빈도"
+
+#: src/supertux/menu/editor_menu.cpp:91
+msgid "Exit Level Editor"
+msgstr "레벨 편집기 나가기"
+
+#: src/supertux/menu/editor_menu.cpp:140
+msgid "Do you want to package this world as an add-on?"
+msgstr "이 세계를 애드온으로 패키지화하시겠습니까?"
+
+#: src/supertux/menu/editor_menu.cpp:163
+msgid ""
+"We encourage you to share your levels in the SuperTux forum.\n"
+"To find your level, click the\n"
+"\"Open Level directory\" menu item.\n"
+"Do you want to go to the forum now?"
+msgstr "우리는 슈퍼턱스 포럼에서 여러분의 레벨을 공유하는 것을 격려합니다.\n레벨을 찾으려면, \"레벨 디렉터리 열기\"\n메뉴 항목을 클릭하세요.\n이제 포럼으로 가시겠습니까?"
+
+#: src/supertux/menu/editor_menu.cpp:175
+msgid ""
+"Keyboard Shortcuts:\n"
+"---------------------\n"
+"Esc = Open Menu\n"
+"Ctrl+S = Save\n"
+"Ctrl+T = Test\n"
+"Ctrl+Z = Undo\n"
+"Ctrl+Y = Redo\n"
+"F6 = Render Light\n"
+"F7 = Grid Snapping\n"
+"F8 = Show Grid"
+msgstr "키보드 단축키:\n---------------------\nEsc = 메뉴 열기\nCtrl+S = 저장\nCtrl+T = 테스트\nCtrl+Z = 실행 취소\nCtrl+Y = 다시 실행\nF6 = 조명 렌더링\nF7 = 격자에 맞추기\nF8 = 격자 보이기"
+
+#: src/supertux/menu/editor_delete_level_menu.cpp:53
+msgid "You cannot delete level that you are editing!"
+msgstr "편집 중인 레벨은 삭제할 수 없습니다!"
+
+#: src/supertux/levelintro.cpp:136
+#, c-format
+msgid "contributed by {}"
+msgstr "기여자: {}"
+
+#: src/supertux/levelintro.cpp:169
+msgid "Badguys killed"
+msgstr "퇴치한 악당"
+
+#: src/supertux/levelintro.cpp:177
+msgid "Best time"
+msgstr "최단 시간"
+
+#: src/supertux/levelintro.cpp:181
+msgid "Level target time"
+msgstr "레벨 목표 시간"
+
+#: src/supertux/tile_set.cpp:118
+msgid "Others"
+msgstr "기타"
+
+#: src/supertux/moving_object.cpp:55
+msgid "Region"
+msgstr "지역"
+
+#: src/supertux/main.cpp:563
+msgid ""
+"The UBports version is under heavy development!\n"
+"If you encounter issues, PLEASE contact the maintainter\n"
+"at https://github.com/supertux/supertux/issues or on the\n"
+"Open Store's Telegram at https://open-store.io/telegram"
+msgstr "UBports 버전은 열심히 개발 중입니다!\n문제가 발생하면 관리자에게 문의하십시오.\nhttps://github.com/supertux/supertux/issues 또는\nhttps://open-store.io/telegram에서 스토어 텔레그램 열기"
+
+#: src/control/joystick_config.cpp:85
+msgid "Joystick Mappings"
+msgstr "조이스틱 조합 설정"
+
+#: src/worldmap/worldmap_parser.cpp:167
+msgid "<no title>"
+msgstr "<제목 없음>"
+
+#: src/editor/node_marker.cpp:122
+msgid "Path Node"
+msgstr "길 노드"
+
+#: src/editor/node_marker.cpp:123
+msgid "Press CTRL to move Bezier handles"
+msgstr "Ctrl 키를 눌러 베지어 핸들을 이동합니다"
+
+#: src/editor/node_marker.cpp:127
+msgid "Easing"
+msgstr "완화"
+
+#: src/editor/object_settings.cpp:119
+msgid "up"
+msgstr "위"
+
+#: src/editor/object_settings.cpp:119
+msgid "down"
+msgstr "아래"
+
+#: src/editor/object_settings.cpp:131
+msgid "West"
+msgstr "서"
+
+#: src/editor/object_settings.cpp:131
+msgid "East"
+msgstr "동"
+
+#: src/editor/object_settings.cpp:131
+msgid "North"
+msgstr "북"
+
+#: src/editor/object_settings.cpp:131
+msgid "South"
+msgstr "남"
+
+#: src/editor/object_settings.cpp:144
+msgid "One shot"
+msgstr "한 번 쏘기"
+
+#: src/editor/object_settings.cpp:144
+msgid "Ping-pong"
+msgstr "왔다 갔다"
+
+#: src/editor/object_settings.cpp:144
+msgid "Circular"
+msgstr "돌기"
+
+#: src/editor/object_settings.cpp:144
+msgid "Unordered"
+msgstr "순서 없음"
+
+#: src/editor/object_option.cpp:85
+msgid "true"
+msgstr "참"
+
+#: src/editor/object_option.cpp:85
+msgid "false"
+msgstr "거짓"
+
+#: src/editor/object_option.cpp:271 src/editor/object_option.cpp:320
+msgid "invalid"
+msgstr "잘못됨"
+
+#: src/editor/object_option.cpp:580
+msgid "Remove"
+msgstr "제거"
+
+#: src/editor/object_option.cpp:597
+msgid "Test from here"
+msgstr "여기에서 테스트"
+
+#: src/editor/object_option.cpp:614
+msgid "Open Particle Editor"
+msgstr "입자 편집기 열기"
+
+#: src/editor/worldmap_objects.hpp:56 src/editor/worldmap_objects.cpp:127
+msgid "Level"
+msgstr "레벨"
+
+#: src/editor/worldmap_objects.hpp:79
+msgid "Teleporter"
+msgstr "텔레포터"
+
+#: src/editor/worldmap_objects.hpp:119
+msgid "Sprite Change"
+msgstr "스프라이트 바꾸기"
+
+#: src/editor/worldmap_objects.hpp:140
+msgid "Special tile"
+msgstr "특수 타일"
+
+#: src/editor/particle_editor.cpp:126
+msgid "Max amount"
+msgstr "최대 금액"
+
+#: src/editor/particle_editor.cpp:142
+msgid "Spawn anywhere"
+msgstr "어디서나 스폰"
+
+#: src/editor/particle_editor.cpp:143
+msgid "Life duration"
+msgstr "수명"
+
+#: src/editor/particle_editor.cpp:148
+msgid "Birth duration"
+msgstr "출생 기간"
+
+#: src/editor/particle_editor.cpp:153
+msgid "Death duration"
+msgstr "사망 기간"
+
+#: src/editor/particle_editor.cpp:160
+msgid "Grow"
+msgstr "자라다"
+
+#: src/editor/particle_editor.cpp:175
+msgid "Horizontal speed"
+msgstr "수평 속도"
+
+#: src/editor/particle_editor.cpp:180
+msgid "Vertical speed"
+msgstr "수직 속도"
+
+#: src/editor/particle_editor.cpp:185
+msgid "Horizontal acceleration"
+msgstr "수평 가속도"
+
+#: src/editor/particle_editor.cpp:186
+msgid "Vertical acceleration"
+msgstr "수직 가속도"
+
+#: src/editor/particle_editor.cpp:187
+msgid "Horizontal friction"
+msgstr "수평 마찰"
+
+#: src/editor/particle_editor.cpp:188
+msgid "Vertical friction"
+msgstr "수직 마찰"
+
+#: src/editor/particle_editor.cpp:190
+msgid "Initial rotation"
+msgstr "초기 회전"
+
+#: src/editor/particle_editor.cpp:201
+msgid "Rotation friction/decceleration"
+msgstr "회전 마찰/감속"
+
+#: src/editor/particle_editor.cpp:211
+msgid "Destroy"
+msgstr "파괴"
+
+#: src/editor/particle_editor.cpp:215
+msgid "Stick to surface"
+msgstr "표면에 달라붙다"
+
+#: src/editor/particle_editor.cpp:216
+msgid "Stick and stay"
+msgstr "스틱 앤 스테이"
+
+#: src/editor/particle_editor.cpp:217
+msgid "No collision"
+msgstr "충돌 없음"
+
+#: src/editor/particle_editor.cpp:222
+msgid "Always destroy"
+msgstr "항상 파괴"
+
+#: src/editor/particle_editor.cpp:226
+msgid "Offscreen mode"
+msgstr "스크린 없는 모드"
+
+#: src/editor/particle_editor.cpp:765
+msgid ""
+"This particle configuration contains unsaved changes,\n"
+"do you want to save?"
+msgstr "이 입자 구성에는 저장되지 않은 변경사항이 포함되어 있습니다. \n저장할까요?"
+
+#: src/editor/particle_editor.cpp:773
+msgid "Save as"
+msgstr "다른 이름으로 저장하기"
+
+#: src/editor/editor.cpp:566
+msgid ""
+"Don't forget that your levels and assets\n"
+"aren't saved between sessions!\n"
+"If you want to keep your levels, download them\n"
+"from the \"Manage Assets\" menu."
+msgstr "레벨과 자산이 세션 사이에 저장되지 않는다는\n것을 잊지 마세요!\n레벨을 유지하려면 \"자산 관리\" 메뉴에서\n다운로드하세요."
+
+#: src/editor/editor.cpp:582
+msgid "This level contains unsaved changes, do you want to save?"
+msgstr "이 레벨에 저장하지 않는 변경사항이 포함되어 있습니다, 저장할까요?"
+
+#: src/editor/editor.cpp:622
+msgid ""
+"Some obsolete add-ons are still active\n"
+"and might cause collisions with default Super Tux structure.\n"
+"You can still enable these add-ons in the menu.\n"
+"Disabling these add-ons will not delete your game progress."
+msgstr "일부 오래된 애드온은 여전히 활성화되어 있으며\n기본 슈퍼 턱스 구조와 충돌을 일으킬 수 있습니다.\n메뉴에서 이러한 애드온을 계속 활성화할 수 있습니다.\n이러한 애드온을 비활성화해도 게임 진행 상황은 삭제되지 않습니다."
+
+#: src/editor/editor.cpp:625
+msgid "Disable add-ons"
+msgstr "애드온 비활성화"
+
+#: src/editor/editor.cpp:630
+msgid "Ignore (not advised)"
+msgstr "무시 (권장하지 않음)"
+
+#: src/editor/editor.cpp:634
+msgid "Leave editor"
+msgstr "편집기 떠나기"
+
+#: src/editor/editor.cpp:853
+msgid ""
+"Couldn't find a \"main\" sector.\n"
+"Please change the name of the sector where\n"
+"you'd like the player to start to \"main\""
+msgstr "\"main\" 섹터를 찾을 수 없습니다.\n플레이어가 시작하려는 섹터의 이름을\n\"main\"으로 변경하십시오."
+
+#: src/editor/editor.cpp:857
+msgid ""
+"Couldn't find a \"main\" spawnpoint.\n"
+" Please change the name of the spawnpoint where\n"
+"you'd like the player to start to \"main\""
+msgstr "\"main\" 스폰지점을 찾을 수 없습니다.\n플레이어가 시작하기를 원하는 스폰지점의 이름을\n\"main\"으로 변경하십시오."
+
+#: src/editor/worldmap_objects.cpp:128
+msgid "Outro script"
+msgstr "아웃트로 스크립트"
+
+#: src/editor/worldmap_objects.cpp:129
+msgid "Auto play"
+msgstr "자동 플레이"
+
+#: src/editor/worldmap_objects.cpp:131
+msgid "Title colour"
+msgstr "제목 색"
+
+#: src/editor/worldmap_objects.cpp:173
+msgid "Automatic"
+msgstr "자동"
+
+#: src/editor/worldmap_objects.cpp:175
+msgid "Target worldmap"
+msgstr "대상 세계지도"
+
+#: src/editor/worldmap_objects.cpp:238
+msgid "Stay action"
+msgstr "머물기 동작"
+
+#: src/editor/worldmap_objects.cpp:239
+msgid "Initial stay action"
+msgstr "초기 머물기 동작"
+
+#: src/editor/worldmap_objects.cpp:240
+msgid "Stay group"
+msgstr "머물기 그룹"
+
+#: src/editor/worldmap_objects.cpp:241
+msgid "Change on touch"
+msgstr "터치로 바꾸기"
+
+#: src/editor/worldmap_objects.cpp:271
+msgid "Show message"
+msgstr "메시지 보이기"
+
+#: src/editor/worldmap_objects.cpp:273
+msgid "Invisible"
+msgstr "보이지 않음"
+
+#: src/editor/overlay_widget.cpp:1297
+msgid "Autotile mode is on"
+msgstr "오토타일 모드가 켜짐"
+
+#: src/editor/overlay_widget.cpp:1299
+msgid "Hold Ctrl to enable autotile"
+msgstr "Ctrl 키를 눌러 자동 타일을 사용하도록 설정합니다"
+
+#: src/editor/overlay_widget.cpp:1303
+msgid "Autotile erasing mode is on"
+msgstr "자동 타일 지우기 모드가 켜져 있습니다"
+
+#: src/editor/overlay_widget.cpp:1305
+msgid "Selected tile isn't autotileable"
+msgstr "선택한 타일은 자동 자동 타일을 사용할 수 없습니다"
+
+#: src/editor/overlay_widget.cpp:1308
+msgid "Hold Ctrl to enable autotile erasing"
+msgstr "Ctrl 키를 눌러 자동 타일 지우기를 사용하도록 설정합니다"
+
+#: data//credits.stxt:25
+msgid "Current SuperTux Team"
+msgstr "현재 슈퍼턱스 팀"
+
+#: data//credits.stxt:30
+msgid "Programming, project lead ad interim"
+msgstr "프로그래밍, 잠깐 동안 프로젝트 리드"
+
+#: data//credits.stxt:35
+msgid "Graphics, Level Design, Story"
+msgstr "그래픽, 레벨 디자인, 이야기"
+
+#: data//credits.stxt:40
+msgid "Level Design, Story, Optimisation, Coordination"
+msgstr "레벨 디자인, 스토리, 최적화, 조정"
+
+#: data//credits.stxt:45 data//credits.stxt:105 data//credits.stxt:191
+#: data//credits.stxt:519
+msgid "Graphics"
+msgstr "그래픽"
+
+#: data//credits.stxt:50 data//credits.stxt:87 data//credits.stxt:93
+msgid "Graphics, Programming, Level Design"
+msgstr "그래픽, 프로그래밍, 레벨 디자인"
+
+#: data//credits.stxt:55
+msgid "Features and Programming"
+msgstr "기능과 프로그래밍"
+
+#: data//credits.stxt:60
+msgid "Programming, Level Updates"
+msgstr "프로그래밍, 레벨 업데이트"
+
+#: data//credits.stxt:65
+msgid "Graphics, Programming"
+msgstr "그래픽, 프로그래밍"
+
+#: data//credits.stxt:70 data//credits.stxt:135 data//credits.stxt:140
+#: data//credits.stxt:145 data//credits.stxt:150 data//credits.stxt:165
+#: data//credits.stxt:170 data//credits.stxt:515 data//credits.stxt:527
+msgid "Programming"
+msgstr "프로그래밍"
+
+#: data//credits.stxt:76
+msgid "Original Developers"
+msgstr "원래 개발자"
+
+#: data//credits.stxt:81
+msgid "Original Developer"
+msgstr "원래 개발자"
+
+#: data//credits.stxt:99
+msgid "Music, Level Design"
+msgstr "음악, 레벨 디자인"
+
+#: data//credits.stxt:111
+msgid "Programming, Graphics, Level Design"
+msgstr "프로그래밍, 그래픽, 레벨 디자인"
+
+#: data//credits.stxt:117
+msgid "Programming, Level Design"
+msgstr "프로그래밍, 레벨 디자인"
+
+#: data//credits.stxt:123
+msgid "Graphics, Story"
+msgstr "그래픽, 이야기"
+
+#: data//credits.stxt:129
+msgid "Programming, Documentation"
+msgstr "프로그래밍, 설명문서"
+
+#: data//credits.stxt:155
+msgid "Coordination"
+msgstr "조정"
+
+#: data//credits.stxt:160
+msgid "Programming, \"Flexlay\" Level editor"
+msgstr "프로그래밍, \"Flexlay\" 레벨 편집기"
+
+#: data//credits.stxt:175
+msgid "Windows build fixes"
+msgstr "Windows 빌드 수정"
+
+#: data//credits.stxt:180
+msgid "Packaging, Nightly builds"
+msgstr "패키징, Nightly 빌드"
+
+#: data//credits.stxt:185
+msgid "Translation Guru (and many details anyone else could have done)"
+msgstr "번역 구루 (많은 번역들을 누구든지 해낼 수 있었습니다)"
+
+#: data//credits.stxt:251
+msgid "Level Design"
+msgstr "레벨 디자인"
+
+#: data//credits.stxt:431
+msgid "Additional contributors"
+msgstr "추가 기여자"
+
+#: data//credits.stxt:436
+msgid "Bug fixes"
+msgstr "버그 수정"
+
+#: data//credits.stxt:440
+msgid "Scripting functions, Level fixes"
+msgstr "스크립팅 기능, 레벨 수정"
+
+#: data//credits.stxt:444
+msgid "Code quality fixes"
+msgstr "코드 품질 수정"
+
+#: data//credits.stxt:448 data//credits.stxt:452 data//credits.stxt:456
+#: data//credits.stxt:483
+msgid "Various contributions"
+msgstr "다양한 기여"
+
+#: data//credits.stxt:460
+msgid "Build issue fix"
+msgstr "빌드 이슈 수정"
+
+#: data//credits.stxt:464 data//credits.stxt:468
+msgid "Code contributions"
+msgstr "코드 기여"
+
+#: data//credits.stxt:471
+msgid "Code contribution, AppData file"
+msgstr "코드 기여, AppData 파일"
+
+#: data//credits.stxt:475
+msgid "Bug fix"
+msgstr "버그 수정"
+
+#: data//credits.stxt:479
+msgid "Menu reorganization"
+msgstr "메뉴 개편"
+
+#: data//credits.stxt:487
+msgid "Fixing tile bugs"
+msgstr "타일 버그 수정"
+
+#: data//credits.stxt:491
+msgid "Build error fix"
+msgstr "빌드 오류 수정"
+
+#: data//credits.stxt:495
+msgid "Scripting function fix"
+msgstr "스크립팅 기능 수정"
+
+#: data//credits.stxt:499
+msgid "New features and notable updates"
+msgstr "새로운 기능 및 주목할 만한 업데이트"
+
+#: data//credits.stxt:503
+msgid "Support for \"glbinding\" as optional OpenGL binding"
+msgstr "\"glbinding\"을 위해 선택적 OpenGL 바인딩으로 지원"
+
+#: data//credits.stxt:507
+msgid "New menu code"
+msgstr "새 메뉴 코드"
+
+#: data//credits.stxt:511
+msgid "Big Tux Walking Sprites improvements"
+msgstr "큰 턱스 걷기 스프라이트 개선"
+
+#: data//credits.stxt:523 data//credits.stxt:531
+msgid "Contrib Programming"
+msgstr "기여 프로그래밍"
+
+#: data//credits.stxt:535
+msgid "Programming, Previous Maintainer"
+msgstr "프로그래밍, 이전 유지 관리자"
+
+#: data//credits.stxt:539
+msgid "Various Contributions"
+msgstr "다양한 기여"
+
+#: data//credits.stxt:543
+msgid "Minor features and programming"
+msgstr "사소한 기능 및 프로그래밍"
+
+#: data//credits.stxt:547 data//credits.stxt:551 data//credits.stxt:555
+#: data//credits.stxt:559 data//credits.stxt:563 data//credits.stxt:567
+#: data//credits.stxt:571 data//credits.stxt:575 data//credits.stxt:579
+#: data//credits.stxt:583 data//credits.stxt:587 data//credits.stxt:591
+msgid "Contributions"
+msgstr "기여"
+
+#: data//credits.stxt:597
+msgid "Localization"
+msgstr "현지화"
+
+#: data//credits.stxt:1144
+msgid " Special Thanks to"
+msgstr "특별 감사"
+
+#: data//credits.stxt:1149
+msgid "Creator of Tux, the Linux penguin"
+msgstr "리눅스 펭귄인, 턱스 제작자"
+
+#: data//credits.stxt:1153
+msgid "SDL, OpenAL and OpenGL"
+msgstr "SDL, OpenAL 및 OpenGL"
+
+#: data//credits.stxt:1154
+msgid ""
+"For making such a great gaming experience\n"
+"        possible on Linux"
+msgstr "리눅스에서 이러한 훌륭한 게임 경험을\n        가능하게 합니다"
+
+#: data//credits.stxt:1159
+msgid "and you, the player"
+msgstr "그리고 플레이어인 여러분"
+
+#: data//credits.stxt:1160
+msgid "for giving this game a chance and playing it"
+msgstr "이 게임에 기회를 주고 플레이해주셔서"
+
+#: data//credits.stxt:1171
+msgid "Visit our webpage at"
+msgstr "우리의 웹페이지를 방문하거나"
+
+#: data//credits.stxt:1180
+msgid "Or visit us directly at IRC:"
+msgstr "우리에게 직접 IRC에서 방문하세요:"
+
+#: data//credits.stxt:1184
+msgid "#supertux at web.libera.chat"
+msgstr "#web.libera.chat의 supertux"
+
+#: data//credits.stxt:1189
+msgid "Or at our Forum:"
+msgstr "또는 우리의 포럼에 방문하세요:"
+
+#: data//credits.stxt:1198
+msgid "Comments, ideas and suggestions"
+msgstr "의견, 아이디어 및 제안"
+
+#: data//credits.stxt:1202
+msgid "go to our mailing list"
+msgstr "우리의 메일링 리스트에 가세요"
+
+#. l10n: typo contact
+#: data//credits.stxt:1212
+msgid "Typographical errors can be"
+msgstr "오자는"
+
+#. l10n: typo contact
+#: data//credits.stxt:1217
+msgid "reported to"
+msgstr "에 보고하실 수 있습니다"
+
+#. l10n: typo contact, see <https://github.com/SuperTux/supertux/issues/611>
+#: data//credits.stxt:1222
+msgid "supertux-devel@lists.lethargik.org"
+msgstr "supertux-devel@lists.lethargik.org"
+
+#: data//credits.stxt:1229
+msgid "Want to help…"
+msgstr "…도움이 필요하십니까?"
+
+#: data//credits.stxt:1234
+msgid "…with localization?"
+msgstr "번역에…"
+
+#: data//credits.stxt:1244
+msgid "…with something else?"
+msgstr "다른 것에…"
+
+#: data//credits.stxt:1255
+msgid "Thank you for"
+msgstr "플레이해주셔서"
+
+#: data//credits.stxt:1259
+msgid "playing"
+msgstr "감사합니다"
+
+#: data//credits.stxt:1269
+msgid "Penny awaits you in warmer temperatures!"
+msgstr "페니는 따뜻한 기후에서 여러분을 기다리고 있습니다!"
+
+#: data//images/engine/editor/objects.stoi:162
+msgid "Bosses"
+msgstr "보스"
+
+#: data//images/engine/editor/objects.stoi:173
+msgid "Projectiles"
+msgstr "프로젝타일"
+
+#: data//images/engine/editor/objects.stoi:187
+msgid "Environment"
+msgstr "환경"
+
+#: data//images/ice_world.strf:10 data//images/tiles.strf:28
+#: data//images/worldmap.strf:41
+msgid "Snow"
+msgstr "눈"
+
+#: data//images/ice_world.strf:80
+msgid "Ice Cave & Crystal"
+msgstr "얼음 동굴 및 크리스탈"
+
+#: data//images/ice_world.strf:127
+msgid "Embellishments"
+msgstr "꾸밈"
+
+#: data//images/ice_world.strf:211 data//images/tiles.strf:386
+#: data//images/worldmap.strf:67
+msgid "Forest"
+msgstr "숲"
+
+#: data//images/ice_world.strf:320
+msgid "Underground Forest"
+msgstr "지하의 숲"
+
+#: data//images/ice_world.strf:375
+msgid "Trees & Bushes"
+msgstr "나무와 덤불"
+
+#: data//images/ice_world.strf:406
+msgid "Seasonal"
+msgstr "계절에 따라 다름"
+
+#: data//images/ice_world.strf:496
+msgid "Structure"
+msgstr "구조"
+
+#: data//images/ice_world.strf:557
+msgid "Pathing"
+msgstr "길 지정"
+
+#: data//images/ice_world.strf:718
+msgid "Water"
+msgstr "물"
+
+#: data//images/tiles.strf:176
+msgid "Snow Background"
+msgstr "배경 보이기"
+
+#: data//images/tiles.strf:231
+msgid "Snow Mountain"
+msgstr "눈 산"
+
+#: data//images/tiles.strf:305
+msgid "Crystal"
+msgstr "크리스탈"
+
+#: data//images/tiles.strf:532
+msgid "Forest Background"
+msgstr "숲 배경"
+
+#: data//images/tiles.strf:663
+msgid "Block + Bonus"
+msgstr "상자 + 보너스"
+
+#: data//images/tiles.strf:715
+msgid "Pole + Signs"
+msgstr "막대기 + 표지판"
+
+#: data//images/tiles.strf:760
+msgid "Liquid"
+msgstr "액체"
+
+#: data//images/tiles.strf:793
+msgid "Castle"
+msgstr "성"
+
+#: data//images/tiles.strf:930 data//images/worldmap.strf:199
+msgid "Halloween"
+msgstr "할로윈"
+
+#: data//images/tiles.strf:958
+msgid "Industrial"
+msgstr "산업적"
+
+#: data//images/tiles.strf:973
+msgid "Unisolid + Lightmap"
+msgstr "유니솔리드 + 라이트맵"
+
+#: data//images/tiles.strf:1000
+msgid "Miscellaneous"
+msgstr "기타"
+
+#: data//images/tiles.strf:1043
+msgid "Retro Snow"
+msgstr "고전적인 눈"
+
+#: data//images/worldmap.strf:24
+msgid "Water paths"
+msgstr "물길"
+
+#: data//images/worldmap.strf:32
+msgid "Castle paths"
+msgstr "성 길"
+
+#: data//images/worldmap.strf:135
+msgid "Darker Forest"
+msgstr "더 어두운 숲"

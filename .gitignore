@@ -1,0 +1,82 @@
+# Build Files
+build/
+build.*/
+**/CMakeFiles/
+**/CMakeCache.txt
+supertux2
+
+# Ubuntu Touch (clickable) build files
+.clickable/
+
+# Tags file
+tags
+
+# Windows build files
+Debug/
+Release/
+tools/innosetup/Output
+
+# Nix flake build files
+/result
+
+# Version file
+version.cmake
+
+# Doxygen related files
+Doxyfile
+docs/doxygen/
+
+# Tool-related build files
+tools/scripting_docs_gen/build/
+
+# Qt Creator project file
+CMakeLists.txt.user*
+
+# KDevelop project files
+.kdev4/
+
+# Clangd
+.cache/
+compile_commands.json
+
+# Visual Studio Code project files
+.vscode/
+language.settings.xml
+
+# Visual Studio project files
+*.vs/
+
+# JetBrains IDE project files
+.idea/
+
+# Emacs
+*~
+\#*\#
+.\#*
+.dir-locals.el
+.projectile
+
+# Windows build dependencies
+dependencies*/
+
+# Additional Repos/Translations
+supertux.*
+.tx/
+#translations
+
+# Useful Customization Files
+data/levels/more/
+*.patch
+*.zip
+*.diff
+
+# Annoying OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.directory
+*~

@@ -1,0 +1,5 @@
+(supertux-music
+  (file "halloween_1.ogg")
+  (loop-begin 37.60)
+  (loop-at    124.95)
+)

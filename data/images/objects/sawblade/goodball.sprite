@@ -1,0 +1,11 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (hitbox 0 0 108 106)
+  (fps 120)
+  (images 
+   "bigball1.png"
+  )
+ )
+)
+

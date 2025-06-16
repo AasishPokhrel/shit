@@ -1,0 +1,62 @@
+(supertux-sprite
+ (action
+  (name "left")
+  (fps 15)
+  (hitbox 11 10 36 72)
+  (images "snowman-0.png"
+          "snowman-1.png"
+		  "snowman-2.png"
+		  "snowman-3.png"
+		  "snowman-4.png"
+		  "snowman-5.png"
+		  "snowman-6.png"
+		  "snowman-7.png"
+		  "snowman-8.png"
+		  "snowman-9.png"))
+
+  (action
+    (name "right")
+	(fps 15)
+    (hitbox 11 10 36 72)
+    (mirror-action "left")
+  )
+
+ (action
+  (name "headless-left")
+  (fps 18.0)
+  (hitbox 11 10 36 72)
+  (images "headless-0.png"
+          "headless-1.png"
+		  "headless-2.png"
+		  "headless-1.png"))
+
+  (action
+    (name "headless-right")
+	(fps 18.0)
+    (hitbox 11 10 36 72)
+    (mirror-action "headless-left")
+  )
+ (action
+  (name "melting-left")
+  (hitbox 10 3 36 72)
+  (images "melting-0.png"
+          "melting-1.png"
+          "melting-2.png"
+          "melting-3.png"))
+ (action
+  (name "melting-right")
+  (hitbox 10 3 36 72)
+  (mirror-action "melting-left"))
+ (action
+  (name "ground-melting-left")
+  (hitbox 42 -10 36 72)
+  (images "gmelting-0.png"
+          "gmelting-1.png"
+          "gmelting-2.png"
+          "gmelting-3.png"
+          "gmelting-4.png"))
+ (action
+  (name "ground-melting-right")
+  (hitbox 42 -10 36 72)
+  (mirror-action "ground-melting-left"))
+)

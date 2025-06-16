@@ -1,0 +1,96 @@
+(supertux-sprite
+  (action
+    (name "idle")
+    (hitbox 24 22 32 32)
+	(fps 8)
+    (images "root_sapling-0.png"
+			"root_sapling-1.png"
+			"root_sapling-2.png"
+			"root_sapling-3.png"
+			"root_sapling-4.png"
+			"root_sapling-5.png"
+			"root_sapling-6.png"
+			"root_sapling-7.png"
+			"root_sapling-8.png"
+			"root_sapling-9.png"
+			"root_sapling-10.png"
+			"root_sapling-11.png"
+    )
+  )
+  (action
+    (name "idle-up")
+	(fps 8)
+	(hitbox 24 22 32 32)
+    (clone-action "idle")
+  )
+  (action
+    (name "squished-up")
+	(fps 15)
+	(loops 1)
+	(hitbox 24 22 32 32)
+	(images "corrupted_hill-0.png"
+			"corrupted_hill-1.png"
+			"corrupted_hill-2.png"
+			"corrupted_hill-3.png"
+			"corrupted_hill-3.png"
+			"corrupted_hill-4.png"
+    )
+  )
+  (action
+    (name "idle-down")
+	(fps 8)
+	(hitbox 24 70 32 32)
+    (flip-action "idle-up")
+  )
+  (action
+    (name "squished-down")
+	(fps 15)
+    (loops 1)
+	(hitbox 24 70 32 32)
+    (flip-action "squished-up")
+  )
+  (action
+    (name "idle-left")
+    (hitbox 18 24 32 32)
+    (fps 8)
+    (images "root_sapling-0_left.png"
+			"root_sapling-1_left.png"
+			"root_sapling-2_left.png"
+			"root_sapling-3_left.png"
+			"root_sapling-4_left.png"
+			"root_sapling-5_left.png"
+			"root_sapling-6_left.png"
+			"root_sapling-7_left.png"
+			"root_sapling-8_left.png"
+			"root_sapling-9_left.png"
+			"root_sapling-10_left.png"
+			"root_sapling-11_left.png"
+    )
+  )
+  (action
+    (name "squished-left")
+    (fps 15)
+    (loops 1)
+    (hitbox 18 24 32 32)
+    (images "corrupted_hill-0_left.png"
+			"corrupted_hill-1_left.png"
+			"corrupted_hill-2_left.png"
+			"corrupted_hill-3_left.png"
+			"corrupted_hill-3_left.png"
+			"corrupted_hill-4_left.png"
+    )
+  )
+  (action
+    (name "idle-right")
+	(hitbox 70 24 32 32)
+	(fps 8)
+    (mirror-action "idle-left")
+  )
+  (action
+    (name "squished-right")
+	(fps 15)
+    (loops 1)
+	(hitbox 70 24 32 32)
+    (mirror-action "squished-left")
+  )
+)

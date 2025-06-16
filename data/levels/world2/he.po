@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# IAN RODRÍGUEZ Lorenzo, 2022
+# 63f334ffc0709ba0fc2361b80bf3c0f0_00ffd1e <ab96c93ca0ac55ba7fa06385427e60dd_878890>, 2020-2021
+# 63f334ffc0709ba0fc2361b80bf3c0f0_00ffd1e <ab96c93ca0ac55ba7fa06385427e60dd_878890>, 2021
+# 63f334ffc0709ba0fc2361b80bf3c0f0_00ffd1e <ab96c93ca0ac55ba7fa06385427e60dd_878890>, 2020
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2013-08-10 23:00+0000\n"
+"Last-Translator: IAN RODRÍGUEZ Lorenzo, 2022\n"
+"Language-Team: Hebrew (http://app.transifex.com/arctic-games/supertux/language/he/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;\n"
+
+#: data/levels/world2/ancient_ruins.stl:3
+msgid "Ancient Ruins"
+msgstr "חורבות עתיקות"
+
+#: data/levels/world2/ancient_ruins.stl:1463
+#: data/levels/world2/ancient_ruins.stl:1471
+#: data/levels/world2/bouncy_coils.stl:380
+#: data/levels/world2/bouncy_coils.stl:388
+#: data/levels/world2/bye_bye_forest.stl:1607
+#: data/levels/world2/crumbling_path.stl:278
+#: data/levels/world2/crumbling_path.stl:1651
+#: data/levels/world2/going_underground.stl:246
+#: data/levels/world2/going_underground.stl:1249
+#: data/levels/world2/mouldy_grotto.stl:559
+#: data/levels/world2/penguin_grow_trees.stl:459
+#: data/levels/world2/penguin_grow_trees.stl:467
+#: data/levels/world2/through_dark.stl:361
+#: data/levels/world2/tux_builder.stl:384
+#: data/levels/world2/wooden_roots.stl:285
+#: data/levels/world2/worldmap.stwm:223
+msgid "You found a secret area!"
+msgstr "מצאת אזור סודי!"
+
+#: data/levels/world2/beside_bushes.stl:3
+msgid "Beside the Bushes"
+msgstr "ליד השיחים"
+
+#: data/levels/world2/bouncy_coils.stl:3
+msgid "Bouncy Coils"
+msgstr "קפיצים מקפצים"
+
+#: data/levels/world2/bye_bye_forest.stl:3
+msgid "Bye Bye Forest"
+msgstr "להתראות יער"
+
+#: data/levels/world2/crumbling_path.stl:3
+msgid "Crumbling Path"
+msgstr "הנתיב המתפורר"
+
+#: data/levels/world2/darkness_awaits.stl:3
+msgid "Darkness Awaits"
+msgstr "החשכה ממתינה"
+
+#: data/levels/world2/find_big_fish.stl:3
+msgid "Find the Bigger Fish!"
+msgstr "מוצאים את הדג הגדול!"
+
+#: data/levels/world2/find_big_fish.stl:1058
+msgid "-A big fish... for you."
+msgstr "-דג גדול... בשבילך."
+
+#: data/levels/world2/forest_intro.stl:3
+msgid "A New Location"
+msgstr "מיקום חדש"
+
+#: data/levels/world2/ghost_cutscene.stl:3
+msgid "What is Happening?"
+msgstr "מה קרה?"
+
+#: data/levels/world2/ghostly_misery.stl:3
+msgid "Ghostly Misery"
+msgstr "רוחות הרפאים המיוסרו"
+
+#: data/levels/world2/ghosttrees_challenges.stl:3
+msgid "Ghosttree's Challenges"
+msgstr "אתגר עץ הרוחות"
+
+#: data/levels/world2/ghouls_lair.stl:3
+msgid "Ghouls' Lair"
+msgstr "מאורת השדים"
+
+#: data/levels/world2/ghouls_lair.stl:859
+msgid ""
+"#Lanterns are used to make magic blocks solid, so you're able to walk atop "
+"of them."
+msgstr "#העששיות משמשות להפיכת תיבות קסומות למוצקות, כדי שיהיה אפשר ללכת עליהן."
+
+#: data/levels/world2/going_underground.stl:3
+msgid "Going Underground"
+msgstr "יורדים למטה"
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:3
+msgid "I Spy With My Little Eye"
+msgstr "אני רואה עם עיני הקטנה"
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:218
+msgid ""
+"-Ispy\n"
+"#Ispys will activate things like platforms whenever Tux is in their sight."
+msgstr "-עין קטנה\n#העיניים הקטנות יפעילו דברים כמו פלטפורמות כאשר טַקס יהיה בטווח ראייתן."
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:674
+msgid "Hint: Use snails to break blocks!"
+msgstr "רמז: אפשר להשתמש בשבלולים כדי לשבור תיבות!"
+
+#: data/levels/world2/leaf_wind.stl:3
+msgid "Like a leaf in the Wind"
+msgstr "כמו עלה ברוח"
+
+#: data/levels/world2/lost_village.stl:3
+msgid "Lost Village"
+msgstr "הכפר האבוד"
+
+#: data/levels/world2/lost_village.stl:185
+msgid "#Don't forget to hit the switch!"
+msgstr "#לא לשכוח להפעיל את המתג!"
+
+#: data/levels/world2/mouldy_grotto.stl:3
+msgid "A Mouldy Grotto"
+msgstr "המערה המעופשת"
+
+#: data/levels/world2/owls_again.stl:3
+msgid "The Owls again..."
+msgstr "שוב הינשופים..."
+
+#: data/levels/world2/owls_skydive_commando.stl:3
+msgid "Owls' Skydive Commando"
+msgstr "קומנדו צניחה חופשית של ינשופים"
+
+#: data/levels/world2/penguin_grow_trees.stl:3
+msgid "Penguins don't grow on Trees"
+msgstr "פינגווינים לא גדלים על עצים"
+
+#: data/levels/world2/shocking.stl:3
+msgid "Shocking"
+msgstr "מְזַעזֵעַ"
+
+#: data/levels/world2/the_forest_is_rotting.stl:3
+msgid "The Forest Is Rotting"
+msgstr "היער נרקב"
+
+#: data/levels/world2/through_dark.stl:3
+msgid "Through the Dark"
+msgstr "בדרך החשכה"
+
+#: data/levels/world2/through_dark.stl:96
+msgid ""
+"-Earth Flower\n"
+"!images/powerups/earthflower/earth_flower-1.png\n"
+"#The earth flower gives Tux the ability to turn into stone by pressing the ACTION Key and the DOWN Key at the same time.\n"
+"#This does not work while jumping or falling!"
+msgstr "-פרח ארץ\n!images/powerups/earthflower/earth_flower-1.png\n#פרח הארץ נותן לטַקס את היכולת להפוך לאבן על ידי לחיצה על מקש הפעולה ועל מקש החץ כלפי מטה בו זמנית.\n#זה לא עובד במהלך קפיצה או נפילה!"
+
+#: data/levels/world2/tower_of_ghosts.stl:3
+msgid "Tower Of Ghosts"
+msgstr "מגדל הרוחות"
+
+#: data/levels/world2/tux_builder.stl:3
+msgid "Tux the Builder"
+msgstr "טַקס הבנאי"
+
+#: data/levels/world2/tux_builder.stl:77
+msgid ""
+"-Portable Objects:\n"
+"!images/objects/rock/rock.png\n"
+"#Tux can pick up certain objects and carry them around.\n"
+"#Press the ACTION key to grab an object and hold it pressed as long as you want to carry the object. Release the ACTION key to drop the object."
+msgstr "-אובייקטים ניידים:\n!images/objects/rock/rock.png\n#טַקס יכול לקחת אובייקטים מסויימים ולסחוב אותם בדרכו.\n#יש ללחוץ על כפתור הפעולה כדי לאסוף אובייקט ולהחזיק אותו לחוץ ככל שברצונך לסחוב את האובייקט. יש לעזוב את מקש הפעולה כדי לשחרר את האובייקט."
+
+#: data/levels/world2/tux_own_horror_show.stl:3
+msgid "Tux' Own Horror Show"
+msgstr "מופע האימה של טַקס"
+
+#: data/levels/world2/tux_own_horror_show.stl:947
+msgid ""
+"#Will o' Wisps are small, annoying ghosts, which transport you to different,"
+" often dangerous places."
+msgstr "#ערבות חוכמה הן רוחות קטנות ומעצבנות, שמשגרות אותך למקומות אחרים, לרוב מסוכנים."
+
+#: data/levels/world2/walking_leaves.stl:3
+msgid "Walking Leaves"
+msgstr "העלים המהלכים"
+
+#: data/levels/world2/welcome_forest.stl:3
+msgid "Welcome to the Forest"
+msgstr "ברוכים הבאים ליער"
+
+#: data/levels/world2/welcome_forest.stl:50
+msgid ""
+"-Doors\n"
+"!images/objects/door/door-0.png\n"
+"#Tux can go through a door by pressing the UP key."
+msgstr "-דלתות\n!images/objects/door/door-0.png\n#טַקס יכול לעבור בדלתות על ידי לחיצה על כפתור החץ כלפי מעלה."
+
+#: data/levels/world2/wooden_roots.stl:3
+msgid "Wooden Roots"
+msgstr "שורשי עץ"
+
+#: data/levels/world2/worldmap.stwm:3
+msgid "Rooted Forest"
+msgstr "יער שורשי"
+
+#: data/levels/world2/worldmap.stwm:239
+msgid "To be continued..."
+msgstr "ההמשך יבוא..."

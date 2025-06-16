@@ -1,0 +1,26 @@
+(supertux-text			
+  (background	"halloween/intro.jpg")
+  (music	"music/antarctic/voc-dark.music")
+  (text "-Halloween Party!
+ Or maybe not?
+
+	In celebration of Halloween Penny had
+	prepared a little party for Tux. After he
+	received the invitation, he hopped on his
+	boat and traveled to the Halloween island.
+
+	Arriving there he however finds to his
+	dismay the party location empty and
+	abandoned. So no party for him?
+
+	After a moment of distress he collects
+	himself and starts to think again. Not
+	long after he remembers that there was
+	another house on this forsaken island and
+	his invitation even tells him that the
+	party is supposed to happen at the 
+	east house, not the west one.
+
+	With the confusion cleared up, Tux turns
+	around and prepares himself for the journey
+	across this dangerous island...") )

@@ -1,0 +1,79 @@
+(supertux-sprite
+	(action
+	  (name "standing-left")
+	  (hitbox 9 8 32 38)
+	  (loops 1)
+	  (fps 20)
+	  (images "jump-1.png"
+            "land-0.png"
+            "land-1.png"
+            "stand-0.png"))
+	
+	(action
+	  (name "standing-right")
+	  (hitbox 9 8 32 38)
+	  (loops 1)
+	  (fps 20)
+	  (mirror-action "standing-left"))
+	
+	(action
+	  (name "charging-left")
+	  (hitbox 9 8 32 38)
+	  (loops 1)
+	  (fps 20)
+	  (images "stand-0.png"
+			  "jump-0.png"))
+
+	(action
+	  (name "charging-right")
+	  (hitbox 9 8 32 38)
+	  (loops 1)
+	  (fps 20)
+	  (mirror-action "charging-left"))
+	
+	(action
+	  (name "jumping-left")
+	  (hitbox 9 8 32 38)
+	  (loops 1)
+	  (fps 20)
+	  (images "jump-1.png"
+	          "jump-2.png"))
+	
+	(action
+	  (name "jumping-right")
+	  (hitbox 9 8 32 38)
+	  (loops 1)
+	  (fps 20)
+	  (mirror-action "jumping-left"))
+	
+  (action
+	  (name "iced-left")
+	  (hitbox 9 8 32 38)
+	  (images "stand-0.png"))
+	
+	(action
+	  (name "iced-right")
+	  (hitbox 9 8 32 38)
+	  (mirror-action "iced-left"))
+
+  (action
+    (hitbox 9 8 32 38)
+    (name "burning-left")
+    (images "stand-0.png"))
+
+  (action
+    (hitbox 9 8 32 38)
+    (name "burning-right")
+    (mirror-action "burning-left"))
+	
+	(action
+	  (name "squished-left")
+	  (hitbox 9 8 32 38)
+	  (images "squished.png"))
+	
+	(action
+	  (name "squished-right")
+	  (hitbox 9 8 32 38)
+	  (mirror-action "squished-left"))
+	
+)

@@ -1,0 +1,6 @@
+(supertux-sprite
+ (action
+  (hitbox 0 0 0 0)
+  (images "stomp.png")
+ )
+)

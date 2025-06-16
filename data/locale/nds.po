@@ -1,0 +1,2857 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Benedikt Straub <benedikt-straub@web.de>, 2018-2021
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2020-04-13 17:25+0200\n"
+"PO-Revision-Date: 2021-03-29 17:33+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Low German (http://www.transifex.com/arctic-games/supertux/language/nds/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nds\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/trigger/secretarea_trigger.cpp:53 src/trigger/secretarea_trigger.cpp:61
+msgid "You found a secret area!"
+msgstr "Du hest een Versteek funnen!"
+
+#: src/trigger/secretarea_trigger.cpp:77 src/trigger/scripttrigger.cpp:75
+#: src/supertux/game_object.cpp:88 src/supertux/menu/editor_sector_menu.cpp:34
+#: src/supertux/menu/editor_levelset_menu.cpp:58
+#: src/supertux/menu/editor_new_levelset_menu.cpp:34
+#: src/supertux/menu/editor_level_menu.cpp:33
+msgid "Name"
+msgstr "Naam"
+
+#: src/trigger/secretarea_trigger.cpp:78
+msgid "Fade tilemap"
+msgstr "Floorkaart tum verbleken"
+
+#: src/trigger/secretarea_trigger.cpp:79 src/trigger/climbable.cpp:81
+#: src/object/infoblock.cpp:57 src/editor/worldmap_objects.cpp:174
+#: src/editor/worldmap_objects.cpp:272
+msgid "Message"
+msgstr "Naricht"
+
+#: src/trigger/secretarea_trigger.cpp:80 src/trigger/scripttrigger.cpp:80
+#: src/trigger/door.cpp:73 src/object/ispy.cpp:67
+#: src/object/bonus_block.cpp:203 src/object/bonus_block.cpp:207
+#: src/object/pushbutton.cpp:49 src/object/powerup.cpp:190
+#: src/editor/worldmap_objects.cpp:274
+msgid "Script"
+msgstr "Skript"
+
+#: src/trigger/scripttrigger.cpp:73
+msgid "Script Trigger"
+msgstr "Utlöser för 't Skript"
+
+#: src/trigger/scripttrigger.cpp:76 src/object/tilemap.cpp:220
+#: src/supertux/menu/editor_sector_menu.cpp:39
+#: src/editor/object_option.cpp:148
+msgid "Width"
+msgstr "Breddt"
+
+#: src/trigger/scripttrigger.cpp:77 src/object/tilemap.cpp:221
+#: src/supertux/menu/editor_sector_menu.cpp:40
+#: src/editor/object_option.cpp:149
+msgid "Height"
+msgstr "Höcht"
+
+#: src/trigger/scripttrigger.cpp:78 src/object/bicycle_platform.cpp:187
+#: src/object/background.cpp:160 src/object/pneumatic_platform.cpp:145
+#: src/supertux/menu/joystick_menu.cpp:170 src/supertux/moving_object.cpp:47
+#: src/editor/worldmap_objects.cpp:73
+msgid "X"
+msgstr "X"
+
+#: src/trigger/scripttrigger.cpp:79 src/object/bicycle_platform.cpp:188
+#: src/object/background.cpp:161 src/object/pneumatic_platform.cpp:146
+#: src/supertux/menu/joystick_menu.cpp:172 src/supertux/moving_object.cpp:48
+#: src/editor/worldmap_objects.cpp:74
+msgid "Y"
+msgstr "Y"
+
+#: src/trigger/scripttrigger.cpp:81 src/object/pushbutton.hpp:31
+msgid "Button"
+msgstr "Knoop"
+
+#: src/trigger/scripttrigger.cpp:82
+msgid "Oneshot"
+msgstr "Up eenmaal"
+
+#: src/trigger/sequence_trigger.hpp:33
+msgid "Sequence Trigger"
+msgstr "Utlöser för de Ofloop"
+
+#: src/trigger/door.cpp:74 src/badguy/willowisp.cpp:280
+#: src/supertux/menu/editor_sector_menu.cpp:32
+#: src/editor/layers_widget.cpp:274
+#: data//images/engine/editor/objects.stoi:300
+msgid "Sector"
+msgstr "Zoon"
+
+#: src/trigger/door.cpp:75 src/editor/worldmap_objects.hpp:101
+msgid "Spawn point"
+msgstr "Anfangspunkt"
+
+#: src/trigger/switch.cpp:61 src/object/block.cpp:212 src/object/torch.cpp:91
+#: src/object/moving_sprite.cpp:156 src/object/pneumatic_platform.cpp:144
+msgid "Sprite"
+msgstr "Bild"
+
+#: src/trigger/switch.cpp:62
+msgid "Turn on script"
+msgstr "Skipt bi'm Anmaken"
+
+#: src/trigger/switch.cpp:63
+msgid "Turn off script"
+msgstr "Skipt bi'm Ofmaken"
+
+#: src/trigger/sequence_trigger.cpp:75
+msgid "Sequence"
+msgstr "Ofloop"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "end sequence"
+msgstr "Ofloop ofmaken"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "stop Tux"
+msgstr "Tux anhollen"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "fireworks"
+msgstr "Füürwark"
+
+#: src/trigger/sequence_trigger.cpp:80
+msgid "New worldmap spawnpoint"
+msgstr "Anfangspunkt för neie Weltkaart"
+
+#: src/trigger/sequence_trigger.cpp:81
+msgid "Worldmap fade tilemap"
+msgstr "Weltkaart-Floorkaart tum verbleken"
+
+#: src/trigger/sequence_trigger.cpp:82
+msgid "Fade"
+msgstr "Verbleken"
+
+#: src/trigger/sequence_trigger.cpp:83
+msgid "Fade in"
+msgstr "Rinverbleken"
+
+#: src/trigger/sequence_trigger.cpp:83
+msgid "Fade out"
+msgstr "Rutverbleken"
+
+#: src/trigger/climbable.hpp:37
+msgid "Climbable"
+msgstr "Tum Klautern"
+
+#: src/trigger/door.hpp:34
+msgid "Door"
+msgstr "Döör"
+
+#: src/trigger/switch.hpp:33
+msgid "Switch"
+msgstr "Hebel"
+
+#: src/trigger/secretarea_trigger.hpp:36
+msgid "Secret Area"
+msgstr "Versteek"
+
+#: src/object/thunderstorm.hpp:40
+msgid "Thunderstorm"
+msgstr "Gewitter"
+
+#: src/object/ispy.cpp:66
+msgid "Facing Down"
+msgstr "Na unnern kieken"
+
+#: src/object/ispy.cpp:68 src/object/gradient.cpp:124
+#: src/badguy/willowisp.cpp:279 src/badguy/badguy.cpp:840
+#: src/editor/worldmap_objects.cpp:209 src/editor/worldmap_objects.cpp:276
+msgid "Direction"
+msgstr "Richt"
+
+#: src/object/path_gameobject.hpp:44 src/object/coin.cpp:262
+#: src/object/camera.cpp:212 src/object/platform.cpp:65
+#: src/object/path_gameobject.cpp:168 src/object/tilemap.cpp:234
+#: src/badguy/willowisp.cpp:286
+msgid "Path"
+msgstr "Padd"
+
+#: src/object/decal.cpp:41 src/object/scripted_object.cpp:67
+#: src/object/particlesystem.cpp:62 src/object/background.cpp:164
+#: src/object/thunderstorm.cpp:68 src/object/tilemap.cpp:227
+#: src/object/gradient.cpp:122
+msgid "Z-pos"
+msgstr "Z-Stee"
+
+#: src/object/decal.cpp:42 src/object/scripted_object.cpp:70
+#: src/object/tilemap.cpp:216
+msgid "Solid"
+msgstr "stevig"
+
+#: src/object/decal.cpp:43 src/supertux/menu/keyboard_menu.cpp:37
+#: src/supertux/menu/joystick_menu.cpp:74
+msgid "Action"
+msgstr "Wat doon"
+
+#: src/object/weak_block.hpp:35
+msgid "Weak Tile"
+msgstr "Swacke Block"
+
+#: src/object/gradient.hpp:42
+msgid "Gradient"
+msgstr "Övergang"
+
+#: src/object/tilemap.hpp:53
+msgid "Tilemap"
+msgstr "Floorkaart"
+
+#: src/object/brick.cpp:133
+msgid "Breakable"
+msgstr "Sprock"
+
+#: src/object/trampoline.cpp:136 src/object/rusty_trampoline.cpp:66
+msgid "Portable"
+msgstr "Tum Dragen"
+
+#: src/object/spotlight.cpp:62
+msgid "Angle"
+msgstr "Winkel"
+
+#: src/object/spotlight.cpp:63 src/object/magicblock.cpp:94
+#: src/object/candle.cpp:77 src/object/lantern.cpp:62
+#: src/object/ambient_light.cpp:131 src/badguy/walking_candle.cpp:82
+msgid "Color"
+msgstr "Farv"
+
+#: src/object/spotlight.cpp:64 src/object/textscroller.cpp:279
+#: src/badguy/flame.cpp:59
+msgid "Speed"
+msgstr "Gauheid"
+
+#: src/object/spotlight.cpp:65
+msgid "Counter-clockwise"
+msgstr "linksrum"
+
+#: src/object/spotlight.cpp:66 src/object/candle.cpp:78
+#: src/object/torch.cpp:92
+msgid "Layer"
+msgstr "Schicht"
+
+#: src/object/scripted_object.cpp:71
+msgid "Physics enabled"
+msgstr "Mit Physik"
+
+#: src/object/scripted_object.cpp:72
+msgid "Visible"
+msgstr "Sichtbaar"
+
+#: src/object/scripted_object.cpp:73 src/badguy/willowisp.cpp:282
+msgid "Hit script"
+msgstr "Skript bi'm Treffen"
+
+#: src/object/bonus_block.cpp:204
+msgid "Count"
+msgstr "Tellen"
+
+#: src/object/bonus_block.cpp:205
+msgid "Content"
+msgstr "Inhalt"
+
+#: src/object/bonus_block.cpp:206 src/object/coin.hpp:43
+msgid "Coin"
+msgstr "Geldstück"
+
+#: src/object/bonus_block.cpp:206
+msgid "Growth (fire flower)"
+msgstr "Wassdoom (Füürblööm)"
+
+#: src/object/bonus_block.cpp:206
+msgid "Growth (ice flower)"
+msgstr "Wassdoom (Iesblööm)"
+
+#: src/object/bonus_block.cpp:206
+msgid "Growth (air flower)"
+msgstr "Wassdoom (Lüchtblööm)"
+
+#: src/object/bonus_block.cpp:207
+msgid "Growth (earth flower)"
+msgstr "Wassdoom (Sandblööm)"
+
+#: src/object/bonus_block.cpp:207
+msgid "Star"
+msgstr "Steern"
+
+#: src/object/bonus_block.cpp:207
+msgid "Tux doll"
+msgstr "Tuxpupp"
+
+#: src/object/bonus_block.cpp:207
+msgid "Custom"
+msgstr "Eegenes"
+
+#: src/object/bonus_block.cpp:207
+msgid "Light"
+msgstr "Lücht"
+
+#: src/object/bonus_block.cpp:208 src/object/trampoline.hpp:35
+msgid "Trampoline"
+msgstr "Springer"
+
+#: src/object/bonus_block.cpp:208
+msgid "Coin rain"
+msgstr "Geldregen"
+
+#: src/object/bonus_block.cpp:208
+msgid "Coin explosion"
+msgstr "Geldbarst"
+
+#: src/object/bonus_block.cpp:212
+msgid "Custom Content"
+msgstr "Eegener Inhalt"
+
+#: src/object/pneumatic_platform.hpp:62
+msgid "Pneumatic Platform"
+msgstr "Sweveböhn"
+
+#: src/object/coin.cpp:264 src/object/tilemap.cpp:236
+msgid "Following path"
+msgstr "Padd folgen"
+
+#: src/object/coin.cpp:267 src/object/camera.cpp:215
+#: src/object/platform.cpp:66 src/object/tilemap.cpp:240
+msgid "Path Mode"
+msgstr "Mit Padd"
+
+#: src/object/coin.cpp:270 src/object/coin.cpp:298
+msgid "Collect script"
+msgstr "Skript bi'm Sammeln"
+
+#: src/object/ghost_particle_system.hpp:36
+msgid "Ghost Particles"
+msgstr "Geister-Delen"
+
+#: src/object/camera.cpp:207
+msgid "Mode"
+msgstr "Aard"
+
+#: src/object/camera.cpp:208
+msgid "normal"
+msgstr "Normaal"
+
+#: src/object/camera.cpp:208
+msgid "manual"
+msgstr "Eegene"
+
+#: src/object/camera.cpp:208
+msgid "autoscroll"
+msgstr "vun sülvst verschuven"
+
+#: src/object/textscroller.cpp:280 src/object/music_object.cpp:109
+msgid "File"
+msgstr "Datei"
+
+#: src/object/spawnpoint.hpp:46 src/badguy/willowisp.cpp:281
+#: src/editor/worldmap_objects.cpp:173
+msgid "Spawnpoint"
+msgstr "Anfangspunkt"
+
+#: src/object/rusty_trampoline.cpp:65
+msgid "Counter"
+msgstr "Teller"
+
+#: src/object/candle.hpp:36
+msgid "Candle"
+msgstr "Keers"
+
+#: src/object/particlesystem.cpp:61 src/badguy/darttrap.cpp:127
+msgid "Enabled"
+msgstr "An"
+
+#: src/object/invisible_block.hpp:31
+msgid "Invisible Block"
+msgstr "Block nich to sehn"
+
+#: src/object/snow_particle_system.hpp:35
+msgid "Snow Particles"
+msgstr "Sneei-Delen"
+
+#: src/object/powerup.hpp:35
+msgid "Powerup"
+msgstr "Verbetern-Ding"
+
+#: src/object/level_time.hpp:55
+msgid "Time Limit"
+msgstr "Tiedgrenz"
+
+#: src/object/ambient_sound.cpp:119 src/supertux/menu/options_menu.cpp:365
+#: data//credits.stxt:335
+msgid "Sound"
+msgstr "Gedrüüs"
+
+#: src/object/ambient_sound.cpp:120
+msgid "Distance factor"
+msgstr "Ofstand maalnehmen"
+
+#: src/object/ambient_sound.cpp:121
+msgid "Distance bias"
+msgstr "Ofstand-Jank"
+
+#: src/object/ambient_sound.cpp:122
+msgid "Volume"
+msgstr "Luudstarkde"
+
+#: src/object/torch.hpp:41
+msgid "Torch"
+msgstr "Fackel"
+
+#: src/object/icecrusher.hpp:48
+msgid "Icecrusher"
+msgstr "Ies-Verneeler"
+
+#: src/object/background.hpp:42
+msgid "Background"
+msgstr "Achtergrund"
+
+#: src/object/firefly.hpp:36
+msgid "Checkpoint"
+msgstr "Kuntroll-Stee"
+
+#: src/object/ambient_light.hpp:36
+msgid "Ambient Light"
+msgstr "Umstreek-Lücht"
+
+#: src/object/lantern.hpp:37
+msgid "Lantern"
+msgstr "Lanteern"
+
+#: src/object/wind.hpp:40
+msgid "Wind"
+msgstr "Wind"
+
+#: src/object/bicycle_platform.cpp:190
+msgid "Platforms"
+msgstr "Böhnen"
+
+#: src/object/bicycle_platform.cpp:191 src/badguy/flame.cpp:58
+#: src/badguy/crystallo.cpp:36
+msgid "Radius"
+msgstr "Umstreek"
+
+#: src/object/bicycle_platform.cpp:192
+msgid "Momentum change rate"
+msgstr "Moment ännern um"
+
+#: src/object/rain_particle_system.hpp:34
+msgid "Rain Particles"
+msgstr "Regen-Delen"
+
+#: src/object/platform.hpp:45
+msgid "Platform"
+msgstr "Böhn"
+
+#: src/object/rock.hpp:42
+msgid "Rock"
+msgstr "Steen"
+
+#: src/object/music_object.hpp:41 src/supertux/menu/options_menu.cpp:367
+#: data//credits.stxt:277
+msgid "Music"
+msgstr "Musik"
+
+#: src/object/rusty_trampoline.hpp:39
+msgid "Rusty Trampoline"
+msgstr "Oller Springer"
+
+#: src/object/particlesystem.hpp:57
+msgid "Particle system"
+msgstr "Systeem vun Delen"
+
+#: src/object/candle.cpp:75 src/object/torch.cpp:90
+msgid "Burning"
+msgstr "Brannt"
+
+#: src/object/candle.cpp:76
+msgid "Flicker"
+msgstr "Flackert"
+
+#: src/object/text_array_object.hpp:50
+msgid "Text array"
+msgstr "Text-Grupp"
+
+#: src/object/infoblock.hpp:36
+msgid "Info Block"
+msgstr "Block mit Text"
+
+#: src/object/powerup.cpp:191
+msgid "Disable gravity"
+msgstr "Sünner Eer-Anlukens-Fors"
+
+#: src/object/ambient_sound.hpp:62
+msgid "Ambient Sound"
+msgstr "Umstreek-Gedrüüs"
+
+#: src/object/level_time.cpp:51 src/supertux/statistics.cpp:288
+#: src/editor/node_marker.cpp:80
+msgid "Time"
+msgstr "Tied"
+
+#: src/object/hurting_platform.hpp:30
+msgid "Hurting Platform"
+msgstr "Böhn doot sehr"
+
+#: src/object/background.cpp:163
+msgid "Fill"
+msgstr "Vullmaak"
+
+#: src/object/background.cpp:165
+msgid "Alignment"
+msgstr "Utrichten"
+
+#: src/object/background.cpp:166
+msgid "none"
+msgstr "nich"
+
+#: src/object/background.cpp:166 src/editor/object_settings.cpp:112
+msgid "left"
+msgstr "links"
+
+#: src/object/background.cpp:166 src/editor/object_settings.cpp:112
+msgid "right"
+msgstr "rechts"
+
+#: src/object/background.cpp:166
+msgid "top"
+msgstr "boven"
+
+#: src/object/background.cpp:166
+msgid "bottom"
+msgstr "unnern"
+
+#: src/object/background.cpp:169
+msgid "Scroll offset x"
+msgstr "Schievens-Verschuven X"
+
+#: src/object/background.cpp:170
+msgid "Scroll offset y"
+msgstr "Schievens-Verschuven Y"
+
+#: src/object/background.cpp:171
+msgid "Scroll speed x"
+msgstr "Schievens-Gauheid X"
+
+#: src/object/background.cpp:172
+msgid "Scroll speed y"
+msgstr "Schievens-Gauheid Y"
+
+#: src/object/background.cpp:173
+msgid "Parallax Speed x"
+msgstr "Parallax-Gauheid X"
+
+#: src/object/background.cpp:174
+msgid "Parallax Speed y"
+msgstr "Parallax-Gauheid Y"
+
+#: src/object/background.cpp:175
+msgid "Top image"
+msgstr "Bild boven"
+
+#: src/object/background.cpp:176
+msgid "Image"
+msgstr "Bild"
+
+#: src/object/background.cpp:177
+msgid "Bottom image"
+msgstr "Bild unnern"
+
+#: src/object/background.cpp:178 src/object/tilemap.cpp:228
+#: src/object/gradient.cpp:129
+msgid "Draw target"
+msgstr "Teken na"
+
+#: src/object/background.cpp:179 src/object/tilemap.cpp:229
+#: src/object/gradient.cpp:130
+msgid "Normal"
+msgstr "Normaal"
+
+#: src/object/background.cpp:179 src/object/tilemap.cpp:229
+#: src/object/gradient.cpp:130
+msgid "Lightmap"
+msgstr "Lüchtkaart"
+
+#: src/object/wind.cpp:63
+msgid "Speed X"
+msgstr "Gauheid X"
+
+#: src/object/wind.cpp:64
+msgid "Speed Y"
+msgstr "Gauheid Y"
+
+#: src/object/wind.cpp:65
+msgid "Acceleration"
+msgstr "Anloop"
+
+#: src/object/wind.cpp:66
+msgid "Blowing"
+msgstr "Tuust"
+
+#: src/object/bicycle_platform.hpp:64
+msgid "Bicycle Platform"
+msgstr "Fahrradböhn"
+
+#: src/object/platform.cpp:67 src/object/thunderstorm.cpp:69
+#: src/object/tilemap.cpp:241
+msgid "Running"
+msgstr "Löppt"
+
+#: src/object/rock.cpp:182
+msgid "On-grab script"
+msgstr "Skript bi'm Nehmen"
+
+#: src/object/rock.cpp:183
+msgid "On-ungrab script"
+msgstr "Skript bi'm Lösslaten"
+
+#: src/object/particlesystem_interactive.hpp:48
+msgid "Interactive particle system"
+msgstr "Systeem vun Delen, wat reageert"
+
+#: src/object/thunderstorm.cpp:70
+msgid "Interval"
+msgstr "Poos"
+
+#: src/object/thunderstorm.cpp:71
+msgid "Strike Script"
+msgstr "Slaag-Skript"
+
+#: src/object/cloud_particle_system.hpp:36
+msgid "Cloud Particles"
+msgstr "Wulken-Delen"
+
+#: src/object/ispy.hpp:33
+msgid "Ispy"
+msgstr "Kukeluurder"
+
+#: src/object/skull_tile.hpp:31
+msgid "Skull Tile"
+msgstr "Dodenkopp-Block"
+
+#: src/object/weak_block.cpp:211
+msgid "Linked"
+msgstr "Verbunnen"
+
+#: src/object/decal.hpp:34
+msgid "Decal"
+msgstr "Schild"
+
+#: src/object/tilemap.cpp:217
+msgid "Resize offset x"
+msgstr "Vergroterns-Verschuven x"
+
+#: src/object/tilemap.cpp:218
+msgid "Resize offset y"
+msgstr "Vergroterns-Verschuven y"
+
+#: src/object/tilemap.cpp:223
+msgid "Alpha"
+msgstr "Dörsichtigheid"
+
+#: src/object/tilemap.cpp:224
+msgid "Speed x"
+msgstr "Gauheid X"
+
+#: src/object/tilemap.cpp:225
+msgid "Speed y"
+msgstr "Gauheid Y"
+
+#: src/object/tilemap.cpp:226
+msgid "Tint"
+msgstr "Klöör"
+
+#: src/object/tilemap.cpp:244 src/supertux/menu/editor_tilegroup_menu.cpp:26
+#: src/editor/toolbox_widget.cpp:90
+msgid "Tiles"
+msgstr "Delen"
+
+#: src/object/gradient.cpp:115
+msgid "Left Colour"
+msgstr "Farv links"
+
+#: src/object/gradient.cpp:116
+msgid "Right Colour"
+msgstr "Farv rechts"
+
+#: src/object/gradient.cpp:118
+msgid "Top Colour"
+msgstr "Farv boven"
+
+#: src/object/gradient.cpp:119
+msgid "Bottom Colour"
+msgstr "Farv unnern"
+
+#: src/object/gradient.cpp:125
+msgid "Vertical"
+msgstr "Vertikal"
+
+#: src/object/gradient.cpp:125
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: src/object/gradient.cpp:125
+msgid "Vertical (whole sector)"
+msgstr "Vertikal (hele Zoon)"
+
+#: src/object/gradient.cpp:125
+msgid "Horizontal (whole sector)"
+msgstr "Horizontal (hele Zoon)"
+
+#: src/object/gradient.cpp:135
+msgid "Blend mode"
+msgstr "Misken-Aard"
+
+#: src/object/gradient.cpp:136
+msgid "Blend"
+msgstr "Misken"
+
+#: src/object/gradient.cpp:136
+msgid "Additive"
+msgstr "Daartodoon"
+
+#: src/object/gradient.cpp:136
+msgid "Modulate"
+msgstr "Moduleert"
+
+#: src/object/gradient.cpp:136 src/supertux/menu/keyboard_menu.cpp:60
+#: src/supertux/menu/joystick_menu.cpp:106
+#: src/supertux/menu/joystick_menu.cpp:213 src/editor/object_settings.cpp:124
+msgid "None"
+msgstr "Nix"
+
+#: src/object/unstable_tile.hpp:34
+msgid "Unstable Tile"
+msgstr "Swacke Floor"
+
+#: src/object/brick.hpp:31
+msgid "Brick"
+msgstr "Tichel"
+
+#: src/object/invisible_wall.hpp:34
+msgid "Invisible Wall"
+msgstr "Müür nich to sehn"
+
+#: src/object/spotlight.hpp:38
+msgid "Spotlight"
+msgstr "Lücht up eene Stee"
+
+#: src/object/scripted_object.hpp:39
+msgid "Scripted Object"
+msgstr "Ding mit Skript"
+
+#: src/object/coin.hpp:75
+msgid "Heavy Coin"
+msgstr "Swares Geldstück"
+
+#: src/object/bonus_block.hpp:55
+msgid "Bonus Block"
+msgstr "Goder Block"
+
+#: src/object/magicblock.hpp:41
+msgid "Magic Tile"
+msgstr "Zauberee-Block"
+
+#: src/object/camera.hpp:67
+msgid "Camera"
+msgstr "Kamera"
+
+#: src/object/textscroller.hpp:44
+msgid "TextScroller"
+msgstr "Text-Schuver"
+
+#: src/gui/menu_badguy_select.cpp:93
+msgid "List of enemies"
+msgstr "List vun Feinden"
+
+#: src/gui/menu_badguy_select.cpp:95
+msgid "Enemy"
+msgstr "Feind"
+
+#: src/gui/menu_badguy_select.cpp:96
+msgid "Add"
+msgstr "Daartosetten"
+
+#: src/gui/menu_badguy_select.cpp:106 src/gui/menu_color.cpp:34
+#: src/gui/dialog.hpp:80 src/gui/menu_script.cpp:47
+#: src/supertux/menu/editor_sector_menu.cpp:46
+#: src/supertux/menu/editor_levelset_menu.cpp:62
+#: src/supertux/menu/addon_menu.cpp:349
+#: src/supertux/menu/editor_new_levelset_menu.cpp:37
+#: src/supertux/menu/editor_level_menu.cpp:44 src/editor/object_menu.cpp:43
+msgid "OK"
+msgstr "Good so"
+
+#: src/gui/menu_badguy_select.cpp:135
+msgid "Do you want to delete this badguy from the list?"
+msgstr "Willt du deesen Wrocker vun de List wegdoon?"
+
+#: src/gui/menu_badguy_select.cpp:136 src/gui/dialog.hpp:89
+#: src/supertux/menu/editor_menu.cpp:123 src/editor/editor.cpp:478
+msgid "Yes"
+msgstr "Jau"
+
+#: src/gui/menu_badguy_select.cpp:139 src/gui/dialog.hpp:90
+#: src/supertux/menu/editor_menu.cpp:126 src/editor/editor.cpp:485
+msgid "No"
+msgstr "Nee"
+
+#: src/gui/menu_color.cpp:24
+msgid "Mix the colour"
+msgstr "De Farv misken"
+
+#: src/gui/menu_filesystem.cpp:111
+#: src/supertux/menu/editor_sectors_menu.cpp:45
+#: src/supertux/menu/editor_sectors_menu.cpp:95
+#: src/supertux/menu/editor_sectors_menu.cpp:100
+#: src/supertux/menu/editor_objectgroup_menu.cpp:42
+#: src/supertux/menu/editor_tilegroup_menu.cpp:36 src/editor/editor.cpp:489
+msgid "Cancel"
+msgstr "Ofbreken"
+
+#: src/gui/menu_script.cpp:28
+msgid "Edit script"
+msgstr "Skript bewarken"
+
+#: src/badguy/toad.hpp:37
+msgid "Toad"
+msgstr "Padd"
+
+#: src/badguy/mrtree.hpp:29
+msgid "Walking Tree"
+msgstr "Boom löppt"
+
+#: src/badguy/plant.hpp:33
+msgid "Plant"
+msgstr "Plante"
+
+#: src/badguy/crystallo.hpp:30
+msgid "Crystallo"
+msgstr "Edelsteen-Racker"
+
+#: src/badguy/totem.hpp:36
+msgid "Totem"
+msgstr "Pahl"
+
+#: src/badguy/stalactite.hpp:38
+msgid "Stalactite"
+msgstr "Steenpieke"
+
+#: src/badguy/haywire.hpp:42
+msgid "Haywire"
+msgstr "Dördreiht"
+
+#: src/badguy/dispenser.hpp:48
+msgid "Dispenser"
+msgstr "Verdeeler"
+
+#: src/badguy/short_fuse.hpp:29
+msgid "Short Fuse"
+msgstr "Körte Lunt"
+
+#: src/badguy/zeekling.hpp:36
+msgid "Zeekling"
+msgstr "Draak"
+
+#: src/badguy/mriceblock.hpp:46
+msgid "Iceblock"
+msgstr "Iesblock"
+
+#: src/badguy/jumpy.hpp:36
+msgid "Jumpy"
+msgstr "Hüpper"
+
+#: src/badguy/captainsnowball.hpp:31
+msgid "Captain Snowball"
+msgstr "Käpten Sneeiball"
+
+#: src/badguy/ghosttree.hpp:42
+msgid "Ghost Tree"
+msgstr "Geisterboom"
+
+#: src/badguy/willowisp.cpp:283
+msgid "Track range"
+msgstr "Feernte tum Nagahn"
+
+#: src/badguy/willowisp.cpp:284
+msgid "Vanish range"
+msgstr "Feernte tum Verswinnen"
+
+#: src/badguy/willowisp.cpp:285
+msgid "Fly speed"
+msgstr "Flüggt-Gauheid"
+
+#: src/badguy/kugelblitz.hpp:39
+msgid "Kugelblitz"
+msgstr "Kugelblitz"
+
+#: src/badguy/mole_rock.hpp:42
+msgid "Mole's rock"
+msgstr "Mullbült"
+
+#: src/badguy/badguy.cpp:841
+msgid "Death script"
+msgstr "Skript bi'm Starven"
+
+#: src/badguy/sspiky.hpp:36
+msgid "Sleeping Spiky"
+msgstr "Stiekeldönner slöppt"
+
+#: src/badguy/yeti_stalactite.hpp:33
+msgid "Yeti's Stalactite"
+msgstr "Steenpieke för Yeti"
+
+#: src/badguy/livefire.hpp:37
+msgid "Walking Flame"
+msgstr "Füür löppt"
+
+#: src/badguy/livefire.hpp:67
+msgid "Sleeping Flame"
+msgstr "Füür slöppt"
+
+#: src/badguy/livefire.hpp:83
+msgid "Dormant Flame"
+msgstr "Füür slöppt fast"
+
+#: src/badguy/owl.hpp:39
+msgid "Owl"
+msgstr "Uul"
+
+#: src/badguy/igel.hpp:34
+msgid "Igel"
+msgstr "Stiekelswien"
+
+#: src/badguy/darttrap.cpp:126
+msgid "Initial delay"
+msgstr "Anfangs-Vertreck"
+
+#: src/badguy/darttrap.cpp:128
+msgid "Fire delay"
+msgstr "Füür-Vertreck"
+
+#: src/badguy/darttrap.cpp:129
+msgid "Ammo"
+msgstr "Bewapent mit"
+
+#: src/badguy/snowball.hpp:29
+msgid "Snowball"
+msgstr "Sneeiball"
+
+#: src/badguy/smartblock.hpp:29
+msgid "Smartblock"
+msgstr "Kloke Block"
+
+#: src/badguy/yeti.cpp:369
+msgid "Fixed position"
+msgstr "Faste Stee"
+
+#: src/badguy/yeti.cpp:370
+msgid "Lives"
+msgstr "Levens"
+
+#: src/badguy/goldbomb.hpp:49
+msgid "Gold Bomb"
+msgstr "Goldbomb"
+
+#: src/badguy/flyingsnowball.hpp:32
+msgid "Flying Snowball"
+msgstr "Sneeiball flüggt"
+
+#: src/badguy/skullyhop.hpp:37
+msgid "Skullyhop"
+msgstr "Dodenkopphüpper"
+
+#: src/badguy/kamikazesnowball.hpp:32
+msgid "Snowshot"
+msgstr "Sneeischööt"
+
+#: src/badguy/kamikazesnowball.hpp:52
+msgid "Leafshot"
+msgstr "Bladdschööt"
+
+#: src/badguy/flame.hpp:41
+msgid "Flame"
+msgstr "Flamm"
+
+#: src/badguy/poisonivy.hpp:30
+msgid "Spring Leaf"
+msgstr "Frohjahrsbladd"
+
+#: src/badguy/willowisp.hpp:55
+msgid "Will o' Wisp"
+msgstr "Spökender Lüchtball"
+
+#: src/badguy/badguy.hpp:53
+msgid "Badguy"
+msgstr "Wrocker"
+
+#: src/badguy/ghostflame.hpp:30
+msgid "Ghost Flame"
+msgstr "Geisterflamm"
+
+#: src/badguy/spiky.hpp:30
+msgid "Spiky"
+msgstr "Stiekeldönner"
+
+#: src/badguy/walkingleaf.hpp:30
+msgid "Autumn Leaf"
+msgstr "Harvstbladd"
+
+#: src/badguy/owl.cpp:227
+msgid "Carry"
+msgstr "Dragen"
+
+#: src/badguy/darttrap.hpp:33
+msgid "Dart Trap"
+msgstr "Pieltrapp"
+
+#: src/badguy/skydive.hpp:38
+msgid "Skydive"
+msgstr "Fallschirmjäger"
+
+#: src/badguy/yeti.hpp:37
+msgid "Yeti"
+msgstr "Yeti"
+
+#: src/badguy/mole.hpp:39
+msgid "Mole"
+msgstr "Mull"
+
+#: src/badguy/mrbomb.hpp:42
+msgid "Bomb"
+msgstr "Bomb"
+
+#: src/badguy/walking_candle.hpp:40
+msgid "Walking Candle"
+msgstr "Keers löppt"
+
+#: src/badguy/angrystone.hpp:34
+msgid "Angry Stone"
+msgstr "Vergrellter Steen"
+
+#: src/badguy/spidermite.hpp:35
+msgid "Spider"
+msgstr "Spinn"
+
+#: src/badguy/ghoul.hpp:28
+msgid "Ghoul"
+msgstr "Guul"
+
+#: src/badguy/snowman.hpp:28
+msgid "Snowman"
+msgstr "Sneeikeerl"
+
+#: src/badguy/stumpy.hpp:35
+msgid "Walking Stump"
+msgstr "Stump löppt"
+
+#: src/badguy/fish.hpp:40
+msgid "Fish"
+msgstr "Fisk"
+
+#: src/badguy/dispenser.cpp:439
+msgid "Interval (seconds)"
+msgstr "Poos (in Sekünnen)"
+
+#: src/badguy/dispenser.cpp:440
+msgid "Random"
+msgstr "Tofällig"
+
+#: src/badguy/dispenser.cpp:441 data//images/engine/editor/objects.stoi:4
+msgid "Enemies"
+msgstr "Feinde"
+
+#: src/badguy/dispenser.cpp:442
+msgid "Limit dispensed badguys"
+msgstr "Nich mehr as so völe Wrockers"
+
+#: src/badguy/dispenser.cpp:444
+msgid "Max concurrent badguys"
+msgstr "Nich mehr as so völe Wrockers up eenmaal"
+
+#: src/badguy/dispenser.cpp:446 src/supertux/menu/editor_levelset_menu.cpp:60
+msgid "Type"
+msgstr "Aard"
+
+#: src/badguy/dispenser.cpp:447
+msgid "dropper"
+msgstr "Runnersmieten"
+
+#: src/badguy/dispenser.cpp:447
+msgid "rocket launcher"
+msgstr "Fell ballern"
+
+#: src/badguy/dispenser.cpp:447
+msgid "cannon"
+msgstr "Dönnerbüss"
+
+#: src/badguy/dispenser.cpp:447
+msgid "invisible"
+msgstr "Nich to sehn"
+
+#: src/badguy/snail.hpp:42
+msgid "Snail"
+msgstr "Kinkhoorn"
+
+#: src/badguy/smartball.hpp:31
+msgid "Smartball"
+msgstr "Kloke Ball"
+
+#: src/badguy/bouncing_snowball.hpp:31
+msgid "Bouncing Snowball"
+msgstr "Komisker Sneeiball"
+
+#: src/badguy/iceflame.hpp:33
+msgid "Ice Flame"
+msgstr "Iesflamm"
+
+#: src/badguy/dart.hpp:43
+msgid "Dart"
+msgstr "Piel"
+
+#: src/supertux/statistics.cpp:47
+msgid "Max coins collected:"
+msgstr "Hoogste Tahl vun Geldstücken pottjet:"
+
+#: src/supertux/statistics.cpp:48
+msgid "Max fragging:"
+msgstr ""
+
+#: src/supertux/statistics.cpp:49
+msgid "Max secrets found:"
+msgstr "Hoogste Tahl vun Versteken funnen:"
+
+#: src/supertux/statistics.cpp:50
+msgid "Best time completed:"
+msgstr "Beste Tied:"
+
+#: src/supertux/statistics.cpp:51
+msgid "Level target time:"
+msgstr "Gode Tied:"
+
+#: src/supertux/statistics.cpp:139 src/supertux/levelintro.cpp:160
+msgid "Best Level Statistics"
+msgstr "Beste Resultaten för deese Upgaav"
+
+#: src/supertux/statistics.cpp:228
+msgid "You"
+msgstr "Du"
+
+#: src/supertux/statistics.cpp:230
+msgid "Best"
+msgstr "De Beste"
+
+#: src/supertux/statistics.cpp:232 src/supertux/levelintro.cpp:166
+msgid "Coins"
+msgstr "Geldstücken"
+
+#: src/supertux/statistics.cpp:255
+msgid "Badguys"
+msgstr "Wrockers"
+
+#: src/supertux/statistics.cpp:271 src/supertux/levelintro.cpp:172
+msgid "Secrets"
+msgstr "Versteken"
+
+#: src/supertux/game_object.hpp:77
+msgid "Unknown object"
+msgstr "Unbekanntes Ding"
+
+#: src/supertux/command_line_arguments.cpp:74
+#, c-format
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "Gebruuk: {} [INSTELLENS][UPGAVEN-DATEI]"
+
+#: src/supertux/command_line_arguments.cpp:75
+msgid "General Options:"
+msgstr "Allgemeene Instellens:"
+
+#: src/supertux/command_line_arguments.cpp:76
+msgid "  -h, --help                   Show this help message and quit"
+msgstr "  -h, --help                   Deese Hülp-Naricht wiesen un stracks ofmaken"
+
+#: src/supertux/command_line_arguments.cpp:77
+msgid "  -v, --version                Show SuperTux version and quit"
+msgstr "  -v, --version                Versioon vun SuperTux wiesen un stracks ofmaken"
+
+#: src/supertux/command_line_arguments.cpp:78
+msgid "  --verbose                    Print verbose messages"
+msgstr "  --verbose                    Völe Narichten utgeven"
+
+#: src/supertux/command_line_arguments.cpp:79
+msgid "  --debug                      Print extra verbose messages"
+msgstr "  --debug                      Unbannig völe Narichten utgeven"
+
+#: src/supertux/command_line_arguments.cpp:80
+msgid ""
+"  --print-datadir              Print SuperTux's primary data directory."
+msgstr "  --print-datadir              Ugeven, waar dat Höövd-Daten-Verteeknis vun SuperTux is"
+
+#: src/supertux/command_line_arguments.cpp:82
+msgid "Video Options:"
+msgstr "Biller-Instellens:"
+
+#: src/supertux/command_line_arguments.cpp:83
+msgid "  -f, --fullscreen             Run in fullscreen mode"
+msgstr "  -f, --fullscreen             Helen Bildschirm bruken"
+
+#: src/supertux/command_line_arguments.cpp:84
+msgid "  -w, --window                 Run in window mode"
+msgstr "  -w, --window                 Im Fenster spölen"
+
+#: src/supertux/command_line_arguments.cpp:85
+msgid "  -g, --geometry WIDTHxHEIGHT  Run SuperTux in given resolution"
+msgstr "  -g, --geometry BREDDTxHÖCHT  SuperTux mit de geven Uplösen spölen"
+
+#: src/supertux/command_line_arguments.cpp:86
+msgid "  -a, --aspect WIDTH:HEIGHT    Run SuperTux with given aspect ratio"
+msgstr "  -a, --aspect BREDDTxHÖCHT    SuperTux mit de geven Kantenverhältnis spölen"
+
+#: src/supertux/command_line_arguments.cpp:87
+msgid "  -d, --default                Reset video settings to default values"
+msgstr "  -d, --default                De Biller-Instellens up de normaalen Weerten torüggsetten"
+
+#: src/supertux/command_line_arguments.cpp:88
+msgid "  --renderer RENDERER          Use sdl, opengl, or auto to render"
+msgstr "  --renderer TEKEN             sdl, opengl oder auto tum Teken bruken"
+
+#: src/supertux/command_line_arguments.cpp:90
+msgid "Audio Options:"
+msgstr "Gedrüüs-Instellens:"
+
+#: src/supertux/command_line_arguments.cpp:91
+msgid "  --disable-sound              Disable sound effects"
+msgstr "  --disable-sound              Sünner Gedrüüs"
+
+#: src/supertux/command_line_arguments.cpp:92
+msgid "  --disable-music              Disable music"
+msgstr "  --disable-music              Sünner Musik"
+
+#: src/supertux/command_line_arguments.cpp:94
+msgid "Game Options:"
+msgstr "Speel-Instellens:"
+
+#: src/supertux/command_line_arguments.cpp:95
+msgid "  --edit-level                 Open given level in editor"
+msgstr "  --edit-level                 De geven Upgaav im Bewarker openmaken"
+
+#: src/supertux/command_line_arguments.cpp:96
+msgid "  --resave                     Loads given level and saves it"
+msgstr "  --resave                     De geven Upgaav laden un sekern"
+
+#: src/supertux/command_line_arguments.cpp:97
+msgid "  --show-fps                   Display framerate in levels"
+msgstr "  --show-fps                   Bi'm Spölen de Billers pro Sekünn wiesen"
+
+#: src/supertux/command_line_arguments.cpp:98
+msgid "  --no-show-fps                Do not display framerate in levels"
+msgstr "  --no-show-fps                Bi'm Spölen de Billers pro Sekünn nich wiesen"
+
+#: src/supertux/command_line_arguments.cpp:99
+msgid "  --show-pos                   Display player's current position"
+msgstr "  --show-pos                   De Stee vum Speler wiesen"
+
+#: src/supertux/command_line_arguments.cpp:100
+msgid "  --no-show-pos                Do not display player's position"
+msgstr "  --no-show-pos                De Stee vum Speler nich wiesen"
+
+#: src/supertux/command_line_arguments.cpp:101
+msgid "  --developer                  Switch on developer feature"
+msgstr "  --developer                  As Entwickler bruken"
+
+#: src/supertux/command_line_arguments.cpp:102
+msgid "  -s, --debug-scripts          Enable script debugger."
+msgstr "  -s, --debug-scripts          Fehlers in Skripten söken könen"
+
+#: src/supertux/command_line_arguments.cpp:103
+msgid ""
+"  --spawn-pos X,Y              Where in the level to spawn Tux. Only used if"
+" level is specified."
+msgstr "  --spawn-pos X,Y              Waar Tux in de Upgaav begünnen sall. Gaht blot, wenn eene Upgaav angeven is."
+
+#: src/supertux/command_line_arguments.cpp:104
+msgid "  --sector SECTOR              Spawn Tux in SECTOR\n"
+msgstr "  --sector ZOON            Tux sall in ZOON begünnen\n"
+
+#: src/supertux/command_line_arguments.cpp:105
+msgid "  --spawnpoint SPAWNPOINT      Spawn Tux at SPAWNPOINT\n"
+msgstr "  --spawnpoint ANFANGSPUNKT    Tux sall bi ANFANGSPUNKT begünnen\n"
+
+#: src/supertux/command_line_arguments.cpp:107
+msgid "Demo Recording Options:"
+msgstr "Upteken-Instellens:"
+
+#: src/supertux/command_line_arguments.cpp:108
+msgid "  --record-demo FILE LEVEL     Record a demo to FILE"
+msgstr "  --record-demo DATEI UPGAAV   Een Upteken in DATEI maken"
+
+#: src/supertux/command_line_arguments.cpp:109
+msgid "  --play-demo FILE LEVEL       Play a recorded demo"
+msgstr "  --play-demo DATEI UPGAAV     Dat Upteken ut DATEI spölen"
+
+#: src/supertux/command_line_arguments.cpp:111
+msgid "Directory Options:"
+msgstr "Verteeknis-Instellens:"
+
+#: src/supertux/command_line_arguments.cpp:112
+msgid ""
+"  --datadir DIR                Set the directory for the games datafiles"
+msgstr "  --datadir VERTEEKNIS         Waar de Dateien för 't Speel sünd"
+
+#: src/supertux/command_line_arguments.cpp:113
+msgid ""
+"  --userdir DIR                Set the directory for user data (savegames, "
+"etc.)"
+msgstr "  --userdir VERTEEKNIS         Waar de Bruker-Dateien sünd (sekerte Spölen un so)"
+
+#: src/supertux/command_line_arguments.cpp:115
+msgid "Add-On Options:"
+msgstr "Instellens för neie Welten:"
+
+#: src/supertux/command_line_arguments.cpp:116
+msgid "  --repository-url URL         Set the URL to the Add-On repository"
+msgstr "  --repository-url URL         Neie Welten vun hier runnerladen"
+
+#: src/supertux/command_line_arguments.cpp:118
+msgid "Environment variables:"
+msgstr "Umtreck-Verännerlike:"
+
+#: src/supertux/command_line_arguments.cpp:119
+msgid ""
+"  SUPERTUX2_USER_DIR           Directory for user data (savegames, etc.)"
+msgstr "  SUPERTUX2_USER_DIR           Verteeknis för Bruker-Dateien (sekerte Spölen un so)"
+
+#: src/supertux/command_line_arguments.cpp:120
+msgid "  SUPERTUX2_DATA_DIR           Directory for the games datafiles"
+msgstr "  SUPERTUX2_DATA_DIR           Verteeknis för de Dateien för 't Speel"
+
+#: src/supertux/title_screen.cpp:43
+msgid "Copyright"
+msgstr "Rechten vun well dat maakt hett"
+
+#: src/supertux/title_screen.cpp:44
+msgid ""
+"This game comes with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to\n"
+"redistribute it under certain conditions; see the license file for details.\n"
+msgstr ""
+
+#: src/supertux/menu/contrib_menu.cpp:79
+#: src/supertux/menu/world_set_menu.cpp:31
+msgid "Contrib Levels"
+msgstr "Upgaven daarto"
+
+#: src/supertux/menu/contrib_menu.cpp:119
+#: src/supertux/menu/contrib_menu.cpp:150
+msgid "*NEW*"
+msgstr "*NEEI*"
+
+#: src/supertux/menu/contrib_menu.cpp:172 src/supertux/menu/debug_menu.cpp:75
+#: src/supertux/menu/editor_level_select_menu.cpp:84
+#: src/supertux/menu/worldmap_cheat_menu.cpp:55
+#: src/supertux/menu/worldmap_cheat_menu.cpp:153
+#: src/supertux/menu/editor_levelset_select_menu.cpp:96
+#: src/supertux/menu/options_menu.cpp:405
+#: src/supertux/menu/profile_menu.cpp:47 src/supertux/menu/addon_menu.cpp:213
+#: src/supertux/menu/editor_new_levelset_menu.cpp:40
+#: src/supertux/menu/world_set_menu.cpp:33
+#: src/supertux/menu/keyboard_menu.cpp:51
+#: src/supertux/menu/language_menu.cpp:56
+#: src/supertux/menu/joystick_menu.cpp:97
+#: src/supertux/menu/contrib_levelset_menu.cpp:67
+#: src/supertux/menu/cheat_menu.cpp:44
+msgid "Back"
+msgstr "Torügg"
+
+#: src/supertux/menu/debug_menu.cpp:32
+msgid "Debug"
+msgstr "Tum Fehler-Söken"
+
+#: src/supertux/menu/debug_menu.cpp:56
+msgid "Game Speed"
+msgstr "Speel-Gauheid"
+
+#: src/supertux/menu/debug_menu.cpp:57
+msgid "Adjust Game Speed"
+msgstr "Speel-Gauheid ännern"
+
+#: src/supertux/menu/debug_menu.cpp:63
+msgid "Show Collision Rects"
+msgstr "Tosamendönnern-Veerkants wiesen"
+
+#: src/supertux/menu/debug_menu.cpp:64
+msgid "Show Worldmap Path"
+msgstr "Weltkaart-Padd wiesen"
+
+#: src/supertux/menu/debug_menu.cpp:65
+msgid "Show Controller"
+msgstr "Kuntroller wiesen"
+
+#: src/supertux/menu/debug_menu.cpp:66
+msgid "Show Framerate"
+msgstr "Billers pro Sekünn wiesen"
+
+#: src/supertux/menu/debug_menu.cpp:67
+msgid "Draw Redundant Frames"
+msgstr "Dübbelte Billers teken"
+
+#: src/supertux/menu/debug_menu.cpp:68
+msgid "Show Player Position"
+msgstr "Speler-Stee wiesen"
+
+#: src/supertux/menu/debug_menu.cpp:69
+msgid "Use Bitmap Fonts"
+msgstr "Bitmap-Schrift bruken"
+
+#: src/supertux/menu/debug_menu.cpp:72
+msgid "Dump Texture Cache"
+msgstr "Biller-Tüskenspieker schrieven"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:31
+msgid "Choose Sector"
+msgstr "Zoon utkören"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:41
+msgid "Sector Settings"
+msgstr "Zoon-Instellens"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:42
+msgid "Create Sector"
+msgstr "Zoon maken"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:43
+msgid "Delete Sector"
+msgstr "Zoon wegdoon"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:93
+msgid "Each level must have at least one sector."
+msgstr "Eene Upgaav mutt tominnst eene Zoon hebben."
+
+#: src/supertux/menu/editor_sectors_menu.cpp:98
+msgid "Do you really want to delete this sector?"
+msgstr "Willt du deese Zoon würrelk wegmaken?"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:101
+msgid "Delete sector"
+msgstr "Zoon wegmaken"
+
+#: src/supertux/menu/editor_objectgroup_menu.cpp:30
+#: src/editor/toolbox_widget.cpp:93
+msgid "Objects"
+msgstr "Dingen"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:58
+msgid "Empty World"
+msgstr "Lege Welt"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:73
+msgid "Create Level"
+msgstr "Upgaav maken"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:77
+msgid "Edit Worldmap"
+msgstr "Weltkaart bewarken"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:79
+msgid "Create Worldmap"
+msgstr "Weltkaart maken"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:83
+#: src/supertux/menu/editor_levelset_menu.cpp:56
+msgid "World Settings"
+msgstr "Welt-Instellens"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:123
+msgid ""
+"Share this worldmap under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in worldmap properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr ""
+
+#: src/supertux/menu/editor_level_select_menu.cpp:130
+msgid ""
+"Share this level under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in level properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr ""
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:34
+#: src/supertux/menu/cheat_menu.cpp:30
+msgid "Cheats"
+msgstr "Beschieten"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:36
+#: src/supertux/menu/cheat_menu.cpp:32
+msgid "Bonus: Grow"
+msgstr "Lohn: Wassen"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:37
+#: src/supertux/menu/cheat_menu.cpp:33
+msgid "Bonus: Fire"
+msgstr "Lohn: Füür"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:38
+#: src/supertux/menu/cheat_menu.cpp:34
+msgid "Bonus: Ice"
+msgstr "Lohn: Ies"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:39
+#: src/supertux/menu/cheat_menu.cpp:35
+msgid "Bonus: Air"
+msgstr "Lohn: Lücht"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:40
+#: src/supertux/menu/cheat_menu.cpp:36
+msgid "Bonus: Earth"
+msgstr "Lohn: Eer"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:41
+msgid "Bonus: None"
+msgstr "Lohn: Nix"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:44
+#: src/supertux/menu/cheat_menu.cpp:42
+msgid "Leave Ghost Mode"
+msgstr "Keen geist mehr wesen"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:44
+#: src/supertux/menu/cheat_menu.cpp:42
+msgid "Activate Ghost Mode"
+msgstr "Geist worden"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:46
+#: src/supertux/menu/cheat_menu.cpp:40
+msgid "Finish Level"
+msgstr "Upgaav kumpleet"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:47
+msgid "Reset Level"
+msgstr "Upgaav torüggsetten"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:49
+msgid "Finish Worldmap"
+msgstr "Weltkaart kumpleet"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:50
+msgid "Reset Worldmap"
+msgstr "Weltkaart torüggsetten"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:52
+msgid "Go to level"
+msgstr "To Upgaav gehn"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:53
+msgid "Go to main spawnpoint"
+msgstr "Tum eersten Anfangspunkt gahn"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:145
+msgid "Select level"
+msgstr "Upgaav utkören"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:54
+msgid "Choose World"
+msgstr "Welt utkören"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:82
+#, c-format
+msgid "%d level"
+msgid_plural "%d levels"
+msgstr[0] "%d Upgaav"
+msgstr[1] "%d Upgaven"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:95
+msgid "Create World"
+msgstr "Welt maken"
+
+#: src/supertux/menu/options_menu.cpp:85 src/supertux/menu/main_menu.cpp:53
+#: src/supertux/menu/game_menu.cpp:61 src/supertux/menu/worldmap_menu.cpp:31
+msgid "Options"
+msgstr "Instellungen"
+
+#: src/supertux/menu/options_menu.cpp:91
+#: src/supertux/menu/options_menu.cpp:127
+#: src/supertux/menu/options_menu.cpp:418
+#: src/supertux/menu/options_menu.cpp:439 src/editor/object_settings.cpp:112
+msgid "auto"
+msgstr "Automatisk"
+
+#: src/supertux/menu/options_menu.cpp:206
+msgid "Desktop"
+msgstr "Schrievdisk"
+
+#: src/supertux/menu/options_menu.cpp:332
+msgid "Select Language"
+msgstr "Spraak utkören"
+
+#: src/supertux/menu/options_menu.cpp:333
+msgid "Select a different language to display text in"
+msgstr "Eene annere Spraak för de Texten utkören"
+
+#: src/supertux/menu/options_menu.cpp:335
+msgid "Language Packs"
+msgstr "Spraak-Paketen"
+
+#: src/supertux/menu/options_menu.cpp:336
+msgid "Language packs contain up-to-date translations"
+msgstr "Spraak-Paketen enthollen de neiesten Översettens"
+
+#: src/supertux/menu/options_menu.cpp:338
+#: src/supertux/menu/profile_menu.cpp:30
+msgid "Select Profile"
+msgstr "Benutzer utkören"
+
+#: src/supertux/menu/options_menu.cpp:339
+msgid "Select a profile to play with"
+msgstr "Utkören, welker Benutzer spölt"
+
+#: src/supertux/menu/options_menu.cpp:342
+msgid "Window Resizable"
+msgstr "Fenster-Grött kann ännert worden"
+
+#: src/supertux/menu/options_menu.cpp:343
+msgid "Allow window resizing, might require a restart to take effect"
+msgstr "De Grött vun Fensters kann ännert worden; dat Speel mutt daarto villicht neei begunnen worden"
+
+#: src/supertux/menu/options_menu.cpp:345
+msgid "Window Resolution"
+msgstr "Fenster-Uplösen"
+
+#: src/supertux/menu/options_menu.cpp:346
+msgid "Resize the window to the given size"
+msgstr "Fenster up deese Grött setten"
+
+#: src/supertux/menu/options_menu.cpp:348
+msgid "Fullscreen"
+msgstr "Heler Bildschirm"
+
+#: src/supertux/menu/options_menu.cpp:349
+msgid "Fill the entire screen"
+msgstr "De helen Bildschirm bruken"
+
+#: src/supertux/menu/options_menu.cpp:351
+msgid "Fullscreen Resolution"
+msgstr "Uplösen bi'm helen Bildschirm"
+
+#: src/supertux/menu/options_menu.cpp:352
+msgid ""
+"Determine the resolution used in fullscreen mode (you must toggle fullscreen"
+" to complete the change)"
+msgstr "De Uplösen, wenn de hele Bildschirm bruukt word (dat muttst du dann ok umschalten, daarmit se sük ännert)"
+
+#: src/supertux/menu/options_menu.cpp:354
+msgid "Magnification"
+msgstr "Vergrotern"
+
+#: src/supertux/menu/options_menu.cpp:355
+msgid "Change the magnification of the game area"
+msgstr "Wo stark dat Speelfeld vergrotert word"
+
+#: src/supertux/menu/options_menu.cpp:357
+msgid "VSync"
+msgstr "VSync"
+
+#: src/supertux/menu/options_menu.cpp:358
+msgid "Set the VSync mode"
+msgstr "VSync bruken"
+
+#: src/supertux/menu/options_menu.cpp:360
+msgid "Aspect Ratio"
+msgstr "Kantenverhältnis"
+
+#: src/supertux/menu/options_menu.cpp:361
+msgid "Adjust the aspect ratio"
+msgstr "Dat Kantenverhältnis instellen"
+
+#: src/supertux/menu/options_menu.cpp:366
+msgid "Disable all sound effects"
+msgstr "All Gedrüüs ofmaken"
+
+#: src/supertux/menu/options_menu.cpp:368
+msgid "Disable all music"
+msgstr "All Musik ofmaken"
+
+#: src/supertux/menu/options_menu.cpp:370
+msgid "Sound Volume"
+msgstr "Gedrüüs-Luudstarkde"
+
+#: src/supertux/menu/options_menu.cpp:371
+msgid "Adjust sound volume"
+msgstr "Gedrüüs-Luudstarkde ännern"
+
+#: src/supertux/menu/options_menu.cpp:373
+msgid "Music Volume"
+msgstr "Musik-Luudstarkde"
+
+#: src/supertux/menu/options_menu.cpp:374
+msgid "Adjust music volume"
+msgstr "Musik-Luudstarkde ännern"
+
+#: src/supertux/menu/options_menu.cpp:378
+msgid "Sound (disabled)"
+msgstr "Gedrüüs (ut)"
+
+#: src/supertux/menu/options_menu.cpp:379
+msgid "Music (disabled)"
+msgstr "Musik (ut)"
+
+#: src/supertux/menu/options_menu.cpp:382
+#: src/supertux/menu/keyboard_menu.cpp:30
+msgid "Setup Keyboard"
+msgstr "Tasten instellen"
+
+#: src/supertux/menu/options_menu.cpp:383
+msgid "Configure key-action mappings"
+msgstr "Instellen, welke Tasten wat doon"
+
+#: src/supertux/menu/options_menu.cpp:385
+#: src/supertux/menu/joystick_menu.cpp:52
+msgid "Setup Joystick"
+msgstr "Stüürknüppel instellen"
+
+#: src/supertux/menu/options_menu.cpp:386
+msgid "Configure joystick control-action mappings"
+msgstr "Instellen, wat de Stüürknüppel doot"
+
+#: src/supertux/menu/options_menu.cpp:388
+msgid "Enable transitions"
+msgstr "Övergangen bruken"
+
+#: src/supertux/menu/options_menu.cpp:389
+msgid "Enable screen transitions and smooth menu animation"
+msgstr "Billers un Menüs gahn sachte innanner över"
+
+#: src/supertux/menu/options_menu.cpp:393
+msgid "Developer Mode"
+msgstr "För Entwicklers"
+
+#: src/supertux/menu/options_menu.cpp:398
+msgid "Christmas Mode"
+msgstr "Frööligen Juul!"
+
+#: src/supertux/menu/options_menu.cpp:401
+msgid "Confirmation Dialog"
+msgstr "Vör de Ofbreken nafragen"
+
+#: src/supertux/menu/options_menu.cpp:401
+msgid "Confirm aborting level"
+msgstr "Vör de Upgaav-Ofbreken nafragen"
+
+#: src/supertux/menu/options_menu.cpp:402
+msgid "Pause on focus loss"
+msgstr "Anhollen, wenn dat Fenster de Fokus verlüst"
+
+#: src/supertux/menu/main_menu.cpp:51 src/supertux/menu/world_set_menu.cpp:28
+msgid "Start Game"
+msgstr "Spölen"
+
+#: src/supertux/menu/main_menu.cpp:52 src/supertux/menu/addon_menu.cpp:122
+msgid "Add-ons"
+msgstr "Neie Welten halen"
+
+#: src/supertux/menu/main_menu.cpp:54 src/supertux/menu/editor_menu.cpp:39
+msgid "Level Editor"
+msgstr "Bewarker"
+
+#: src/supertux/menu/main_menu.cpp:55
+msgid "Credits"
+msgstr "Well dat maakt hett"
+
+#: src/supertux/menu/main_menu.cpp:56
+msgid "Donate"
+msgstr "Spenden"
+
+#: src/supertux/menu/main_menu.cpp:57
+msgid "Quit"
+msgstr "Ofmaken"
+
+#: src/supertux/menu/editor_sector_menu.cpp:35
+msgid "Initialization script"
+msgstr "Skript am Anfang"
+
+#: src/supertux/menu/editor_sector_menu.cpp:36
+msgid "Gravity"
+msgstr "Eer-Anlukens-Fors"
+
+#: src/supertux/menu/editor_sector_menu.cpp:41
+msgid "Resize offset X"
+msgstr "Vergroterns-Verschuven X"
+
+#: src/supertux/menu/editor_sector_menu.cpp:42
+msgid "Resize offset Y"
+msgstr "Vergroterns-Verschuven Y"
+
+#: src/supertux/menu/editor_sector_menu.cpp:43
+msgid "Resize"
+msgstr "Grött ännern"
+
+#: src/supertux/menu/profile_menu.cpp:37
+#, c-format
+msgid "[Profile {}]"
+msgstr "[Benutzer {}]"
+
+#: src/supertux/menu/profile_menu.cpp:41
+#, c-format
+msgid "Profile {}"
+msgstr "Benutzer {}"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:59
+#: src/supertux/menu/editor_new_levelset_menu.cpp:35
+msgid "Description"
+msgstr "Beschrieven"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:60
+#: src/supertux/menu/addon_menu.cpp:48
+#: data//images/engine/editor/objects.stoi:332
+msgid "Worldmap"
+msgstr "Weltkaart"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:60
+#: src/supertux/menu/addon_menu.cpp:45
+msgid "Levelset"
+msgstr "List vun Upgaven"
+
+#: src/supertux/menu/addon_menu.cpp:51
+msgid "World"
+msgstr "Welt"
+
+#: src/supertux/menu/addon_menu.cpp:54
+msgid "Add-on"
+msgstr "Neje Welt"
+
+#: src/supertux/menu/addon_menu.cpp:60
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: src/supertux/menu/addon_menu.cpp:71
+#, c-format
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} »{}« vun {}"
+
+#: src/supertux/menu/addon_menu.cpp:129
+msgid "No Add-ons installed"
+msgstr "Keene neien Welten installeert"
+
+#: src/supertux/menu/addon_menu.cpp:133
+msgid "No Add-ons found"
+msgstr "Keene neien Welten funnen"
+
+#: src/supertux/menu/addon_menu.cpp:179
+#, c-format
+msgid "Install {} *NEW*"
+msgstr "»{}« installeren *NEEI*"
+
+#: src/supertux/menu/addon_menu.cpp:190
+#, c-format
+msgid "Install {}"
+msgstr "»{}« installeren"
+
+#: src/supertux/menu/addon_menu.cpp:199
+msgid "No new Add-ons found"
+msgstr "Keene ganz neien Welten funnen"
+
+#: src/supertux/menu/addon_menu.cpp:205
+msgid "Check Online (disabled)"
+msgstr "Im Internett nakieken (gaht nich)"
+
+#: src/supertux/menu/addon_menu.cpp:209
+msgid "Check Online"
+msgstr "Im Internett nakieken"
+
+#: src/supertux/menu/addon_menu.cpp:286
+msgid "Downloading Add-On Repository Index"
+msgstr "List vun Welten word laden"
+
+#: src/supertux/menu/addon_menu.cpp:301
+#, c-format
+msgid "Downloading {}"
+msgstr "»{}« word runnerladen"
+
+#: src/supertux/menu/addon_menu.cpp:348
+msgid ""
+"Please restart SuperTux\n"
+"for these changes to take effect."
+msgstr "Bidde maak SuperTux of un neei open,\ndaarmit deese Ännerns aktiv worden."
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:31
+msgid "New World"
+msgstr "Neje Welt"
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:51
+msgid "Please enter a name for this level subset."
+msgstr "Bidde giff de Naam för deese Upgaven-Grupp in."
+
+#: src/supertux/menu/world_set_menu.cpp:30
+msgid "Story Mode"
+msgstr "Blot Vertellsel"
+
+#: src/supertux/menu/game_menu.cpp:31
+msgid "Are you sure?"
+msgstr "Willt du dat würrelk?"
+
+#: src/supertux/menu/game_menu.cpp:54 src/supertux/menu/worldmap_menu.cpp:30
+msgid "Continue"
+msgstr "Wiedermaken"
+
+#: src/supertux/menu/game_menu.cpp:55
+msgid "Restart Level"
+msgstr "Upgaav neei anfangen"
+
+#: src/supertux/menu/game_menu.cpp:58
+msgid "Restart from Checkpoint"
+msgstr "Vun Kuntroll-Stee weer begünnen"
+
+#: src/supertux/menu/game_menu.cpp:63
+msgid "Abort Level"
+msgstr "Upgaav ofbreken"
+
+#: src/supertux/menu/keyboard_menu.cpp:32
+#: src/supertux/menu/joystick_menu.cpp:69
+msgid "Up"
+msgstr "Na boven"
+
+#: src/supertux/menu/keyboard_menu.cpp:33
+#: src/supertux/menu/joystick_menu.cpp:70
+msgid "Down"
+msgstr "Na unnern"
+
+#: src/supertux/menu/keyboard_menu.cpp:34
+#: src/supertux/menu/joystick_menu.cpp:71
+msgid "Left"
+msgstr "Na links"
+
+#: src/supertux/menu/keyboard_menu.cpp:35
+#: src/supertux/menu/joystick_menu.cpp:72
+msgid "Right"
+msgstr "Na rechts"
+
+#: src/supertux/menu/keyboard_menu.cpp:36
+#: src/supertux/menu/joystick_menu.cpp:73
+msgid "Jump"
+msgstr "Springen"
+
+#: src/supertux/menu/keyboard_menu.cpp:38
+#: src/supertux/menu/joystick_menu.cpp:76
+msgid "Peek Left"
+msgstr "Na links kieken"
+
+#: src/supertux/menu/keyboard_menu.cpp:39
+#: src/supertux/menu/joystick_menu.cpp:77
+msgid "Peek Right"
+msgstr "Na rechts kieken"
+
+#: src/supertux/menu/keyboard_menu.cpp:40
+#: src/supertux/menu/joystick_menu.cpp:78
+msgid "Peek Up"
+msgstr "Na boven kieken"
+
+#: src/supertux/menu/keyboard_menu.cpp:41
+#: src/supertux/menu/joystick_menu.cpp:79
+msgid "Peek Down"
+msgstr "Na unnern kieken"
+
+#: src/supertux/menu/keyboard_menu.cpp:43
+#: src/supertux/menu/joystick_menu.cpp:81
+msgid "Console"
+msgstr "Konsool"
+
+#: src/supertux/menu/keyboard_menu.cpp:46
+#: src/supertux/menu/joystick_menu.cpp:82
+msgid "Cheat Menu"
+msgstr "Menü tum Beschieten"
+
+#: src/supertux/menu/keyboard_menu.cpp:47
+#: src/supertux/menu/joystick_menu.cpp:83
+msgid "Debug Menu"
+msgstr "Menü tum Fehler-Söken"
+
+#: src/supertux/menu/keyboard_menu.cpp:49
+#: src/supertux/menu/joystick_menu.cpp:85
+msgid "Jump with Up"
+msgstr "Mit Boven Springen"
+
+#: src/supertux/menu/keyboard_menu.cpp:62
+msgid "Up cursor"
+msgstr "Pieltast na boven"
+
+#: src/supertux/menu/keyboard_menu.cpp:64
+msgid "Down cursor"
+msgstr "Pieltast na unnern"
+
+#: src/supertux/menu/keyboard_menu.cpp:66
+msgid "Left cursor"
+msgstr "Pieltast na links"
+
+#: src/supertux/menu/keyboard_menu.cpp:68
+msgid "Right cursor"
+msgstr "Pieltast na rechts"
+
+#: src/supertux/menu/keyboard_menu.cpp:70
+msgid "Return"
+msgstr "Ingaav"
+
+#: src/supertux/menu/keyboard_menu.cpp:72
+msgid "Space"
+msgstr "Lege Tast"
+
+#: src/supertux/menu/keyboard_menu.cpp:74
+msgid "Right Shift"
+msgstr "Umschalt rechts"
+
+#: src/supertux/menu/keyboard_menu.cpp:76
+msgid "Left Shift"
+msgstr "Umschalt links"
+
+#: src/supertux/menu/keyboard_menu.cpp:78
+msgid "Right Control"
+msgstr "Strg links"
+
+#: src/supertux/menu/keyboard_menu.cpp:80
+msgid "Left Control"
+msgstr "Strg rechts"
+
+#: src/supertux/menu/keyboard_menu.cpp:82
+msgid "Right Alt"
+msgstr "Alt rechts"
+
+#: src/supertux/menu/keyboard_menu.cpp:84
+msgid "Left Alt"
+msgstr "Alt links"
+
+#: src/supertux/menu/keyboard_menu.cpp:86
+msgid "Right Command"
+msgstr "Cmd rechts"
+
+#: src/supertux/menu/keyboard_menu.cpp:88
+msgid "Left Command"
+msgstr "Cmd links"
+
+#: src/supertux/menu/keyboard_menu.cpp:102
+msgid "Press Key"
+msgstr "Tast drücken"
+
+#: src/supertux/menu/language_menu.cpp:40
+msgid "Language"
+msgstr "Spraak"
+
+#: src/supertux/menu/language_menu.cpp:42
+msgid "<auto-detect>"
+msgstr "<sülvst rutfinnen>"
+
+#: src/supertux/menu/joystick_menu.cpp:55
+msgid "Manual Configuration"
+msgstr "Eegene Instellens"
+
+#: src/supertux/menu/joystick_menu.cpp:57
+msgid ""
+"Use manual configuration instead of SDL2's automatic GameController support"
+msgstr ""
+
+#: src/supertux/menu/joystick_menu.cpp:75
+msgid "Pause/Menu"
+msgstr "Anhollen/Menü"
+
+#: src/supertux/menu/joystick_menu.cpp:91
+msgid "No Joysticks found"
+msgstr "Keene Stüürknüppels funnen"
+
+#: src/supertux/menu/joystick_menu.cpp:92
+msgid "Scan for Joysticks"
+msgstr "Stüürknüppels söken"
+
+#: src/supertux/menu/joystick_menu.cpp:125
+msgid "Press Button"
+msgstr "Knoop drücken"
+
+#: src/supertux/menu/joystick_menu.cpp:162
+msgid "Axis "
+msgstr "Ass"
+
+#: src/supertux/menu/joystick_menu.cpp:165
+msgid "-"
+msgstr "-"
+
+#: src/supertux/menu/joystick_menu.cpp:167
+msgid "+"
+msgstr "+"
+
+#: src/supertux/menu/joystick_menu.cpp:174
+msgid "X2"
+msgstr "X2"
+
+#: src/supertux/menu/joystick_menu.cpp:176
+msgid "Y2"
+msgstr "Y2"
+
+#: src/supertux/menu/joystick_menu.cpp:189
+msgid "Hat Up"
+msgstr "Hood na boven"
+
+#: src/supertux/menu/joystick_menu.cpp:193
+msgid "Hat Down"
+msgstr "Hood na unnern"
+
+#: src/supertux/menu/joystick_menu.cpp:197
+msgid "Hat Left"
+msgstr "Hood na links"
+
+#: src/supertux/menu/joystick_menu.cpp:201
+msgid "Hat Right"
+msgstr "Hood na rechts"
+
+#: src/supertux/menu/worldmap_menu.cpp:28
+msgid "Pause"
+msgstr "Anhollen"
+
+#: src/supertux/menu/worldmap_menu.cpp:33
+msgid "Leave World"
+msgstr "Welt verlaten"
+
+#: src/supertux/menu/download_dialog.cpp:27
+msgid "Abort Download"
+msgstr "Runnerladen ofbreken"
+
+#: src/supertux/menu/download_dialog.cpp:42
+msgid "Error:\n"
+msgstr "Fehler:\n"
+
+#: src/supertux/menu/download_dialog.cpp:96
+msgid "Close"
+msgstr "Dichtmaken"
+
+#: src/supertux/menu/cheat_menu.cpp:37
+msgid "Bonus: Star"
+msgstr "Lohn: Steern"
+
+#: src/supertux/menu/cheat_menu.cpp:38
+msgid "Shrink Tux"
+msgstr "Tux lütter maken"
+
+#: src/supertux/menu/cheat_menu.cpp:39
+msgid "Kill Tux"
+msgstr "Tux doodmaken"
+
+#: src/supertux/menu/editor_level_menu.cpp:31
+#: src/supertux/menu/editor_menu.cpp:70
+msgid "Worldmap Settings"
+msgstr "Weltkaart-Instellens"
+
+#: src/supertux/menu/editor_level_menu.cpp:31
+#: src/supertux/menu/editor_menu.cpp:70
+msgid "Level Settings"
+msgstr "Upgaav-Instellens"
+
+#: src/supertux/menu/editor_level_menu.cpp:34
+msgid "Author"
+msgstr "Schriever"
+
+#: src/supertux/menu/editor_level_menu.cpp:35 data//credits.stxt:1129
+msgid "Contact"
+msgstr "Kuntakt"
+
+#: src/supertux/menu/editor_level_menu.cpp:36
+msgid "License"
+msgstr "Permissje"
+
+#: src/supertux/menu/editor_level_menu.cpp:37
+msgid "Tileset"
+msgstr "Floor-Grupp"
+
+#: src/supertux/menu/editor_level_menu.cpp:40
+msgid "Target Time"
+msgstr "Gode Tied"
+
+#: src/supertux/menu/editor_level_menu.cpp:82
+msgid "Please enter a name for this level."
+msgstr "Bidde giff de Naam för deese Upgaav in."
+
+#: src/supertux/menu/editor_level_menu.cpp:86
+msgid "Please enter a level author for this level."
+msgstr "Bidde giff de Naam för de Schriever vun deeser Upgaav in."
+
+#: src/supertux/menu/editor_level_menu.cpp:90
+msgid "Please enter a license for this level."
+msgstr "Bidde giff de Permissje för deese Upgaav in."
+
+#: src/supertux/menu/editor_menu.cpp:34
+msgid "1/8 tile (4px)"
+msgstr "1/8 Floor (4 px)"
+
+#: src/supertux/menu/editor_menu.cpp:35
+msgid "1/4 tile (8px)"
+msgstr "1/4 Floor (8 px)"
+
+#: src/supertux/menu/editor_menu.cpp:36
+msgid "1/2 tile (16px)"
+msgstr "1/2 Floor (16 px)"
+
+#: src/supertux/menu/editor_menu.cpp:37
+msgid "1 tile (32px)"
+msgstr "1 Floor (32 px)"
+
+#: src/supertux/menu/editor_menu.cpp:41
+msgid "Return to Editor"
+msgstr "Torügg tum Bewarker"
+
+#: src/supertux/menu/editor_menu.cpp:42
+msgid "Save Worldmap"
+msgstr "Weltkaart sekern"
+
+#: src/supertux/menu/editor_menu.cpp:42
+msgid "Save Level"
+msgstr "Upgaav sekern"
+
+#: src/supertux/menu/editor_menu.cpp:45
+msgid "Test Level"
+msgstr "Upgaav spölen"
+
+#: src/supertux/menu/editor_menu.cpp:49
+msgid "Test Worldmap"
+msgstr "Weltkaart spölen"
+
+#: src/supertux/menu/editor_menu.cpp:52
+msgid "Share Level"
+msgstr "Upgaav delen"
+
+#: src/supertux/menu/editor_menu.cpp:54
+msgid "Open Level Directory"
+msgstr "Upgaav-Verteeknis opmaken"
+
+#: src/supertux/menu/editor_menu.cpp:57
+msgid "Edit Another Level"
+msgstr "Anner Upgaav bewarken"
+
+#: src/supertux/menu/editor_menu.cpp:60
+msgid "Edit Another World"
+msgstr "Anner Welt bewarken"
+
+#: src/supertux/menu/editor_menu.cpp:64
+msgid "Grid Size"
+msgstr "Gadder-Grött"
+
+#: src/supertux/menu/editor_menu.cpp:65
+msgid "Show Grid"
+msgstr "Gadder wiesen"
+
+#: src/supertux/menu/editor_menu.cpp:66
+msgid "Grid Snapping"
+msgstr "An Gadder binnen"
+
+#: src/supertux/menu/editor_menu.cpp:67
+msgid "Render Background"
+msgstr "Achtergrund teken"
+
+#: src/supertux/menu/editor_menu.cpp:68
+msgid "Render Light"
+msgstr "Lücht teken"
+
+#: src/supertux/menu/editor_menu.cpp:72
+msgid "Keyboard Shortcuts"
+msgstr "Handigtasten"
+
+#: src/supertux/menu/editor_menu.cpp:75
+msgid "Exit Level Editor"
+msgstr "Bewarker verlaten"
+
+#: src/supertux/menu/editor_menu.cpp:122
+msgid ""
+"We encourage you to share your levels in the SuperTux forum.\n"
+"To find your level, click the\n"
+"\"Open Level directory\" menu item.\n"
+"Do you want to go to the forum now?"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:134
+msgid ""
+"Keyboard Shortcuts:\n"
+"---------------------\n"
+"Esc = Open Menu\n"
+"Ctrl+S = Save\n"
+"Ctrl+T = Test\n"
+"Ctrl+Z = Undo\n"
+"Ctrl+Y = Redo\n"
+"F6 = Render Light\n"
+"F7 = Grid Snapping\n"
+"F8 = Show Grid"
+msgstr "Handigtasten:\n---------------------\nEsc = Menü opmaken\nStrg+S = Sekern\nStrg+T = Spölen\nStrg+Z = Torüggnehmen\nStrg+Y = Wedderhalen\nF6 = Lücht teken\nF7 = An Gadder binnen\nF8 = Gadder wiesen"
+
+#: src/supertux/menu/editor_menu.cpp:135
+msgid "Got it!"
+msgstr "Good so!"
+
+#: src/supertux/levelintro.cpp:136
+#, c-format
+msgid "contributed by {}"
+msgstr "Bidragen vun {}"
+
+#: src/supertux/levelintro.cpp:169
+msgid "Badguys killed"
+msgstr "Wrockers doodmaakt"
+
+#: src/supertux/levelintro.cpp:177
+msgid "Best time"
+msgstr "Beste Tied"
+
+#: src/supertux/levelintro.cpp:181
+msgid "Level target time"
+msgstr "Gode Tied"
+
+#: src/supertux/tile_set.cpp:92
+msgid "Others"
+msgstr "Annere"
+
+#: src/supertux/moving_object.cpp:44
+msgid "Region"
+msgstr "Regioon"
+
+#: src/control/joystick_config.cpp:85
+msgid "Joystick Mappings"
+msgstr "Stüürknüppel-Instellungen"
+
+#: src/worldmap/worldmap_parser.cpp:167
+msgid "<no title>"
+msgstr "<keen Naam>"
+
+#: src/editor/node_marker.cpp:79
+msgid "Path Node"
+msgstr "Padd-Knütt"
+
+#: src/editor/object_settings.cpp:112
+msgid "up"
+msgstr "na boven"
+
+#: src/editor/object_settings.cpp:112
+msgid "down"
+msgstr "na unnern"
+
+#: src/editor/object_settings.cpp:124
+msgid "West"
+msgstr "Westen"
+
+#: src/editor/object_settings.cpp:124
+msgid "East"
+msgstr "Oosten"
+
+#: src/editor/object_settings.cpp:124
+msgid "North"
+msgstr "Noorden"
+
+#: src/editor/object_settings.cpp:124
+msgid "South"
+msgstr "Süden"
+
+#: src/editor/object_settings.cpp:137
+msgid "One shot"
+msgstr "Up eenmaal"
+
+#: src/editor/object_settings.cpp:137
+msgid "Ping-pong"
+msgstr "Hen un her"
+
+#: src/editor/object_settings.cpp:137
+msgid "Circular"
+msgstr "Im Kreis"
+
+#: src/editor/object_settings.cpp:137
+msgid "Unordered"
+msgstr "Sünner Regel"
+
+#: src/editor/object_option.cpp:83
+msgid "true"
+msgstr "jau"
+
+#: src/editor/object_option.cpp:83
+msgid "false"
+msgstr "nee"
+
+#: src/editor/object_option.cpp:246 src/editor/object_option.cpp:295
+msgid "invalid"
+msgstr "ungültig"
+
+#: src/editor/object_option.cpp:553
+msgid "Remove"
+msgstr "Wegmaken"
+
+#: src/editor/worldmap_objects.hpp:56 src/editor/worldmap_objects.cpp:129
+msgid "Level"
+msgstr "Upgaav"
+
+#: src/editor/worldmap_objects.hpp:79
+msgid "Teleporter"
+msgstr "Fixer Pass"
+
+#: src/editor/worldmap_objects.hpp:119
+msgid "Sprite Change"
+msgstr "Bild ännern"
+
+#: src/editor/worldmap_objects.hpp:140
+msgid "Special tile"
+msgstr "Besünnere Floor"
+
+#: src/editor/editor.cpp:477
+msgid "This level contains unsaved changes, do you want to save?"
+msgstr "Deese Upgaav hett nich sekert Ännerns, willst du se sekern?"
+
+#: src/editor/editor.cpp:517
+msgid ""
+"Some obsolete add-ons are still active\n"
+"and might cause collisions with default Super Tux structure.\n"
+"You can still enable these add-ons in the menu.\n"
+"Disabling these add-ons will not delete your game progress."
+msgstr ""
+
+#: src/editor/editor.cpp:520
+msgid "Disable add-ons"
+msgstr "Neie Welten utknipsen"
+
+#: src/editor/editor.cpp:525
+msgid "Ignore (not advised)"
+msgstr "Minnachten (bidde nich)"
+
+#: src/editor/editor.cpp:529
+msgid "Leave editor"
+msgstr "Bewarker verlaten"
+
+#: src/editor/editor.cpp:740
+msgid ""
+"Couldn't find a \"main\" sector.\n"
+"Please change the name of the sector where\n"
+"you'd like the player to start to \"main\""
+msgstr "Kunn keene Zoon mit de Naam »main« finnen. Bidde benööm de Zoon, waar de Speler begünnen sall, in »main« um."
+
+#: src/editor/editor.cpp:744
+msgid ""
+"Couldn't find a \"main\" spawnpoint.\n"
+" Please change the name of the spawnpoint where\n"
+"you'd like the player to start to \"main\""
+msgstr "Kunn keenen Anfangspunkt mit de Naam »main« finnen. Bidde benööm de Anfangspunkt, waar de Speler begünnen sall, in »main« um."
+
+#: src/editor/worldmap_objects.cpp:130
+msgid "Outro script"
+msgstr "Skipt bi'm Verlaten"
+
+#: src/editor/worldmap_objects.cpp:131
+msgid "Auto play"
+msgstr "Automatisk spölen"
+
+#: src/editor/worldmap_objects.cpp:133
+msgid "Title colour"
+msgstr "Floor-Farv"
+
+#: src/editor/worldmap_objects.cpp:175
+msgid "Automatic"
+msgstr "Automatisk"
+
+#: src/editor/worldmap_objects.cpp:177
+msgid "Target worldmap"
+msgstr "De Weltkaart daarför"
+
+#: src/editor/worldmap_objects.cpp:240
+msgid "Stay action"
+msgstr "Nix doon"
+
+#: src/editor/worldmap_objects.cpp:241
+msgid "Initial stay action"
+msgstr "Eerstmaal nix doon"
+
+#: src/editor/worldmap_objects.cpp:242
+msgid "Stay group"
+msgstr "Grupp tum Nixdoon"
+
+#: src/editor/worldmap_objects.cpp:243
+msgid "Change on touch"
+msgstr "Bi'm Anröhren ännern"
+
+#: src/editor/worldmap_objects.cpp:273
+msgid "Show message"
+msgstr "Naricht wiesen"
+
+#: src/editor/worldmap_objects.cpp:275
+msgid "Invisible"
+msgstr "Nich to sehn"
+
+#: data//credits.stxt:25
+msgid "Current SuperTux Team"
+msgstr "Upstünds SuperTux-Klottje"
+
+#: data//credits.stxt:30
+msgid "Programming, project lead ad interim"
+msgstr "Programmeren, tiedwies Projekt-Leiten"
+
+#: data//credits.stxt:35
+msgid "Graphics, Level Design, Story"
+msgstr "Graphik, Upgaven-Utklamüsern, Vertellsel"
+
+#: data//credits.stxt:40
+msgid "Graphics, Story, Optimisation"
+msgstr "Graphik, Vertellsel, Verbetern"
+
+#: data//credits.stxt:45 data//credits.stxt:100 data//credits.stxt:186
+#: data//credits.stxt:498
+msgid "Graphics"
+msgstr "Billers"
+
+#: data//credits.stxt:50 data//credits.stxt:60 data//credits.stxt:82
+#: data//credits.stxt:88
+msgid "Graphics, Programming, Level Design"
+msgstr "Billers, Programmeren, Upgaven schrieven"
+
+#: data//credits.stxt:55
+msgid "Graphics, Programming"
+msgstr "Graphik, Programmeren"
+
+#: data//credits.stxt:65 data//credits.stxt:130 data//credits.stxt:135
+#: data//credits.stxt:140 data//credits.stxt:145 data//credits.stxt:160
+#: data//credits.stxt:165 data//credits.stxt:494 data//credits.stxt:506
+msgid "Programming"
+msgstr "Programmeren"
+
+#: data//credits.stxt:71
+msgid "Original Developers"
+msgstr "Eerste Entwicklers"
+
+#: data//credits.stxt:76
+msgid "Original Developer"
+msgstr "Eerster Entwickler"
+
+#: data//credits.stxt:94
+msgid "Music, Level Design"
+msgstr "Musik, Upgaven schrieven"
+
+#: data//credits.stxt:106
+msgid "Programming, Graphics, Level Design"
+msgstr "Programmeren, Billers, Upgaven schrieven"
+
+#: data//credits.stxt:112
+msgid "Programming, Level Design"
+msgstr "Programmeren, Upgaven schrieven"
+
+#: data//credits.stxt:118
+msgid "Graphics, Story"
+msgstr "Billers, Vertellsel"
+
+#: data//credits.stxt:124
+msgid "Programming, Documentation"
+msgstr "Programmeren, Hülp"
+
+#: data//credits.stxt:150
+msgid "Coordination"
+msgstr "Koordineren"
+
+#: data//credits.stxt:155
+msgid "Programming, \"Flexlay\" Level editor"
+msgstr "Programmeren, »Flexlay«-Upgaven-Bewarker"
+
+#: data//credits.stxt:170
+msgid "Windows build fixes"
+msgstr "Windows-Kompileer-Ofhelpens"
+
+#: data//credits.stxt:175
+msgid "Packaging, Nightly builds"
+msgstr "Kompileren, Elkeen-Nacht-Packen"
+
+#: data//credits.stxt:180
+msgid "Translation Guru (and many details anyone else could have done)"
+msgstr "Översettens-Chef (un mennig lütte Dingen, wat elkeen anner ok doon kann)"
+
+#: data//credits.stxt:240
+msgid "Level Design"
+msgstr "Upgaven schrieven"
+
+#: data//credits.stxt:414
+msgid "Additional contributors"
+msgstr "Noch anner Mitmakers"
+
+#: data//credits.stxt:419
+msgid "Bug fixes"
+msgstr "Fehlers ofhelpen"
+
+#: data//credits.stxt:423
+msgid "Scripting functions, Level fixes"
+msgstr "Schriev-Mögelkheiden, Upgaven-Ofhelpens"
+
+#: data//credits.stxt:427
+msgid "Code quality fixes"
+msgstr "Kodeer-Qualitäät-Ofhelpens"
+
+#: data//credits.stxt:431 data//credits.stxt:435 data//credits.stxt:439
+#: data//credits.stxt:466
+msgid "Various contributions"
+msgstr "Verschedene Bidragens"
+
+#: data//credits.stxt:443
+msgid "Build issue fix"
+msgstr "Kompileer-Probleem-Ofhelpen"
+
+#: data//credits.stxt:447 data//credits.stxt:451
+msgid "Code contributions"
+msgstr "Kodeer-Bidragens"
+
+#: data//credits.stxt:454
+msgid "Code contribution, AppData file"
+msgstr "Kodeer-Bidragens, AppData-Datei"
+
+#: data//credits.stxt:458
+msgid "Bug fix"
+msgstr "Fehler ofhelpen"
+
+#: data//credits.stxt:462
+msgid "Menu reorganization"
+msgstr "Menü-Neeimaken"
+
+#: data//credits.stxt:470
+msgid "Fixing tile bugs"
+msgstr "Block-Fehlers ofhelpen"
+
+#: data//credits.stxt:474
+msgid "Build error fix"
+msgstr "Kompileer-Probleem-Ofhelpen"
+
+#: data//credits.stxt:478
+msgid "Scripting function fix"
+msgstr "Schriev-Mögelkheid-Ofhelpen"
+
+#: data//credits.stxt:482
+msgid "Support for \"glbinding\" as optional OpenGL binding"
+msgstr "»glbinding« as optionaal OpenGL-Binden unnerstütten"
+
+#: data//credits.stxt:486
+msgid "New menu code"
+msgstr "Nejes Menü-Koderen"
+
+#: data//credits.stxt:490
+msgid "Big Tux Walking Sprites improvements"
+msgstr "Verbeterns för de Billers as de grote Tux löppt"
+
+#: data//credits.stxt:502 data//credits.stxt:510
+msgid "Contrib Programming"
+msgstr "Programmeren-Bidragen"
+
+#: data//credits.stxt:514
+msgid "Programming, Previous Maintainer"
+msgstr ""
+
+#: data//credits.stxt:518
+msgid "Various Contributions"
+msgstr ""
+
+#: data//credits.stxt:522 data//credits.stxt:526 data//credits.stxt:530
+#: data//credits.stxt:534 data//credits.stxt:538 data//credits.stxt:542
+#: data//credits.stxt:546 data//credits.stxt:550 data//credits.stxt:554
+msgid "Contributions"
+msgstr ""
+
+#: data//credits.stxt:560
+msgid "Localization"
+msgstr ""
+
+#: data//credits.stxt:1107
+msgid " Special Thanks to"
+msgstr ""
+
+#: data//credits.stxt:1112
+msgid "Creator of Tux, the Linux penguin"
+msgstr ""
+
+#: data//credits.stxt:1116
+msgid "SDL, OpenAL and OpenGL"
+msgstr ""
+
+#: data//credits.stxt:1117
+msgid ""
+"For making such a great gaming experience\n"
+"        possible on Linux"
+msgstr ""
+
+#: data//credits.stxt:1122
+msgid "and you, the player"
+msgstr ""
+
+#: data//credits.stxt:1123
+msgid "for giving this game a chance and playing it"
+msgstr ""
+
+#: data//credits.stxt:1134
+msgid "Visit our webpage at"
+msgstr ""
+
+#: data//credits.stxt:1143
+msgid "Or visit us directly at IRC:"
+msgstr ""
+
+#: data//credits.stxt:1147
+msgid "#supertux at webchat.freenode.net"
+msgstr ""
+
+#: data//credits.stxt:1152
+msgid "Or at our Forum:"
+msgstr ""
+
+#: data//credits.stxt:1161
+msgid "Comments, ideas and suggestions"
+msgstr ""
+
+#: data//credits.stxt:1165
+msgid "go to our mailing list"
+msgstr ""
+
+#. l10n: typo contact
+#: data//credits.stxt:1175
+msgid "Typographical errors can be"
+msgstr ""
+
+#. l10n: typo contact
+#: data//credits.stxt:1180
+msgid "reported to"
+msgstr ""
+
+#. l10n: typo contact, see <https://github.com/SuperTux/supertux/issues/611>
+#: data//credits.stxt:1185
+msgid "supertux-devel@lists.lethargik.org"
+msgstr ""
+
+#: data//credits.stxt:1192
+msgid "Want to help…"
+msgstr ""
+
+#: data//credits.stxt:1197
+msgid "…with localization?"
+msgstr ""
+
+#: data//credits.stxt:1207
+msgid "…with something else?"
+msgstr ""
+
+#: data//credits.stxt:1218
+msgid "Thank you for"
+msgstr ""
+
+#: data//credits.stxt:1222
+msgid "playing"
+msgstr ""
+
+#: data//credits.stxt:1232
+msgid "Penny awaits you in warmer temperatures!"
+msgstr ""
+
+#: data//images/engine/editor/objects.stoi:156
+msgid "Bosses"
+msgstr "Tum Manntjen"
+
+#: data//images/engine/editor/objects.stoi:167
+msgid "Projectiles"
+msgstr "Schöten"
+
+#: data//images/engine/editor/objects.stoi:181
+msgid "Environment"
+msgstr "Umgeven"
+
+#: data//images/ice_world.strf:6 data//images/tiles.strf:327
+#: data//images/worldmap.strf:67
+msgid "Forest"
+msgstr "Wald"
+
+#: data//images/ice_world.strf:106
+msgid "Ice Cave & Crystal"
+msgstr "Ieshöhl un Ieskluten"
+
+#: data//images/ice_world.strf:153
+msgid "Embellishments"
+msgstr "Zierraat"
+
+#: data//images/ice_world.strf:237
+msgid "Ice"
+msgstr "Ies"
+
+#: data//images/ice_world.strf:282 data//images/tiles.strf:693
+msgid "Castle"
+msgstr "Slött"
+
+#: data//images/ice_world.strf:328
+msgid "Pathing"
+msgstr "Padden"
+
+#: data//images/ice_world.strf:424
+msgid "Water"
+msgstr "Water"
+
+#: data//images/tiles.strf:19 data//images/worldmap.strf:41
+msgid "Snow"
+msgstr "Sneei"
+
+#: data//images/tiles.strf:124
+msgid "Snow Background"
+msgstr "Sneei-Achtergrund"
+
+#: data//images/tiles.strf:162
+msgid "Snow Mountain"
+msgstr "Sneeibarg"
+
+#: data//images/tiles.strf:236
+msgid "Crystal"
+msgstr "Ieskluten"
+
+#: data//images/tiles.strf:457
+msgid "Forest Background"
+msgstr "Wald-Achtergrund"
+
+#: data//images/tiles.strf:572
+msgid "Block + Bonus"
+msgstr "Block + Good"
+
+#: data//images/tiles.strf:618
+msgid "Pole + Signs"
+msgstr "Stock + Teken"
+
+#: data//images/tiles.strf:661
+msgid "Liquid"
+msgstr "Lobbe"
+
+#: data//images/tiles.strf:833 data//images/worldmap.strf:199
+msgid "Halloween"
+msgstr "Allerhilligen-Vöravend"
+
+#: data//images/tiles.strf:861
+msgid "Industrial"
+msgstr "Industre"
+
+#: data//images/tiles.strf:876
+msgid "Unisolid + Lightmap"
+msgstr ""
+
+#: data//images/tiles.strf:893
+msgid "Miscellaneous"
+msgstr "Verscheden"
+
+#: data//images/tiles.strf:927
+msgid "Old/Unused"
+msgstr "Oll/Nich bruukt"
+
+#: data//images/worldmap.strf:24
+msgid "Water paths"
+msgstr "Water-Padd"
+
+#: data//images/worldmap.strf:32
+msgid "Castle paths"
+msgstr "Slött-Padd"
+
+#: data//images/worldmap.strf:135
+msgid "Darker Forest"
+msgstr "Dunker Wald"
