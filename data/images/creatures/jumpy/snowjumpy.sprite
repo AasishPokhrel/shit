@@ -1,0 +1,90 @@
+(supertux-sprite
+ (action
+  (name "left-up")
+  (loops 1)
+  (fps 25)
+  (hitbox 7 8 32 40)
+  (images "snow_up-2.png"
+		  "snow_up-1.png"
+		  "snow_down-1.png"
+		  "snow_down-2.png"
+		  "snow_down-2.png"
+		  "snow_down-1.png"
+		  "snow_down-0.png"
+		  "snow_up-0.png"))
+
+ (action
+  (name "right-up")
+  (loops 1)
+  (fps 25)
+  (hitbox 9 8 32 40)
+  (mirror-action "left-up"))
+
+ (action
+  (name "left-down")
+  (hitbox 7 8 32 40)
+  (images "snow_up-3.png"))
+
+ (action
+  (name "right-down")
+  (hitbox 9 8 32 40)
+  (mirror-action "left-down"))
+
+ (action
+  (name "left-middle")
+  (hitbox 7 8 32 40)
+  (images "snow_up-3.png"))
+
+ (action
+  (name "right-middle")
+  (hitbox 9 8 32 40)
+  (mirror-action "left-middle"))
+
+ (action
+  (name "iced-left")
+  (hitbox 2 3 45 64)
+  (images "snow_up-0.png"))
+
+ (action
+  (name "iced-right")
+  (hitbox 4 3 45 64)
+  (mirror-action "iced-left"))
+
+ (action
+  (name "inside-melting-left")
+  (hitbox 7 8 32 40)
+  (fps 24)
+  (loops 1)
+  (images "snow_gear-0.png"
+		  "snow_gear-1.png"
+		  "snow_gear-2.png"
+		  "snow_gear-3.png"
+		  "snow_gear-4.png"))
+
+ (action
+  (name "inside-melting-right")
+  (hitbox 9 8 32 40)
+  (fps 24)
+  (loops 1)
+  (mirror-action "inside-melting-left"))
+
+ (action
+  (name "gear-left")
+  (hitbox 7 8 32 40)
+  (images "snow_gear-4.png"))
+
+ (action
+  (name "gear-right")
+  (hitbox 9 8 32 40)
+  (mirror-action "gear-left"))
+
+ (action
+  (name "editor-left")
+  (hitbox 7 8 32 40)
+  (images "snow_up-0.png"))
+
+ (action
+  (name "editor-right")
+  (hitbox 9 8 32 40)
+  (mirror-action "editor-left"))
+)

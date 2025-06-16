@@ -1,0 +1,99 @@
+#  SuperTux
+#  Copyright (C) 2023 Vankata453
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either version 3
+#  of the License, or (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+
+name: Scripting
+on:
+  push:
+    branches: [ "master" ]
+    paths:
+      - src/**
+      - tools/scripting_docs_gen/**
+  workflow_dispatch:
+
+jobs:
+  scripting-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Checkout the wiki repository
+        uses: actions/checkout@v4
+        with:
+          repository: SuperTux/wiki
+          path: wiki
+          fetch-depth: 1
+
+      - name: Install packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            cmake \
+            build-essential \
+            g++-9 \
+            libc++-dev \
+            libtinyxml2-dev \
+            doxygen
+
+      - name: Build scripting reference generator
+        working-directory: tools/scripting_docs_gen
+        run: |
+          cmake --version
+          mkdir build
+          cd build
+          cmake .. -DBUILD_DOCUMENTATION_WITH_SCRIPTING=ON -DCMAKE_POLICY_VERSION_MINIMUM=3.5
+          make
+
+      - name: Generate scripting reference
+        working-directory: tools/scripting_docs_gen/build
+        run: |
+          doxygen docs/Doxyfile
+          rm ../../../wiki/Scripting*.md
+          ./ScriptingDocsGen --dir docs/doxygen/xml \
+                             --home ../../../wiki/templates/ScriptingHome.md \
+                             --page ../../../wiki/templates/ScriptingPage.md \
+                             --output ../../../wiki
+
+      - name: Check for changes
+        working-directory: wiki
+        run: |
+          REF_UPDATED=true
+          if git diff --exit-code; then
+            REF_UPDATED=false
+          fi
+          echo "REFERENCE_UPDATED=$(echo $REF_UPDATED)" >> $GITHUB_ENV
+
+      - name: Install SSH key
+        if: ${{ env.REFERENCE_UPDATED == 'true' }}
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.wiki_repo_key }}
+          known_hosts: ${{ secrets.wiki_repo_hosts }}
+
+      - name: Push changes to wiki
+        if: ${{ env.REFERENCE_UPDATED == 'true' }}
+        working-directory: wiki
+        run: |
+          git --version
+          git status
+          git config --global user.email "SuperTux-bot@users.noreply.github.com"
+          git config --global user.name "SuperTux Bot"
+          git add .
+          git commit -m "Update scripting reference (SuperTux/supertux@${{ github.sha }})"
+          git push git@github.com:SuperTux/wiki.git HEAD:master

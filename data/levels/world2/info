@@ -1,0 +1,6 @@
+(supertux-world
+  (title (_ "Rooted Forest"))
+  (description "The second world of SuperTux.")
+  (hide-from-contribs #t)
+  (levelset #f)
+)

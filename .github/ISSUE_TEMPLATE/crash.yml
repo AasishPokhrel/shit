@@ -1,0 +1,76 @@
+name: Crash Report
+description: File a report for a crash in SuperTux.
+title: "[Crash]: "
+labels: ["type:crash"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this crash report!
+  - type: input
+    id: supertux-version
+    attributes:
+      label: SuperTux Version
+      description: The version of SuperTux, shown at the bottom-left corner on the title screen.
+      placeholder: ex. v0.6.3-1236-g7451121dd
+    validations:
+      required: true
+  - type: input
+    id: system-info
+    attributes:
+      label: System Information
+      description: Details about your operating system (such as Linux distribution or Windows version) and CPU architecture (ex. 64-bit or 32-bit).
+      placeholder: ex. Windows 11 64-bit
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps To Reproduce Crash
+      description: A clear and concise description of how the crash was achieved, since starting up the game.
+      placeholder: |
+        Describe the steps, leading to the crash, preferably with a numerated list.
+
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: debug-stacktrace
+    attributes:
+      label: Debugging Information (Stacktrace)
+      description: Include a stacktrace, leading to the crash. This can be obtained via a debugging utility.
+      placeholder: |
+        Paste the full stacktrace here.
+
+        You can leave this empty, in case a stacktrace can't be obtained (for example, if the game freezes).
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Include any additional information, regarding the crash.
+      placeholder: You can also leave this empty.
+    validations:
+      required: false
+  - type: checkboxes
+    id: guidelines
+    attributes:
+      label: Guidelines For Reporting Issues
+      description: "Before submitting this issue, make sure you have done the following:"
+      options:
+        - label: I have read <https://github.com/SuperTux/supertux/blob/master/CONTRIBUTING.md#bug-reports>.
+          required: true
+        - label: I have verified this isn't an issue that's already been reported.
+          required: true
+        - label: I have verified this isn't a [discussion](https://github.com/SuperTux/supertux/discussions), or an issue about unintended behavior or a feature request, but rather an actual crash ─ that is, the game closed unexpectedly.
+          required: true
+        - label: I have verified this issue is **not** about wrong translations (use Transifex for those), or anything unsupported (e.g. third-party add-ons).
+          required: true
+        - label: In this report, I have only included details about **one** (1) crash.
+          required: true
+        - label: If I make a mistake while submitting this report, I agree to use the "Edit" feature to correct it, instead of closing this issue and opening a new one.
+          required: true

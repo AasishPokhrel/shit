@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${INFOPLIST_CFBUNDLEEXECUTABLE}</string>
+	<key>CFBundleIconFile</key>
+	<string>SuperTux</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.googlecode.supertux2</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>SuperTux</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>STUX</string>
+	<key>CFBundleVersion</key>
+	<string>${SUPERTUX_VERSION_MAJOR}.${SUPERTUX_VERSION_MINOR}.${SUPERTUX_VERSION_PATCH}</string>
+	<key>CFBundleShortVersionString</key>
+	<string>${SUPERTUX_VERSION_MAJOR}.${SUPERTUX_VERSION_MINOR}.${SUPERTUX_VERSION_PATCH}</string>
+	<key>NSMainNibFile</key>
+	<string>SDLMain</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright 2002-2021 The SuperTux Team and contributors</string>
+</dict>
+</plist>

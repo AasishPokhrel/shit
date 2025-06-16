@@ -1,0 +1,43 @@
+(supertux-sprite
+  (action
+    (hitbox 14 10 62 78)
+    (name "left")
+	(fps 12)
+    (images 
+      "eye_glow-0.png"
+	  "eye_glow-1.png"
+	  "eye_glow-2.png"
+	  "eye_glow-3.png"
+	  "eye_glow-4.png"
+    )
+  )
+  (action
+    (hitbox 14 10 62 78)
+    (name "right")
+	(fps 12)
+    (mirror-action "left")
+  )
+  (action
+    (hitbox 14 10 62 78)
+    (name "burning-left")
+    (fps 15)
+    (images "eye_glow-0.png"
+    )
+  )
+  (action
+    (hitbox 14 10 62 78)
+    (fps 15)
+    (name "burning-right")
+    (mirror-action "burning-left")
+  )
+  (action
+    (hitbox 14 10 62 78)
+    (name "iced-left")
+    (images "eye_glow-0.png")
+  )
+  (action
+    (hitbox 14 10 62 78)
+    (name "iced-right")
+    (mirror-action "iced-left")
+  )
+)

@@ -1,0 +1,9 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (fps 1.0)
+  (images 
+    "bark-0.png"
+  )
+ )
+)

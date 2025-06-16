@@ -1,0 +1,5 @@
+(supertux-music
+  (file "chipdisko.ogg")
+  (loop-begin 0)
+  (loop-at    158)
+)

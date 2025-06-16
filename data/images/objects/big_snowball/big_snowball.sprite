@@ -1,0 +1,11 @@
+(supertux-sprite
+    (action
+      (name "default")
+	    (hitbox 6 6 87 84)
+      (images "big_snowball.png"))
+
+    (action
+      (name "particle")
+	    (hitbox 2 2 29 28)
+      (images "big_snowball_particle.png"))
+)

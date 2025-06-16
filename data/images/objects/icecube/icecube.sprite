@@ -1,0 +1,9 @@
+(supertux-sprite
+  (action
+  (name "default")
+  (hitbox 0 0 0 0)
+(fps 5)
+  (images 
+"icecube.png"
+))
+)

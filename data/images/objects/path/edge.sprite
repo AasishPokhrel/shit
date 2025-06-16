@@ -1,0 +1,5 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (hitbox 4 4 8 8)
+  (images "edge.png")))

@@ -1,0 +1,20 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 230 300 40 60)
+    (images 
+      "ghosttree-glow.png"
+    )
+  )
+  (action
+    (name "dying")
+    (hitbox 230 300 40 60)
+    (fps 4)
+    (images 
+      "ghosttree-glow-dying-0.png"
+      "ghosttree-glow-dying-0.png"
+      "ghosttree-glow-dying-0.png"
+      "ghosttree-glow-dying-0.png"
+    )
+  )
+)

@@ -1,0 +1,13 @@
+(supertux-sprite
+      (action 
+          (name "default")
+          (fps 15.0)
+          (images "retro_coin-0.png"
+                  "retro_coin-1.png"
+                  "retro_coin-2.png"
+                  "retro_coin-3.png"
+				  "retro_coin-4.png"
+				  "retro_coin-3.png"
+				  "retro_coin-2.png"
+				  "retro_coin-1.png"))
+)

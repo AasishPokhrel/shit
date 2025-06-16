@@ -1,0 +1,57 @@
+#  SuperTux
+#  Copyright (C) 2024 Tobias Markus
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either version 3
+#  of the License, or (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+
+name: translations
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 0 * * 0'
+
+jobs:
+  update-all-translations:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout SuperTux repository
+        uses: actions/checkout@v4
+        with:
+          repository: 'SuperTux/supertux'
+          fetch-depth: 1
+
+      - name: Update translations
+        env:
+          TX_TOKEN: ${{ secrets.TRANSIFEX_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          # Installs transifex client:
+          curl -o- https://raw.githubusercontent.com/transifex/cli/master/install.sh | bash
+          mv tx /usr/local/bin/tx
+
+          # Pull repository:
+          git fetch origin
+          git checkout master
+          git rebase origin/master
+
+          # Pull translations:
+          tx pull --use-git-timestamps -a -f
+
+          # Commit
+          git status
+          git config --global user.email "SuperTux-bot@users.noreply.github.com"
+          git config --global user.name "SuperTux Bot"
+          git add *.po || true
+          git commit -am "Update translations" || true
+          git push https://git:$GH_TOKEN@github.com/SuperTux/supertux.git master

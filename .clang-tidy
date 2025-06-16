@@ -1,0 +1,6 @@
+---
+Checks:          'clang-diagnostic-*,clang-analyzer-*,portability-*,performance-*,bugprone-*,misc-*,-misc-unused-parameters'
+WarningsAsErrors: '*,-bugprone-parent-virtual-call,-clang-analyzer-optin.cplusplus.VirtualCall'
+HeaderFilterRegex: 'src/.*hpp'
+AnalyzeTemporaryDtors: true
+...

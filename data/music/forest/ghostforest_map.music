@@ -1,0 +1,5 @@
+(supertux-music
+  (file "ghostforest_map.ogg")
+  (loop-begin 0)
+  (loop-at    236)
+)

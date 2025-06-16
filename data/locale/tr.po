@@ -1,0 +1,5403 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# IAN RODRÍGUEZ Lorenzo, 2022
+# Alkım Kaçmaz <alkimkacmaz@gmail.com>, 2013
+# Benjamin Leduc <giby_the_kid@yahoo.fr>, 2015
+# Emre ÖZKARTAL <emreaysel26@gmail.com>, 2016
+# Erdoğan Şahin, 2016
+# mahmut özcan <faradundamarti@yandex.com>, 2015-2016
+# IAN RODRÍGUEZ Lorenzo, 2022
+# mahmut özcan <mahmutozcan@protonmail.com>, 2020
+# root <penguen@linux.erciyes.edu.tr>, 2009
+# Tan Siret Akıncı <tanakinci2002@gmail.com>, 2021
+# 3909d6133b383976bde86621da215840_711025d, 2025
+# 9d4282795e87ad099e39d98812f1a822_ade2f01 <c3fa67bcf1b8b90bf10d2d5dae1637ab_127851>, 2013-2016
+# Yusuf Özsoy <yusufozsoy96@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2013-08-10 22:56+0000\n"
+"Last-Translator: 3909d6133b383976bde86621da215840_711025d, 2025\n"
+"Language-Team: Turkish (http://app.transifex.com/arctic-games/supertux/language/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/math/anchor_point.cpp:33
+msgid "Top Left"
+msgstr ""
+
+#: src/math/anchor_point.cpp:34
+msgid "Top"
+msgstr ""
+
+#: src/math/anchor_point.cpp:35
+msgid "Top Right"
+msgstr ""
+
+#: src/math/anchor_point.cpp:36 src/object/textscroller.cpp:349
+#: src/object/textscroller.cpp:353 src/supertux/menu/joystick_menu.cpp:73
+#: src/supertux/menu/keyboard_menu.cpp:38
+msgid "Left"
+msgstr "Sol"
+
+#: src/math/anchor_point.cpp:37
+msgid "Middle"
+msgstr ""
+
+#: src/math/anchor_point.cpp:38 src/object/textscroller.cpp:349
+#: src/object/textscroller.cpp:353 src/supertux/menu/joystick_menu.cpp:74
+#: src/supertux/menu/keyboard_menu.cpp:39
+msgid "Right"
+msgstr "Sağ"
+
+#: src/math/anchor_point.cpp:39
+msgid "Bottom Left"
+msgstr ""
+
+#: src/math/anchor_point.cpp:40
+msgid "Bottom"
+msgstr ""
+
+#: src/math/anchor_point.cpp:41
+msgid "Bottom Right"
+msgstr ""
+
+#: src/object/textscroller.cpp:343 src/object/music_object.cpp:92
+#: src/object/custom_particle_system_file.cpp:53
+#: src/supertux/menu/particle_editor_open.cpp:38
+msgid "File"
+msgstr "Dosya"
+
+#: src/object/textscroller.cpp:344
+msgid "Finish Script"
+msgstr "Komut Dosyasını Bitir"
+
+#: src/object/textscroller.cpp:345 src/object/spotlight.cpp:107
+#: src/object/bigsnowball.cpp:82 src/object/circleplatform.cpp:58
+#: src/object/rain_particle_system.cpp:100 src/object/conveyor_belt.cpp:63
+#: src/editor/node_marker.cpp:125 src/badguy/flame.cpp:110
+msgid "Speed"
+msgstr "Hız"
+
+#: src/object/textscroller.cpp:346
+msgid "X-offset"
+msgstr "X ofseti"
+
+#: src/object/textscroller.cpp:347
+msgid "Controllable"
+msgstr "Kontrol edilebilir"
+
+#: src/object/textscroller.cpp:348 src/trigger/text_area.cpp:144
+msgid "Anchor"
+msgstr "Çapa"
+
+#: src/object/textscroller.cpp:349 src/object/textscroller.cpp:353
+msgid "Center"
+msgstr "Merkez"
+
+#: src/object/textscroller.cpp:352
+msgid "Text Alignment"
+msgstr "Metin hizalama"
+
+#: src/object/bonus_block.hpp:62
+msgid "Bonus Block"
+msgstr "Bonus Bloğu"
+
+#: src/object/pneumatic_platform.cpp:159 src/object/moving_sprite.cpp:201
+msgid "Sprite"
+msgstr "Cin"
+
+#: src/object/pneumatic_platform.cpp:160 src/object/background.cpp:281
+#: src/object/bicycle_platform.cpp:201 src/supertux/moving_object.cpp:70
+#: src/supertux/menu/joystick_menu.cpp:170 src/worldmap/worldmap_object.cpp:77
+msgid "X"
+msgstr "X"
+
+#: src/object/pneumatic_platform.cpp:161 src/object/background.cpp:282
+#: src/object/bicycle_platform.cpp:202 src/supertux/moving_object.cpp:71
+#: src/supertux/menu/joystick_menu.cpp:172 src/worldmap/worldmap_object.cpp:78
+msgid "Y"
+msgstr "Y"
+
+#: src/object/conveyor_belt.hpp:47
+msgid "Conveyor Belt"
+msgstr ""
+
+#: src/object/wind.cpp:80 src/object/custom_particle_system.cpp:497
+msgid "Speed X"
+msgstr "X Hızı"
+
+#: src/object/wind.cpp:81 src/object/custom_particle_system.cpp:498
+msgid "Speed Y"
+msgstr "Y Hızı"
+
+#: src/object/wind.cpp:82
+msgid "Acceleration"
+msgstr "Hızlanma"
+
+#: src/object/wind.cpp:83
+msgid "Blowing"
+msgstr "Üfleme"
+
+#: src/object/wind.cpp:84
+msgid "Affects Badguys"
+msgstr "Efektler Kötü Adamlar"
+
+#: src/object/wind.cpp:85
+msgid "Affects Objects"
+msgstr "Nesneleri Etkiler"
+
+#: src/object/wind.cpp:86
+msgid "Affects Player"
+msgstr "Oyuncuyu Etkiler"
+
+#: src/object/wind.cpp:87
+msgid "Fancy Particles"
+msgstr "Süslü Parçacıklar"
+
+#: src/object/wind.cpp:88
+msgid "Particles Enabled"
+msgstr ""
+
+#: src/object/lit_object.hpp:46
+msgid "Lit object"
+msgstr ""
+
+#: src/object/weak_block.cpp:97 src/object/unstable_tile.cpp:70
+#: src/badguy/flame.cpp:86
+msgid "Ice"
+msgstr "Buz"
+
+#: src/object/weak_block.cpp:98
+msgid "Hay"
+msgstr ""
+
+#: src/object/weak_block.cpp:264 src/object/powerup.cpp:337
+msgid ""
+"Sprites no longer define the behaviour of the object.\n"
+"Object types are used instead."
+msgstr ""
+
+#: src/object/particle_zone.cpp:49 src/object/spotlight.cpp:104
+#: src/object/particlesystem.cpp:64
+#: src/supertux/menu/addon_preview_menu.cpp:201 src/badguy/darttrap.cpp:156
+msgid "Enabled"
+msgstr "Etkin"
+
+#: src/object/particle_zone.cpp:50
+msgid "Particle Name"
+msgstr "Parçacık Adı"
+
+#: src/object/particle_zone.cpp:61
+msgid "Spawn"
+msgstr "Yumurtlama"
+
+#: src/object/particle_zone.cpp:62
+msgid "Life zone"
+msgstr "Yaşam bölgesi"
+
+#: src/object/particle_zone.cpp:63
+msgid "Life zone (clear)"
+msgstr "Yaşam bölgesi (açık)"
+
+#: src/object/particle_zone.cpp:64
+msgid "Kill particles"
+msgstr "Parçacıkları öldür"
+
+#: src/object/particle_zone.cpp:65
+msgid "Clear particles"
+msgstr "Temiz parçacıklar"
+
+#: src/object/custom_particle_system.cpp:421
+msgid "Texture"
+msgstr "Doku"
+
+#: src/object/custom_particle_system.cpp:423
+#: src/object/cloud_particle_system.cpp:93
+msgid "Amount"
+msgstr "Miktar"
+
+#: src/object/custom_particle_system.cpp:424 src/object/circleplatform.cpp:59
+#: src/editor/particle_editor.cpp:141
+msgid "Delay"
+msgstr "Gecikme"
+
+#: src/object/custom_particle_system.cpp:425
+msgid "Lifetime"
+msgstr "Ömür"
+
+#: src/object/custom_particle_system.cpp:426
+msgid "Lifetime variation"
+msgstr "Ömür boyu varyasyon"
+
+#: src/object/custom_particle_system.cpp:427
+#: src/editor/particle_editor.cpp:164
+msgid "Birth mode"
+msgstr "Doğum modu"
+
+#: src/object/custom_particle_system.cpp:428
+#: src/object/custom_particle_system.cpp:463 src/object/gradient.cpp:113
+#: src/supertux/menu/joystick_menu.cpp:109
+#: src/supertux/menu/joystick_menu.cpp:213
+#: src/supertux/menu/keyboard_menu.cpp:81 src/gui/menu_string_array.cpp:40
+#: src/gui/menu_string_array.cpp:78 src/editor/object_settings.cpp:138
+#: src/editor/particle_editor.cpp:162 src/editor/particle_editor.cpp:168
+msgid "None"
+msgstr "Boş"
+
+#: src/object/custom_particle_system.cpp:428
+#: src/object/custom_particle_system.cpp:463
+#: src/trigger/sequence_trigger.cpp:55
+msgid "Fade"
+msgstr "Solma"
+
+#: src/object/custom_particle_system.cpp:428
+#: src/object/custom_particle_system.cpp:463
+#: src/editor/particle_editor.cpp:166
+msgid "Shrink"
+msgstr "Çekmek"
+
+#: src/object/custom_particle_system.cpp:432
+#: src/editor/particle_editor.cpp:172
+msgid "Birth easing"
+msgstr "Doğum kolaylığı"
+
+#: src/object/custom_particle_system.cpp:434
+#: src/object/custom_particle_system.cpp:469 src/editor/node_marker.cpp:129
+msgid "No easing"
+msgstr "Yumuşatma yok"
+
+#: src/object/custom_particle_system.cpp:435
+#: src/object/custom_particle_system.cpp:470 src/editor/node_marker.cpp:130
+msgid "Quad in"
+msgstr "Dört giriş"
+
+#: src/object/custom_particle_system.cpp:435
+#: src/object/custom_particle_system.cpp:470 src/editor/node_marker.cpp:130
+msgid "Quad out"
+msgstr "Dörtlü dışarı"
+
+#: src/object/custom_particle_system.cpp:435
+#: src/object/custom_particle_system.cpp:470 src/editor/node_marker.cpp:130
+msgid "Quad in/out"
+msgstr "Dörtlü giriş/çıkış"
+
+#: src/object/custom_particle_system.cpp:436
+#: src/object/custom_particle_system.cpp:471 src/editor/node_marker.cpp:131
+msgid "Cubic in"
+msgstr "Kübik giriş"
+
+#: src/object/custom_particle_system.cpp:436
+#: src/object/custom_particle_system.cpp:471 src/editor/node_marker.cpp:131
+msgid "Cubic out"
+msgstr "Kübik çıkış"
+
+#: src/object/custom_particle_system.cpp:436
+#: src/object/custom_particle_system.cpp:471 src/editor/node_marker.cpp:131
+msgid "Cubic in/out"
+msgstr "Kübik giriş/çıkış"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:132
+msgid "Quart in"
+msgstr "Çeyrek giriş"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:132
+msgid "Quart out"
+msgstr "Çeyrek dışarı"
+
+#: src/object/custom_particle_system.cpp:437
+#: src/object/custom_particle_system.cpp:472 src/editor/node_marker.cpp:132
+msgid "Quart in/out"
+msgstr "Çeyrek giriş/çıkış"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:133
+msgid "Quint in"
+msgstr "Kuint giriş"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:133
+msgid "Quint out"
+msgstr "Kuint çıkış"
+
+#: src/object/custom_particle_system.cpp:438
+#: src/object/custom_particle_system.cpp:473 src/editor/node_marker.cpp:133
+msgid "Quint in/out"
+msgstr "Kuint giriş/çıkış"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:134
+msgid "Sine in"
+msgstr "Sinüs girişi"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:134
+msgid "Sine out"
+msgstr "Sinüs çıkışı"
+
+#: src/object/custom_particle_system.cpp:439
+#: src/object/custom_particle_system.cpp:474 src/editor/node_marker.cpp:134
+msgid "Sine in/out"
+msgstr "Sinüs giriş/çıkış"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:135
+msgid "Circular in"
+msgstr "Dairesel giriş"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:135
+msgid "Circular out"
+msgstr "Dairesel çıkış"
+
+#: src/object/custom_particle_system.cpp:440
+#: src/object/custom_particle_system.cpp:475 src/editor/node_marker.cpp:135
+msgid "Circular in/out"
+msgstr "Dairesel giriş/çıkış"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:136
+msgid "Exponential in"
+msgstr "Üstel giriş"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:136
+msgid "Exponential out"
+msgstr "Üstel çıkış"
+
+#: src/object/custom_particle_system.cpp:441
+#: src/object/custom_particle_system.cpp:476 src/editor/node_marker.cpp:136
+msgid "Exponential in/out"
+msgstr "Üstel giriş/çıkış"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:137
+msgid "Elastic in"
+msgstr "Elastik giriş"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:137
+msgid "Elastic out"
+msgstr "Elastik dışarı"
+
+#: src/object/custom_particle_system.cpp:442
+#: src/object/custom_particle_system.cpp:477 src/editor/node_marker.cpp:137
+msgid "Elastic in/out"
+msgstr "Elastik giriş/çıkış"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:138
+msgid "Back in"
+msgstr "Geri giriş"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:138
+msgid "Back out"
+msgstr "Geri çekil"
+
+#: src/object/custom_particle_system.cpp:443
+#: src/object/custom_particle_system.cpp:478 src/editor/node_marker.cpp:138
+msgid "Back in/out"
+msgstr "Geri giriş/çıkış"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:139
+msgid "Bounce in"
+msgstr "İçeri sıçrama"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:139
+msgid "Bounce out"
+msgstr "Dışarı sıçrama"
+
+#: src/object/custom_particle_system.cpp:444
+#: src/object/custom_particle_system.cpp:479 src/editor/node_marker.cpp:139
+msgid "Bounce in/out"
+msgstr "İçeri/dışarı sıçrama"
+
+#: src/object/custom_particle_system.cpp:460
+msgid "Birth time"
+msgstr "Doğum zamanı"
+
+#: src/object/custom_particle_system.cpp:461
+msgid "Birth time variation"
+msgstr "Doğum zamanı değişimi"
+
+#: src/object/custom_particle_system.cpp:462
+#: src/editor/particle_editor.cpp:170
+msgid "Death mode"
+msgstr "Ölüm modu"
+
+#: src/object/custom_particle_system.cpp:467
+#: src/editor/particle_editor.cpp:173
+msgid "Death easing"
+msgstr "Ölüm kolaylaştırma"
+
+#: src/object/custom_particle_system.cpp:495
+msgid "Death time"
+msgstr "Ölüm vakti"
+
+#: src/object/custom_particle_system.cpp:496
+msgid "Death time variation"
+msgstr "Ölüm zamanı değişimi"
+
+#: src/object/custom_particle_system.cpp:499
+msgid "Speed X (variation)"
+msgstr "Hız X (varyasyon)"
+
+#: src/object/custom_particle_system.cpp:500
+msgid "Speed Y (variation)"
+msgstr "Hız Y (varyasyon)"
+
+#: src/object/custom_particle_system.cpp:501
+msgid "Acceleration X"
+msgstr "Hızlanma X"
+
+#: src/object/custom_particle_system.cpp:502
+msgid "Acceleration Y"
+msgstr "Hızlanma Y"
+
+#: src/object/custom_particle_system.cpp:503
+msgid "Friction X"
+msgstr "Sürtünme X"
+
+#: src/object/custom_particle_system.cpp:504
+msgid "Friction Y"
+msgstr "Sürtünme Y"
+
+#: src/object/custom_particle_system.cpp:505
+#: src/editor/particle_editor.cpp:189
+msgid "Feather factor"
+msgstr "Tüy faktörü"
+
+#: src/object/custom_particle_system.cpp:506
+msgid "Rotation"
+msgstr "Döndürme"
+
+#: src/object/custom_particle_system.cpp:507
+msgid "Rotation (variation)"
+msgstr "Döndürme (varyasyon)"
+
+#: src/object/custom_particle_system.cpp:508
+#: src/editor/particle_editor.cpp:195
+msgid "Rotation speed"
+msgstr "Dönme hızı"
+
+#: src/object/custom_particle_system.cpp:509
+msgid "Rotation speed (variation)"
+msgstr "Dönme hızı (varyasyon)"
+
+#: src/object/custom_particle_system.cpp:510
+#: src/editor/particle_editor.cpp:200
+msgid "Rotation acceleration"
+msgstr "Dönme ivmesi"
+
+#: src/object/custom_particle_system.cpp:511
+msgid "Rotation friction"
+msgstr "Dönme sürtünmesi"
+
+#: src/object/custom_particle_system.cpp:512
+#: src/editor/particle_editor.cpp:208
+msgid "Rotation mode"
+msgstr "Döndürme modu"
+
+#: src/object/custom_particle_system.cpp:513
+#: src/editor/particle_editor.cpp:206
+msgid "Fixed"
+msgstr "Sabit"
+
+#: src/object/custom_particle_system.cpp:513
+#: src/editor/particle_editor.cpp:205
+msgid "Facing"
+msgstr "Bakan"
+
+#: src/object/custom_particle_system.cpp:513
+#: src/editor/particle_editor.cpp:204
+msgid "Wiggling"
+msgstr "Kıpır kıpır"
+
+#: src/object/custom_particle_system.cpp:517
+#: src/editor/particle_editor.cpp:219
+msgid "Collision mode"
+msgstr "Çarpışma modu"
+
+#: src/object/custom_particle_system.cpp:518
+msgid "None (pass through)"
+msgstr "Yok (geçiş)"
+
+#: src/object/custom_particle_system.cpp:518
+msgid "Stick"
+msgstr "Sonsuza"
+
+#: src/object/custom_particle_system.cpp:518
+msgid "Stick Forever"
+msgstr "Sonsuza kadar sopa"
+
+#: src/object/custom_particle_system.cpp:518
+#: src/editor/particle_editor.cpp:214
+msgid "Bounce (heavy)"
+msgstr "Zıplama (ağır)"
+
+#: src/object/custom_particle_system.cpp:518
+#: src/editor/particle_editor.cpp:213
+msgid "Bounce (light)"
+msgstr "Sıçrama (hafif)"
+
+#: src/object/custom_particle_system.cpp:518
+msgid "Kill particle"
+msgstr "Parçacığı öldür"
+
+#: src/object/custom_particle_system.cpp:518
+msgid "Fade out particle"
+msgstr "Solmak parçacık"
+
+#: src/object/custom_particle_system.cpp:522
+msgid "Delete if off-screen"
+msgstr "Ekran dışındaysa sil"
+
+#: src/object/custom_particle_system.cpp:523
+#: src/editor/particle_editor.cpp:224
+msgid "Never"
+msgstr "Hiçbir zaman"
+
+#: src/object/custom_particle_system.cpp:523
+#: src/editor/particle_editor.cpp:223
+msgid "Only on exit"
+msgstr "Sadece çıkışta"
+
+#: src/object/custom_particle_system.cpp:523
+msgid "Always"
+msgstr "Hep"
+
+#: src/object/custom_particle_system.cpp:527
+msgid "Cover screen"
+msgstr "Kapak ekranı"
+
+#: src/object/unstable_tile.hpp:42
+msgid "Unstable Tile"
+msgstr "Dengesiz Karo"
+
+#: src/object/spawnpoint.hpp:48 src/badguy/willowisp.cpp:304
+#: src/worldmap/teleporter.cpp:48
+msgid "Spawnpoint"
+msgstr "Çoğalma noktası"
+
+#: src/object/pneumatic_platform.hpp:66
+msgid "Pneumatic Platform"
+msgstr "Havayla Çalışan Düzlem"
+
+#: src/object/coin.hpp:44 src/object/bonus_block.cpp:267
+msgid "Coin"
+msgstr "Altın"
+
+#: src/object/coin.hpp:100
+msgid "Heavy Coin"
+msgstr "Ağır Altın"
+
+#: src/object/tilemap.cpp:291 src/object/scripted_object.cpp:72
+#: src/object/decal.cpp:50
+msgid "Solid"
+msgstr "Katı"
+
+#: src/object/tilemap.cpp:292
+msgid "Resize offset x"
+msgstr "X kolunu yeniden boyutlandır"
+
+#: src/object/tilemap.cpp:293
+msgid "Resize offset y"
+msgstr "Y kolunu yeniden boyutlandır"
+
+#: src/object/tilemap.cpp:295 src/supertux/moving_object.cpp:67
+#: src/supertux/menu/editor_sector_menu.cpp:41
+msgid "Width"
+msgstr "Genişlik"
+
+#: src/object/tilemap.cpp:296 src/supertux/moving_object.cpp:68
+#: src/supertux/menu/editor_sector_menu.cpp:42
+msgid "Height"
+msgstr "Yükseklik"
+
+#: src/object/tilemap.cpp:298
+msgid "Alpha"
+msgstr "Alfa"
+
+#: src/object/tilemap.cpp:299
+msgid "Speed x"
+msgstr "X hızı"
+
+#: src/object/tilemap.cpp:300
+msgid "Speed y"
+msgstr "Y hızı"
+
+#: src/object/tilemap.cpp:301
+msgid "Tint"
+msgstr "Ton"
+
+#: src/object/tilemap.cpp:302 src/object/background.cpp:285
+#: src/object/spotlight.cpp:112 src/object/gradient.cpp:99
+#: src/object/thunderstorm.cpp:78 src/object/moving_sprite.cpp:202
+#: src/object/particlesystem.cpp:65
+msgid "Z-pos"
+msgstr "Z pozisyonu"
+
+#: src/object/tilemap.cpp:303 src/object/background.cpp:300
+#: src/object/gradient.cpp:106
+msgid "Draw target"
+msgstr "Hedef çiz"
+
+#: src/object/tilemap.cpp:304 src/object/background.cpp:301
+#: src/object/gradient.cpp:107 src/object/brick.cpp:59
+#: src/object/invisible_block.cpp:37 src/object/coin.cpp:69
+#: src/badguy/mrbomb.cpp:65 src/badguy/bouncing_snowball.cpp:97
+#: src/badguy/snowball.cpp:40 src/badguy/igel.cpp:194
+#: src/badguy/smartball.cpp:34 src/badguy/mrtree.cpp:50
+#: src/badguy/mriceblock.cpp:63 src/badguy/snail.cpp:70
+#: src/badguy/walkingleaf.cpp:35 src/badguy/kamikazesnowball.cpp:117
+#: src/badguy/viciousivy.cpp:44
+msgid "Normal"
+msgstr "Normal"
+
+#: src/object/tilemap.cpp:304 src/object/background.cpp:301
+#: src/object/gradient.cpp:107 data/images/ice_world.strf:895
+msgid "Lightmap"
+msgstr "Işık haritası"
+
+#: src/object/tilemap.cpp:309 src/object/camera.cpp:166
+#: src/object/path_gameobject.cpp:175 src/object/coin.cpp:327
+#: src/object/platform.cpp:78 src/object/path_gameobject.hpp:45
+#: src/badguy/willowisp.cpp:309
+msgid "Path"
+msgstr "Yolak"
+
+#: src/object/tilemap.cpp:310 src/object/coin.cpp:334
+#: src/object/platform.cpp:83 src/badguy/willowisp.cpp:310
+msgid "Starting Node"
+msgstr "Başlangıç ​​Düğümü"
+
+#: src/object/tilemap.cpp:312 src/object/coin.cpp:329
+msgid "Following path"
+msgstr "İzleyen yol"
+
+#: src/object/tilemap.cpp:315 src/object/camera.cpp:169
+#: src/object/coin.cpp:332 src/object/platform.cpp:79
+msgid "Path Mode"
+msgstr "Yol Kipi"
+
+#: src/object/tilemap.cpp:316 src/object/camera.cpp:170
+#: src/object/coin.cpp:333 src/object/platform.cpp:80
+#: src/badguy/willowisp.cpp:314
+msgid "Adapt Speed"
+msgstr "Hızı Uyarla"
+
+#: src/object/tilemap.cpp:317 src/object/thunderstorm.cpp:79
+#: src/object/platform.cpp:82 src/object/conveyor_belt.cpp:64
+msgid "Running"
+msgstr "Koşuyor"
+
+#: src/object/tilemap.cpp:318 src/object/camera.cpp:171
+#: src/object/coin.cpp:335 src/object/platform.cpp:84
+#: src/badguy/willowisp.cpp:315
+msgid "Handle"
+msgstr ""
+
+#: src/object/tilemap.cpp:321 src/supertux/menu/editor_tilegroup_menu.cpp:26
+#: src/editor/toolbox_widget.cpp:74
+msgid "Tiles"
+msgstr "Karolar"
+
+#: src/object/brick.hpp:34 src/object/unstable_tile.cpp:71
+msgid "Brick"
+msgstr "Tuğla"
+
+#: src/object/brick.hpp:71
+msgid "Heavy Brick"
+msgstr ""
+
+#: src/object/background.hpp:52
+msgid "Background"
+msgstr "Arkaplan "
+
+#: src/object/camera.cpp:161
+msgid "Mode"
+msgstr "Kip"
+
+#: src/object/camera.cpp:162
+msgid "normal"
+msgstr "normal"
+
+#: src/object/camera.cpp:162
+msgid "manual"
+msgstr "el ile"
+
+#: src/object/camera.cpp:162
+msgid "autoscroll"
+msgstr "otomatik kaydırma"
+
+#: src/object/circleplatform.hpp:35
+msgid "Circular Platform"
+msgstr "Dairesel Platform"
+
+#: src/object/background.cpp:284
+msgid "Fill"
+msgstr "Dolgu"
+
+#: src/object/background.cpp:286
+msgid "Alignment"
+msgstr "Hizalama"
+
+#: src/object/background.cpp:287 src/supertux/direction.cpp:61
+msgid "none"
+msgstr "yok"
+
+#: src/object/background.cpp:287 src/supertux/direction.cpp:63
+msgid "left"
+msgstr "sol"
+
+#: src/object/background.cpp:287 src/supertux/direction.cpp:65
+msgid "right"
+msgstr "sağ"
+
+#: src/object/background.cpp:287
+msgid "top"
+msgstr "üst"
+
+#: src/object/background.cpp:287
+msgid "bottom"
+msgstr "alt"
+
+#: src/object/background.cpp:290
+msgid "Scroll offset x"
+msgstr "X kolunu kaydır"
+
+#: src/object/background.cpp:291
+msgid "Scroll offset y"
+msgstr "Y kolunu kaydır"
+
+#: src/object/background.cpp:292
+msgid "Scroll speed x"
+msgstr "X hızını kaydır"
+
+#: src/object/background.cpp:293
+msgid "Scroll speed y"
+msgstr "Y hızını kaydır"
+
+#: src/object/background.cpp:294
+msgid "Parallax Speed x"
+msgstr "Paralaks Hızı x"
+
+#: src/object/background.cpp:295
+msgid "Parallax Speed y"
+msgstr "Paralaks Hızı y"
+
+#: src/object/background.cpp:296
+msgid "Top image"
+msgstr "Üst imge"
+
+#: src/object/background.cpp:297
+msgid "Image"
+msgstr "İmge"
+
+#: src/object/background.cpp:298
+msgid "Bottom image"
+msgstr "Alt imge"
+
+#: src/object/background.cpp:299
+msgid "Colour"
+msgstr "Renk"
+
+#: src/object/firefly.hpp:38
+msgid "Checkpoint"
+msgstr "Kontrol noktası"
+
+#: src/object/magicblock.hpp:42
+msgid "Magic Tile"
+msgstr "Sihirli Karo"
+
+#: src/object/infoblock.cpp:76 src/trigger/secretarea_trigger.cpp:57
+#: src/trigger/climbable.cpp:59 src/worldmap/teleporter.cpp:49
+#: src/worldmap/special_tile.cpp:74
+msgid "Message"
+msgstr "Mesaj"
+
+#: src/object/infoblock.cpp:78
+msgid "Front Color"
+msgstr "Ön Renk"
+
+#: src/object/infoblock.cpp:80
+msgid "Back Color"
+msgstr "Arka Renk"
+
+#: src/object/infoblock.cpp:82
+msgid "Roundness"
+msgstr ""
+
+#: src/object/infoblock.cpp:84
+msgid "Fade Transition"
+msgstr ""
+
+#: src/object/gradient.hpp:50
+msgid "Gradient"
+msgstr "Eğim"
+
+#: src/object/torch.cpp:96 src/object/candle.cpp:75
+msgid "Burning"
+msgstr "Yanıyor"
+
+#: src/object/torch.cpp:97 src/object/rublight.cpp:55
+#: src/object/lantern.cpp:62 src/object/spotlight.cpp:106
+#: src/object/candle.cpp:77 src/object/ambient_light.cpp:111
+#: src/object/magicblock.cpp:95 src/object/key.cpp:198
+#: src/badguy/willowisp.cpp:311 src/badguy/walking_candle.cpp:97
+msgid "Color"
+msgstr "Renk"
+
+#: src/object/custom_particle_system.hpp:54
+msgid "Custom Particles"
+msgstr "Özel Parçacıklar"
+
+#: src/object/bigsnowball.hpp:39
+msgid "Big Snowball"
+msgstr ""
+
+#: src/object/powerup.cpp:61
+msgid "Egg"
+msgstr "Yumurta"
+
+#: src/object/powerup.cpp:62
+msgid "Fire Flower"
+msgstr "Ateş Çiçeği"
+
+#: src/object/powerup.cpp:63
+msgid "Ice Flower"
+msgstr "Buz Çiçeği"
+
+#: src/object/powerup.cpp:64
+msgid "Air Flower"
+msgstr "Hava Çiçeği"
+
+#: src/object/powerup.cpp:65
+msgid "Earth Flower"
+msgstr ""
+
+#: src/object/powerup.cpp:66 src/object/bonus_block.cpp:268
+msgid "Star"
+msgstr "Yıldız"
+
+#: src/object/powerup.cpp:67
+msgid "Tux Doll"
+msgstr ""
+
+#: src/object/powerup.cpp:68
+msgid "Flip Potion"
+msgstr ""
+
+#: src/object/powerup.cpp:69
+msgid "Mints"
+msgstr ""
+
+#: src/object/powerup.cpp:70
+msgid "Coffee"
+msgstr ""
+
+#: src/object/powerup.cpp:71
+msgid "Herring"
+msgstr "Ringa"
+
+#: src/object/powerup.cpp:326 src/object/ispy.cpp:55
+#: src/object/bonus_block.cpp:264 src/object/bonus_block.cpp:268
+#: src/object/pushbutton.cpp:65 src/trigger/secretarea_trigger.cpp:58
+#: src/trigger/scripttrigger.cpp:51 src/trigger/door.cpp:79
+#: src/worldmap/special_tile.cpp:76
+msgid "Script"
+msgstr "Betik"
+
+#: src/object/powerup.cpp:327
+msgid "Disable gravity"
+msgstr "Yerçekimini etkisizleştir"
+
+#: src/object/ambient_sound.cpp:86 src/object/sound_object.hpp:41
+#: src/object/sound_object.cpp:70 src/supertux/menu/options_menu.cpp:146
+#: data/credits.stxt:367
+msgid "Sound"
+msgstr "Ses"
+
+#: src/object/ambient_sound.cpp:87
+msgid "Radius (in tiles)"
+msgstr ""
+
+#: src/object/ambient_sound.cpp:88 src/object/sound_object.cpp:71
+msgid "Volume"
+msgstr "Ses Düzeyi"
+
+#: src/object/fallblock.hpp:41
+msgid "Falling Platform"
+msgstr "Düşen Platform"
+
+#: src/object/powerup.hpp:55
+msgid "Powerup"
+msgstr "Güçlendirme"
+
+#: src/object/scripted_object.cpp:73
+msgid "Physics enabled"
+msgstr "Fizik etkin"
+
+#: src/object/scripted_object.cpp:74
+msgid "Visible"
+msgstr "Görünür"
+
+#: src/object/scripted_object.cpp:75 src/badguy/willowisp.cpp:305
+msgid "Hit script"
+msgstr "Vuruş senaryosu"
+
+#: src/object/weak_block.hpp:36
+msgid "Weak Tile"
+msgstr "Zayıf Döşeme"
+
+#: src/object/rain_particle_system.hpp:49
+msgid "Rain Particles"
+msgstr "Yağmur Parçacıkları"
+
+#: src/object/key.hpp:38
+msgid "Key"
+msgstr ""
+
+#: src/object/decal.hpp:49
+msgid "Decal"
+msgstr "Çıkart"
+
+#: src/object/cloud_particle_system.cpp:94
+msgid "Fog Opacity"
+msgstr "Sis Opaklığı"
+
+#: src/object/cloud_particle_system.cpp:95
+msgid "X Speed"
+msgstr "X Hızı"
+
+#: src/object/cloud_particle_system.cpp:96
+msgid "Y Speed"
+msgstr "Y Hızı"
+
+#: src/object/lit_object.cpp:70
+msgid "Light sprite"
+msgstr ""
+
+#: src/object/lit_object.cpp:72
+msgid "Sprite starting action"
+msgstr ""
+
+#: src/object/lit_object.cpp:73
+msgid "Light sprite starting action"
+msgstr ""
+
+#: src/object/lit_object.cpp:75
+msgid "Light sprite offset X"
+msgstr ""
+
+#: src/object/lit_object.cpp:76
+msgid "Light sprite offset Y"
+msgstr ""
+
+#: src/object/sticky_object.cpp:72 src/object/sticky_object.cpp:132
+msgid "Sticky"
+msgstr ""
+
+#: src/object/ispy.cpp:56 src/object/spotlight.cpp:108
+#: src/object/bigsnowball.cpp:81 src/object/gradient.cpp:101
+#: src/object/bumper.cpp:59 src/object/pushbutton.cpp:64
+#: src/object/conveyor_belt.cpp:62 src/trigger/switch.cpp:63
+#: src/badguy/badguy.cpp:1212 src/worldmap/spawn_point.cpp:79
+#: src/worldmap/special_tile.cpp:78
+msgid "Direction"
+msgstr "Yön"
+
+#: src/object/rublight.cpp:56
+msgid "Fading Speed"
+msgstr "Solma Hızı"
+
+#: src/object/rublight.cpp:57
+msgid "Glowing Strength"
+msgstr "Parlayan Güç"
+
+#: src/object/snow_particle_system.cpp:114
+msgid "Epsilon"
+msgstr ""
+
+#: src/object/snow_particle_system.cpp:115
+msgid "Spin Speed"
+msgstr ""
+
+#: src/object/snow_particle_system.cpp:116
+msgid "State Length"
+msgstr ""
+
+#: src/object/snow_particle_system.cpp:117
+msgid "Wind Speed"
+msgstr "Rüzgar Hızı"
+
+#: src/object/scripted_object.hpp:46
+msgid "Scripted Object"
+msgstr "Senaryolaştırılmış Nesne"
+
+#: src/object/custom_particle_system_file.hpp:39
+msgid "Custom Particles from file"
+msgstr "Dosyadan Özel Parçacıklar"
+
+#: src/object/spotlight.cpp:105 src/object/rain_particle_system.cpp:99
+msgid "Angle"
+msgstr "Açı"
+
+#: src/object/spotlight.cpp:109
+msgid "Clockwise"
+msgstr "Saat yönünde"
+
+#: src/object/spotlight.cpp:109
+msgid "Counter-clockwise"
+msgstr "Saat yönünün tersine"
+
+#: src/object/spotlight.cpp:109
+msgid "Stopped"
+msgstr "Durduruldu"
+
+#: src/object/camera.hpp:69
+msgid "Camera"
+msgstr "Kamera"
+
+#: src/object/thunderstorm.hpp:53
+msgid "Thunderstorm"
+msgstr "Boran"
+
+#: src/object/text_array_object.hpp:58
+msgid "Text array"
+msgstr "Metin dizisi"
+
+#: src/object/bigsnowball.cpp:83
+msgid "Break on impact?"
+msgstr ""
+
+#: src/object/bigsnowball.cpp:84
+msgid "Bounce?"
+msgstr ""
+
+#: src/object/text_object.hpp:52 src/gui/menu_string_array.cpp:77
+msgid "Text"
+msgstr ""
+
+#: src/object/bumper.hpp:38
+msgid "Bumper"
+msgstr "Tampon"
+
+#: src/object/candle.cpp:76
+msgid "Flicker"
+msgstr "Titreme"
+
+#: src/object/gradient.cpp:96
+msgid "Primary Colour"
+msgstr ""
+
+#: src/object/gradient.cpp:97
+msgid "Secondary Colour"
+msgstr ""
+
+#: src/object/gradient.cpp:102
+msgid "Vertical"
+msgstr "Dikey"
+
+#: src/object/gradient.cpp:102
+msgid "Horizontal"
+msgstr "Yatay"
+
+#: src/object/gradient.cpp:102
+msgid "Vertical (whole sector)"
+msgstr "Diket (tüm bölge)"
+
+#: src/object/gradient.cpp:102
+msgid "Horizontal (whole sector)"
+msgstr "Yatay (tüm bölge)"
+
+#: src/object/gradient.cpp:112
+msgid "Blend mode"
+msgstr "Karıştırma modu"
+
+#: src/object/gradient.cpp:113
+msgid "Blend"
+msgstr "Karıştır"
+
+#: src/object/gradient.cpp:113
+msgid "Additive"
+msgstr "Katkı"
+
+#: src/object/gradient.cpp:113
+msgid "Modulate"
+msgstr "Modüle et"
+
+#: src/object/ambient_sound.hpp:50
+msgid "Ambient Sound"
+msgstr "Ortam Sesi"
+
+#: src/object/brick.cpp:60 src/object/invisible_block.cpp:38
+#: src/object/bonus_block.cpp:175 src/object/coin.cpp:70
+msgid "Retro"
+msgstr ""
+
+#: src/object/brick.cpp:165
+msgid "Breakable"
+msgstr "Kırılabilir"
+
+#: src/object/rusty_trampoline.hpp:40
+msgid "Rusty Trampoline"
+msgstr "Paslı Trambolin"
+
+#: src/object/music_object.hpp:42 src/supertux/menu/options_menu.cpp:148
+#: data/credits.stxt:309
+msgid "Music"
+msgstr "Müzik"
+
+#: src/object/circleplatform.cpp:57 src/object/bicycle_platform.cpp:205
+#: src/badguy/crystallo.cpp:50 src/badguy/flame.cpp:109
+#: src/badguy/rcrystallo.cpp:83 src/badguy/fish_swimming.cpp:81
+msgid "Radius"
+msgstr "Yarıçap"
+
+#: src/object/rublight.hpp:34
+msgid "Rublight"
+msgstr "Hafif ovmak"
+
+#: src/object/rusty_trampoline.cpp:65
+msgid "Counter"
+msgstr "Sayaç"
+
+#: src/object/rusty_trampoline.cpp:66 src/object/trampoline.cpp:66
+msgid "Portable"
+msgstr "Taşınabilir"
+
+#: src/object/thunderstorm.cpp:80
+msgid "Interval"
+msgstr "Aralık"
+
+#: src/object/thunderstorm.cpp:81
+msgid "Strike Script"
+msgstr "Saldırı Senaryosu"
+
+#: src/object/rock.hpp:40 src/object/bonus_block.cpp:269
+msgid "Rock"
+msgstr "Rock"
+
+#: src/object/snow_particle_system.hpp:37
+msgid "Snow Particles"
+msgstr "Kar Parçacıkları"
+
+#: src/object/pushbutton.hpp:32 src/trigger/scripttrigger.cpp:52
+msgid "Button"
+msgstr "Düğme"
+
+#: src/object/trampoline.hpp:37 src/object/bonus_block.cpp:269
+msgid "Trampoline"
+msgstr "Trambolin"
+
+#: src/object/invisible_wall.hpp:37
+msgid "Invisible Wall"
+msgstr "Görünmez Duvar"
+
+#: src/object/infoblock.hpp:37
+msgid "Info Block"
+msgstr "Bilgi Bloğu"
+
+#: src/object/ispy.hpp:35
+msgid "Ispy"
+msgstr "Ispy"
+
+#: src/object/spotlight.hpp:59
+msgid "Spotlight"
+msgstr "Far"
+
+#: src/object/bicycle_platform.hpp:68
+msgid "Bicycle Platform"
+msgstr "Bisiklet Platformu"
+
+#: src/object/level_time.hpp:76
+msgid "Time Limit"
+msgstr "Zaman Sınırı"
+
+#: src/object/ambient_light.hpp:37
+msgid "Ambient Light"
+msgstr "Ortam Işığı"
+
+#: src/object/candle.hpp:43
+msgid "Candle"
+msgstr "Mum"
+
+#: src/object/particle_zone.hpp:38
+msgid "Particle zone"
+msgstr "Parçacık bölgesi"
+
+#: src/object/shard.hpp:35
+msgid "Shard"
+msgstr "Parça"
+
+#: src/object/particlesystem.hpp:65
+msgid "Particle system"
+msgstr "Parçacık sistemi"
+
+#: src/object/particlesystem_interactive.hpp:48
+msgid "Interactive particle system"
+msgstr "İnteraktif parçacık sistemi"
+
+#: src/object/level_time.cpp:55 src/supertux/statistics.cpp:304
+#: src/editor/node_marker.cpp:124
+msgid "Time"
+msgstr "Zaman"
+
+#: src/object/invisible_block.hpp:30
+msgid "Invisible Block"
+msgstr "Görünmez Öbek"
+
+#: src/object/lantern.hpp:38
+msgid "Lantern"
+msgstr "Işıldak"
+
+#: src/object/textscroller.hpp:46
+msgid "Text Scroller"
+msgstr "Metin Kaydırıcı"
+
+#: src/object/decal.cpp:51 src/supertux/menu/joystick_menu.cpp:76
+#: src/supertux/menu/keyboard_menu.cpp:41
+msgid "Action"
+msgstr "Eylem"
+
+#: src/object/platform.hpp:54
+msgid "Platform"
+msgstr "Düzlem"
+
+#: src/object/tilemap.hpp:68
+msgid "Tilemap"
+msgstr "Karo harita"
+
+#: src/object/bonus_block.cpp:154
+msgid "Only one custom object is allowed inside bonus blocks."
+msgstr ""
+
+#: src/object/bonus_block.cpp:172
+msgid "Blue"
+msgstr "Mavi"
+
+#: src/object/bonus_block.cpp:173
+msgid "Orange"
+msgstr "Turuncu"
+
+#: src/object/bonus_block.cpp:174
+msgid "Purple"
+msgstr ""
+
+#: src/object/bonus_block.cpp:265
+msgid "Count"
+msgstr "Sayı"
+
+#: src/object/bonus_block.cpp:266
+msgid "Content"
+msgstr "İçerik"
+
+#: src/object/bonus_block.cpp:267
+msgid "Growth (fire flower)"
+msgstr "Büyüme (ateş çiçeği)"
+
+#: src/object/bonus_block.cpp:267
+msgid "Growth (ice flower)"
+msgstr "Büyüme (buz çiçeği)"
+
+#: src/object/bonus_block.cpp:267
+msgid "Growth (air flower)"
+msgstr "Büyüme (hava çiçeği)"
+
+#: src/object/bonus_block.cpp:268
+msgid "Growth (earth flower)"
+msgstr "Büyüme (yer çiçeği)"
+
+#: src/object/bonus_block.cpp:268
+msgid "Growth (retro)"
+msgstr ""
+
+#: src/object/bonus_block.cpp:268
+msgid "Star (retro)"
+msgstr ""
+
+#: src/object/bonus_block.cpp:268
+msgid "Tux doll"
+msgstr "Tux kuklası"
+
+#: src/object/bonus_block.cpp:268
+msgid "Custom"
+msgstr "Özel"
+
+#: src/object/bonus_block.cpp:268
+msgid "Light"
+msgstr "Aydınlık"
+
+#: src/object/bonus_block.cpp:268
+msgid "Light (On)"
+msgstr "Işık (Açık)"
+
+#: src/object/bonus_block.cpp:269
+msgid "Portable trampoline"
+msgstr "Taşınabilir trambolin"
+
+#: src/object/bonus_block.cpp:269
+msgid "Coin rain"
+msgstr "Altın yağmuru"
+
+#: src/object/bonus_block.cpp:269
+msgid "Coin explosion"
+msgstr "Altın patlaması"
+
+#: src/object/bonus_block.cpp:269
+msgid "Potion"
+msgstr ""
+
+#: src/object/bonus_block.cpp:275
+msgid "Custom Content"
+msgstr "Özel İçerik"
+
+#: src/object/bonus_block.cpp:278
+msgid "Coin sprite"
+msgstr ""
+
+#: src/object/bicycle_platform.cpp:204
+msgid "Platforms"
+msgstr "Düzlemler"
+
+#: src/object/bicycle_platform.cpp:206
+msgid "Momentum change rate"
+msgstr "Momentum değişim oranı"
+
+#: src/object/cloud_particle_system.hpp:51
+msgid "Cloud Particles"
+msgstr "Bulut Parçacıkları"
+
+#: src/object/explosion.hpp:37
+msgid "Explosion"
+msgstr ""
+
+#: src/object/rock.cpp:77
+msgid "Small"
+msgstr ""
+
+#: src/object/rock.cpp:78
+msgid "Large"
+msgstr ""
+
+#: src/object/rock.cpp:288
+msgid "On-grab script"
+msgstr "Tutma senaryosu"
+
+#: src/object/rock.cpp:289
+msgid "On-ungrab script"
+msgstr "Bırakma senaryosu"
+
+#: src/object/wind.hpp:43
+msgid "Wind"
+msgstr "Rüzgar"
+
+#: src/object/coin.cpp:338 src/object/coin.cpp:374
+msgid "Collect script"
+msgstr "Toplama senaryosu"
+
+#: src/object/torch.hpp:47
+msgid "Torch"
+msgstr "Meşale"
+
+#: src/object/rain_particle_system.cpp:98
+msgid "Intensity"
+msgstr "Yoğunluk"
+
+#: src/object/conveyor_belt.cpp:65
+msgid "Length"
+msgstr ""
+
+#: src/object/ghost_particle_system.hpp:37
+msgid "Ghost Particles"
+msgstr "Hayalet parçacıkları"
+
+#: src/object/hurting_platform.hpp:31
+msgid "Hurting Platform"
+msgstr "Acıtma Platformu"
+
+#: src/object/unstable_tile.cpp:72
+msgid "Delayed"
+msgstr ""
+
+#: src/object/trampoline.cpp:67
+msgid "Stationary"
+msgstr ""
+
+#: src/trigger/climbable.hpp:46
+msgid "Climbable"
+msgstr "Tırmanılabilir"
+
+#: src/trigger/secretarea_trigger.cpp:47
+msgid "You found a secret area!"
+msgstr "Gizli bir yer buldun!"
+
+#: src/trigger/secretarea_trigger.cpp:55 src/supertux/game_object.cpp:111
+#: src/supertux/menu/profile_name_menu.cpp:39
+#: src/supertux/menu/editor_level_menu.cpp:33
+#: src/supertux/menu/editor_sector_menu.cpp:36
+#: src/supertux/menu/editor_new_levelset_menu.cpp:34
+#: src/supertux/menu/editor_levelset_menu.cpp:52
+msgid "Name"
+msgstr "Ad"
+
+#: src/trigger/secretarea_trigger.cpp:56
+msgid "Fade tilemap"
+msgstr "Soluk karo harita"
+
+#: src/trigger/scripttrigger.cpp:53
+msgid "Oneshot"
+msgstr "Tek atış"
+
+#: src/trigger/sequence_trigger.cpp:48
+msgid "Sequence"
+msgstr "Dizi"
+
+#: src/trigger/sequence_trigger.cpp:49
+msgid "end sequence"
+msgstr "bitiş sırası"
+
+#: src/trigger/sequence_trigger.cpp:49
+msgid "stop Tux"
+msgstr "Tux'u durdur"
+
+#: src/trigger/sequence_trigger.cpp:49
+msgid "fireworks"
+msgstr "havai fişek"
+
+#: src/trigger/sequence_trigger.cpp:53
+msgid "New worldmap spawnpoint"
+msgstr "Yeni dünya haritası doğuş noktası"
+
+#: src/trigger/sequence_trigger.cpp:54
+msgid "Worldmap fade tilemap"
+msgstr "Soluk karo dünya haritası"
+
+#: src/trigger/sequence_trigger.cpp:56 src/editor/particle_editor.cpp:161
+msgid "Fade in"
+msgstr "Güçlenme"
+
+#: src/trigger/sequence_trigger.cpp:56 src/editor/particle_editor.cpp:167
+#: src/editor/particle_editor.cpp:212
+msgid "Fade out"
+msgstr "Zayıflama"
+
+#: src/trigger/switch.hpp:30
+msgid "Switch"
+msgstr "Anahtar"
+
+#: src/trigger/secretarea_trigger.hpp:36
+msgid "Secret Area"
+msgstr "Gizli Alan"
+
+#: src/trigger/door.cpp:80 src/badguy/willowisp.cpp:303
+#: src/worldmap/teleporter.cpp:47
+msgid "Sector"
+msgstr "Bölüm"
+
+#: src/trigger/door.cpp:81 src/worldmap/spawn_point.hpp:58
+msgid "Spawn point"
+msgstr "Yumurtlama noktası"
+
+#: src/trigger/door.cpp:82
+msgid "Locked?"
+msgstr ""
+
+#: src/trigger/door.cpp:83
+msgid "Lock Color"
+msgstr ""
+
+#: src/trigger/switch.cpp:66
+msgid "Turn on script"
+msgstr "Komut dizisini aç"
+
+#: src/trigger/switch.cpp:67
+msgid "Turn off script"
+msgstr "Komut dizisini kapat"
+
+#: src/trigger/sequence_trigger.hpp:31
+msgid "Sequence Trigger"
+msgstr "Ardışık Tetikleyici"
+
+#: src/trigger/text_area.cpp:141
+msgid "Once"
+msgstr ""
+
+#: src/trigger/text_area.cpp:142
+msgid "Text change time"
+msgstr ""
+
+#: src/trigger/text_area.cpp:143
+msgid "Fade time"
+msgstr ""
+
+#: src/trigger/text_area.cpp:148
+msgid "Anchor offset X"
+msgstr ""
+
+#: src/trigger/text_area.cpp:149
+msgid "Anchor offset Y"
+msgstr ""
+
+#: src/trigger/text_area.cpp:150
+msgid "Texts"
+msgstr ""
+
+#: src/trigger/scripttrigger.hpp:29
+msgid "Script Trigger"
+msgstr "Betik Tetikleyici"
+
+#: src/trigger/door.hpp:31
+msgid "Door"
+msgstr "Kapı"
+
+#: src/trigger/text_area.hpp:47
+msgid "Text Area"
+msgstr ""
+
+#: src/supertux/sector.cpp:514
+msgid "Press escape to skip"
+msgstr "Atlamak için escape'e basın"
+
+#: src/supertux/game_object.hpp:122
+msgid "Unknown object"
+msgstr "Bilinmeyen nesne"
+
+#: src/supertux/levelintro.cpp:137
+msgid "contributed by {}"
+msgstr "{} tarafından katkıda bulunuldu"
+
+#: src/supertux/levelintro.cpp:175 src/supertux/statistics.cpp:192
+msgid "Best Level Statistics"
+msgstr "En İyi Bölüm İstatistikleri"
+
+#: src/supertux/levelintro.cpp:184 src/supertux/statistics.cpp:320
+msgid "Coins"
+msgstr "Altın"
+
+#: src/supertux/levelintro.cpp:190
+msgid "Badguys killed"
+msgstr "Öldürülen kötü adamlar"
+
+#: src/supertux/levelintro.cpp:196 src/supertux/statistics.cpp:371
+msgid "Secrets"
+msgstr "Gizli yerler"
+
+#: src/supertux/levelintro.cpp:202
+msgid "Best time"
+msgstr "En iyi zaman"
+
+#: src/supertux/levelintro.cpp:206
+msgid "Level target time"
+msgstr "Bölüm hedef zamanı"
+
+#: src/supertux/direction.cpp:67
+msgid "up"
+msgstr "yukarı"
+
+#: src/supertux/direction.cpp:69
+msgid "down"
+msgstr "aşağı"
+
+#: src/supertux/direction.cpp:76 src/supertux/menu/options_menu.cpp:268
+#: src/supertux/menu/options_menu.cpp:311
+msgid "auto"
+msgstr "otomatik"
+
+#: src/supertux/statistics.cpp:70
+msgid "Enable Coins Statistic"
+msgstr ""
+
+#: src/supertux/statistics.cpp:71
+msgid "Enable Badguys Statistic"
+msgstr ""
+
+#: src/supertux/statistics.cpp:72
+msgid "Enable Secrets Statistic"
+msgstr "Gizli İstatistikleri Etkinleştir"
+
+#: src/supertux/statistics.cpp:93
+msgid "Max coins collected:"
+msgstr "Toplanan en fazla altın:"
+
+#: src/supertux/statistics.cpp:94
+msgid "Max fragging:"
+msgstr "En çok can kaybı:"
+
+#: src/supertux/statistics.cpp:95
+msgid "Max secrets found:"
+msgstr "Bulunan en fazla gizli yer:"
+
+#: src/supertux/statistics.cpp:96
+msgid "Best time completed:"
+msgstr "En iyi tamamlama zamanı:"
+
+#: src/supertux/statistics.cpp:97
+msgid "Level target time:"
+msgstr "Bölüm hedef zamanı:"
+
+#: src/supertux/statistics.cpp:294
+msgid "You"
+msgstr "Sen"
+
+#: src/supertux/statistics.cpp:296
+msgid "Best"
+msgstr "En iyi"
+
+#: src/supertux/statistics.cpp:348
+msgid "Badguys"
+msgstr "Kötü adamlar"
+
+#: src/supertux/command_line_arguments.cpp:92
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr ""
+
+#: src/supertux/command_line_arguments.cpp:93
+msgid "General Options:"
+msgstr "Genel Seçenekler:"
+
+#: src/supertux/command_line_arguments.cpp:94
+msgid "  -h, --help                   Show this help message and quit"
+msgstr "  -h, --help                   Yardım mesajını göster ve kapat"
+
+#: src/supertux/command_line_arguments.cpp:95
+msgid "  -v, --version                Show SuperTux version and quit"
+msgstr "  -v, --version                SuperTux sürüm numarasını göster ve kapat"
+
+#: src/supertux/command_line_arguments.cpp:96
+msgid "  --verbose                    Print verbose messages"
+msgstr "  --verbose                    Ayrıntılı mesajları yazdır"
+
+#: src/supertux/command_line_arguments.cpp:97
+msgid "  --debug                      Print extra verbose messages"
+msgstr "  --debug                      Ek mesajları yazdır"
+
+#: src/supertux/command_line_arguments.cpp:98
+msgid ""
+"  --print-datadir              Print SuperTux's primary data directory."
+msgstr "  --print-datadir              Supertux'un birincil veri klasörünü yazdır."
+
+#: src/supertux/command_line_arguments.cpp:99
+msgid ""
+"  --acknowledgements           Print the licenses of libraries used by "
+"SuperTux."
+msgstr "--acknowledgements             SuperTux tarafından kullanılan kitaplıkların lisanslarını yazdırın."
+
+#: src/supertux/command_line_arguments.cpp:101
+msgid "Video Options:"
+msgstr "Video Seçenekleri:"
+
+#: src/supertux/command_line_arguments.cpp:102
+msgid "  -f, --fullscreen             Run in fullscreen mode"
+msgstr "  -f, --fullscreen             Tam ekran modunda çalışacak"
+
+#: src/supertux/command_line_arguments.cpp:103
+msgid "  -w, --window                 Run in window mode"
+msgstr "  -w, --window                 Pencere modunda çalışacak"
+
+#: src/supertux/command_line_arguments.cpp:104
+msgid "  -g, --geometry WIDTHxHEIGHT  Run SuperTux in given resolution"
+msgstr "  -g, --geometry GENİŞLİKxYÜKSEKLİK  SuperTux u verilen çözünürlükte çalıştır"
+
+#: src/supertux/command_line_arguments.cpp:105
+msgid "  -a, --aspect WIDTH:HEIGHT    Run SuperTux with given aspect ratio"
+msgstr "  -a, --aspect GENİŞLİK:YÜKSEKLİK    SuperTux u verilen en boy oranında çalıştır"
+
+#: src/supertux/command_line_arguments.cpp:106
+msgid "  -d, --default                Reset video settings to default values"
+msgstr "  -d, --default                Video ayarlarını varsayılan ayarlara çevir"
+
+#: src/supertux/command_line_arguments.cpp:107
+msgid "  --renderer RENDERER          Use sdl, opengl, or auto to render"
+msgstr "  --renderer RENDERER          sdl, opengl, veya otomatik bir işleyici kullan"
+
+#: src/supertux/command_line_arguments.cpp:109
+msgid "Audio Options:"
+msgstr "Ses Seçenekleri:"
+
+#: src/supertux/command_line_arguments.cpp:110
+msgid "  --disable-sound              Disable sound effects"
+msgstr "  --disable-sound              Ses efektlerini devre dışı bırak"
+
+#: src/supertux/command_line_arguments.cpp:111
+msgid "  --disable-music              Disable music"
+msgstr "  --disable-music              Müziği devre dışı bırak"
+
+#: src/supertux/command_line_arguments.cpp:113
+msgid "Game Options:"
+msgstr "Oyun Seçenekleri:"
+
+#: src/supertux/command_line_arguments.cpp:114
+msgid "  --edit-level                 Open given level in editor"
+msgstr "  --edit-level                 Düzenleyicide verilen düzeyi aç"
+
+#: src/supertux/command_line_arguments.cpp:115
+msgid "  --resave                     Loads given level and saves it"
+msgstr "  --resave                     Verilen seviyeyi yükler ve kaydeder"
+
+#: src/supertux/command_line_arguments.cpp:116
+msgid "  --show-fps                   Display framerate in levels"
+msgstr "  --show-fps                   Bölümlerde ekran tazeleme hızını göster"
+
+#: src/supertux/command_line_arguments.cpp:117
+msgid "  --no-show-fps                Do not display framerate in levels"
+msgstr "  --no-show-fps                Bölümlerde ekran tazeleme hızını gösterme"
+
+#: src/supertux/command_line_arguments.cpp:118
+msgid "  --show-pos                   Display player's current position"
+msgstr "--show-pos Oyuncunun şu anki konumunu göster "
+
+#: src/supertux/command_line_arguments.cpp:119
+msgid "  --no-show-pos                Do not display player's position"
+msgstr "--no-show-pos Oyuncunun konumunu gösterme"
+
+#: src/supertux/command_line_arguments.cpp:120
+msgid "  --developer                  Switch on developer feature"
+msgstr "  --developer                  Geliştirici seçeneklerini aç"
+
+#: src/supertux/command_line_arguments.cpp:121
+msgid "  -s, --debug-scripts          Enable script debugger."
+msgstr "  -s, --debug-scripts          Hata ayıklama scripti etkinleştir."
+
+#: src/supertux/command_line_arguments.cpp:122
+msgid ""
+"  --spawn-pos X,Y              Where in the level to spawn Tux. Only used if"
+" level is specified."
+msgstr "  --spawn-pos X,Y              Tux'u doğurmak için seviyenin neresinde. Yalnızca seviye belirtilmişse kullanılır."
+
+#: src/supertux/command_line_arguments.cpp:123
+msgid "  --sector SECTOR              Spawn Tux in SECTOR\n"
+msgstr "  --sector SECTOR              SECTOR de Tux Yeniden Piçleştirme\n"
+
+#: src/supertux/command_line_arguments.cpp:124
+msgid "  --spawnpoint SPAWNPOINT      Spawn Tux at SPAWNPOINT\n"
+msgstr "  --spawnpoint SPAWNPOINT      SPAWNPOINT te Tux'u Yeniden Doğ\n"
+
+#: src/supertux/command_line_arguments.cpp:126
+msgid "Directory Options:"
+msgstr "Dizin Seçenekleri:"
+
+#: src/supertux/command_line_arguments.cpp:127
+msgid ""
+"  --datadir DIR                Set the directory for the games datafiles"
+msgstr "  --datadir DIR                Oyun veri dosyaları klasörünü ayarla"
+
+#: src/supertux/command_line_arguments.cpp:128
+msgid ""
+"  --userdir DIR                Set the directory for user data (savegames, "
+"etc.)"
+msgstr "  --userdir DIR               Kullanıcı veri klasörünü ayarla (oyun kayıtları, vs.)"
+
+#: src/supertux/command_line_arguments.cpp:130
+msgid "Add-On Options:"
+msgstr "Eklenti Seçenekleri:"
+
+#: src/supertux/command_line_arguments.cpp:131
+msgid "  --repository-url URL         Set the URL to the Add-On repository"
+msgstr "  --repository-url URL         URL'yi Eklenti deposuna ayarlayın"
+
+#: src/supertux/command_line_arguments.cpp:133
+msgid "Environment variables:"
+msgstr "Çevre Değişkenleri:"
+
+#: src/supertux/command_line_arguments.cpp:134
+msgid ""
+"  SUPERTUX2_USER_DIR           Directory for user data (savegames, etc.)"
+msgstr "  SUPERTUX2_USER_DIR           Kullanıcı veri klasörü (oyun kayıtları, vs.)"
+
+#: src/supertux/command_line_arguments.cpp:135
+msgid "  SUPERTUX2_DATA_DIR           Directory for the games datafiles"
+msgstr "  SUPERTUX2_DATA_DIR           Oyun veri dosyaları klasörü"
+
+#: src/supertux/main.cpp:802
+msgid "New release: SuperTux v{}!"
+msgstr ""
+
+#: src/supertux/main.cpp:805
+msgid ""
+"A new release of SuperTux (v{}) is available!\n"
+"For more information, you can visit the SuperTux website.\n"
+"\n"
+"Do you want to visit the website now?"
+msgstr ""
+
+#: src/supertux/main.cpp:816
+msgid "Checking for new releases..."
+msgstr "Yeni sürümler kontrol ediliyor..."
+
+#: src/supertux/game_object.cpp:110
+msgid "Version"
+msgstr ""
+
+#: src/supertux/game_object.cpp:125
+#: src/supertux/menu/editor_levelset_menu.cpp:54
+msgid "Type"
+msgstr "Tip"
+
+#: src/supertux/tile_set.cpp:139
+msgid "Others"
+msgstr "Diğerleri"
+
+#: src/supertux/menu/worldmap_menu.cpp:28
+msgid "Pause"
+msgstr "Duraklat"
+
+#: src/supertux/menu/worldmap_menu.cpp:30 src/supertux/menu/game_menu.cpp:51
+msgid "Continue"
+msgstr "Devam et"
+
+#: src/supertux/menu/worldmap_menu.cpp:31 src/supertux/menu/game_menu.cpp:58
+#: src/supertux/menu/editor_menu.cpp:70
+#: src/supertux/menu/options_select_menu.cpp:29
+#: src/supertux/menu/main_menu.cpp:62
+msgid "Options"
+msgstr "Seçenekler"
+
+#: src/supertux/menu/worldmap_menu.cpp:33
+msgid "Leave World"
+msgstr "Dünyayı Terk Et"
+
+#: src/supertux/menu/worldmap_cheat_apply_menu.cpp:32
+#: src/supertux/menu/cheat_apply_menu.cpp:30
+msgid "Apply cheat to player"
+msgstr ""
+
+#: src/supertux/menu/worldmap_cheat_apply_menu.cpp:36
+#: src/supertux/menu/cheat_apply_menu.cpp:36
+#: src/supertux/menu/multiplayer_players_menu.cpp:39
+#: src/supertux/menu/multiplayer_player_menu.cpp:37
+#: src/supertux/menu/keyboard_menu.cpp:64
+msgid "Player {}"
+msgstr ""
+
+#: src/supertux/menu/worldmap_cheat_apply_menu.cpp:39
+#: src/supertux/menu/web_asset_menu.cpp:48
+#: src/supertux/menu/editor_levelset_select_menu.cpp:115
+#: src/supertux/menu/addon_preview_menu.cpp:205
+#: src/supertux/menu/cheat_apply_menu.cpp:40
+#: src/supertux/menu/editor_level_select_menu.cpp:98
+#: src/supertux/menu/profile_name_menu.cpp:45
+#: src/supertux/menu/custom_menu_menu.cpp:65
+#: src/supertux/menu/joystick_menu.cpp:100
+#: src/supertux/menu/language_menu.cpp:63
+#: src/supertux/menu/multiplayer_menu.cpp:39
+#: src/supertux/menu/multiplayer_players_menu.cpp:94
+#: src/supertux/menu/multiplayer_player_menu.cpp:187
+#: src/supertux/menu/debug_menu.cpp:85
+#: src/supertux/menu/sorted_contrib_menu.cpp:51
+#: src/supertux/menu/options_select_menu.cpp:44
+#: src/supertux/menu/cheat_menu.cpp:57
+#: src/supertux/menu/addon_file_install_menu.cpp:36
+#: src/supertux/menu/editor_converters_menu.cpp:79
+#: src/supertux/menu/integrations_menu.cpp:60
+#: src/supertux/menu/addon_browse_menu.cpp:162
+#: src/supertux/menu/keyboard_menu.cpp:72
+#: src/supertux/menu/editor_new_levelset_menu.cpp:40
+#: src/supertux/menu/profile_menu.cpp:118
+#: src/supertux/menu/world_set_menu.cpp:33
+#: src/supertux/menu/contrib_levelset_menu.cpp:67
+#: src/supertux/menu/video_system_menu.cpp:45
+#: src/supertux/menu/contrib_menu.cpp:105
+#: src/supertux/menu/options_menu.cpp:245
+#: src/supertux/menu/editor_delete_level_menu.cpp:68
+#: src/supertux/menu/addon_menu.cpp:161
+#: src/supertux/menu/worldmap_cheat_menu.cpp:57
+#: src/supertux/menu/worldmap_cheat_menu.cpp:185
+#: src/supertux/menu/editor_delete_levelset_menu.cpp:69
+#: src/gui/menu_paths.cpp:67
+msgid "Back"
+msgstr "Geri"
+
+#: src/supertux/menu/web_asset_menu.cpp:38 src/supertux/menu/main_menu.cpp:60
+msgid "Manage Assets"
+msgstr "Varlıkları Yönetme"
+
+#: src/supertux/menu/web_asset_menu.cpp:42
+msgid "New files location"
+msgstr "Yeni dosya konumu"
+
+#: src/supertux/menu/web_asset_menu.cpp:43
+msgid "Add Files"
+msgstr "Dosya Ekle"
+
+#: src/supertux/menu/web_asset_menu.cpp:44
+msgid "Download Files"
+msgstr "Dosyaları indir"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:72
+msgid "Choose World"
+msgstr "Dünyayı Seç"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:100
+msgid "{} level"
+msgid_plural "{} levels"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:113
+msgid "Create World"
+msgstr "Dünya Yarat"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:114
+#: src/supertux/menu/editor_delete_levelset_menu.cpp:41
+msgid "Delete World"
+msgstr "Dünyayı Sil"
+
+#: src/supertux/menu/addon_preview_menu.cpp:87
+msgid "{} \"{}\""
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:92
+msgid "Some information about this add-on is not available."
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:93
+msgid "Perform a \"Check Online\" to try retrieving it."
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:97
+msgid "No author specified."
+msgstr "Yazar belirtilmemiş."
+
+#: src/supertux/menu/addon_preview_menu.cpp:97
+msgid "Author: {}"
+msgstr "Yazar: {}"
+
+#: src/supertux/menu/addon_preview_menu.cpp:98
+msgid "Type: {}"
+msgstr "Tip: {}"
+
+#: src/supertux/menu/addon_preview_menu.cpp:99
+msgid "No license specified."
+msgstr "Lisans belirtilmedi."
+
+#: src/supertux/menu/addon_preview_menu.cpp:99
+msgid "License: {}"
+msgstr "Lisans: {}"
+
+#: src/supertux/menu/addon_preview_menu.cpp:104
+msgid "Dependencies:"
+msgstr "Bağımlılıklar:"
+
+#: src/supertux/menu/addon_preview_menu.cpp:113
+msgid "Installed"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:113
+msgid "Not installed"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:118
+msgid "Not available!"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:125
+msgid "Description:"
+msgstr "Açıklama:"
+
+#: src/supertux/menu/addon_preview_menu.cpp:128
+msgid "No description available."
+msgstr "Açıklama bulunamadı."
+
+#: src/supertux/menu/addon_preview_menu.cpp:141
+msgid "Overrides Data: "
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:141
+#: src/supertux/menu/editor_level_select_menu.cpp:181
+#: src/supertux/menu/editor_level_menu.cpp:40 src/gui/dialog.hpp:96
+#: src/editor/editor.cpp:671
+msgid "Yes"
+msgstr "Evet"
+
+#: src/supertux/menu/addon_preview_menu.cpp:141
+#: src/supertux/menu/editor_level_select_menu.cpp:185
+#: src/supertux/menu/editor_level_menu.cpp:40 src/gui/dialog.hpp:97
+#: src/editor/particle_editor.cpp:781 src/editor/editor.cpp:678
+msgid "No"
+msgstr "Hayır"
+
+#: src/supertux/menu/addon_preview_menu.cpp:155
+msgid "Failed to load all available screenshot previews."
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:160
+msgid "To fetch add-on screenshots, you must enable networking."
+msgstr "Eklenti ekran görüntülerini almak için ağ bağlantısını etkinleştirmeniz gerekir."
+
+#: src/supertux/menu/addon_preview_menu.cpp:164
+msgid "Show screenshots"
+msgstr "Ekran görüntülerini göster"
+
+#: src/supertux/menu/addon_preview_menu.cpp:177
+msgid "Screenshot previews are disabled for automatic installs."
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:181
+msgid "No screenshot previews available."
+msgstr "Ekran görüntüsü önizlemesi mevcut değil."
+
+#: src/supertux/menu/addon_preview_menu.cpp:189
+#: src/gui/menu_string_array.cpp:81 src/editor/object_menu.cpp:61
+msgid "Update"
+msgstr "Güncelleştir"
+
+#: src/supertux/menu/addon_preview_menu.cpp:189
+msgid "Install"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:202
+msgid "Uninstall"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:226
+msgid "Are you sure you want to uninstall \"{}\"?"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:227
+msgid ""
+"\n"
+"Your progress won't be lost."
+msgstr "\nİlerlemeniz kaybolmayacak."
+
+#: src/supertux/menu/addon_preview_menu.cpp:239
+msgid ""
+"NOTE: The add-on \"{}\" is a dependency of {} other installed {}.\n"
+"Are you sure you wish to uninstall?"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:258
+msgid ""
+"Cannot toggle add-on \"{}\":\n"
+"{}"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:291
+msgid "Fetching screenshot previews..."
+msgstr "Ekran görüntüsü önizlemeleri getiriliyor..."
+
+#: src/supertux/menu/addon_preview_menu.cpp:312
+msgid "Updating"
+msgstr ""
+
+#: src/supertux/menu/addon_preview_menu.cpp:312
+msgid "Downloading"
+msgstr "İndiriliyor"
+
+#: src/supertux/menu/addon_preview_menu.cpp:340
+msgid "Add-on uninstalled successfully."
+msgstr "Eklenti başarıyla kaldırıldı."
+
+#: src/supertux/menu/addon_preview_menu.cpp:345
+msgid ""
+"Error uninstalling add-on:\n"
+"{}"
+msgstr "Eklenti kaldırılırken hata oluştu:\n{}"
+
+#: src/supertux/menu/addon_preview_menu.cpp:373
+msgid ""
+"Please restart SuperTux\n"
+"for these changes to take effect."
+msgstr "Supertuxu yeniden başlatın lütfen\ndeğişikliklerin etkili olması için."
+
+#: src/supertux/menu/cheat_apply_menu.cpp:33
+msgid "All Players"
+msgstr "Tüm Oyuncular"
+
+#: src/supertux/menu/particle_editor_open.cpp:32
+msgid "Load particle file"
+msgstr "Load particle file"
+
+#: src/supertux/menu/particle_editor_open.cpp:39
+msgid "Open"
+msgstr "Açık"
+
+#: src/supertux/menu/particle_editor_open.cpp:43
+#: src/supertux/menu/editor_level_select_menu.cpp:190
+#: src/supertux/menu/editor_sectors_menu.cpp:45
+#: src/supertux/menu/editor_sectors_menu.cpp:94
+#: src/supertux/menu/editor_sectors_menu.cpp:99
+#: src/supertux/menu/particle_editor_save_as.cpp:42
+#: src/supertux/menu/editor_tilegroup_menu.cpp:36
+#: src/supertux/menu/editor_save_as.cpp:42
+#: src/supertux/menu/editor_objectgroup_menu.cpp:42
+#: src/gui/menu_filesystem.cpp:121 src/gui/menu_list.cpp:38
+#: src/gui/menu_paths.cpp:48 src/editor/particle_editor.cpp:785
+#: src/editor/editor.cpp:682
+msgid "Cancel"
+msgstr "Vazgeç"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:72
+msgid "Empty World"
+msgstr "Boş Dünya"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:87
+msgid "Create Level"
+msgstr "Seviye Oluştur"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:91
+msgid "Edit Worldmap"
+msgstr "Dünya Haritasını Düzenle"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:93
+msgid "Create Worldmap"
+msgstr "Dünya haritası oluştur"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:95
+#: src/supertux/menu/editor_delete_level_menu.cpp:55
+msgid "Delete level"
+msgstr "Seviyeyi sil"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:97
+#: src/supertux/menu/editor_levelset_menu.cpp:50
+msgid "World Settings"
+msgstr "Dünya Ayarları"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:141
+msgid ""
+"Share this worldmap under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in worldmap properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "Bu dünya haritasını CC-BY-SA 4.0 International (önerilir) lisansı altında paylaşın.\nÜçüncü taraflarca değişiklik yapılmasına ve yeniden dağıtılmasına izin verir.\nBu lisansı kabul etmiyorsanız, dünya haritası özelliklerinde değiştirin.\nSORUMLULUK REDDİ: SuperTux yazarları, lisans seçiminiz için hiçbir sorumluluk kabul etmez."
+
+#: src/supertux/menu/editor_level_select_menu.cpp:148
+msgid ""
+"Share this level under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in level properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "Bu seviyeyi CC-BY-SA 4.0 International (önerilen) lisansı altında paylaşın.\nÜçüncü taraflarca değişiklik yapılmasına ve yeniden dağıtılmasına izin verir.\nBu lisansı kabul etmiyorsanız, seviye özelliklerinde değiştirin.\nSORUMLULUK REDDİ: SuperTux yazarları, lisans seçiminiz için hiçbir sorumluluk kabul etmez."
+
+#: src/supertux/menu/editor_level_select_menu.cpp:179
+msgid ""
+"An auto-save recovery file was found. Would you like to restore the recovery\n"
+"file and resume where you were before the editor crashed?"
+msgstr "Bir otomatik kaydetme kurtarma dosyası bulundu. Kurtarma işlemini geri yüklemek ister misiniz?\ndüzenleyici çökmeden önce bulunduğunuz yerde dosya ve devam ettirin mi?"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:186
+msgid "This will delete the auto-save file. Are you sure?"
+msgstr "Bu, otomatik kaydetme dosyasını siler. Emin misin?"
+
+#: src/supertux/menu/profile_name_menu.cpp:36
+msgid "Rename \"{}\""
+msgstr ""
+
+#: src/supertux/menu/profile_name_menu.cpp:36
+msgid "Add profile"
+msgstr "Profil ekle"
+
+#: src/supertux/menu/profile_name_menu.cpp:40
+msgid "Profile names must have a maximum of 20 characters."
+msgstr ""
+
+#: src/supertux/menu/profile_name_menu.cpp:42
+#: src/supertux/menu/profile_menu.cpp:91 src/supertux/menu/profile_menu.cpp:93
+msgid "Rename"
+msgstr ""
+
+#: src/supertux/menu/profile_name_menu.cpp:42
+msgid "Create"
+msgstr ""
+
+#: src/supertux/menu/profile_name_menu.cpp:56
+msgid ""
+"Profile names must have a maximum of 20 characters.\n"
+"Please choose a different name."
+msgstr ""
+
+#: src/supertux/menu/profile_name_menu.cpp:77
+msgid "An error occurred while creating the profile."
+msgstr ""
+
+#: src/supertux/menu/particle_editor_menu.cpp:32
+msgid "Particle Editor"
+msgstr "Parçacık Düzenleyici"
+
+#: src/supertux/menu/particle_editor_menu.cpp:36
+#: src/supertux/menu/editor_menu.cpp:60
+msgid "Return to Editor"
+msgstr "Editöre Dön"
+
+#: src/supertux/menu/particle_editor_menu.cpp:37
+msgid "New Particle Config"
+msgstr "Yeni Parçacık Yapılandırması"
+
+#: src/supertux/menu/particle_editor_menu.cpp:38
+msgid "Save Particle Config"
+msgstr "Parçacık Yapılandırmasını Kaydet"
+
+#: src/supertux/menu/particle_editor_menu.cpp:39
+msgid "Save Particle Config as..."
+msgstr "Parçacık Yapılandırmasını Farklı Kaydet..."
+
+#: src/supertux/menu/particle_editor_menu.cpp:40
+msgid "Load Another Particle Config"
+msgstr "Başka Parçacık Yapılandırması Yükle"
+
+#: src/supertux/menu/particle_editor_menu.cpp:44
+msgid "Open Particle Directory"
+msgstr "Parçacık Dizinini Aç"
+
+#: src/supertux/menu/particle_editor_menu.cpp:45
+#: src/supertux/menu/editor_menu.cpp:118
+msgid "Keyboard Shortcuts"
+msgstr "Klavye Kısayolları"
+
+#: src/supertux/menu/particle_editor_menu.cpp:49
+msgid "Exit Particle Editor"
+msgstr "Parçacık Düzenleyiciden Çık"
+
+#: src/supertux/menu/particle_editor_menu.cpp:121
+msgid ""
+"Keyboard Shortcuts:\n"
+"---------------------\n"
+"Esc = Open Menu\n"
+"Ctrl+S = Save\n"
+"Ctrl+Shift+S = Save as\n"
+"Ctrl+O = Open\n"
+"Ctrl+Z = Undo\n"
+"Ctrl+Y = Redo"
+msgstr "Klavye kısayolları:\n---------------------\nEsc = Menüyü Aç\nCtrl+S = Kaydet\nCtrl+Shift+S = Farklı kaydet\nCtrl+O = Aç\nCtrl+Z = Geri Al\nCtrl+Y = Yeniden yap"
+
+#: src/supertux/menu/particle_editor_menu.cpp:122
+#: src/supertux/menu/editor_menu.cpp:236
+msgid "Got it!"
+msgstr "Git!"
+
+#: src/supertux/menu/game_menu.cpp:52
+msgid "Restart Level"
+msgstr "Bölümü Yeniden Başlat"
+
+#: src/supertux/menu/game_menu.cpp:55
+msgid "Restart from Checkpoint"
+msgstr "Kontrol noktasından yeniden başlat"
+
+#: src/supertux/menu/game_menu.cpp:60
+msgid "Abort Level"
+msgstr "Bölümü Sonlandır"
+
+#: src/supertux/menu/game_menu.cpp:76 src/supertux/menu/game_menu.cpp:87
+#: src/supertux/menu/game_menu.cpp:99
+msgid "Are you sure?"
+msgstr "Emin misin?"
+
+#: src/supertux/menu/custom_menu_menu.cpp:49
+#: src/supertux/menu/options_menu.cpp:209
+msgid "Menu Customization"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:51
+msgid "Menu Back Color"
+msgstr "Menü Arka Rengi"
+
+#: src/supertux/menu/custom_menu_menu.cpp:52
+msgid "Menu Front Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:53
+msgid "Menu Help Back Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:54
+msgid "Menu Help Front Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:55
+msgid "Label Text Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:56
+msgid "Active Text Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:57
+msgid "Divider Line Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:58
+msgid "Menu Roundness"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:60
+msgid "Editor Interface Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:61
+msgid "Editor Hover Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:62
+msgid "Editor Grab Color"
+msgstr ""
+
+#: src/supertux/menu/custom_menu_menu.cpp:64
+msgid "Reset to defaults"
+msgstr "Varsayılanlara sıfırla"
+
+#: src/supertux/menu/joystick_menu.cpp:54
+#: src/supertux/menu/options_menu.cpp:176
+msgid "Setup Joystick"
+msgstr "Joystik Ayarla"
+
+#: src/supertux/menu/joystick_menu.cpp:57
+msgid "Manual Configuration"
+msgstr "Yapılandırma Klavuzu"
+
+#: src/supertux/menu/joystick_menu.cpp:59
+msgid ""
+"Use manual configuration instead of SDL2's automatic GameController support"
+msgstr "SDL2'yi otomatik olarak oyun kontrol desteğini elle yapılandırın"
+
+#: src/supertux/menu/joystick_menu.cpp:71
+#: src/supertux/menu/keyboard_menu.cpp:36
+msgid "Up"
+msgstr "Yukarı "
+
+#: src/supertux/menu/joystick_menu.cpp:72
+#: src/supertux/menu/keyboard_menu.cpp:37
+msgid "Down"
+msgstr "Aşağı"
+
+#: src/supertux/menu/joystick_menu.cpp:75
+#: src/supertux/menu/keyboard_menu.cpp:40
+msgid "Jump"
+msgstr "Zıplama"
+
+#: src/supertux/menu/joystick_menu.cpp:77
+#: src/supertux/menu/keyboard_menu.cpp:42
+msgid "Item Pocket"
+msgstr ""
+
+#: src/supertux/menu/joystick_menu.cpp:78
+msgid "Pause/Menu"
+msgstr "Durdur/Menü"
+
+#: src/supertux/menu/joystick_menu.cpp:79
+#: src/supertux/menu/keyboard_menu.cpp:44
+msgid "Peek Left"
+msgstr "Sola Bak"
+
+#: src/supertux/menu/joystick_menu.cpp:80
+#: src/supertux/menu/keyboard_menu.cpp:45
+msgid "Peek Right"
+msgstr "Sağa Bak"
+
+#: src/supertux/menu/joystick_menu.cpp:81
+#: src/supertux/menu/keyboard_menu.cpp:46
+msgid "Peek Up"
+msgstr "Yukarı bak"
+
+#: src/supertux/menu/joystick_menu.cpp:82
+#: src/supertux/menu/keyboard_menu.cpp:47
+msgid "Peek Down"
+msgstr "Aşağı bak"
+
+#: src/supertux/menu/joystick_menu.cpp:84
+#: src/supertux/menu/keyboard_menu.cpp:52
+msgid "Console"
+msgstr "Konsol"
+
+#: src/supertux/menu/joystick_menu.cpp:85
+#: src/supertux/menu/keyboard_menu.cpp:53
+msgid "Cheat Menu"
+msgstr "Hile Menüsü"
+
+#: src/supertux/menu/joystick_menu.cpp:86
+#: src/supertux/menu/keyboard_menu.cpp:54
+msgid "Debug Menu"
+msgstr "Hata Ayıklama Menüsü"
+
+#: src/supertux/menu/joystick_menu.cpp:88
+#: src/supertux/menu/keyboard_menu.cpp:57
+msgid "Jump with Up"
+msgstr "Yukarı il zıpla"
+
+#: src/supertux/menu/joystick_menu.cpp:94
+msgid "No Joysticks found"
+msgstr "Joystik bulunamadı"
+
+#: src/supertux/menu/joystick_menu.cpp:95
+msgid "Scan for Joysticks"
+msgstr "Joystick ara"
+
+#: src/supertux/menu/joystick_menu.cpp:125
+msgid "Press Button"
+msgstr "Düğmeye Bas"
+
+#: src/supertux/menu/joystick_menu.cpp:162
+msgid "Axis "
+msgstr "Eksen"
+
+#: src/supertux/menu/joystick_menu.cpp:165
+msgid "-"
+msgstr "-"
+
+#: src/supertux/menu/joystick_menu.cpp:167
+msgid "+"
+msgstr "+"
+
+#: src/supertux/menu/joystick_menu.cpp:174
+msgid "X2"
+msgstr "X2"
+
+#: src/supertux/menu/joystick_menu.cpp:176
+msgid "Y2"
+msgstr "Y2"
+
+#: src/supertux/menu/joystick_menu.cpp:189
+msgid "Hat Up"
+msgstr "Şapka Yukarı"
+
+#: src/supertux/menu/joystick_menu.cpp:193
+msgid "Hat Down"
+msgstr "Şapka Aşağı"
+
+#: src/supertux/menu/joystick_menu.cpp:197
+msgid "Hat Left"
+msgstr "Şapka Kaldı"
+
+#: src/supertux/menu/joystick_menu.cpp:201
+msgid "Hat Right"
+msgstr "Şapka Sağ"
+
+#: src/supertux/menu/language_menu.cpp:43
+msgid "Language"
+msgstr "Dil"
+
+#: src/supertux/menu/language_menu.cpp:45
+msgid "<auto-detect>"
+msgstr "<auto-detect>"
+
+#: src/supertux/menu/multiplayer_menu.cpp:27
+#: src/supertux/menu/multiplayer_players_menu.cpp:34
+msgid "Multiplayer"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_menu.cpp:30
+msgid "Auto-manage Players"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_menu.cpp:31
+msgid ""
+"Automatically add and remove players when controllers are plugged or "
+"unplugged"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_menu.cpp:33
+msgid "Allow Multibind"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_menu.cpp:34
+msgid "Allow binding multiple joysticks to a single player"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_menu.cpp:36
+msgid "Manage Players"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:53
+msgid "tiny tile (4px)"
+msgstr "minik kiremit (4 piksel)"
+
+#: src/supertux/menu/editor_menu.cpp:54
+msgid "small tile (8px)"
+msgstr "küçük karo (8px)"
+
+#: src/supertux/menu/editor_menu.cpp:55
+msgid "medium tile (16px)"
+msgstr "orta kiremit (16px)"
+
+#: src/supertux/menu/editor_menu.cpp:56
+msgid "big tile (32px)"
+msgstr "büyük kiremit (32px)"
+
+#: src/supertux/menu/editor_menu.cpp:58 src/supertux/menu/main_menu.cpp:63
+msgid "Level Editor"
+msgstr "Düzey Düzenleyici"
+
+#: src/supertux/menu/editor_menu.cpp:61
+msgid "Save Worldmap"
+msgstr "Dünya haritasını kaydet"
+
+#: src/supertux/menu/editor_menu.cpp:61
+msgid "Save Level"
+msgstr "Seviyeyi Kaydet"
+
+#: src/supertux/menu/editor_menu.cpp:63
+#: src/supertux/menu/editor_save_as.cpp:33
+msgid "Save Level as"
+msgstr "İle aynı Seviyede"
+
+#: src/supertux/menu/editor_menu.cpp:64
+#: src/supertux/menu/editor_save_as.cpp:33
+msgid "Save Copy"
+msgstr "Kopyayı Kaydet"
+
+#: src/supertux/menu/editor_menu.cpp:65
+msgid "Test Level"
+msgstr "Test Seviyesi"
+
+#: src/supertux/menu/editor_menu.cpp:67
+msgid "Test Worldmap"
+msgstr "Test Dünya haritası"
+
+#: src/supertux/menu/editor_menu.cpp:72
+msgid "Share Level"
+msgstr "Paylaşım Seviyesi"
+
+#: src/supertux/menu/editor_menu.cpp:74
+msgid "Package Add-On"
+msgstr "Paket Eklentisi"
+
+#: src/supertux/menu/editor_menu.cpp:76
+msgid "Open Level Directory"
+msgstr "Açık Düzey Dizini"
+
+#: src/supertux/menu/editor_menu.cpp:79
+msgid "Edit Another Level"
+msgstr "Başka Bir Seviyeyi Düzenle"
+
+#: src/supertux/menu/editor_menu.cpp:81
+msgid "Edit Another World"
+msgstr "Başka Bir Dünyayı Düzenle"
+
+#: src/supertux/menu/editor_menu.cpp:85
+#: src/supertux/menu/editor_converters_menu.cpp:61
+msgid "Convert Tiles"
+msgstr "Döşemeleri Dönüştür"
+
+#: src/supertux/menu/editor_menu.cpp:86
+msgid "Convert all tiles in the level using converters."
+msgstr "Dönüştürücüleri kullanarak seviyedeki tüm döşemeleri dönüştürün."
+
+#: src/supertux/menu/editor_menu.cpp:90
+msgid "Grid Size"
+msgstr "Izgara Boyutu"
+
+#: src/supertux/menu/editor_menu.cpp:91
+msgid "Show Grid"
+msgstr "Izgarayı göster"
+
+#: src/supertux/menu/editor_menu.cpp:92
+msgid "Grid Snapping"
+msgstr "Izgara Yapışma"
+
+#: src/supertux/menu/editor_menu.cpp:93
+msgid "Render Background"
+msgstr "Arka Plan Oluşturma"
+
+#: src/supertux/menu/editor_menu.cpp:94
+msgid "Render Light"
+msgstr "Işık Oluştur"
+
+#: src/supertux/menu/editor_menu.cpp:95
+msgid "Autotile Mode"
+msgstr "Otomatik Mod"
+
+#: src/supertux/menu/editor_menu.cpp:96
+msgid "Enable Autotile Help"
+msgstr "Otomatik Yardımı Etkinleştir"
+
+#: src/supertux/menu/editor_menu.cpp:97
+msgid "Enable Object Undo Tracking"
+msgstr "Nesne Geri Alma İzlemesini Etkinleştir"
+
+#: src/supertux/menu/editor_menu.cpp:100
+msgid "Undo Stack Size"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:102
+msgid "Autosave Frequency"
+msgstr "Otomatik Kaydetme Frekansı"
+
+#: src/supertux/menu/editor_menu.cpp:108
+msgid "Check for Deprecated Tiles"
+msgstr "Kullanımdan Kaldırılmış Döşemeleri Kontrol Edin"
+
+#: src/supertux/menu/editor_menu.cpp:109
+msgid "Check if any deprecated tiles are currently present in the level."
+msgstr "Bu seviyede şu anda kullanımdan kaldırılmış herhangi bir döşemenin mevcut olup olmadığını kontrol edin."
+
+#: src/supertux/menu/editor_menu.cpp:110
+msgid "Show Deprecated Tiles"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:111
+msgid ""
+"Indicate all deprecated tiles on the active tilemap, without the need of "
+"hovering over."
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:116
+#: src/supertux/menu/editor_level_menu.cpp:31
+msgid "Worldmap Settings"
+msgstr "Dünya Haritası Ayarları"
+
+#: src/supertux/menu/editor_menu.cpp:116
+#: src/supertux/menu/editor_level_menu.cpp:31
+msgid "Level Settings"
+msgstr "Seviye Ayarları"
+
+#: src/supertux/menu/editor_menu.cpp:121
+msgid "Exit Level Editor"
+msgstr "Bölüm Düzenleyiciden Çık"
+
+#: src/supertux/menu/editor_menu.cpp:170
+msgid "Do you want to package this world as an add-on?"
+msgstr "Bu dünyayı bir eklenti olarak paketlemek ister misiniz?"
+
+#: src/supertux/menu/editor_menu.cpp:196
+msgid ""
+"We encourage you to share your levels in the SuperTux forum.\n"
+"To find your level, click the\n"
+"\"Open Level directory\" menu item.\n"
+"Do you want to go to the forum now?"
+msgstr "Seviyelerinizi SuperTux forumunda paylaşmanızı öneririz.\nSeviyenizi bulmak için tıklayın\n\"Seviye dizini aç\" menü öğesi.\nŞimdi foruma gitmek istiyor musun?"
+
+#: src/supertux/menu/editor_menu.cpp:206
+msgid "Keyboard Shortcuts:"
+msgstr "Klavye Kısayolları:"
+
+#: src/supertux/menu/editor_menu.cpp:208
+msgid "Esc = Open Menu"
+msgstr "Esc = Menüyü aç"
+
+#: src/supertux/menu/editor_menu.cpp:209
+msgid "Ctrl+S = Save"
+msgstr "Ctrl+S = Kaydet"
+
+#: src/supertux/menu/editor_menu.cpp:210
+msgid "Ctrl+T = Test"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:211 src/supertux/menu/editor_menu.cpp:232
+msgid "Ctrl+Z = Undo"
+msgstr "Ctrl+Z = Geri al"
+
+#: src/supertux/menu/editor_menu.cpp:212 src/supertux/menu/editor_menu.cpp:233
+msgid "Ctrl+Y = Redo"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:213
+msgid "F5 = Toggle Autotiling"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:214
+msgid "F6 = Render Light"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:215
+msgid "F7 = Grid Snapping"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:216
+msgid "F8 = Show Grid"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:217
+msgid "Ctrl++ or Ctrl+Scroll Up = Zoom In"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:218
+msgid "Ctrl+- or Ctrl+Scroll Down = Zoom Out"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:219
+msgid "Ctrl+D = Reset Zoom"
+msgstr "Ctrl+D = Yakınlaştırmayı Sıfırla"
+
+#: src/supertux/menu/editor_menu.cpp:220
+msgid "Scripting Shortcuts:"
+msgstr "Betik Kısayolları:"
+
+#: src/supertux/menu/editor_menu.cpp:222
+msgid "Home = Go to beginning of line"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:223
+msgid "End = Go to end of line"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:224
+msgid "Left arrow = Go back in text"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:225
+msgid "Right arrow = Go forward in text"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:226
+msgid "Backspace = Delete in front of text cursor"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:227
+msgid "Delete = Delete behind text cursor"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:228
+msgid "Ctrl+X = Cut whole line"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:229
+msgid "Ctrl+C = Copy whole line"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:230
+msgid "Ctrl+V = Paste"
+msgstr "Ctrl+V = Yapıştır"
+
+#: src/supertux/menu/editor_menu.cpp:231
+msgid "Ctrl+D = Duplicate line"
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:262
+msgid "Deprecated tiles are still present in the level."
+msgstr ""
+
+#: src/supertux/menu/editor_menu.cpp:269
+msgid "Do you want to show all deprecated tiles on active tilemaps?"
+msgstr "Aktif haritalardaki tüm kullanım dışı kalmış döşemeleri göstermek ister misiniz?"
+
+#: src/supertux/menu/editor_menu.cpp:276
+msgid "There are no more deprecated tiles in the level!"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_players_menu.cpp:48
+msgid "Add Player"
+msgstr "Oyuncu Ekle"
+
+#: src/supertux/menu/multiplayer_players_menu.cpp:62
+msgid "Remove Last Player"
+msgstr "Son Oyuncuyu Kaldır"
+
+#: src/supertux/menu/multiplayer_players_menu.cpp:65
+msgid ""
+"Warning: The player you are trying to\n"
+"remove is currently in-game.\n"
+"\n"
+"Do you wish to remove them anyways?"
+msgstr ""
+
+#: src/supertux/menu/editor_sectors_menu.cpp:31
+msgid "Choose Sector"
+msgstr "Sektör Seçin"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:41
+msgid "Sector Settings"
+msgstr "Sektör Ayarları"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:42
+msgid "Create Sector"
+msgstr "Sektör Oluştur"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:43
+msgid "Delete Sector"
+msgstr "Sektörü Sil"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:92
+msgid "Each level must have at least one sector."
+msgstr "Her seviye en az bir sektöre sahip olmalıdır."
+
+#: src/supertux/menu/editor_sectors_menu.cpp:97
+msgid "Do you really want to delete this sector?"
+msgstr "Bu sektörü gerçekten silmek istiyor musunuz?"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:100
+msgid "Delete sector"
+msgstr "Sektörü sil"
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:40
+msgid "Play with the keyboard"
+msgstr "Klavyeyle oyna"
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:58
+msgid "Remove Player"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:76
+msgid "Respawn Player"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:102
+msgid "Spawn Player"
+msgstr ""
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:118
+msgid "Controllers"
+msgstr "Kontrolörler"
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:134
+msgid ""
+"This controller does not support rumbling;\n"
+"please check the controllers manually."
+msgstr ""
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:139
+msgid ""
+"This SuperTux build does not support rumbling\n"
+"controllers; please check the controllers manually."
+msgstr ""
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:166
+msgid ""
+"This joystick does not support rumbling;\n"
+"please check the joysticks manually."
+msgstr ""
+
+#: src/supertux/menu/multiplayer_player_menu.cpp:171
+msgid ""
+"This SuperTux build does not support rumbling\n"
+"joysticks; please check the joysticks manually."
+msgstr ""
+
+#: src/supertux/menu/editor_level_menu.cpp:34
+msgid "Author"
+msgstr "Yapımcı"
+
+#: src/supertux/menu/editor_level_menu.cpp:35 data/credits.stxt:1253
+msgid "Contact"
+msgstr "Kişiler"
+
+#: src/supertux/menu/editor_level_menu.cpp:36
+msgid "License"
+msgstr "Lisans"
+
+#: src/supertux/menu/editor_level_menu.cpp:37
+msgid "Level Note"
+msgstr "Seviye Notu"
+
+#: src/supertux/menu/editor_level_menu.cpp:38
+msgid "Tileset"
+msgstr "Döşeme seti"
+
+#: src/supertux/menu/editor_level_menu.cpp:43
+msgid "Inherit"
+msgstr ""
+
+#: src/supertux/menu/editor_level_menu.cpp:45
+msgid "Allow Item Pocket"
+msgstr ""
+
+#: src/supertux/menu/editor_level_menu.cpp:49
+msgid "Target Time"
+msgstr "Hedef zamanı"
+
+#: src/supertux/menu/editor_level_menu.cpp:56
+#: src/supertux/menu/editor_sector_menu.cpp:48
+#: src/supertux/menu/editor_new_levelset_menu.cpp:37
+#: src/supertux/menu/editor_levelset_menu.cpp:58 src/gui/dialog.hpp:87
+#: src/gui/menu_script.cpp:46 src/gui/menu_color.cpp:63
+#: src/gui/menu_string_array.cpp:84 src/gui/menu_object_select.cpp:61
+#: src/editor/object_menu.cpp:71
+msgid "OK"
+msgstr "Tamam"
+
+#: src/supertux/menu/editor_level_menu.cpp:94
+msgid "Please enter a name for this level."
+msgstr "Lütfen bu düzey için bir ad girin."
+
+#: src/supertux/menu/editor_level_menu.cpp:98
+msgid "Please enter a level author for this level."
+msgstr "Lütfen bu düzey için bir düzey yazarı girin."
+
+#: src/supertux/menu/editor_level_menu.cpp:102
+msgid "Please enter a license for this level."
+msgstr "Lütfen bu seviye için bir lisans girin."
+
+#: src/supertux/menu/debug_menu.cpp:36
+msgid "Debug"
+msgstr "Hata ayıklama"
+
+#: src/supertux/menu/debug_menu.cpp:60
+msgid "Game Speed"
+msgstr "Oyun hızı"
+
+#: src/supertux/menu/debug_menu.cpp:61
+msgid "Adjust Game Speed"
+msgstr "Oyun Hızını Ayarlayın"
+
+#: src/supertux/menu/debug_menu.cpp:67
+msgid "Show Collision Rects"
+msgstr "Çarpışma Yönlerini Göster"
+
+#: src/supertux/menu/debug_menu.cpp:68
+msgid "Show Worldmap Path"
+msgstr "Dünya Haritası Yolunu Göster"
+
+#: src/supertux/menu/debug_menu.cpp:69
+msgid "Show Controller"
+msgstr "Denetleyiciyi Göster"
+
+#: src/supertux/menu/debug_menu.cpp:70
+msgid "Show Framerate"
+msgstr "Kare Hızını Göster"
+
+#: src/supertux/menu/debug_menu.cpp:71
+msgid "Draw Redundant Frames"
+msgstr "Yedekli Çerçeveler Çizin"
+
+#: src/supertux/menu/debug_menu.cpp:72
+msgid "Show Player Position"
+msgstr "Oyuncu Pozisyonunu Göster"
+
+#: src/supertux/menu/debug_menu.cpp:73
+msgid "Use Bitmap Fonts"
+msgstr "Bitmap Yazı Tiplerini Kullan"
+
+#: src/supertux/menu/debug_menu.cpp:76
+msgid "Show Tile IDs in Editor Toolbox"
+msgstr "Editör Araç Kutusunda Döşeme Kimliklerini Göster"
+
+#: src/supertux/menu/debug_menu.cpp:77
+msgid "Hide Player HUD"
+msgstr ""
+
+#: src/supertux/menu/debug_menu.cpp:79
+msgid "Reload Resources"
+msgstr "Kaynakları Yeniden Yükle"
+
+#: src/supertux/menu/debug_menu.cpp:80
+msgid "Reloads all fonts, textures, sprites and tilesets."
+msgstr "Tüm yazı tiplerini, dokuları, hareketli grafikleri ve döşeme setlerini yeniden yükler."
+
+#: src/supertux/menu/debug_menu.cpp:82
+msgid "Dump Texture Cache"
+msgstr "Doku Önbelleğini Boşalt"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:33
+msgid "Save particle as"
+msgstr "Parçacığı farklı kaydet"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:37
+#: src/supertux/menu/editor_save_as.cpp:37
+msgid "File name"
+msgstr "Dosya adı"
+
+#: src/supertux/menu/particle_editor_save_as.cpp:38
+#: src/supertux/menu/editor_save_as.cpp:38 src/editor/particle_editor.cpp:767
+msgid "Save"
+msgstr "Kaydetmek"
+
+#: src/supertux/menu/options_select_menu.cpp:35
+#: src/supertux/menu/options_menu.cpp:83
+msgid "Locale"
+msgstr ""
+
+#: src/supertux/menu/options_select_menu.cpp:37
+#: src/supertux/menu/options_menu.cpp:99
+msgid "Video"
+msgstr "Video"
+
+#: src/supertux/menu/options_select_menu.cpp:38
+#: src/supertux/menu/options_menu.cpp:142
+msgid "Audio"
+msgstr "Ses"
+
+#: src/supertux/menu/options_select_menu.cpp:39
+#: src/supertux/menu/options_menu.cpp:165
+msgid "Controls"
+msgstr ""
+
+#: src/supertux/menu/options_select_menu.cpp:40
+#: src/supertux/menu/options_menu.cpp:185
+msgid "Extras"
+msgstr ""
+
+#: src/supertux/menu/options_select_menu.cpp:41
+#: src/supertux/menu/options_menu.cpp:217
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#: src/supertux/menu/cheat_menu.cpp:30
+#: src/supertux/menu/worldmap_cheat_menu.cpp:36
+msgid "Cheats"
+msgstr "Hileler"
+
+#: src/supertux/menu/cheat_menu.cpp:32
+#: src/supertux/menu/worldmap_cheat_menu.cpp:38
+msgid "Bonus: Grow"
+msgstr "Bonus: Büyüme"
+
+#: src/supertux/menu/cheat_menu.cpp:33
+#: src/supertux/menu/worldmap_cheat_menu.cpp:39
+msgid "Bonus: Fire"
+msgstr "Bonus: Ateş"
+
+#: src/supertux/menu/cheat_menu.cpp:34
+#: src/supertux/menu/worldmap_cheat_menu.cpp:40
+msgid "Bonus: Ice"
+msgstr "Bonus: Buz"
+
+#: src/supertux/menu/cheat_menu.cpp:35
+#: src/supertux/menu/worldmap_cheat_menu.cpp:41
+msgid "Bonus: Air"
+msgstr "Ödül: Hava"
+
+#: src/supertux/menu/cheat_menu.cpp:36
+#: src/supertux/menu/worldmap_cheat_menu.cpp:42
+msgid "Bonus: Earth"
+msgstr "Ödül: Dünya"
+
+#: src/supertux/menu/cheat_menu.cpp:37
+msgid "Bonus: Star"
+msgstr "Bonus: Yıldız"
+
+#: src/supertux/menu/cheat_menu.cpp:38
+msgid "Shrink Tux"
+msgstr "Tux'u Küçült"
+
+#: src/supertux/menu/cheat_menu.cpp:39
+msgid "Kill Tux"
+msgstr "Tux'u Bitir"
+
+#: src/supertux/menu/cheat_menu.cpp:40
+#: src/supertux/menu/worldmap_cheat_menu.cpp:48
+msgid "Finish Level"
+msgstr "Bitiş Bölümü"
+
+#: src/supertux/menu/cheat_menu.cpp:44 src/supertux/menu/cheat_menu.cpp:50
+#: src/supertux/menu/worldmap_cheat_menu.cpp:46
+msgid "Leave Ghost Mode"
+msgstr "Hayalet Modundan Çık"
+
+#: src/supertux/menu/cheat_menu.cpp:44 src/supertux/menu/cheat_menu.cpp:49
+#: src/supertux/menu/worldmap_cheat_menu.cpp:46
+msgid "Activate Ghost Mode"
+msgstr "Görünmez Kipi Etkinleştir"
+
+#: src/supertux/menu/cheat_menu.cpp:54
+msgid "Prevent Death"
+msgstr ""
+
+#: src/supertux/menu/editor_sector_menu.cpp:34
+msgid "Sector {}"
+msgstr ""
+
+#: src/supertux/menu/editor_sector_menu.cpp:37
+msgid "Initialization script"
+msgstr "Başlatma betiği"
+
+#: src/supertux/menu/editor_sector_menu.cpp:38
+msgid "Gravity"
+msgstr "Yerçekimi"
+
+#: src/supertux/menu/editor_sector_menu.cpp:43
+msgid "Resize offset X"
+msgstr "Ofset X'i yeniden boyutlandır"
+
+#: src/supertux/menu/editor_sector_menu.cpp:44
+msgid "Resize offset Y"
+msgstr "Y ofsetini yeniden boyutlandır"
+
+#: src/supertux/menu/editor_sector_menu.cpp:45
+msgid "Resize"
+msgstr "Yeniden boyutlandır"
+
+#: src/supertux/menu/addon_file_install_menu.cpp:32
+msgid "Install Add-on from file"
+msgstr "Eklentiyi dosyadan yükle"
+
+#: src/supertux/menu/addon_file_install_menu.cpp:34
+msgid "Drag and drop add-on ZIP archive"
+msgstr ""
+
+#: src/supertux/menu/editor_converters_menu.cpp:64
+msgid "Select Tile Conversion File"
+msgstr ""
+
+#: src/supertux/menu/editor_converters_menu.cpp:72
+msgid "By: {}"
+msgstr ""
+
+#: src/supertux/menu/editor_converters_menu.cpp:75
+msgid "Convert Tiles By File"
+msgstr ""
+
+#: src/supertux/menu/editor_converters_menu.cpp:76
+msgid "Convert all tiles in the current level by a file, specified above."
+msgstr ""
+
+#: src/supertux/menu/editor_converters_menu.cpp:89
+msgid "No tile conversion file selected."
+msgstr "Hiçbir döşeme dönüştürme dosyası seçilmedi."
+
+#: src/supertux/menu/editor_converters_menu.cpp:93
+msgid ""
+"This will convert all tiles in the level. Proceed?\n"
+"\n"
+"Note: This should not be ran more than once on a level.\n"
+"Creating a separate copy of the level is highly recommended."
+msgstr ""
+
+#: src/supertux/menu/integrations_menu.cpp:49
+msgid "Integrations"
+msgstr "Entegrasyonlar"
+
+#: src/supertux/menu/integrations_menu.cpp:51
+msgid "Do not share level names when editing"
+msgstr "Düzenlerken düzey adlarını paylaşmayın"
+
+#: src/supertux/menu/integrations_menu.cpp:52
+msgid ""
+"Enable this if you want to work on secret levels and don't want the names to"
+" be spoiled"
+msgstr ""
+
+#: src/supertux/menu/integrations_menu.cpp:54
+msgid "Enable Discord integration"
+msgstr "Discord entegrasyonunu etkinleştir"
+
+#: src/supertux/menu/integrations_menu.cpp:55
+msgid ""
+"Sends information to your Discord application about what you're doing in the"
+" game."
+msgstr ""
+
+#: src/supertux/menu/integrations_menu.cpp:57
+msgid "Discord (disabled; not compiled)"
+msgstr "Discord (devre dışı; derlenmemiş)"
+
+#: src/supertux/menu/addon_browse_menu.cpp:70
+msgid "Browse Language Packs"
+msgstr "Dil Paketlerine Gözat"
+
+#: src/supertux/menu/addon_browse_menu.cpp:70
+#: src/supertux/menu/addon_menu.cpp:158
+msgid "Browse Add-ons"
+msgstr ""
+
+#: src/supertux/menu/addon_browse_menu.cpp:112
+msgid "Page {}/{}"
+msgstr ""
+
+#: src/supertux/menu/addon_browse_menu.cpp:124
+msgid "No new language packs available"
+msgstr "Yeni dil paketi mevcut değil"
+
+#: src/supertux/menu/addon_browse_menu.cpp:124
+msgid "No new Add-ons available"
+msgstr "Yeni Eklenti mevcut değil"
+
+#: src/supertux/menu/addon_browse_menu.cpp:127
+msgid "No language packs available"
+msgstr "Hiçbir dil paketi mevcut değil"
+
+#: src/supertux/menu/addon_browse_menu.cpp:127
+msgid "No Add-ons available"
+msgstr "Eklenti mevcut değil"
+
+#: src/supertux/menu/addon_browse_menu.cpp:135
+#: src/supertux/menu/addon_browse_menu.cpp:139
+msgid "Previous page"
+msgstr "Önceki sayfa"
+
+#: src/supertux/menu/addon_browse_menu.cpp:143
+#: src/supertux/menu/addon_browse_menu.cpp:147
+msgid "Next page"
+msgstr "Sonraki sayfa"
+
+#: src/supertux/menu/addon_browse_menu.cpp:154
+msgid "Check Online (disabled)"
+msgstr "Çevrimdışı Konrol Et (kapalı)"
+
+#: src/supertux/menu/addon_browse_menu.cpp:158
+msgid "Check Online"
+msgstr "Çevrimiçi Kontrol Et"
+
+#: src/supertux/menu/addon_browse_menu.cpp:195
+msgid "Downloading Add-On Repository Index"
+msgstr "Eklenti Deposu İçeriği İndiriliyor"
+
+#: src/supertux/menu/keyboard_menu.cpp:34
+#: src/supertux/menu/options_menu.cpp:172
+msgid "Setup Keyboard"
+msgstr "Klavyeyi Ayarla"
+
+#: src/supertux/menu/keyboard_menu.cpp:83
+msgid "Up cursor"
+msgstr "Yukarı ok"
+
+#: src/supertux/menu/keyboard_menu.cpp:85
+msgid "Down cursor"
+msgstr "Aşağı ok"
+
+#: src/supertux/menu/keyboard_menu.cpp:87
+msgid "Left cursor"
+msgstr "Sol ok"
+
+#: src/supertux/menu/keyboard_menu.cpp:89
+msgid "Right cursor"
+msgstr "Sağ ok"
+
+#: src/supertux/menu/keyboard_menu.cpp:91
+msgid "Return"
+msgstr "Enter"
+
+#: src/supertux/menu/keyboard_menu.cpp:93
+msgid "Space"
+msgstr "Boşluk"
+
+#: src/supertux/menu/keyboard_menu.cpp:95
+msgid "Right Shift"
+msgstr "Sağ Shift"
+
+#: src/supertux/menu/keyboard_menu.cpp:97
+msgid "Left Shift"
+msgstr "Sol Shift"
+
+#: src/supertux/menu/keyboard_menu.cpp:99
+msgid "Right Control"
+msgstr "Sağ Ctrl"
+
+#: src/supertux/menu/keyboard_menu.cpp:101
+msgid "Left Control"
+msgstr "Sol Ctrl"
+
+#: src/supertux/menu/keyboard_menu.cpp:103
+msgid "Right Alt"
+msgstr "Sağ Alt"
+
+#: src/supertux/menu/keyboard_menu.cpp:105
+msgid "Left Alt"
+msgstr "Sol Alt"
+
+#: src/supertux/menu/keyboard_menu.cpp:107
+msgid "Right Command"
+msgstr "Sağ Komut"
+
+#: src/supertux/menu/keyboard_menu.cpp:109
+msgid "Left Command"
+msgstr "Sol Komut"
+
+#: src/supertux/menu/keyboard_menu.cpp:121
+msgid "Press Key"
+msgstr "Tuşa Bas"
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:31
+msgid "New World"
+msgstr "Yeni dünya"
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:35
+#: src/supertux/menu/editor_levelset_menu.cpp:53
+msgid "Description"
+msgstr "Açıklama"
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:51
+msgid "Please enter a name for this level subset."
+msgstr "Lütfen bu düzey altkümesi için bir ad girin."
+
+#: src/supertux/menu/profile_menu.cpp:56
+#: src/supertux/menu/options_menu.cpp:188
+msgid "Select Profile"
+msgstr "Profil seçin"
+
+#: src/supertux/menu/profile_menu.cpp:60
+msgid "No profiles found."
+msgstr "Profil bulunamadı"
+
+#: src/supertux/menu/profile_menu.cpp:68
+#: src/supertux/menu/profile_menu.cpp:149
+#: src/supertux/menu/profile_menu.cpp:168
+msgid "Profile {}"
+msgstr ""
+
+#: src/supertux/menu/profile_menu.cpp:69
+msgid "{} (Profile {})"
+msgstr ""
+
+#: src/supertux/menu/profile_menu.cpp:84
+msgid "No profile selected."
+msgstr "Hiçbir profil seçilmedi."
+
+#: src/supertux/menu/profile_menu.cpp:88 src/gui/menu_string_array.cpp:79
+#: src/gui/menu_object_select.cpp:50
+msgid "Add"
+msgstr "Ekle"
+
+#: src/supertux/menu/profile_menu.cpp:98
+#: src/supertux/menu/profile_menu.cpp:100
+msgid "Reset"
+msgstr ""
+
+#: src/supertux/menu/profile_menu.cpp:103
+#: src/supertux/menu/profile_menu.cpp:105
+msgid "Reset all"
+msgstr ""
+
+#: src/supertux/menu/profile_menu.cpp:108
+#: src/supertux/menu/profile_menu.cpp:110 src/gui/menu_string_array.cpp:82
+msgid "Delete"
+msgstr "Sil"
+
+#: src/supertux/menu/profile_menu.cpp:113
+#: src/supertux/menu/profile_menu.cpp:115
+msgid "Delete all"
+msgstr "Hepsini sil"
+
+#: src/supertux/menu/profile_menu.cpp:148
+msgid ""
+"This will reset all game progress on the profile \"{}\".\n"
+"Are you sure?"
+msgstr ""
+
+#: src/supertux/menu/profile_menu.cpp:157
+msgid "This will reset your game progress on all profiles. Are you sure?"
+msgstr "Bu, oyun ilerlemenizi tüm profillerde sıfırlayacaktır. Emin misin?"
+
+#: src/supertux/menu/profile_menu.cpp:167
+msgid ""
+"This will delete the profile \"{}\",\n"
+"including all game progress on it. Are you sure?"
+msgstr ""
+
+#: src/supertux/menu/profile_menu.cpp:178
+msgid ""
+"This will delete all profiles, including all game progress on them.\n"
+"Are you sure?"
+msgstr ""
+
+#: src/supertux/menu/world_set_menu.cpp:28 src/supertux/menu/main_menu.cpp:54
+msgid "Start Game"
+msgstr "Oyunu Başlat"
+
+#: src/supertux/menu/world_set_menu.cpp:30
+msgid "Story Mode"
+msgstr "Hikaye Modu"
+
+#: src/supertux/menu/world_set_menu.cpp:31
+#: src/supertux/menu/contrib_menu.cpp:71
+msgid "Contrib Levels"
+msgstr "Ek Bölümler"
+
+#: src/supertux/menu/video_system_menu.cpp:36
+msgid "Select Video System"
+msgstr ""
+
+#: src/supertux/menu/video_system_menu.cpp:37
+msgid "Used video system: {}"
+msgstr ""
+
+#: src/supertux/menu/video_system_menu.cpp:54
+msgid "Restart game for the changes to take effect"
+msgstr ""
+
+#: src/supertux/menu/download_dialog.cpp:42
+msgid "Abort Download"
+msgstr "İndirmedi Durdur"
+
+#: src/supertux/menu/download_dialog.cpp:59
+msgid ""
+"Error:\n"
+"{}"
+msgstr "Hata:\n{}"
+
+#: src/supertux/menu/download_dialog.cpp:118 src/gui/notification.cpp:157
+msgid "Close"
+msgstr "Kapat"
+
+#: src/supertux/menu/contrib_menu.cpp:101
+#: src/supertux/menu/contrib_menu.cpp:115
+msgid "Official Contrib Levels"
+msgstr ""
+
+#: src/supertux/menu/contrib_menu.cpp:102
+#: src/supertux/menu/contrib_menu.cpp:121
+msgid "Community Contrib Levels"
+msgstr ""
+
+#: src/supertux/menu/contrib_menu.cpp:103
+#: src/supertux/menu/contrib_menu.cpp:127
+msgid "User Contrib Levels"
+msgstr ""
+
+#: src/supertux/menu/contrib_menu.cpp:116
+msgid "How is this possible? There are no Official Contrib Levels!"
+msgstr ""
+
+#: src/supertux/menu/contrib_menu.cpp:122
+msgid "No Community Contrib Levels yet. Download them from the Add-ons Menu."
+msgstr ""
+
+#: src/supertux/menu/contrib_menu.cpp:128
+msgid "No User Contrib Levels yet. Create some with the Level Editor."
+msgstr "Henüz Kullanıcı Katkı Seviyesi yok. Seviye Düzenleyicisi ile birkaç tane oluşturun."
+
+#: src/supertux/menu/options_menu.cpp:87
+msgid "Select Language"
+msgstr "Dil seç"
+
+#: src/supertux/menu/options_menu.cpp:88
+msgid "Select a different language to display text in"
+msgstr "Metni göstermek için başka bir dil seçiniz"
+
+#: src/supertux/menu/options_menu.cpp:90
+msgid "Language Packs"
+msgstr "Dil Paketleri"
+
+#: src/supertux/menu/options_menu.cpp:91
+msgid "Language packs contain up-to-date translations"
+msgstr "Dil paketleri çeviri güncellemelerini içerir"
+
+#: src/supertux/menu/options_menu.cpp:102
+msgid "Window Resizable"
+msgstr "Pencere Yeniden Boyutlandırılabilir"
+
+#: src/supertux/menu/options_menu.cpp:103
+msgid "Allow window resizing, might require a restart to take effect"
+msgstr "Pencerenin yeniden boyutlandırılmasına izin ver, etkili olması için yeniden başlatma gerekebilir"
+
+#: src/supertux/menu/options_menu.cpp:107
+msgid "Fullscreen"
+msgstr "Tam ekran"
+
+#: src/supertux/menu/options_menu.cpp:108
+msgid "Fill the entire screen"
+msgstr "Tüm ekranı kapla"
+
+#: src/supertux/menu/options_menu.cpp:115
+msgid "Fit to browser"
+msgstr "Tarayıcıya sığdır"
+
+#: src/supertux/menu/options_menu.cpp:116
+msgid "Fit the resolution to the size of your browser"
+msgstr "Çözünürlüğü tarayıcınızın boyutuna uydurun"
+
+#: src/supertux/menu/options_menu.cpp:123
+msgid "Frame prediction"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:124
+msgid ""
+"Smooth camera motion, generating intermediate frames. This has a noticeable "
+"effect on monitors at >> 60Hz. Moving objects may be blurry."
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:132
+msgid "Camera Peek Multiplier"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:133
+msgid ""
+"The fractional distance towards the camera peek position to move each frame.\n"
+"\n"
+"0 = No Peek, 1 = Instant Peek"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:135
+msgid "Change Video System"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:136
+msgid "Change video system used to render graphics"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:147
+msgid "Disable all sound effects"
+msgstr "Tüm ses efektlerini kapat"
+
+#: src/supertux/menu/options_menu.cpp:149
+msgid "Disable all music"
+msgstr "Tüm müziği kapat"
+
+#: src/supertux/menu/options_menu.cpp:156
+msgid "Sound (disabled)"
+msgstr "Ses (kapalı)"
+
+#: src/supertux/menu/options_menu.cpp:157
+msgid "Music (disabled)"
+msgstr "Müzik (kapalı)"
+
+#: src/supertux/menu/options_menu.cpp:169
+msgid "Enable Rumbling Controllers"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:170
+msgid "Enable vibrating the game controllers."
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:170
+msgid "This feature is currently only used in the multiplayer options menu."
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:173
+msgid "Configure key-action mappings"
+msgstr "Tuş-eylem ayarla"
+
+#: src/supertux/menu/options_menu.cpp:177
+msgid "Configure joystick control-action mappings"
+msgstr "Joystick kontrol-eylem ayarla"
+
+#: src/supertux/menu/options_menu.cpp:189
+msgid "Select a profile to play with"
+msgstr "Oynamak için bir profil seçin"
+
+#: src/supertux/menu/options_menu.cpp:192
+msgid "Multiplayer settings"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:193
+msgid "Configure settings specific to multiplayer"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:196
+msgid "Enable transitions"
+msgstr "Dönüşüm etkin"
+
+#: src/supertux/menu/options_menu.cpp:197
+msgid "Enable screen transitions and smooth menu animation"
+msgstr "Düzgün menü animasyonunu ve ekran geçişini etkinleştir"
+
+#: src/supertux/menu/options_menu.cpp:199
+msgid "Custom title screen levels"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:200
+msgid "Allow overriding the title screen level, when loading certain worlds"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:203
+msgid "Christmas Mode"
+msgstr "Yılbaşı Modu"
+
+#: src/supertux/menu/options_menu.cpp:205
+msgid "Integrations and presence"
+msgstr "Entegrasyonlar ve varlık"
+
+#: src/supertux/menu/options_menu.cpp:206
+msgid ""
+"Manage whether SuperTux should display the levels you play on your social "
+"media profiles (Discord)"
+msgstr "SuperTux'un oynadığınız seviyeleri sosyal medya profillerinizde gösterip göstermeyeceğini yönetin (Discord)"
+
+#: src/supertux/menu/options_menu.cpp:210
+msgid "Customize the appearance of the menus"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:222
+msgid "Developer Mode"
+msgstr "Geliştirici Modu"
+
+#: src/supertux/menu/options_menu.cpp:224
+msgid "Confirmation Dialog"
+msgstr "Onay İletişim Kutusu"
+
+#: src/supertux/menu/options_menu.cpp:224
+msgid "Confirm aborting level"
+msgstr "İptal seviyesini onaylayın"
+
+#: src/supertux/menu/options_menu.cpp:226
+msgid "Pause on focus loss"
+msgstr "Odak kaybında duraklama"
+
+#: src/supertux/menu/options_menu.cpp:227
+msgid "Automatically pause the game when the window loses focus"
+msgstr "Pencere odağını kaybettiğinde oyunu otomatik olarak duraklat"
+
+#: src/supertux/menu/options_menu.cpp:229
+msgid "Use custom mouse cursor"
+msgstr "Özel fare imlecini kullanma"
+
+#: src/supertux/menu/options_menu.cpp:229
+msgid "Whether the game renders its own cursor or uses the system's cursor"
+msgstr "Oyunun kendi imlecini oluşturup oluşturmadığı veya sistemin imlecini kullanıp kullanmadığı"
+
+#: src/supertux/menu/options_menu.cpp:233
+msgid "Check for new releases"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:234
+msgid ""
+"Allows the game to perform checks for new SuperTux releases on startup and "
+"notify if any found."
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:236
+msgid "Disable network"
+msgstr "Ağı devre dışı bırak"
+
+#: src/supertux/menu/options_menu.cpp:237
+msgid "Prevents the game from connecting online"
+msgstr "Oyunun çevrimiçi olarak bağlanmasını engeller"
+
+#: src/supertux/menu/options_menu.cpp:304
+msgid "Magnification"
+msgstr "Büyütme"
+
+#: src/supertux/menu/options_menu.cpp:305
+msgid "Change the magnification of the game area"
+msgstr "Arena alanının büyütmesini değiştirin"
+
+#: src/supertux/menu/options_menu.cpp:341
+msgid "Aspect Ratio"
+msgstr "En-boy oranı"
+
+#: src/supertux/menu/options_menu.cpp:342
+msgid "Adjust the aspect ratio"
+msgstr "En-boy oranını ayarla"
+
+#: src/supertux/menu/options_menu.cpp:369
+msgid "Window Resolution"
+msgstr "Pencere Çözünürlüğü"
+
+#: src/supertux/menu/options_menu.cpp:370
+msgid "Resize the window to the given size"
+msgstr "Pencereyi verilen boyuta göre yeniden boyutlandırın"
+
+#: src/supertux/menu/options_menu.cpp:400
+msgid "Desktop"
+msgstr "Masaüstü"
+
+#: src/supertux/menu/options_menu.cpp:427
+msgid "Fullscreen Resolution"
+msgstr "Tam Ekran Çözünürlüğü"
+
+#: src/supertux/menu/options_menu.cpp:428
+msgid ""
+"Determine the resolution used in fullscreen mode (you must toggle fullscreen"
+" to complete the change)"
+msgstr "Tam ekran modunda kullanılan çözünürlüğü belirle(Bu değişikliği tamamlamak için tam ekran moduna geçmelisiniz)"
+
+#: src/supertux/menu/options_menu.cpp:434
+msgid "on"
+msgstr "üzerinde"
+
+#: src/supertux/menu/options_menu.cpp:435
+msgid "off"
+msgstr "olası"
+
+#: src/supertux/menu/options_menu.cpp:436
+msgid "adaptive"
+msgstr "uyarlanabilir"
+
+#: src/supertux/menu/options_menu.cpp:454
+msgid "VSync"
+msgstr "VSync"
+
+#: src/supertux/menu/options_menu.cpp:455
+msgid "Set the VSync mode"
+msgstr "VSync modunu ayarlama"
+
+#: src/supertux/menu/options_menu.cpp:490
+msgid "Sound Volume"
+msgstr "Ses Seviyesi"
+
+#: src/supertux/menu/options_menu.cpp:491
+msgid "Adjust sound volume"
+msgstr "Ses seviyesini ayarla"
+
+#: src/supertux/menu/options_menu.cpp:526
+msgid "Music Volume"
+msgstr "Müzik sesi"
+
+#: src/supertux/menu/options_menu.cpp:527
+msgid "Adjust music volume"
+msgstr "Müzik sesini ayarla"
+
+#: src/supertux/menu/options_menu.cpp:562
+msgid "Flash Intensity"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:563
+msgid "Adjust the intensity of the flash produced by the thunderstorm"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:576
+msgid "On-screen controls scale"
+msgstr ""
+
+#: src/supertux/menu/options_menu.cpp:695
+msgid ""
+"The game couldn't detect your browser resolution.\n"
+"This most likely happens because it is not embedded\n"
+"in the SuperTux custom HTML template.\n"
+msgstr "Oyun tarayıcınızın çözünürlüğünü algılayamadı.\nBu büyük olasılıkla gömülü olmadığı için olur\nSuperTux özel HTML şablonunda.\n"
+
+#: src/supertux/menu/main_menu.cpp:58
+msgid "Add-ons"
+msgstr "Eklentiler"
+
+#: src/supertux/menu/main_menu.cpp:64
+msgid "Credits"
+msgstr "Emeği Geçenler"
+
+#: src/supertux/menu/main_menu.cpp:67
+msgid "Donate"
+msgstr "Bağış"
+
+#: src/supertux/menu/main_menu.cpp:70
+msgid "Quit"
+msgstr "Çıkış"
+
+#: src/supertux/menu/main_menu.cpp:80
+msgid ""
+"Would you allow SuperTux to connect to the Internet?\n"
+"\n"
+"This enables additional features, such as the in-game add-on catalog."
+msgstr "SuperTux'un internete bağlanmasına izin verir misiniz?\n\nBu, oyun içi eklenti kataloğu gibi ek özelliklerin kullanılmasını sağlar."
+
+#: src/supertux/menu/main_menu.cpp:85
+msgid ""
+"Would you allow SuperTux to check for new releases on startup?\n"
+"\n"
+"You will be notified if any are found."
+msgstr "SuperTux'un başlangıçta yeni sürümleri kontrol etmesine izin verir misiniz?\n\nBulunması halinde size bildirilecektir."
+
+#: src/supertux/menu/main_menu.cpp:128
+msgid ""
+"This will take you to the SuperTux donation page. Are you sure you want to "
+"continue?"
+msgstr ""
+
+#: src/supertux/menu/editor_levelset_menu.cpp:54 src/addon/addon.cpp:78
+#: data/images/engine/editor/objects.stoi:390
+msgid "Worldmap"
+msgstr "Dünya haritası"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:54 src/addon/addon.cpp:75
+msgid "Levelset"
+msgstr "Bölüm ayarı"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:55
+msgid "Title Screen Level"
+msgstr ""
+
+#: src/supertux/menu/editor_levelset_menu.cpp:56
+msgid "A level to be used for the title screen, after exiting the world."
+msgstr ""
+
+#: src/supertux/menu/editor_delete_level_menu.cpp:59
+msgid "No levels available"
+msgstr "Hiçbir seviye mevcut değil"
+
+#: src/supertux/menu/editor_delete_level_menu.cpp:79
+msgid "You cannot delete the level that you are editing!"
+msgstr ""
+
+#: src/supertux/menu/editor_delete_level_menu.cpp:82
+msgid "You are about to delete level \"{}\". Are you sure?"
+msgstr ""
+
+#: src/supertux/menu/editor_objectgroup_menu.cpp:30
+#: src/editor/toolbox_widget.cpp:77 src/badguy/dispenser.cpp:418
+msgid "Objects"
+msgstr "Nesneler"
+
+#: src/supertux/menu/addon_menu.cpp:70
+msgid "Installed Language Packs"
+msgstr "Yüklü Dil Paketleri"
+
+#: src/supertux/menu/addon_menu.cpp:70
+msgid "Installed Add-ons"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:78 src/supertux/menu/addon_menu.cpp:119
+msgid "No language packs installed"
+msgstr "Hiçbir dil paketi yüklü değil"
+
+#: src/supertux/menu/addon_menu.cpp:78
+msgid "No Add-ons installed"
+msgstr "Yüklenmiş eklenti yok"
+
+#: src/supertux/menu/addon_menu.cpp:127
+msgid "{} *UPDATE*"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:129
+msgid "{} [DISABLED] *UPDATE*"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:138
+msgid "{} [DISABLED]"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:148
+msgid "No updates available."
+msgstr "Güncelleme mevcut değil."
+
+#: src/supertux/menu/addon_menu.cpp:152
+msgid "{} {} available"
+msgstr "{} {} mevcut"
+
+#: src/supertux/menu/addon_menu.cpp:152
+msgid "update"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:152
+msgid "updates"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:154
+msgid "Check for updates"
+msgstr "Güncelleştirmeleri kontrol et"
+
+#: src/supertux/menu/addon_menu.cpp:158
+msgid "Browse language packs"
+msgstr "Dil paketlerine göz at"
+
+#: src/supertux/menu/addon_menu.cpp:159
+msgid "Install from file"
+msgstr ""
+
+#: src/supertux/menu/addon_menu.cpp:175
+msgid "To browse through the add-on catalog, you must enable networking."
+msgstr "Eklenti kataloğuna göz atmak için ağ özelliğini etkinleştirmeniz gerekir."
+
+#: src/supertux/menu/addon_menu.cpp:212
+msgid "To check for add-on updates, you must enable networking."
+msgstr "Eklenti güncellemelerini kontrol etmek için ağ özelliğini etkinleştirmeniz gerekir."
+
+#: src/supertux/menu/addon_menu.cpp:220
+msgid "Checking for updates..."
+msgstr "Güncellemeler kontrol ediliyor..."
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:43
+msgid "Bonus: None"
+msgstr "Bonus: Yok"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:49
+msgid "Reset Level"
+msgstr "Bölümü Sıfırla"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:51
+msgid "Finish Worldmap"
+msgstr "Dünya haritasını bitir"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:52
+msgid "Reset Worldmap"
+msgstr "Dünya Haritasını Sıfırla"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:54
+msgid "Go to level"
+msgstr "Seviyeye git"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:55
+msgid "Go to main spawnpoint"
+msgstr "Ana üreme noktasına git"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:177
+msgid "Select level"
+msgstr "Seviye seç"
+
+#: src/supertux/menu/editor_delete_levelset_menu.cpp:80
+msgid "You cannot delete the world that you are editing"
+msgstr ""
+
+#: src/supertux/menu/editor_delete_levelset_menu.cpp:83
+msgid "You are about to delete world \"{}\". Are you sure?"
+msgstr ""
+
+#: src/supertux/title_screen.cpp:272
+msgid "Copyright"
+msgstr "Telif hakkı"
+
+#: src/supertux/title_screen.cpp:273
+msgid ""
+"This game comes with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to\n"
+"redistribute it under certain conditions; see the license file for details.\n"
+msgstr "Bu oyunla gelen MUTLAK GARANTİ YOKTUR. Bu ücretsiz bir yazılımdır. ve sen belirli\nkoşullar altında oyunu tekrar dağıtabilirsin;  ayrıntılar için LİSANS dosyasına bakın.\n"
+
+#: src/addon/addon_manager.cpp:553
+msgid "Only one resource pack is allowed to be enabled at a time."
+msgstr ""
+
+#: src/addon/addon_manager.cpp:810
+msgid "Add-on {} by {} is already installed."
+msgstr ""
+
+#: src/addon/addon_manager.cpp:830
+msgid "Add-on {} by {} successfully installed."
+msgstr ""
+
+#: src/addon/addon.cpp:81
+msgid "World"
+msgstr "Dünya"
+
+#: src/addon/addon.cpp:84
+msgid "Add-on"
+msgstr "Ayriyeten"
+
+#: src/addon/addon.cpp:87
+msgid "Language Pack"
+msgstr "Dil Paketi"
+
+#: src/addon/addon.cpp:91
+msgid "Resource Pack"
+msgstr "Kaynak Paketi"
+
+#: src/addon/addon.cpp:94
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+#: src/addon/addon.cpp:105
+msgid "{} \"{}\" by \"{}\""
+msgstr ""
+
+#: src/addon/addon.cpp:119
+msgid "add-on"
+msgstr "eklenti"
+
+#: src/addon/addon.cpp:119
+msgid "add-ons"
+msgstr "eklentiler"
+
+#: src/gui/menu_script.cpp:28
+msgid "Edit script"
+msgstr "Komut dosyasını düzenle"
+
+#: src/gui/menu_filesystem.cpp:119
+msgid "Open Directory"
+msgstr ""
+
+#: src/gui/menu_color.cpp:29
+msgid "Mix the colour"
+msgstr "Rengi karıştır"
+
+#: src/gui/menu_color.cpp:40
+msgid "Copy to clipboard (rgb)"
+msgstr "Panoya kopyala (rgb)"
+
+#: src/gui/menu_color.cpp:41
+msgid "Copy to clipboard (hex)"
+msgstr "Panoya kopyala (hex)"
+
+#: src/gui/menu_color.cpp:57 src/gui/menu_color.cpp:60
+msgid "Paste from clipboard"
+msgstr "Panodan yapıştır"
+
+#: src/gui/menu_string_array.cpp:40 src/gui/menu_string_array.cpp:78
+msgid "Selected item: {}"
+msgstr ""
+
+#: src/gui/menu_string_array.cpp:70
+msgid "Edit string array"
+msgstr ""
+
+#: src/gui/menu_string_array.cpp:80
+msgid "Insert"
+msgstr ""
+
+#: src/gui/notification.cpp:57
+msgid "Click for more details."
+msgstr "Daha detaylı bilgi için tıklayınız."
+
+#: src/gui/notification.cpp:150
+msgid "Do not show again"
+msgstr "Bir daha gösterme"
+
+#: src/gui/menu_object_select.cpp:46
+msgid "List of objects"
+msgstr "Nesnelerin listesi"
+
+#: src/gui/menu_object_select.cpp:48
+msgid "Select object ({})"
+msgstr ""
+
+#: src/gui/menu_object_select.cpp:114
+msgid "Are you sure you want to remove this object from the list?"
+msgstr ""
+
+#: src/gui/menu_paths.cpp:32
+msgid "Clone"
+msgstr "Klon"
+
+#: src/gui/menu_paths.cpp:41
+msgid ""
+"An error occurred and the game could\n"
+"not clone the path. Please contact\n"
+"the developers for support."
+msgstr ""
+
+#: src/gui/menu_paths.cpp:44
+msgid "Bind"
+msgstr "Bağlama"
+
+#: src/gui/menu_paths.cpp:49
+msgid ""
+"Do you wish to clone the path to edit it separately,\n"
+"or do you want to bind both paths together\n"
+"so that any edit on one edits the other?"
+msgstr ""
+
+#: src/gui/menu_paths.cpp:56
+msgid "Path {}"
+msgstr "Yol {}"
+
+#: src/control/joystick_config.cpp:86
+msgid "Joystick Mappings"
+msgstr "Oyun çubuğu Eşleştirmesi"
+
+#: src/editor/node_marker.cpp:122
+msgid "Path Node"
+msgstr "Yol Düğümü"
+
+#: src/editor/node_marker.cpp:123
+msgid "Press CTRL to move Bezier handles"
+msgstr "Bezier tutamaçlarını taşımak için CTRL'ye basın"
+
+#: src/editor/node_marker.cpp:127
+msgid "Easing"
+msgstr "Yumuşatma"
+
+#: src/editor/layers_widget.cpp:371
+msgid "Sector: {}"
+msgstr ""
+
+#: src/editor/layers_widget.cpp:454
+msgid "Add Layer"
+msgstr "Katman Ekle"
+
+#: src/editor/object_menu.cpp:60
+msgid "Patch Notes"
+msgstr "Yama Notları"
+
+#: src/editor/object_menu.cpp:67 src/editor/object_option.cpp:910
+msgid "Remove"
+msgstr "Kaldır"
+
+#: src/editor/object_menu.cpp:84
+msgid ""
+"This will update the object to its latest functionality.\n"
+"Check the \"Patch Notes\" for more information.\n"
+"\n"
+"Keep in mind this is very likely to break the proper behaviour of the object.\n"
+"Make sure to re-check any behaviour, related to the object."
+msgstr "Bu, nesneyi en son işlevselliğine güncelleyecektir.\nDaha fazla bilgi için \"Yama Notları\"nı kontrol edin.\n\nBunun nesnenin uygun davranışını bozma olasılığının çok yüksek olduğunu unutmayın.\nNesneyle ilgili herhangi bir davranışı tekrar kontrol ettiğinizden emin olun."
+
+#: src/editor/object_menu.cpp:98
+msgid "Patch notes for v{}:"
+msgstr ""
+
+#: src/editor/object_settings.cpp:138
+msgid "West"
+msgstr "Batı"
+
+#: src/editor/object_settings.cpp:138
+msgid "East"
+msgstr "Doğu"
+
+#: src/editor/object_settings.cpp:138
+msgid "North"
+msgstr "Kuzey"
+
+#: src/editor/object_settings.cpp:138
+msgid "South"
+msgstr "Güney"
+
+#: src/editor/object_settings.cpp:151
+msgid "One shot"
+msgstr "Tek atış"
+
+#: src/editor/object_settings.cpp:151
+msgid "Ping-pong"
+msgstr "Masa Tenisi"
+
+#: src/editor/object_settings.cpp:151
+msgid "Circular"
+msgstr "Dairesel"
+
+#: src/editor/particle_editor.cpp:114
+msgid "Change texture...  ->"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:126
+msgid "Max amount"
+msgstr "Maksimum miktar"
+
+#: src/editor/particle_editor.cpp:142
+msgid "Spawn anywhere"
+msgstr "Her yerde yumurtlayın"
+
+#: src/editor/particle_editor.cpp:143
+msgid "Life duration"
+msgstr "Yaşam süresi"
+
+#: src/editor/particle_editor.cpp:148
+msgid "Birth duration"
+msgstr "Doğum süresi"
+
+#: src/editor/particle_editor.cpp:153
+msgid "Death duration"
+msgstr "Ölüm süresi"
+
+#: src/editor/particle_editor.cpp:160
+msgid "Grow"
+msgstr "Büyümek"
+
+#: src/editor/particle_editor.cpp:175
+msgid "Horizontal speed"
+msgstr "Yatay hız"
+
+#: src/editor/particle_editor.cpp:180
+msgid "Vertical speed"
+msgstr "Dikey hız"
+
+#: src/editor/particle_editor.cpp:185
+msgid "Horizontal acceleration"
+msgstr "Yatay hızlanma"
+
+#: src/editor/particle_editor.cpp:186
+msgid "Vertical acceleration"
+msgstr "Dikey hızlanma"
+
+#: src/editor/particle_editor.cpp:187
+msgid "Horizontal friction"
+msgstr "Yatay sürtünme"
+
+#: src/editor/particle_editor.cpp:188
+msgid "Vertical friction"
+msgstr "Dikey sürtünme"
+
+#: src/editor/particle_editor.cpp:190
+msgid "Initial rotation"
+msgstr "İlk rotasyon"
+
+#: src/editor/particle_editor.cpp:201
+msgid "Rotation friction/decceleration"
+msgstr "Dönme sürtünmesi/yavaşlaması"
+
+#: src/editor/particle_editor.cpp:211
+msgid "Destroy"
+msgstr "Tahrip etmek"
+
+#: src/editor/particle_editor.cpp:215
+msgid "Stick to surface"
+msgstr "Yüzeye yapış"
+
+#: src/editor/particle_editor.cpp:216
+msgid "Stick and stay"
+msgstr "Yapış ve kal"
+
+#: src/editor/particle_editor.cpp:217
+msgid "No collision"
+msgstr "Çarpışma yok"
+
+#: src/editor/particle_editor.cpp:222
+msgid "Always destroy"
+msgstr "Her zaman yok et"
+
+#: src/editor/particle_editor.cpp:226
+msgid "Offscreen mode"
+msgstr "Ekran dışı modu"
+
+#: src/editor/particle_editor.cpp:229
+msgid "Clear"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:245
+msgid "<- General settings"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:255
+msgid "Likeliness"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:266
+msgid "Color (RGBA)"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:311
+msgid "Scale (x, y)"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:332
+msgid "Hitbox scale (x, y)"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:353
+msgid "Hitbox offset relative to scale"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:372
+msgid "Change texture..."
+msgstr ""
+
+#: src/editor/particle_editor.cpp:766
+msgid ""
+"This particle configuration contains unsaved changes,\n"
+"do you want to save?"
+msgstr "Bu parçacık yapılandırması kaydedilmemiş değişiklikler içerir,\nkurtarmak mı istiyorsun?"
+
+#: src/editor/particle_editor.cpp:774
+msgid "Save as"
+msgstr "Farklı kaydet"
+
+#: src/editor/editor.cpp:561
+msgid ""
+"This level contains deprecated tiles.\n"
+"It is strongly recommended to replace all deprecated tiles\n"
+"to avoid loss of compatibility in future versions."
+msgstr ""
+
+#: src/editor/editor.cpp:563
+msgid "Tip: Turn on \"Show Deprecated Tiles\" from the level editor menu."
+msgstr ""
+
+#: src/editor/editor.cpp:634
+msgid ""
+"Don't forget that your levels and assets\n"
+"aren't saved between sessions!\n"
+"If you want to keep your levels, download them\n"
+"from the \"Manage Assets\" menu."
+msgstr "Seviyelerinizin ve varlıklarınızın\noturumlar arasında kaydedilmez!\nSeviyenizi korumak istiyorsanız, indirin\n\"Varlıkları Yönet\" menüsünden."
+
+#: src/editor/editor.cpp:669
+msgid "This level contains unsaved changes, do you want to save?"
+msgstr "Bu aşama kaydedilmemiş değişiklikler içeriyor, kaydetmek istiyor musunuz?"
+
+#: src/editor/editor.cpp:670
+msgid "This level may contain unsaved changes, do you want to save?"
+msgstr ""
+
+#: src/editor/editor.cpp:800
+msgid ""
+"Some obsolete add-ons are still active\n"
+"and might cause collisions with default Super Tux structure.\n"
+"You can still enable these add-ons in the menu.\n"
+"Disabling these add-ons will not delete your game progress."
+msgstr "Bazı eski eklentiler hala etkin\nve varsayılan Super Tux yapısıyla çarpışmalara neden olabilir.\nBu eklentileri yine de menüden etkinleştirebilirsiniz.\nBu eklentileri devre dışı bırakmak, oyun ilerlemenizi silmez."
+
+#: src/editor/editor.cpp:803
+msgid "Disable add-ons"
+msgstr "Eklentileri devre dışı bırak"
+
+#: src/editor/editor.cpp:808
+msgid "Ignore (not advised)"
+msgstr "Yoksay (önerilmiyor)"
+
+#: src/editor/editor.cpp:812
+msgid "Leave editor"
+msgstr "Düzenleyiciden ayrıl"
+
+#: src/editor/editor.cpp:1031
+msgid ""
+"Couldn't find a \"main\" sector.\n"
+"Please change the name of the sector where\n"
+"you'd like the player to start to \"main\""
+msgstr "\"Ana\" bir sektör bulamadım.\nLütfen bulunduğu sektörün adını değiştirin\noyuncunun \"ana\" ya başlamasını istersiniz."
+
+#: src/editor/editor.cpp:1035
+msgid ""
+"Couldn't find a \"main\" spawnpoint.\n"
+" Please change the name of the spawnpoint where\n"
+"you'd like the player to start to \"main\""
+msgstr "Bir \"ana\" yumurtlama noktası bulunamadı.\nLütfen yumurtlama noktasının adını değiştirin\noyuncunun \"ana\" ya başlamasını istersiniz."
+
+#: src/editor/tip.cpp:80
+msgid ""
+"This object's current functionality is deprecated.\n"
+"Updating to get its latest functionality is recommended."
+msgstr ""
+
+#: src/editor/overlay_widget.cpp:996
+msgid "Cannot select deprecated tiles"
+msgstr "Kullanım dışı bırakılan döşemeler seçilemiyor"
+
+#: src/editor/overlay_widget.cpp:1586
+msgid "Autotile erasing mode is on (\"{}\")"
+msgstr ""
+
+#: src/editor/overlay_widget.cpp:1590
+msgid "Autotile erasing cannot be performed here"
+msgstr ""
+
+#: src/editor/overlay_widget.cpp:1595
+msgid "Autotile mode is on (\"{}\")"
+msgstr ""
+
+#: src/editor/overlay_widget.cpp:1599
+msgid "Selected tile isn't autotileable"
+msgstr "Seçilen döşeme otomatik olarak çalıştırılamaz"
+
+#: src/editor/overlay_widget.cpp:1604
+msgid "Hold Ctrl to enable autotile erasing"
+msgstr "Otomatik dosya silmeyi etkinleştirmek için Ctrl tuşunu basılı tutun"
+
+#: src/editor/overlay_widget.cpp:1608
+msgid "Hold Ctrl to enable autotile"
+msgstr "Otomatik dosyalamayı etkinleştirmek için Ctrl tuşunu basılı tutun"
+
+#: src/editor/object_option.cpp:153
+msgid "true"
+msgstr "doğru"
+
+#: src/editor/object_option.cpp:153
+msgid "false"
+msgstr "yanlış"
+
+#: src/editor/object_option.cpp:366 src/editor/object_option.cpp:429
+msgid "invalid"
+msgstr "Geçersiz"
+
+#: src/editor/object_option.cpp:903
+msgid "Scale X"
+msgstr ""
+
+#: src/editor/object_option.cpp:904
+msgid "Scale Y"
+msgstr ""
+
+#: src/editor/object_option.cpp:905
+msgid "Offset X"
+msgstr ""
+
+#: src/editor/object_option.cpp:906
+msgid "Offset Y"
+msgstr ""
+
+#: src/editor/object_option.cpp:927
+msgid "Test from here"
+msgstr "Buradan test edin"
+
+#: src/editor/object_option.cpp:944
+msgid "Open Particle Editor"
+msgstr "Parçacık Düzenleyiciyi Aç"
+
+#: src/badguy/darttrap.hpp:35
+msgid "Dart Trap"
+msgstr "Dart Tuzağı"
+
+#: src/badguy/corrupted_granito.cpp:175 src/badguy/darttrap.cpp:170
+#: src/badguy/granito.hpp:52 src/badguy/dispenser.cpp:440
+msgid "Granito"
+msgstr ""
+
+#: src/badguy/corrupted_granito.cpp:176
+msgid "Skullyhop"
+msgstr "Skullyhop"
+
+#: src/badguy/granito.cpp:259
+msgid "Detect script"
+msgstr "Betiği algıla"
+
+#: src/badguy/granito.cpp:260
+msgid "Carried script"
+msgstr ""
+
+#: src/badguy/granito.cpp:277 src/badguy/granito_big.cpp:73
+msgid "Default"
+msgstr ""
+
+#: src/badguy/granito.cpp:278 src/badguy/granito_big.cpp:74
+msgid "Standing"
+msgstr ""
+
+#: src/badguy/granito.cpp:279 src/badguy/granito_big.cpp:75
+msgid "Walking"
+msgstr ""
+
+#: src/badguy/granito.cpp:280 src/badguy/granito_big.cpp:76
+msgid "Scriptable"
+msgstr ""
+
+#: src/badguy/granito.cpp:283
+msgid "Sitting"
+msgstr ""
+
+#: src/badguy/scrystallo.cpp:57
+msgid "Walk Radius"
+msgstr "Yürüyüş Yarıçapı"
+
+#: src/badguy/scrystallo.cpp:58
+msgid "Awakening Radius"
+msgstr "Uyanış Yarıçapı"
+
+#: src/badguy/scrystallo.cpp:59
+msgid "Roof-attached"
+msgstr ""
+
+#: src/badguy/willowisp.cpp:306
+msgid "Track range"
+msgstr "Parça aralığı"
+
+#: src/badguy/willowisp.cpp:307
+msgid "Vanish range"
+msgstr "Yok olmak aralığı"
+
+#: src/badguy/willowisp.cpp:308
+msgid "Fly speed"
+msgstr "Uçuş hızı"
+
+#: src/badguy/granito_big.cpp:64
+msgid "Carrying Script"
+msgstr ""
+
+#: src/badguy/owl.cpp:241
+msgid "Carry"
+msgstr "Taşımak"
+
+#: src/badguy/dart.hpp:44
+msgid "Dart"
+msgstr "Dart"
+
+#: src/badguy/kugelblitz.hpp:40
+msgid "Kugelblitz"
+msgstr "Kuğelblitz"
+
+#: src/badguy/mrbomb.cpp:66
+msgid "Classic"
+msgstr "Klasik"
+
+#: src/badguy/angrystone.hpp:39
+msgid "Angry Stone"
+msgstr "Kızgın Taş"
+
+#: src/badguy/flame.hpp:47
+msgid "Flame"
+msgstr "Alev"
+
+#: src/badguy/dispenser.hpp:68
+msgid "Dispenser"
+msgstr "Dağıtıcı"
+
+#: src/badguy/livefire.hpp:38
+msgid "Walking Flame"
+msgstr "Yürüyen alev"
+
+#: src/badguy/livefire.hpp:72
+msgid "Sleeping Flame"
+msgstr "Uyuyan Alev"
+
+#: src/badguy/livefire.hpp:91
+msgid "Dormant Flame"
+msgstr "Uyuyan Alev"
+
+#: src/badguy/granito_big.hpp:44
+msgid "Big Granito"
+msgstr ""
+
+#: src/badguy/jumpy.hpp:40
+msgid "Jumpy"
+msgstr "Ürkek"
+
+#: src/badguy/boss.cpp:95
+msgid "Lives"
+msgstr "Hayatları"
+
+#. l10n: Pinch Mode refers to a particular boss mode that gets
+#. activated once the boss has lost the specified amounts of lives.
+#. This setting specifies how many lives need to be spent until pinch
+#. mode is activated.
+#: src/badguy/boss.cpp:101
+msgid "Lives to Pinch Mode"
+msgstr ""
+
+#. l10n: Pinch Mode refers to a particular boss mode that gets
+#. activated once the boss has lost the specified amounts of lives.
+#. This setting specifies the squirrel script that gets run to activate boss
+#. mode.
+#: src/badguy/boss.cpp:106
+msgid "Pinch Mode Activation Script"
+msgstr ""
+
+#: src/badguy/mrtree.hpp:32
+msgid "Mr. Tree"
+msgstr "Bay Ağaç"
+
+#: src/badguy/yeti.cpp:485
+msgid "Fixed position"
+msgstr "sabit konum"
+
+#: src/badguy/fish_swimming.hpp:40
+msgid "Swimming Fish"
+msgstr ""
+
+#: src/badguy/root.hpp:39
+msgid "Root"
+msgstr ""
+
+#: src/badguy/igel.hpp:39
+msgid "Igel"
+msgstr "İgel"
+
+#: src/badguy/bouncing_snowball.cpp:98
+msgid "Fatbat"
+msgstr ""
+
+#: src/badguy/snail.hpp:43
+msgid "Snail"
+msgstr "Salyangoz"
+
+#: src/badguy/snowball.cpp:41
+msgid "Bumpkin"
+msgstr ""
+
+#: src/badguy/snowball.cpp:42
+msgid "BSOD"
+msgstr ""
+
+#: src/badguy/short_fuse.hpp:30
+msgid "Short Fuse"
+msgstr "Kısa Sigorta"
+
+#: src/badguy/dive_mine.hpp:50
+msgid "Dive Mine"
+msgstr ""
+
+#: src/badguy/goldbomb.hpp:36
+msgid "Gold Bomb"
+msgstr "Altın Bomba"
+
+#: src/badguy/igel.cpp:195 src/badguy/jumpy.cpp:46 src/badguy/mrtree.cpp:51
+#: src/badguy/snail.cpp:71 src/badguy/walkingleaf.cpp:36
+#: src/badguy/kamikazesnowball.cpp:118 src/badguy/fish_swimming.cpp:58
+#: src/badguy/viciousivy.cpp:45
+msgid "Corrupted"
+msgstr ""
+
+#: src/badguy/smartball.cpp:35
+msgid "Pumpkin"
+msgstr "Balkabağı"
+
+#: src/badguy/darttrap.cpp:155
+msgid "Initial delay"
+msgstr "Başlangıç ​​gecikmesi"
+
+#: src/badguy/darttrap.cpp:157
+msgid "Fire delay"
+msgstr "Yangın gecikmesi"
+
+#: src/badguy/darttrap.cpp:158
+msgid "Ammo"
+msgstr "Cephane"
+
+#: src/badguy/darttrap.cpp:159
+msgid "Dart sprite"
+msgstr ""
+
+#: src/badguy/darttrap.cpp:171
+msgid "Skull"
+msgstr ""
+
+#: src/badguy/haywire.hpp:46
+msgid "Haywire"
+msgstr "Saman teli"
+
+#: src/badguy/willowisp.hpp:69
+msgid "Will o' Wisp"
+msgstr "WilloWisp"
+
+#: src/badguy/granito_giant.cpp:71
+msgid "Awake"
+msgstr ""
+
+#: src/badguy/granito_giant.cpp:72
+msgid "Sleeping"
+msgstr ""
+
+#: src/badguy/granito_giant.cpp:73
+msgid "Corrupted A"
+msgstr ""
+
+#: src/badguy/granito_giant.cpp:74
+msgid "Corrupted B"
+msgstr ""
+
+#: src/badguy/granito_giant.cpp:75
+msgid "Corrupted C"
+msgstr ""
+
+#: src/badguy/viciousivy.hpp:33
+msgid "Vicious Ivy"
+msgstr ""
+
+#: src/badguy/kamikazesnowball.hpp:34
+msgid "Kamikaze Snowball"
+msgstr ""
+
+#: src/badguy/kamikazesnowball.hpp:65
+msgid "Leafshot"
+msgstr "Yaprak atışı"
+
+#: src/badguy/walkingleaf.hpp:33
+msgid "Walking Leaf"
+msgstr ""
+
+#: src/badguy/walking_candle.hpp:41
+msgid "Walking Candle"
+msgstr "Yürüyen Mum"
+
+#: src/badguy/flame.cpp:84
+msgid "Fire"
+msgstr ""
+
+#: src/badguy/flame.cpp:85
+msgid "Ghost"
+msgstr ""
+
+#: src/badguy/smartblock.hpp:30
+msgid "Mrs. Iceblock"
+msgstr "Bayan Buz Bloğu"
+
+#: src/badguy/bouncing_snowball.hpp:40
+msgid "Bouncing Snowball"
+msgstr "Seken kar topu"
+
+#: src/badguy/smartball.hpp:32
+msgid "Mrs. Snowball"
+msgstr "Bayan Kartopu"
+
+#: src/badguy/stumpy.hpp:38
+msgid "Stumpy"
+msgstr ""
+
+#: src/badguy/badguy.hpp:69
+msgid "Badguy"
+msgstr "Kötü Adam"
+
+#: src/badguy/tarantula.cpp:353 src/badguy/tarantula.hpp:39
+msgid "Tarantula"
+msgstr ""
+
+#: src/badguy/tarantula.cpp:354
+msgid "Spidermite"
+msgstr ""
+
+#: src/badguy/tarantula.cpp:374
+msgid "Static"
+msgstr ""
+
+#: src/badguy/scrystallo.hpp:31
+msgid "Sleeping Crystallo"
+msgstr "Uyuyan Crystallo"
+
+#: src/badguy/ghosttree.hpp:41
+msgid "Ghost Tree"
+msgstr "Hayalet Ağaç"
+
+#: src/badguy/mrbomb.hpp:55
+msgid "Mr. Bomb"
+msgstr ""
+
+#: src/badguy/badguy.cpp:1213
+msgid "Death script"
+msgstr "Ölüm senaryosu"
+
+#: src/badguy/plant.hpp:34
+msgid "Plant"
+msgstr "Bitki"
+
+#: src/badguy/root_sapling.hpp:41
+msgid "Root Sapling"
+msgstr ""
+
+#: src/badguy/captainsnowball.hpp:32
+msgid "Captain Snowball"
+msgstr "Kaptan Kartopu"
+
+#: src/badguy/dispenser.cpp:414
+msgid "Interval (seconds)"
+msgstr "Aralık (saniye)"
+
+#: src/badguy/dispenser.cpp:415
+msgid "Random"
+msgstr "Rastgele"
+
+#: src/badguy/dispenser.cpp:421
+msgid "Limit dispensed badguys"
+msgstr "Dağıtılan kötü adamları sınırlayın"
+
+#: src/badguy/dispenser.cpp:423
+msgid "Obey Gravity"
+msgstr "Yerçekimine Uymak"
+
+#: src/badguy/dispenser.cpp:425
+msgid "Max concurrent badguys"
+msgstr "Maksimum eşzamanlı kötü adamlar"
+
+#: src/badguy/dispenser.cpp:437
+msgid "Dropper"
+msgstr ""
+
+#: src/badguy/dispenser.cpp:438
+msgid "Cannon"
+msgstr ""
+
+#: src/badguy/dispenser.cpp:439 src/worldmap/special_tile.cpp:77
+msgid "Invisible"
+msgstr "Görünmezlik"
+
+#: src/badguy/crystallo.hpp:33
+msgid "Crystallo"
+msgstr "Kristalo"
+
+#: src/badguy/fish_harmless.hpp:30
+msgid "Harmless Fish"
+msgstr ""
+
+#: src/badguy/snowball.hpp:30
+msgid "Mr. Snowball"
+msgstr "Bay Kartopu"
+
+#: src/badguy/yeti_stalactite.hpp:34
+msgid "Yeti's Stalactite"
+msgstr "Yeti'nin Sarkıtı"
+
+#: src/badguy/sspiky.hpp:37
+msgid "Sleeping Spiky"
+msgstr "Dikenli Uyuyan"
+
+#: src/badguy/fish_chasing.cpp:200
+msgid "Tracking Distance"
+msgstr ""
+
+#: src/badguy/fish_chasing.cpp:201
+msgid "Losing Distance"
+msgstr ""
+
+#: src/badguy/fish_chasing.cpp:202
+msgid "Chase Speed"
+msgstr ""
+
+#: src/badguy/spiky.hpp:31
+msgid "Spiky"
+msgstr "Sikenli"
+
+#: src/badguy/jumpy.cpp:44 src/badguy/fish_swimming.cpp:56
+#: data/images/ice_world.strf:10 data/images/tiles.strf:28
+#: data/images/worldmap.strf:41
+msgid "Snow"
+msgstr "Kar"
+
+#: src/badguy/jumpy.cpp:45
+msgid "Wooden"
+msgstr ""
+
+#: src/badguy/jumpy.cpp:47
+msgid "Metal"
+msgstr ""
+
+#: src/badguy/jumpy.cpp:48
+msgid "Bag"
+msgstr ""
+
+#: src/badguy/owl.hpp:45
+msgid "Owl"
+msgstr "Baykuş"
+
+#: src/badguy/crusher.hpp:71
+msgid "Crusher"
+msgstr ""
+
+#: src/badguy/skydive.hpp:43
+msgid "Skydive"
+msgstr "Hava dalışı"
+
+#: src/badguy/stalactite.hpp:42
+msgid "Stalactite"
+msgstr "Sarkıt"
+
+#: src/badguy/mriceblock.cpp:64
+msgid "Laptop"
+msgstr ""
+
+#: src/badguy/flyingsnowball.hpp:33
+msgid "Flying Snowball"
+msgstr "Uçan Kartopu"
+
+#: src/badguy/rcrystallo.hpp:33
+msgid "Roof Crystallo"
+msgstr "Çatı Kristali"
+
+#: src/badguy/zeekling.hpp:39
+msgid "Zeekling"
+msgstr "Zeekling"
+
+#: src/badguy/mole_rock.hpp:44
+msgid "Mole's rock"
+msgstr "Köstebek kayası"
+
+#: src/badguy/crusher.cpp:75
+msgid "Ice (normal)"
+msgstr "Buz (normal)"
+
+#: src/badguy/crusher.cpp:76
+msgid "Ice (big)"
+msgstr "Buz (büyük)"
+
+#: src/badguy/crusher.cpp:77
+msgid "Rock (normal)"
+msgstr "Kaya (normal)"
+
+#: src/badguy/crusher.cpp:78
+msgid "Rock (big)"
+msgstr "Kaya (büyük)"
+
+#: src/badguy/crusher.cpp:79
+msgid "Corrupted (normal)"
+msgstr ""
+
+#: src/badguy/crusher.cpp:80
+msgid "Corrupted (big)"
+msgstr ""
+
+#: src/badguy/crusher.cpp:506
+msgid "Sideways"
+msgstr "Yan yan"
+
+#: src/badguy/yeti.hpp:38
+msgid "Yeti"
+msgstr "Yeti"
+
+#: src/badguy/corrupted_granito.hpp:44
+msgid "Corrupted Granito"
+msgstr ""
+
+#: src/badguy/ghoul.hpp:30
+msgid "Ghoul"
+msgstr "Gulyabani"
+
+#: src/badguy/fish_chasing.hpp:33
+msgid "Chasing Fish"
+msgstr ""
+
+#: src/badguy/mriceblock.hpp:49
+msgid "Mr. Iceblock"
+msgstr "Bay Buz Bloğu"
+
+#: src/badguy/fish_swimming.cpp:57 data/images/ice_world.strf:255
+#: data/images/tiles.strf:473 data/images/worldmap.strf:67
+msgid "Forest"
+msgstr "Orman"
+
+#: src/badguy/stalactite.cpp:162
+msgid "ice"
+msgstr "buz"
+
+#: src/badguy/stalactite.cpp:163
+msgid "rock"
+msgstr "kaya"
+
+#: src/badguy/totem.hpp:37
+msgid "Totem"
+msgstr "Totem"
+
+#: src/badguy/granito_giant.hpp:32
+msgid "Giant Granito"
+msgstr ""
+
+#: src/badguy/mole.hpp:38
+msgid "Mole"
+msgstr "Köstebek"
+
+#: src/badguy/fish_jumping.hpp:41
+msgid "Jumping Fish"
+msgstr ""
+
+#: src/badguy/snowman.hpp:29
+msgid "Snowman"
+msgstr "Kardan adam"
+
+#: src/badguy/corrupted_granito_big.hpp:35
+msgid "Corrupted Big Granito"
+msgstr ""
+
+#: src/badguy/toad.hpp:38
+msgid "Toad"
+msgstr "Toad"
+
+#: src/worldmap/sprite_change.cpp:91
+msgid "Stay action"
+msgstr "Eylemde kalın"
+
+#: src/worldmap/sprite_change.cpp:92
+msgid "Initial stay action"
+msgstr "İlk kalış eylemi"
+
+#: src/worldmap/sprite_change.cpp:93
+msgid "Stay group"
+msgstr "Grupta kal"
+
+#: src/worldmap/sprite_change.cpp:94
+msgid "Change on touch"
+msgstr "Dokunuşta değiştir"
+
+#: src/worldmap/sprite_change.hpp:35
+msgid "Sprite Change"
+msgstr "Karakter Değişikliği"
+
+#: src/worldmap/teleporter.cpp:50
+msgid "Automatic"
+msgstr "Otomatik"
+
+#: src/worldmap/teleporter.cpp:51
+msgid "Target worldmap"
+msgstr "Hedef dünya haritası"
+
+#: src/worldmap/level_tile.cpp:86
+msgid "<no title>"
+msgstr "<no title>"
+
+#: src/worldmap/level_tile.cpp:153 src/worldmap/level_tile.hpp:36
+msgid "Level"
+msgstr "Seviye"
+
+#: src/worldmap/level_tile.cpp:154
+msgid "Outro script"
+msgstr "Outro komut dosyası"
+
+#: src/worldmap/level_tile.cpp:155
+msgid "Auto play"
+msgstr "Otomatik oynatma"
+
+#: src/worldmap/level_tile.cpp:156
+msgid "Title colour"
+msgstr "Başlık rengi"
+
+#: src/worldmap/special_tile.hpp:36
+msgid "Special Tile"
+msgstr ""
+
+#: src/worldmap/special_tile.cpp:75
+msgid "Show message"
+msgstr "İletiyi göster"
+
+#: src/worldmap/teleporter.hpp:34
+msgid "Teleporter"
+msgstr "Işınlayıcı"
+
+#: data/credits.stxt:25
+msgid "Current SuperTux Team"
+msgstr "Şimdiki SuperTux Takımı"
+
+#: data/credits.stxt:30
+msgid "Maintainer, Programming"
+msgstr "Bakımcı, Programlama"
+
+#: data/credits.stxt:35
+msgid "Graphics, Level Design, Story"
+msgstr "Grafikler, Bölüm Düzenleme, Öykü"
+
+#: data/credits.stxt:40
+msgid "Level Design, Story, Optimisation, Coordination"
+msgstr "Seviye Tasarımı, Hikaye, Optimizasyon, Koordinasyon"
+
+#: data/credits.stxt:45 data/credits.stxt:120 data/credits.stxt:206
+#: data/credits.stxt:538
+msgid "Graphics"
+msgstr "Grafikler"
+
+#: data/credits.stxt:50 data/credits.stxt:102 data/credits.stxt:108
+msgid "Graphics, Programming, Level Design"
+msgstr "Grafikler, Programlama, Bölüm Düzenleme"
+
+#: data/credits.stxt:55
+msgid "Features and Programming"
+msgstr "Özellikler ve Programlama"
+
+#: data/credits.stxt:60
+msgid "Minor features and programming"
+msgstr "Küçük özellikler ve programlama"
+
+#: data/credits.stxt:65
+msgid "Programming, Level Updates"
+msgstr "Programlama, Seviye Güncellemeleri"
+
+#: data/credits.stxt:70
+msgid "Graphics, Programming"
+msgstr "Grafikler, Programlama"
+
+#: data/credits.stxt:75 data/credits.stxt:85 data/credits.stxt:150
+#: data/credits.stxt:155 data/credits.stxt:160 data/credits.stxt:165
+#: data/credits.stxt:180 data/credits.stxt:185 data/credits.stxt:534
+#: data/credits.stxt:546
+msgid "Programming"
+msgstr "Programlama"
+
+#: data/credits.stxt:80 data/credits.stxt:266
+msgid "Level Design"
+msgstr "Bölüm Düzenleme"
+
+#: data/credits.stxt:91
+msgid "Original Developers"
+msgstr "Esas Geliştirici"
+
+#: data/credits.stxt:96
+msgid "Original Developer"
+msgstr "Esas Geliştirici"
+
+#: data/credits.stxt:114
+msgid "Music, Level Design"
+msgstr "Müzik, Bölüm Düzenleme"
+
+#: data/credits.stxt:126
+msgid "Programming, Graphics, Level Design"
+msgstr "Programlama,Grafikler, Bölüm Düzenleme"
+
+#: data/credits.stxt:132
+msgid "Programming, Level Design"
+msgstr "Programlama, Bölüm Düzenleme"
+
+#: data/credits.stxt:138
+msgid "Graphics, Story"
+msgstr "Grafikler, Öykü"
+
+#: data/credits.stxt:144
+msgid "Programming, Documentation"
+msgstr "Programlama, Belgelendirme"
+
+#: data/credits.stxt:170
+msgid "Coordination"
+msgstr "Eşgüdüm"
+
+#: data/credits.stxt:175
+msgid "Programming, \"Flexlay\" Level editor"
+msgstr "Programlama, ''Flexlay'' Bölüm düzenleyici"
+
+#: data/credits.stxt:190
+msgid "Windows build fixes"
+msgstr "Windows yapı düzeltmeleri"
+
+#: data/credits.stxt:195
+msgid "Packaging, Nightly builds"
+msgstr "Paketleme, Gecekondular"
+
+#: data/credits.stxt:200
+msgid "Translation Guru (and many details anyone else could have done)"
+msgstr "Çeviri Uzmanı (ve kimsenin yapamadığı bazı ayrıntılar)"
+
+#: data/credits.stxt:450
+msgid "Additional contributors"
+msgstr "Ek katkıcı"
+
+#: data/credits.stxt:455
+msgid "Bug fixes"
+msgstr "Hata düzeltmeleri"
+
+#: data/credits.stxt:459
+msgid "Scripting functions, Level fixes"
+msgstr "Komut işlevleri, Bölüm düzeltmeleri"
+
+#: data/credits.stxt:463
+msgid "Code quality fixes"
+msgstr "Kod kalite düzeltmeleri"
+
+#: data/credits.stxt:467 data/credits.stxt:471 data/credits.stxt:475
+#: data/credits.stxt:502
+msgid "Various contributions"
+msgstr "Çeşitli katkılar"
+
+#: data/credits.stxt:479
+msgid "Build issue fix"
+msgstr "Yapı sorunu düzeltmesi"
+
+#: data/credits.stxt:483 data/credits.stxt:487
+msgid "Code contributions"
+msgstr "Kod katkıları"
+
+#: data/credits.stxt:490
+msgid "Code contribution, AppData file"
+msgstr "Kod katkısı, Uygulama Veri Dosyası"
+
+#: data/credits.stxt:494
+msgid "Bug fix"
+msgstr "Hata düzeltme"
+
+#: data/credits.stxt:498
+msgid "Menu reorganization"
+msgstr "Menü yeniden kurma"
+
+#: data/credits.stxt:506
+msgid "Fixing tile bugs"
+msgstr "Döşeme hatalarını düzeltme"
+
+#: data/credits.stxt:510
+msgid "Build error fix"
+msgstr "Yapı hatası düzeltmesi"
+
+#: data/credits.stxt:514
+msgid "Scripting function fix"
+msgstr "Komut işlevi düzeltmesi"
+
+#: data/credits.stxt:518
+msgid "New features and notable updates"
+msgstr "Özellikler ve Programlama"
+
+#: data/credits.stxt:522
+msgid "Support for \"glbinding\" as optional OpenGL binding"
+msgstr "İsteğe bağlı OpenGL bağlamında \"glbinding\" desteği"
+
+#: data/credits.stxt:526
+msgid "New menu code"
+msgstr "Yeni menü kodu"
+
+#: data/credits.stxt:530
+msgid "Big Tux Walking Sprites improvements"
+msgstr "Büyük Tux Yürüyen Cin iyileştirmeleri"
+
+#: data/credits.stxt:542 data/credits.stxt:550
+msgid "Contrib Programming"
+msgstr "Katkı Programlama"
+
+#: data/credits.stxt:554
+msgid "Programming, Previous Maintainer"
+msgstr "Programlama, Önceki Bakımcı"
+
+#: data/credits.stxt:558
+msgid "Various Contributions"
+msgstr "Çeşitli katkılar"
+
+#: data/credits.stxt:562 data/credits.stxt:566 data/credits.stxt:570
+#: data/credits.stxt:574 data/credits.stxt:578 data/credits.stxt:582
+#: data/credits.stxt:586 data/credits.stxt:590 data/credits.stxt:594
+#: data/credits.stxt:598 data/credits.stxt:602 data/credits.stxt:606
+#: data/credits.stxt:610 data/credits.stxt:614 data/credits.stxt:618
+#: data/credits.stxt:622 data/credits.stxt:626 data/credits.stxt:630
+#: data/credits.stxt:634 data/credits.stxt:638 data/credits.stxt:642
+#: data/credits.stxt:646 data/credits.stxt:650 data/credits.stxt:654
+#: data/credits.stxt:658 data/credits.stxt:662
+msgid "Contributions"
+msgstr "Katkılar"
+
+#: data/credits.stxt:668
+msgid "Localization"
+msgstr "Yerelleştirme"
+
+#: data/credits.stxt:1231
+msgid " Special Thanks to"
+msgstr "Özel Teşekkürler"
+
+#: data/credits.stxt:1236
+msgid "Creator of Tux, the Linux penguin"
+msgstr "Tux'un yaratıcısı, Linux penguenidir "
+
+#: data/credits.stxt:1240
+msgid "SDL, OpenAL and OpenGL"
+msgstr "SDL, OpenAL ve OpenGL"
+
+#: data/credits.stxt:1241
+msgid ""
+"For making such a great gaming experience\n"
+"        possible on Linux"
+msgstr "Olağanüstü bir oyun deneyimi\nLinux ile mümkündür"
+
+#: data/credits.stxt:1246
+msgid "and you, the player"
+msgstr "ve sen, oyuncu"
+
+#: data/credits.stxt:1247
+msgid "for giving this game a chance and playing it"
+msgstr "bu oyuna bir şans verdiğiniz ve oynadığınız için"
+
+#: data/credits.stxt:1258
+msgid "Visit our webpage at"
+msgstr "İnternet sayfamıza uğrayın"
+
+#: data/credits.stxt:1267
+msgid "Or visit us directly at IRC:"
+msgstr "Veya doğrudan IRC'de ziyaret edin:"
+
+#: data/credits.stxt:1271
+msgid "#supertux at web.libera.chat"
+msgstr "#supertux yanında web.libera.chat"
+
+#: data/credits.stxt:1276
+msgid "Or at our Forum:"
+msgstr "Veya Forumumuzda:"
+
+#: data/credits.stxt:1285
+msgid "Comments, ideas and suggestions"
+msgstr "Yorumlar, Düşünceler ve öneriler"
+
+#: data/credits.stxt:1289
+msgid "go to our mailing list"
+msgstr "e-posta listemize gidin"
+
+#. l10n: typo contact
+#: data/credits.stxt:1299
+msgid "Typographical errors can be"
+msgstr "Yazım hatası olabilir"
+
+#. l10n: typo contact
+#: data/credits.stxt:1304
+msgid "reported to"
+msgstr "rapor edilen"
+
+#. l10n: typo contact, see <https://github.com/SuperTux/supertux/issues/611>
+#: data/credits.stxt:1309
+msgid "supertux-devel@lists.lethargik.org"
+msgstr "supertux-devel@lists.lethargik.org"
+
+#: data/credits.stxt:1316
+msgid "Want to help…"
+msgstr "Yardım isteği..."
+
+#: data/credits.stxt:1321
+msgid "…with localization?"
+msgstr "yerelleştirme ile ilgili"
+
+#: data/credits.stxt:1331
+msgid "…with something else?"
+msgstr "başka bir konu"
+
+#: data/credits.stxt:1342
+msgid "Thank you for"
+msgstr "Oynadığınız için"
+
+#: data/credits.stxt:1346
+msgid "playing"
+msgstr "teşekkür ederiz"
+
+#: data/credits.stxt:1356
+msgid "Penny awaits you in warmer temperatures!"
+msgstr "Penny sıcak havalarda seni bekliyor!"
+
+#: data/images/engine/editor/objects.stoi:4
+msgid "Enemies"
+msgstr "Düşmanlar"
+
+#: data/images/engine/editor/objects.stoi:162
+msgid "Bosses"
+msgstr "Patronlar"
+
+#: data/images/engine/editor/objects.stoi:173
+msgid "Projectiles"
+msgstr "Mermiler"
+
+#: data/images/engine/editor/objects.stoi:187
+msgid "Environment"
+msgstr "Çevre"
+
+#: data/images/ice_world.strf:63
+msgid "Ice Cave & Crystal"
+msgstr "Buz Mağarası ve Kristali"
+
+#: data/images/ice_world.strf:171
+msgid "Snow Embellishments"
+msgstr ""
+
+#: data/images/ice_world.strf:343
+msgid "Underground Forest"
+msgstr "Yeraltı Ormanı"
+
+#: data/images/ice_world.strf:423
+msgid "Trees & Rocks"
+msgstr "Ağaçlar ve Kayalar"
+
+#: data/images/ice_world.strf:500
+msgid "Seasonal"
+msgstr "Mevsimlik"
+
+#: data/images/ice_world.strf:611
+msgid "Structure"
+msgstr "Yapı"
+
+#: data/images/ice_world.strf:721
+msgid "Pathing"
+msgstr "Bir yol ayırma"
+
+#: data/images/ice_world.strf:881
+msgid "Water"
+msgstr "Su"
+
+#: data/images/tiles.strf:324
+msgid "Snow Background"
+msgstr "Kar Arkaplanı"
+
+#: data/images/tiles.strf:373
+msgid "Crystal"
+msgstr "Kristal"
+
+#: data/images/tiles.strf:698
+msgid "Forest Background"
+msgstr "Orman Arkaplanı"
+
+#: data/images/tiles.strf:875
+msgid "Corrupted Forest"
+msgstr ""
+
+#: data/images/tiles.strf:1115
+msgid "Corrupted Background"
+msgstr "Bozulmuş Arkaplan"
+
+#: data/images/tiles.strf:1262
+msgid "Jagged Rocks"
+msgstr ""
+
+#: data/images/tiles.strf:1306
+msgid "Block + Bonus"
+msgstr "Blok + Bonus"
+
+#: data/images/tiles.strf:1385
+msgid "Pole + Signs"
+msgstr "Kutup + İşaretler"
+
+#: data/images/tiles.strf:1438
+msgid "Liquid"
+msgstr "Sıvı"
+
+#: data/images/tiles.strf:1462
+msgid "Castle"
+msgstr "Kale"
+
+#: data/images/tiles.strf:1588 data/images/worldmap.strf:199
+msgid "Halloween"
+msgstr "Cadılar Bayramı "
+
+#: data/images/tiles.strf:1629
+msgid "Industrial"
+msgstr "Sanayi"
+
+#: data/images/tiles.strf:1644
+msgid "Unisolid + Lightmap"
+msgstr "Uni katı + ışık haritası"
+
+#: data/images/tiles.strf:1671
+msgid "Miscellaneous"
+msgstr "Çeşitli"
+
+#: data/images/tiles.strf:1702
+msgid "Retro Tiles"
+msgstr "Retro Döşemeler"
+
+#: data/images/worldmap.strf:24
+msgid "Water paths"
+msgstr "Su yolları"
+
+#: data/images/worldmap.strf:32
+msgid "Castle paths"
+msgstr "Kale yolları"
+
+#: data/images/worldmap.strf:135
+msgid "Darker Forest"
+msgstr "Daha Karanlık Orman"
+
+#: data/images/converters/data.stcd:3
+msgid "Nightly Tiles"
+msgstr ""
+
+#: data/images/converters/data.stcd:5
+msgid "For levels, created in previous Nightly builds."
+msgstr "Önceki Gecelik sürümlerinde oluşturulan seviyeler için."
+
+#: data/images/converters/data.stcd:8
+msgid "Pre-0.6.3 Crystal Tiles"
+msgstr ""
+
+#: data/images/converters/data.stcd:10
+msgid "For levels, created in pre-0.6.3 versions, which use crystal tiles."
+msgstr "Kristal döşemelerin kullanıldığı, 0.6.3 öncesi sürümlerde oluşturulmuş seviyeler için."
+
+#: data/images/converters/data.stcd:13
+msgid "Jagged Rock Tiles from Addon"
+msgstr ""
+
+#: data/images/converters/data.stcd:15
+msgid ""
+"For levels, created with the rock tiles addon, converts their IDs to vanilla"
+" rock tile IDs"
+msgstr "Kaya döşemeleri eklentisiyle oluşturulan seviyelerin kimliklerini şekilsiz kaya döşemesi kimliklerine dönüştürür"

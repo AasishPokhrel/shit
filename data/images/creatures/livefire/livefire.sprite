@@ -1,0 +1,63 @@
+(supertux-sprite
+ (action
+  (name "left")
+  (fps 14)
+  (hitbox 4 18 40 40)
+  (images "f1.png"
+   "f2.png"
+   "f3.png"
+   "f4.png"
+   "f5.png"
+   "f6.png"
+   "f7.png"
+   "f8.png"))
+ (action
+  (name "right")
+  (fps 14)
+  (hitbox 20 18 40 40)
+  (mirror-action "left"))
+ (action
+  (fps 28)
+  (name "sleeping-left")
+  (hitbox 4.1 18 40 40)
+  (images "sleeping8.png"
+          "sleeping2.png"
+		  "sleeping3.png"
+		  "sleeping5.png"
+		  "sleeping4.png"
+          "sleeping6.png"
+		  "sleeping7.png"
+          "sleeping.png"
+		  ))
+ (action
+  (name "sleeping-right")
+  (fps 28)
+  (hitbox 20 18 40 40)
+  (mirror-action "sleeping-left"))
+ (action
+  (name "waking-left")
+  (hitbox 4.1 18 40 40)
+  (fps 7)
+  (images "waking1.png"
+   "waking2.png"
+   "waking3.png"
+   "waking4.png"))
+ (action
+  (name "waking-right")
+  (fps 7)
+  (hitbox 20 18 40 40)
+  (mirror-action "waking-left"))
+ (action
+  (name "extinguish-left")
+  (fps 14)
+  (hitbox 4 18 40 40)
+  (images "d1.png"
+		  "d2.png"
+		  "d3.png"
+		  "d4.png"))
+ (action
+  (name "extinguish-right")
+  (fps 14)
+  (hitbox 20 18 40 40)
+  (mirror-action "extinguish-left"))
+)

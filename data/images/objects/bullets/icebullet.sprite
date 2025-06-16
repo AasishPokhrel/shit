@@ -1,0 +1,9 @@
+(supertux-sprite
+  (action
+    (hitbox 2 2 12 12)
+    (fps 20)
+    (images "ice_bullet-0.png"
+            "ice_bullet-1.png"
+            "ice_bullet-2.png"
+            "ice_bullet-3.png"))
+)

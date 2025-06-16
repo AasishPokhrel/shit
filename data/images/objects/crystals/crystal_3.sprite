@@ -1,0 +1,9 @@
+(supertux-sprite
+      (action 
+          (name "default")
+          (images "b2.png"
+                  "b1.png"))
+      (action
+          (name "still")
+          (images "b1.png"))
+)

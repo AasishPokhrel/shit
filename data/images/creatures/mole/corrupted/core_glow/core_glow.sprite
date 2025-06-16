@@ -1,0 +1,27 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 183 193 350 350)
+	(fps 12)
+    (images "core_glow-0.png"
+			"core_glow-1.png"
+			"core_glow-2.png"
+			"core_glow-3.png"
+			"core_glow-4.png"
+			"core_glow-5.png"
+			"core_glow-6.png"
+			"core_glow-7.png"
+			"core_glow-8.png"
+			"core_glow-9.png"
+			"core_glow-10.png"
+			"core_glow-9.png"
+			"core_glow-8.png"
+			"core_glow-7.png"
+			"core_glow-6.png"
+			"core_glow-5.png"
+			"core_glow-4.png"
+			"core_glow-3.png"
+			"core_glow-2.png"
+			"core_glow-1.png")
+  )
+)

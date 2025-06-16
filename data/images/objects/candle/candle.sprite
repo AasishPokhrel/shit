@@ -1,0 +1,22 @@
+(supertux-sprite
+  (action
+    (name "on")
+	(hitbox 2 22 32 32)
+	(fps 16)
+    (images 
+      "candle-1.png"
+      "candle-2.png"
+      "candle-3.png"
+      "candle-4.png"
+    )
+  )
+  (action
+    (name "off")
+	(hitbox 2 22 32 32)
+	(fps 16)
+    (images 
+      "candle-0.png"
+	)
+  )
+)
+

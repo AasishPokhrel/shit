@@ -1,0 +1,33 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (images 
+      "snow-0.png"
+    )
+  )
+  (action
+    (name "dissolve")
+    (fps 10)
+	(loops 1)
+    (images 
+      "snow-0.png"
+      "snow-1.png"
+      "snow-2.png"
+      "snow-3.png"
+      "snow-4.png"
+      "snow-5.png"
+      "snow-6.png"
+      "snow-7.png"
+      "snow-8.png"
+      "snow-9.png"
+      "snow-10.png"
+	  "snow-11.png"
+    )
+  )
+;  (action
+;    (name "fall-down")
+;    (images 
+;      "snow-11.png"
+;    )
+;  )
+)

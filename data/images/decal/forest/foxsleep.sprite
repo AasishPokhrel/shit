@@ -1,0 +1,16 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (fps 10)
+    (images "foxsleep1.png"
+            "foxsleep2.png"
+			"foxsleep3.png"
+			"foxsleep4.png"
+			"foxsleep5.png"
+			"foxsleep6.png"
+			"foxsleep7.png"
+			"foxsleep8.png"
+			"foxsleep9.png"
+			"foxsleep10.png")
+  )
+)

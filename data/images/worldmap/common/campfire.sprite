@@ -1,0 +1,11 @@
+(supertux-sprite
+  (action
+    (name "default")
+	(fps 14)
+    (hitbox 0 16 32 32)
+    (images "campfire-0.png"
+			"campfire-1.png"
+			"campfire-2.png"
+			"campfire-3.png")
+  )
+)

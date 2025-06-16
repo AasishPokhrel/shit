@@ -1,0 +1,27 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 80 144 0 0)
+(fps 11)
+    (images "../../creatures/ghosttree/worldmap_1.png"
+"../../creatures/ghosttree/worldmap_1.png"
+"../../creatures/ghosttree/worldmap_2.png"
+"../../creatures/ghosttree/worldmap_3.png"
+"../../creatures/ghosttree/worldmap_4.png"
+"../../creatures/ghosttree/worldmap_4.png"
+"../../creatures/ghosttree/worldmap_4.png"
+"../../creatures/ghosttree/worldmap_4.png"
+"../../creatures/ghosttree/worldmap_3.png"
+"../../creatures/ghosttree/worldmap_2.png"
+"../../creatures/ghosttree/worldmap_1.png"
+"../../creatures/ghosttree/worldmap_1.png"
+)
+  )
+  (action
+    (name "solved")
+    (hitbox 80 144 0 0)
+(fps 11)
+    (images "../../creatures/ghosttree/ghosttree_dust_wm_0.png"
+)
+  )
+)

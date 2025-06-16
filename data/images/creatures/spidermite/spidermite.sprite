@@ -1,0 +1,53 @@
+(supertux-sprite
+  (action
+    (name "idle")
+    (hitbox 36 16 48 54)
+    (fps 10)
+    (images "spidermite-9.png"
+		        "spidermite-9.png"
+		        "spidermite-9.png"
+		        "spidermite-9.png"
+		        "spidermite-9.png"
+		        "spidermite-9.png"
+		        "spidermite-9.png"
+		        "spidermite-9.png"
+		        "spidermite-9.png"
+		        "spidermite-9.png"
+		        "spidermite-9.png"
+		        "spidermite-9.png"
+		        "spidermite-9.png"
+		        "spidermite-9.png"
+		        "spidermite-9.png"
+		        "spidermite-7.png"
+		        "spidermite-8.png"
+		        "spidermite-9.png")
+  )
+  (action
+    (name "dive")
+    (hitbox 36 16 48 54)
+    (fps 15)
+    (loops 1)
+    (images "spidermite-0.png"
+		        "spidermite-1.png"
+		        "spidermite-2.png"
+		        "spidermite-3.png")
+  )
+  (action
+    (name "rebound")
+    (hitbox 36 16 48 54)
+    (fps 15)
+    (loops 1)
+    (images "spidermite-3.png"
+		        "spidermite-4.png"
+		        "spidermite-5.png"
+		        "spidermite-6.png"
+		        "spidermite-7.png"
+		        "spidermite-8.png"
+		        "spidermite-9.png")
+  )
+    (action
+    (name "squished")
+    (hitbox 36 16 48 47)
+    (images "squished.png")
+    )
+  )

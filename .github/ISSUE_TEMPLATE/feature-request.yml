@@ -1,0 +1,52 @@
+name: Feature Request
+description: File a request for a feature you want to see in SuperTux!
+title: "[Feature Request]: "
+labels: ["type:idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: textarea
+    id: feature-details
+    attributes:
+      label: Feature Details
+      description: How would your feature work?
+      placeholder: A clear and concise description of the way the feature would function.
+    validations:
+      required: true
+  - type: textarea
+    id: feature-purpose
+    attributes:
+      label: Feature Purpose
+      description: What purpose would your feature serve, towards improving the SuperTux experience?
+      placeholder: A list of one or multiple example use-cases or positive outcomes from your feature being in SuperTux.
+    validations:
+      required: true
+  - type: textarea
+    id: feature-screenshots
+    attributes:
+      label: Concept Screenshots
+      description: Include any concept screenshots of the way your feature would look in-game, to help others grasp your idea better.
+      placeholder: |
+        To attach image files, click this area to highlight it, and then drag the files in.
+
+        You can also leave this empty.
+    validations:
+      required: false
+  - type: checkboxes
+    id: guidelines
+    attributes:
+      label: Guidelines For Reporting Issues
+      description: "Before submitting this issue, make sure you have done the following:"
+      options:
+        - label: I have read <https://github.com/SuperTux/supertux/blob/master/CONTRIBUTING.md#bug-reports>.
+          required: true
+        - label: I have verified this isn't a request that's already been submitted as an issue.
+          required: true
+        - label: I have verified this isn't a [discussion](https://github.com/SuperTux/supertux/discussions), or an issue with the game, but rather an actual feature request - a currently non-existent, but desired feature.
+          required: true
+        - label: In this request, I have only included details about **one** (1) desired feature.
+          required: true
+        - label: If I make a mistake while submitting this request, I agree to use the "Edit" feature to correct it, instead of closing this issue and opening a new one.
+          required: true

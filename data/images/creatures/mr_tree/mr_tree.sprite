@@ -1,0 +1,43 @@
+(supertux-sprite
+  (action
+    (hitbox 14 10 62 78)
+    (name "left")
+    (fps 15)
+    (images "mr_tree-0.png"
+            "mr_tree-1.png"
+            "mr_tree-2.png"
+            "mr_tree-3.png"
+            "mr_tree-4.png"
+            "mr_tree-5.png"
+            "mr_tree-6.png"
+            "mr_tree-7.png"
+            "mr_tree-8.png"
+            "mr_tree-9.png")
+  )
+  (action
+    (hitbox 14 10 62 78)
+    (name "right")
+    (fps 15)
+    (mirror-action "left")
+  )
+  (action
+    (hitbox 2 0 96 96)
+    (name "iced-left")
+    (images "mr_tree-7.png")
+  )
+  (action
+    (hitbox 2 0 96 96)
+    (name "iced-right")
+    (mirror-action "iced-left")
+  )
+  (action
+    (hitbox 14 10 62 78)
+    (name "burning-left")
+    (images "mr_tree-7.png")
+  )
+  (action
+    (hitbox 14 10 62 78)
+    (name "burning-right")
+    (mirror-action "burning-left")
+  )
+)

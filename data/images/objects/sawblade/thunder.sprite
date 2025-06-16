@@ -1,0 +1,13 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (hitbox 0 0 32 32)
+  (fps 120)
+  (images 
+   "Thunder1.png"
+   "Thunder2.png"    
+   "Thunder3.png"
+  )
+ )
+)
+

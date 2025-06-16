@@ -1,0 +1,32 @@
+Mr. Candle
+
+== Some basic information ==
+
+- Walk speed: Fast, same as a Captain Snowball
+- Turns on edges: No
+- Hurts Tux if he touches it
+- Fireflower does nothing, iceflower does nothing (yes, I know that doesn't make sense, but its main use is in puzzles so it shouldn't really be killable). The only way to truly get rid of it is with spikes, lava, crushing (rocks, trampolines, etc. on top of it) or a Mr. Iceblock.
+
+== What does it do? ==
+
+Mr. Candles give off light as they move, much like the Walking Fire enemies already ingame. The difference is that you can change the colour of a Mr. Candle's light to one of the following:
+
+- White (default)
+- Red
+- Green
+- Blue
+- Cyan
+- Magenta
+- Yellow
+
+As you can see, these are the same colours as those available for lanterns. This is because Mr. Candles interact with lanterns that are thrown on top of them (see below):
+
+- Throwing an unlit lantern on top of a Mr. Candle results in the candle dying and the lantern taking its colour.
+- Throwing a lit lantern on top of a Mr. Candle of the same colour results in the candle dying and the lantern not changing at all.
+- Red lantern + Green Mr. Candle (or vice versa) = Yellow lantern
+- Red lantern + Blue Mr. Candle (or vice versa) = Magenta lantern
+- Blue lantern + Green Mr. Candle (or vice versa = Aqua lantern
+- Primary colour (RGB) lantern + Secondary colour (CMY) Mr. Candle (or vice versa) = White lantern
+- Secondary colour (CMY) lantern + Mr. Candle of a different secondary colour (or vice versa) = White lantern
+
+Note: The lantern must be thrown ON TOP of the Mr. Candle for it to take its colour. Simply placing it next to the candle is not enough, as that would make it too easy :)

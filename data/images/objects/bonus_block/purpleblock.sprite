@@ -1,0 +1,22 @@
+(supertux-sprite
+      (action
+         (fps 15)
+         (name "default")
+         (images "purple-0.png"
+                 "purple-1.png"
+                 "purple-2.png"
+                 "purple-3.png"
+                 "purple-4.png"
+                 "purple-2.png"
+                 "purple-1.png"
+                 "purple-0.png"
+                 "purple-0.png"
+                 "purple-0.png"
+                 ))
+      (action
+         (name "empty")
+         (surfaces
+          (surface
+           (diffuse-texture (file "purple_empty.png"))
+           (displacement-texture (file "displacement.png")))))
+)

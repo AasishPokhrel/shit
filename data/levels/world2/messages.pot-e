@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux v0.6.1-153-g080f6ca8e\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2020-04-13 17:25+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/levels/world2/ancient_ruins.stl:3
+msgid "Ancient Ruins"
+msgstr ""
+
+#: data/levels/world2/ancient_ruins.stl:1416
+#: data/levels/world2/ancient_ruins.stl:1424
+#: data/levels/world2/bouncy_coils.stl:237
+#: data/levels/world2/bouncy_coils.stl:245
+#: data/levels/world2/bye_bye_forest.stl:977
+#: data/levels/world2/crumbling_path.stl:278
+#: data/levels/world2/crumbling_path.stl:1651
+#: data/levels/world2/going_underground.stl:199
+#: data/levels/world2/going_underground.stl:1199
+#: data/levels/world2/mouldy_grotto.stl:559
+#: data/levels/world2/penguin_grow_trees.stl:459
+#: data/levels/world2/penguin_grow_trees.stl:467
+#: data/levels/world2/through_dark.stl:309
+#: data/levels/world2/tux_builder.stl:283
+#: data/levels/world2/wooden_roots.stl:279 data/levels/world2/worldmap.stwm:185
+msgid "You found a secret area!"
+msgstr ""
+
+#: data/levels/world2/besides_bushes.stl:3
+msgid "Besides the Bushes"
+msgstr ""
+
+#: data/levels/world2/bouncy_coils.stl:3
+msgid "Bouncy Coils"
+msgstr ""
+
+#: data/levels/world2/bye_bye_forest.stl:3
+msgid "Bye Bye Forest"
+msgstr ""
+
+#: data/levels/world2/crumbling_path.stl:3
+msgid "Crumbling Path"
+msgstr ""
+
+#: data/levels/world2/darkness_awaits.stl:3
+msgid "Darkness Awaits"
+msgstr ""
+
+#: data/levels/world2/find_big_fish.stl:3
+msgid "Find the Bigger Fish!"
+msgstr ""
+
+#: data/levels/world2/find_big_fish.stl:800
+msgid "-A big fish... for you."
+msgstr ""
+
+#: data/levels/world2/forest_intro.stl:3
+msgid "A New Location"
+msgstr ""
+
+#: data/levels/world2/ghost_cutscene.stl:3
+msgid "What is Happening?"
+msgstr ""
+
+#: data/levels/world2/ghostly_misery.stl:3
+msgid "Ghostly Misery"
+msgstr ""
+
+#: data/levels/world2/ghosttrees_challenges.stl:3
+msgid "Ghosttree's Challenges"
+msgstr ""
+
+#: data/levels/world2/ghouls_lair.stl:3
+msgid "Ghouls' Lair"
+msgstr ""
+
+#: data/levels/world2/ghouls_lair.stl:847
+msgid ""
+"#Lanterns are used to make magic blocks solid, so you're able to walk atop "
+"of them."
+msgstr ""
+
+#: data/levels/world2/going_underground.stl:3
+msgid "Going Underground"
+msgstr ""
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:3
+msgid "I Spy With My Little Eye"
+msgstr ""
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:221
+msgid ""
+"-Ispy\n"
+"#Ispys will activate things like platforms whenever Tux is in their sight."
+msgstr ""
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:595
+msgid "Hint: Use snails to break blocks!"
+msgstr ""
+
+#: data/levels/world2/leaf_wind.stl:3
+msgid "Like a leaf in the Wind"
+msgstr ""
+
+#: data/levels/world2/lost_village.stl:3
+msgid "Lost Village"
+msgstr ""
+
+#: data/levels/world2/lost_village.stl:184
+msgid "#Don't forget to hit the switch!"
+msgstr ""
+
+#: data/levels/world2/mouldy_grotto.stl:3
+msgid "A Mouldy Grotto"
+msgstr ""
+
+#: data/levels/world2/owls_again.stl:3
+msgid "The Owls again..."
+msgstr ""
+
+#: data/levels/world2/owls_skydive_commando.stl:3
+msgid "Owls' Skydive Commando"
+msgstr ""
+
+#: data/levels/world2/penguin_grow_trees.stl:3
+msgid "Penguins don't grow on Trees"
+msgstr ""
+
+#: data/levels/world2/shocking.stl:3
+msgid "Shocking"
+msgstr ""
+
+#: data/levels/world2/the_forest_is_rotting.stl:3
+msgid "The Forest Is Rotting"
+msgstr ""
+
+#: data/levels/world2/through_dark.stl:3
+msgid "Through the Dark"
+msgstr ""
+
+#: data/levels/world2/through_dark.stl:96
+msgid ""
+"-Earth Flower\n"
+"!images/powerups/earthflower/earth_flower-1.png\n"
+"#The earth flower gives Tux the ability to turn into stone by pressing the "
+"ACTION Key and the DOWN Key at the same time.\n"
+"#This does not work while jumping or falling!"
+msgstr ""
+
+#: data/levels/world2/tower_cutscene.stl:3
+msgid "Tower Cutscene"
+msgstr ""
+
+#: data/levels/world2/tower_of_ghosts.stl:3
+msgid "Tower Of Ghosts"
+msgstr ""
+
+#: data/levels/world2/tux_builder.stl:3
+msgid "Tux the Builder"
+msgstr ""
+
+#: data/levels/world2/tux_builder.stl:80
+msgid ""
+"-Portable Objects:\n"
+"!images/objects/rock/rock.png\n"
+"#Tux can pick up certain objects and carry them around.\n"
+"#Press the ACTION key to grab an object and hold it pressed as long as you "
+"want to carry the object. Release the ACTION key to drop the object."
+msgstr ""
+
+#: data/levels/world2/tux_own_horror_show.stl:3
+msgid "Tux' Own Horror Show"
+msgstr ""
+
+#: data/levels/world2/tux_own_horror_show.stl:790
+msgid ""
+"#Willow-wisps are small, annoying ghosts, which transport you to different, "
+"often dangerous places."
+msgstr ""
+
+#: data/levels/world2/walking_leaves.stl:3
+msgid "Walking Leaves"
+msgstr ""
+
+#: data/levels/world2/welcome_forest.stl:3
+msgid "Welcome to the Forest"
+msgstr ""
+
+#: data/levels/world2/welcome_forest.stl:50
+msgid ""
+"-Doors\n"
+"!images/objects/door/door-0.png\n"
+"#Tux can go through a door by pressing the UP key."
+msgstr ""
+
+#: data/levels/world2/wooden_roots.stl:3
+msgid "Wooden Roots"
+msgstr ""
+
+#: data/levels/world2/worldmap.stwm:3
+msgid "Forest Island"
+msgstr ""
+
+#: data/levels/world2/worldmap.stwm:199
+msgid "To be continued..."
+msgstr ""

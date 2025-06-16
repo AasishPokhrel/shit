@@ -1,0 +1,39 @@
+(supertux-sprite
+ (action
+  (name "empty")
+  (images "empty.png"))
+
+ (action
+  (name "default")
+  (images "../../tiles/blocks/brick1.png"))
+
+ (action
+  (name "piece1")
+  (fps 1)
+  (images "../../tiles/blocks/brick_piece1.png"))
+
+ (action
+  (name "piece2")
+  (fps 1)
+  (images "../../tiles/blocks/brick_piece2.png"))
+
+ (action
+  (name "piece3")
+  (fps 1)
+  (images "../../tiles/blocks/brick_piece3.png"))
+
+ (action
+  (name "piece4")
+  (fps 1)
+  (images "../../tiles/blocks/brick_piece4.png"))
+
+ (action
+  (name "piece5")
+  (fps 1)
+  (images "../../tiles/blocks/brick_piece5.png"))
+
+ (action
+  (name "piece6")
+  (fps 1)
+  (images "../../tiles/blocks/brick_piece6.png"))
+ )

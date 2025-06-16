@@ -1,0 +1,41 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 16 16 0 0)
+    (images "invisible.png")
+  )
+  (action
+    (name "solved")
+    (hitbox 16 16 0 0)
+    (images "leveldot_green.png")
+  )
+  (action
+    (name "perfect")
+    (hitbox 16 16 0 0)
+    (images "leveldot_green.png"
+      "leveldot_green.png"
+      "leveldot_green.png"
+      "leveldot_green.png"
+      "leveldot_green.png"
+      "leveldot_green.png"
+      "leveldot_green.png"
+      "leveldot_green.png"
+      "leveldot_green.png"
+      "leveldot_green_perfect-0.png"
+      "leveldot_green_perfect-1.png"
+      "leveldot_green_perfect-2.png"
+      "leveldot_green_perfect-3.png"
+      "leveldot_green_perfect-2.png"
+      "leveldot_green_perfect-1.png"
+      "leveldot_green_perfect-0.png"
+      "leveldot_green.png"
+      "leveldot_green.png"
+      "leveldot_green.png"
+      "leveldot_green.png"
+      "leveldot_green.png"
+      "leveldot_green.png"
+      "leveldot_green.png"
+      "leveldot_green.png"
+      "leveldot_green.png")
+  )
+)

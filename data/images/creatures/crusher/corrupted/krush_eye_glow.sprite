@@ -1,0 +1,7 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (hitbox 8 8 64 64)
+  (images "krush_corrupt_main.png")
+ )
+)

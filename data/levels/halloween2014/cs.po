@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Jiří Paleček <narre@protonmail.com>, 2021
+# Hume2 <teratux.mail@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2015-10-19 18:02+0000\n"
+"Last-Translator: Jiří Paleček <narre@protonmail.com>, 2021\n"
+"Language-Team: Czech (http://app.transifex.com/arctic-games/supertux/language/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#: data/levels/halloween2014/halloween1.stl:3
+msgid "Darkness Prevails"
+msgstr "Temnota převládá"
+
+#: data/levels/halloween2014/halloween2.stl:3
+msgid "The Fog is Clearing Up"
+msgstr "Mlha řídne"
+
+#: data/levels/halloween2014/halloween3.stl:3
+msgid "Graveyard Shift"
+msgstr "Směna na hřbitově"
+
+#: data/levels/halloween2014/intro.stl:3
+msgid "The Abandoned House"
+msgstr "Opuštěný dům"
+
+#: data/levels/halloween2014/mound.stl:3
+msgid "Mound of the Dead"
+msgstr "Mohyla smrti"
+
+#: data/levels/halloween2014/outro.stl:3
+msgid "Halloween Party?"
+msgstr "Halloweenský večírek?"
+
+#: data/levels/halloween2014/pools.stl:3
+msgid "Putrid Pools"
+msgstr "Zahnívající louže"
+
+#: data/levels/halloween2014/worldmap.stwm:3
+msgid "Halloween 2014"
+msgstr "Halloween 2014"

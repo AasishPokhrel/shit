@@ -1,0 +1,11 @@
+(supertux-sprite
+      (action
+        (name "silver-right")
+		(hitbox 0 2 48 28)
+        (images "key_silver.png"))
+	
+	  (action
+		(name "silver-left")
+		(hitbox 0 2 48 28)
+		(mirror-action "silver-right"))
+)

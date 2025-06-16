@@ -1,0 +1,54 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (hitbox 8 13 32 32)
+    (fps 14)
+    (images "smartball-0.png"
+            "smartball-1.png"
+            "smartball-2.png"
+            "smartball-3.png"
+            "smartball-4.png"
+            "smartball-5.png"
+            "smartball-6.png"
+            "smartball-7.png")
+  )
+  (action
+    (name "right")
+    (hitbox 8 13 32 32)
+    (fps 14)
+    (mirror-action "left")
+  )
+  (action
+    (name "squished-left")
+    (hitbox 8 13 32 32)
+    (images "smartball-squished.png")
+  )
+  (action
+    (name "squished-right")
+    (hitbox 8 13 32 32)
+    (mirror-action "squished-left")
+  )
+ (action
+  (name "melting-left")
+  (hitbox 3 4 32 32)
+  (images "melting-0.png"
+          "melting-1.png"
+          "melting-2.png"
+          "melting-3.png"))
+ (action
+  (name "melting-right")
+  (hitbox 3 4 32 32)
+  (mirror-action "melting-left"))
+ (action
+  (name "ground-melting-left")
+  (hitbox 19 4 32 32)
+  (images "gmelting-0.png"
+          "gmelting-1.png"
+          "gmelting-2.png"
+          "gmelting-3.png"
+          "gmelting-4.png"))
+ (action
+  (name "ground-melting-right")
+  (hitbox 19 4 32 32)
+  (mirror-action "ground-melting-left"))
+)

@@ -1,0 +1,50 @@
+(supertux-sprite
+  (action
+    (name "left")
+	(fps 15)
+    (hitbox 7 6 34 28)
+    (images "kamikaze-0.png"
+	        "kamikaze-1.png"
+			"kamikaze-2.png"
+			"kamikaze-3.png"
+			"kamikaze-4.png"
+			"kamikaze-5.png")
+  )
+  (action
+    (name "right")
+	(fps 15)
+    (hitbox 27 6 34 28)
+    (mirror-action "left")
+  )
+  (action
+    (name "squished-left")
+    (hitbox 8 13 32 32)
+    (images "snowball-squished.png")
+  )
+  (action
+    (name "squished-right")
+    (hitbox 8 13 32 32)
+    (mirror-action "squished-left")
+  )
+  (action
+    (name "collision-left")
+	(hitbox 5 6 32 28)
+    (images "kamikaze-collision.png")
+  )
+  (action
+    (name "collision-right")
+    (hitbox 1 6 32 28)
+    (mirror-action "collision-left")
+  )
+ (action
+  (name "melting-left")
+  (hitbox 5 6 32 28)
+  (images "kamikaze-melting-0.png"
+          "kamikaze-melting-1.png"
+          "kamikaze-melting-2.png"
+          "kamikaze-melting-3.png"))
+ (action
+  (name "melting-right")
+  (hitbox 1 6 32 28)
+  (mirror-action "melting-left"))
+)

@@ -1,0 +1,32 @@
+(supertux-text			
+  (background	"retro/intro.jpg")
+  (music	"music/retro/theme_old.music")
+  (text "-A Blast From The Past!
+ Or was it a dream?
+
+	Tux and Gown were having a nice picnic,
+	when suddenly, Gown is beamed away!!!
+	
+	Wait a second... Gown?
+	Who is this penguin that looks
+	an awful lot like his friend Penny?
+	
+	Also, a helicopter?
+	Since when do helicopters casually fly
+	over Antarctica and abduct penguins?
+	
+	Even though Tux was visibly confused
+	about the events that just transpired,
+	he could not just stand there
+	doing nothing. Therefore, he
+	gave chase to rescue this
+	poor penguin girl!
+
+
+
+
+
+
+*This looks like a job for ---
+	
+-Super Tux") )

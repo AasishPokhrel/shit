@@ -1,0 +1,6 @@
+(supertux-surface
+ (diffuse-texture
+  (file "grid.png")
+  (wrap "repeat")
+  )
+ )

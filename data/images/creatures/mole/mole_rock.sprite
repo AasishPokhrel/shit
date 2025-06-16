@@ -1,0 +1,25 @@
+(supertux-sprite
+  (action
+    (name "variant-1")
+    (hitbox 5 6 15 15)
+    (images 
+      "mole_rock-0.png"
+    )
+  )
+  
+  (action
+    (name "variant-2")
+    (hitbox 5 6 15 15)
+    (images 
+      "mole_rock-1.png"
+    )
+  )
+  
+  (action
+    (name "variant-3")
+    (hitbox 8 8 11 11)
+    (images 
+      "mole_rock-2.png"
+    )
+  )
+)

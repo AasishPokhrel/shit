@@ -1,0 +1,50 @@
+(supertux-sprite
+ (action
+  (name "auto")
+  (hitbox 4 4 32 64)
+  (images "cannon_middle.png"))
+
+ (action
+  (name "iced-auto")
+  (loops 1)
+  (fps 24)
+  (hitbox 4 4 32 64)
+  (images "cannon_frozen0-0.png"
+		  "cannon_frozen0-1.png"
+		  "cannon_frozen0-2.png"
+		  "cannon_frozen0-3.png"
+		  "cannon_frozen0-4.png"))
+
+ (action
+  (name "right")
+  (hitbox 4 4 32 64)
+  (images "cannon_right.png"))
+
+ (action
+  (name "iced-right")
+  (loops 1)
+  (fps 24)
+  (hitbox 4 4 32 64)
+  (images "cannon_frozen1-0.png"
+		  "cannon_frozen1-1.png"
+		  "cannon_frozen1-2.png"
+		  "cannon_frozen1-3.png"
+		  "cannon_frozen1-4.png"))
+
+ (action
+  (name "left")
+  (hitbox 4 4 32 64)
+  (images "cannon_left.png"))
+
+ (action
+  (name "iced-left")
+  (loops 1)
+  (fps 24)
+  (hitbox 4 4 32 64)
+  (images "cannon_frozen2-0.png"
+		  "cannon_frozen2-1.png"
+		  "cannon_frozen2-2.png"
+		  "cannon_frozen2-3.png"
+		  "cannon_frozen2-4.png"))
+)
+

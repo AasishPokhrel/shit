@@ -1,0 +1,59 @@
+(supertux-sprite
+  (action
+    (name "left")
+	(fps 15)
+    (hitbox 5 17 36 26)
+    (images "rotshot-0.png"
+            "rotshot-1.png"
+            "rotshot-2.png"
+            "rotshot-3.png"
+            "rotshot-4.png"
+            "rotshot-5.png")
+  )
+  (action
+    (name "right")
+	(fps 15)
+    (hitbox 23 17 36 26)
+    (mirror-action "left")
+  )
+  (action
+    (name "iced-left")
+    (hitbox 5 17 36 26)
+    (images "rotshot-0.png")
+  )
+  (action
+    (name "iced-right")
+	(hitbox 23 17 36 26)
+    (mirror-action "iced-left")
+  )
+  (action
+    (hitbox 5 17 36 26)
+    (name "burning-left")
+    (images "rotshot-0.png")
+  )
+  (action
+    (hitbox 23 17 36 26)
+    (name "burning-right")
+    (mirror-action "burning-left")
+  )
+  (action
+    (name "squished-left")
+	(hitbox 9 12 32 32)
+    (images "../../vicious_ivy/corrupted/squished.png")
+  )
+  (action
+    (name "squished-right")
+	(hitbox 19 12 32 32)
+    (mirror-action "squished-left")
+  )
+  (action
+    (name "collision-left")
+	(hitbox 5 17 36 26)
+    (images "collision-left.png")
+  )
+  (action
+    (name "collision-right")
+    (hitbox 23 17 36 26)
+    (mirror-action "collision-left")
+  )
+)

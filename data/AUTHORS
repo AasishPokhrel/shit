@@ -1,0 +1,169 @@
+== Images ==
+
+Most images were created either by grumbel or gwater. Check the log for details.
+
+* images/background/icecliffs/icecliffs-*.png - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
+* images/background/block-snow-*.png - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
+* images/background/cloud-mountains-*.png - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
+* images/background/darkcave*.png - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
+* images/background/dawn_hill_para_blur.png - Daniel W, Romero Nickerson, dual-licensed: GPL version 2 or later and CC-BY-SA
+* images/background/ghostforest_grave.png - jkjkke - https://opengameart.org/content/background-6, edited, licensed under CC-BY 3.0
+* images/objects/explosion/explosion*.png - Bleed - http://remusprites.carbonmade.com/ licensed under CC-BY 3.0, see https://opengameart.org/content/simple-explosion-bleeds-game-art
+* images/engine/editor/sparkle-file.png - Semphris, licensed CC-BY 4.0 - CONTAINS WORK BY FortAwesome/FontAwesome (the file logo), licensed under CC-BY 4.0
+* images/worldmap/shared/rocky_paths[-editor].png - Semphris, released under CC0
+* images/objects/conveyor_belt/* - submitted by RodirodDude CC BY-NC 4.0
+
+== Levels ==
+
+The license should be include in the file itself.
+
+Contrib levels are so old that they have no specific license, but they should be redistributable along with the rest of SuperTux.
+
+Test levels are created by SuperTux developers to test specific code and so are under the GPL.
+
+== Locale ==
+
+License should be included with them.
+
+== Music ==
+
+All files in data/music created by wansti and licensed under GPLv2+CC-by-sa, unless stated otherwise.
+* airship_remix.ogg - from remaxim at OpenGameArt.org, permission to release under CC-BY-SA and GPL version 2 or later
+* airship_2.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
+* arctic_cave.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
+* battle_theme.ogg - from remaxim at OpenGameArt.org, permission to release under CC-BY-SA and GPL version 2 or later
+* beneath_the_rabbit_hole.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
+* bonuscave.ogg
+* bossattack.ogg
+* bright_thunders.ogg - by Krobonil, licensed under CC-BY-SA
+* cave.ogg
+* call_of_the_winding_path.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
+* chipdisko.ogg - Mortimer's Chipdisko by Lukas Nystrand as Mortimer Twang - explicit permission granted to release unter GPL and CC-by-sa.
+* clavelian_march.ogg
+* credits.ogg
+* darkforestkeep.ogg
+* forest-cave.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
+* forest.ogg
+* forest2.ogg
+* forest3.ogg
+* forestmap.ogg
+* forest_theme.ogg - Forest Prophecy reEducated, by Wansti and Tobias "ToBeFree" Frei (GPLv2+CC-by-sa)
+* forest-sprint.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
+* fortress.ogg
+* ghostforest_map.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
+* ghostforest.ogg
+* ghostforest2.ogg
+* greatgigantic.ogg - Based on a work by Chris Huelsbeck - We have his permission to release this under GPL.
+* shallow-green.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
+* halloween_1.ogg - By Forty-Two - licensed under CC-BY-SA 4.0
+* ice_music.ogg - By ZhayTee
+* intro.ogg
+* invincible.ogg
+* arctic_breeze.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
+* jewels.ogg - By cynicmusic/congusbongus - <http://opengameart.org/content/crystal-cave-mysterious-ambience-seamless-loop> - CC-BY 3.0/CC-BY-SA 3.0/GPL 3.0
+* leveldone.ogg
+* new_forest_map.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
+* salcon.ogg - Salsa Con Carne by Mystical - Replaced due to licensing issues (some non-free samples are used)
+    by a work-in-progress remix in trunk and the 0.3.x branch (r4585), for which we have permission to release under GPL and CC-by-sa. - wansti
+* saharan_penguin.ogg - by Enol "Meji" Monte, licensed CC BY-SA
+* theme.ogg
+* treeboss.ogg
+* tropicalbreeze.ogg - by flan, licensed CC-BY-SA 4.0
+* wisphunt.ogg
+* worldmap_old.ogg - By ZhayTee
+* voc-***.ogg
+* night.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
+* worldmap_ice.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
+* sunset.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
+* skylevel.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
+* midday.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
+* midday_alt.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
+* cavetheme.ogg - By SnugglyBun, based on the original cave theme by Wansti. licensed under CC-BY-SA 4.0
+* cavetheme_alt.ogg - By SnugglyBun, cover of the original cave theme by Wansti. licensed under CC-BY-SA 4.0
+* crystalmine_intro.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
+* crystalmine_main.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
+* crystalmine_underwater.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
+* glacier.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
+* snowfort.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
+* icecastle.ogg - By SnugglyBun, based on the original fortress theme by Wansti. licensed under CC-BY-SA 4.0
+* yetiboss.ogg - By SnugglyBun, cover of the original boss battle theme by Wansti. licensed under CC-BY-SA 4.0
+* forest_midday.ogg - By SnugglyBun, based on the original forest theme by Wansti. licensed under CC-BY-SA 4.0
+* forest_midday_alt.ogg - By SnugglyBun, based on forest.ogg and forest3.ogg by Wansti. licensed under CC-BY-SA 4.0
+
+== Scripts ==
+
+These are just more code.
+
+== Speech ==
+
+* penny_runt_01.ogg - self-made by gwater
+* tux_hello.ogg - self-made by TuxThePenguin
+* tux_murp_01.ogg - self-made by TuxThePenguin
+* tux_rap.ogg - self-made by TuxThePenguin and wansti
+* tux_upset.ogg - self-made by TuxThePenguin
+
+== Sounds ==
+
+* bigjump.wav - self-made by wansti
+* brick.wav - replaced with a self-made sound submitted by Yaniel, GPLv2+CC-by-sa
+* coin.wav - Replaced by a self-made, almost identical sound by wansti
+* crystallo-pop.ogg - remixed by weluvgoatz, originally created by fluerescence, licensed under CC0, from https://freesound.org/people/fleurescence/sounds/573153/
+* crystallo-shardhit.ogg - remixed by weluvgoatz, originally created by cyoung510, licensed under CC0, from https://freesound.org/people/cyoung510/sounds/521242/
+* crystallo-shatter.ogg - remixed by weluvgoatz, originally created by C_Rogers, licensed under CC0, from https://freesound.org/people/C_Rogers/sounds/203377/
+* dartfire.wav - self-made by sommer
+* darthit.wav - self-made by sommer
+* door.wav - self-made by gwater (Jun 30 2006 13:42:40 <gwater> ok it's my squeaky step, but it kind of sounds like a door.)
+* empty.wav - 0-length wav file
+* explosion.wav - Replaced by a self-made sound (GPLv2+/CC-by-SA) by sommer 17:34, 7 June 2007 (UTC)
+* fall.wav - added Fri May 14 05:24:24 2004 UTC by sik0fewl. Message was "added sounds from Nathan McCoy" -sommer 22:43, 4 Jan 2007 (CET)
+* fire.ogg - submitted as CC-BY 3.0 by artisticdude from http://opengameart.org
+* fire-flower.wav - submitted as GPL by Bastian Zapf
+* fireworks.wav - submitted as GPL by Ricardo Cruz
+* fizz.wav - replaced by some white noise made with audacity, WolfgangB
+* flame.wav - self-made by MatzeB
+* flip.wav - replaced by wansti "new backflip sound (not perfect but much better than the old one)"
+* grow.ogg - self-made by wansti, replaced grow.wav
+* gulp.wav - CC0, source http://freesound.org/people/Q.K./sounds/56271/
+* hop.ogg - self-made by WolfgangB GPLv2+CC-by-sa
+* hurt.wav - self-made by MatzeB
+* iceblock_bump.wav - replaced with a self-made sound by Some_Person
+* invincible_start.ogg - self-made sound by Wansti
+* jump.wav - self-made by wansti
+* kick.wav - replaced with a self-made sound by Some_Person
+* kill.wav - submitted by RodirodDude CC BY-NC 4.0
+* lava.wav - submitted as GPL by Bastian Zapf
+* lifeup.wav - added Fri May 14 05:24:24 2004 UTC by sik0fewl. Message was "added sounds from Nathan McCoy" -sommer 22:43, 4 Jan 2007 (CET)
+* lightning.wav - sampled by Some_Person from http://www.pdsounds.org/sounds/storm_thunderbolts
+* locked.ogg - self-made by WolfgangB GPLv2+CC-by-sa
+* mr_tree.ogg - self-made by gwater
+* mr_treehit.ogg - self-made by gwater
+* phone.wav - self-made by gwater (unused ATM, was used in infoblock.cpp)
+* rain.wav - submitted as CC-BY 3.0 by DoKashiteru from http://opengameart.org
+* saw.wav Mill1.wav from LinCity-NG (Data is dual licensed under under the GPL and CC-by-sa-v2 ), created by Paulo Morfeo http://svn.berlios.de/viewcvs/lincity-ng/trunk/data/sounds/Mill1.wav
+* shoot.wav - added Fri May 14 05:24:24 2004 UTC by sik0fewl. Message was "added sounds from Nathan McCoy" -sommer 22:43, 4 Jan 2007 (CET)
+* skid.wav - replaced with a self-made sound by wansti
+* splash.ogg - Based on 'Fish Splashing-SoundBible.com-250179430' sound bible, by blastwavefx.com, released under CC-BY-SA 3.0
+    and on 'Water vaporizing on hot Stones' by Natalie from pdsounds.org, released under public domain
+    Mix by Marianne Gagnon, released under CC-BY-SA 3.0
+* splash.wav - sound created by soundscalpel.com, licensed under CC-by http://freesound.org/people/soundscalpel.com/sounds/110393/
+* squish.wav - replaced with a self-made sound by Some_Person
+* stomp.wav - replaced with a self-made sound by Some_Person
+* switch.ogg - self-made by WolfgangB GPLv2+CC-by-sa
+* tada.ogg - created by plasterbrain, licensed under CC0, from https://freesound.org/people/plasterbrain/sounds/397355/
+* thunder.wav - sampled by Some_Person from http://www.pdsounds.org/sounds/storm_thunderbolts
+* ticking.wav - self-made by sommer
+* totem.ogg - self-made by WolfgangB GPLv2+CC-by-sa
+* trampoline.wav - self-made by wansti
+* tree_howling.ogg - added by MatzeB
+* tree_suck.ogg - added by MatzeB
+* turnkey.ogg - self-made by WolfgangB GPLv2+CC-by-sa
+* upgrade.wav - replaced with Yaniel's sound
+* warp.wav - submitted as GPL by Ricardo Cruz
+* waterfall.wav - submitted as GPL by Bastian Zapf
+* welldone.ogg - Copyright 2013 by Iwan Gabovitch, multi-licensed under Creative Commons Attribution 3.0 license and/or GPLv3+
+* willocatch.wav - added by MatzeB
+* willowisp.wav - self-made by wansti
+* wood.wav - self-made by wansti
+* yeti_finish.ogg - self-made by MatzeB
+* yeti_gna.wav - self-made by MatzeB
+* yeti_roar.wav - self-made by MatzeB

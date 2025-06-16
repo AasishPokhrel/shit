@@ -1,0 +1,30 @@
+(supertux-sprite
+  (action
+    (name "default-right")
+    (hitbox 0 2 18 27)
+    (images "right-0.png")
+  )
+  (action
+    (name "swinging-right")
+    (fps 24)
+    (hitbox 0 2 18 27)
+    (images "right-0.png"
+            "right-1.png"
+            "right-2.png"
+            "right-3.png"
+            "right-4.png"
+            "right-5.png"
+    )
+  )
+  (action
+    (name "default-left")
+    (hitbox 14 2 18 27)
+    (mirror-action "default-right")
+  )
+  (action
+    (name "swinging-left")
+    (fps 24)
+    (hitbox 14 2 18 27)
+    (mirror-action "swinging-right")
+  )
+)

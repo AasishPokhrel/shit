@@ -1,0 +1,42 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (fps 4.0)
+  (hitbox 0 0 32 32)
+  (images "water-drop.png")
+ )
+ (action
+  (name "splash")
+  (fps 15.0)
+  (hitbox 64 16 32 32)
+  (images "water-splash-0.png"
+          "water-splash-1.png"
+          "water-splash-2.png"
+          "water-splash-3.png"
+          "water-splash-4.png")
+ )
+ (action
+  (name "particle_0")
+  (fps 1.0)
+  (hitbox 0 0 8 8)
+  (images "water-particle-0.png")
+ )
+ (action
+  (name "particle_1")
+  (fps 1.0)
+  (hitbox 0 0 6 6)
+  (images "water-particle-1.png")
+ )
+ (action
+  (name "particle_2")
+  (fps 1.0)
+  (hitbox 0 0 4 4)
+  (images "water-particle-2.png")
+ )
+ (action
+  (name "particle_3")
+  (fps 1.0)
+  (hitbox 0 0 2 2)
+  (images "water-particle-3.png")
+ )
+)

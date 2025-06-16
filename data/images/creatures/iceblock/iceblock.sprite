@@ -1,0 +1,80 @@
+(supertux-sprite
+	(action
+	  (name "left")
+	  (hitbox 8 10 32 32)
+	  (fps 14)
+	  (images "iceblock-0.png"
+			      "iceblock-1.png"
+			      "iceblock-2.png"
+			      "iceblock-3.png"
+			      "iceblock-4.png"
+			      "iceblock-5.png"
+			      "iceblock-6.png"
+			      "iceblock-7.png"))
+
+	(action
+	  (name "right")
+	  (hitbox 8 10 32 32)
+	  (fps 14)
+	  (mirror-action "left"))
+
+	(action
+	  (name "flat-left")
+	  (hitbox 8 16 32 26)
+	  (images "iceblock-squished.png"))
+
+	(action (name "flat-right")
+	  (hitbox 8 16 32 26)
+	  (mirror-action "flat-left"))
+
+	(action
+		(name "melting-left")
+		(hitbox 8 10 32 32)
+		(images "melting-0.png"
+			    "melting-1.png"
+			    "melting-2.png"
+			    "melting-3.png"))
+
+	(action
+		(name "melting-right")
+		(hitbox 8 10 32 32)
+		(mirror-action "melting-left"))
+
+	(action
+		(name "ground-melting-left")
+		(hitbox 8 10 32 32)
+		(images "gmelting-0.png"
+			    	"gmelting-1.png"
+			    	"gmelting-2.png"
+			    	"gmelting-3.png"
+			    	"gmelting-4.png"))
+
+	(action
+		(name "ground-melting-right")
+		(hitbox 8 10 32 32)
+		(mirror-action "ground-melting-left"))
+
+  (action
+    (name "waking-left")
+    (fps 12)
+	(loops 1)
+    (hitbox 8 16 32 26)
+    (images "iceblock_recover-0.png"
+	      		"iceblock_recover-1.png"
+	      		"iceblock_recover-2.png"
+	      		"iceblock_recover-3.png"
+	      		"iceblock_recover-1.png"
+	      		"iceblock_recover-0.png"
+	      		"iceblock_recover-1.png"
+	      		"iceblock_recover-2.png"
+	      		"iceblock_recover-3.png"
+	      		"iceblock_recover-4.png"
+	      		"iceblock_recover-5.png"
+	      		"iceblock_recover-6.png"))
+
+  (action
+    (name "waking-right")
+	(fps 12)
+	(loops 1)
+    (hitbox 8 15 32 26)
+    (mirror-action "waking-left")))

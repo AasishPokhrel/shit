@@ -1,0 +1,73 @@
+(supertux-sprite
+	(action
+	  (name "stand-left")
+	  (hitbox 22 20 44 62)
+	  (fps 10)
+	  (images "granito_stand-0.png"
+			  "granito_stand-1.png"
+			  "granito_stand-2.png"
+			  "granito_stand-3.png"
+			  "granito_stand-4.png"
+			  "granito_stand-5.png"
+			  "granito_stand-6.png"
+			  "granito_stand-7.png"
+			  "granito_stand-8.png"
+			  "granito_stand-9.png"
+			  "granito_stand-0.png"
+			  "granito_stand-1.png"
+			  "granito_stand-2.png"
+			  "granito_stand-3.png"
+			  "granito_stand-4.png"
+			  "granito_stand-5.png"
+			  "granito_stand-6.png"
+			  "granito_stand-7.png"
+			  "granito_stand-8.png"
+			  "granito_stand-9.png"
+			  "granito_stand-0.png"
+			  "granito_stand-1.png"
+			  "granito_stand-2.png"
+			  "granito_stand-3.png"
+			  "granito_stand-4.png"
+			  "granito_stand-5.png"
+			  "granito_stand-6.png"
+			  "granito_stand-7.png"
+			  "granito_stand-8.png"
+			  "granito_stand-10.png"
+			  "granito_stand-11.png"
+			  "granito_stand-12.png"
+			  "granito_stand-2.png"
+			  "granito_stand-3.png"
+			  "granito_stand-4.png"
+			  "granito_stand-5.png"
+			  "granito_stand-6.png"
+			  "granito_stand-7.png"
+			  "granito_stand-8.png"
+			  "granito_stand-9.png")
+	)
+	(action
+	  (name "stand-right")
+	  (hitbox 18 20 44 62)
+	  (fps 10)
+	  (mirror-action "stand-left")
+	)
+	
+	(action
+	  (name "left")
+	  (hitbox 22 20 44 62)
+	  (fps 10)
+	  (images "granito_walk-0.png"
+			  "granito_walk-1.png"
+			  "granito_walk-2.png"
+			  "granito_walk-3.png"
+			  "granito_walk-4.png"
+			  "granito_walk-5.png"
+			  "granito_walk-6.png"
+			  "granito_walk-7.png")
+	)
+	(action
+	  (name "right")
+	  (hitbox 18 20 44 62)
+	  (fps 10)
+	  (mirror-action "left")
+	)
+)

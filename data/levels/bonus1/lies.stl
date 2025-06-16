@@ -1,0 +1,3176 @@
+(supertux-level
+  (version 3)
+  (name (_ "Lies!"))
+  (author "Daniel Ward")
+  (license "GPL 2+ / CC-by-sa 3.0")
+  (target-time 110)
+  (allow-item-pocket "inherit")
+  (icon "")
+  (icon-locked "")
+  (statistics
+    (enable-coins #t)
+    (enable-badguys #f)
+    (enable-secrets #t)
+  )
+  (sector
+    (name "main")
+    (ambient-light
+      (color 0.6 0.6 0.8)
+    )
+    (background
+      (scroll-offset-x 768)
+      (scroll-offset-y 160)
+      (color 0.2 0.2 0.3)
+      (speed 0)
+      (image-top "/images/background/ice_cave/ice_cave_backwall.png")
+      (image "/images/background/ice_cave/ice_cave_backwall.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_backwall.png")
+      (z-pos -299)
+    )
+    (background
+      (scroll-offset-x 320)
+      (scroll-offset-y 384)
+      (color 0.6 0.6 0.7)
+      (speed 0.02)
+      (image-top "/images/background/ice_cave/ice_cave_middle.png")
+      (image "/images/background/ice_cave/ice_cave_middle.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_middle.png")
+      (z-pos -298)
+    )
+    (background
+      (scroll-offset-x 496)
+      (scroll-offset-y 288)
+      (color 0.6 0.6 0.7)
+      (speed 0.05)
+      (image-top "/images/background/ice_cave/ice_cave_front.png")
+      (image "/images/background/ice_cave/ice_cave_front.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_front.png")
+      (z-pos -297)
+    )
+    (background
+      (color 1 1 1)
+      (alignment "bottom")
+      (speed 0)
+      (fill #t)
+      (image "/images/background/misc/vignette.png")
+      (z-pos 301)
+    )
+    (background
+      (scroll-offset-x 944)
+      (scroll-offset-y 576)
+      (color 1 1 1)
+      (scroll-speed-x -32)
+      (speed 0.5)
+      (image-top "/images/background/misc/fog.png")
+      (image "/images/background/misc/fog.png")
+      (image-bottom "/images/background/misc/fog.png")
+      (z-pos 300)
+    )
+    (background
+      (scroll-offset-y 650)
+      (color 1 1 1)
+      (speed 0)
+      (speed-y 1)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/misc/black_800px.png")
+      (z-pos 400)
+    )
+    (background
+      (scroll-offset-y -650)
+      (color 1 1 1)
+      (speed 0)
+      (speed-y 1)
+      (image "/images/background/misc/black_800px.png")
+      (image-bottom "/images/background/misc/transparent_up.png")
+      (z-pos 401)
+    )
+    (bonusblock
+      (type "purple")
+      (z-pos 51)
+      (x 2144)
+      (y -1248)
+    )
+    (bonusblock
+      (type "orange")
+      (z-pos 51)
+      (x 1888)
+      (y -1120)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (climbable
+      (width 32)
+      (height 704)
+      (x 5920)
+      (y -992)
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17128043951714359368416")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17128045691715022441232")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17128045711715022441456")
+    )
+    (crusher
+      (z-pos 50)
+      (sideways #t)
+      (x 6048)
+      (y -672)
+    )
+    (crusher
+      (z-pos 50)
+      (sideways #t)
+      (x 5760)
+      (y -576)
+    )
+    (crusher
+      (z-pos 50)
+      (sideways #t)
+      (x 6048)
+      (y -384)
+    )
+    (decal
+      (name "tramp1")
+      (z-pos 50)
+      (sprite "/images/objects/trampoline/trampoline2-0.png")
+      (x 2016)
+      (y -768)
+    )
+    (decal
+      (name "tramp2")
+      (z-pos 50)
+      (sprite "/images/objects/trampoline/trampoline2-0.png")
+      (x 2272)
+      (y -832)
+    )
+    (door
+      (z-pos 1)
+      (sector "sector2")
+      (locked #f)
+      (spawnpoint "main")
+      (x 344)
+      (y 160)
+    )
+    (mrbomb
+      (z-pos 50)
+      (x 576)
+      (y 512)
+    )
+    (music
+      (file "/music/antarctic/cavetheme_alt.music")
+    )
+    (path
+      (name "gen17128043951714359368416")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 392)
+          (y 144)
+          (easing "EaseQuadOut")
+        )
+        (node
+          (x 448)
+          (y 88)
+        )
+      )
+    )
+    (path
+      (name "gen17128045691715022441232")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 304)
+          (y 144)
+          (easing "EaseQuadOut")
+        )
+        (node
+          (x 248)
+          (y 88)
+        )
+      )
+    )
+    (path
+      (name "gen17128045711715022441456")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 352)
+          (y 120)
+          (easing "EaseQuadOut")
+        )
+        (node
+          (x 352)
+          (y 40)
+        )
+      )
+    )
+    (scripttrigger
+      (script "Camera.ease_scale_anchor(0.8, 1, ANCHOR_BOTTOM, \"EaseQuadInOut\");
+Camera.scroll_to(5696, 596, 1);")
+      (button #f)
+      (width 32)
+      (height 192)
+      (x 5728)
+      (y -288)
+    )
+    (scripttrigger
+      (script "Tux.kill(true);")
+      (button #f)
+      (width 1328)
+      (height 32)
+      (x 0)
+      (y 704)
+    )
+    (spawnpoint
+      (name "main")
+      (x 192)
+      (y 448)
+    )
+    (spawnpoint
+      (name "main2")
+      (x 352)
+      (y 192)
+    )
+    (switch
+      (z-pos 1)
+      (script "fake.fade(0, 0.3);
+wait(0.3);
+fake.fade(0.2, 0.3);
+wait(0.45);
+fake.fade(0, 0.3);
+wait(0.3);
+fake.fade(1, 0.3);")
+      (x 736)
+      (y 512)
+    )
+    (switch
+      (z-pos 1)
+      (script "fake.fade(0, 0.3);
+tramp1.fade_out(0.3);
+tramp2.fade_out(0.3);
+wait(0.3);
+fake.fade(0.2, 0.3);
+tramp1.fade_in(0.3);
+tramp2.fade_in(0.3);
+wait(0.45);
+fake.fade(0, 0.3);
+tramp1.fade_out(0.3);
+tramp2.fade_out(0.3);
+wait(0.3);
+fake.fade(1, 0.3);
+tramp1.fade_in(0.3);
+tramp2.fade_in(0.3);")
+      (x 1728)
+      (y -864)
+    )
+    (switch
+      (z-pos 1)
+      (script "fake.fade(0, 0.3);
+wait(0.3);
+fake.fade(0.2, 0.3);
+wait(0.45);
+fake.fade(0, 0.3);
+wait(0.3);
+fake.fade(1, 0.3);")
+      (x 2720)
+      (y -800)
+    )
+    (switch
+      (z-pos 1)
+      (script "coverfake.fade(0, 0.3);
+wait(0.3);
+coverfake.fade(0.2, 0.3);
+wait(0.45);
+coverfake.fade(0, 0.3);
+wait(0.3);
+coverfake.fade(1, 0.3);")
+      (x 3616)
+      (y -672)
+    )
+    (switch
+      (z-pos 1)
+      (script "coverfake.fade(0, 0.3);
+wait(0.3);
+coverfake.fade(0.2, 0.3);
+wait(0.45);
+coverfake.fade(0, 0.3);
+wait(0.3);
+coverfake.fade(1, 0.3);")
+      (x 4480)
+      (y -768)
+    )
+    (switch
+      (z-pos 1)
+      (script "coverfake.fade(0, 0.3);
+wait(0.3);
+coverfake.fade(0.2, 0.3);
+wait(0.45);
+coverfake.fade(0, 0.3);
+wait(0.3);
+coverfake.fade(1, 0.3);")
+      (x 4928)
+      (y -96)
+    )
+    (switch
+      (z-pos 1)
+      (script "coverfake.fade(0, 0.3);
+wait(0.3);
+coverfake.fade(0.2, 0.3);
+wait(0.45);
+coverfake.fade(0, 0.3);
+wait(0.3);
+coverfake.fade(1, 0.3);")
+      (x 5920)
+      (y -256)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -60)
+      (name "fake")
+      (width 42)
+      (height 22)
+      (tiles -476 0 27 29 -63 0 27 29 -381 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (width 42)
+      (height 22)
+      (tiles -57 0 2185 -2 2199 2186 2185 2199 2186 -8 0 2185 2186 -25 0 2193 2184 2195 2198 2200 2179 2198 2186 -5 0 2185 2199 2200 2190 -25 0 2185 2200 2180 2195 2187 2179 2197 2190 -2 0 2185 -2 2199 2200 2187 2197 2198 2186 -24 0 2192 2195 2197 2189 2187 2180 2181 2190 2185 2199 2200 2179 2187 2196 2195 2188 2195 2190 -24 0 2193 2184 2195 2189 2196 2187 2196 2198 2200 2197 2189 2187 2189 2197 -2 2179 2182 2194 -25 0 2193 2184 2187 -2 2179 2189 2187 2179 2181 2179 -2 2189 2181 2195 2197 2190 -27 0 2193 2184 2187 2195 2188 2187 2189 2196 2197 2189 -2 2196 2187 2182 2194 -28 0 2193 2184 2189 2188 2182 2184 2187 2197 2196 2188 2182 2183 2194 -30 0 2193 2184 2187 2198 2200 2189 2179 2180 2182 2194 -33 0 2192 2179 2197 2189 2187 2182 2184 2190 -34 0 2192 2189 2195 2189 2197 2190 2192 2190 -34 0 2193 2184 -2 2195 2188 2198 2200 2190 -35 0 2192 2196 -2 2179 2195 2179 2190 -35 0 2192 2179 2195 2179 2197 2189 2190 -20 0 2622 -14 0 2192 2187 2189 2179 -2 2180 2198 2186 0 2621 -29 0 2185 -2 2199 2200 2180 2188 2180 2196 -2 2179 2190 -26 0 24 -4 0 2193 2184 2197 -2 2179 2189 2195 2189 2179 2189 2190 -32 0 2192 2181 2196 2179 2196 2181 2189 2188 2179 2198 2186 -31 0 2193 -4 2183 2184 2187 -2 2197 2195 2190 -3 0 2623 2624 -31 0 2193 2184 2187 2197 2182 2194 -37 0 2193 -2 2183 2194 -13 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (name "real")
+      (width 42)
+      (height 22)
+      (tiles 2396 -3 2391 2396 -2 2391 2957 2395 -4 0 2393 2394 2962 2397 -2 2391 2399 2398 -4 2391 2398 2399 2396 2399 2398 2391 2398 2399 2398 2391 2398 -3 2391 2398 -2 2391 2396 2391 2396 2391 2398 2391 2957 2982 -7 0 2985 2989 2394 2962 -4 2391 2396 2398 2391 2397 2396 -3 2391 2398 -3 2391 2398 2391 2396 2398 -3 2391 2397 2391 2397 2391 2957 2394 2982 -11 0 2985 2989 2394 2962 -4 2391 2397 2398 2396 -2 2391 2957 2394 2962 2957 2394 2962 -3 2391 2398 2391 2398 2391 2398 2391 2392 -16 0 2978 2962 -6 2391 2957 2394 2395 0 2393 4074 0 2985 2989 2962 2391 2399 2396 2399 -2 2391 2397 2392 -17 0 2967 2957 2394 2962 2391 2957 2394 2395 -4 0 2952 -3 0 2978 2962 -5 2391 2399 2392 -17 0 2968 4074 0 2393 4077 2395 -11 0 2967 -3 2391 2397 -2 2391 2392 -18 0 2951 -2 0 2952 -12 0 2968 2962 2398 2391 2398 2957 2394 4074 -18 0 2952 -16 0 2390 2396 2391 2399 2392 0 2951 -5 0 27 28 29 -27 0 2390 2396 -2 2391 2392 0 2952 -13 0 47 -21 0 2390 -3 2391 2392 -34 0 -2 44 0 2390 2397 -2 2391 2392 -34 0 -2 44 0 2390 2397 2391 2396 2973 -30 0 -2 44 -5 0 2390 2391 2396 2957 2974 -18 0 47 -11 0 -2 44 -5 0 2390 -2 2397 2392 -27 0 -2 44 -2 0 27 29 -5 0 2390 2397 2398 2392 -3 0 2384 2385 2386 -21 0 -2 44 -9 0 2390 -2 2399 2392 -2 0 2384 2998 2388 2997 2386 -7 0 6978 6979 2385 2386 -9 0 27 29 -8 0 2975 2961 2396 2399 2392 -2 0 2387 2960 2396 2959 2997 -5 2385 6988 6989 6982 6983 2388 2997 -7 2385 2386 -10 0 7009 2976 2960 -2 2391 2392 -2 0 2390 2398 2397 2398 2959 -5 2388 6992 6993 2988 -2 2391 2959 -7 2388 2389 -9 0 7012 7013 2977 2399 2397 2391 2392 -2 0 2390 2397 2398 2391 -2 2397 2391 2397 2399 -2 2391 -2 2399 -6 2391 2397 -3 2391 2392 -5 0 2384 2385 6988 6989 7016 7017 -2 2397 -2 2391 2392 -2 0 2390 2397 2399 -13 2391 2399 2391 2399 -3 2391 2957 2395 -5 0 2953 4042 6992 6993 2988 -2 2391 2397 -2 2391 2392 -2 0 2390 2397 2391 2398 2399 -3 2391 2399 -5 2391 2397 2399 2398 -3 2391 2396 2399 2392 -7 0 2393 2962 -6 2391)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 402)
+      (width 42)
+      (height 22)
+      (tiles 4213 -40 4219 4221 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4217 -40 4211 4224)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch2.sprite")
+      (z-pos 0)
+      (x 832)
+      (y 480)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 2144)
+      (y -768)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 1888)
+      (y -704)
+    )
+  )
+  (sector
+    (name "sector2")
+    (ambient-light
+      (color 0.6 0.6 0.8)
+    )
+    (background
+      (scroll-offset-x 768)
+      (scroll-offset-y 160)
+      (color 0.2 0.2 0.3)
+      (speed 0)
+      (image-top "/images/background/ice_cave/ice_cave_backwall.png")
+      (image "/images/background/ice_cave/ice_cave_backwall.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_backwall.png")
+      (z-pos -299)
+    )
+    (background
+      (scroll-offset-x 320)
+      (scroll-offset-y 384)
+      (color 0.6 0.6 0.7)
+      (speed 0.02)
+      (image-top "/images/background/ice_cave/ice_cave_middle.png")
+      (image "/images/background/ice_cave/ice_cave_middle.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_middle.png")
+      (z-pos -298)
+    )
+    (background
+      (scroll-offset-x 496)
+      (scroll-offset-y 288)
+      (color 0.6 0.6 0.7)
+      (speed 0.05)
+      (image-top "/images/background/ice_cave/ice_cave_front.png")
+      (image "/images/background/ice_cave/ice_cave_front.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_front.png")
+      (z-pos -297)
+    )
+    (background
+      (color 1 1 1)
+      (alignment "bottom")
+      (speed 0)
+      (fill #t)
+      (image "/images/background/misc/vignette.png")
+      (z-pos 301)
+    )
+    (background
+      (scroll-offset-x 944)
+      (scroll-offset-y 576)
+      (color 1 1 1)
+      (scroll-speed-x -32)
+      (speed 0.5)
+      (image-top "/images/background/misc/fog.png")
+      (image "/images/background/misc/fog.png")
+      (image-bottom "/images/background/misc/fog.png")
+      (z-pos 300)
+    )
+    (background
+      (scroll-offset-y 650)
+      (color 1 1 1)
+      (speed 0)
+      (speed-y 1)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/misc/black_800px.png")
+      (z-pos 400)
+    )
+    (background
+      (scroll-offset-y -650)
+      (color 1 1 1)
+      (speed 0)
+      (speed-y 1)
+      (image "/images/background/misc/black_800px.png")
+      (image-bottom "/images/background/misc/transparent_up.png")
+      (z-pos 401)
+    )
+    (bonusblock
+      (z-pos 51)
+      (x 480)
+      (y 64)
+    )
+    (bonusblock
+      (type "orange")
+      (z-pos 51)
+      (x 672)
+      (y 96)
+    )
+    (bonusblock
+      (type "purple")
+      (z-pos 51)
+      (x 864)
+      (y 128)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (climbable
+      (width 32)
+      (height 416)
+      (x 384)
+      (y 64)
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17128714031539635525024")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17131509122230385142144")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17131509122230385142144")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17131509122230385142144")
+    )
+    (decal
+      (name "faketramp2")
+      (z-pos -50)
+      (sprite "/images/objects/trampoline/trampoline2-0.png")
+      (x 768)
+      (y 352)
+    )
+    (decal
+      (name "faketramp1")
+      (z-pos -50)
+      (sprite "/images/objects/trampoline/trampoline2-0.png")
+      (x 576)
+      (y 416)
+    )
+    (door
+      (z-pos -1)
+      (sector "main")
+      (locked #f)
+      (spawnpoint "main2")
+      (x 96)
+      (y 352)
+    )
+    (door
+      (z-pos -1)
+      (sector "sector3")
+      (locked #f)
+      (spawnpoint "main")
+      (x 1184)
+      (y 320)
+    )
+    (gradient
+      (top_color 0.3 0.4 0.75)
+      (bottom_color 1 1 1)
+      (z-pos -301)
+    )
+    (music
+      (file "/music/antarctic/cavetheme_alt.music")
+    )
+    (path
+      (name "gen17128714031539635525024")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 384)
+          (y 416)
+          (time 1.5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 384)
+          (y 96)
+        )
+      )
+    )
+    (path
+      (name "gen17131509122230385142144")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 480)
+          (y 432)
+          (bezier_before_x 480)
+          (bezier_before_y 160)
+          (bezier_after_x 480)
+          (bezier_after_y 336)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 672)
+          (y 368)
+          (bezier_before_x 672)
+          (bezier_before_y 272)
+          (bezier_after_x 672)
+          (bezier_after_y 272)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 864)
+          (y 304)
+          (bezier_before_x 864)
+          (bezier_before_y 224)
+          (bezier_after_x 864)
+          (bezier_after_y 192)
+          (easing "EaseQuadInOut")
+        )
+      )
+    )
+    (spawnpoint
+      (name "main")
+      (x 104)
+      (y 384)
+    )
+    (spawnpoint
+      (name "main2")
+      (x 1192)
+      (y 352)
+    )
+    (switch
+      (z-pos 1)
+      (script "fake.fade(0, 0.3);
+faketramp1.fade_out(0.3);
+faketramp2.fade_out(0.3);
+wait(0.3);
+fake.fade(0.2, 0.3);
+wait(0.45);
+fake.fade(0, 0.3);
+wait(0.3);
+fake.fade(1, 0.3);
+faketramp1.fade_in(0.3);
+faketramp2.fade_in(0.3);")
+      (x 224)
+      (y 384)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (name "fake")
+      (width 42)
+      (height 22)
+      (tiles -72 0 4336 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3061 -119 0 47 -77 0 47 -275 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -102)
+      (width 42)
+      (height 22)
+      (tiles -12 0 2185 2200 2182 2184 2198 2200 2179 2198 2199 2186 -2 0 2185 2186 2185 -12 2199 2186 -9 0 2185 -4 2199 2200 2182 2194 2193 -2 2183 2184 -2 2179 2198 -2 2199 2200 2198 2200 2180 2195 2197 2196 2188 2195 2196 2195 2188 2197 2180 2188 2198 2199 2186 -6 0 2185 2200 2189 2179 2195 2187 2182 2194 -4 0 2192 2196 2182 2183 2184 2195 2179 2197 2181 2188 2182 -3 2183 2184 2189 2195 2187 2188 2179 2187 2179 2188 2190 -6 0 2192 2195 2179 2187 2181 2182 2194 -5 0 2192 2187 2190 0 2192 2182 2184 2182 -2 2183 2194 -3 0 2192 2189 2197 2180 2181 2180 2179 2196 2189 2190 -6 0 2192 2180 2187 2180 2179 2198 2186 -5 0 2193 2184 2190 0 2192 2190 2192 2190 -6 0 2193 2183 2184 2179 2188 2195 2196 -2 2197 2190 -5 0 2185 2200 2195 2180 -2 2197 2179 2190 -6 0 2192 2190 2185 2200 2190 2192 2190 -8 0 2192 2179 2196 2188 2197 2181 2195 2190 -4 0 2185 2200 2197 2181 2197 2195 2196 2180 2190 -6 0 2192 2190 2192 2182 2201 2200 2190 -8 0 2192 2182 2184 2188 2180 2179 2195 2190 -2 0 2185 2199 2200 2179 2188 2197 -2 2187 2196 2182 2194 -6 0 2192 2190 2192 2190 2192 2196 2190 -8 0 2193 2194 2192 2195 2197 -2 2179 2190 2185 2199 2200 2181 2188 2187 2179 2187 2188 2189 2182 2194 -7 0 2192 2198 2200 2190 2192 2187 2190 -10 0 2193 2184 2196 2181 2182 2194 2200 2195 -2 2187 2196 2179 2187 -2 2181 2182 2194 -8 0 2192 2189 2182 2201 2200 2182 2194 -8 0 2185 -2 2199 2200 2179 2197 2190 0 2179 2197 2196 2197 2180 2187 2181 2179 2180 2190 -9 0 2192 2187 2198 2200 2182 2194 -9 0 2192 2195 2179 2182 2184 2197 2190 0 2184 -2 2179 2181 2195 2180 -2 2179 2182 2194 -9 0 2192 2197 2189 2195 2190 -9 0 2185 2200 2188 2180 2190 2192 2179 2190 0 2192 2180 2188 2195 2180 2197 2195 2197 2190 -10 0 2193 2184 2180 2182 2194 -9 0 2192 2181 2188 2187 2198 2200 2187 2190 0 2192 2188 2195 2179 2195 -2 2189 2196 2190 -11 0 2192 2179 2190 -10 0 2193 -5 2183 2184 2190 0 2193 -7 2183 2194 -11 0 2192 2179 2190 -16 0 2193 2194 -21 0 2192 2181 2190 -39 0 2192 2187 2190 -39 0 2193 2184 2198 2186 -39 0 2192 2179 2198 2199 2186 -34 0 2185 -2 2199 2200 2179 2181 2179 2198 2199 2186 -27 0 2185 -4 2199 2200 2179 2189 2195 2189 2182 2184 2197 2187 2198 -4 2199 2186 -22 0 2193 -8 2183 2184 2190 2193 -7 2183 2194 -9 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos -1)
+      (width 42)
+      (height 22)
+      (tiles -54 0 4336 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3060 -41 0 3061 -202 0 -2 5400 -8 0 -3 5400 -4 0 -5 5400 -5 0 -5 5400 -3 0 5400 -6 0 -2 5404 -8 5400 -3 5404 -4 5400 -5 5404 -5 5400 -5 5404 -3 5400 5404 -8 0 -8 5404 -3 0 -4 5404 -5 0 -5 5404 -5 0 -3 5404 -2 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 42)
+      (height 22)
+      (tiles 2396 -3 2391 2396 -5 2391 2399 -3 2397 2957 -5 2394 2962 -4 2391 2398 2399 2396 2399 2398 2391 2398 2399 2398 2391 2957 -3 2394 2962 -2 2391 2396 2391 2396 2391 2398 -4 2391 2957 -3 2394 2993 2996 -5 0 2985 2989 2394 2962 2398 2391 -2 2957 -6 2394 2993 2996 -3 0 2978 2962 2391 2397 2391 2397 2391 2399 2397 2396 2957 2993 2996 -13 0 2978 -2 2394 2993 2996 -12 0 2978 2962 2398 2391 2398 -3 2391 2957 2982 -33 0 2390 2399 -2 2391 2397 -2 2391 2392 -34 0 2390 -3 2391 2399 -2 2397 2973 -34 0 2390 2391 2397 -3 2391 2957 2974 -33 0 2384 2961 2391 2398 2957 2394 2993 2996 -34 0 2387 2960 2391 2957 2982 -37 0 2390 2396 2391 2392 -38 0 2390 -2 2391 2392 -38 0 2390 2397 2391 2392 -38 0 2390 2397 2391 2392 -25 0 47 -5 0 2384 -6 2385 2961 2391 2396 2958 -7 2385 2386 -23 0 2387 -6 2388 2960 -2 2397 2959 -7 2388 2389 -11 0 47 -11 0 2985 2989 2962 2396 -3 2391 2398 2397 2398 2391 2397 -3 2391 2397 2391 2957 2982 -25 0 2985 2989 2962 -2 2391 2397 -2 2399 -2 2391 -2 2399 2391 2397 2957 2982 -6 0 47 -21 0 2985 2989 2962 2398 2396 2399 2396 -2 2391 2396 2957 2993 2996 -31 0 2978 2962 -2 2391 -2 2398 2399 2957 2982 -34 0 2978 2962 -4 2391 2958 2385 2386 -8 0 2384 2385 2386 -4 0 2384 -3 2385 2386 -5 0 2384 -3 2385 2386 -3 0 2384 2961 -2 2391 2396 2391 2959 2388 2997 -8 2385 2998 2388 2997 -4 2385 2998 -3 2388 2997 -5 2385 2998 -3 2388 2997 -3 2385 2998 2960 -3 2391 2396 2391 2397 2959 -8 2388 2960 2391 2959 -4 2388 2960 2391 2396 2399 2959 -5 2388 2960 2397 -2 2391 2959 -3 2388 2960 2391)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -101)
+      (width 42)
+      (height 22)
+      (tiles -495 0 106 107 108 -39 0 109 110 111 -11 0 2621 -3 0 24 -368 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 350)
+      (width 42)
+      (height 22)
+      (tiles 4213 -40 4219 4221 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4217 -40 4211 4224)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch2.sprite")
+      (z-pos 0)
+      (x 1088)
+      (y 320)
+    )
+    (torch
+      (z-pos 0)
+      (x 288)
+      (y 352)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 864)
+      (y 352)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 672)
+      (y 416)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 480)
+      (y 480)
+    )
+  )
+  (sector
+    (name "sector3")
+    (ambient-light
+      (color 0.6 0.6 0.8)
+    )
+    (background
+      (scroll-offset-x 768)
+      (scroll-offset-y 160)
+      (color 0.2 0.2 0.3)
+      (speed 0)
+      (image-top "/images/background/ice_cave/ice_cave_backwall.png")
+      (image "/images/background/ice_cave/ice_cave_backwall.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_backwall.png")
+      (z-pos -299)
+    )
+    (background
+      (scroll-offset-x 320)
+      (scroll-offset-y 384)
+      (color 0.6 0.6 0.7)
+      (speed 0.02)
+      (image-top "/images/background/ice_cave/ice_cave_middle.png")
+      (image "/images/background/ice_cave/ice_cave_middle.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_middle.png")
+      (z-pos -298)
+    )
+    (background
+      (scroll-offset-x 496)
+      (scroll-offset-y 288)
+      (color 0.6 0.6 0.7)
+      (speed 0.05)
+      (image-top "/images/background/ice_cave/ice_cave_front.png")
+      (image "/images/background/ice_cave/ice_cave_front.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_front.png")
+      (z-pos -297)
+    )
+    (background
+      (color 1 1 1)
+      (alignment "bottom")
+      (speed 0)
+      (fill #t)
+      (image "/images/background/misc/vignette.png")
+      (z-pos 301)
+    )
+    (background
+      (scroll-offset-x 944)
+      (scroll-offset-y 576)
+      (color 1 1 1)
+      (scroll-speed-x -32)
+      (speed 0.5)
+      (image-top "/images/background/misc/fog.png")
+      (image "/images/background/misc/fog.png")
+      (image-bottom "/images/background/misc/fog.png")
+      (z-pos 300)
+    )
+    (background
+      (scroll-offset-y 650)
+      (color 1 1 1)
+      (speed 0)
+      (speed-y 1)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/misc/black_800px.png")
+      (z-pos 400)
+    )
+    (background
+      (scroll-offset-y -650)
+      (color 1 1 1)
+      (speed 0)
+      (speed-y 1)
+      (image "/images/background/misc/black_800px.png")
+      (image-bottom "/images/background/misc/transparent_up.png")
+      (z-pos 401)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (crusher
+      (z-pos 50)
+      (x 640)
+      (y 128)
+    )
+    (door
+      (z-pos -1)
+      (sector "sector4")
+      (locked #f)
+      (spawnpoint "main")
+      (x 1184)
+      (y 416)
+    )
+    (door
+      (z-pos -1)
+      (sector "sector2")
+      (locked #f)
+      (spawnpoint "main2")
+      (x 96)
+      (y 448)
+    )
+    (gradient
+      (top_color 0.3 0.4 0.75)
+      (bottom_color 1 1 1)
+      (z-pos -301)
+    )
+    (music
+      (file "/music/antarctic/cavetheme_alt.music")
+    )
+    (spawnpoint
+      (name "main")
+      (x 104)
+      (y 480)
+    )
+    (spawnpoint
+      (name "main2")
+      (x 1192)
+      (y 448)
+    )
+    (switch
+      (z-pos 1)
+      (script "fake.fade(0, 0.3);
+wait(0.3);
+fake.fade(0.2, 0.3);
+wait(0.45);
+fake.fade(0, 0.3);
+wait(0.3);
+fake.fade(1, 0.3);")
+      (x 224)
+      (y 480)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (name "fake")
+      (width 42)
+      (height 22)
+      (tiles -645 0 5400 -10 0 -3 5400 -27 0 5402 0 5407 -8 0 5402 -3 0 5407 -27 0 5405 -10 0 -3 5405 -181 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -101)
+      (width 42)
+      (height 22)
+      (tiles -95 0 2185 -2 2199 2186 -9 0 2185 2199 2186 -25 0 2185 2200 2187 2181 2190 -6 0 2185 2199 2186 2192 2197 2198 2199 2186 -22 0 2185 2200 2180 2187 2188 2198 2186 -5 0 2192 2197 2198 2200 2182 2184 2187 2198 2199 2186 -19 0 2185 2200 2197 2179 2182 2183 2184 2198 2186 -4 0 2193 2184 2179 2182 2194 2193 2184 2197 2179 2198 2199 2186 -16 0 2185 2200 2195 2196 2182 2194 0 2192 2197 2190 -5 0 2192 2179 2198 2186 0 2193 2184 2195 2197 2196 2198 2199 2186 -14 0 2192 -2 2187 2196 2190 -2 0 2192 2195 2190 -5 0 2193 2184 2196 2198 2186 0 2192 2187 2179 -2 2180 2179 2198 2199 2186 -12 0 2192 2188 2189 2196 2190 -2 0 2192 2182 2194 -6 0 2192 2187 2197 2190 0 2192 2187 2188 2197 2180 2181 2180 2179 2198 2186 -10 0 2185 2200 2181 2189 2182 2194 -2 0 2192 2190 -7 0 2193 2184 2179 2198 2186 2193 2184 2179 2196 2188 2196 2179 2180 2181 2198 2186 -7 0 2185 2199 2200 2179 2182 2183 2194 -2 0 2185 2200 2190 -8 0 2192 2188 2197 2190 0 2193 2184 2197 2196 2187 2180 2195 2179 2188 2198 2186 -2 0 2185 -3 2199 2200 2180 2182 2183 2194 -4 0 2192 2179 2190 -8 0 2193 2184 2195 2190 -2 0 2193 2183 2184 -2 2187 2188 2180 2196 2189 2198 2186 0 2192 2180 2188 2195 2182 2183 2194 -5 0 2185 2200 2182 2194 -9 0 2192 2196 2190 -4 0 2193 2184 2181 2188 -4 2187 2190 0 2192 2188 2195 2179 2198 2186 -5 0 2185 2200 2196 2190 -10 0 2192 2179 2190 -5 0 2193 2184 2195 2180 2187 2179 2188 2190 0 2192 2187 2179 2189 2181 2198 2186 -4 0 2192 2189 2197 2190 -8 0 2185 2199 2200 2189 2190 -6 0 2193 2184 2180 2179 2196 2187 2190 0 2200 2196 2181 2179 2197 2179 2198 -2 2199 2186 0 2192 2189 2179 2190 -8 0 2192 2179 -2 2180 2190 -7 0 2192 2188 2187 2196 2179 2190 0 2189 2179 2187 -2 2189 2196 2181 -2 2179 2198 2199 2200 2187 2182 2194 -8 0 2192 2180 2196 2182 2194 -7 0 2192 2182 2183 2184 2196 2190 0 2189 2182 2184 2182 2183 2184 -2 2180 2188 2179 2197 2179 2196 2198 2186 -8 0 2192 2195 2189 2198 2186 -7 0 2193 2194 0 2192 2196 2190 0 2183 2194 2192 2190 0 2193 2183 2184 2196 2187 2195 2180 2179 2188 2190 -8 0 2193 2183 2184 2188 2198 2186 -9 0 2193 2183 2194 -3 0 2193 2194 -3 0 2193 2183 2184 2187 2181 2189 2179 2198 -2 2199 2186 -7 0 2193 2184 2197 2190 -22 0 2193 -2 2183 2184 2195 2179 2195 2179 2198 2186 -7 0 2193 2184 2198 2186 -24 0 2193 2184 2179 2182 -2 2183 2194 -8 0 2192 2195 2190 -12 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 42)
+      (height 22)
+      (tiles 2396 -3 2391 2396 -5 2391 2399 -2 2397 2391 2396 2391 2397 -2 2391 2399 2398 -4 2391 2398 2399 2396 2399 2398 2391 2398 2399 2398 2391 2398 -3 2391 2398 -2 2391 2396 2391 2396 2391 2398 -4 2391 2399 -3 2391 2398 -2 2391 2399 2397 2398 -4 2391 2396 2398 2391 2397 2396 -3 2391 2398 -3 2391 2398 2391 2396 2398 -3 2391 2397 2391 2397 2391 2399 2397 2396 2397 2399 -4 2391 2397 2391 2396 -10 2391 2397 2398 2396 -3 2391 2396 2399 -2 2391 2398 -3 2391 2398 2391 2398 2391 2398 -7 2391 -2 2397 2391 2397 2957 -2 2394 2962 2391 2957 -2 2394 2962 2397 2957 -2 2394 2962 -5 2391 2399 2391 2396 2397 2396 -2 2391 2399 2396 2399 -2 2391 2397 -3 2391 2396 2391 2396 2391 2396 2957 2993 2996 -2 0 2978 2962 2392 -2 0 4073 2993 2996 -2 0 2978 2962 2391 2398 -3 2391 2399 2391 2398 -8 2391 2399 -2 2397 2398 2391 2396 -2 2391 2957 2982 -5 0 2393 2395 -2 0 2952 -5 0 2985 2989 2962 -2 2391 -2 2397 -2 2391 2398 2391 2397 -3 2391 2397 -5 2391 2397 -2 2391 2957 2982 -18 0 2978 2962 2399 2391 2397 -2 2399 2398 2396 -2 2391 2398 2391 2398 -4 2391 2398 -2 2391 2957 2982 -20 0 2985 2989 -2 2394 2962 -5 2391 2396 2391 2399 2398 2397 2398 -3 2391 2957 2982 -25 0 2985 2989 2962 2391 2397 2391 2396 -7 2391 2397 2973 -28 0 2978 2962 -7 2391 2396 2391 2957 2394 2974 -10 0 44 -2 0 44 -15 0 2978 2962 2391 2397 -2 2391 2957 -2 2394 2993 2996 -10 0 44 -6 0 44 -14 0 2967 -2 2397 2957 2993 2996 -36 0 2968 2962 2391 2392 -14 0 44 -10 0 44 -13 0 2390 2397 2392 -39 0 2390 2397 2958 2386 -18 0 -2 5400 -12 0 2384 -5 2385 2961 2399 2959 2997 -6 2385 2386 -6 0 62 -3 0 5402 -2 62 5407 -3 0 -3 62 -5 0 2387 -5 2388 2960 2396 2399 2959 -6 2388 2997 2385 2386 -9 0 -2 5405 -12 0 2390 -8 2391 -2 2398 2399 2391 2398 2397 2398 2959 2388 2997 2385 2386 -16 0 2384 -4 2385 2961 2397 2391 2396 2391 2396 2391 2397 -5 2391 2397 2398 2391 -2 2397 2959 2388 2389 -10 0 2384 -5 2385 2998 -4 2388 2960 2396 -8 2391 2396 2391 -2 2397 2399 -5 2391 2958 -10 2385 2998 -5 2388 2960 -2 2391 2396 -2 2391 2398 -2 2391 2398 2391 2397 -4 2391 2396 2391 2397 2391 2398 2399 -3 2391 2959 -10 2388 2960 2396 -2 2399 2396 -2 2391 2397 -2 2398 2397 -3 2391 2398 2396 -3 2391)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos -1)
+      (width 42)
+      (height 22)
+      (tiles -723 0 -2 5400 -40 0 -2 5404 -2 5400 -16 0 -5 5400 -19 0 -2 5404 -10 0 -6 5400 -5 5404 -21 0 -10 5400 -6 5404 -26 0 -10 5404 -19 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -102)
+      (width 42)
+      (height 22)
+      (tiles -84 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 -4 0 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 -9 0 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 -9 0 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 -8 0 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 -7 0 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 -8 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 -9 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 -10 0 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 -10 0 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 -11 0 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 -12 0 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 -13 0 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 -13 0 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 -12 0 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 -13 0 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 -12 0 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 -12 0 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 -13 0 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 -15 0 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 -11 0 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 350)
+      (width 42)
+      (height 22)
+      (tiles 4213 -40 4219 4221 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4217 -40 4211 4224)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch2.sprite")
+      (z-pos 0)
+      (x 1088)
+      (y 416)
+    )
+    (torch
+      (z-pos 0)
+      (x 256)
+      (y 448)
+    )
+  )
+  (sector
+    (name "sector4")
+    (init-script "Camera.set_scale(0.8);")
+    (ambient-light
+      (color 0.6 0.6 0.8)
+    )
+    (background
+      (scroll-offset-x 768)
+      (scroll-offset-y 160)
+      (color 0.2 0.2 0.3)
+      (speed 0)
+      (image-top "/images/background/ice_cave/ice_cave_backwall.png")
+      (image "/images/background/ice_cave/ice_cave_backwall.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_backwall.png")
+      (z-pos -299)
+    )
+    (background
+      (scroll-offset-x 320)
+      (scroll-offset-y 384)
+      (color 0.6 0.6 0.7)
+      (speed 0.02)
+      (image-top "/images/background/ice_cave/ice_cave_middle.png")
+      (image "/images/background/ice_cave/ice_cave_middle.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_middle.png")
+      (z-pos -298)
+    )
+    (background
+      (scroll-offset-x 496)
+      (scroll-offset-y 288)
+      (color 0.6 0.6 0.7)
+      (speed 0.05)
+      (image-top "/images/background/ice_cave/ice_cave_front.png")
+      (image "/images/background/ice_cave/ice_cave_front.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_front.png")
+      (z-pos -297)
+    )
+    (background
+      (color 1 1 1)
+      (alignment "bottom")
+      (speed 0)
+      (fill #t)
+      (image "/images/background/misc/vignette.png")
+      (z-pos 301)
+    )
+    (background
+      (scroll-offset-x 944)
+      (scroll-offset-y 576)
+      (color 1 1 1)
+      (scroll-speed-x -32)
+      (speed 0.5)
+      (image-top "/images/background/misc/fog.png")
+      (image "/images/background/misc/fog.png")
+      (image-bottom "/images/background/misc/fog.png")
+      (z-pos 300)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (climbable
+      (width 32)
+      (height 832)
+      (x 384)
+      (y 64)
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17128900482644327180736")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17128902542644327182752")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17128902632644327180960")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17128902652644327178272")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17128902832644327177600")
+    )
+    (crusher
+      (z-pos 50)
+      (sideways #t)
+      (x 576)
+      (y 736)
+    )
+    (crusher
+      (z-pos 50)
+      (sideways #t)
+      (x 160)
+      (y 448)
+    )
+    (crusher
+      (z-pos 50)
+      (sideways #t)
+      (x 32)
+      (y 192)
+    )
+    (decal
+      (name "fakecrusher1")
+      (z-pos 50)
+      (sprite "/images/creatures/crusher/krush_ice_hit.png")
+      (x 573)
+      (y 541)
+    )
+    (decal
+      (name "fakecrusher2")
+      (z-pos 50)
+      (sprite "/images/creatures/crusher/krush_ice_hit.png")
+      (x 157.6)
+      (y 636.8)
+    )
+    (door
+      (z-pos -1)
+      (sector "sector3")
+      (locked #f)
+      (spawnpoint "main2")
+      (x 384)
+      (y 928)
+    )
+    (door
+      (z-pos -1)
+      (sector "sector5")
+      (locked #f)
+      (spawnpoint "main")
+      (x 640)
+      (y 160)
+    )
+    (gradient
+      (top_color 0.3 0.4 0.75)
+      (bottom_color 1 1 1)
+      (z-pos -301)
+    )
+    (music
+      (file "/music/antarctic/cavetheme_alt.music")
+    )
+    (path
+      (name "gen17128900482644327180736")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 480)
+          (y 704)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 288)
+          (y 704)
+        )
+      )
+    )
+    (path
+      (name "gen17128902542644327182752")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 480)
+          (y 512)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 288)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "gen17128902632644327180960")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 288)
+          (y 416)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 480)
+          (y 416)
+        )
+      )
+    )
+    (path
+      (name "gen17128902652644327178272")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 288)
+          (y 608)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 480)
+          (y 608)
+        )
+      )
+    )
+    (path
+      (name "gen17128902832644327177600")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 288)
+          (y 800)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 480)
+          (y 800)
+        )
+      )
+    )
+    (spawnpoint
+      (name "main")
+      (x 392)
+      (y 960)
+    )
+    (spawnpoint
+      (name "main2")
+      (x 648)
+      (y 192)
+    )
+    (switch
+      (z-pos 1)
+      (script "fakecrusher1.fade_out(0.3);
+fakecrusher2.fade_out(0.3);
+wait(1.05);
+fakecrusher1.fade_in(0.3);
+fakecrusher2.fade_in(0.3);")
+      (x 224)
+      (y 1024)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (width 25)
+      (height 35)
+      (tiles -875 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos -1)
+      (width 25)
+      (height 35)
+      (tiles -37 0 4336 -24 0 3060 -24 0 3060 -24 0 3060 -24 0 3060 -24 0 3060 -2 0 -2 78 -20 0 3060 -2 0 -2 78 -20 0 3060 -24 0 3060 -24 0 3060 -17 0 5400 -6 0 3060 -6 0 -2 5400 -9 0 5404 5400 -5 0 3060 -5 0 5400 -2 5404 -10 0 5404 -5 0 3060 -5 0 5404 -18 0 3060 -24 0 3060 -24 0 3060 -17 0 -2 44 -5 0 3060 -17 0 -2 44 -5 0 3060 -24 0 3060 -24 0 3060 -5 0 -2 44 -17 0 3060 -5 0 -2 44 -17 0 3060 -24 0 3060 -24 0 3060 -24 0 3060 -24 0 3060 -24 0 3061 -108 0 5400 -17 0 5400 -6 0 5404 -17 0 5404 -6 5400 -19 0 -6 5404 -4 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -102)
+      (width 25)
+      (height 35)
+      (tiles -436 0 2185 -7 2199 2186 -15 0 2185 2200 2179 2182 2183 2184 2179 2181 2179 2198 2186 -12 0 2185 2199 2200 2181 2182 2194 0 2193 2183 2184 2179 2187 2198 2186 -8 0 2185 -2 2199 2200 2179 2187 2182 2194 -4 0 2193 2184 2179 2189 2198 2186 -5 0 2185 2199 2200 2195 2188 2189 2197 2195 2190 -6 0 2192 2189 2188 2196 2190 -4 0 2185 2200 2197 2181 2182 -2 2183 2184 2197 2190 -6 0 2193 2184 2188 2180 2190 -4 0 2192 2189 2196 2182 2194 -2 0 2193 2183 2194 -7 0 2192 2189 2195 2190 -3 0 2185 2200 2180 2182 2194 2621 -12 0 2193 -2 2183 2194 -3 0 2193 -2 2183 2194 -151 0 2185 2199 2186 -22 0 2192 2195 2198 2186 24 -20 0 2192 2188 2195 2190 -21 0 2193 -2 2183 2194 -15 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -103)
+      (width 25)
+      (height 35)
+      (tiles 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 -4 0 3549 3550 3551 3552 3549 3550 3551 3552 -4 0 3549 3550 3551 3552 3549 3550 -7 0 3553 3554 3555 3556 3553 3554 3555 3556 -17 0 3541 3542 3543 3544 3541 -20 0 3545 3546 3547 3548 3545 -341 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 25)
+      (height 35)
+      (tiles 2396 -3 2391 2396 -5 2391 2399 -2 2397 2391 2396 2391 2397 -2 2391 2399 2398 -4 2391 2396 2391 2396 2957 -4 2394 2962 2399 2957 -4 2394 2962 2957 -3 2394 2962 -2 2391 2396 2398 2397 2391 2957 2395 -4 0 2393 2394 2395 -4 0 2390 2392 -3 0 2393 2394 2962 -2 2391 2398 2391 2392 -12 0 2390 2392 -5 0 2393 2962 2391 2399 2391 2392 -12 0 2390 2392 -6 0 2390 2391 2957 2394 2395 0 78 3162 78 -8 0 2393 2395 -6 0 2390 2391 2392 -17 0 2949 -4 0 2390 2397 2958 2385 2386 -11 0 2384 -3 2385 4048 -4 2385 2961 2391 2959 2388 2389 -11 0 2953 -3 2954 4054 2954 4042 -2 2388 2960 -3 2391 2958 -4 2385 2386 -12 0 2393 2962 2397 2391 2399 -2 2391 2959 2388 4041 -2 2954 2955 -13 0 2390 2391 2399 -4 2391 2397 2958 2386 -13 0 2384 2385 2961 2391 2399 -2 2391 2396 2398 2391 2959 2997 2386 -11 0 2384 2998 2388 2960 -2 2391 2398 2396 2398 -2 2391 2957 4076 2955 -11 0 2953 4075 2962 -4 2391 2397 -2 2391 2399 2392 -15 0 2390 -4 2391 2398 2391 2397 2391 2958 2385 2386 -10 0 2384 -2 2385 2961 2397 2391 2399 2391 2399 -2 2391 2399 4069 2954 2955 -10 0 2953 -2 2954 4070 2391 2396 2398 2396 2399 2396 -2 2391 2392 -15 0 2390 -2 2391 2399 -2 2391 -2 2398 2399 2958 -2 2385 2386 -10 0 2384 2385 2961 -3 2391 2397 -4 2391 4069 -2 2954 2955 -10 0 2953 2954 4070 -2 2391 2397 -3 2391 2396 2391 2392 -15 0 2390 2391 2399 -5 2391 2396 2958 2385 2386 -10 0 2384 -2 2385 2961 -3 2391 2396 2391 2398 -2 2391 4069 2954 2955 -10 0 2953 -2 2954 4070 2396 -5 2391 -2 2399 2392 -15 0 2390 2391 2399 2391 2396 -3 2391 2396 2958 2385 2386 -11 0 2384 2385 2961 2397 2399 2397 2391 -2 2396 2398 2957 4076 2954 2955 -11 0 2953 2954 4070 -4 2391 2397 2399 2957 2395 -16 0 2393 2962 -3 2391 2398 2391 2392 -18 0 2393 2962 2399 2396 2398 2391 2392 -19 0 2390 -2 2391 2399 2398 2392 -19 0 2390 2391 2398 -2 2391 2392 -19 0 2390 -2 2397 -2 2391 2958 2386 -7 0 2384 2385 2386 -7 0 2384 2961 2391 2397 2391 2398 2959 2997 2386 -5 0 2384 2998 2388 2997 2386 -6 0 2387 2960 -5 2391 2959 2997 -5 2385 2998 2960 2391 2959 2997 -6 2385 2961 2397 -4 2391 2398 2391 2959 -5 2388 2960 2391 2398 2399 2959 -6 2388 2960 -3 2391)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 400)
+      (width 25)
+      (height 35)
+      (tiles 4213 -23 4219 4221 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4216 -23 0 4214 4217 -23 4211 4224)
+    )
+    (torch
+      (z-pos 0)
+      (x 192)
+      (y 224)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch2.sprite")
+      (z-pos 0)
+      (x 576)
+      (y 992)
+    )
+  )
+  (sector
+    (name "sector5")
+    (ambient-light
+      (color 0.6 0.6 0.8)
+    )
+    (background
+      (scroll-offset-x 768)
+      (scroll-offset-y 160)
+      (color 0.2 0.2 0.3)
+      (speed 0)
+      (image-top "/images/background/ice_cave/ice_cave_backwall.png")
+      (image "/images/background/ice_cave/ice_cave_backwall.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_backwall.png")
+      (z-pos -299)
+    )
+    (background
+      (scroll-offset-x 320)
+      (scroll-offset-y 384)
+      (color 0.6 0.6 0.7)
+      (speed 0.02)
+      (image-top "/images/background/ice_cave/ice_cave_middle.png")
+      (image "/images/background/ice_cave/ice_cave_middle.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_middle.png")
+      (z-pos -298)
+    )
+    (background
+      (scroll-offset-x 496)
+      (scroll-offset-y 288)
+      (color 0.6 0.6 0.7)
+      (speed 0.05)
+      (image-top "/images/background/ice_cave/ice_cave_front.png")
+      (image "/images/background/ice_cave/ice_cave_front.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_front.png")
+      (z-pos -297)
+    )
+    (background
+      (scroll-offset-y 668)
+      (color 1 1 1)
+      (speed 0)
+      (speed-y 1)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/misc/black_800px.png")
+      (z-pos 400)
+    )
+    (background
+      (scroll-offset-y -668)
+      (color 1 1 1)
+      (speed 0)
+      (speed-y 1)
+      (image "/images/background/misc/black_800px.png")
+      (image-bottom "/images/background/misc/transparent_up.png")
+      (z-pos 401)
+    )
+    (background
+      (color 1 1 1)
+      (alignment "bottom")
+      (speed 0)
+      (fill #t)
+      (image "/images/background/misc/vignette.png")
+      (z-pos 301)
+    )
+    (background
+      (scroll-offset-x 944)
+      (scroll-offset-y 576)
+      (color 1 1 1)
+      (scroll-speed-x -32)
+      (speed 0.5)
+      (image-top "/images/background/misc/fog.png")
+      (image "/images/background/misc/fog.png")
+      (image-bottom "/images/background/misc/fog.png")
+      (z-pos 300)
+    )
+    (bonusblock
+      (z-pos 51)
+      (contents "earthgrow")
+      (x 224)
+      (y 512)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (coin
+      (z-pos 49)
+      (x 992)
+      (y 480)
+    )
+    (coin
+      (z-pos 49)
+      (x 192)
+      (y 448)
+    )
+    (coin
+      (z-pos 49)
+      (x 384)
+      (y 512)
+    )
+    (coin
+      (z-pos 49)
+      (x 864)
+      (y 512)
+    )
+    (coin
+      (z-pos 49)
+      (x 672)
+      (y 512)
+    )
+    (coin
+      (z-pos 49)
+      (x 704)
+      (y 256)
+    )
+    (decal
+      (name "button1")
+      (z-pos 50)
+      (sprite "/images/objects/pushbutton/pushbutton-0.png")
+      (x 816)
+      (y 592)
+    )
+    (decal
+      (name "button2")
+      (z-pos 50)
+      (sprite "/images/objects/pushbutton/pushbutton-0.png")
+      (x 912)
+      (y 592)
+    )
+    (decal
+      (name "button6")
+      (z-pos 50)
+      (sprite "/images/objects/pushbutton/pushbutton-0.png")
+      (x 624)
+      (y 592)
+    )
+    (decal
+      (name "button5")
+      (z-pos 50)
+      (sprite "/images/objects/pushbutton/pushbutton-0.png")
+      (x 528)
+      (y 592)
+    )
+    (decal
+      (name "button3")
+      (z-pos 50)
+      (sprite "/images/objects/pushbutton/pushbutton-0.png")
+      (x 336)
+      (y 592)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (objects
+        (mrbomb
+          (z-pos 50)
+        )
+      )
+      (limit-dispensed-badguys #t)
+      (max-concurrent-badguys 1)
+      (x 384)
+      (y 96)
+    )
+    (door
+      (z-pos -1)
+      (sector "sector4")
+      (locked #f)
+      (spawnpoint "main2")
+      (x 96)
+      (y 192)
+    )
+    (door
+      (z-pos -1)
+      (sector "sector6")
+      (locked #f)
+      (spawnpoint "main")
+      (x 1152)
+      (y 192)
+    )
+    (firefly
+      (z-pos 0)
+      (x 192)
+      (y 240)
+    )
+    (gradient
+      (top_color 0.3 0.4 0.75)
+      (bottom_color 1 1 1)
+      (z-pos -301)
+    )
+    (music
+      (file "/music/antarctic/cavetheme_alt.music")
+    )
+    (path
+      (name "gen17128921122645042726864")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 992)
+          (y 160)
+          (easing "EaseQuadOut")
+        )
+        (node
+          (x 992)
+          (y 64)
+        )
+      )
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "exitor")
+      (path-ref "gen17128921122645042726864")
+      (sprite "/images/objects/platforms/vertical-wood.sprite")
+    )
+    (pushbutton
+      (z-pos 50)
+      (script "exitor.goto_node(1);")
+      (x 720)
+      (y 592)
+    )
+    (pushbutton
+      (z-pos 50)
+      (script "exitor.goto_node(1);")
+      (x 432)
+      (y 592)
+    )
+    (scripttrigger
+      (script "exitor.goto_node(1);")
+      (button #f)
+      (width 96)
+      (height 80)
+      (x 1120)
+      (y 208)
+    )
+    (spawnpoint
+      (name "main")
+      (x 104)
+      (y 224)
+    )
+    (spawnpoint
+      (name "main2")
+      (x 1160)
+      (y 224)
+    )
+    (switch
+      (z-pos 1)
+      (script "fake.fade(0, 0.3);
+button1.fade_out(0.3);
+button2.fade_out(0.3);
+button3.fade_out(0.3);
+button5.fade_out(0.3);
+button6.fade_out(0.3);
+wait(0.3);
+fake.fade(0.2, 0.3);
+wait(0.45);
+fake.fade(0, 0.3);
+wait(0.3);
+button1.fade_in(0.3);
+button2.fade_in(0.3);
+button3.fade_in(0.3);
+button5.fade_in(0.3);
+button6.fade_in(0.3);
+fake.fade(1, 0.3);")
+      (x 704)
+      (y 128)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (name "fake")
+      (width 42)
+      (height 23)
+      (tiles -555 0 -6 7026 -6 0 -5 7026 -27 0 -6 7026 -2 0 7026 -2 0 7026 -5 0 -2 7026 0 7026 -16 0 -3 7026 -9 0 -3 7026 -6 0 -4 7026 -18 0 -4 7026 -3 0 -5 7026 -6 0 7026 -268 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos -1)
+      (width 42)
+      (height 23)
+      (tiles -115 0 1348 -41 0 79 -41 0 79 -41 0 1349 -32 0 7026 -8 0 1348 -31 0 -3 7026 -7 0 79 -30 0 -5 7026 -6 0 1349 -293 0 7026 -17 0 7026 -43 0 62 -2 0 62 -2 0 62 -2 0 62 -2 0 62 -2 0 62 -2 0 62 -2 0 62 -221 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -103)
+      (width 42)
+      (height 23)
+      (tiles -42 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 -43 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -101)
+      (width 42)
+      (height 23)
+      (tiles -342 0 24 -8 0 2623 2624 -16 0 2621 -596 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 42)
+      (height 23)
+      (tiles -5 2397 -6 2391 -2 2397 -3 2391 2398 -6 2391 2398 -11 2391 2398 -3 2391 2398 -2 2391 2396 -3 2391 2396 -5 2391 2399 -2 2397 2391 2396 2391 2397 2957 -9 2394 2962 2399 2398 2957 2394 2962 2398 2391 2398 2391 2396 2398 -3 2391 2396 2391 2396 2391 2398 -3 2391 2957 -2 2394 4077 -2 2394 4077 2394 2993 2996 -9 0 2985 2989 2394 4074 0 4073 2394 2962 2957 -2 2394 2962 -3 2391 2397 2391 2397 2391 2399 2957 2394 2993 2996 -2 0 2952 -2 0 2952 -15 0 2951 0 2951 0 2393 2395 -2 0 2978 2962 2398 2391 2398 2957 -2 2394 2993 2996 -24 0 2952 0 2952 -6 0 2390 2399 2396 2399 2392 -37 0 2390 -3 2391 2392 -37 0 2390 -3 2391 2392 -37 0 2390 2391 2398 2391 2958 -5 2385 2386 -21 0 2384 -9 2385 2961 2391 2396 2391 2959 -5 2388 2389 -3 0 27 -13 28 29 -3 0 2387 -9 2388 2960 2391 2396 -7 2391 2392 -21 0 2390 -2 2391 2398 -2 2391 2396 2397 2396 -8 2391 2396 2391 2957 2982 -21 0 2978 2962 -3 2391 2396 -2 2391 2398 -3 2391 2397 -3 2391 2397 2391 2396 2392 -23 0 2393 2962 -3 2391 2398 2396 2391 2399 -2 2391 2397 2391 2396 2398 2391 2396 2957 2395 -2 7026 -6 0 -6 7026 -5 0 -5 7026 2393 2962 2391 2397 2398 -6 2391 2396 2398 -3 2391 2392 -5 7026 -6 0 -2 7026 0 -2 7026 0 -5 7026 -2 0 7026 0 2390 2399 2396 2391 2396 -2 2391 2398 2391 -2 2397 -2 2391 2399 2397 2958 2386 -2 0 -9 7026 -3 0 -6 7026 -4 0 2384 2961 2397 2398 2397 2396 -3 2391 2398 2397 2398 2391 2397 -2 2391 2959 2997 2385 2386 -2 0 -3 7026 -5 0 -6 7026 0 -5 7026 2387 2960 2398 -2 2391 2398 -3 2391 2397 -2 2399 -2 2391 -2 2399 2391 2959 2388 2997 2386 -2 0 2949 -2 0 2949 -2 0 2949 -2 0 2949 -2 0 2949 -2 0 2949 -2 0 2384 2961 -2 2391 2399 2396 2391 2399 -2 2391 2398 2396 2399 2396 -2 2391 2396 2391 -2 2396 2959 2997 -2 2385 4048 -2 2385 4048 -2 2385 4048 -2 2385 4048 -2 2385 4048 -2 2385 4048 -2 2385 2998 2960 2391 2397 2399 -8 2391 -2 2398 2399 2391 2398 2397 2398 2391 2959 -2 2388 4052 -2 2388 4052 -2 2388 4052 -2 2388 4052 -2 2388 4052 -2 2388 4052 -2 2388 2960 2391 2399 2396 2391 2397 2391 2396 2391 2396 2391 2397 -5 2391 2397 2398 2391 -2 2397 2391 2397 2399 -2 2391 -2 2399 -6 2391 2397 -5 2391 2397 -2 2391 2396 -2 2397 2396 -8 2391 2396 2391 -2 2397 2399 -13 2391 2399 2391 2399 -9 2391 2396 -2 2391 2398 -2 2391 2398 2391 2397 -4 2391 2396 2391 2397 2391 2398 2399 -3 2391 2399 -5 2391 2397 2399 2398 -3 2391 2396 -2 2399 2396 -2 2391 2397 -2 2398 2397 -3 2391 2398 2396 -3 2391)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 350)
+      (width 42)
+      (height 23)
+      (tiles 4213 -40 4219 4221 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4217 -40 4211 4224)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -102)
+      (width 42)
+      (height 23)
+      (tiles -11 0 2185 2186 -16 0 2185 2186 0 2185 -2 2199 2186 -17 0 2192 2190 -16 0 2192 2198 2186 2192 2196 2195 2198 2199 2186 -10 0 2185 -4 2199 2200 2190 -16 0 2192 2196 2198 2200 2189 2195 2187 2188 2198 2199 2186 -3 0 2185 -4 2199 2200 2195 2179 2182 -2 2183 2194 -16 0 2193 2184 2179 2197 2189 2197 2180 2181 2180 2179 2190 -2 0 2199 2200 2187 2181 2179 2197 2179 2180 2187 2190 -20 0 2193 2184 2197 2196 2189 2179 2188 2195 2196 2190 -2 0 2184 2179 2196 2189 -2 2181 2188 2195 2182 2194 -21 0 2193 2183 2184 2181 2179 2196 2188 2197 2190 -2 0 2192 2181 2197 2195 2187 2195 2197 2182 2194 -24 0 2192 2181 -2 2189 2188 2180 2190 -2 0 2200 2188 -4 2179 2188 2190 -22 0 2185 -2 2199 2200 2187 2179 2182 2184 2197 2190 -2 0 2183 2184 2188 2181 2188 2187 2182 2194 -21 0 2185 2200 2182 2184 2181 2180 2179 2190 2192 2196 2190 -3 0 2193 -4 2183 2194 -22 0 2193 2183 2194 2193 2184 2179 2180 2190 2192 2179 2190 -35 0 2192 2180 2182 2194 2193 2183 2194 -35 0 2193 2183 2194 -468 0)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch2.sprite")
+      (z-pos 0)
+      (x 576)
+      (y 192)
+    )
+  )
+  (sector
+    (name "sector6")
+    (ambient-light
+      (color 0.6 0.6 0.8)
+    )
+    (background
+      (scroll-offset-y 650)
+      (color 1 1 1)
+      (speed 0)
+      (speed-y 1)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/misc/black_800px.png")
+      (z-pos 400)
+    )
+    (background
+      (scroll-offset-y -650)
+      (color 1 1 1)
+      (speed 0)
+      (speed-y 1)
+      (image "/images/background/misc/black_800px.png")
+      (image-bottom "/images/background/misc/transparent_up.png")
+      (z-pos 401)
+    )
+    (background
+      (scroll-offset-x 768)
+      (scroll-offset-y 160)
+      (color 0.2 0.2 0.3)
+      (speed 0)
+      (image-top "/images/background/ice_cave/ice_cave_backwall.png")
+      (image "/images/background/ice_cave/ice_cave_backwall.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_backwall.png")
+      (z-pos -299)
+    )
+    (background
+      (scroll-offset-x 320)
+      (scroll-offset-y 384)
+      (color 0.6 0.6 0.7)
+      (speed 0.02)
+      (image-top "/images/background/ice_cave/ice_cave_middle.png")
+      (image "/images/background/ice_cave/ice_cave_middle.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_middle.png")
+      (z-pos -298)
+    )
+    (background
+      (scroll-offset-x 496)
+      (scroll-offset-y 288)
+      (color 0.6 0.6 0.7)
+      (speed 0.05)
+      (image-top "/images/background/ice_cave/ice_cave_front.png")
+      (image "/images/background/ice_cave/ice_cave_front.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_front.png")
+      (z-pos -297)
+    )
+    (background
+      (color 1 1 1)
+      (alignment "bottom")
+      (speed 0)
+      (fill #t)
+      (image "/images/background/misc/vignette.png")
+      (z-pos 301)
+    )
+    (background
+      (scroll-offset-x 944)
+      (scroll-offset-y 576)
+      (color 1 1 1)
+      (scroll-speed-x -32)
+      (speed 0.5)
+      (image-top "/images/background/misc/fog.png")
+      (image "/images/background/misc/fog.png")
+      (image-bottom "/images/background/misc/fog.png")
+      (z-pos 300)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (crusher
+      (z-pos 50)
+      (x 880)
+      (y 32)
+    )
+    (crusher
+      (z-pos 50)
+      (x 752)
+      (y 32)
+    )
+    (crusher
+      (z-pos 50)
+      (x 624)
+      (y 32)
+    )
+    (crusher
+      (z-pos 50)
+      (x 496)
+      (y 32)
+    )
+    (door
+      (z-pos -1)
+      (sector "sector5")
+      (locked #f)
+      (spawnpoint "main2")
+      (x 96)
+      (y 256)
+    )
+    (door
+      (z-pos -1)
+      (sector "sector7")
+      (locked #f)
+      (spawnpoint "main")
+      (x 1184)
+      (y 352)
+    )
+    (firefly
+      (z-pos 0)
+      (x 336)
+      (y 368)
+    )
+    (gradient
+      (top_color 0.3 0.4 0.75)
+      (bottom_color 1 1 1)
+      (z-pos -301)
+    )
+    (music
+      (file "/music/antarctic/cavetheme_alt.music")
+    )
+    (spawnpoint
+      (name "main")
+      (x 104)
+      (y 288)
+    )
+    (spawnpoint
+      (name "main2")
+      (x 1192)
+      (y 384)
+    )
+    (switch
+      (z-pos 1)
+      (script "fake.fade(0, 0.3);
+wait(0.3);
+fake.fade(0.2, 0.3);
+wait(0.45);
+fake.fade(0, 0.3);
+wait(0.3);
+fake.fade(1, 0.3);")
+      (x 224)
+      (y 320)
+    )
+    (switch
+      (z-pos 1)
+      (script "fake.fade(0, 0.3);
+wait(0.3);
+fake.fade(0.2, 0.3);
+wait(0.45);
+fake.fade(0, 0.3);
+wait(0.3);
+fake.fade(1, 0.3);")
+      (x 1040)
+      (y 352)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 1)
+      (name "fake")
+      (width 42)
+      (height 22)
+      (tiles -68 0 2951 -41 0 2951 -41 0 2951 -37 0 2951 -3 0 2951 -37 0 2951 -3 0 2951 -33 0 2951 -3 0 2951 -3 0 2951 -29 0 2951 -3 0 2951 -3 0 2951 -3 0 2951 -3 0 2951 -25 0 2951 -3 0 2951 -3 0 2951 -3 0 2951 -3 0 2951 -25 0 2951 -3 0 2951 -3 0 2951 -3 0 2951 -3 0 2951 -25 0 2951 -3 0 2951 -3 0 2951 -3 0 2951 -3 0 2951 -25 0 2951 -3 0 2951 -3 0 2951 -3 0 2952 -3 0 2951 -25 0 2952 -3 0 2951 -3 0 2951 -7 0 2952 -29 0 2952 -3 0 2952 -355 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -101)
+      (width 42)
+      (height 22)
+      (tiles -468 0 2622 -45 0 2625 2626 -65 0 24 -228 0 4145 4146 4147 4148 -14 0 106 107 108 -21 0 4149 4150 4151 4152 -14 0 109 110 111 -51 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 42)
+      (height 22)
+      (tiles 2396 -3 2391 2396 -5 2391 2399 -2 2397 2391 2957 -3 2394 4077 -3 2394 4077 -3 2394 4077 -3 2394 2962 2398 2399 2398 2391 2398 -3 2391 2398 -2 2391 2396 2391 2396 2391 2398 -4 2391 2399 2391 2957 2394 2962 2392 -3 0 2951 -3 0 2951 -3 0 2952 -3 0 2390 2398 -3 2391 2398 2391 2396 2398 -3 2391 2397 2391 2397 2957 -2 2394 2962 -2 2399 2391 2957 2982 0 2978 4074 -3 0 2951 -3 0 2951 -7 0 4073 2394 2962 2399 -2 2391 2398 -3 2391 2398 2391 2398 2957 2394 2982 -2 0 2985 2989 2394 2993 2996 -3 0 2951 -3 0 2951 -3 0 2951 -7 0 2951 0 2985 2989 2962 2396 2397 2396 -2 2391 2399 2396 2957 2982 -12 0 2951 -3 0 2951 -3 0 2952 -7 0 2951 -3 0 2985 2989 -2 2394 2962 -3 2391 2392 -13 0 2951 -3 0 2951 -7 0 2949 -3 0 2951 -7 0 2978 2962 -2 2391 2392 -13 0 2951 -3 0 2952 -7 0 2950 -3 0 2951 -8 0 2967 2391 2398 2392 -13 0 2952 -11 0 2951 -3 0 2952 -8 0 2968 2962 2396 2392 -21 0 2949 -3 0 2951 -13 0 2390 2396 2392 -21 0 2950 -3 0 2951 -13 0 2390 2391 2392 0 2384 -2 2385 2386 -12 0 2949 -3 0 2951 -3 0 2951 -13 0 2390 2397 2958 2385 2998 -2 2388 2997 -2 2385 2386 -5 0 2949 -3 0 2950 -3 0 2951 -3 0 2952 -3 0 2949 -9 0 2390 2397 2959 2388 2960 2391 2396 2959 -2 2388 2997 -3 2385 2386 0 2956 -3 0 2951 -3 0 2951 -7 0 2956 0 2384 2386 -6 0 2390 2391 2396 2398 -3 2391 -2 2399 2391 2959 -3 2388 2389 -3 0 44 0 2952 -3 0 2952 0 44 -7 0 2387 2997 -6 2385 2961 -2 2397 -2 2391 2399 2397 2396 2398 2391 -2 2399 2391 2399 2392 -7 0 44 -7 0 44 -3 0 2390 2959 -6 2388 2960 2397 2398 2391 2397 -3 2391 2397 -3 2391 2398 2397 2392 -3 0 2949 -7 0 2949 -7 0 2985 2989 2962 2391 2398 -3 2391 2397 -2 2399 -2 2391 -2 2399 2391 2397 -2 2391 2398 2391 2396 2392 -3 0 2956 -3 0 2949 -3 0 2956 -3 0 2949 -5 0 2967 2396 2391 2399 -2 2391 2398 2396 2399 2396 -2 2391 2396 2391 -2 2396 2398 2957 2394 2993 2996 -7 0 2956 -7 0 2956 -5 0 2968 2962 -7 2391 -2 2398 2399 2391 2398 2397 2957 2993 2996 -25 0 2390 2391 2396 2391 2396 2391 2397 -5 2391 2397 2398 2958 2386 -9 0 2384 -4 2385 2386 -4 0 2384 2386 -3 0 2384 2385 2961 -8 2391 2396 2391 -2 2397 2399 2959 2997 -9 2385 2998 -4 2388 2997 -4 2385 2998 2997 -3 2385 2998 2388 2960 -2 2391 2398 2391 2397 -4 2391 2396 2391 2397 2391 2398 2959 -9 2388 2960 2399 2398 -2 2391 2959 -4 2388 2960 2959 -3 2388 2960 -3 2391 2398 2396 -3 2391)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos -1)
+      (width 42)
+      (height 22)
+      (tiles -646 0 5400 -7 0 5400 -33 0 5404 -3 0 5400 -3 0 5404 -3 0 5400 -33 0 5404 -7 0 5404 -63 0 5400 -9 0 -6 5400 -4 0 -2 5400 -3 0 -2 5400 -15 0 5404 -9 5400 -6 5404 -4 5400 -2 5404 -3 5400 -2 5404 -16 0 -9 5404 -6 0 -4 5404 -2 0 -3 5404 -9 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -103)
+      (width 42)
+      (height 22)
+      (tiles 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 350)
+      (width 42)
+      (height 22)
+      (tiles 4213 -40 4219 4221 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4217 -40 4211 4224)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -102)
+      (width 42)
+      (height 22)
+      (tiles -47 0 2185 2186 0 2185 2186 -22 0 2185 2186 -11 0 2185 2199 2200 2190 2185 2200 2190 -22 0 2192 2190 -9 0 2185 2199 2200 2196 2187 2198 2200 2179 2190 -22 0 2192 2198 -2 2199 2186 2185 2186 -3 0 2185 2200 2187 2181 2179 2197 2179 2180 2187 2190 -22 0 2193 2184 2189 2179 2198 2200 2198 2186 -2 0 2192 2179 2196 2189 -2 2181 2188 2195 2182 2194 -23 0 2193 2184 2179 2196 2188 2197 2190 -2 0 2200 2181 2197 2195 2187 2195 2197 2182 2194 -25 0 2193 2184 2189 2188 2180 2198 2186 0 2184 2188 -3 2179 2182 2183 2194 2185 2186 -25 0 2192 2189 2195 2197 2179 2190 0 2192 2189 2188 2181 2188 2198 -2 2199 2200 2190 -25 0 2192 2195 2181 2196 2181 2198 2186 2192 2195 -2 2187 2196 2179 2187 2181 2182 2194 -25 0 2192 2181 2180 2179 2197 2196 2190 2192 2197 2196 2197 2180 2187 2181 2179 2190 -26 0 2192 2179 2188 2187 2197 2182 2194 2192 -2 2179 2182 2184 2180 -2 2179 2198 2186 -24 0 2185 2200 2180 2196 2189 2179 2190 0 2192 2180 2182 2201 2200 2197 2182 2183 2184 2190 -23 0 2185 2200 2188 -4 2187 2190 0 2192 2188 2198 2200 2182 2183 2194 0 2193 2194 -23 0 2192 2180 2195 2180 2187 2179 2188 2190 0 2193 -3 2183 2194 -28 0 2192 2182 2183 2184 2179 2196 2187 2190 -34 0 2193 2194 0 2193 -3 2183 2194 -253 0)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch4.sprite")
+      (z-pos 0)
+      (x 896)
+      (y 352)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch4.sprite")
+      (z-pos 0)
+      (x 768)
+      (y 160)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch4.sprite")
+      (z-pos 0)
+      (x 640)
+      (y 256)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch4.sprite")
+      (z-pos 0)
+      (x 512)
+      (y 320)
+    )
+  )
+  (sector
+    (name "sector7")
+    (ambient-light
+      (color 0.6 0.6 0.8)
+    )
+    (background
+      (scroll-offset-y 650)
+      (color 1 1 1)
+      (speed 0)
+      (speed-y 1)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/misc/black_800px.png")
+      (z-pos 400)
+    )
+    (background
+      (scroll-offset-y -650)
+      (color 1 1 1)
+      (speed 0)
+      (speed-y 1)
+      (image "/images/background/misc/black_800px.png")
+      (image-bottom "/images/background/misc/transparent_up.png")
+      (z-pos 401)
+    )
+    (background
+      (scroll-offset-x 768)
+      (scroll-offset-y 160)
+      (color 0.2 0.2 0.3)
+      (speed 0)
+      (image-top "/images/background/ice_cave/ice_cave_backwall.png")
+      (image "/images/background/ice_cave/ice_cave_backwall.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_backwall.png")
+      (z-pos -299)
+    )
+    (background
+      (scroll-offset-x 320)
+      (scroll-offset-y 384)
+      (color 0.6 0.6 0.7)
+      (speed 0.02)
+      (image-top "/images/background/ice_cave/ice_cave_middle.png")
+      (image "/images/background/ice_cave/ice_cave_middle.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_middle.png")
+      (z-pos -298)
+    )
+    (background
+      (scroll-offset-x 496)
+      (scroll-offset-y 288)
+      (color 0.6 0.6 0.7)
+      (speed 0.05)
+      (image-top "/images/background/ice_cave/ice_cave_front.png")
+      (image "/images/background/ice_cave/ice_cave_front.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_front.png")
+      (z-pos -297)
+    )
+    (background
+      (color 1 1 1)
+      (alignment "bottom")
+      (speed 0)
+      (fill #t)
+      (image "/images/background/misc/vignette.png")
+      (z-pos 301)
+    )
+    (background
+      (scroll-offset-x 944)
+      (scroll-offset-y 576)
+      (color 1 1 1)
+      (scroll-speed-x -32)
+      (speed 0.5)
+      (image-top "/images/background/misc/fog.png")
+      (image "/images/background/misc/fog.png")
+      (image-bottom "/images/background/misc/fog.png")
+      (z-pos 300)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17131099971843973534144")
+    )
+    (door
+      (z-pos -1)
+      (sector "sector6")
+      (locked #f)
+      (spawnpoint "main2")
+      (x 96)
+      (y 480)
+    )
+    (door
+      (z-pos -1)
+      (sector "sector9")
+      (locked #f)
+      (spawnpoint "main")
+      (x 1184)
+      (y 224)
+    )
+    (door
+      (z-pos 1)
+      (sector "sector8")
+      (locked #f)
+      (spawnpoint "main")
+      (x 64)
+      (y 192)
+    )
+    (gradient
+      (top_color 0.3 0.4 0.75)
+      (bottom_color 1 1 1)
+      (z-pos -301)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 320)
+      (y 224)
+    )
+    (music
+      (file "/music/antarctic/cavetheme_alt.music")
+    )
+    (path
+      (name "gen17131095741843973532128")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 256)
+          (y 352)
+          (time 1.666667)
+          (speed 96)
+        )
+        (node
+          (x 256)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "gen17131096121843973533472")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 288)
+          (y 288)
+          (speed 96)
+        )
+        (node
+          (x 288)
+          (y 384)
+        )
+      )
+    )
+    (path
+      (name "gen17131099971843973534144")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 1056)
+          (y 160)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 1056)
+          (y 288)
+        )
+      )
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "switcher1")
+      (path-ref "gen17131095741843973532128")
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "switcher2")
+      (path-ref "gen17131096121843973533472")
+      (sprite "/images/objects/platforms/small.sprite")
+    )
+    (pushbutton
+      (z-pos -99)
+      (script "switcher1.start_moving();
+wait(2);
+switcher2.start_moving();")
+      (x 1184)
+      (y 560)
+    )
+    (secretarea
+      (fade-tilemap "secret")
+      (width 32)
+      (height 224)
+      (x 160)
+      (y 64)
+    )
+    (spawnpoint
+      (name "main")
+      (x 104)
+      (y 512)
+    )
+    (spawnpoint
+      (name "main2")
+      (x 1192)
+      (y 256)
+    )
+    (spawnpoint
+      (name "main3")
+      (x 72)
+      (y 224)
+    )
+    (switch
+      (z-pos 1)
+      (script "fake.fade(0, 0.3);
+fakespikes.fade(0, 0.3);
+wait(0.3);
+fake.fade(0.2, 0.3);
+fakespikes.fade(0.2, 0.3);
+wait(0.45);
+fake.fade(0, 0.3);
+fakespikes.fade(0, 0.3);
+wait(0.3);
+fake.fade(1, 0.3);
+fakespikes.fade(1, 0.3);")
+      (x 320)
+      (y 576)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 1)
+      (name "fake")
+      (width 42)
+      (height 22)
+      (tiles -394 0 2384 -16 2385 -25 0 2953 -16 2954 -471 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos -1)
+      (name "spike")
+      (width 42)
+      (height 22)
+      (tiles -815 0 5400 5404 -2 5400 -2 5404 -3 5400 -2 5404 -4 5400 -4 5404 -23 0 5404 0 -2 5404 -2 0 -3 5404 -2 0 -4 5404 -52 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 42)
+      (height 22)
+      (tiles 2396 -3 2391 2396 -5 2391 2399 -2 2397 2391 2396 2391 2957 -2 2394 2962 -4 2391 2957 -2 2394 2962 2399 2398 2391 2398 2399 2398 2391 2398 -3 2391 2398 -2 2391 2396 2391 2957 -7 2394 2962 -2 2391 2957 2394 2993 2996 -2 0 2985 2989 -2 2394 2993 2996 -2 0 2978 2962 -2 2391 2398 2957 -4 2394 2962 2399 -3 2391 2397 2957 2395 -7 0 2393 2394 2993 2996 -14 0 2985 2989 2394 2993 2996 -4 0 2985 2989 2962 2398 2391 2398 2392 -37 0 2978 2962 2396 2957 2395 -38 0 2390 2391 2392 -39 0 2390 2391 2392 -39 0 2390 2398 2392 -15 0 44 0 44 -2 0 -2 44 -3 0 -2 44 -12 0 2390 2396 2958 -4 2385 2386 -34 0 2390 2396 2959 -2 2388 4041 2954 2955 -10 0 2949 0 2949 -2 0 2384 2386 -3 0 2384 2386 -4 0 2384 -7 2385 2961 -2 2391 2957 2394 2395 -12 0 2956 0 2956 -2 0 2953 2955 -3 0 2953 2955 -4 0 2953 2954 4042 -5 2388 2960 2397 2391 2392 -32 0 2985 2989 -2 2394 2962 -2 2391 2397 2391 2973 -36 0 2985 2989 2394 2962 2957 2974 -39 0 2390 2392 -40 0 2390 2392 -39 0 3162 2390 2392 -40 0 2390 2392 0 2384 2385 2386 -31 0 2384 2385 2386 -2 0 2390 2958 2385 2998 2388 2997 2386 -9 0 2384 2386 0 2949 -2 0 2384 2386 -3 0 2384 2386 -4 0 2384 -3 2385 2998 2388 2997 -2 2385 2961 2959 2388 2960 2391 2959 2997 -9 2385 2998 2997 2385 4048 -2 2385 2998 2997 -3 2385 2998 2997 -4 2385 2998 -3 2388 2960 2391 2959 -2 2388 2960 -2 2391 2396 2391 2397 2959 -9 2388 2960 2959 2388 4052 -2 2388 2960 2959 -3 2388 2960 2959 -4 2388 2960 -2 2391 2398 -2 2391 2398 2391 2397 -4 2391 2396 2391 2397 2391 2398 2399 -3 2391 2399 -5 2391 2397 2399 2398 -3 2391 2396 -2 2399 2396 -2 2391 2397 -2 2398 2397 -3 2391 2398 2396 -3 2391)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -101)
+      (width 42)
+      (height 22)
+      (tiles -346 0 80 -22 0 106 107 108 -16 0 1348 -5 0 2621 -4 0 2621 -4 0 2623 2624 -5 0 109 110 111 -14 0 80 0 79 0 80 -37 0 1348 0 1349 0 1348 -37 0 2003 1719 2004 1719 2002 -37 0 79 -3 0 79 -37 0 79 -3 0 79 -37 0 1349 -3 0 1349 -37 0 79 -3 0 79 -37 0 79 -3 0 79 -37 0 79 -3 0 79 -2 0 24 -12 0 4145 4146 4147 4148 -7 0 2625 2626 -9 0 1349 -3 0 1349 -15 0 4149 4150 4151 4152 -94 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -102)
+      (width 42)
+      (height 22)
+      (tiles -4 0 2185 2186 2185 -4 2199 2186 2185 -3 2199 2200 -2 2179 2189 2188 2196 2187 2179 2197 2188 2189 2180 2189 2198 2200 2188 2198 2186 -10 0 2185 2199 2200 2198 2200 2197 2179 2189 2179 2198 2200 2188 -2 2179 2189 2181 2188 -2 2179 2187 2195 2180 2182 2184 2181 2180 2182 2184 2196 2188 2195 2190 -8 0 2185 2199 2200 2197 2189 2181 2180 2181 2189 2179 2195 2187 2196 2181 2179 2180 2196 2195 2179 2196 2179 2182 2184 2195 2190 2192 2181 2188 2190 2192 2196 2182 2183 2194 -8 0 2200 2197 2188 2179 2196 -2 2187 2195 2179 2187 -2 2181 2187 2181 2180 2189 2179 2180 2195 2187 2179 2190 2192 2181 2190 2193 2183 2184 2190 2193 2183 2194 -10 0 2189 2179 2187 2181 2179 2197 2179 2180 2187 2180 2182 2183 2184 -2 2188 2197 2195 2197 2189 2187 2180 2190 2193 2184 2190 -2 0 2193 2194 -13 0 2187 2179 2196 2189 -2 2181 2188 2195 2180 2197 2190 0 2193 2184 2196 2182 2184 2195 2189 2182 2184 2190 0 2193 2194 -17 0 2187 2182 2184 2195 2187 2195 2197 2181 2197 2182 2194 -2 0 2192 2180 2190 2192 -2 2187 2190 2192 2190 -20 0 2195 2198 2200 -2 2179 2182 2184 2197 2187 2190 -3 0 2193 2183 2194 2192 2182 2183 2194 2193 2194 -20 0 2196 2189 2188 2181 2188 2198 2200 2187 2188 2190 -6 0 2193 2194 -24 0 2182 2184 -2 2187 2196 2179 2187 -2 2181 2190 -32 0 2198 2200 2196 2197 2180 2187 2181 2179 2182 2194 -32 0 -3 2179 2181 2195 2180 2179 2182 2194 -33 0 2179 2180 2188 2195 2180 2197 2195 2190 -34 0 2180 2188 2195 2179 2195 -2 2189 2198 2186 0 2185 2186 -30 0 2181 2187 2179 2189 2181 2180 2188 2196 2198 2199 2200 2190 -30 0 2188 2196 2181 2179 2197 2179 2181 2197 2196 2197 2188 2190 -30 0 2184 2179 2187 -2 2189 2196 2181 -2 2179 2188 2179 2190 0 2185 2186 -27 0 2200 2180 -2 2179 2180 2187 -2 2180 2188 2179 2197 2198 2186 2192 2198 2186 -26 0 2187 -2 2188 2189 2197 2188 2181 2188 2196 2187 2195 2180 2198 2200 2179 2198 2186 -25 0 -3 2183 2184 2187 2181 2188 2195 -2 2181 2187 2181 2189 -2 2179 2189 2190 -28 0 2193 -12 2183 2194 -67 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -1)
+      (name "fakespikes")
+      (width 42)
+      (height 22)
+      (tiles -774 0 5400 -2 0 -2 5400 -3 0 -2 5400 -4 0 -4 5400 -24 0 5404 -2 0 -2 5404 -3 0 -2 5404 -4 0 -4 5404 -90 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 350)
+      (width 42)
+      (height 22)
+      (tiles 4213 -40 4219 4221 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4216 -40 0 4214 4217 -40 4211 4224)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (name "secret")
+      (width 42)
+      (height 22)
+      (tiles 2396 -3 2391 2396 -3 2391 2392 -33 0 2396 2391 2396 2391 2398 -2 2391 2957 2395 -33 0 2397 2391 2397 2391 2399 2397 2396 2392 -34 0 2398 2391 2398 -2 2391 2957 2394 2395 -34 0 2399 -2 2391 2397 2391 7024 -36 0 -3 2391 2399 2397 7025 -36 0 2391 2397 -3 2391 7025 -36 0 2391 2398 -3 2391 7032 7040 -35 0 2391 2399 2398 2397 -2 2398 7025 -35 0 -3 2391 -2 2398 7018 7047 -36 0 2957 2394 2962 7028 7047 -39 0 2393 2395 -457 0)
+    )
+    (torch
+      (z-pos 0)
+      (x 1120)
+      (y 224)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch2.sprite")
+      (z-pos 0)
+      (x 496)
+      (y 224)
+    )
+  )
+  (sector
+    (name "sector8")
+    (init-script "sector.temp <- 0;")
+    (ambient-light
+      (color 0.6 0.6 0.8)
+    )
+    (background
+      (scroll-offset-x 768)
+      (scroll-offset-y 160)
+      (color 0.2 0.2 0.3)
+      (speed 0)
+      (image-top "/images/background/ice_cave/ice_cave_backwall.png")
+      (image "/images/background/ice_cave/ice_cave_backwall.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_backwall.png")
+      (z-pos -299)
+    )
+    (background
+      (scroll-offset-x 320)
+      (scroll-offset-y 384)
+      (color 0.6 0.6 0.7)
+      (speed 0.02)
+      (image-top "/images/background/ice_cave/ice_cave_middle.png")
+      (image "/images/background/ice_cave/ice_cave_middle.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_middle.png")
+      (z-pos -298)
+    )
+    (background
+      (scroll-offset-x 496)
+      (scroll-offset-y 288)
+      (color 0.6 0.6 0.7)
+      (speed 0.05)
+      (image-top "/images/background/ice_cave/ice_cave_front.png")
+      (image "/images/background/ice_cave/ice_cave_front.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_front.png")
+      (z-pos -297)
+    )
+    (background
+      (color 1 1 1)
+      (alignment "bottom")
+      (speed 0)
+      (fill #t)
+      (image "/images/background/misc/vignette.png")
+      (z-pos 301)
+    )
+    (background
+      (scroll-offset-x 944)
+      (scroll-offset-y 576)
+      (color 1 1 1)
+      (scroll-speed-x -32)
+      (speed 0.5)
+      (image-top "/images/background/misc/fog.png")
+      (image "/images/background/misc/fog.png")
+      (image-bottom "/images/background/misc/fog.png")
+      (z-pos 300)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (door
+      (z-pos -1)
+      (sector "sector7")
+      (locked #f)
+      (spawnpoint "main3")
+      (x 896)
+      (y 1120)
+    )
+    (gradient
+      (top_color 0.3 0.4 0.75)
+      (bottom_color 1 1 1)
+      (z-pos -301)
+    )
+    (music
+      (file "/music/antarctic/cavetheme_alt.music")
+    )
+    (path
+      (name "gen17131107562748189556688")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 608)
+          (y 1184)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 608)
+          (y 576)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 224)
+          (y 576)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 224)
+          (y 320)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 416)
+          (y 320)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 416)
+          (y 192)
+        )
+      )
+    )
+    (path
+      (name "gen17131107942748189555568")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 416)
+          (y 1184)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 416)
+          (y 800)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 608)
+          (y 800)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 608)
+          (y 512)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 416)
+          (y 512)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 416)
+          (y 384)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 608)
+          (y 384)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 608)
+          (y 256)
+          (time 3)
+        )
+        (node
+          (x 608)
+          (y 256)
+        )
+      )
+    )
+    (path
+      (name "gen17131107962748189557808")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 224)
+          (y 1184)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 224)
+          (y 736)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 416)
+          (y 736)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 416)
+          (y 448)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 224)
+          (y 448)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 224)
+          (y 192)
+        )
+      )
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "chooser1")
+      (path-ref "gen17131107562748189556688")
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "chooser2")
+      (path-ref "gen17131107942748189555568")
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "chooser3")
+      (path-ref "gen17131107962748189557808")
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+    )
+    (scripttrigger
+      (script "fake.fade(0, 0.3);")
+      (button #f)
+      (width 736)
+      (height 32)
+      (x 192)
+      (y 832)
+    )
+    (scripttrigger
+      (script "fake.fade(1, 0.3);")
+      (button #f)
+      (width 736)
+      (height 32)
+      (x 192)
+      (y 896)
+    )
+    (spawnpoint
+      (name "main")
+      (x 904)
+      (y 1152)
+    )
+    (switch
+      (z-pos 1)
+      (direction "right")
+      (script "fake.fade(0, 0.3);
+wait(0.3);
+Camera.set_mode(\"manual\");
+sector.temp <- Camera.get_y();
+Camera.scroll_to(Camera.get_x(), 0, 5);
+wait(8);
+Camera.scroll_to(Camera.get_x(), sector.temp, 5);
+wait(5);
+Camera.set_mode(\"normal\");
+fake.fade(1, 0.3);")
+      (x 64)
+      (y 1120)
+    )
+    (switch
+      (z-pos 1)
+      (script "chooser1.goto_node(1);
+chooser1.goto_node(2);
+chooser1.goto_node(3);
+chooser1.goto_node(4);
+chooser1.goto_node(5);
+chooser1.goto_node(4);
+chooser1.goto_node(3);
+chooser1.goto_node(2);
+chooser1.goto_node(1);
+chooser1.goto_node(0);")
+      (x 672)
+      (y 1120)
+    )
+    (switch
+      (z-pos 1)
+      (script "chooser2.start_moving();")
+      (x 480)
+      (y 1120)
+    )
+    (switch
+      (z-pos 1)
+      (script "chooser3.start_moving();")
+      (x 288)
+      (y 1120)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (name "pather1")
+      (width 32)
+      (height 42)
+      (tiles -175 0 80 -31 0 1348 -31 0 79 -31 0 79 -31 0 79 -25 0 2149 -5 1719 2152 -25 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 2151 -11 1719 2150 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 1348 -106 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 32)
+      (height 42)
+      (tiles 2396 -3 2391 2396 2391 2957 -5 2394 4077 -5 2394 4077 -9 2394 2962 2398 2391 2398 2396 2391 2396 2391 2398 2957 2395 -5 0 2951 -5 0 2951 -9 0 2393 2962 2391 2398 2397 2391 2397 2391 2399 2392 -6 0 2951 -5 0 2951 -10 0 2390 -2 2391 2398 2391 2398 -2 2391 2392 -3 0 5400 -2 0 2951 -2 0 5400 -2 0 2951 -6 0 2949 -3 0 2390 -2 2391 2399 -2 2391 2397 2957 2395 -2 0 5402 62 5407 0 2951 0 5402 62 5407 0 2951 -2 0 128 -3 0 4043 2386 -2 0 2390 2398 -4 2391 2399 2392 -4 0 5405 -2 0 2952 -2 0 5405 -2 0 2951 -6 0 4061 2389 -2 0 2390 -3 2391 2397 2957 2394 2395 -13 0 2951 -6 0 2390 2392 -2 0 2390 -3 2391 2398 2392 -15 0 2951 -6 0 2393 4074 -2 0 2390 2391 2396 2391 2399 2392 -15 0 2951 -7 0 2951 -2 0 2390 2398 -3 2391 2392 -15 0 2952 -7 0 2951 -2 0 2390 -4 2391 2392 -22 0 2384 4051 -2 0 2390 -4 2391 2392 -22 0 2387 4062 -2 0 2390 2391 2397 2391 2396 2392 -22 0 2390 2392 -2 0 2390 -2 2391 2396 2398 2392 -22 0 2390 2392 -2 0 2390 -2 2391 2397 2391 2392 -22 0 2390 2392 -2 0 2390 2398 2391 2398 2391 2958 2386 -21 0 2390 2392 -2 0 2390 2398 2396 2399 2391 2959 2389 -21 0 2390 2392 -2 0 2390 -2 2391 2399 2396 2391 2392 -21 0 2390 2392 -2 0 2390 -3 2391 -2 2398 2392 -21 0 2390 2392 -2 0 2390 -5 2391 2392 -21 0 2390 2392 -2 0 2390 -4 2391 2396 2392 -21 0 2390 2392 -2 0 2390 -5 2391 2392 -21 0 2390 2392 -2 0 2390 2397 2398 2391 2398 2391 2958 2386 -19 0 2384 2961 2392 -2 0 2390 2391 2398 -2 2391 2399 2959 2389 -19 0 2387 2960 2392 -2 0 2390 -5 2391 2396 2392 -19 0 2390 2396 2392 -2 0 2390 2391 2397 -2 2396 2398 2391 2958 2386 -18 0 2390 2399 2392 -2 0 2390 2397 2391 2397 2399 -2 2391 2959 2389 -6 0 2949 -11 0 2390 2957 2395 -2 0 2390 -2 2391 2398 2391 2398 2397 2399 2958 2386 -5 0 2950 -5 0 2949 -5 0 2390 2392 -3 0 2390 2391 2397 2398 -3 2391 2399 2959 2389 -5 0 2951 -5 0 2950 -5 0 2390 2392 -3 0 2390 -2 2391 2399 2398 2399 2391 -2 2399 2392 -5 0 2951 -5 0 2951 -5 0 4073 2395 -3 0 2390 2391 2399 2391 2957 2394 2962 -2 2391 2392 -5 0 2951 -5 0 2951 -5 0 2951 -4 0 2393 2394 2962 2391 2392 0 2393 -2 2394 2395 -5 0 2952 -5 0 2952 -5 0 2952 -6 0 2390 2391 2392 -29 0 2390 2957 2395 -29 0 2390 2958 2386 -29 0 2390 2959 2389 -29 0 2390 2391 2958 2386 -28 0 2390 2396 2959 2389 -24 0 2384 2385 2386 0 2390 2397 2399 2958 -24 2385 2998 2388 2389 0 2390 2397 2391 2959 -24 2388 2960 2399 2958 2385 2961 2398 2397 2399 -2 2391 2397 2391 2397 2391 2396 2391 2396 2391 2399 2391 2397 -2 2391 2398 2391 -2 2396 -2 2391 2396 -3 2391 2397 2959 2388 2960 2399 2391 2396 2391 2398 2391 2396 -2 2391 2399 2391 2397 2399 2398 -3 2391 2397 2399 2398 -8 2391 2397 -2 2391 2397)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (name "pather2")
+      (width 32)
+      (height 42)
+      (tiles -169 0 80 -31 0 1348 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 2151 -5 1719 2150 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -25 0 2149 -5 1719 2152 -25 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 1348 -118 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (name "pather3")
+      (width 32)
+      (height 42)
+      (tiles -245 0 80 -31 0 1348 -31 0 79 -31 0 79 -31 0 79 -25 0 2149 -5 1719 2152 -25 0 79 -31 0 79 -31 0 79 -31 0 2151 -5 1719 2150 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -25 0 2149 -5 1719 2152 -25 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 79 -31 0 1348 -112 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -101)
+      (width 32)
+      (height 42)
+      (tiles -745 0 2185 2186 -27 0 2185 -2 2199 2200 2198 -4 2199 2186 -20 0 2185 2199 2200 -2 2187 2179 2196 2179 2195 2197 2189 2198 -6 2199 2186 -12 0 2185 2200 2196 2181 2180 2189 -2 2180 2196 2182 2184 2180 -2 2195 2188 2187 2188 -2 2179 2198 -3 2199 2186 -7 0 2185 2200 2189 2179 2196 2179 2189 2188 2196 2187 2198 2200 2197 2195 -2 2179 2195 2197 2195 2181 -2 2189 2180 2195 2198 -2 2199 2186 -4 0 2193 2183 2184 2180 2181 2195 2189 2182 2184 2189 2179 2180 2182 2183 2184 -2 2197 2188 2195 2187 2180 2187 2182 2184 2181 2197 2181 2198 2186 -4 0 2185 2200 2189 2197 2187 2182 2194 2193 2184 2188 2182 2194 0 2192 2197 -2 2180 2182 2183 2184 2197 2198 2200 2197 2196 2195 2188 2190 0 2185 -2 2199 2200 2187 2197 2189 2182 2194 -2 0 2192 2196 2190 -2 0 2193 2184 2195 2179 2190 0 2193 2184 2181 2179 2187 2179 2181 2188 2198 2186 2193 2184 2187 2189 2195 2180 2179 2190 -3 0 2192 2181 2190 -3 0 2192 2188 2182 2194 -2 0 2192 2181 2182 2184 2181 2182 2184 2180 2190 0 2192 2180 2188 2182 2184 2196 2190 -3 0 2193 2184 2190 -3 0 2192 2182 2194 -3 0 2192 2187 2190 2192 2182 2194 2193 2184 2190 2185 2200 2196 2182 2194 2192 2182 2194 -4 0 2193 2194 -3 0 2193 2194 -4 0 2192 2182 2194 2193 2194 -2 0 2192 2190 2192 2179 2182 2194 0 2193 2194 -16 0 2193 2194 -5 0 2192 2190 2193 2183 2194 -27 0 2192 2190 -30 0 2193 2194 -24 0 106 107 108 -9 0 2623 2624 -4 0 2621 0 2621 -6 0 2625 2626 -3 0 109 110 111 -101 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -102)
+      (width 32)
+      (height 42)
+      (tiles 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 -448 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (name "fake")
+      (width 32)
+      (height 42)
+      (tiles 2396 -3 2391 2396 -5 2391 2399 -2 2397 2391 2396 2391 2397 -2 2391 2399 2398 -4 2391 2398 2399 2396 2399 2398 2391 2398 2396 2391 2396 2391 2398 -4 2391 2399 -3 2391 2398 -2 2391 2399 2397 2398 -4 2391 2396 2398 2391 2397 2396 -3 2391 2398 2397 2391 2397 2391 2399 2397 2396 2397 2399 -4 2391 2397 2391 2396 -10 2391 2397 2398 2396 -3 2391 2398 2391 2398 -7 2391 -2 2397 2391 2397 2396 2399 2391 2396 -4 2391 -2 2397 -8 2391 2399 -2 2391 2397 -3 2391 2396 2391 2396 2391 2396 2391 -2 2398 -3 2391 2399 2391 2396 2397 -8 2391 2398 -4 2391 2399 -2 2397 2398 2391 2396 -6 2391 -2 2397 2391 2399 -6 2391 2399 2391 2399 -5 2391 2397 -5 2391 2397 -3 2391 2396 -2 2391 2396 -6 2391 2399 -2 2391 2397 2391 -2 2399 2397 -4 2391 2398 -4 2391 2398 -4 2391 2397 2391 2397 -7 2391 2398 2391 2399 -2 2391 2399 -4 2391 2396 2391 2399 2398 2397 2398 -3 2391 2398 2399 2391 2399 2398 2391 2398 2399 -2 2391 2397 2396 2399 2398 -5 2391 2398 -2 2391 2398 -8 2391 -2 2397 2399 -3 2391 2398 2396 2399 2391 2397 -2 2391 2399 2391 2397 2391 2399 2391 2396 -9 2391 2396 2391 2397 2391 2396 2399 2396 2391 2398 -2 2391 2399 2398 2391 2399 -4 2391 2399 2391 2398 -3 2391 2398 -5 2391 2397 2391 2396 -2 2391 2396 2391 2399 -6 2391 -2 2397 -2 2391 2399 2391 2399 -3 2391 2396 2397 2396 2391 2397 2391 2396 2398 2391 2396 -3 2391 2396 -5 2391 2396 2391 2397 2391 2397 2391 2398 2396 -2 2391 2398 -2 2391 2399 2391 2396 -2 2391 2396 2398 -3 2391 -2 2399 2391 2397 2396 2397 -3 2391 2398 2399 -2 2391 -2 2398 -9 2391 2398 -2 2391 2397 -2 2391 2399 2397 2396 2398 2391 -2 2399 2391 -2 2399 -13 2391 2399 -3 2391 2398 2391 2398 2391 2397 -3 2391 2397 -3 2391 2398 2397 2399 2391 2396 -6 2391 2397 2391 2399 2391 -2 2396 2391 2397 -2 2398 2396 2399 -2 2391 -2 2399 2391 2397 -2 2391 2398 2391 2396 2391 2398 2391 2398 2391 2398 2391 2398 -2 2391 2396 2398 2396 -4 2391 2397 -2 2391 2399 2396 -2 2391 2396 2391 -2 2396 2398 -5 2391 2398 2397 -2 2391 2396 2397 -3 2391 2399 2391 2399 2391 -2 2399 2398 -3 2391 -2 2398 2399 2391 2398 2397 2398 -3 2391 2396 2391 2398 2391 2398 2391 2397 2391 2398 2397 -3 2391 2397 2399 2398 2391 2399 -8 2391 2397 2398 2391 -2 2397 2391 2397 2399 -2 2391 -2 2399 -6 2391 2397 -5 2391 2397 -4 2391 2396 2391 -2 2397 2399 -13 2391 2399 2391 2399 -12 2391 2396 2391 2397 2391 2398 2399 -3 2391 2399 -5 2391 2397 2399 2398 -3 2391 2396 -2 2399 2396 -2 2391 2397 2398 2391 2398 -3 2391 2397 -2 2391 2396 -2 2391 2397 2396 2399 2397 2391 2398 -2 2391 2396 2398 2396 -3 2391 2396 2399 -2 2391 2398 2391 2398 -2 2391 -2 2399 2391 2397 2396 2398 -5 2391 2399 2391 2396 2397 2391 2396 2391 2399 2391 2399 2391 2396 -2 2391 2397 -7 2391 2396 2391 2398 2399 -3 2391 -2 2398 -4 2391 -2 2397 -3 2391 2397 2399 2397 2391 2396 2397 2396 2391 2399 2391 2397 -2 2396 2398 -11 2391 2399 2391 2399 -2 2391 2396 2397 -4 2391 2399 2391 2397 2399 2398 2397 2391 2397 2399 -2 2391 2399 2391 2397 2396 2957 -2 2394 2962 2391 2396 2957 2394 2962 2398 2391 2398 -8 2391 2396 -3 2391 2398 2391 2398 2397 2399 -2 2391 2957 2395 -2 0 2393 2962 2957 2395 0 2393 2962 -2 2391 2957 2394 2962 2399 2396 -2 2391 2396 -3 2391 2397 2398 -3 2391 2399 2396 2397 2392 -4 0 4073 2395 -3 0 2390 2391 2957 2395 0 2393 2962 -2 2391 2957 2394 2962 2399 -2 2391 2399 2398 2399 2391 -2 2399 2957 2395 -9 0 2393 4077 2395 -3 0 2393 4077 2394 2395 0 2393 2962 2391 2399 -384 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 350)
+      (width 32)
+      (height 42)
+      (tiles 4213 -30 4219 4221 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4216 -30 0 4214 4217 -30 4211 4224)
+    )
+    (torch
+      (z-pos 0)
+      (x 144)
+      (y 1152)
+    )
+  )
+  (sector
+    (name "sector9")
+    (init-script "Camera.set_scale(0.84);")
+    (ambient-light
+      (color 0.6 0.6 0.8)
+    )
+    (background
+      (scroll-offset-x 768)
+      (scroll-offset-y 160)
+      (color 0.2 0.2 0.3)
+      (speed 0)
+      (image-top "/images/background/ice_cave/ice_cave_backwall.png")
+      (image "/images/background/ice_cave/ice_cave_backwall.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_backwall.png")
+      (z-pos -299)
+    )
+    (background
+      (scroll-offset-x 320)
+      (scroll-offset-y 384)
+      (color 0.6 0.6 0.7)
+      (speed 0.02)
+      (image-top "/images/background/ice_cave/ice_cave_middle.png")
+      (image "/images/background/ice_cave/ice_cave_middle.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_middle.png")
+      (z-pos -298)
+    )
+    (background
+      (scroll-offset-x 496)
+      (scroll-offset-y 288)
+      (color 0.6 0.6 0.7)
+      (speed 0.05)
+      (image-top "/images/background/ice_cave/ice_cave_front.png")
+      (image "/images/background/ice_cave/ice_cave_front.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_front.png")
+      (z-pos -297)
+    )
+    (background
+      (color 1 1 1)
+      (alignment "bottom")
+      (speed 0)
+      (fill #t)
+      (image "/images/background/misc/vignette.png")
+      (z-pos 301)
+    )
+    (background
+      (scroll-offset-x 944)
+      (scroll-offset-y 576)
+      (color 1 1 1)
+      (scroll-speed-x -32)
+      (speed 0.5)
+      (image-top "/images/background/misc/fog.png")
+      (image "/images/background/misc/fog.png")
+      (image-bottom "/images/background/misc/fog.png")
+      (z-pos 300)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (climbable
+      (width 32)
+      (height 352)
+      (x 1504)
+      (y 224)
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17131172811373026640160")
+    )
+    (crusher
+      (z-pos 50)
+      (x 1248)
+      (y 128)
+    )
+    (crusher
+      (z-pos 50)
+      (x 1152)
+      (y 128)
+    )
+    (crusher
+      (z-pos 50)
+      (x 960)
+      (y 128)
+    )
+    (crusher
+      (z-pos 50)
+      (x 672)
+      (y 128)
+    )
+    (decal
+      (name "fake1")
+      (z-pos -50)
+      (sprite "/images/objects/trampoline/trampoline2-0.png")
+      (x 1504)
+      (y 736)
+    )
+    (decal
+      (name "fake2")
+      (z-pos -50)
+      (sprite "/images/creatures/crusher/krush_ice_hit.png")
+      (x 1056)
+      (y 128)
+    )
+    (decal
+      (name "fake3")
+      (z-pos -50)
+      (sprite "/images/creatures/crusher/krush_ice_hit.png")
+      (x 864)
+      (y 128)
+    )
+    (decal
+      (name "fake4")
+      (z-pos -50)
+      (sprite "/images/creatures/crusher/krush_ice_hit.png")
+      (x 768)
+      (y 128)
+    )
+    (door
+      (z-pos -1)
+      (sector "sector10")
+      (locked #f)
+      (spawnpoint "main")
+      (x 160)
+      (y 160)
+    )
+    (door
+      (z-pos -1)
+      (sector "sector7")
+      (locked #f)
+      (spawnpoint "main2")
+      (x 176)
+      (y 704)
+    )
+    (firefly
+      (z-pos 0)
+      (x 256)
+      (y 752)
+    )
+    (gradient
+      (top_color 0.3 0.4 0.75)
+      (bottom_color 1 1 1)
+      (z-pos -301)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 1104)
+      (y 672)
+    )
+    (mrbomb
+      (z-pos 50)
+      (x 592)
+      (y 752)
+    )
+    (music
+      (file "/music/antarctic/cavetheme_alt.music")
+    )
+    (path
+      (name "gen17131172811373026640160")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 512)
+          (y 320)
+          (bezier_after_x 480)
+          (bezier_after_y 224)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 416)
+          (y 288)
+          (bezier_before_x 448)
+          (bezier_before_y 224)
+        )
+      )
+    )
+    (spawnpoint
+      (name "main")
+      (x 184)
+      (y 736)
+    )
+    (spawnpoint
+      (name "main2")
+      (x 168)
+      (y 192)
+    )
+    (switch
+      (z-pos 1)
+      (script "fake.fade(0, 0.3);
+fake1.fade_out(0.3);
+fake2.fade_out(0.3);
+fake3.fade_out(0.3);
+fake4.fade_out(0.3);
+wait(0.3);
+fake.fade(0.2, 0.3);
+wait(0.45);
+fake.fade(0, 0.3);
+wait(0.3);
+fake.fade(1, 0.3);
+fake1.fade_in(0.3);
+fake2.fade_in(0.3);
+fake3.fade_in(0.3);
+fake4.fade_in(0.3);")
+      (x 320)
+      (y 736)
+    )
+    (switch
+      (z-pos 1)
+      (script "fake.fade(0, 0.3);
+fake1.fade_out(0.3);
+fake2.fade_out(0.3);
+fake3.fade_out(0.3);
+fake4.fade_out(0.3);
+wait(0.3);
+fake.fade(0.2, 0.3);
+wait(0.45);
+fake.fade(0, 0.3);
+wait(0.3);
+fake.fade(1, 0.3);
+fake1.fade_in(0.3);
+fake2.fade_in(0.3);
+fake3.fade_in(0.3);
+fake4.fade_in(0.3);")
+      (x 1344)
+      (y 384)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (name "fake")
+      (width 54)
+      (height 30)
+      (tiles -266 0 4336 -53 0 3060 -53 0 3060 -53 0 3060 -53 0 3060 -53 0 3060 -53 0 3060 -53 0 3060 -53 0 3060 -24 0 -2 5400 -7 0 -2 5400 -4 0 -2 5400 0 -2 5400 -9 0 3060 -53 0 3060 -53 0 3060 -53 0 3060 -53 0 3060 -53 0 3061 -243 0 2384 2386 -14 0 2949 -37 0 2953 2955 -14 0 2956 -60 0 47 -222 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (name "secret")
+      (width 54)
+      (height 30)
+      (tiles -1620 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 54)
+      (height 30)
+      (tiles 2396 -3 2391 2396 -5 2391 2399 2397 2973 -8 0 2384 2961 -2 2391 2398 2399 2396 2399 2398 2391 2398 2399 2398 2391 2398 -3 2391 2398 -2 2391 2398 -2 2391 2397 -5 2391 2396 2391 2399 2396 2391 2396 2391 2398 -4 2391 2399 2957 2394 2974 -8 0 2387 2960 2396 2398 2391 2397 2396 -3 2391 2398 -3 2391 2398 2391 2396 2398 -4 2391 -3 2399 -3 2391 2398 -4 2391 2397 2391 2397 2957 -5 2394 2993 2996 -9 0 2384 2961 -4 2391 2397 2398 2396 -3 2391 2396 2399 -2 2391 2398 -3 2391 2398 -2 2391 2397 -2 2391 2398 -2 2391 -2 2398 2399 2391 -2 2398 2391 2957 2395 -16 0 4045 4075 2394 4077 -2 2394 4077 -2 2394 4077 -2 2394 4077 -2 2394 4077 -2 2394 4077 -2 2394 2962 2391 2399 -3 2391 2957 -2 2394 2962 2391 -3 2399 2391 2392 -17 0 2952 -2 0 2951 -2 0 2951 -2 0 2951 -2 0 2951 -2 0 2951 -2 0 2951 -2 0 2390 2957 -2 2394 2962 2397 2392 -2 0 2393 2394 2962 -3 2391 2392 -20 0 2952 -2 0 2952 -2 0 2952 -2 0 2952 -2 0 2952 -2 0 2952 -2 0 2393 2395 -2 0 2390 2397 2392 -4 0 2390 -2 2391 2397 2958 2386 -41 0 2393 2394 2395 -2 0 44 0 2393 2962 2391 2398 2959 2997 -4 2385 6980 6981 -43 0 2390 2391 2399 2398 2959 -4 2388 6984 6985 7054 -42 0 2390 -7 2391 -2 2397 2992 5640 -42 0 2390 -4 2391 2396 2391 2397 2391 2396 2399 2392 -39 0 44 -2 0 2390 -3 2391 2397 2391 2396 -2 2391 2396 2391 2392 -2 0 47 -39 0 2390 2391 2396 2398 2391 2396 -3 2391 2396 2391 2392 -5 0 47 -27 0 2384 2386 -7 0 2390 2396 2398 -3 2391 -2 2399 2391 2397 2396 2392 -8 0 2384 -24 2385 2998 2389 -7 0 2390 2397 -2 2391 2399 2397 2396 2398 2391 -2 2399 2392 -8 0 2953 -7 2954 4042 -16 2388 2960 2392 -4 0 44 -2 0 2390 2398 2391 2397 -3 2391 2397 -3 2391 2392 -16 0 2985 2989 -9 2394 2962 2391 2397 2399 2391 2398 2957 2395 -7 0 2390 2399 -2 2391 -2 2399 2391 2397 -2 2391 2398 2973 -27 0 2985 2989 2962 2396 -2 2391 2973 -8 0 2390 2399 2396 -2 2391 2396 2391 -2 2396 2398 2957 2974 -29 0 2978 2962 2398 2957 2974 -5 0 44 -2 0 2390 2391 -2 2398 2399 2957 -3 2394 2993 2996 -31 0 2393 2394 2395 -9 0 2390 -2 2391 2957 2993 2996 -48 0 2390 2391 2957 2982 -21 0 44 -28 0 2390 2391 2392 -38 0 44 -12 0 2390 2391 2392 -26 0 44 -8 0 44 -14 0 2963 2961 2391 2392 -19 0 44 -7 0 2384 2386 -12 0 44 -8 0 2964 2960 2391 2958 -9 2385 2386 -5 0 2384 -2 2385 2386 -8 0 2953 2955 -2 0 2384 -2 2385 2386 -6 0 2384 2385 2386 -6 0 5636 2391 2396 2959 -9 2388 2389 -5 0 2953 -2 2954 2955 -12 0 2953 -2 2954 2955 -6 0 2387 2388 2389 -4 0 47 0 5684 -2 2397 2399 -2 2391 2399 2391 2397 2396 2399 2396 2957 2395 -31 0 2393 2962 2958 2386 -5 0 2390 2391 2398 2391 2398 2397 2399 -3 2391 2399 2957 2395 -33 0 2390 2959 2997 2386 -3 0 2384 2961 2391 2398 -3 2391 2399 2396 2397 2957 2394 2395 -34 0 2390 2391 2959 2997 -3 2385 2998 2960 2397 2399 2398 2399 2391 -2 2399 2391 2392 -36 0 2390 2391 2396 2959 -3 2388 2960 2397 2396)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos -1)
+      (name "spikes")
+      (width 54)
+      (height 30)
+      (tiles -210 0 -2 5401 -52 0 -2 5405 -2 5401 -52 0 -2 5405 -49 0 4336 -4 0 5401 -48 0 3060 -4 0 5405 -48 0 3060 -53 0 3060 -53 0 3060 -53 0 3060 -53 0 3060 -30 0 -2 5400 0 -2 5400 -4 0 -2 5400 -12 0 3060 -30 0 -2 5404 0 -2 5404 -4 0 -2 5404 -12 0 3060 -53 0 3060 -53 0 3060 -53 0 3061 -484 0 5400 -53 0 5404 5400 -3 0 5400 -49 0 5404 -3 5400 5404 -50 0 -3 5404 -3 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -102)
+      (width 54)
+      (height 30)
+      (tiles -3 0 2185 -3 2199 2186 2185 2200 2190 -16 0 2192 2190 -27 0 2185 2200 2188 2179 2197 2198 2200 2189 2190 -16 0 2192 2190 -2 0 2185 -2 2199 2186 -21 0 2192 2197 2189 2181 2180 2181 2189 2179 2190 -11 0 2185 -4 2199 2200 2190 2185 2199 2200 2180 2189 2198 2199 2186 -18 0 2185 2200 2179 2196 -2 2187 2195 2179 2182 2194 -10 0 2185 2200 2181 2196 2197 2187 2197 2198 2200 2197 2179 2197 2189 2197 2182 2194 -18 0 2192 2187 2181 2179 2197 2179 2180 2187 2190 -11 0 2193 2184 2179 2196 -2 2179 2187 2196 2195 2188 2195 2197 2196 2182 2194 -19 0 2192 2196 2189 -2 2181 2188 2195 2180 2190 -12 0 2192 2179 2197 2189 2187 2189 2197 -2 2179 2195 2179 2182 2194 -20 0 2192 2197 2195 2187 2195 2197 2181 2197 2190 -12 0 2193 -2 2183 2184 -2 2189 2181 2195 2197 2196 2182 2194 -21 0 2193 2184 -3 2179 2188 2197 2187 2198 2186 -14 0 2193 2183 2184 2196 2187 2179 2182 2194 -23 0 2192 2182 -3 2183 2184 2188 2189 2190 -16 0 2192 -2 2187 2188 2190 -24 0 2193 2194 -3 0 2193 2183 2184 2190 -15 0 2185 2200 2187 2197 2179 2190 -31 0 2193 2194 -15 0 2192 2179 2197 2188 2182 2194 -47 0 2185 2200 2180 2181 2180 2190 -46 0 2185 2199 2200 2196 2189 2179 2180 2198 2199 2186 -43 0 2185 2200 2179 2195 -2 2179 2196 2188 2195 2196 2198 2199 2186 -41 0 2193 2184 2179 2197 2189 -2 2197 2196 2182 2184 2180 2181 2198 2186 -41 0 2193 2184 -2 2180 2196 2181 2188 2198 2200 2197 2188 2196 2190 -23 0 2185 -3 2199 2186 -14 0 2193 2184 -2 2179 2196 2181 2195 -2 2196 2182 2183 2194 -22 0 2185 2200 -2 2180 2188 2190 -15 0 2193 2184 -2 2189 2188 2182 -2 2183 2194 -22 0 2185 2199 2200 2188 2181 2188 2182 2194 -16 0 2193 2184 2189 2196 2190 -24 0 2185 2200 2179 2187 2181 2188 2182 2194 -18 0 2192 2195 2181 2198 2186 -23 0 2192 2180 2187 2181 2182 2183 2194 -19 0 2192 -2 2179 2197 2190 -23 0 2192 2187 2180 2182 2194 -20 0 2185 2200 2195 2179 2181 2190 -23 0 2192 2179 2197 2190 -4 0 2185 2199 2186 -14 0 2192 2195 2187 2188 2179 2190 -22 0 2185 2200 -2 2189 2198 -2 2199 2186 2185 2200 2179 2190 -13 0 2185 2200 2181 2195 2196 2182 2194 -22 0 2192 -2 2197 2180 2195 2188 2189 2198 2200 2197 2188 2190 -13 0 2192 2181 2180 2197 2182 2194 -23 0 2193 2184 2182 2183 2184 2187 2197 -2 2187 2182 2183 2194 -13 0 2192 2179 2181 2189 2198 2186 -24 0 2193 2194 0 2193 -4 2183 2194 -15 0 2192 2197 2187 2180 2187 2190 -48 0 2192 2182 2184 2179 2197 2198 2186 -47 0 2193 2194 2193 2184 2189 2195 2198 2186 -49 0 2192 2188 2179 2189 2190 -21 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -101)
+      (width 54)
+      (height 30)
+      (tiles -385 0 2621 -306 0 2623 2624 -34 0 2621 -5 0 2622 -509 0 106 107 108 -35 0 24 -15 0 109 110 111 -14 0 2621 -14 0 2622 -10 0 2622 -163 0 4145 4146 4147 4148 -50 0 4149 4150 4151 4152 -57 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -103)
+      (width 54)
+      (height 30)
+      (tiles -29 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 -29 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 -29 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 -29 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 -29 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 -29 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 -29 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 -29 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 -29 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 -29 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 -29 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 -29 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 -29 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 -29 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 -29 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 -29 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 -29 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 -29 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 -29 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 -29 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 -29 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 -29 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 -29 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 -29 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 -29 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 -29 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 -29 0 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 3550 3551 3552 3549 -29 0 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 3554 3555 3556 3553 -29 0 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 3542 3543 3544 3541 -29 0 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545 3546 3547 3548 3545)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch2.sprite")
+      (z-pos 0)
+      (x 1104)
+      (y 704)
+    )
+    (torch
+      (z-pos 0)
+      (x 592)
+      (y 704)
+    )
+    (torch
+      (z-pos -102)
+      (x 1440)
+      (y 288)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch2.sprite")
+      (z-pos 0)
+      (x 608)
+      (y 352)
+    )
+    (torch
+      (z-pos 0)
+      (x 288)
+      (y 160)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch4.sprite")
+      (z-pos 0)
+      (x 1552)
+      (y 656)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 1600)
+      (y 768)
+    )
+  )
+  (sector
+    (name "sector10")
+    (ambient-light
+      (color 0.6 0.6 0.8)
+    )
+    (background
+      (scroll-offset-y 650)
+      (color 1 1 1)
+      (speed 0)
+      (speed-y 1)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/misc/black_800px.png")
+      (z-pos 400)
+    )
+    (background
+      (scroll-offset-y -650)
+      (color 1 1 1)
+      (speed 0)
+      (speed-y 1)
+      (image "/images/background/misc/black_800px.png")
+      (image-bottom "/images/background/misc/transparent_up.png")
+      (z-pos 401)
+    )
+    (background
+      (scroll-offset-x 768)
+      (scroll-offset-y 160)
+      (color 0.2 0.2 0.3)
+      (speed 0)
+      (image-top "/images/background/ice_cave/ice_cave_backwall.png")
+      (image "/images/background/ice_cave/ice_cave_backwall.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_backwall.png")
+      (z-pos -299)
+    )
+    (background
+      (scroll-offset-x 320)
+      (scroll-offset-y 384)
+      (color 0.6 0.6 0.7)
+      (speed 0.02)
+      (image-top "/images/background/ice_cave/ice_cave_middle.png")
+      (image "/images/background/ice_cave/ice_cave_middle.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_middle.png")
+      (z-pos -298)
+    )
+    (background
+      (scroll-offset-x 496)
+      (scroll-offset-y 288)
+      (color 0.6 0.6 0.7)
+      (speed 0.05)
+      (image-top "/images/background/ice_cave/ice_cave_front.png")
+      (image "/images/background/ice_cave/ice_cave_front.png")
+      (image-bottom "/images/background/ice_cave/ice_cave_front.png")
+      (z-pos -297)
+    )
+    (background
+      (color 1 1 1)
+      (alignment "bottom")
+      (speed 0)
+      (fill #t)
+      (image "/images/background/misc/vignette.png")
+      (z-pos 301)
+    )
+    (background
+      (scroll-offset-x 944)
+      (scroll-offset-y 576)
+      (color 1 1 1)
+      (scroll-speed-x -32)
+      (speed 0.5)
+      (image-top "/images/background/misc/fog.png")
+      (image "/images/background/misc/fog.png")
+      (image-bottom "/images/background/misc/fog.png")
+      (z-pos 300)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17131510862230300490592")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17131510862230300490592")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17131510862230300490592")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17131510862230300490592")
+    )
+    (decal
+      (name "fake1")
+      (z-pos -50)
+      (sprite "/images/objects/unstable_tile/snow-3.png")
+      (x 544)
+      (y 384)
+    )
+    (decal
+      (name "fake2")
+      (z-pos -50)
+      (sprite "/images/objects/unstable_tile/snow-3.png")
+      (x 576)
+      (y 384)
+    )
+    (decal
+      (name "fake3")
+      (z-pos -50)
+      (sprite "/images/objects/unstable_tile/snow-3.png")
+      (x 608)
+      (y 384)
+    )
+    (decal
+      (name "fake4")
+      (z-pos -50)
+      (sprite "/images/objects/unstable_tile/snow-3.png")
+      (x 832)
+      (y 384)
+    )
+    (decal
+      (name "fake5")
+      (z-pos -50)
+      (sprite "/images/objects/unstable_tile/snow-3.png")
+      (x 864)
+      (y 384)
+    )
+    (decal
+      (name "fake6")
+      (z-pos -50)
+      (sprite "/images/objects/unstable_tile/snow-3.png")
+      (x 1088)
+      (y 384)
+    )
+    (decal
+      (name "fake7")
+      (z-pos -50)
+      (sprite "/images/objects/unstable_tile/snow-3.png")
+      (x 1312)
+      (y 384)
+    )
+    (decal
+      (name "fake8")
+      (z-pos -50)
+      (sprite "/images/objects/unstable_tile/snow-3.png")
+      (x 1472)
+      (y 384)
+    )
+    (decal
+      (name "fake9")
+      (z-pos -50)
+      (sprite "/images/objects/unstable_tile/snow-3.png")
+      (x 1664)
+      (y 384)
+    )
+    (door
+      (z-pos -1)
+      (sector "sector9")
+      (locked #f)
+      (spawnpoint "main2")
+      (x 64)
+      (y 256)
+    )
+    (gradient
+      (top_color 0.3 0.4 0.75)
+      (bottom_color 1 1 1)
+      (z-pos -301)
+    )
+    (music
+      (file "/music/antarctic/cavetheme_alt.music")
+    )
+    (path
+      (name "gen17131510862230300490592")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 2240)
+          (y 320)
+        )
+        (node
+          (x 2304)
+          (y 256)
+        )
+        (node
+          (x 2240)
+          (y 192)
+        )
+        (node
+          (x 2176)
+          (y 256)
+        )
+      )
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 288)
+      (x 2464)
+      (y 96)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 224)
+      (x 3168)
+      (y 128)
+    )
+    (spawnpoint
+      (name "main")
+      (x 72)
+      (y 288)
+    )
+    (switch
+      (z-pos 1)
+      (script "fake1.fade_out(0.3);
+fake2.fade_out(0.3);
+fake3.fade_out(0.3);
+fake4.fade_out(0.3);
+fake5.fade_out(0.3);
+fake6.fade_out(0.3);
+fake7.fade_out(0.3);
+fake8.fade_out(0.3);
+fake9.fade_out(0.3);
+wait(0.5);
+fake1.fade_in(0.3);
+fake2.fade_in(0.3);
+fake3.fade_in(0.3);
+fake4.fade_in(0.3);
+fake5.fade_in(0.3);
+fake6.fade_in(0.3);
+fake7.fade_in(0.3);
+fake8.fade_in(0.3);
+fake9.fade_in(0.3);")
+      (x 320)
+      (y 288)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (width 100)
+      (height 22)
+      (tiles -9 0 2185 -2 2199 2186 -61 0 2192 2196 2198 2186 0 2185 2186 -20 0 2185 -7 2199 2200 2179 2197 2198 -5 2199 2186 -55 0 2193 2183 2184 2198 2199 2200 2198 2186 -4 0 2185 -8 2199 2186 -4 0 2199 2200 2181 2197 2189 2181 2180 2181 2189 2179 2195 2187 2196 2181 2182 -3 2183 2194 -57 0 2192 2195 2196 2195 2189 2190 -2 0 2185 2199 2200 2179 2195 2181 2179 -2 2197 2179 2189 2198 2186 -3 0 2188 2197 2188 2179 2196 -2 2187 2195 2179 2187 2181 2182 -2 2183 2194 -61 0 2193 2183 2184 2195 2179 2198 -2 2199 2200 2179 2181 2189 2195 2179 2189 2179 2197 2196 2197 2180 2198 2186 -2 0 2189 2179 2187 2181 2179 2197 2179 2180 2187 2180 2182 2194 -64 0 130 0 2193 2183 2184 2188 2181 2179 2197 2196 2187 -3 2189 2195 2179 2189 2180 2179 2180 2189 2198 2186 0 2187 2179 2196 2189 -2 2181 2188 2182 2184 2197 2190 -65 0 129 -3 0 2192 2197 2189 2179 2189 2179 2187 2180 2197 2195 2187 2195 2197 2181 2179 2196 2179 2189 2190 0 2187 2181 2197 2195 2187 2182 2183 2194 2192 2195 2190 -65 0 129 -2 0 2185 2200 2179 2181 2187 2196 2179 2181 2187 2179 2189 2180 -2 2179 2180 2187 2181 2180 2189 2190 0 2195 2188 -3 2179 2190 -2 0 2193 2184 2190 -65 0 129 -2 0 2193 2184 -2 2197 2196 2182 2184 2187 2195 2196 2179 2189 2179 -2 2196 2179 2188 -2 2180 2190 0 2196 2189 2188 2181 2182 2194 -3 0 2192 2198 2186 -64 0 129 -2 0 2185 2200 2188 2182 2183 2194 2193 2183 2184 -2 2181 2189 2196 2181 -2 2179 2181 2197 2195 2190 0 2197 2195 -2 2187 2190 4137 4138 4139 4140 2192 2179 2190 -64 0 129 -2 0 2192 2179 2189 2190 -4 0 2192 2189 -2 2180 2181 2187 2179 2197 2179 2181 2179 2190 0 2179 2197 2196 2197 2190 4141 4142 4143 4144 2192 2180 2190 -64 0 129 -2 0 2192 2179 2180 2190 0 2621 0 24 2192 2181 2197 2187 2189 2187 2197 2189 2188 2189 2182 2194 0 -2 2179 2182 2184 2190 -4 0 2193 2183 2194 -57 0 2621 0 5203 5204 -3 0 4967 -2 0 2192 2196 2182 2194 -4 0 2193 2184 2180 2195 2188 2180 2188 2196 -2 2189 2190 -2 0 2183 2184 2190 2193 2194 -74 0 2192 2179 2190 -6 0 2193 -3 2183 2184 2187 2182 -2 2183 2194 -3 0 2193 2194 -76 0 2193 2184 2190 -10 0 2193 2183 2194 -85 0 2193 2194 -718 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 100)
+      (height 22)
+      (tiles 2396 -3 2391 2396 -5 2391 2399 -2 2397 2391 2396 2391 2397 -2 2391 2399 2957 -5 2394 2993 2996 -47 0 2968 2962 -2 2391 2399 2391 2398 -3 2391 2396 2397 2399 -2 2391 2396 2391 2396 -3 2391 2396 -3 2391 2396 2391 2396 2391 2398 2391 2957 -12 2394 2993 2996 -55 0 2978 2962 2391 2397 -2 2399 2398 2397 -3 2391 2399 2397 2396 2397 2398 -8 2391 -5 2394 2993 2996 -70 0 2978 -2 2394 2962 -4 2391 2396 2957 -7 2394 2962 -3 2391 2398 2391 -80 0 2985 2989 -3 2394 2993 2996 -7 0 2985 2989 2394 2962 2391 2398 -97 0 2390 2396 2399 -97 0 2393 -2 2394 -152 0 44 -96 0 44 -5 0 44 -62 0 44 -81 0 -11 2385 2386 -4 0 44 -3 0 44 -4 0 44 -2 0 44 -4 0 44 0 44 -4 0 44 -6 0 44 -9 0 44 -24 0 6978 6979 -16 2385 -9 2388 4041 2954 2955 -56 0 2384 -11 2385 6988 6989 6982 6983 -16 2388 2391 2396 2398 2391 2396 -2 2391 2957 2993 2996 -58 0 2953 2954 4042 -9 2388 6992 6993 2988 -3 2391 2398 2396 2391 2396 2399 -4 2391 2398 2396 2398 -2 2391 2396 2398 -3 2391 2399 2957 2982 -62 0 2985 2989 2962 2398 2397 -3 2391 2398 -2 2391 2396 2398 -2 2391 2397 2391 2397 -3 2391 2397 -8 2391 2397 -2 2391 2399 2957 2993 2996 -65 0 2978 2962 2399 2391 2396 2398 -2 2399 -5 2398 -4 2391 2397 2396 2397 2391 2396 2391 2397 -4 2391 2398 2391 2957 2993 2996 -68 0 2967 2398 -2 2399 2397 -3 2391 2397 -3 2391 -2 2399 -2 2391 2398 -2 2391 2396 2391 -2 2398 -3 2391 2397 2399 2957 2982 -70 0 2968 2962 2391 2397 2391 2398 2391 2398 2391 2397 2391 2398 -4 2391 2396 2391 -2 2399 2391 -2 2397 2399 -2 2396 2391 2399 2392 -72 0 2985 2989 2962 2391 2397 -3 2391 2396 2399 2391 2397 -6 2391 2399 -4 2391 2399 2398 -2 2391 2392 -74 0 2978 2962 -7 2391 2397 2391 2396 -3 2391 2399 -2 2396 2399 -2 2396 2391 2398 -2 2391 2392 -75 0 2978 2962 2391 2398 2396 -5 2391 2399 -5 2391 2399 2391 2396 2391 2398 2396 2398 2391 2958 2386 -75 0 2967 2396 2391 2396 2391 2399 2396 2391 2396 2398 2391 2398 2397 2398 2391 2399 -7 2391 2959 2389 -75 0 2968 2397 -2 2391 2397 2391 2397 -3 2391 2396 2391 -2 2398 2391 -2 2397 2391 2397 2398 -2 2391)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -6)
+      (name "exitbg1")
+      (width 100)
+      (height 22)
+      (tiles -693 0 -2 211 -98 0 -2 212 -98 0 -2 212 0 2035 -96 0 -2 212 -3 0 2035 -94 0 -2 213 -3 0 2035 -1101 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -5)
+      (name "exitbgfg")
+      (width 100)
+      (height 22)
+      (tiles -593 0 27 -4 28 29 -94 0 4214 -5 2035 -94 0 4214 -5 2035 -94 0 4214 -5 2035 -94 0 4214 -5 2035 -94 0 4214 -5 2035 -1101 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (width 100)
+      (height 22)
+      (tiles -478 0 130 -99 0 129 -18 0 2390 -2 2391 -78 0 129 -18 0 2390 -2 2391 -78 0 129 -18 0 2390 2391 2397 -78 0 129 -18 0 2390 2391 2399 -78 0 129 -18 0 2390 2391 2398 -78 0 129 -18 0 2961 -2 2391 -78 0 4967 -18 0 2960 2399 2391 -1000 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 350)
+      (width 100)
+      (height 22)
+      (tiles 4213 -98 4219 4221 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4216 -98 0 4214 4217 -98 4211 4224)
+    )
+    (torch
+      (z-pos 0)
+      (x 368)
+      (y 256)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch2.sprite")
+      (z-pos 0)
+      (x 2160)
+      (y 288)
+    )
+    (torch
+      (sprite "/images/objects/torch/torch2.sprite")
+      (z-pos 0)
+      (x 2816)
+      (y 256)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 512)
+      (y 384)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 640)
+      (y 384)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 800)
+      (y 384)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 896)
+      (y 384)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 1056)
+      (y 384)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 1120)
+      (y 384)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 1280)
+      (y 384)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 1504)
+      (y 384)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 1824)
+      (y 384)
+    )
+  )
+)

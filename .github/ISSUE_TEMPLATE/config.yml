@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Create a Discussion
+    url: https://github.com/SuperTux/supertux/discussions/new/choose
+    about: If you're looking for something else, create a Discussion, assuming this hasn't been reported there before.

@@ -1,0 +1,75 @@
+(supertux-sprite
+  (action
+    (name "swim-left")
+    (hitbox 8 10 46 46)
+    (fps 12)
+    (images "swim_green-0.png"
+            "swim_green-1.png"
+            "swim_green-2.png"
+            "swim_green-3.png"
+            "swim_green-4.png"
+            "swim_green-5.png"
+            "swim_green-6.png"
+            "swim_green-7.png"))
+
+  (action
+    (name "swim-right")
+    (hitbox 10 10 46 46)
+    (fps 12)
+    (mirror-action "swim-left"))
+
+  (action
+    (name "notice-left")
+    (hitbox 8 10 46 46)
+    (loops 1)
+    (fps 12)
+    (images "swim_green-0.png"
+            "notice_green-0.png"
+            "notice_green-1.png"
+            "notice_green-2.png"))
+
+  (action
+    (name "notice-right")
+    (hitbox 10 10 46 46)
+    (loops 1)
+    (fps 12)
+    (mirror-action "notice-left"))
+
+  (action
+    (name "chase-left")
+    (hitbox 5 10 46 46)
+    (fps 20)
+    (images "chase_green-0.png"
+            "chase_green-1.png"
+            "chase_green-2.png"
+            "chase_green-3.png"
+            "chase_green-4.png"
+            "chase_green-5.png"))
+
+  (action
+    (name "chase-right")
+    (hitbox 10 10 46 46)
+    (fps 20)
+    (mirror-action "chase-left"))
+
+  (action
+    (name "iced-left")
+    (hitbox 0 0 64 64)
+    (images "swim_green-0.png"))
+
+  (action
+    (name "iced-right")
+    (hitbox 0 0 64 64)
+    (mirror-action "iced-left"))
+
+  (action
+    (hitbox 10 10 46 46)
+    (name "burning-left")
+    (images "swim_green-0.png"))
+
+  (action
+    (hitbox 8 10 46 46)
+    (name "burning-right")
+    (mirror-action "burning-left"))
+
+)

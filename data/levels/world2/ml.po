@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Adharsh P S <adharshps01@gmail.com>, 2019
+# Adithyan S S <AssG.Fight.Fairy@gmail.com>, 2020
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2013-08-10 23:00+0000\n"
+"Last-Translator: Adithyan S S <AssG.Fight.Fairy@gmail.com>, 2020\n"
+"Language-Team: Malayalam (http://app.transifex.com/arctic-games/supertux/language/ml/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ml\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/levels/world2/ancient_ruins.stl:3
+msgid "Ancient Ruins"
+msgstr "പുരാതന അവശിഷ്ടങ്ങൾ"
+
+#: data/levels/world2/ancient_ruins.stl:1463
+#: data/levels/world2/ancient_ruins.stl:1471
+#: data/levels/world2/bouncy_coils.stl:380
+#: data/levels/world2/bouncy_coils.stl:388
+#: data/levels/world2/bye_bye_forest.stl:1607
+#: data/levels/world2/crumbling_path.stl:278
+#: data/levels/world2/crumbling_path.stl:1651
+#: data/levels/world2/going_underground.stl:246
+#: data/levels/world2/going_underground.stl:1249
+#: data/levels/world2/mouldy_grotto.stl:559
+#: data/levels/world2/penguin_grow_trees.stl:459
+#: data/levels/world2/penguin_grow_trees.stl:467
+#: data/levels/world2/through_dark.stl:361
+#: data/levels/world2/tux_builder.stl:384
+#: data/levels/world2/wooden_roots.stl:285
+#: data/levels/world2/worldmap.stwm:223
+msgid "You found a secret area!"
+msgstr "നിങ്ങൾ ഒരു സ്വകാര്യ സ്ഥലം കണ്ടുപിടിച്ചിരിക്കുന്നു !"
+
+#: data/levels/world2/beside_bushes.stl:3
+msgid "Beside the Bushes"
+msgstr "കുറ്റിക്കാടുകൾക്കുമറവിൽ"
+
+#: data/levels/world2/bouncy_coils.stl:3
+msgid "Bouncy Coils"
+msgstr ""
+
+#: data/levels/world2/bye_bye_forest.stl:3
+msgid "Bye Bye Forest"
+msgstr "കാടിന് വിട"
+
+#: data/levels/world2/crumbling_path.stl:3
+msgid "Crumbling Path"
+msgstr "തകർന്നുകൊണ്ടിരിക്കുന്ന പാത"
+
+#: data/levels/world2/darkness_awaits.stl:3
+msgid "Darkness Awaits"
+msgstr "ഇരുട്ട് കാത്തിരിക്കുന്നു"
+
+#: data/levels/world2/find_big_fish.stl:3
+msgid "Find the Bigger Fish!"
+msgstr "വലിയ മത്സത്തെ കണ്ടുപിടിക്കുക!"
+
+#: data/levels/world2/find_big_fish.stl:1058
+msgid "-A big fish... for you."
+msgstr "-ഒരു വലിയ മത്സ്യം... നിനക്കു വേണ്ടി"
+
+#: data/levels/world2/forest_intro.stl:3
+msgid "A New Location"
+msgstr "ഒരു പുതിയ സ്ഥലം"
+
+#: data/levels/world2/ghost_cutscene.stl:3
+msgid "What is Happening?"
+msgstr "എന്താണ് സംഭവിക്കുന്നത് ?"
+
+#: data/levels/world2/ghostly_misery.stl:3
+msgid "Ghostly Misery"
+msgstr "പ്രേത ദുരിതം"
+
+#: data/levels/world2/ghosttrees_challenges.stl:3
+msgid "Ghosttree's Challenges"
+msgstr "ഗോസ്റ്റ്ട്രീയുടെ വെല്ലുവിളികൾ"
+
+#: data/levels/world2/ghouls_lair.stl:3
+msgid "Ghouls' Lair"
+msgstr "ഗൗളിന്റെ നുണയൻ"
+
+#: data/levels/world2/ghouls_lair.stl:859
+msgid ""
+"#Lanterns are used to make magic blocks solid, so you're able to walk atop "
+"of them."
+msgstr "#മാജിക് ബ്ലോക്കുകളെ സോളിഡാക്കാൻ വിളക്കുകൾ ഉപയോഗിക്കുന്നു, അതിനാൽ നിങ്ങൾക്ക് അവയുടെ മുകളിൽ നടക്കാൻ കഴിയും."
+
+#: data/levels/world2/going_underground.stl:3
+msgid "Going Underground"
+msgstr "ഭൂമിക്കടിയിൽ"
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:3
+msgid "I Spy With My Little Eye"
+msgstr "ഞാൻ എന്റെ ചെറിയ കണ്ണുകൊണ്ട് ചാരപ്പണി ചെയ്യുന്നു"
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:218
+msgid ""
+"-Ispy\n"
+"#Ispys will activate things like platforms whenever Tux is in their sight."
+msgstr "-ഇസ്പി\n#ടക്സിനെ കാണുമ്പോഴെല്ലാം പ്ലാറ്റ്ഫോമുകൾ പോലുള്ള കാര്യങ്ങൾ ഇസ്പികൾ സജീവമാക്കും."
+
+#: data/levels/world2/i_spy_with_my_little_eye.stl:674
+msgid "Hint: Use snails to break blocks!"
+msgstr "സൂചന: ബ്ലോക്കുകൾ തകർക്കാൻ ഒച്ചുകൾ ഉപയോഗിക്കുക!"
+
+#: data/levels/world2/leaf_wind.stl:3
+msgid "Like a leaf in the Wind"
+msgstr "കാറ്റിലെ ഒരു ഇല പോലെ"
+
+#: data/levels/world2/lost_village.stl:3
+msgid "Lost Village"
+msgstr "നഷ്ടപ്പെട്ട ഗ്രാമം"
+
+#: data/levels/world2/lost_village.stl:185
+msgid "#Don't forget to hit the switch!"
+msgstr "#സ്വിച്ച് അമർത്താൻ മറക്കരുത് !"
+
+#: data/levels/world2/mouldy_grotto.stl:3
+msgid "A Mouldy Grotto"
+msgstr "ഒരു പൂപ്പൽ ഗുഹ"
+
+#: data/levels/world2/owls_again.stl:3
+msgid "The Owls again..."
+msgstr "മൂങ്ങകൾ വീണ്ടും..."
+
+#: data/levels/world2/owls_skydive_commando.stl:3
+msgid "Owls' Skydive Commando"
+msgstr "മൂങ്ങകളുടെ വ്യോമസേന"
+
+#: data/levels/world2/penguin_grow_trees.stl:3
+msgid "Penguins don't grow on Trees"
+msgstr "പെൻഗ്വിനുകൾ മരങ്ങളിൽ വളരുന്നില്ല"
+
+#: data/levels/world2/shocking.stl:3
+msgid "Shocking"
+msgstr "ഭീതിജനകം"
+
+#: data/levels/world2/the_forest_is_rotting.stl:3
+msgid "The Forest Is Rotting"
+msgstr "കാട് ചീഞ്ഞു പോകുന്നു"
+
+#: data/levels/world2/through_dark.stl:3
+msgid "Through the Dark"
+msgstr "ഇരുട്ടിലൂടെ"
+
+#: data/levels/world2/through_dark.stl:96
+msgid ""
+"-Earth Flower\n"
+"!images/powerups/earthflower/earth_flower-1.png\n"
+"#The earth flower gives Tux the ability to turn into stone by pressing the ACTION Key and the DOWN Key at the same time.\n"
+"#This does not work while jumping or falling!"
+msgstr "-എർത്ത് ഫ്ലവർ\n!images/powerups/earthflower/earth_flower-1.png\n#ഒരേ സമയം ACTION കീയും DOWN കീയും അമർത്തി കല്ലായി മാറാനുള്ള കഴിവ് എർത്ത് ഫ്ലവർ നൽകുന്നു.\n#ചാടുമ്പോഴും വീഴുമ്പോഴും ഇത് പ്രവർത്തിക്കുന്നില്ല!"
+
+#: data/levels/world2/tower_of_ghosts.stl:3
+msgid "Tower Of Ghosts"
+msgstr "പ്രേതങ്ങളുടെ ഗോപുരം"
+
+#: data/levels/world2/tux_builder.stl:3
+msgid "Tux the Builder"
+msgstr "നിർമാതാവ് ടക്സ്"
+
+#: data/levels/world2/tux_builder.stl:77
+msgid ""
+"-Portable Objects:\n"
+"!images/objects/rock/rock.png\n"
+"#Tux can pick up certain objects and carry them around.\n"
+"#Press the ACTION key to grab an object and hold it pressed as long as you want to carry the object. Release the ACTION key to drop the object."
+msgstr "-പോർട്ടബിൾ ഒബ്‌ജക്റ്റുകൾ:\n!images/objects/rock/rock.png\n#ടക്‌സിന് ചില വസ്‌തുക്കൾ എടുത്ത് അവയെ കൊണ്ടുപോകാൻ കഴിയും.\n#ഒബ്‌ജക്റ്റ് പിടിച്ചെടുക്കുന്നതിന് ACTION കീ അമർത്തി നിങ്ങൾ ഒബ്ജക്റ്റ് വഹിക്കാൻ ആഗ്രഹിക്കുന്നിടത്തോളം അത് അമർത്തിപ്പിടിക്കുക. ഒബ്‌ജക്റ്റ് ഉപേക്ഷിക്കുന്നതിന് ACTION കീ റിലീസ് ചെയ്യുക."
+
+#: data/levels/world2/tux_own_horror_show.stl:3
+msgid "Tux' Own Horror Show"
+msgstr "ടക്സിന്റെ സ്വന്തം പേടിപ്പിക്കുന്ന കളി"
+
+#: data/levels/world2/tux_own_horror_show.stl:947
+msgid ""
+"#Will o' Wisps are small, annoying ghosts, which transport you to different,"
+" often dangerous places."
+msgstr ""
+
+#: data/levels/world2/walking_leaves.stl:3
+msgid "Walking Leaves"
+msgstr "നടക്കും ഇലകൾ"
+
+#: data/levels/world2/welcome_forest.stl:3
+msgid "Welcome to the Forest"
+msgstr "കാട്ടിലേക്ക് സ്വാഗതം"
+
+#: data/levels/world2/welcome_forest.stl:50
+msgid ""
+"-Doors\n"
+"!images/objects/door/door-0.png\n"
+"#Tux can go through a door by pressing the UP key."
+msgstr "-വാതിലുകൾ\n!images/objects/door/door-0.png\n#UP കീ അമർത്തുന്നതിലൂടെ ടക്സിന് ഒരു വാതിൽ കടന്നുപോകാൻ സാധിക്കും."
+
+#: data/levels/world2/wooden_roots.stl:3
+msgid "Wooden Roots"
+msgstr ""
+
+#: data/levels/world2/worldmap.stwm:3
+msgid "Rooted Forest"
+msgstr ""
+
+#: data/levels/world2/worldmap.stwm:239
+msgid "To be continued..."
+msgstr "തുടരും..."

@@ -1,0 +1,7 @@
+(supertux-sprite
+    (action
+      (name "default")
+      (images "light.png")
+      (hitbox 500 500 0 0)
+    )
+)

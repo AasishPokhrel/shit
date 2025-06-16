@@ -1,0 +1,42 @@
+(supertux-sprite
+  (action
+    (name "root")
+    (hitbox 20 7 16 80)
+    (images "root_attack.png"))
+
+  (action
+    (name "root-up")
+	(hitbox 20 7 16 80)
+    (clone-action "root"))
+  (action
+    (name "base-up")
+    (hitbox 20 7 16 80)
+    (images "root_base.png"))
+
+  (action
+    (name "root-down")
+	(hitbox 20 9 16 80)
+    (flip-action "root-up"))
+  (action
+    (name "base-down")
+	(hitbox 20 9 16 80)
+    (flip-action "base-up"))
+
+  (action
+    (name "root-left")
+    (hitbox 7 22 80 16)
+    (images "root_attack_left.png"))
+  (action
+    (name "base-left")
+    (hitbox 7 22 80 16)
+    (images "root_base_left.png"))
+
+  (action
+    (name "root-right")
+	(hitbox 9 22 80 16)
+    (mirror-action "root-left"))
+  (action
+    (name "base-right")
+	(hitbox 9 22 80 16)
+    (mirror-action "base-left"))
+)

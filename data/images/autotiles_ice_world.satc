@@ -1,0 +1,3257 @@
+;; See autotiles.satc for instructions
+
+(supertux-autotiles
+
+  (autotileset
+    (name "invisible_paths")
+    (default 45)
+    (autotile
+      (id 30)
+      (solid #t)
+      (mask "*0*01*1*")
+    )
+    (autotile
+      (id 31)
+      (solid #t)
+      (mask "*0*10*1*")
+    )
+    (autotile
+      (id 32)
+      (solid #t)
+      (mask "*1*01*1*")
+    )
+    (autotile
+      (id 33)
+      (solid #t)
+      (mask "*0*11*1*")
+    )
+    (autotile
+      (id 34)
+      (solid #t)
+      (mask "*1*01*0*")
+    )
+    (autotile
+      (id 35)
+      (solid #t)
+      (mask "*1*10*0*")
+    )
+    (autotile
+      (id 36)
+      (solid #t)
+      (mask "*1*11*0*")
+    )
+    (autotile
+      (id 37)
+      (solid #t)
+      (mask "*1*10*1*")
+    )
+    (autotile
+      (id 38)
+      (solid #t)
+      (mask "*0*01*0*")
+    )
+    (autotile
+      (id 39)
+      (solid #t)
+      (mask "*0*00*1*")
+    )
+    (autotile
+      (id 40)
+      (solid #t)
+      (mask "*0*11*0*")
+    )
+    (autotile
+      (id 41)
+      (solid #t)
+      (mask "*1*00*1*")
+    )
+    (autotile
+      (id 42)
+      (solid #t)
+      (mask "*1*00*0*")
+    )
+    (autotile
+      (id 43)
+      (solid #t)
+      (mask "*0*10*0*")
+    )
+    (autotile
+      (id 44)
+      (solid #t)
+      (mask "*1*11*1*")
+    )
+    (autotile
+      (id 45)
+      (solid #t)
+      (mask "*0*00*0*")
+    )
+  )
+  (autotileset
+    (name "paths")
+    (default 25)
+    (autotile
+      (id 10)
+      (solid #t)
+      (mask "*0*01*1*")
+    )
+    (autotile
+      (id 11)
+      (solid #t)
+      (mask "*0*10*1*")
+    )
+    (autotile
+      (id 12)
+      (solid #t)
+      (mask "*1*01*1*")
+    )
+    (autotile
+      (id 13)
+      (solid #t)
+      (mask "*0*11*1*")
+    )
+    (autotile
+      (id 14)
+      (solid #t)
+      (mask "*1*01*0*")
+    )
+    (autotile
+      (id 15)
+      (solid #t)
+      (mask "*1*10*0*")
+    )
+    (autotile
+      (id 16)
+      (solid #t)
+      (mask "*1*11*0*")
+    )
+    (autotile
+      (id 17)
+      (solid #t)
+      (mask "*1*10*1*")
+    )
+    (autotile
+      (id 18)
+      (solid #t)
+      (mask "*0*01*0*")
+    )
+    (autotile
+      (id 19)
+      (solid #t)
+      (mask "*0*00*1*")
+    )
+    (autotile
+      (id 20)
+      (solid #t)
+      (mask "*0*11*0*")
+    )
+    (autotile
+      (id 21)
+      (solid #t)
+      (mask "*1*00*1*")
+    )
+    (autotile
+      (id 22)
+      (solid #t)
+      (mask "*1*00*0*")
+    )
+    (autotile
+      (id 23)
+      (solid #t)
+      (mask "*0*10*0*")
+    )
+    (autotile
+      (id 24)
+      (solid #t)
+      (mask "*1*11*1*")
+    )
+    (autotile
+      (id 25)
+      (solid #t)
+      (mask "*0*00*0*")
+    )
+  )
+  (autotileset
+    (name "border_paths")
+    (default 446)
+    (autotile
+      (id 423)
+      (solid #t)
+      (mask "*0*01*1*")
+    )
+    (autotile
+      (id 424)
+      (solid #t)
+      (mask "*0*10*1*")
+    )
+    (autotile
+      (id 427)
+      (solid #t)
+      (mask "*1*01*1*")
+    )
+    (autotile
+      (id 428)
+      (solid #t)
+      (mask "*0*11*1*")
+    )
+    (autotile
+      (id 425)
+      (solid #t)
+      (mask "*1*01*0*")
+    )
+    (autotile
+      (id 426)
+      (solid #t)
+      (mask "*1*10*0*")
+    )
+    (autotile
+      (id 429)
+      (solid #t)
+      (mask "*1*11*0*")
+    )
+    (autotile
+      (id 430)
+      (solid #t)
+      (mask "*1*10*1*")
+    )
+    (autotile
+      (id 431)
+      (solid #t)
+      (mask "*0*01*0*")
+    )
+    (autotile
+      (id 432)
+      (solid #t)
+      (mask "*0*00*1*")
+    )
+    (autotile
+      (id 435)
+      (solid #t)
+      (mask "*0*11*0*")
+    )
+    (autotile
+      (id 436)
+      (solid #t)
+      (mask "*1*00*1*")
+    )
+    (autotile
+      (id 433)
+      (solid #t)
+      (mask "*1*00*0*")
+    )
+    (autotile
+      (id 434)
+      (solid #t)
+      (mask "*0*10*0*")
+    )
+    (autotile
+      (id 437)
+      (solid #t)
+      (mask "*1*11*1*")
+    )
+    (autotile
+      (id 446)
+      (solid #t)
+      (mask "*0*00*0*")
+    )
+  )
+  (autotileset
+    (name "rocky_paths")
+	(default 422)
+	(autotile
+	  (id 407)
+	  (solid #t)
+	  (mask "*0*01*1*")
+	)
+	(autotile
+	  (id 408)
+	  (solid #t)
+	  (mask "*0*11*1*")
+	)
+	(autotile
+	  (id 409)
+	  (solid #t)
+	  (mask "*0*10*1*")
+	)
+	(autotile
+	  (id 410)
+	  (solid #t)
+	  (mask "*0*00*1*")
+	)
+	(autotile
+	  (id 411)
+	  (solid #t)
+	  (mask "*1*01*1*")
+	)
+	(autotile
+	  (id 412)
+	  (solid #t)
+	  (mask "*1*11*1*")
+	)
+	(autotile
+	  (id 413)
+	  (solid #t)
+	  (mask "*1*10*1*")
+	)
+	(autotile
+	  (id 414)
+	  (solid #t)
+	  (mask "*1*00*1*")
+	)
+	(autotile
+	  (id 415)
+	  (solid #t)
+	  (mask "*1*01*0*")
+	)
+	(autotile
+	  (id 416)
+	  (solid #t)
+	  (mask "*1*11*0*")
+	)
+	(autotile
+	  (id 417)
+	  (solid #t)
+	  (mask "*1*10*0*")
+	)
+	(autotile
+	  (id 418)
+	  (solid #t)
+	  (mask "*1*00*0*")
+	)
+	(autotile
+	  (id 419)
+	  (solid #t)
+	  (mask "*0*01*0*")
+	)
+	(autotile
+	  (id 420)
+	  (solid #t)
+	  (mask "*0*11*0*")
+	)
+	(autotile
+	  (id 421)
+	  (solid #t)
+	  (mask "*0*10*0*")
+	)
+	(autotile
+	  (id 422)
+	  (solid #t)
+	  (mask "*0*00*0*")
+	)
+  )
+  
+  (autotileset-corner
+    (name "snow")
+    (default 105)
+    
+    ;; CENTER
+    (autotile
+      (id 105)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 101)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 102)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 103)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 104)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 106)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 107)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 108)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 109)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 110)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 111)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 112)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 113)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 554)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 555)
+      (mask "1001")
+    )
+    
+  )
+  
+  (autotileset-corner
+    (name "crystal")
+    (default 238)
+    
+    ;; CENTER
+    (autotile
+      (id 238)
+      (alt-id
+        (id 245)
+        (weight 0.2)
+      )
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 234)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 235)
+      (mask "0011")
+    )
+        
+    ;; TOP RIGHT
+    (autotile
+      (id 236)
+      (mask "0010")
+    )
+            
+    ;; LEFT
+    (autotile
+      (id 237)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 239)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 240)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 241)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 242)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 243)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 244)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 246)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 247)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 944)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 945)
+      (mask "1001")
+    )
+    
+  )
+  (autotileset-corner
+    (name "ice_cave")
+    (default 652)
+    
+    ;; CENTER
+    (autotile
+      (id 652)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 648)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 649)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 650)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 651)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 653)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 654)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 655)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 656)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 660)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 659)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 658)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 657)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 940)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 941)
+      (mask "1001")
+    )
+    
+  )
+  
+  (autotileset-corner
+    (name "ice_cave_ceiling")
+    (default 689)
+    
+    ;; CENTER
+    (autotile
+      (id 689)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 685)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 686)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 687)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 688)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 690)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 691)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 692)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 693)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 697)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 696)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 695)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 694)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 946)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 947)
+      (mask "1001")
+    )
+    
+  )
+  
+  (autotileset-corner
+    (name "trees")
+    (default 140)
+    
+    ;; CENTER
+    (autotile
+      (id 140)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 136)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 137)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 138)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 139)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 141)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 142)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 143)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 144)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 145)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 146)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 147)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 148)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 865)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 866)
+      (mask "1001")
+    )
+    
+  )
+  (autotileset-corner
+    (name "ice_floes")
+    (default 208)
+    
+    ;; CENTER
+    (autotile
+      (id 208)
+      (alt-id
+        (id 217)
+        (weight 0.05)
+      )
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 204)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 205)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 206)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 207)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 209)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 210)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 211)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 212)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 213)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 214)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 215)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 216)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 936)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 937)
+      (mask "1001")
+    )
+    
+  )
+  (autotileset-corner
+    (name "forest")
+    (default 261)
+    
+    ;; CENTER
+    (autotile
+      (id 261)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 257)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 258)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 259)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 260)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 262)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 263)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 264)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 265)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 269)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 268)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 267)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 266)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 948)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 949)
+      (mask "1001")
+    )
+    
+  )
+  (autotileset-corner
+    (name "corrupted_forest")
+    (default 304)
+    
+    ;; CENTER
+    (autotile
+      (id 304)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 300)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 301)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 302)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 303)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 305)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 306)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 307)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 308)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 312)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 311)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 310)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 309)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 950)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 951)
+      (mask "1001")
+    )
+    
+  )
+  (autotileset-corner
+    (name "underground_forest")
+    (default 583)
+    
+    ;; CENTER
+    (autotile
+      (id 583)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 579)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 580)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 581)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 582)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 584)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 585)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 586)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 587)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 591)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 590)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 589)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 588)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 958)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 959)
+      (mask "1001")
+    )
+    
+  )
+  (autotileset-corner
+    (name "underground_forest_ceiling")
+    (default 624)
+    
+    ;; CENTER
+    (autotile
+      (id 624)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 620)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 621)
+      (mask "0011")
+    )
+        
+    ;; TOP RIGHT
+    (autotile
+      (id 622)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 623)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 625)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 626)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 627)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 628)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 632)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 631)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 630)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 629)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 966)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 967)
+      (mask "1001")
+    )
+    
+  )
+  (autotileset-corner
+    (name "underground_corrupted_forest")
+    (default 729)
+    
+    ;; CENTER
+    (autotile
+      (id 729)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 725)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 726)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 727)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 728)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 730)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 731)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 732)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 733)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 737)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 736)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 735)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 734)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 960)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 961)
+      (mask "1001")
+    )
+    
+  )
+  (autotileset-corner
+    (name "underground_corrupted_forest_ceiling")
+    (default 773)
+    
+    ;; CENTER
+    (autotile
+      (id 773)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 769)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 770)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 771)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 772)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 774)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 775)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 776)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 777)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 781)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 780)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 779)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 778)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 968)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 969)
+      (mask "1001")
+    )
+    
+  )
+  (autotileset-corner
+    (name "halloween")
+    (default 480)
+    
+    ;; CENTER
+    (autotile
+      (id 480)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 475)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 476)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 478)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 479)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 482)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 485)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 486)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 488)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 492)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 491)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 490)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 489)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 976)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 977)
+      (mask "1001")
+    )
+    
+  )
+  (autotileset-corner
+    (name "darkness")
+    (default 513)
+    
+    ;; CENTER
+    (autotile
+      (id 513)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 509)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 510)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 511)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 512)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 514)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 515)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 516)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 517)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 518)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 519)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 520)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 521)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 974)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 975)
+      (mask "1001")
+    )
+    
+  )
+  (autotileset-corner
+    (name "christmas_trees")
+    (default 526)
+    
+    ;; CENTER
+    (autotile
+      (id 526)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 522)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 523)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 524)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 525)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 527)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 528)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 529)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 530)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 531)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 532)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 533)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 534)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 970)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 971)
+      (mask "1001")
+    )
+    
+  )
+  (autotileset-corner
+    (name "shallow_water")
+    (default 73)
+    
+    ;; CENTER
+    (autotile
+      (id 73)
+      (alt-id
+        (id 82)
+        (weight 0.05)
+      )
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 69)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 70)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 71)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 72)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 74)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 75)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 76)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 77)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 78)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 79)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 80)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 81)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 972)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 973)
+      (mask "1001")
+    )
+    
+  )
+  
+  (autotileset-corner
+    (name "snow_layer")
+    (default 105)
+    
+    ;; CENTER
+    (autotile
+      (id 105)
+      (mask "1111")
+    )
+    
+    
+    ;; TOP LEFT
+    (autotile
+      (id 249)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 125)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 250)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 128)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 134)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 251)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 131)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 252)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 253)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 254)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 255)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 256)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 934)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 935)
+      (mask "1001")
+    )
+    
+  )
+  
+  (autotileset-corner
+    (name "ice_holes")
+    (default 689)
+    
+    ;; CENTER
+    (autotile
+      (id 689)
+      (alt-id
+        (id 223)
+        (weight 0.02)
+      )
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 219)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 220)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 221)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 222)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 224)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 225)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 226)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 227)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 228)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 229)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 231)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 232)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 938)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 939)
+      (mask "1001")
+    )
+    
+  )
+  
+  (autotileset-corner
+    (name "snow_cliff")
+    (default 105)
+    
+    ;; CENTER
+    (autotile
+      (id 105)
+      (mask "1111")
+    )
+    
+    
+    ;; TOP LEFT
+    (autotile
+      (id 101)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 102)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 103)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 104)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 106)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 447)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 448)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 449)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 457)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 456)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 112)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 113)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 867)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 868)
+      (mask "1001")
+    )
+    
+  )
+  
+  (autotileset-corner
+    (name "ice_cave_cliff")
+    (default 652)
+    
+    ;; CENTER
+    (autotile
+      (id 652)
+      (mask "1111")
+    )
+    
+    
+    ;; TOP LEFT
+    (autotile
+      (id 648)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 649)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 650)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 651)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 653)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 661)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 662)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 663)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 671)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 670)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 658)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 657)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 942)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 943)
+      (mask "1001")
+    )
+    
+  )
+  
+  (autotileset-corner
+    (name "forest_cliff")
+    (default 261)
+    
+    ;; CENTER
+    (autotile
+      (id 261)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 257)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 258)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 259)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 260)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 262)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 270)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 271)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 272)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 286)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 285)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 267)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 266)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 952)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 953)
+      (mask "1001")
+    )
+    
+  )
+  
+  (autotileset-corner
+    (name "corrupted_forest_cliff")
+    (default 304)
+    
+    ;; CENTER
+    (autotile
+      (id 304)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 300)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 301)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 302)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 303)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 305)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 313)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 314)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 315)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 323)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 322)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 310)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 309)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 954)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 955)
+      (mask "1001")
+    )
+    
+  )
+  
+  (autotileset
+    (name "corrupted_forest_transition")
+    (default 304)
+    (autotile
+      (id 304)
+      (solid #t)
+      (mask "********")
+      (mask "*1****1*")
+      (mask "***11***")
+    )
+    (autotile
+      (id 562)
+      (solid #f)
+      (mask "*0010*00")
+    )
+    (autotile
+      (id 569)
+      (solid #f)
+      (mask "00100000")
+    )
+    (autotile
+      (id 560)
+      (solid #f)
+      (mask "*1*00000")
+    )
+    (autotile
+      (id 570)
+      (solid #f)
+      (mask "10000000")
+    )
+    (autotile
+      (id 566)
+      (solid #f)
+      (mask "00*0110*")
+      (mask "00100*1*")
+      (mask "00*01*1*")
+    )
+    (autotile
+      (id 564)
+      (solid #f)
+      (mask "10000*1*")
+      (mask "*0010*1*")
+      (mask "*0010*01")
+    )
+    (autotile
+      (id 561)
+      (solid #f)
+      (mask "10*0100*")
+      (mask "*1*0100*")
+      (mask "*1*00001")
+    )
+    (autotile
+      (id 559)
+      (solid #f)
+      (mask "*1*10*00")
+      (mask "01*00100")
+      (mask "*0110*00")
+    )
+    (autotile
+      (id 567)
+      (solid #f)
+      (mask "00000001")
+    )
+    (autotile
+      (id 565)
+      (solid #f)
+      (mask "00000*1*")
+    )
+    (autotile
+      (id 568)
+      (solid #f)
+      (mask "00000100")
+    )
+    (autotile
+      (id 563)
+      (solid #f)
+      (mask "00*0100*")
+    )
+    (autotile
+      (id 956)
+      (solid #f)
+      (mask "00100100")
+    )
+    (autotile
+      (id 957)
+      (solid #f)
+      (mask "10000001")
+    )
+  )
+  
+  (autotileset
+    (name "water_waves_horizontal")
+    (default 5)
+    (autotile
+      (id 5)
+      (solid #t)
+      (mask "***00***")
+    )
+    (autotile
+      (id 2)
+      (solid #t)
+      (mask "***01***")
+    )
+    (autotile
+      (id 3)
+      (solid #t)
+      (mask "***11***")
+    )
+    (autotile
+      (id 4)
+      (solid #t)
+      (mask "***10***")
+    )
+  )
+  
+  (autotileset
+    (name "water_waves_vertical")
+    (default 5)
+    (autotile
+      (id 5)
+      (solid #t)
+      (mask "*0****0*")
+    )
+    (autotile
+      (id 6)
+      (solid #t)
+      (mask "*0****1*")
+    )
+    (autotile
+      (id 7)
+      (solid #t)
+      (mask "*1****1*")
+    )
+    (autotile
+      (id 8)
+      (solid #t)
+      (mask "*1****0*")
+    )
+  )
+  
+  (autotileset-corner
+    (name "underground_forest_cliff")
+    (default 583)
+    
+    ;; CENTER
+    (autotile
+      (id 583)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 579)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 580)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 581)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 582)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 584)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 592)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 593)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 594)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 611)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 610)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 589)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 588)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 962)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 963)
+      (mask "1001")
+    )
+    
+  )
+  
+  (autotileset-corner
+    (name "underground_corrupted_forest_cliff")
+    (default 729)
+    
+    ;; CENTER
+    (autotile
+      (id 729)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 725)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 726)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 727)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 728)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 730)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 738)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 739)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 740)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 748)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 747)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 735)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 734)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 964)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 965)
+      (mask "1001")
+    )
+    
+  )
+  
+  (autotileset-corner
+    (name "lightmap_white")
+    (default 978)
+    
+    ;; CENTER
+    (autotile
+      (id 978)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 989)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 990)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 991)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 993)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 994)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 996)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 997)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 998)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 992)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 999)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 995)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 1002)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 1000)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 1001)
+      (mask "1001")
+    )
+    
+  )
+  
+  (autotileset-corner
+    (name "lightmap_black")
+    (default 981)
+    
+    ;; CENTER
+    (autotile
+      (id 981)
+      (mask "1111")
+    )
+    
+    ;; TOP LEFT
+    (autotile
+      (id 1003)
+      (mask "0001")
+    )
+    
+    ;; TOP 
+    (autotile
+      (id 1004)
+      (mask "0011")
+    )
+    
+    ;; TOP RIGHT
+    (autotile
+      (id 1005)
+      (mask "0010")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 1007)
+      (mask "0101")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 1008)
+      (mask "1010")
+    )
+    
+    ;; BOTTOM LEFT
+    (autotile
+      (id 1010)
+      (mask "0100")
+    )
+    
+    ;; BOTTOM
+    (autotile
+      (id 1011)
+      (mask "1100")
+    )
+    
+    ;; BOTTOM RIGHT
+    (autotile
+      (id 1012)
+      (mask "1000")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 1006)
+      (mask "1110")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 1013)
+      (mask "1101")
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 1009)
+      (mask "1011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 1016)
+      (mask "0111")
+    )
+    
+    ;; INTERSECTION DOWN-UP
+    (autotile
+      (id 1014)
+      (mask "0110")
+    )
+    
+    ;; INTERSECTION UP-DOWN
+    (autotile
+      (id 1015)
+      (mask "1001")
+    )
+    
+  )
+  
+  (autotileset
+    (name "bushes")
+    (default 538)
+    (autotile
+      (id 541)
+      (solid #t)
+      (mask "***00***")
+    )
+    (autotile
+      (id 537)
+      (solid #t)
+      (mask "***01***")
+    )
+    (autotile
+      (id 538)
+      (solid #t)
+      (mask "***11***")
+    )
+    (autotile
+      (id 539)
+      (solid #t)
+      (mask "***10***")
+    )
+  )
+  
+  (autotileset
+    (name "corrupted_bushes")
+    (default 549)
+    (autotile
+      (id 552)
+      (solid #t)
+      (mask "***00***")
+    )
+    (autotile
+      (id 548)
+      (solid #t)
+      (mask "***01***")
+    )
+    (autotile
+      (id 549)
+      (solid #t)
+      (mask "***11***")
+    )
+    (autotile
+      (id 550)
+      (solid #t)
+      (mask "***10***")
+    )
+  )
+  
+  (autotileset
+    (name "crystal_pillar")
+    (default 710)
+    (autotile
+      (id 710)
+      (alt-id
+        (id 711)
+        (weight 0.5)
+      )
+      (solid #t)
+      (mask "*0****0*")
+    )
+    (autotile
+      (id 704)
+      (solid #t)
+      (mask "*0****1*")
+    )
+    (autotile
+      (id 705)
+      (solid #t)
+      (mask "*1****1*")
+    )
+    (autotile
+      (id 706)
+      (solid #t)
+      (mask "*1****0*")
+    )
+  )
+  
+  (autotileset
+    (name "forest_cave_pillar")
+    (default 1017)
+    (autotile
+      (id 1017)
+      (alt-id
+        (id 1018)
+        (weight 0.5)
+      )
+      (solid #t)
+      (mask "*0****0*")
+    )
+    (autotile
+      (id 782)
+      (alt-id
+        (id 785)
+        (weight 0.5)
+      )
+      (solid #t)
+      (mask "*0****1*")
+    )
+    (autotile
+      (id 783)
+      (alt-id
+        (id 786)
+        (weight 0.2)
+      )
+      (alt-id
+        (id 788)
+        (weight 0.2)
+      )
+      (alt-id
+        (id 789)
+        (weight 0.2)
+      )
+      (alt-id
+        (id 790)
+        (weight 0.2)
+      )
+      (solid #t)
+      (mask "*1****1*")
+    )
+    (autotile
+      (id 784)
+      (alt-id
+        (id 787)
+        (weight 0.5)
+      )
+      (solid #t)
+      (mask "*1****0*")
+    )
+  )
+  
+  (autotileset
+    (name "corrupted_forest_cave_pillar")
+    (default 1019)
+    (autotile
+      (id 1019)
+      (alt-id
+        (id 1020)
+        (weight 0.5)
+      )
+      (solid #t)
+      (mask "*0****0*")
+    )
+    (autotile
+      (id 869)
+      (alt-id
+        (id 872)
+        (weight 0.5)
+      )
+      (solid #t)
+      (mask "*0****1*")
+    )
+    (autotile
+      (id 870)
+      (alt-id
+        (id 873)
+        (weight 0.2)
+      )
+      (alt-id
+        (id 875)
+        (weight 0.2)
+      )
+      (alt-id
+        (id 876)
+        (weight 0.2)
+      )
+      (alt-id
+        (id 877)
+        (weight 0.2)
+      )
+      (solid #t)
+      (mask "*1****1*")
+    )
+    (autotile
+      (id 871)
+      (alt-id
+        (id 874)
+        (weight 0.5)
+      )
+      (solid #t)
+      (mask "*1****0*")
+    )
+  )
+  
+  (autotileset
+    (name "random_crystals")
+    (default 470)
+    (autotile
+      (id 470)
+      (alt-id
+        (id 471)
+        (weight 0.2)
+      )
+      (alt-id
+        (id 472)
+        (weight 0.2)
+      )
+      (alt-id
+        (id 473)
+        (weight 0.2)
+      )
+      (alt-id
+        (id 474)
+        (weight 0.2)
+      )
+      (solid #t)
+      (mask "********")
+    )
+  )
+  
+  (autotileset
+    (name "random_rocks_ice")
+    (default 709)
+    (autotile
+      (id 709)
+      (alt-id
+        (id 712)
+        (weight 0.5)
+      )
+      (solid #t)
+      (mask "********")
+    )
+  )
+  
+  (autotileset
+    (name "random_rocks_forest")
+    (default 356)
+    (autotile
+      (id 356)
+      (alt-id
+        (id 543)
+        (weight 0.333)
+      )
+      (alt-id
+        (id 797)
+        (weight 0.333)
+      )
+      (solid #t)
+      (mask "********")
+    )
+  )
+  
+  (autotileset
+    (name "random_lilypads")
+    (default 536)
+    (autotile
+      (id 536)
+      (alt-id
+        (id 540)
+        (weight 0.5)
+      )
+      (solid #t)
+      (mask "********")
+    )
+  )
+  
+  (autotileset
+    (name "random_corrupted_lilypads")
+    (default 547)
+    (autotile
+      (id 547)
+      (alt-id
+        (id 551)
+        (weight 0.5)
+      )
+      (solid #t)
+      (mask "********")
+    )
+  )
+  
+)
+

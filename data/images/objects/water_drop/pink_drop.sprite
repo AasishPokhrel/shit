@@ -1,0 +1,42 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (fps 4.0)
+  (hitbox 0 0 32 32)
+  (images "pink-drop.png")
+ )
+ (action
+  (name "splash")
+  (fps 15.0)
+  (hitbox 64 16 32 32)
+  (images "pink-splash-0.png"
+          "pink-splash-1.png"
+          "pink-splash-2.png"
+          "pink-splash-3.png"
+          "pink-splash-4.png")
+ )
+ (action
+  (name "particle_0")
+  (fps 1.0)
+  (hitbox 0 0 8 8)
+  (images "pink-particle-0.png")
+ )
+ (action
+  (name "particle_1")
+  (fps 1.0)
+  (hitbox 0 0 6 6)
+  (images "pink-particle-1.png")
+ )
+ (action
+  (name "particle_2")
+  (fps 1.0)
+  (hitbox 0 0 4 4)
+  (images "pink-particle-2.png")
+ )
+ (action
+  (name "particle_3")
+  (fps 1.0)
+  (hitbox 0 0 2 2)
+  (images "pink-particle-3.png")
+ )
+)

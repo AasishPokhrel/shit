@@ -1,0 +1,34 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 6 6 60 20)
+    (images "root_side-empty.png")
+  )
+  (action
+    (name "sideways-left")
+    (fps 16)
+    (hitbox 6 6 60 20)
+    (images
+      "root_side-0.png"
+      "root_side-1.png"
+      "root_side-2.png"
+      "root_side-3.png"
+      "root_side-4.png"
+      "root_side-5.png"
+      "root_side-5.png"
+      "root_side-4.png"
+      "root_side-3.png"
+      "root_side-2.png"
+      "root_side-1.png"
+      "root_side-0.png"
+    )
+    (loops 1)
+  )
+  (action
+    (name "sideways-right")
+    (fps 16)
+    (hitbox 32 6 60 20)
+    (mirror-action "sideways-left")
+    (loops 1)
+  )
+)

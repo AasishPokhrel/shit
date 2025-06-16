@@ -1,0 +1,15 @@
+{
+    "name": "supertux2",
+    "description": "A classic Jump'n'Run game featuring Tux",
+    "architecture": "@CLICK_ARCH@",
+    "title": "SuperTux",
+    "hooks": {
+        "supertux2": {
+            "apparmor": "supertux2.apparmor",
+            "desktop":  "supertux2.desktop"
+        }
+    },
+    "version": "@SUPERTUX_VERSION_MAJOR@.@SUPERTUX_VERSION_MINOR@.@SUPERTUX_VERSION_PATCH@-@SUPERTUX_VERSION_BUILD@",
+    "maintainer": "Semphris <semphris@protonmail.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}

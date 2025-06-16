@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# IAN RODRÍGUEZ Lorenzo, 2023
+# Nicolae Crefelean, 2025
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2015-10-19 18:02+0000\n"
+"Last-Translator: Nicolae Crefelean, 2025\n"
+"Language-Team: Romanian (http://app.transifex.com/arctic-games/supertux/language/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: data/levels/halloween2014/halloween1.stl:3
+msgid "Darkness Prevails"
+msgstr "Întunericul triumfă"
+
+#: data/levels/halloween2014/halloween2.stl:3
+msgid "The Fog is Clearing Up"
+msgstr "Ceața se curăță"
+
+#: data/levels/halloween2014/halloween3.stl:3
+msgid "Graveyard Shift"
+msgstr "Tura de noapte"
+
+#: data/levels/halloween2014/intro.stl:3
+msgid "The Abandoned House"
+msgstr "Casa abandonată"
+
+#: data/levels/halloween2014/mound.stl:3
+msgid "Mound of the Dead"
+msgstr "Movila morților"
+
+#: data/levels/halloween2014/outro.stl:3
+msgid "Halloween Party?"
+msgstr "Petrecere de Halloween?"
+
+#: data/levels/halloween2014/pools.stl:3
+msgid "Putrid Pools"
+msgstr "Bazine putrede"
+
+#: data/levels/halloween2014/worldmap.stwm:3
+msgid "Halloween 2014"
+msgstr "Halloween 2014"

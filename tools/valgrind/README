@@ -1,0 +1,19 @@
+You can use this script and suppressions file to run SuperTux under Valgrind
+( http://www.valgrind.org/ ) to catch memory errors and leaks.
+
+Some things to be aware of:
+
+- Some C++ objects appear to use interior pointers, which will cause valgrind to
+  report parts of their still-reachable instances as "possibly lost".  You can
+  ignore those reports.
+
+- In the GNU C++ library, a std::string object contains a pointer to a
+  heap-allocated "representation" buffer containing the actual data.  If you
+  free a heap-allocated std::string S without destructing it (uncommon but not
+  unheard of), you'll leak the representation.  But representations are shared
+  and copied on write, so if S was a copy of another string S', Valgrind will
+  blame the leak on the code that created S' because that was when the
+  representation was allocated.  (Valgrind doesn't know any better without
+  instrumenting constructors and destructors.)  Watch out for this.  When it
+  first happened to me (Matt McCutchen), I was stumped for a while; finally,
+  I wrote some small test programs and realized what was happening.

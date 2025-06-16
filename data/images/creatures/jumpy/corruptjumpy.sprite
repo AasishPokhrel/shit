@@ -1,0 +1,72 @@
+(supertux-sprite
+ (action
+  (name "left-up")
+  (loops 1)
+  (fps 25)
+  (hitbox 7 8 32 50)
+  (images "corrupt_up-2.png"
+		  "corrupt_up-1.png"
+		  "corrupt_down-1.png"
+		  "corrupt_down-2.png"
+		  "corrupt_down-2.png"
+		  "corrupt_down-1.png"
+		  "corrupt_down-0.png"
+		  "corrupt_up-0.png"))
+
+ (action
+  (name "right-up")
+  (loops 1)
+  (fps 25)
+  (hitbox 9 8 32 50)
+  (mirror-action "left-up"))
+
+ (action
+  (name "left-down")
+  (hitbox 7 8 32 50)
+  (images "corrupt_up-3.png"))
+
+ (action
+  (name "right-down")
+  (hitbox 9 8 32 50)
+  (mirror-action "left-down"))
+
+ (action
+  (name "left-middle")
+  (hitbox 7 8 32 50)
+  (images "corrupt_up-3.png"))
+
+ (action
+  (name "right-middle")
+  (hitbox 9 8 32 50)
+  (mirror-action "left-middle"))
+
+ (action
+  (name "iced-left")
+  (hitbox 2 8 45 64)
+  (images "corrupt_up-0.png"))
+
+ (action
+  (name "iced-right")
+  (hitbox 4 8 45 64)
+  (mirror-action "iced-left"))
+
+ (action
+  (hitbox 7 8 32 50)
+  (name "burning-left")
+  (images "corrupt_up-0.png"))
+
+ (action
+  (hitbox 9 8 32 50)
+  (name "burning-right")
+  (mirror-action "burning-left"))
+
+ (action
+  (name "editor-left")
+  (hitbox 7 8 32 50)
+  (images "corrupt_up-0.png"))
+
+ (action
+  (name "editor-right")
+  (hitbox 9 8 32 50)
+  (mirror-action "editor-left"))
+)

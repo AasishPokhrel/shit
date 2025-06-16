@@ -1,0 +1,14 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 16 16 0 0)
+    (images "small_fire.png"
+)
+  )
+  (action
+    (name "solved")
+    (hitbox 16 16 0 0)
+    (images "small_fire.png"
+)
+  )
+)

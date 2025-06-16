@@ -1,0 +1,43 @@
+These files describes glyphs, contained on images 
+at data/images/engine/fonts/ 
+(or any subdirectory)
+
+Each file describes separate font.
+When extended fonts put in addon, names should be prefixed, like 
+addonname-foo.stf to be added to font foo.stf
+
+(supertux-font
+  ; height of font and glyph on images
+  (glyph-height $h)    
+  
+  ; default width of glyph on images and width of fixed-font
+  (glyph-width $w)   
+
+  ; text in this font is written from right-to-left (optional)
+  (rtl #t)
+
+  ; one or more surfaces, containing glyph images
+  (surface              
+ 
+    ; may override default width
+    (glyph-width $w)    
+
+    ; may prevent to form variable-width glyphs from this surface
+    (monospace #t)      
+
+    ; filename containing glyph images,
+    ; related to data/images/engine/fonts/
+    ; any dimentions, RGBS pixel format
+    (glyphs $filename)   
+    
+    ; filename containing shadow images, 
+    ; should fit glyph image
+    (shadows $filename)  
+
+    ; charset definition
+    ; each string represent separate row of glyphs on image
+    ; spaces may be put to skip glyph (not drawn)
+    (chars 
+      $strings)
+  )
+)

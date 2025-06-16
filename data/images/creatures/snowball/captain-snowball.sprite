@@ -1,0 +1,80 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (hitbox 8 13 32 32)
+    (fps 14)
+    (images "captain_left-0.png"
+            "captain_left-1.png"
+            "captain_left-2.png"
+            "captain_left-3.png"
+            "captain_left-4.png"
+            "captain_left-5.png"
+            "captain_left-6.png"
+            "captain_left-7.png")
+  )
+  (action
+    (name "right")
+    (hitbox 8 13 32 32)
+    (fps 14)
+    (images "captain_right-0.png"
+            "captain_right-1.png"
+            "captain_right-2.png"
+            "captain_right-3.png"
+            "captain_right-4.png"
+            "captain_right-5.png"
+            "captain_right-6.png"
+            "captain_right-7.png")
+  )
+  (action
+    (name "jump-left")
+    (hitbox 8 13 32 32)
+    (fps 20)
+	(loops 1)
+    (images "captain_jump-0.png"
+            "captain_jump-1.png"
+            "captain_jump-2.png"
+            "captain_jump-3.png")
+  )
+  (action
+    (name "jump-right")
+    (hitbox 8 13 32 32)
+    (fps 20)
+	(loops 1)
+    (images "captain_jump-4.png"
+            "captain_jump-5.png"
+            "captain_jump-6.png"
+            "captain_jump-7.png")
+  )
+  (action
+    (name "squished-left")
+    (hitbox 8 13 32 32)
+    (images "captain_left-squished.png")
+  )
+  (action
+    (name "squished-right")
+    (hitbox 8 13 32 32)
+    (images "captain_right-squished.png")
+  )
+ (action
+  (name "melting-left")
+  (hitbox 2 5 31.8 31.8)
+  (images "cpt-melting-0.png"
+          "cpt-melting-1.png"
+          "cpt-melting-2.png"))
+ (action
+  (name "melting-right")
+  (hitbox 2 5 31.8 31.8)
+  (mirror-action "melting-left"))
+ (action
+  (name "ground-melting-left")
+  (hitbox 18 5 31.8 31.8)
+  (images "cpt-gmelting-0.png"
+          "cpt-gmelting-1.png"
+          "cpt-gmelting-2.png"
+          "cpt-gmelting-3.png"
+          "cpt-gmelting-4.png"))
+ (action
+  (name "ground-melting-right")
+  (hitbox 18 5 31.8 31.8)
+  (mirror-action "ground-melting-left"))
+)

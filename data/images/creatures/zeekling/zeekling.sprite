@@ -1,0 +1,121 @@
+(supertux-sprite
+ (action
+  (name "left")
+  (hitbox 12 25 44 34)
+  (fps 15)
+  (images "zeekling-0.png"
+		  "zeekling-1.png"
+		  "zeekling-2.png"
+		  "zeekling-3.png"
+		  "zeekling-4.png"
+		  "zeekling-5.png"
+		  "zeekling-6.png"
+		  "zeekling-7.png")
+ )
+
+ (action
+  (name "right")
+  (hitbox 36 25 44 34)
+  (fps 15)
+  (mirror-action "left")
+ )
+ 
+ (action
+  (name "charge-left")
+  (hitbox 12 42 44 34)
+  (fps 15)
+  (loops 1)
+  (images "charge-0.png"
+		  "charge-1.png"
+		  "charge-2.png"
+		  "charge-3.png"
+		  "charge-4.png")
+ )
+
+ (action
+  (name "charge-right")
+  (hitbox 36 42 44 34)
+  (fps 15)
+  (loops 1)
+  (mirror-action "charge-left")
+ )
+ 
+ (action
+  (name "dive-left")
+  (hitbox 12 42 44 34)
+  (fps 15)
+  (loop-frame 4)
+  (images "dive-0.png"
+		  "dive-1.png"
+		  "dive-2.png"
+		  "dive-3.png"
+		  "dive-4.png"
+		  "dive-5.png"
+		  "dive-6.png")
+ )
+
+ (action
+  (name "dive-right")
+  (hitbox 36 42 44 34)
+  (fps 15)
+  (loop-frame 4)
+  (mirror-action "dive-left")
+ )
+ 
+ (action
+  (name "recover-left")
+  (hitbox 12 42 44 34)
+  (fps 15)
+  (loops 1)
+  (images "recover-0.png"
+		  "recover-1.png"
+		  "recover-2.png"
+		  "recover-3.png")
+ )
+
+ (action
+  (name "recover-right")
+  (hitbox 36 42 44 34)
+  (fps 15)
+  (loops 1)
+  (mirror-action "recover-left")
+ )
+ 
+ (action
+  (name "squished-left")
+  (hitbox 12 25 44 34)
+  (images "squished.png")
+ )
+
+ (action
+  (name "squished-right")
+  (hitbox 36 25 44 34)
+  (mirror-action "squished-left")
+ )
+ 
+ (action
+  (name "iced-left")
+  (hitbox 9 42 64 43)
+  (images "charge-4.png")
+ )
+
+ (action
+  (name "iced-right")
+  (hitbox 18 42 64 43)
+  (mirror-action "iced-left")
+ )
+
+ (action
+  (hitbox 12 42 44 34)
+  (name "burning-left")
+  (images "charge-4.png")
+ )
+
+  (action
+  (hitbox 36 42 44 34)
+  (name "burning-right")
+  (mirror-action "burning-left")
+ )
+ 
+)
+

@@ -1,0 +1,31 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 230 300 40 60)
+    (images
+      "ghosttree.png"
+    )
+  )
+  (action
+    (name "swallow")
+    (hitbox 230 300 40 60)
+    (fps 16)
+    (images
+      "ghosttree-swallow-0.png"
+      "ghosttree-swallow-1.png"
+      "ghosttree-swallow-2.png"
+      "ghosttree-swallow-3.png"
+    )
+  )
+  (action
+    (name "dying")
+    (hitbox 230 300 40 60)
+    (fps 4)
+    (images
+      "ghosttree-dying-0.png"
+      "ghosttree-dying-0.png"
+      "ghosttree-dying-0.png"
+      "ghosttree-dying-0.png"
+    )
+  )
+)

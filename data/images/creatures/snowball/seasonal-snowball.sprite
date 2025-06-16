@@ -1,0 +1,48 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (hitbox 3 4 32 32)
+    (images "season-left-0.png"
+            "season-left-1.png"
+            "season-left-2.png"
+            "season-left-1.png")
+  )
+  (action
+    (name "right")
+    (hitbox 3 4 32 32)
+    (mirror-action "left")
+  )
+  (action
+    (name "squished-left")
+    (hitbox 8 13 32 32)
+    (images "snowball-squished.png")
+  )
+  (action
+    (name "squished-right")
+    (hitbox 8 13 32 32)
+    (mirror-action "squished-left")
+  )
+ (action
+  (name "melting-left")
+  (hitbox 3 4 32 32)
+  (images "season-melting-0.png"
+          "season-melting-1.png"
+          "season-melting-2.png"
+          "season-melting-3.png"))
+ (action
+  (name "melting-right")
+  (hitbox 3 4 32 32)
+  (mirror-action "melting-left"))
+ (action
+  (name "ground-melting-left")
+  (hitbox 19 4 32 32)
+  (images "season-gmelting-0.png"
+          "season-gmelting-1.png"
+          "season-gmelting-2.png"
+          "season-gmelting-3.png"
+          "season-gmelting-4.png"))
+ (action
+  (name "ground-melting-right")
+  (hitbox 19 4 32 32)
+  (mirror-action "ground-melting-left"))
+)

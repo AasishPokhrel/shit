@@ -1,0 +1,26 @@
+(supertux-sprite
+  (action
+    (name "default")
+	(fps 15)
+    (hitbox 14 7 32 44)
+    (images "skydive-0.png"
+            "skydive-1.png"
+            "skydive-2.png"
+            "skydive-3.png"
+			"skydive-4.png"
+			"skydive-3.png"
+            "skydive-2.png"
+            "skydive-1.png"))
+
+  (action
+    (name "falling")
+    (fps 15)
+    (hitbox 14 7 32 44)
+    (images "skydive-0.png"
+			"skydive-4.png"))
+
+  (action
+    (name "iced")
+    (hitbox 0 0 64 64)
+    (images "skydive-0.png"))
+)

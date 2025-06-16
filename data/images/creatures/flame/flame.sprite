@@ -1,0 +1,17 @@
+(supertux-sprite
+ (action
+  (hitbox 0 0 31.8 31.8)
+  (name "default")
+  (images "flame-0.png"
+          "flame-1.png"))
+ (action
+  (hitbox 0 0 31.8 31.8)
+  (name "fade")
+  (fps 5)
+  (images "flame-1.png"
+          "flame-fade-0.png"
+          "flame-fade-1.png"
+          "flame-fade-2.png"
+          "flame-fade-3.png"))
+)
+

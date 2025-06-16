@@ -1,0 +1,14 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (images "fire.png")
+ )
+ (action
+  (name "display")
+  (images "fire_display.png")
+ )
+ (action
+  (name "outline")
+  (images "o_outline.png")
+ )           
+)

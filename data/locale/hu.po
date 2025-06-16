@@ -1,0 +1,2870 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Andy1210 <andy1210@gmail.com>, 2019
+# Balázs Úr, 2018
+# Benjamin Leduc <giby_the_kid@yahoo.fr>, 2015
+# Levente Krisztián Büte <chris020891@gmail.com>, 2016
+# Baráth Béla <inactive+D._J._S.@transifex.com>, 2015
+# D. J. S. <djsossz@freemail.hu>, 2012
+# Norbert Molnár <buzitetu@indamail.hu>, 2013
+# gyeben <gyonkibendeguz@gmail.com>, 2013,2016
+# Haba Tamás <habatamas0@gmail.com>, 2016,2018
+# Kővágó Zoltán <DirtY.iCE.hu@gmail.com>, 2006-2007
+# Kővágó, Zoltán <DirtY.iCE.hu@gmail.com>, 2013
+# Kristóf Kófiás <kristof.kofias@gmail.com>, 2014,2020
+# Norbert Molnár <buzitetu@indamail.hu>, 2013
+# Tibor Buzási, 2015-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2020-04-13 17:25+0200\n"
+"PO-Revision-Date: 2020-04-26 16:42+0000\n"
+"Last-Translator: Kristóf Kófiás <kristof.kofias@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/arctic-games/supertux/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/trigger/secretarea_trigger.cpp:53 src/trigger/secretarea_trigger.cpp:61
+msgid "You found a secret area!"
+msgstr "Találtál egy titkos helyet!"
+
+#: src/trigger/secretarea_trigger.cpp:77 src/trigger/scripttrigger.cpp:75
+#: src/supertux/game_object.cpp:88 src/supertux/menu/editor_sector_menu.cpp:34
+#: src/supertux/menu/editor_levelset_menu.cpp:58
+#: src/supertux/menu/editor_new_levelset_menu.cpp:34
+#: src/supertux/menu/editor_level_menu.cpp:33
+msgid "Name"
+msgstr "Név"
+
+#: src/trigger/secretarea_trigger.cpp:78
+msgid "Fade tilemap"
+msgstr "Elhalványuló csempetérkép"
+
+#: src/trigger/secretarea_trigger.cpp:79 src/trigger/climbable.cpp:81
+#: src/object/infoblock.cpp:57 src/editor/worldmap_objects.cpp:174
+#: src/editor/worldmap_objects.cpp:272
+msgid "Message"
+msgstr "Üzenet"
+
+#: src/trigger/secretarea_trigger.cpp:80 src/trigger/scripttrigger.cpp:80
+#: src/trigger/door.cpp:73 src/object/ispy.cpp:67
+#: src/object/bonus_block.cpp:203 src/object/bonus_block.cpp:207
+#: src/object/pushbutton.cpp:49 src/object/powerup.cpp:190
+#: src/editor/worldmap_objects.cpp:274
+msgid "Script"
+msgstr "Szkript"
+
+#: src/trigger/scripttrigger.cpp:73
+msgid "Script Trigger"
+msgstr "Szkript Trigger"
+
+#: src/trigger/scripttrigger.cpp:76 src/object/tilemap.cpp:220
+#: src/supertux/menu/editor_sector_menu.cpp:39
+#: src/editor/object_option.cpp:148
+msgid "Width"
+msgstr "Szélesség"
+
+#: src/trigger/scripttrigger.cpp:77 src/object/tilemap.cpp:221
+#: src/supertux/menu/editor_sector_menu.cpp:40
+#: src/editor/object_option.cpp:149
+msgid "Height"
+msgstr "Magasság"
+
+#: src/trigger/scripttrigger.cpp:78 src/object/bicycle_platform.cpp:187
+#: src/object/background.cpp:160 src/object/pneumatic_platform.cpp:145
+#: src/supertux/menu/joystick_menu.cpp:170 src/supertux/moving_object.cpp:47
+#: src/editor/worldmap_objects.cpp:73
+msgid "X"
+msgstr "X"
+
+#: src/trigger/scripttrigger.cpp:79 src/object/bicycle_platform.cpp:188
+#: src/object/background.cpp:161 src/object/pneumatic_platform.cpp:146
+#: src/supertux/menu/joystick_menu.cpp:172 src/supertux/moving_object.cpp:48
+#: src/editor/worldmap_objects.cpp:74
+msgid "Y"
+msgstr "Y"
+
+#: src/trigger/scripttrigger.cpp:81 src/object/pushbutton.hpp:31
+msgid "Button"
+msgstr "Gomb"
+
+#: src/trigger/scripttrigger.cpp:82
+msgid "Oneshot"
+msgstr "Egylövetű"
+
+#: src/trigger/sequence_trigger.hpp:33
+msgid "Sequence Trigger"
+msgstr "Eseményfolyam Trigger"
+
+#: src/trigger/door.cpp:74 src/badguy/willowisp.cpp:280
+#: src/supertux/menu/editor_sector_menu.cpp:32
+#: src/editor/layers_widget.cpp:274
+#: data//images/engine/editor/objects.stoi:300
+msgid "Sector"
+msgstr "Szektor"
+
+#: src/trigger/door.cpp:75 src/editor/worldmap_objects.hpp:101
+msgid "Spawn point"
+msgstr "Kiindulási pont"
+
+#: src/trigger/switch.cpp:61 src/object/block.cpp:212 src/object/torch.cpp:91
+#: src/object/moving_sprite.cpp:156 src/object/pneumatic_platform.cpp:144
+msgid "Sprite"
+msgstr "Sprite"
+
+#: src/trigger/switch.cpp:62
+msgid "Turn on script"
+msgstr "Szkript bekapcsolása"
+
+#: src/trigger/switch.cpp:63
+msgid "Turn off script"
+msgstr "Szkript kikapcsolása"
+
+#: src/trigger/sequence_trigger.cpp:75
+msgid "Sequence"
+msgstr "Eseményfolyam"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "end sequence"
+msgstr "Lezáró eseményfolyam"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "stop Tux"
+msgstr "Tux megállítása"
+
+#: src/trigger/sequence_trigger.cpp:76
+msgid "fireworks"
+msgstr "tűzijátékok"
+
+#: src/trigger/sequence_trigger.cpp:80
+msgid "New worldmap spawnpoint"
+msgstr "Új világtérkép-kiindulási pont"
+
+#: src/trigger/sequence_trigger.cpp:81
+msgid "Worldmap fade tilemap"
+msgstr "Világtérkép elhalványuló csempetérkép"
+
+#: src/trigger/sequence_trigger.cpp:82
+msgid "Fade"
+msgstr "Halványulás"
+
+#: src/trigger/sequence_trigger.cpp:83
+msgid "Fade in"
+msgstr "Előtűnés"
+
+#: src/trigger/sequence_trigger.cpp:83
+msgid "Fade out"
+msgstr "Elhalványulás"
+
+#: src/trigger/climbable.hpp:37
+msgid "Climbable"
+msgstr "Mászható"
+
+#: src/trigger/door.hpp:34
+msgid "Door"
+msgstr "Ajtó"
+
+#: src/trigger/switch.hpp:33
+msgid "Switch"
+msgstr "Kapcsoló"
+
+#: src/trigger/secretarea_trigger.hpp:36
+msgid "Secret Area"
+msgstr "Titkos Terület"
+
+#: src/object/thunderstorm.hpp:40
+msgid "Thunderstorm"
+msgstr "Zivatar"
+
+#: src/object/ispy.cpp:66
+msgid "Facing Down"
+msgstr "Lefele Néző"
+
+#: src/object/ispy.cpp:68 src/object/gradient.cpp:124
+#: src/badguy/willowisp.cpp:279 src/badguy/badguy.cpp:840
+#: src/editor/worldmap_objects.cpp:209 src/editor/worldmap_objects.cpp:276
+msgid "Direction"
+msgstr "Irány"
+
+#: src/object/path_gameobject.hpp:44 src/object/coin.cpp:262
+#: src/object/camera.cpp:212 src/object/platform.cpp:65
+#: src/object/path_gameobject.cpp:168 src/object/tilemap.cpp:234
+#: src/badguy/willowisp.cpp:286
+msgid "Path"
+msgstr "Útvonal"
+
+#: src/object/decal.cpp:41 src/object/scripted_object.cpp:67
+#: src/object/particlesystem.cpp:62 src/object/background.cpp:164
+#: src/object/thunderstorm.cpp:68 src/object/tilemap.cpp:227
+#: src/object/gradient.cpp:122
+msgid "Z-pos"
+msgstr "Z-pozíció"
+
+#: src/object/decal.cpp:42 src/object/scripted_object.cpp:70
+#: src/object/tilemap.cpp:216
+msgid "Solid"
+msgstr "Szilárd"
+
+#: src/object/decal.cpp:43 src/supertux/menu/keyboard_menu.cpp:37
+#: src/supertux/menu/joystick_menu.cpp:74
+msgid "Action"
+msgstr "Akció"
+
+#: src/object/weak_block.hpp:35
+msgid "Weak Tile"
+msgstr "Gyenge Csempe"
+
+#: src/object/gradient.hpp:42
+msgid "Gradient"
+msgstr "Gradiens"
+
+#: src/object/tilemap.hpp:53
+msgid "Tilemap"
+msgstr "Csempetérkép"
+
+#: src/object/brick.cpp:133
+msgid "Breakable"
+msgstr "Széttörhető"
+
+#: src/object/trampoline.cpp:136 src/object/rusty_trampoline.cpp:66
+msgid "Portable"
+msgstr "Hordozható"
+
+#: src/object/spotlight.cpp:62
+msgid "Angle"
+msgstr "Szög"
+
+#: src/object/spotlight.cpp:63 src/object/magicblock.cpp:94
+#: src/object/candle.cpp:77 src/object/lantern.cpp:62
+#: src/object/ambient_light.cpp:131 src/badguy/walking_candle.cpp:82
+msgid "Color"
+msgstr "Szín"
+
+#: src/object/spotlight.cpp:64 src/object/textscroller.cpp:279
+#: src/badguy/flame.cpp:59
+msgid "Speed"
+msgstr "Sebesség"
+
+#: src/object/spotlight.cpp:65
+msgid "Counter-clockwise"
+msgstr "Óra járásával ellentétes"
+
+#: src/object/spotlight.cpp:66 src/object/candle.cpp:78
+#: src/object/torch.cpp:92
+msgid "Layer"
+msgstr "Réteg"
+
+#: src/object/scripted_object.cpp:71
+msgid "Physics enabled"
+msgstr "Fizika engedélyezve"
+
+#: src/object/scripted_object.cpp:72
+msgid "Visible"
+msgstr "Látható"
+
+#: src/object/scripted_object.cpp:73 src/badguy/willowisp.cpp:282
+msgid "Hit script"
+msgstr "Találat szkript"
+
+#: src/object/bonus_block.cpp:204
+msgid "Count"
+msgstr "Darabszám"
+
+#: src/object/bonus_block.cpp:205
+msgid "Content"
+msgstr "Tartalom"
+
+#: src/object/bonus_block.cpp:206 src/object/coin.hpp:43
+msgid "Coin"
+msgstr "Érme"
+
+#: src/object/bonus_block.cpp:206
+msgid "Growth (fire flower)"
+msgstr "Növekedés (tűzvirág)"
+
+#: src/object/bonus_block.cpp:206
+msgid "Growth (ice flower)"
+msgstr "Növekedés (jégvirág)"
+
+#: src/object/bonus_block.cpp:206
+msgid "Growth (air flower)"
+msgstr "Növekedés (légvirág)"
+
+#: src/object/bonus_block.cpp:207
+msgid "Growth (earth flower)"
+msgstr "Növekedés (földvirág)"
+
+#: src/object/bonus_block.cpp:207
+msgid "Star"
+msgstr "Csillag"
+
+#: src/object/bonus_block.cpp:207
+msgid "Tux doll"
+msgstr "Tux baba"
+
+#: src/object/bonus_block.cpp:207
+msgid "Custom"
+msgstr "Egyéni"
+
+#: src/object/bonus_block.cpp:207
+msgid "Light"
+msgstr "Fény"
+
+#: src/object/bonus_block.cpp:208 src/object/trampoline.hpp:35
+msgid "Trampoline"
+msgstr "Ugródeszka"
+
+#: src/object/bonus_block.cpp:208
+msgid "Coin rain"
+msgstr "Érme eső"
+
+#: src/object/bonus_block.cpp:208
+msgid "Coin explosion"
+msgstr "Érme robbanás"
+
+#: src/object/bonus_block.cpp:212
+msgid "Custom Content"
+msgstr "Egyedi Tartalom"
+
+#: src/object/pneumatic_platform.hpp:62
+msgid "Pneumatic Platform"
+msgstr "Pneumatikus platform"
+
+#: src/object/coin.cpp:264 src/object/tilemap.cpp:236
+msgid "Following path"
+msgstr "Követési út"
+
+#: src/object/coin.cpp:267 src/object/camera.cpp:215
+#: src/object/platform.cpp:66 src/object/tilemap.cpp:240
+msgid "Path Mode"
+msgstr "Útvonalmód"
+
+#: src/object/coin.cpp:270 src/object/coin.cpp:298
+msgid "Collect script"
+msgstr "Begyűjtő parancsfájl"
+
+#: src/object/ghost_particle_system.hpp:36
+msgid "Ghost Particles"
+msgstr "Szellem Részecskék"
+
+#: src/object/camera.cpp:207
+msgid "Mode"
+msgstr "Mód"
+
+#: src/object/camera.cpp:208
+msgid "normal"
+msgstr "normál"
+
+#: src/object/camera.cpp:208
+msgid "manual"
+msgstr "manuális"
+
+#: src/object/camera.cpp:208
+msgid "autoscroll"
+msgstr "automatikus görgetés"
+
+#: src/object/textscroller.cpp:280 src/object/music_object.cpp:109
+msgid "File"
+msgstr "Fájl"
+
+#: src/object/spawnpoint.hpp:46 src/badguy/willowisp.cpp:281
+#: src/editor/worldmap_objects.cpp:173
+msgid "Spawnpoint"
+msgstr "Kiindulási pont"
+
+#: src/object/rusty_trampoline.cpp:65
+msgid "Counter"
+msgstr "Számláló"
+
+#: src/object/candle.hpp:36
+msgid "Candle"
+msgstr "Gyertya"
+
+#: src/object/particlesystem.cpp:61 src/badguy/darttrap.cpp:127
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+#: src/object/invisible_block.hpp:31
+msgid "Invisible Block"
+msgstr "Láthatatlan Blokk"
+
+#: src/object/snow_particle_system.hpp:35
+msgid "Snow Particles"
+msgstr "Hó Részecskék"
+
+#: src/object/powerup.hpp:35
+msgid "Powerup"
+msgstr "Erősítő"
+
+#: src/object/level_time.hpp:55
+msgid "Time Limit"
+msgstr "Időkorlát"
+
+#: src/object/ambient_sound.cpp:119 src/supertux/menu/options_menu.cpp:365
+#: data//credits.stxt:335
+msgid "Sound"
+msgstr "Hang"
+
+#: src/object/ambient_sound.cpp:120
+msgid "Distance factor"
+msgstr "Távolságfaktor"
+
+#: src/object/ambient_sound.cpp:121
+msgid "Distance bias"
+msgstr "Távolság eltolódás"
+
+#: src/object/ambient_sound.cpp:122
+msgid "Volume"
+msgstr "Hangerő"
+
+#: src/object/torch.hpp:41
+msgid "Torch"
+msgstr "Fáklya"
+
+#: src/object/icecrusher.hpp:48
+msgid "Icecrusher"
+msgstr "Jégtörő"
+
+#: src/object/background.hpp:42
+msgid "Background"
+msgstr "Háttér"
+
+#: src/object/firefly.hpp:36
+msgid "Checkpoint"
+msgstr "Ellenőrzőpont"
+
+#: src/object/ambient_light.hpp:36
+msgid "Ambient Light"
+msgstr "Hangulatfény"
+
+#: src/object/lantern.hpp:37
+msgid "Lantern"
+msgstr "Lámpás"
+
+#: src/object/wind.hpp:40
+msgid "Wind"
+msgstr "Szél"
+
+#: src/object/bicycle_platform.cpp:190
+msgid "Platforms"
+msgstr "Platformok"
+
+#: src/object/bicycle_platform.cpp:191 src/badguy/flame.cpp:58
+#: src/badguy/crystallo.cpp:36
+msgid "Radius"
+msgstr "Sugár"
+
+#: src/object/bicycle_platform.cpp:192
+msgid "Momentum change rate"
+msgstr "Lendületváltozás mértéke"
+
+#: src/object/rain_particle_system.hpp:34
+msgid "Rain Particles"
+msgstr "Eső Részecskék"
+
+#: src/object/platform.hpp:45
+msgid "Platform"
+msgstr "Platform"
+
+#: src/object/rock.hpp:42
+msgid "Rock"
+msgstr "Kő"
+
+#: src/object/music_object.hpp:41 src/supertux/menu/options_menu.cpp:367
+#: data//credits.stxt:277
+msgid "Music"
+msgstr "Zene"
+
+#: src/object/rusty_trampoline.hpp:39
+msgid "Rusty Trampoline"
+msgstr "Rozsdás Ugródeszka"
+
+#: src/object/particlesystem.hpp:57
+msgid "Particle system"
+msgstr "Részecskerendszer"
+
+#: src/object/candle.cpp:75 src/object/torch.cpp:90
+msgid "Burning"
+msgstr "Égő"
+
+#: src/object/candle.cpp:76
+msgid "Flicker"
+msgstr "Vibrálás"
+
+#: src/object/text_array_object.hpp:50
+msgid "Text array"
+msgstr "Szövegtömb"
+
+#: src/object/infoblock.hpp:36
+msgid "Info Block"
+msgstr "Infó Blokk"
+
+#: src/object/powerup.cpp:191
+msgid "Disable gravity"
+msgstr "Gravitáció kikapcsolása"
+
+#: src/object/ambient_sound.hpp:62
+msgid "Ambient Sound"
+msgstr "Atmoszférahang"
+
+#: src/object/level_time.cpp:51 src/supertux/statistics.cpp:288
+#: src/editor/node_marker.cpp:80
+msgid "Time"
+msgstr "Idő"
+
+#: src/object/hurting_platform.hpp:30
+msgid "Hurting Platform"
+msgstr "Sebző Platform"
+
+#: src/object/background.cpp:163
+msgid "Fill"
+msgstr "Kitöltés"
+
+#: src/object/background.cpp:165
+msgid "Alignment"
+msgstr "Igazítás"
+
+#: src/object/background.cpp:166
+msgid "none"
+msgstr "semmi"
+
+#: src/object/background.cpp:166 src/editor/object_settings.cpp:112
+msgid "left"
+msgstr "bal"
+
+#: src/object/background.cpp:166 src/editor/object_settings.cpp:112
+msgid "right"
+msgstr "jobb"
+
+#: src/object/background.cpp:166
+msgid "top"
+msgstr "teteje"
+
+#: src/object/background.cpp:166
+msgid "bottom"
+msgstr "alja"
+
+#: src/object/background.cpp:169
+msgid "Scroll offset x"
+msgstr "Görgetés eltolódás x"
+
+#: src/object/background.cpp:170
+msgid "Scroll offset y"
+msgstr "Görgetés eltolódás y"
+
+#: src/object/background.cpp:171
+msgid "Scroll speed x"
+msgstr "Görgetési sebesség x"
+
+#: src/object/background.cpp:172
+msgid "Scroll speed y"
+msgstr "Görgetési sebesség y"
+
+#: src/object/background.cpp:173
+msgid "Parallax Speed x"
+msgstr "Parallax Sebesség x"
+
+#: src/object/background.cpp:174
+msgid "Parallax Speed y"
+msgstr "Parallax Sebesség y"
+
+#: src/object/background.cpp:175
+msgid "Top image"
+msgstr "Felső kép"
+
+#: src/object/background.cpp:176
+msgid "Image"
+msgstr "Kép"
+
+#: src/object/background.cpp:177
+msgid "Bottom image"
+msgstr "Alsó kép"
+
+#: src/object/background.cpp:178 src/object/tilemap.cpp:228
+#: src/object/gradient.cpp:129
+msgid "Draw target"
+msgstr "Rajzolási cél"
+
+#: src/object/background.cpp:179 src/object/tilemap.cpp:229
+#: src/object/gradient.cpp:130
+msgid "Normal"
+msgstr "Normál"
+
+#: src/object/background.cpp:179 src/object/tilemap.cpp:229
+#: src/object/gradient.cpp:130
+msgid "Lightmap"
+msgstr "Könnyű pálya"
+
+#: src/object/wind.cpp:63
+msgid "Speed X"
+msgstr "Sebesség x"
+
+#: src/object/wind.cpp:64
+msgid "Speed Y"
+msgstr "Sebesség y"
+
+#: src/object/wind.cpp:65
+msgid "Acceleration"
+msgstr "Gyorsulás"
+
+#: src/object/wind.cpp:66
+msgid "Blowing"
+msgstr "Fúj"
+
+#: src/object/bicycle_platform.hpp:64
+msgid "Bicycle Platform"
+msgstr "Bicikli Platform"
+
+#: src/object/platform.cpp:67 src/object/thunderstorm.cpp:69
+#: src/object/tilemap.cpp:241
+msgid "Running"
+msgstr "Futó"
+
+#: src/object/rock.cpp:182
+msgid "On-grab script"
+msgstr "On-grab szkript"
+
+#: src/object/rock.cpp:183
+msgid "On-ungrab script"
+msgstr "On-ungrab szkript"
+
+#: src/object/particlesystem_interactive.hpp:48
+msgid "Interactive particle system"
+msgstr "Interaktív részecskerendszer"
+
+#: src/object/thunderstorm.cpp:70
+msgid "Interval"
+msgstr "Időköz"
+
+#: src/object/thunderstorm.cpp:71
+msgid "Strike Script"
+msgstr "Strike Szkript"
+
+#: src/object/cloud_particle_system.hpp:36
+msgid "Cloud Particles"
+msgstr "Felhő Részecskék"
+
+#: src/object/ispy.hpp:33
+msgid "Ispy"
+msgstr "Kémszem"
+
+#: src/object/skull_tile.hpp:31
+msgid "Skull Tile"
+msgstr "Skull Csempe"
+
+#: src/object/weak_block.cpp:211
+msgid "Linked"
+msgstr "Összekapcsolva"
+
+#: src/object/decal.hpp:34
+msgid "Decal"
+msgstr "Matrica"
+
+#: src/object/tilemap.cpp:217
+msgid "Resize offset x"
+msgstr "Az x offset átméretezése"
+
+#: src/object/tilemap.cpp:218
+msgid "Resize offset y"
+msgstr "Az y offset átméretezése"
+
+#: src/object/tilemap.cpp:223
+msgid "Alpha"
+msgstr "Alpha"
+
+#: src/object/tilemap.cpp:224
+msgid "Speed x"
+msgstr "Sebesség x"
+
+#: src/object/tilemap.cpp:225
+msgid "Speed y"
+msgstr "Sebesség y"
+
+#: src/object/tilemap.cpp:226
+msgid "Tint"
+msgstr "Tint"
+
+#: src/object/tilemap.cpp:244 src/supertux/menu/editor_tilegroup_menu.cpp:26
+#: src/editor/toolbox_widget.cpp:90
+msgid "Tiles"
+msgstr "Tiles"
+
+#: src/object/gradient.cpp:115
+msgid "Left Colour"
+msgstr "Baloldali szín"
+
+#: src/object/gradient.cpp:116
+msgid "Right Colour"
+msgstr "Jobboldali szín"
+
+#: src/object/gradient.cpp:118
+msgid "Top Colour"
+msgstr "Fenti szín"
+
+#: src/object/gradient.cpp:119
+msgid "Bottom Colour"
+msgstr "Alsó szín"
+
+#: src/object/gradient.cpp:125
+msgid "Vertical"
+msgstr "Függőleges"
+
+#: src/object/gradient.cpp:125
+msgid "Horizontal"
+msgstr "Vízszintes"
+
+#: src/object/gradient.cpp:125
+msgid "Vertical (whole sector)"
+msgstr "Függőleges (teljes szektor)"
+
+#: src/object/gradient.cpp:125
+msgid "Horizontal (whole sector)"
+msgstr "Vízszintes (teljes szektor)"
+
+#: src/object/gradient.cpp:135
+msgid "Blend mode"
+msgstr "Blend mode"
+
+#: src/object/gradient.cpp:136
+msgid "Blend"
+msgstr "Blend"
+
+#: src/object/gradient.cpp:136
+msgid "Additive"
+msgstr "Összegző"
+
+#: src/object/gradient.cpp:136
+msgid "Modulate"
+msgstr "Szorzás"
+
+#: src/object/gradient.cpp:136 src/supertux/menu/keyboard_menu.cpp:60
+#: src/supertux/menu/joystick_menu.cpp:106
+#: src/supertux/menu/joystick_menu.cpp:213 src/editor/object_settings.cpp:124
+msgid "None"
+msgstr "Nincs"
+
+#: src/object/unstable_tile.hpp:34
+msgid "Unstable Tile"
+msgstr "Ingatag Csempe"
+
+#: src/object/brick.hpp:31
+msgid "Brick"
+msgstr "Tégla"
+
+#: src/object/invisible_wall.hpp:34
+msgid "Invisible Wall"
+msgstr "Láthatatlan Fal"
+
+#: src/object/spotlight.hpp:38
+msgid "Spotlight"
+msgstr "Fényszóró"
+
+#: src/object/scripted_object.hpp:39
+msgid "Scripted Object"
+msgstr "Szkriptelt Elem"
+
+#: src/object/coin.hpp:75
+msgid "Heavy Coin"
+msgstr "Nehéz Érme"
+
+#: src/object/bonus_block.hpp:55
+msgid "Bonus Block"
+msgstr "Bónusz Blokk"
+
+#: src/object/magicblock.hpp:41
+msgid "Magic Tile"
+msgstr "Varázscsempe"
+
+#: src/object/camera.hpp:67
+msgid "Camera"
+msgstr "Kamera"
+
+#: src/object/textscroller.hpp:44
+msgid "TextScroller"
+msgstr "TextScroller"
+
+#: src/gui/menu_badguy_select.cpp:93
+msgid "List of enemies"
+msgstr "Ellenségek listája"
+
+#: src/gui/menu_badguy_select.cpp:95
+msgid "Enemy"
+msgstr "Ellenség"
+
+#: src/gui/menu_badguy_select.cpp:96
+msgid "Add"
+msgstr "Hozzáadás"
+
+#: src/gui/menu_badguy_select.cpp:106 src/gui/menu_color.cpp:34
+#: src/gui/dialog.hpp:80 src/gui/menu_script.cpp:47
+#: src/supertux/menu/editor_sector_menu.cpp:46
+#: src/supertux/menu/editor_levelset_menu.cpp:62
+#: src/supertux/menu/addon_menu.cpp:349
+#: src/supertux/menu/editor_new_levelset_menu.cpp:37
+#: src/supertux/menu/editor_level_menu.cpp:44 src/editor/object_menu.cpp:43
+msgid "OK"
+msgstr "Rendben"
+
+#: src/gui/menu_badguy_select.cpp:135
+msgid "Do you want to delete this badguy from the list?"
+msgstr "Törölni szeretnéd ezt a rosszfiút a listáról?"
+
+#: src/gui/menu_badguy_select.cpp:136 src/gui/dialog.hpp:89
+#: src/supertux/menu/editor_menu.cpp:123 src/editor/editor.cpp:478
+msgid "Yes"
+msgstr "Igen"
+
+#: src/gui/menu_badguy_select.cpp:139 src/gui/dialog.hpp:90
+#: src/supertux/menu/editor_menu.cpp:126 src/editor/editor.cpp:485
+msgid "No"
+msgstr "Nem"
+
+#: src/gui/menu_color.cpp:24
+msgid "Mix the colour"
+msgstr "Színkeverés"
+
+#: src/gui/menu_filesystem.cpp:111
+#: src/supertux/menu/editor_sectors_menu.cpp:45
+#: src/supertux/menu/editor_sectors_menu.cpp:95
+#: src/supertux/menu/editor_sectors_menu.cpp:100
+#: src/supertux/menu/editor_objectgroup_menu.cpp:42
+#: src/supertux/menu/editor_tilegroup_menu.cpp:36 src/editor/editor.cpp:489
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: src/gui/menu_script.cpp:28
+msgid "Edit script"
+msgstr "Szkript szerkesztése"
+
+#: src/badguy/toad.hpp:37
+msgid "Toad"
+msgstr "Varangy"
+
+#: src/badguy/mrtree.hpp:29
+msgid "Walking Tree"
+msgstr "Sétáló Fa"
+
+#: src/badguy/plant.hpp:33
+msgid "Plant"
+msgstr "Növény"
+
+#: src/badguy/crystallo.hpp:30
+msgid "Crystallo"
+msgstr "Kristály"
+
+#: src/badguy/totem.hpp:36
+msgid "Totem"
+msgstr "Totem"
+
+#: src/badguy/stalactite.hpp:38
+msgid "Stalactite"
+msgstr "Jégcsap"
+
+#: src/badguy/haywire.hpp:42
+msgid "Haywire"
+msgstr "Kerge"
+
+#: src/badguy/dispenser.hpp:48
+msgid "Dispenser"
+msgstr "Adagoló"
+
+#: src/badguy/short_fuse.hpp:29
+msgid "Short Fuse"
+msgstr "Gyorskioldó"
+
+#: src/badguy/zeekling.hpp:36
+msgid "Zeekling"
+msgstr "Zeeklény"
+
+#: src/badguy/mriceblock.hpp:46
+msgid "Iceblock"
+msgstr "Jégkocka"
+
+#: src/badguy/jumpy.hpp:36
+msgid "Jumpy"
+msgstr "Ugráló"
+
+#: src/badguy/captainsnowball.hpp:31
+msgid "Captain Snowball"
+msgstr "Hógolyó Kapitány"
+
+#: src/badguy/ghosttree.hpp:42
+msgid "Ghost Tree"
+msgstr "Szellemfa"
+
+#: src/badguy/willowisp.cpp:283
+msgid "Track range"
+msgstr "Pályatartomány"
+
+#: src/badguy/willowisp.cpp:284
+msgid "Vanish range"
+msgstr "Eltűnési tartomány"
+
+#: src/badguy/willowisp.cpp:285
+msgid "Fly speed"
+msgstr "Repülési sebesség"
+
+#: src/badguy/kugelblitz.hpp:39
+msgid "Kugelblitz"
+msgstr "Gömbvillám"
+
+#: src/badguy/mole_rock.hpp:42
+msgid "Mole's rock"
+msgstr "Vakondkő"
+
+#: src/badguy/badguy.cpp:841
+msgid "Death script"
+msgstr "Halál szkript"
+
+#: src/badguy/sspiky.hpp:36
+msgid "Sleeping Spiky"
+msgstr "Alvó Tüskés"
+
+#: src/badguy/yeti_stalactite.hpp:33
+msgid "Yeti's Stalactite"
+msgstr "A Jeti Jégcsapja"
+
+#: src/badguy/livefire.hpp:37
+msgid "Walking Flame"
+msgstr "Sétáló Láng"
+
+#: src/badguy/livefire.hpp:67
+msgid "Sleeping Flame"
+msgstr "Alvó Láng"
+
+#: src/badguy/livefire.hpp:83
+msgid "Dormant Flame"
+msgstr "Nyugvó Láng"
+
+#: src/badguy/owl.hpp:39
+msgid "Owl"
+msgstr "Bagoly"
+
+#: src/badguy/igel.hpp:34
+msgid "Igel"
+msgstr "Sündisznó"
+
+#: src/badguy/darttrap.cpp:126
+msgid "Initial delay"
+msgstr "Kezdeti késleltetés"
+
+#: src/badguy/darttrap.cpp:128
+msgid "Fire delay"
+msgstr "Tűz késleltetés"
+
+#: src/badguy/darttrap.cpp:129
+msgid "Ammo"
+msgstr "Lőszer"
+
+#: src/badguy/snowball.hpp:29
+msgid "Snowball"
+msgstr "Hógolyó"
+
+#: src/badguy/smartblock.hpp:29
+msgid "Smartblock"
+msgstr "Okoskocka"
+
+#: src/badguy/yeti.cpp:369
+msgid "Fixed position"
+msgstr "Fix pozíció"
+
+#: src/badguy/yeti.cpp:370
+msgid "Lives"
+msgstr "Életek"
+
+#: src/badguy/goldbomb.hpp:49
+msgid "Gold Bomb"
+msgstr "Arany Bomba"
+
+#: src/badguy/flyingsnowball.hpp:32
+msgid "Flying Snowball"
+msgstr "Repülő Hógolyó"
+
+#: src/badguy/skullyhop.hpp:37
+msgid "Skullyhop"
+msgstr "Koponyka"
+
+#: src/badguy/kamikazesnowball.hpp:32
+msgid "Snowshot"
+msgstr "Hólövés"
+
+#: src/badguy/kamikazesnowball.hpp:52
+msgid "Leafshot"
+msgstr "Levéllövés"
+
+#: src/badguy/flame.hpp:41
+msgid "Flame"
+msgstr "Láng"
+
+#: src/badguy/poisonivy.hpp:30
+msgid "Spring Leaf"
+msgstr "Tavaszi Levél"
+
+#: src/badguy/willowisp.hpp:55
+msgid "Will o' Wisp"
+msgstr "A Lidérc Akarata"
+
+#: src/badguy/badguy.hpp:53
+msgid "Badguy"
+msgstr "Rosszfiú"
+
+#: src/badguy/ghostflame.hpp:30
+msgid "Ghost Flame"
+msgstr "Szellem Láng"
+
+#: src/badguy/spiky.hpp:30
+msgid "Spiky"
+msgstr "Tüskés"
+
+#: src/badguy/walkingleaf.hpp:30
+msgid "Autumn Leaf"
+msgstr "Őszi Levél"
+
+#: src/badguy/owl.cpp:227
+msgid "Carry"
+msgstr "Felvesz"
+
+#: src/badguy/darttrap.hpp:33
+msgid "Dart Trap"
+msgstr "Nyílcsapda"
+
+#: src/badguy/skydive.hpp:38
+msgid "Skydive"
+msgstr "Ejtőernyőzés"
+
+#: src/badguy/yeti.hpp:37
+msgid "Yeti"
+msgstr "Jeti"
+
+#: src/badguy/mole.hpp:39
+msgid "Mole"
+msgstr "Vakond"
+
+#: src/badguy/mrbomb.hpp:42
+msgid "Bomb"
+msgstr "Bomba"
+
+#: src/badguy/walking_candle.hpp:40
+msgid "Walking Candle"
+msgstr "Sétáló Gyertya"
+
+#: src/badguy/angrystone.hpp:34
+msgid "Angry Stone"
+msgstr "Mérges Kő"
+
+#: src/badguy/spidermite.hpp:35
+msgid "Spider"
+msgstr "Pók"
+
+#: src/badguy/ghoul.hpp:28
+msgid "Ghoul"
+msgstr "Hullarabló"
+
+#: src/badguy/snowman.hpp:28
+msgid "Snowman"
+msgstr "Hóember"
+
+#: src/badguy/stumpy.hpp:35
+msgid "Walking Stump"
+msgstr "Sétáló Rönk"
+
+#: src/badguy/fish.hpp:40
+msgid "Fish"
+msgstr "Hal"
+
+#: src/badguy/dispenser.cpp:439
+msgid "Interval (seconds)"
+msgstr "Időköz (másodperc)"
+
+#: src/badguy/dispenser.cpp:440
+msgid "Random"
+msgstr "Véletlen"
+
+#: src/badguy/dispenser.cpp:441 data//images/engine/editor/objects.stoi:4
+msgid "Enemies"
+msgstr "Ellenségek"
+
+#: src/badguy/dispenser.cpp:442
+msgid "Limit dispensed badguys"
+msgstr "Kibocsátott rosszfiúk korlátozása"
+
+#: src/badguy/dispenser.cpp:444
+msgid "Max concurrent badguys"
+msgstr "Maximum egyidejű rosszfiúk"
+
+#: src/badguy/dispenser.cpp:446 src/supertux/menu/editor_levelset_menu.cpp:60
+msgid "Type"
+msgstr "Típus"
+
+#: src/badguy/dispenser.cpp:447
+msgid "dropper"
+msgstr "ejtő"
+
+#: src/badguy/dispenser.cpp:447
+msgid "rocket launcher"
+msgstr "rakéta kilövő"
+
+#: src/badguy/dispenser.cpp:447
+msgid "cannon"
+msgstr "ágyú"
+
+#: src/badguy/dispenser.cpp:447
+msgid "invisible"
+msgstr "láthatatlan"
+
+#: src/badguy/snail.hpp:42
+msgid "Snail"
+msgstr "Csiga"
+
+#: src/badguy/smartball.hpp:31
+msgid "Smartball"
+msgstr "Okosgolyó"
+
+#: src/badguy/bouncing_snowball.hpp:31
+msgid "Bouncing Snowball"
+msgstr "Pattogó hógolyó"
+
+#: src/badguy/iceflame.hpp:33
+msgid "Ice Flame"
+msgstr "Jég Láng"
+
+#: src/badguy/dart.hpp:43
+msgid "Dart"
+msgstr "Dárda"
+
+#: src/supertux/statistics.cpp:47
+msgid "Max coins collected:"
+msgstr "Legtöbb összegyűjtött érme:"
+
+#: src/supertux/statistics.cpp:48
+msgid "Max fragging:"
+msgstr "Legtöbb legyőzött ellenség:"
+
+#: src/supertux/statistics.cpp:49
+msgid "Max secrets found:"
+msgstr "Legtöbb megtalált titok:"
+
+#: src/supertux/statistics.cpp:50
+msgid "Best time completed:"
+msgstr "Legjobb befejezett idő:"
+
+#: src/supertux/statistics.cpp:51
+msgid "Level target time:"
+msgstr "Pálya szintidő:"
+
+#: src/supertux/statistics.cpp:139 src/supertux/levelintro.cpp:160
+msgid "Best Level Statistics"
+msgstr "Legjobb eredmények a pályán"
+
+#: src/supertux/statistics.cpp:228
+msgid "You"
+msgstr "Most"
+
+#: src/supertux/statistics.cpp:230
+msgid "Best"
+msgstr "Legjobb"
+
+#: src/supertux/statistics.cpp:232 src/supertux/levelintro.cpp:166
+msgid "Coins"
+msgstr "Érmék"
+
+#: src/supertux/statistics.cpp:255
+msgid "Badguys"
+msgstr "Rosszfiúk"
+
+#: src/supertux/statistics.cpp:271 src/supertux/levelintro.cpp:172
+msgid "Secrets"
+msgstr "Titkok"
+
+#: src/supertux/game_object.hpp:77
+msgid "Unknown object"
+msgstr "Ismeretlen elem"
+
+#: src/supertux/command_line_arguments.cpp:74
+#, c-format
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "Használat: {} [BEÁLLÍTÁSOK] [PÁLYAFÁJL]"
+
+#: src/supertux/command_line_arguments.cpp:75
+msgid "General Options:"
+msgstr "Általános beállítások:"
+
+#: src/supertux/command_line_arguments.cpp:76
+msgid "  -h, --help                   Show this help message and quit"
+msgstr "  -h, --help                   Ennek a segítségnek a megjelenítése és kilépés"
+
+#: src/supertux/command_line_arguments.cpp:77
+msgid "  -v, --version                Show SuperTux version and quit"
+msgstr "  -v, --version                SuperTux verzió megjelenítése és kilépés"
+
+#: src/supertux/command_line_arguments.cpp:78
+msgid "  --verbose                    Print verbose messages"
+msgstr "  --verbose                    Részletes üzenetek kiírása"
+
+#: src/supertux/command_line_arguments.cpp:79
+msgid "  --debug                      Print extra verbose messages"
+msgstr "  --debug                      Extra részletes üzenetek kiírása"
+
+#: src/supertux/command_line_arguments.cpp:80
+msgid ""
+"  --print-datadir              Print SuperTux's primary data directory."
+msgstr "  --print-datadir              A SuperTux's elsődleges adatmappájának kiírása."
+
+#: src/supertux/command_line_arguments.cpp:82
+msgid "Video Options:"
+msgstr "Videó beállítások:"
+
+#: src/supertux/command_line_arguments.cpp:83
+msgid "  -f, --fullscreen             Run in fullscreen mode"
+msgstr "  -f, --fullscreen             Futtatás teljes képernyős módban"
+
+#: src/supertux/command_line_arguments.cpp:84
+msgid "  -w, --window                 Run in window mode"
+msgstr "  -w, --window                 Futtatás ablak módban"
+
+#: src/supertux/command_line_arguments.cpp:85
+msgid "  -g, --geometry WIDTHxHEIGHT  Run SuperTux in given resolution"
+msgstr "  -g, --geometry WIDTHxHEIGHT  SuperTux futtatása a megadott felbontással"
+
+#: src/supertux/command_line_arguments.cpp:86
+msgid "  -a, --aspect WIDTH:HEIGHT    Run SuperTux with given aspect ratio"
+msgstr "  -a, --aspect WIDTH:HEIGHT    SuperTux futtatása a megadott képaránnyal"
+
+#: src/supertux/command_line_arguments.cpp:87
+msgid "  -d, --default                Reset video settings to default values"
+msgstr "  -d, --default                Videó beállítások visszaállítása az alapértelmezett értékekre"
+
+#: src/supertux/command_line_arguments.cpp:88
+msgid "  --renderer RENDERER          Use sdl, opengl, or auto to render"
+msgstr "  --renderer RENDERER          sdl, opengl vagy auto használata rendereléshez"
+
+#: src/supertux/command_line_arguments.cpp:90
+msgid "Audio Options:"
+msgstr "Audió beállítások:"
+
+#: src/supertux/command_line_arguments.cpp:91
+msgid "  --disable-sound              Disable sound effects"
+msgstr "  --disable-sound              Hangeffektek letiltása"
+
+#: src/supertux/command_line_arguments.cpp:92
+msgid "  --disable-music              Disable music"
+msgstr "  --disable-music              Zene letiltása"
+
+#: src/supertux/command_line_arguments.cpp:94
+msgid "Game Options:"
+msgstr "Játék beállítások:"
+
+#: src/supertux/command_line_arguments.cpp:95
+msgid "  --edit-level                 Open given level in editor"
+msgstr "  --edit-level                 Adott pálya megnyitása a szerkesztőben"
+
+#: src/supertux/command_line_arguments.cpp:96
+msgid "  --resave                     Loads given level and saves it"
+msgstr "--resave Betölti a megadott pályát és elmenti"
+
+#: src/supertux/command_line_arguments.cpp:97
+msgid "  --show-fps                   Display framerate in levels"
+msgstr "  --show-fps                   Képfrissítési arány megjelenítése a pályákon"
+
+#: src/supertux/command_line_arguments.cpp:98
+msgid "  --no-show-fps                Do not display framerate in levels"
+msgstr "  --no-show-fps                Képfrissítési arány elrejtése a pályákon"
+
+#: src/supertux/command_line_arguments.cpp:99
+msgid "  --show-pos                   Display player's current position"
+msgstr "  --show-pos                   Játékos pozíciójának mutatása"
+
+#: src/supertux/command_line_arguments.cpp:100
+msgid "  --no-show-pos                Do not display player's position"
+msgstr "  --no-show-pos                Ne mutassa a játékos pozícióját"
+
+#: src/supertux/command_line_arguments.cpp:101
+msgid "  --developer                  Switch on developer feature"
+msgstr "  --developer                  Fejlesztői funkciók bekapcsolása"
+
+#: src/supertux/command_line_arguments.cpp:102
+msgid "  -s, --debug-scripts          Enable script debugger."
+msgstr "  -s, --debug-scripts          Szkript hibakereső engedélyezése"
+
+#: src/supertux/command_line_arguments.cpp:103
+msgid ""
+"  --spawn-pos X,Y              Where in the level to spawn Tux. Only used if"
+" level is specified."
+msgstr "  --spawn-pos X,Y              Hol jelenjen meg Tux a pálya kezdésénél. Csak akkor használatos, ha meg van adva a pálya."
+
+#: src/supertux/command_line_arguments.cpp:104
+msgid "  --sector SECTOR              Spawn Tux in SECTOR\n"
+msgstr "  --sector SECTOR              Tux indítása SECTOR-ban\n"
+
+#: src/supertux/command_line_arguments.cpp:105
+msgid "  --spawnpoint SPAWNPOINT      Spawn Tux at SPAWNPOINT\n"
+msgstr "  --spawnpoint SPAWNPOINT      Tux indítása SPAWNPOINT-ról\n"
+
+#: src/supertux/command_line_arguments.cpp:107
+msgid "Demo Recording Options:"
+msgstr "Demó felvételi beállítások:"
+
+#: src/supertux/command_line_arguments.cpp:108
+msgid "  --record-demo FILE LEVEL     Record a demo to FILE"
+msgstr "  --record-demo FÁJL PÁLYA     Demó felvétele FÁJL-ba"
+
+#: src/supertux/command_line_arguments.cpp:109
+msgid "  --play-demo FILE LEVEL       Play a recorded demo"
+msgstr "  --play-demo FÁJL PÁLYA       Felvett demó lejátszása"
+
+#: src/supertux/command_line_arguments.cpp:111
+msgid "Directory Options:"
+msgstr "Mappa beállítások:"
+
+#: src/supertux/command_line_arguments.cpp:112
+msgid ""
+"  --datadir DIR                Set the directory for the games datafiles"
+msgstr "  --datadir MAPPA              A játék adatfájlok mappájának beállítása"
+
+#: src/supertux/command_line_arguments.cpp:113
+msgid ""
+"  --userdir DIR                Set the directory for user data (savegames, "
+"etc.)"
+msgstr "  --userdir MAPPA              A felhasználói adatok (játékmentések stb.) mappájának beállítása"
+
+#: src/supertux/command_line_arguments.cpp:115
+msgid "Add-On Options:"
+msgstr "Kiegészítők beállításai:"
+
+#: src/supertux/command_line_arguments.cpp:116
+msgid "  --repository-url URL         Set the URL to the Add-On repository"
+msgstr "--repository-url URL Megadja a kiegészítő-tároló webcímét"
+
+#: src/supertux/command_line_arguments.cpp:118
+msgid "Environment variables:"
+msgstr "Környezeti változók:"
+
+#: src/supertux/command_line_arguments.cpp:119
+msgid ""
+"  SUPERTUX2_USER_DIR           Directory for user data (savegames, etc.)"
+msgstr "  SUPERTUX2_USER_DIR            A felhasználói adatok (játékmentések stb.) mappája"
+
+#: src/supertux/command_line_arguments.cpp:120
+msgid "  SUPERTUX2_DATA_DIR           Directory for the games datafiles"
+msgstr "  SUPERTUX2_DATA_DIR           A játék adatfájlainak mappája"
+
+#: src/supertux/title_screen.cpp:43
+msgid "Copyright"
+msgstr "Copyright"
+
+#: src/supertux/title_screen.cpp:44
+msgid ""
+"This game comes with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to\n"
+"redistribute it under certain conditions; see the license file for details.\n"
+msgstr "A játék abszolút nem tartalmaz semmilyen jótállást. A játék ingyenes, te is terjesztheted bizonyos\nfeltételek mellett. Lásd a licenc fájlt a részletekért.\n"
+
+#: src/supertux/menu/contrib_menu.cpp:79
+#: src/supertux/menu/world_set_menu.cpp:31
+msgid "Contrib Levels"
+msgstr "Rajongói pályák"
+
+#: src/supertux/menu/contrib_menu.cpp:119
+#: src/supertux/menu/contrib_menu.cpp:150
+msgid "*NEW*"
+msgstr "*ÚJ*"
+
+#: src/supertux/menu/contrib_menu.cpp:172 src/supertux/menu/debug_menu.cpp:75
+#: src/supertux/menu/editor_level_select_menu.cpp:84
+#: src/supertux/menu/worldmap_cheat_menu.cpp:55
+#: src/supertux/menu/worldmap_cheat_menu.cpp:153
+#: src/supertux/menu/editor_levelset_select_menu.cpp:96
+#: src/supertux/menu/options_menu.cpp:405
+#: src/supertux/menu/profile_menu.cpp:47 src/supertux/menu/addon_menu.cpp:213
+#: src/supertux/menu/editor_new_levelset_menu.cpp:40
+#: src/supertux/menu/world_set_menu.cpp:33
+#: src/supertux/menu/keyboard_menu.cpp:51
+#: src/supertux/menu/language_menu.cpp:56
+#: src/supertux/menu/joystick_menu.cpp:97
+#: src/supertux/menu/contrib_levelset_menu.cpp:67
+#: src/supertux/menu/cheat_menu.cpp:44
+msgid "Back"
+msgstr "Vissza"
+
+#: src/supertux/menu/debug_menu.cpp:32
+msgid "Debug"
+msgstr "Hibakereső"
+
+#: src/supertux/menu/debug_menu.cpp:56
+msgid "Game Speed"
+msgstr "Játéksebesség"
+
+#: src/supertux/menu/debug_menu.cpp:57
+msgid "Adjust Game Speed"
+msgstr "Játéksebesség Beállítása"
+
+#: src/supertux/menu/debug_menu.cpp:63
+msgid "Show Collision Rects"
+msgstr "Az Ütközés Négyzetek Mutatása"
+
+#: src/supertux/menu/debug_menu.cpp:64
+msgid "Show Worldmap Path"
+msgstr "Világtérkép Útvonalak Mutatása"
+
+#: src/supertux/menu/debug_menu.cpp:65
+msgid "Show Controller"
+msgstr "Kontroller Mutatása"
+
+#: src/supertux/menu/debug_menu.cpp:66
+msgid "Show Framerate"
+msgstr "Képkockasebesség Mutatása"
+
+#: src/supertux/menu/debug_menu.cpp:67
+msgid "Draw Redundant Frames"
+msgstr "Nélkülözhető Képkockák Rajzolása"
+
+#: src/supertux/menu/debug_menu.cpp:68
+msgid "Show Player Position"
+msgstr "Játékos Pozíciójának Mutatása"
+
+#: src/supertux/menu/debug_menu.cpp:69
+msgid "Use Bitmap Fonts"
+msgstr "Bitmap Fontok Használata"
+
+#: src/supertux/menu/debug_menu.cpp:72
+msgid "Dump Texture Cache"
+msgstr "Textúra Cache Exportálása"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:31
+msgid "Choose Sector"
+msgstr "Szektor Kiválasztása"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:41
+msgid "Sector Settings"
+msgstr "Szektor Beállítások"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:42
+msgid "Create Sector"
+msgstr "Szektor Létrehozása"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:43
+msgid "Delete Sector"
+msgstr "Szektor Törlése"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:93
+msgid "Each level must have at least one sector."
+msgstr "Minden pályának legalább egy szektorral kell rendelkeznie."
+
+#: src/supertux/menu/editor_sectors_menu.cpp:98
+msgid "Do you really want to delete this sector?"
+msgstr "Biztosan törlöd ezt a szektort?"
+
+#: src/supertux/menu/editor_sectors_menu.cpp:101
+msgid "Delete sector"
+msgstr "Szektor törlése"
+
+#: src/supertux/menu/editor_objectgroup_menu.cpp:30
+#: src/editor/toolbox_widget.cpp:93
+msgid "Objects"
+msgstr "Elemek"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:58
+msgid "Empty World"
+msgstr "Üres Világ"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:73
+msgid "Create Level"
+msgstr "Új pálya készítése"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:77
+msgid "Edit Worldmap"
+msgstr "Világtérkép Szerkesztése"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:79
+msgid "Create Worldmap"
+msgstr "Világtérkép Létrehozása"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:83
+#: src/supertux/menu/editor_levelset_menu.cpp:56
+msgid "World Settings"
+msgstr "Világ Beállítások"
+
+#: src/supertux/menu/editor_level_select_menu.cpp:123
+msgid ""
+"Share this worldmap under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in worldmap properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "Oszd meg ezt a világtérképet a (tanácsolt) CC-BY-SA 4.0 International licensz alatt.\nEz feljogosít harmadik fél által való módosításra és terjesztésre.\nHa nem értesz egyet a licensz feltételeivel, változtasd meg a világtérkép tulajdonságaiban.\nNYILATKOZAT: A SuperTux szerzői nem vállalnak felelősséget az általad választott licenszt illetően."
+
+#: src/supertux/menu/editor_level_select_menu.cpp:130
+msgid ""
+"Share this level under license CC-BY-SA 4.0 International (advised).\n"
+"It allows modifications and redistribution by third-parties.\n"
+"If you don't agree with this license, change it in level properties.\n"
+"DISCLAIMER: The SuperTux authors take no responsibility for your choice of license."
+msgstr "Oszd meg ezt a pályát a (tanácsolt) CC-BY-SA 4.0 International licenc alatt.\nEz megengedi a harmadik fél általi módosítást és terjesztést.\nHa nem értesz egyet a licenc feltételeivel, változtasd meg a pálya tulajdonságaiban.\nNYILATKOZAT: A SuperTux szerzői nem vállalnak felelősséget az általad választott licencet illetően."
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:34
+#: src/supertux/menu/cheat_menu.cpp:30
+msgid "Cheats"
+msgstr "Csalások"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:36
+#: src/supertux/menu/cheat_menu.cpp:32
+msgid "Bonus: Grow"
+msgstr "Bónusz: növekedés"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:37
+#: src/supertux/menu/cheat_menu.cpp:33
+msgid "Bonus: Fire"
+msgstr "Bónusz: tűz"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:38
+#: src/supertux/menu/cheat_menu.cpp:34
+msgid "Bonus: Ice"
+msgstr "Bónusz: jég"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:39
+#: src/supertux/menu/cheat_menu.cpp:35
+msgid "Bonus: Air"
+msgstr "Bónusz: levegő"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:40
+#: src/supertux/menu/cheat_menu.cpp:36
+msgid "Bonus: Earth"
+msgstr "Bónusz: föld"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:41
+msgid "Bonus: None"
+msgstr "Bónusz: nincs"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:44
+#: src/supertux/menu/cheat_menu.cpp:42
+msgid "Leave Ghost Mode"
+msgstr "Szellem mód elhagyása"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:44
+#: src/supertux/menu/cheat_menu.cpp:42
+msgid "Activate Ghost Mode"
+msgstr "Szellem mód aktiválása"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:46
+#: src/supertux/menu/cheat_menu.cpp:40
+msgid "Finish Level"
+msgstr "Pálya befejezése"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:47
+msgid "Reset Level"
+msgstr "Pálya visszaállítása"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:49
+msgid "Finish Worldmap"
+msgstr "Világtérkép befejezése"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:50
+msgid "Reset Worldmap"
+msgstr "Világtérkép visszaállítása"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:52
+msgid "Go to level"
+msgstr "Menj pályához"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:53
+msgid "Go to main spawnpoint"
+msgstr "Menj a fő kiindulás ponthoz"
+
+#: src/supertux/menu/worldmap_cheat_menu.cpp:145
+msgid "Select level"
+msgstr "Pálya Kiválasztása"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:54
+msgid "Choose World"
+msgstr "Világ Kiválasztása"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:82
+#, c-format
+msgid "%d level"
+msgid_plural "%d levels"
+msgstr[0] "%d pálya"
+msgstr[1] "%d pálya"
+
+#: src/supertux/menu/editor_levelset_select_menu.cpp:95
+msgid "Create World"
+msgstr "Világ Létrehozása"
+
+#: src/supertux/menu/options_menu.cpp:85 src/supertux/menu/main_menu.cpp:53
+#: src/supertux/menu/game_menu.cpp:61 src/supertux/menu/worldmap_menu.cpp:31
+msgid "Options"
+msgstr "Beállítások"
+
+#: src/supertux/menu/options_menu.cpp:91
+#: src/supertux/menu/options_menu.cpp:127
+#: src/supertux/menu/options_menu.cpp:418
+#: src/supertux/menu/options_menu.cpp:439 src/editor/object_settings.cpp:112
+msgid "auto"
+msgstr "automatikus"
+
+#: src/supertux/menu/options_menu.cpp:206
+msgid "Desktop"
+msgstr "Asztal"
+
+#: src/supertux/menu/options_menu.cpp:332
+msgid "Select Language"
+msgstr "Nyelv kiválasztása"
+
+#: src/supertux/menu/options_menu.cpp:333
+msgid "Select a different language to display text in"
+msgstr "Válassz egy másik nyelvet a feliratoknak"
+
+#: src/supertux/menu/options_menu.cpp:335
+msgid "Language Packs"
+msgstr "Nyelvi csomagok"
+
+#: src/supertux/menu/options_menu.cpp:336
+msgid "Language packs contain up-to-date translations"
+msgstr "A nyelvi csomagok a legfrissebb fordításokat tartalmazzák."
+
+#: src/supertux/menu/options_menu.cpp:338
+#: src/supertux/menu/profile_menu.cpp:30
+msgid "Select Profile"
+msgstr "Profil kiválasztása"
+
+#: src/supertux/menu/options_menu.cpp:339
+msgid "Select a profile to play with"
+msgstr "Válassz egy profilt a játékhoz"
+
+#: src/supertux/menu/options_menu.cpp:342
+msgid "Window Resizable"
+msgstr "Átméretezhető Ablak"
+
+#: src/supertux/menu/options_menu.cpp:343
+msgid "Allow window resizing, might require a restart to take effect"
+msgstr "Ahhoz, hogy az ablak átméretezés működjön, lehet, hogy újra kell indítanod a játékot"
+
+#: src/supertux/menu/options_menu.cpp:345
+msgid "Window Resolution"
+msgstr "Ablakfelbontás"
+
+#: src/supertux/menu/options_menu.cpp:346
+msgid "Resize the window to the given size"
+msgstr "Az ablak átméretezése a megadott méretre"
+
+#: src/supertux/menu/options_menu.cpp:348
+msgid "Fullscreen"
+msgstr "Teljes képernyős mód"
+
+#: src/supertux/menu/options_menu.cpp:349
+msgid "Fill the entire screen"
+msgstr "A teljes képernyő betöltése"
+
+#: src/supertux/menu/options_menu.cpp:351
+msgid "Fullscreen Resolution"
+msgstr "Teljesképernyős Felbontás"
+
+#: src/supertux/menu/options_menu.cpp:352
+msgid ""
+"Determine the resolution used in fullscreen mode (you must toggle fullscreen"
+" to complete the change)"
+msgstr "Állítsd be a teljes képernyős mód felbontását (a véglegesítéséhez át kell kapcsolnod teljes képernyős módba)"
+
+#: src/supertux/menu/options_menu.cpp:354
+msgid "Magnification"
+msgstr "Nagyítás"
+
+#: src/supertux/menu/options_menu.cpp:355
+msgid "Change the magnification of the game area"
+msgstr "Játéktér nagyításának beállítása"
+
+#: src/supertux/menu/options_menu.cpp:357
+msgid "VSync"
+msgstr "VSync"
+
+#: src/supertux/menu/options_menu.cpp:358
+msgid "Set the VSync mode"
+msgstr "VSync mód beállítása"
+
+#: src/supertux/menu/options_menu.cpp:360
+msgid "Aspect Ratio"
+msgstr "Képarány"
+
+#: src/supertux/menu/options_menu.cpp:361
+msgid "Adjust the aspect ratio"
+msgstr "Képarány beállítása"
+
+#: src/supertux/menu/options_menu.cpp:366
+msgid "Disable all sound effects"
+msgstr "Minden hangeffekt tiltása"
+
+#: src/supertux/menu/options_menu.cpp:368
+msgid "Disable all music"
+msgstr "Minden zene tiltása"
+
+#: src/supertux/menu/options_menu.cpp:370
+msgid "Sound Volume"
+msgstr "Hangok Hangereje"
+
+#: src/supertux/menu/options_menu.cpp:371
+msgid "Adjust sound volume"
+msgstr "Hangok hangerejének módosítása"
+
+#: src/supertux/menu/options_menu.cpp:373
+msgid "Music Volume"
+msgstr "Zene Hangereje"
+
+#: src/supertux/menu/options_menu.cpp:374
+msgid "Adjust music volume"
+msgstr "Zene hangerejének módosítása"
+
+#: src/supertux/menu/options_menu.cpp:378
+msgid "Sound (disabled)"
+msgstr "Hang (letiltva)"
+
+#: src/supertux/menu/options_menu.cpp:379
+msgid "Music (disabled)"
+msgstr "Zene (letiltva)"
+
+#: src/supertux/menu/options_menu.cpp:382
+#: src/supertux/menu/keyboard_menu.cpp:30
+msgid "Setup Keyboard"
+msgstr "Billentyűzet beállítása"
+
+#: src/supertux/menu/options_menu.cpp:383
+msgid "Configure key-action mappings"
+msgstr "A billentyűzet kiosztásának beállítása"
+
+#: src/supertux/menu/options_menu.cpp:385
+#: src/supertux/menu/joystick_menu.cpp:52
+msgid "Setup Joystick"
+msgstr "Botkormány beállítása"
+
+#: src/supertux/menu/options_menu.cpp:386
+msgid "Configure joystick control-action mappings"
+msgstr "A botkormány kiosztásának beállítása"
+
+#: src/supertux/menu/options_menu.cpp:388
+msgid "Enable transitions"
+msgstr "Átmenetek engedélyezése"
+
+#: src/supertux/menu/options_menu.cpp:389
+msgid "Enable screen transitions and smooth menu animation"
+msgstr "Képi átmenetek és finom menüanimáció engedélyezése"
+
+#: src/supertux/menu/options_menu.cpp:393
+msgid "Developer Mode"
+msgstr "Fejlesztői mód"
+
+#: src/supertux/menu/options_menu.cpp:398
+msgid "Christmas Mode"
+msgstr "Karácsonyi mód"
+
+#: src/supertux/menu/options_menu.cpp:401
+msgid "Confirmation Dialog"
+msgstr "Megerősítés Dialógus"
+
+#: src/supertux/menu/options_menu.cpp:401
+msgid "Confirm aborting level"
+msgstr "Pálya megszakításának megerősítése"
+
+#: src/supertux/menu/options_menu.cpp:402
+msgid "Pause on focus loss"
+msgstr "Szüneteltetés a fókusz elvesztésekor"
+
+#: src/supertux/menu/main_menu.cpp:51 src/supertux/menu/world_set_menu.cpp:28
+msgid "Start Game"
+msgstr "Játék indítása"
+
+#: src/supertux/menu/main_menu.cpp:52 src/supertux/menu/addon_menu.cpp:122
+msgid "Add-ons"
+msgstr "Kiegészítők"
+
+#: src/supertux/menu/main_menu.cpp:54 src/supertux/menu/editor_menu.cpp:39
+msgid "Level Editor"
+msgstr "Pályaszerkesztő"
+
+#: src/supertux/menu/main_menu.cpp:55
+msgid "Credits"
+msgstr "Készítők"
+
+#: src/supertux/menu/main_menu.cpp:56
+msgid "Donate"
+msgstr "Adományozás"
+
+#: src/supertux/menu/main_menu.cpp:57
+msgid "Quit"
+msgstr "Kilépés"
+
+#: src/supertux/menu/editor_sector_menu.cpp:35
+msgid "Initialization script"
+msgstr "Inicializáló szkript"
+
+#: src/supertux/menu/editor_sector_menu.cpp:36
+msgid "Gravity"
+msgstr "Gravitáció"
+
+#: src/supertux/menu/editor_sector_menu.cpp:41
+msgid "Resize offset X"
+msgstr "Az X offset átméretezése"
+
+#: src/supertux/menu/editor_sector_menu.cpp:42
+msgid "Resize offset Y"
+msgstr "Az Y offset átméretezése"
+
+#: src/supertux/menu/editor_sector_menu.cpp:43
+msgid "Resize"
+msgstr "Átméretezés"
+
+#: src/supertux/menu/profile_menu.cpp:37
+#, c-format
+msgid "[Profile {}]"
+msgstr "[Profil {}]"
+
+#: src/supertux/menu/profile_menu.cpp:41
+#, c-format
+msgid "Profile {}"
+msgstr "Profil {}"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:59
+#: src/supertux/menu/editor_new_levelset_menu.cpp:35
+msgid "Description"
+msgstr "Leírás"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:60
+#: src/supertux/menu/addon_menu.cpp:48
+#: data//images/engine/editor/objects.stoi:332
+msgid "Worldmap"
+msgstr "Világtérkép"
+
+#: src/supertux/menu/editor_levelset_menu.cpp:60
+#: src/supertux/menu/addon_menu.cpp:45
+msgid "Levelset"
+msgstr "Pályaszett"
+
+#: src/supertux/menu/addon_menu.cpp:51
+msgid "World"
+msgstr "Világ"
+
+#: src/supertux/menu/addon_menu.cpp:54
+msgid "Add-on"
+msgstr "Bővítmény"
+
+#: src/supertux/menu/addon_menu.cpp:60
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: src/supertux/menu/addon_menu.cpp:71
+#, c-format
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} \"{}\", \"{}\" által"
+
+#: src/supertux/menu/addon_menu.cpp:129
+msgid "No Add-ons installed"
+msgstr "Nincsenek kiegészítők telepítve"
+
+#: src/supertux/menu/addon_menu.cpp:133
+msgid "No Add-ons found"
+msgstr "Nem találhatóak kiegészítők"
+
+#: src/supertux/menu/addon_menu.cpp:179
+#, c-format
+msgid "Install {} *NEW*"
+msgstr "{} telepítése *ÚJ*"
+
+#: src/supertux/menu/addon_menu.cpp:190
+#, c-format
+msgid "Install {}"
+msgstr "{} telepítése"
+
+#: src/supertux/menu/addon_menu.cpp:199
+msgid "No new Add-ons found"
+msgstr "Nem találhatóak új kiegészítők"
+
+#: src/supertux/menu/addon_menu.cpp:205
+msgid "Check Online (disabled)"
+msgstr "Online keresés (letiltva)"
+
+#: src/supertux/menu/addon_menu.cpp:209
+msgid "Check Online"
+msgstr "Online keresés"
+
+#: src/supertux/menu/addon_menu.cpp:286
+msgid "Downloading Add-On Repository Index"
+msgstr "Kiegészítő-gyűjtemény jegyzékének letöltése"
+
+#: src/supertux/menu/addon_menu.cpp:301
+#, c-format
+msgid "Downloading {}"
+msgstr "{} letöltése"
+
+#: src/supertux/menu/addon_menu.cpp:348
+msgid ""
+"Please restart SuperTux\n"
+"for these changes to take effect."
+msgstr "Kérlek, indítsd újra a SuperTux-ot ezen változtatások érvénybe léptetéséhez."
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:31
+msgid "New World"
+msgstr "Új Világ"
+
+#: src/supertux/menu/editor_new_levelset_menu.cpp:51
+msgid "Please enter a name for this level subset."
+msgstr "Kérlek, írd be a pályacsomag nevét."
+
+#: src/supertux/menu/world_set_menu.cpp:30
+msgid "Story Mode"
+msgstr "Történet mód"
+
+#: src/supertux/menu/game_menu.cpp:31
+msgid "Are you sure?"
+msgstr "Biztos vagy benne?"
+
+#: src/supertux/menu/game_menu.cpp:54 src/supertux/menu/worldmap_menu.cpp:30
+msgid "Continue"
+msgstr "Folytatás"
+
+#: src/supertux/menu/game_menu.cpp:55
+msgid "Restart Level"
+msgstr "Pálya újraindítása"
+
+#: src/supertux/menu/game_menu.cpp:58
+msgid "Restart from Checkpoint"
+msgstr "Újrakezdés az Ellenőrzőponttól"
+
+#: src/supertux/menu/game_menu.cpp:63
+msgid "Abort Level"
+msgstr "Pálya félbehagyása"
+
+#: src/supertux/menu/keyboard_menu.cpp:32
+#: src/supertux/menu/joystick_menu.cpp:69
+msgid "Up"
+msgstr "Fel"
+
+#: src/supertux/menu/keyboard_menu.cpp:33
+#: src/supertux/menu/joystick_menu.cpp:70
+msgid "Down"
+msgstr "Le"
+
+#: src/supertux/menu/keyboard_menu.cpp:34
+#: src/supertux/menu/joystick_menu.cpp:71
+msgid "Left"
+msgstr "Balra"
+
+#: src/supertux/menu/keyboard_menu.cpp:35
+#: src/supertux/menu/joystick_menu.cpp:72
+msgid "Right"
+msgstr "Jobbra"
+
+#: src/supertux/menu/keyboard_menu.cpp:36
+#: src/supertux/menu/joystick_menu.cpp:73
+msgid "Jump"
+msgstr "Ugrás"
+
+#: src/supertux/menu/keyboard_menu.cpp:38
+#: src/supertux/menu/joystick_menu.cpp:76
+msgid "Peek Left"
+msgstr "Balra néz"
+
+#: src/supertux/menu/keyboard_menu.cpp:39
+#: src/supertux/menu/joystick_menu.cpp:77
+msgid "Peek Right"
+msgstr "Jobbra néz"
+
+#: src/supertux/menu/keyboard_menu.cpp:40
+#: src/supertux/menu/joystick_menu.cpp:78
+msgid "Peek Up"
+msgstr "Felfelé néz"
+
+#: src/supertux/menu/keyboard_menu.cpp:41
+#: src/supertux/menu/joystick_menu.cpp:79
+msgid "Peek Down"
+msgstr "Lefelé néz"
+
+#: src/supertux/menu/keyboard_menu.cpp:43
+#: src/supertux/menu/joystick_menu.cpp:81
+msgid "Console"
+msgstr "Konzol"
+
+#: src/supertux/menu/keyboard_menu.cpp:46
+#: src/supertux/menu/joystick_menu.cpp:82
+msgid "Cheat Menu"
+msgstr "Csalás menü"
+
+#: src/supertux/menu/keyboard_menu.cpp:47
+#: src/supertux/menu/joystick_menu.cpp:83
+msgid "Debug Menu"
+msgstr "Hibakereső Menü"
+
+#: src/supertux/menu/keyboard_menu.cpp:49
+#: src/supertux/menu/joystick_menu.cpp:85
+msgid "Jump with Up"
+msgstr "Fel gombbal ugrik"
+
+#: src/supertux/menu/keyboard_menu.cpp:62
+msgid "Up cursor"
+msgstr "Felfelé nyíl"
+
+#: src/supertux/menu/keyboard_menu.cpp:64
+msgid "Down cursor"
+msgstr "Lefelé nyíl"
+
+#: src/supertux/menu/keyboard_menu.cpp:66
+msgid "Left cursor"
+msgstr "Balra nyíl"
+
+#: src/supertux/menu/keyboard_menu.cpp:68
+msgid "Right cursor"
+msgstr "Jobbra nyíl"
+
+#: src/supertux/menu/keyboard_menu.cpp:70
+msgid "Return"
+msgstr "Enter"
+
+#: src/supertux/menu/keyboard_menu.cpp:72
+msgid "Space"
+msgstr "Szóköz"
+
+#: src/supertux/menu/keyboard_menu.cpp:74
+msgid "Right Shift"
+msgstr "Jobb Shift"
+
+#: src/supertux/menu/keyboard_menu.cpp:76
+msgid "Left Shift"
+msgstr "Bal Shift"
+
+#: src/supertux/menu/keyboard_menu.cpp:78
+msgid "Right Control"
+msgstr "Jobb Control"
+
+#: src/supertux/menu/keyboard_menu.cpp:80
+msgid "Left Control"
+msgstr "Bal Control"
+
+#: src/supertux/menu/keyboard_menu.cpp:82
+msgid "Right Alt"
+msgstr "Jobb Alt"
+
+#: src/supertux/menu/keyboard_menu.cpp:84
+msgid "Left Alt"
+msgstr "Bal Alt"
+
+#: src/supertux/menu/keyboard_menu.cpp:86
+msgid "Right Command"
+msgstr "Jobb parancsbillentyű"
+
+#: src/supertux/menu/keyboard_menu.cpp:88
+msgid "Left Command"
+msgstr "Bal parancsbillentyű"
+
+#: src/supertux/menu/keyboard_menu.cpp:102
+msgid "Press Key"
+msgstr "Nyomj meg egy Billentyűt"
+
+#: src/supertux/menu/language_menu.cpp:40
+msgid "Language"
+msgstr "Nyelv"
+
+#: src/supertux/menu/language_menu.cpp:42
+msgid "<auto-detect>"
+msgstr "<automatikus felismerés>"
+
+#: src/supertux/menu/joystick_menu.cpp:55
+msgid "Manual Configuration"
+msgstr "Kézi konfiguráció"
+
+#: src/supertux/menu/joystick_menu.cpp:57
+msgid ""
+"Use manual configuration instead of SDL2's automatic GameController support"
+msgstr "Kézi konfiguráció használata az SDL2 automatikus játékvezérlő támogatása helyett"
+
+#: src/supertux/menu/joystick_menu.cpp:75
+msgid "Pause/Menu"
+msgstr "Szünet/Menü"
+
+#: src/supertux/menu/joystick_menu.cpp:91
+msgid "No Joysticks found"
+msgstr "Nem található botkormány"
+
+#: src/supertux/menu/joystick_menu.cpp:92
+msgid "Scan for Joysticks"
+msgstr "Botkormány keresése"
+
+#: src/supertux/menu/joystick_menu.cpp:125
+msgid "Press Button"
+msgstr "Nyomj meg egy gombot"
+
+#: src/supertux/menu/joystick_menu.cpp:162
+msgid "Axis "
+msgstr "Tengely"
+
+#: src/supertux/menu/joystick_menu.cpp:165
+msgid "-"
+msgstr "-"
+
+#: src/supertux/menu/joystick_menu.cpp:167
+msgid "+"
+msgstr "+"
+
+#: src/supertux/menu/joystick_menu.cpp:174
+msgid "X2"
+msgstr "X2"
+
+#: src/supertux/menu/joystick_menu.cpp:176
+msgid "Y2"
+msgstr "Y2"
+
+#: src/supertux/menu/joystick_menu.cpp:189
+msgid "Hat Up"
+msgstr "Nézőpont fel"
+
+#: src/supertux/menu/joystick_menu.cpp:193
+msgid "Hat Down"
+msgstr "Nézőpont le"
+
+#: src/supertux/menu/joystick_menu.cpp:197
+msgid "Hat Left"
+msgstr "Nézőpont balra"
+
+#: src/supertux/menu/joystick_menu.cpp:201
+msgid "Hat Right"
+msgstr "Nézőpont jobbra"
+
+#: src/supertux/menu/worldmap_menu.cpp:28
+msgid "Pause"
+msgstr "Szünet"
+
+#: src/supertux/menu/worldmap_menu.cpp:33
+msgid "Leave World"
+msgstr "Világ elhagyása"
+
+#: src/supertux/menu/download_dialog.cpp:27
+msgid "Abort Download"
+msgstr "Letöltés megszakítása"
+
+#: src/supertux/menu/download_dialog.cpp:42
+msgid "Error:\n"
+msgstr "Hiba:\n"
+
+#: src/supertux/menu/download_dialog.cpp:96
+msgid "Close"
+msgstr "Bezárás"
+
+#: src/supertux/menu/cheat_menu.cpp:37
+msgid "Bonus: Star"
+msgstr "Bónusz: csillag"
+
+#: src/supertux/menu/cheat_menu.cpp:38
+msgid "Shrink Tux"
+msgstr "Tux összezsugorítása"
+
+#: src/supertux/menu/cheat_menu.cpp:39
+msgid "Kill Tux"
+msgstr "Tux megölése"
+
+#: src/supertux/menu/editor_level_menu.cpp:31
+#: src/supertux/menu/editor_menu.cpp:70
+msgid "Worldmap Settings"
+msgstr "Világtérkép Beállítások"
+
+#: src/supertux/menu/editor_level_menu.cpp:31
+#: src/supertux/menu/editor_menu.cpp:70
+msgid "Level Settings"
+msgstr "Pályabeállítások"
+
+#: src/supertux/menu/editor_level_menu.cpp:34
+msgid "Author"
+msgstr "Szerző"
+
+#: src/supertux/menu/editor_level_menu.cpp:35 data//credits.stxt:1129
+msgid "Contact"
+msgstr "Kapcsolatfelvétel"
+
+#: src/supertux/menu/editor_level_menu.cpp:36
+msgid "License"
+msgstr "Licenc"
+
+#: src/supertux/menu/editor_level_menu.cpp:37
+msgid "Tileset"
+msgstr "Csempekészlet"
+
+#: src/supertux/menu/editor_level_menu.cpp:40
+msgid "Target Time"
+msgstr "Célidő"
+
+#: src/supertux/menu/editor_level_menu.cpp:82
+msgid "Please enter a name for this level."
+msgstr "Kérlek, írd be a pálya nevét."
+
+#: src/supertux/menu/editor_level_menu.cpp:86
+msgid "Please enter a level author for this level."
+msgstr "Kérlek, írd be a pálya szerzőjét."
+
+#: src/supertux/menu/editor_level_menu.cpp:90
+msgid "Please enter a license for this level."
+msgstr "Kérlek, írd be a pálya licencét."
+
+#: src/supertux/menu/editor_menu.cpp:34
+msgid "1/8 tile (4px)"
+msgstr "1/8 csempe (4px)"
+
+#: src/supertux/menu/editor_menu.cpp:35
+msgid "1/4 tile (8px)"
+msgstr "1/4 csempe (8px)"
+
+#: src/supertux/menu/editor_menu.cpp:36
+msgid "1/2 tile (16px)"
+msgstr "1/2 csempe (16px)"
+
+#: src/supertux/menu/editor_menu.cpp:37
+msgid "1 tile (32px)"
+msgstr "1 csempe (32px)"
+
+#: src/supertux/menu/editor_menu.cpp:41
+msgid "Return to Editor"
+msgstr "Visszatérés a szerkesztőbe"
+
+#: src/supertux/menu/editor_menu.cpp:42
+msgid "Save Worldmap"
+msgstr "Világtérkép Mentése"
+
+#: src/supertux/menu/editor_menu.cpp:42
+msgid "Save Level"
+msgstr "Pálya Mentése"
+
+#: src/supertux/menu/editor_menu.cpp:45
+msgid "Test Level"
+msgstr "Pálya Tesztelése"
+
+#: src/supertux/menu/editor_menu.cpp:49
+msgid "Test Worldmap"
+msgstr "Világtérkép Tesztelése"
+
+#: src/supertux/menu/editor_menu.cpp:52
+msgid "Share Level"
+msgstr "Pálya Megosztása"
+
+#: src/supertux/menu/editor_menu.cpp:54
+msgid "Open Level Directory"
+msgstr "Pálya Mappájának Megnyitása"
+
+#: src/supertux/menu/editor_menu.cpp:57
+msgid "Edit Another Level"
+msgstr "Másik Pálya Szerkesztése"
+
+#: src/supertux/menu/editor_menu.cpp:60
+msgid "Edit Another World"
+msgstr "Másik Világ Szerkesztése"
+
+#: src/supertux/menu/editor_menu.cpp:64
+msgid "Grid Size"
+msgstr "Rácsméret"
+
+#: src/supertux/menu/editor_menu.cpp:65
+msgid "Show Grid"
+msgstr "Rács Mutatása"
+
+#: src/supertux/menu/editor_menu.cpp:66
+msgid "Grid Snapping"
+msgstr "Rácshoz Rögzítés"
+
+#: src/supertux/menu/editor_menu.cpp:67
+msgid "Render Background"
+msgstr "Háttér Renderelése"
+
+#: src/supertux/menu/editor_menu.cpp:68
+msgid "Render Light"
+msgstr "Fény Renderelése"
+
+#: src/supertux/menu/editor_menu.cpp:72
+msgid "Keyboard Shortcuts"
+msgstr "Gyorsbillentyűk"
+
+#: src/supertux/menu/editor_menu.cpp:75
+msgid "Exit Level Editor"
+msgstr "Kilépés a Pályaszerkesztőből"
+
+#: src/supertux/menu/editor_menu.cpp:122
+msgid ""
+"We encourage you to share your levels in the SuperTux forum.\n"
+"To find your level, click the\n"
+"\"Open Level directory\" menu item.\n"
+"Do you want to go to the forum now?"
+msgstr "Arra biztatunk, hogy oszd meg a pályáidat a SuperTux fórumon.\nHogy megtaláld a pályát, kattints a\n\"Pálya Mappájának Megnyitása\" gombra.\nSzeretnéd meglátogatni a fórumot?"
+
+#: src/supertux/menu/editor_menu.cpp:134
+msgid ""
+"Keyboard Shortcuts:\n"
+"---------------------\n"
+"Esc = Open Menu\n"
+"Ctrl+S = Save\n"
+"Ctrl+T = Test\n"
+"Ctrl+Z = Undo\n"
+"Ctrl+Y = Redo\n"
+"F6 = Render Light\n"
+"F7 = Grid Snapping\n"
+"F8 = Show Grid"
+msgstr "Gyorsbillentyűk:\n---------------------\nEsc = Menü Megnyitása\nCtrl+S = Mentés\nCtrl+T = Teszt\nCtrl+Z = Visszavonás\nCtrl+Y = Újra Végrehajtás\nF6 = Fény Renderelése\nF7 = Rácshoz Rögzítés\nF8 = Rács Mutatása"
+
+#: src/supertux/menu/editor_menu.cpp:135
+msgid "Got it!"
+msgstr "Értem!"
+
+#: src/supertux/levelintro.cpp:136
+#, c-format
+msgid "contributed by {}"
+msgstr "{} hozzájárulása"
+
+#: src/supertux/levelintro.cpp:169
+msgid "Badguys killed"
+msgstr "Megölt rosszfiúk"
+
+#: src/supertux/levelintro.cpp:177
+msgid "Best time"
+msgstr "Legjobb idő"
+
+#: src/supertux/levelintro.cpp:181
+msgid "Level target time"
+msgstr "Pálya szintidő"
+
+#: src/supertux/tile_set.cpp:92
+msgid "Others"
+msgstr "Egyebek"
+
+#: src/supertux/moving_object.cpp:44
+msgid "Region"
+msgstr "Régió"
+
+#: src/control/joystick_config.cpp:85
+msgid "Joystick Mappings"
+msgstr "Botkormány kiosztása"
+
+#: src/worldmap/worldmap_parser.cpp:167
+msgid "<no title>"
+msgstr "<nincs cím>"
+
+#: src/editor/node_marker.cpp:79
+msgid "Path Node"
+msgstr "Útvonal csomópont"
+
+#: src/editor/object_settings.cpp:112
+msgid "up"
+msgstr "fel"
+
+#: src/editor/object_settings.cpp:112
+msgid "down"
+msgstr "le"
+
+#: src/editor/object_settings.cpp:124
+msgid "West"
+msgstr "Nyugat"
+
+#: src/editor/object_settings.cpp:124
+msgid "East"
+msgstr "Kelet"
+
+#: src/editor/object_settings.cpp:124
+msgid "North"
+msgstr "Észak"
+
+#: src/editor/object_settings.cpp:124
+msgid "South"
+msgstr "Dél"
+
+#: src/editor/object_settings.cpp:137
+msgid "One shot"
+msgstr "Egyszeri"
+
+#: src/editor/object_settings.cpp:137
+msgid "Ping-pong"
+msgstr "Ping-pong"
+
+#: src/editor/object_settings.cpp:137
+msgid "Circular"
+msgstr "Körkörös"
+
+#: src/editor/object_settings.cpp:137
+msgid "Unordered"
+msgstr "Rendezetlen"
+
+#: src/editor/object_option.cpp:83
+msgid "true"
+msgstr "igaz"
+
+#: src/editor/object_option.cpp:83
+msgid "false"
+msgstr "hamis"
+
+#: src/editor/object_option.cpp:246 src/editor/object_option.cpp:295
+msgid "invalid"
+msgstr "érvénytelen"
+
+#: src/editor/object_option.cpp:553
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: src/editor/worldmap_objects.hpp:56 src/editor/worldmap_objects.cpp:129
+msgid "Level"
+msgstr "Pálya"
+
+#: src/editor/worldmap_objects.hpp:79
+msgid "Teleporter"
+msgstr "Teleportáló"
+
+#: src/editor/worldmap_objects.hpp:119
+msgid "Sprite Change"
+msgstr "Sprite Változtatás"
+
+#: src/editor/worldmap_objects.hpp:140
+msgid "Special tile"
+msgstr "Speciális csempe"
+
+#: src/editor/editor.cpp:477
+msgid "This level contains unsaved changes, do you want to save?"
+msgstr "Ez a pálya nem mentett változtatásokat tartalmaz. Szeretnéd menteni?"
+
+#: src/editor/editor.cpp:517
+msgid ""
+"Some obsolete add-ons are still active\n"
+"and might cause collisions with default Super Tux structure.\n"
+"You can still enable these add-ons in the menu.\n"
+"Disabling these add-ons will not delete your game progress."
+msgstr "Néhány elavult kiegészítő még mindig aktiválva van\nés ütközhet a SuperTux alapértelmezett felépítésével.\nEzeket a kiegészítőket még engedélyezheted a menüben.\nEzen kiegészítők letiltása nem törli a mentésedet."
+
+#: src/editor/editor.cpp:520
+msgid "Disable add-ons"
+msgstr "Kiegészítők letiltása"
+
+#: src/editor/editor.cpp:525
+msgid "Ignore (not advised)"
+msgstr "Figyelmen kívül hagyás (nem ajánlott)"
+
+#: src/editor/editor.cpp:529
+msgid "Leave editor"
+msgstr "Kilépés a szerkesztőből"
+
+#: src/editor/editor.cpp:740
+msgid ""
+"Couldn't find a \"main\" sector.\n"
+"Please change the name of the sector where\n"
+"you'd like the player to start to \"main\""
+msgstr "Nem található a \"main\" szektor.\nVáltoztasd meg annak a szektornak a nevét,\nahol szeretnéd, hogy a játékos kezdjen, \"main\"-re"
+
+#: src/editor/editor.cpp:744
+msgid ""
+"Couldn't find a \"main\" spawnpoint.\n"
+" Please change the name of the spawnpoint where\n"
+"you'd like the player to start to \"main\""
+msgstr "Nem található a \"main\" kiindulási pont.\nVáltoztasd meg annak a kiindulási pontnak a nevét,\nahol szeretnéd, hogy a játékos kezdjen, \"main\"-re"
+
+#: src/editor/worldmap_objects.cpp:130
+msgid "Outro script"
+msgstr "Lezáró szkript"
+
+#: src/editor/worldmap_objects.cpp:131
+msgid "Auto play"
+msgstr "Automatikus lejátszás"
+
+#: src/editor/worldmap_objects.cpp:133
+msgid "Title colour"
+msgstr "Cím színe"
+
+#: src/editor/worldmap_objects.cpp:175
+msgid "Automatic"
+msgstr "Automatikus"
+
+#: src/editor/worldmap_objects.cpp:177
+msgid "Target worldmap"
+msgstr "Cél világtérkép"
+
+#: src/editor/worldmap_objects.cpp:240
+msgid "Stay action"
+msgstr "Tartózkodási akció"
+
+#: src/editor/worldmap_objects.cpp:241
+msgid "Initial stay action"
+msgstr "Kezdeti tartózkodási akció"
+
+#: src/editor/worldmap_objects.cpp:242
+msgid "Stay group"
+msgstr "Tartózkodási csoport"
+
+#: src/editor/worldmap_objects.cpp:243
+msgid "Change on touch"
+msgstr "Megváltoztatás érintésre"
+
+#: src/editor/worldmap_objects.cpp:273
+msgid "Show message"
+msgstr "Üzenet mutatása"
+
+#: src/editor/worldmap_objects.cpp:275
+msgid "Invisible"
+msgstr "Láthatatlan"
+
+#: data//credits.stxt:25
+msgid "Current SuperTux Team"
+msgstr "A jelenlegi SuperTux Csapat"
+
+#: data//credits.stxt:30
+msgid "Programming, project lead ad interim"
+msgstr "Programozás, ideiglenes projektvezető"
+
+#: data//credits.stxt:35
+msgid "Graphics, Level Design, Story"
+msgstr "Grafika, Pályatervezés, Történet"
+
+#: data//credits.stxt:40
+msgid "Graphics, Story, Optimisation"
+msgstr "Grafika, Történet, Optimalizálás"
+
+#: data//credits.stxt:45 data//credits.stxt:100 data//credits.stxt:186
+#: data//credits.stxt:498
+msgid "Graphics"
+msgstr "Grafika"
+
+#: data//credits.stxt:50 data//credits.stxt:60 data//credits.stxt:82
+#: data//credits.stxt:88
+msgid "Graphics, Programming, Level Design"
+msgstr "Grafika, programozás, pályatervezés"
+
+#: data//credits.stxt:55
+msgid "Graphics, Programming"
+msgstr "Grafika, Programozás"
+
+#: data//credits.stxt:65 data//credits.stxt:130 data//credits.stxt:135
+#: data//credits.stxt:140 data//credits.stxt:145 data//credits.stxt:160
+#: data//credits.stxt:165 data//credits.stxt:494 data//credits.stxt:506
+msgid "Programming"
+msgstr "Programozás"
+
+#: data//credits.stxt:71
+msgid "Original Developers"
+msgstr "Eredeti Fejlesztők"
+
+#: data//credits.stxt:76
+msgid "Original Developer"
+msgstr "Eredeti fejlesztő"
+
+#: data//credits.stxt:94
+msgid "Music, Level Design"
+msgstr "Zene, pályatervezés"
+
+#: data//credits.stxt:106
+msgid "Programming, Graphics, Level Design"
+msgstr "Programozás, grafika, pályatervezés"
+
+#: data//credits.stxt:112
+msgid "Programming, Level Design"
+msgstr "Programozás, pályatervezés"
+
+#: data//credits.stxt:118
+msgid "Graphics, Story"
+msgstr "Grafika, történet"
+
+#: data//credits.stxt:124
+msgid "Programming, Documentation"
+msgstr "Programozás, dokumentáció"
+
+#: data//credits.stxt:150
+msgid "Coordination"
+msgstr "Koordináció"
+
+#: data//credits.stxt:155
+msgid "Programming, \"Flexlay\" Level editor"
+msgstr "Programozás, \"Flexlay\" pályaszerkesztő"
+
+#: data//credits.stxt:170
+msgid "Windows build fixes"
+msgstr "Windows-os fordítási javítások"
+
+#: data//credits.stxt:175
+msgid "Packaging, Nightly builds"
+msgstr "Csomagolás, félkész kiadások"
+
+#: data//credits.stxt:180
+msgid "Translation Guru (and many details anyone else could have done)"
+msgstr "Fordítási guru (és sok minden más, amit bárki meg tudott volna csinálni)"
+
+#: data//credits.stxt:240
+msgid "Level Design"
+msgstr "Pályatervezés"
+
+#: data//credits.stxt:414
+msgid "Additional contributors"
+msgstr "További közreműködők"
+
+#: data//credits.stxt:419
+msgid "Bug fixes"
+msgstr "Hibajavítások"
+
+#: data//credits.stxt:423
+msgid "Scripting functions, Level fixes"
+msgstr "Szkript funkciók és pálya javítások"
+
+#: data//credits.stxt:427
+msgid "Code quality fixes"
+msgstr "Kód minőségét felügyelte"
+
+#: data//credits.stxt:431 data//credits.stxt:435 data//credits.stxt:439
+#: data//credits.stxt:466
+msgid "Various contributions"
+msgstr "Különféle hozzájárulások"
+
+#: data//credits.stxt:443
+msgid "Build issue fix"
+msgstr "Telepítőcsomag javítása"
+
+#: data//credits.stxt:447 data//credits.stxt:451
+msgid "Code contributions"
+msgstr "Kód hozzájárulás"
+
+#: data//credits.stxt:454
+msgid "Code contribution, AppData file"
+msgstr "Kód hozzájárulás, AppData fájl"
+
+#: data//credits.stxt:458
+msgid "Bug fix"
+msgstr "Hibajavítás"
+
+#: data//credits.stxt:462
+msgid "Menu reorganization"
+msgstr "Menü átrendezése"
+
+#: data//credits.stxt:470
+msgid "Fixing tile bugs"
+msgstr "Csempe hibajavítás"
+
+#: data//credits.stxt:474
+msgid "Build error fix"
+msgstr "Telepítőcsomag hibajavítás"
+
+#: data//credits.stxt:478
+msgid "Scripting function fix"
+msgstr "Szkript funkció javítás"
+
+#: data//credits.stxt:482
+msgid "Support for \"glbinding\" as optional OpenGL binding"
+msgstr "\"glbinding\" támogatása, opcionállis OpenGL kapocs"
+
+#: data//credits.stxt:486
+msgid "New menu code"
+msgstr "Új menü kód"
+
+#: data//credits.stxt:490
+msgid "Big Tux Walking Sprites improvements"
+msgstr "Nagy Tux sétálás sprite-jának fejlesztése"
+
+#: data//credits.stxt:502 data//credits.stxt:510
+msgid "Contrib Programming"
+msgstr "Hozzájáruló programozás"
+
+#: data//credits.stxt:514
+msgid "Programming, Previous Maintainer"
+msgstr "Programozás, előző karbantartó"
+
+#: data//credits.stxt:518
+msgid "Various Contributions"
+msgstr "További Közreműködők"
+
+#: data//credits.stxt:522 data//credits.stxt:526 data//credits.stxt:530
+#: data//credits.stxt:534 data//credits.stxt:538 data//credits.stxt:542
+#: data//credits.stxt:546 data//credits.stxt:550 data//credits.stxt:554
+msgid "Contributions"
+msgstr "Közreműködések"
+
+#: data//credits.stxt:560
+msgid "Localization"
+msgstr "Lokalizáció"
+
+#: data//credits.stxt:1107
+msgid " Special Thanks to"
+msgstr "Külön Köszönet"
+
+#: data//credits.stxt:1112
+msgid "Creator of Tux, the Linux penguin"
+msgstr "Tux, a Linux pingvin megalkotója"
+
+#: data//credits.stxt:1116
+msgid "SDL, OpenAL and OpenGL"
+msgstr "SDL, OpenAL és OpenGL"
+
+#: data//credits.stxt:1117
+msgid ""
+"For making such a great gaming experience\n"
+"        possible on Linux"
+msgstr "Lehetővé tette a nagyszerű játékélményt\nLinuxon"
+
+#: data//credits.stxt:1122
+msgid "and you, the player"
+msgstr "és neked, a játékosnak"
+
+#: data//credits.stxt:1123
+msgid "for giving this game a chance and playing it"
+msgstr "amiért esélyt adtál ennek a játéknak, és amiért játszottál vele"
+
+#: data//credits.stxt:1134
+msgid "Visit our webpage at"
+msgstr "Látogasd meg honlapunkat"
+
+#: data//credits.stxt:1143
+msgid "Or visit us directly at IRC:"
+msgstr "Keress meg minket közvetlen az IRC-n:"
+
+#: data//credits.stxt:1147
+msgid "#supertux at webchat.freenode.net"
+msgstr "#supertux a webchat.freenode.net -en"
+
+#: data//credits.stxt:1152
+msgid "Or at our Forum:"
+msgstr "Vagy a fórumunkon"
+
+#: data//credits.stxt:1161
+msgid "Comments, ideas and suggestions"
+msgstr "Megjegyzések, ötletek, javaslatok"
+
+#: data//credits.stxt:1165
+msgid "go to our mailing list"
+msgstr "Látogasd meg a levelezési listánkat"
+
+#. l10n: typo contact
+#: data//credits.stxt:1175
+msgid "Typographical errors can be"
+msgstr "Tipográfiai hibák lehetnek"
+
+#. l10n: typo contact
+#: data//credits.stxt:1180
+msgid "reported to"
+msgstr "jelentve ide"
+
+#. l10n: typo contact, see <https://github.com/SuperTux/supertux/issues/611>
+#: data//credits.stxt:1185
+msgid "supertux-devel@lists.lethargik.org"
+msgstr "supertux-devel@lists.lethargik.org"
+
+#: data//credits.stxt:1192
+msgid "Want to help…"
+msgstr "Akarsz segíteni..."
+
+#: data//credits.stxt:1197
+msgid "…with localization?"
+msgstr "...fordításban?"
+
+#: data//credits.stxt:1207
+msgid "…with something else?"
+msgstr "...valami mással?"
+
+#: data//credits.stxt:1218
+msgid "Thank you for"
+msgstr "Köszönjük, hogy"
+
+#: data//credits.stxt:1222
+msgid "playing"
+msgstr "játszottál"
+
+#: data//credits.stxt:1232
+msgid "Penny awaits you in warmer temperatures!"
+msgstr "Penny egy melegebb helyen vár rád!"
+
+#: data//images/engine/editor/objects.stoi:156
+msgid "Bosses"
+msgstr "Főellenségek"
+
+#: data//images/engine/editor/objects.stoi:167
+msgid "Projectiles"
+msgstr "Lövedékek"
+
+#: data//images/engine/editor/objects.stoi:181
+msgid "Environment"
+msgstr "Környezet"
+
+#: data//images/ice_world.strf:6 data//images/tiles.strf:327
+#: data//images/worldmap.strf:67
+msgid "Forest"
+msgstr "Erdő"
+
+#: data//images/ice_world.strf:106
+msgid "Ice Cave & Crystal"
+msgstr "Jégbarlang és Kristály"
+
+#: data//images/ice_world.strf:153
+msgid "Embellishments"
+msgstr "Díszítmények"
+
+#: data//images/ice_world.strf:237
+msgid "Ice"
+msgstr "Jég"
+
+#: data//images/ice_world.strf:282 data//images/tiles.strf:693
+msgid "Castle"
+msgstr "Kastély"
+
+#: data//images/ice_world.strf:328
+msgid "Pathing"
+msgstr "Útvonal-terv"
+
+#: data//images/ice_world.strf:424
+msgid "Water"
+msgstr "Víz"
+
+#: data//images/tiles.strf:19 data//images/worldmap.strf:41
+msgid "Snow"
+msgstr "Hó"
+
+#: data//images/tiles.strf:124
+msgid "Snow Background"
+msgstr "Havas Háttér"
+
+#: data//images/tiles.strf:162
+msgid "Snow Mountain"
+msgstr "Havas hegy"
+
+#: data//images/tiles.strf:236
+msgid "Crystal"
+msgstr "Kristály"
+
+#: data//images/tiles.strf:457
+msgid "Forest Background"
+msgstr "Erdő Háttér"
+
+#: data//images/tiles.strf:572
+msgid "Block + Bonus"
+msgstr "Blokk + Bónusz"
+
+#: data//images/tiles.strf:618
+msgid "Pole + Signs"
+msgstr "Pózna + Táblák"
+
+#: data//images/tiles.strf:661
+msgid "Liquid"
+msgstr "Folyadék"
+
+#: data//images/tiles.strf:833 data//images/worldmap.strf:199
+msgid "Halloween"
+msgstr "Halloween"
+
+#: data//images/tiles.strf:861
+msgid "Industrial"
+msgstr "Ipari"
+
+#: data//images/tiles.strf:876
+msgid "Unisolid + Lightmap"
+msgstr "Unisolid + Lightmap"
+
+#: data//images/tiles.strf:893
+msgid "Miscellaneous"
+msgstr "Vegyes"
+
+#: data//images/tiles.strf:927
+msgid "Old/Unused"
+msgstr "Régi/Nem használt"
+
+#: data//images/worldmap.strf:24
+msgid "Water paths"
+msgstr "Vízi útvonalak"
+
+#: data//images/worldmap.strf:32
+msgid "Castle paths"
+msgstr "Kastély útvonalak"
+
+#: data//images/worldmap.strf:135
+msgid "Darker Forest"
+msgstr "Sötét erdő"

@@ -1,0 +1,9 @@
+(supertux-sprite
+      (action 
+          (name "default")
+          (hitbox 2 4 1 1)
+          (images "s_manbig_1.png"
+                  "s_manbig_2.png"
+                  "s_manbig_3.png"
+                  "s_manbig_2.png"))
+)

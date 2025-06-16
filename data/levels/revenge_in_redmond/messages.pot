@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux v0.6.3-1572-g2ca99c364\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/levels/revenge_in_redmond/antarctica.stl:3
+msgid "Antarctica 1"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/get_to_choppa.stl:3
+msgid "Get to da Choppa!"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/intro.stl:3
+msgid "A Blast From The Past"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/long_office_nights.stl:3
+msgid "Long Office Nights"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/outro.stl:3
+msgid "Where Is Everyone?"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/redmond_headquarters.stl:3
+msgid "Redmond Headquarters"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/where_my_super_cape.stl:3
+msgid "Where Is My Super Cape?"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/who_is_gown.stl:3
+msgid "Who Is This Gown?"
+msgstr ""
+
+#: data/levels/revenge_in_redmond/worldmap.stwm:3
+msgid "Revenge in Redmond"
+msgstr ""

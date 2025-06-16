@@ -1,0 +1,27 @@
+(supertux-sprite
+  (action
+    (name "off-up")
+    (hitbox 0 0 30 16)
+    (images "pushbutton-0.png")
+  )
+  (action
+    (name "on-up")
+    (hitbox 0 0 30 10)
+    (loops 1)
+    (fps 20)
+    (images "pushbutton-1.png"
+            "pushbutton-2.png"
+            "pushbutton-3.png"
+    )
+  )
+  (action
+    (name "off-down")
+    (hitbox 0 0 30 16)
+    (flip-action "off-up")
+  )
+  (action
+    (name "on-down")
+    (hitbox 0 0 30 10)
+    (flip-action "on-up")
+  )
+)

@@ -1,0 +1,105 @@
+#  SuperTux
+#  Copyright (C) 2020-2021 Jacob Burroughs <maths22@gmail.com>
+#                2020-2022 A. Semphris <semphris@protonmail.com>
+#
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+name: Ubuntu Touch
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    tags:
+      - '*'
+  pull_request: {}
+
+jobs:
+  clickable:
+    strategy:
+      fail-fast: false
+      matrix:
+        build_type: [Debug, Release]
+        arch: [amd64, arm64, armhf]
+        # glbinding is missing as it isn't available on Ubuntu 16.04
+        opengl: [glew, sdl]
+        exclude:
+            # FIXME: Debug builds don't work for arm64
+          - arch: arm64
+            build_type: Debug
+
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Fetch the whole tree so git describe works
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Install clickable
+        run: |
+          # For whatever reason, I have to manually install runc before 
+          # docker.io or containerd, else it fails because of broken dependency
+          # Using apt-get because apt complains it shouldn't be used in scripts
+          sudo apt-get update
+          sudo apt-get install -y runc
+          sudo apt-get install -y docker.io adb git python3 python3-pip
+          pip3 install --user git+https://gitlab.com/clickable/clickable.git
+
+          # Clickable requires a reboot. This is a sneaky way to bypass that :^)
+          sudo systemctl unmask docker.service
+          sudo systemctl start docker.service
+
+      - name: Build (OpenGL with GLEW)
+        if: ${{ matrix.opengl == 'glew' }}
+        env:
+          BUILD_TYPE: ${{ (matrix.build_type == 'Debug') && '--debug' || '' }}
+          ARCH: ${{ matrix.arch }}
+        run: |
+          ~/.local/bin/clickable build --verbose ${BUILD_TYPE} --arch ${ARCH}  \
+                                      --config mk/clickable/clickable-glew.yaml
+
+      - name: Build (OpenGL with GLbinding)
+        if: ${{ matrix.opengl == 'glbinding' }}
+        env:
+          BUILD_TYPE: ${{ (matrix.build_type == 'Debug') && '--debug' || '' }}
+          ARCH: ${{ matrix.arch }}
+        run: |
+          ~/.local/bin/clickable build --verbose ${BUILD_TYPE} --arch ${ARCH}  \
+                                 --config mk/clickable/clickable-glbinding.yaml
+
+      - name: Build (no OpenGL)
+        if: ${{ matrix.opengl == 'sdl' }}
+        env:
+          BUILD_TYPE: ${{ (matrix.build_type == 'Debug') && '--debug' || '' }}
+          ARCH: ${{ matrix.arch }}
+        run: |
+          ~/.local/bin/clickable build --verbose ${BUILD_TYPE} --arch ${ARCH}
+
+      - uses: actions/upload-artifact@v4
+        if: matrix.build_type != 'Debug'
+        with:
+          name: "clickable-${{ matrix.arch }}-${{ matrix.build_type }}-${{ matrix.opengl }}-click"
+          path: build.clickable/*.click
+          if-no-files-found: ignore
+
+      #- name: Publish to Open Store
+      #  if: ${{ github.ref == 'refs/heads/master' && matrix.build_type == 'Release' && matrix.opengl == 'sdl' }}
+      #  env:
+      #    ARCH: ${{ matrix.arch }}
+      #    OPENSTORE_KEY: ${{ secrets.OPENSTORE_KEY }}
+      #  run: |
+      #    ~/.local/bin/clickable publish "* $(git log -1 --pretty=%B |         \
+      #                                   head -1)" --apikey ${OPENSTORE_KEY}   \
+      #                                   --arch ${ARCH}

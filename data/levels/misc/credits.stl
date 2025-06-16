@@ -1,0 +1,215 @@
+(supertux-level
+  (version 3)
+  (name (_ "Credits Level"))
+  (author "SuperTux Team")
+  (contact "supertux.org/contact.html")
+  (license "CC-BY-SA 4.0 International")
+  (suppress-pause-menu #t)
+  (icon "")
+  (icon-locked "")
+  (sector
+    (name "main")
+    (init-script "Tux.deactivate();
+wait(7);
+gradient.fade_colors(0, 0, 0, 0, 0, 0.5, 206);
+background.fade_color(0.125, 0.18, 0.35, 1, 206);
+skybox_dawn.fade_color(1, 1, 1, 0, 206);
+skybox_night.fade_color(1, 1, 1, 1, 206);
+settings.fade_to_ambient_light(0.8, 0.82, 1, 206);
+wait(98);
+stop_music(2);
+wait(3.5);
+play_music(\"music/forest/forest3.music\");
+wait(99);
+stop_music(0);")
+    (ambient-light
+      (color 1 0.9 0.88)
+    )
+    (background
+      (name "background")
+      (color 1 0.98 0.95)
+      (alignment "bottom")
+      (speed 0)
+      (image "/images/background/antarctic/snow_panorama.png")
+      (z-pos -250)
+    )
+    (background
+      (color 1 1 1)
+      (speed 0)
+      (fill #t)
+      (image "/images/engine/menu/frame.png")
+      (z-pos 500)
+    )
+    (background
+      (name "skybox_dawn")
+      (color 1 1 1)
+      (alignment "top")
+      (scroll-speed-x -5)
+      (speed 0)
+      (image "/images/background/misc/skybox.png")
+      (z-pos -280)
+    )
+    (background
+      (name "skybox_night")
+      (color 1 1 1 0)
+      (alignment "top")
+      (scroll-speed-x -5)
+      (speed 0)
+      (image "/images/background/misc/skybox_night.png")
+      (z-pos -285)
+    )
+    (camera
+      (name "Camera")
+      (mode "manual")
+    )
+    (decal
+      (name "PENNY")
+      (action "credits-right")
+      (z-pos 40)
+      (sprite "/images/creatures/penny/penny.sprite")
+      (x 232)
+      (y 380)
+    )
+    (decal
+      (name "TUX")
+      (action "credits-right")
+      (sprite "/images/creatures/tux/tux.sprite")
+      (x 268)
+      (y 416)
+    )
+    (gradient
+      (name "gradient")
+      (top_color 0.88 0.3 0.7)
+      (bottom_color 1 1 0.1)
+    )
+    (music
+      (file "/music/misc/credits.music")
+    )
+    (particles-snow
+    )
+    (path
+      (name "gen16280078581522510610000")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 0)
+          (y 672)
+        )
+      )
+    )
+    (path
+      (name "gen16434947022123693180720")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 640)
+          (y 672)
+          (time 2)
+          (speed 8)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 640)
+          (y 656)
+          (time 2)
+          (speed 8)
+          (easing "EaseQuadInOut")
+        )
+      )
+    )
+    (path
+      (name "gen16434947662123693097120")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 1056)
+          (y 672)
+          (time 2.000001)
+          (speed 8)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 1056)
+          (y 656)
+          (time 2.000001)
+          (speed 8)
+          (easing "EaseQuadInOut")
+        )
+      )
+    )
+    (platform
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16434947022123693180720")
+      (sprite "/images/objects/platforms/icefloe.sprite")
+    )
+    (platform
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16434947662123693097120")
+      (starting-node 1)
+      (sprite "/images/objects/platforms/icefloe_small.sprite")
+    )
+    (spawnpoint
+      (name "main")
+      (x 48)
+      (y 672)
+    )
+    (textscroller
+      (file "credits.stxt")
+      (x-offset 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (width 45)
+      (height 25)
+      (tiles -540 0 2622 -50 0 106 107 108 -42 0 109 110 111 5203 5204 -484 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (width 45)
+      (height 25)
+      (tiles -855 0 5540 -44 0 5547 -2 5539 5540 -41 0 -2 5549 5543 5547 5539 5540 -39 0 5549 5543 -3 5549 5547 5540 -38 0 5549 -3 5543 5549 5543 5547 5539 5540 -36 0 -3 5549 5543 5549 -2 5543 5549 5547 5540 -35 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 45)
+      (height 25)
+      (tiles -540 0 2918 2913 2914 -42 0 2920 2915 2916 1832 1827 -40 0 -2 11 1835 1836 1831 2917 2918 -3 8 2913 2914 -33 0 5369 -3 11 1835 2919 2920 -3 14 2915 2916 5385 -32 0 5369 -5 11 5368 -2 11 5368 11 1835 5389 -32 0 5369 5368 115 116 5368 11 -2 5368 5369 11 5368 11 5375 -32 0 11 5369 117 118 11 5369 5368 5369 -4 11 2941 -32 0 -5 11 5368 5369 1539 -2 5368 11 30 2942 -32 0 -2 11 5368 11 -2 5368 5369 -4 11 12 -33 0 11 -2 0 5368 11 5368 11 -2 5369 11 5369 5375 -33 0 11 -2 0 -2 11 5368 -2 11 5368 -2 11 2941 -33 0 -2 11 -2 5369 11 -2 5368 5369 -2 11 30 2942 -33 0 -3 11 5368 11 -2 5369 -3 11 12 -34 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #f)
+      (z-pos -50)
+      (name "water")
+      (path-ref "gen16280078581522510610000")
+      (width 45)
+      (height 4)
+      (tiles 2019 2140 2141 2142 2019 2140 2141 2142 2019 2140 2141 2142 2019 2140 2141 2142 2019 2140 2141 2142 2019 2140 2141 2142 2019 2140 2141 2142 2019 2140 2141 2142 2019 2140 2141 2142 2019 2140 2141 2142 2019 2140 2141 2142 2019 -135 2020)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -110)
+      (width 45)
+      (height 25)
+      (tiles -450 0 2054 -44 0 2055 2053 2054 -42 0 2058 2060 2055 2054 -41 0 2060 2065 2071 2055 2054 -40 0 2061 2070 2058 2066 2055 2053 2054 -38 0 2065 2058 2061 -3 2058 2059 -38 0 -6 2063 2064 -183 0 2185 2199 2186 -42 0 2192 2197 2190 2185 2186 -40 0 2192 2181 2198 2200 2198 2186 -39 0 2192 2196 2197 2189 2187 2198 2186 -37 0 2192 -2 2188 2196 2187 2179 2197 2198 2186 -27 0)
+    )
+  )
+)

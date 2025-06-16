@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Vangelis Nomikos <nvangelis@gmail.com>, 2019
+# IAN RODRÍGUEZ Lorenzo, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux v0.6.0-1010-gefc33a183\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2019-11-24 01:44+0100\n"
+"PO-Revision-Date: 2019-11-24 00:59+0000\n"
+"Last-Translator: IAN RODRÍGUEZ Lorenzo, 2022\n"
+"Language-Team: Greek (https://app.transifex.com/arctic-games/teams/95/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/levels/community2016/Ancient_Ruins (RustyBox).stl:3
+msgid "The Ancient Ruins Of The Forest"
+msgstr "Τα αρχαία ερείπια του δάσους"
+
+#: data/levels/community2016/Double_Problems (herobrine).stl:3
+msgid "Double Problems"
+msgstr "Διπλά προβλήματα"
+
+#: data/levels/community2016/Double_Problems (herobrine).stl:82
+msgid "-Concentrate! Tux! It's not Mario!"
+msgstr "-Συγκεντρώνομαι! Σμόκιν! Δεν είναι ο Μάριος!"
+
+#: data/levels/community2016/Double_Problems (herobrine).stl:142
+msgid "You found a secret area!"
+msgstr "Βρήκες μια μυστική περιοχή!"
+
+#: data/levels/community2016/Entrance_To_Cave (gelada).stl:3
+msgid "The Entrance To The Cave"
+msgstr "Η είσοδος στο σπήλαιο"
+
+#: data/levels/community2016/Entrance_To_Lava_Castle (herobrine).stl:3
+msgid "The Entrance To The Lava Castle"
+msgstr "Η είσοδος στο κάστρο της λάβας"
+
+#: data/levels/community2016/HMS_Snowballs_Ahoy (Vellidragon).stl:3
+msgid "HMS Snowball Ahoy!"
+msgstr "HMS χιονόμπαλα αχόι!"
+
+#: data/levels/community2016/Into_The_Palace (ThomyW).stl:3
+msgid "Into The Palace"
+msgstr "Στο Παλάτι"
+
+#: data/levels/community2016/Is_The_Biggest_Fish (cookie monster).stl:3
+msgid "Is The Biggest Fish"
+msgstr "Είναι το Μεγαλύτερο Ψάρι"
+
+#: data/levels/community2016/Problem_With_Green (herobrine).stl:3
+msgid "The Problem With GREEN"
+msgstr "Το πρόβλημα με το ΠΡΑΣΙΝΟ"
+
+#: data/levels/community2016/Sunny_Hills (Serano).stl:3
+msgid "Sunny Hills"
+msgstr "Ηλιόλουστους λόφους"
+
+#: data/levels/community2016/The_Mountains (gelada).stl:3
+msgid "The Mountains"
+msgstr "Τα βουνά"
+
+#: data/levels/community2016/The_Strange_Thing (herobrine).stl:3
+msgid "The Strange Thing"
+msgstr "Το Παράξενο"
+
+#: data/levels/community2016/Uncontrolled_Lift (gelada).stl:3
+msgid "Uncontrolled Lift"
+msgstr "Μη ελεγχόμενη ανύψωση"
+
+#: data/levels/community2016/Up_Or_Down (Serano).stl:3
+msgid "Up, Or Down?"
+msgstr "Πάνω ή κάτω?"
+
+#: data/levels/community2016/Welcome_To_Icy_Island (gelada).stl:3
+msgid "Welcome To The Icy Island"
+msgstr "Καλώς ήλθατε στο παγωμένο νησί"
+
+#: data/levels/community2016/worldmap.stwm:3
+msgid "Community Island 2016"
+msgstr "Κοινοτικό νησί 2016"

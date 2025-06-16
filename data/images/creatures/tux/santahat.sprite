@@ -1,0 +1,10 @@
+(supertux-sprite
+
+; Santa Tux - currently disabled but can't be a dummy sprite
+      (action
+         (name "default")
+         (fps 15)
+         (hitbox 16 15 32 64)
+         (images "santahat/big/walk-0.png"))
+
+)

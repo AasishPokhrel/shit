@@ -1,0 +1,39 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 2 32 32 32)
+    (images "rustytrampoline1.png")
+  )
+  (action
+    (name "swinging")
+	(hitbox 2 32 32 32)
+	(fps 32)
+    (images "rustytrampoline1.png"
+            "rustytrampoline2.png"
+			"rustytrampoline2.png"
+            "rustytrampoline1.png"
+			"rustytrampoline3.png"
+			"rustytrampoline3.png"
+			"rustytrampoline3.png")
+  )
+  (action
+    (name "breaking")
+    (hitbox 2 32 32 32)
+	(fps 20)
+    (images "rustytrampoline1.png"
+	        "rustytrampoline1.png"
+			"rustytrampoline1.png"
+			"rustytrampoline1.png"
+			"rustytrampoline4.png"
+			"rustytrampoline4.png"
+			"rustytrampoline6.png"
+			"rustytrampoline5.png"
+			"rustytrampoline5.png"
+			"rustytrampoline5.png"
+			"rustytrampoline5.png"
+			"rustytrampoline5.png"
+			"rustytrampoline5.png"
+			"rustytrampoline5.png"
+			"rustytrampoline5.png")
+  )
+)

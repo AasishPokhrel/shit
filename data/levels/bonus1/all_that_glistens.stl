@@ -1,0 +1,1932 @@
+(supertux-level
+  (version 3)
+  (name (_ "All That Glistens is Not Gold"))
+  (author "Daniel Ward")
+  (license "CC-BY-SA 4.0 International")
+  (target-time 90)
+  (allow-item-pocket "inherit")
+  (icon "")
+  (icon-locked "")
+  (statistics
+    (enable-coins #t)
+    (enable-badguys #f)
+    (enable-secrets #t)
+  )
+  (sector
+    (name "main")
+    (init-script "sector.switch1 <- false;
+sector.switch2 <- false;
+sector.atm <- true;")
+    (ambient-light
+      (color 0.6 0.6 0.7)
+    )
+    (background
+      (color 1 1 1)
+      (speed 0)
+      (fill #t)
+      (image-top "/images/background/misc/vignette.png")
+      (image "/images/background/misc/vignette.png")
+      (image-bottom "/images/background/misc/vignette.png")
+      (z-pos 200)
+    )
+    (background
+      (scroll-offset-x 640)
+      (scroll-offset-y 1152)
+      (color 1 1 1)
+      (speed 0.35)
+      (image "/images/background/ice_cave/ice_cave_front.png")
+    )
+    (background
+      (scroll-offset-x 1664)
+      (scroll-offset-y 1056)
+      (color 1 1 1)
+      (speed 0.15)
+      (image "/images/background/ice_cave/ice_cave_middle.png")
+      (z-pos -305)
+    )
+    (background
+      (scroll-offset-x 768)
+      (scroll-offset-y 736)
+      (color 1 1 1)
+      (speed 0.05)
+      (image "/images/background/ice_cave/ice_cave_backwall.png")
+      (z-pos -310)
+    )
+    (bonusblock
+      (z-pos 51)
+      (count 3)
+      (sprite "/images/objects/bonus_block/orangeblock.sprite")
+      (x 704)
+      (y 1600)
+    )
+    (bonusblock
+      (z-pos 51)
+      (count 3)
+      (sprite "/images/objects/bonus_block/orangeblock.sprite")
+      (x 2976)
+      (y 1840)
+    )
+    (bonusblock
+      (z-pos 51)
+      (count 5)
+      (sprite "/images/objects/bonus_block/purpleblock.sprite")
+      (x 7744)
+      (y 1344)
+    )
+    (bonusblock
+      (z-pos 51)
+      (count 5)
+      (sprite "/images/objects/bonus_block/purpleblock.sprite")
+      (x 5664)
+      (y 1280)
+    )
+    (bonusblock
+      (z-pos 51)
+      (count -3)
+      (x 288)
+      (y 96)
+    )
+    (bumper
+      (z-pos 50)
+      (x 4320)
+      (y 1216)
+    )
+    (bumper
+      (z-pos 50)
+      (direction "left")
+      (x 4784)
+      (y 1216)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (climbable
+      (width 32)
+      (height 928)
+      (x 2560)
+      (y 128)
+    )
+    (climbable
+      (width 32)
+      (height 256)
+      (x 2720)
+      (y 960)
+    )
+    (coin
+      (z-pos 49)
+      (x 1440)
+      (y 1792)
+      (collect-script "tm0.change(45, 56, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1408)
+      (y 1792)
+      (collect-script "tm0.change(44, 56, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1472)
+      (y 1792)
+      (collect-script "tm0.change(46, 56, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1504)
+      (y 1792)
+      (collect-script "tm0.change(47, 56, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1536)
+      (y 1792)
+      (collect-script "tm0.change(48, 56, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2080)
+      (y 1792)
+      (collect-script "tm0.change(65, 56, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2080)
+      (y 1760)
+      (collect-script "tm0.change(65, 55, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2080)
+      (y 1728)
+      (collect-script "tm0.change(65, 54, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2080)
+      (y 1824)
+      (collect-script "tm0.change(65, 57, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1728)
+      (y 1696)
+      (collect-script "tm1.change(54, 53, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1760)
+      (y 1696)
+      (collect-script "tm1.change(55, 53, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1792)
+      (y 1696)
+      (collect-script "tm1.change(56, 53, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1824)
+      (y 1696)
+      (collect-script "tm1.change(57, 53, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1856)
+      (y 1696)
+      (collect-script "tm1.change(58, 53, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2048)
+      (y 1728)
+      (collect-script "tm1.change(64, 54, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2048)
+      (y 1760)
+      (collect-script "tm1.change(64, 55, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2048)
+      (y 1792)
+      (collect-script "tm1.change(64, 56, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2048)
+      (y 1824)
+      (collect-script "tm1.change(64, 57, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675102551349211771744")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675102531349211766784")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675102501349211768224")
+    )
+    (coin
+      (z-pos 49)
+      (x 2656)
+      (y 1312)
+      (collect-script "tm0.change(83, 41, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2688)
+      (y 1312)
+      (collect-script "tm0.change(84, 41, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2720)
+      (y 1312)
+      (collect-script "tm0.change(85, 41, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2752)
+      (y 1312)
+      (collect-script "tm0.change(86, 41, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2784)
+      (y 1312)
+      (collect-script "tm0.change(87, 41, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2656)
+      (y 1152)
+      (collect-script "tm1.change(83, 36, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2688)
+      (y 1152)
+      (collect-script "tm1.change(84, 36, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2720)
+      (y 1152)
+      (collect-script "tm1.change(85, 36, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2752)
+      (y 1152)
+      (collect-script "tm1.change(86, 36, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2784)
+      (y 1152)
+      (collect-script "tm1.change(87, 36, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2528)
+      (y 768)
+      (collect-script "tm0.change(79, 24, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2560)
+      (y 768)
+      (collect-script "tm0.change(80, 24, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2592)
+      (y 768)
+      (collect-script "tm0.change(81, 24, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2528)
+      (y 480)
+      (collect-script "tm1.change(79, 15, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2560)
+      (y 480)
+      (collect-script "tm1.change(80, 15, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 2592)
+      (y 480)
+      (collect-script "tm1.change(81, 15, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1728)
+      (y 384)
+      (collect-script "tm1.change(54, 12, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1760)
+      (y 384)
+      (collect-script "tm1.change(55, 12, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1792)
+      (y 384)
+      (collect-script "tm1.change(56, 12, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1824)
+      (y 384)
+      (collect-script "tm1.change(57, 12, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1600)
+      (y 384)
+      (collect-script "tm0.change(50, 12, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1568)
+      (y 384)
+      (collect-script "tm0.change(49, 12, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1536)
+      (y 384)
+      (collect-script "tm0.change(48, 12, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 1504)
+      (y 384)
+      (collect-script "tm0.change(47, 12, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 3552)
+      (y 864)
+      (collect-script "tm0.change(111, 27, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 3552)
+      (y 896)
+      (collect-script "tm0.change(111, 28, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 3552)
+      (y 928)
+      (collect-script "tm0.change(111, 29, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 3552)
+      (y 960)
+      (collect-script "tm0.change(111, 30, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 3584)
+      (y 960)
+      (collect-script "tm1.change(112, 30, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 3584)
+      (y 928)
+      (collect-script "tm1.change(112, 29, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 3584)
+      (y 896)
+      (collect-script "tm1.change(112, 28, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 3584)
+      (y 864)
+      (collect-script "tm1.change(112, 27, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 4064)
+      (y 1280)
+      (collect-script "tm1.change(127, 40, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 4096)
+      (y 1280)
+      (collect-script "tm1.change(128, 40, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 4128)
+      (y 1280)
+      (collect-script "tm1.change(129, 40, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 4160)
+      (y 1280)
+      (collect-script "tm1.change(130, 40, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 4160)
+      (y 1312)
+      (collect-script "tm0.change(130, 41, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 4128)
+      (y 1312)
+      (collect-script "tm0.change(129, 41, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 4096)
+      (y 1312)
+      (collect-script "tm0.change(128, 41, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 4064)
+      (y 1312)
+      (collect-script "tm0.change(127, 41, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 5728)
+      (y 1696)
+      (collect-script "tm0.change(179, 53, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 5184)
+      (y 1632)
+      (collect-script "tm1.change(162, 51, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 5184)
+      (y 1600)
+      (collect-script "tm1.change(162, 50, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 5184)
+      (y 1568)
+      (collect-script "tm1.change(162, 49, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 5184)
+      (y 1536)
+      (collect-script "tm1.change(162, 48, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 6720)
+      (y 1600)
+      (collect-script "tm0.change(210, 50, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 6912)
+      (y 1568)
+      (collect-script "tm1.change(216, 49, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (x 6528)
+      (y 1632)
+      (collect-script "tm1.change(204, 51, 0);")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675319981979608570064")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 5)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675319981979608570064")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 4)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675319981979608570064")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675319981979608570064")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675319981979608570064")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675319981979608570064")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 6)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675319981979608570064")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 7)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675319981979608570064")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675323611979608568304")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675323611979608568304")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675323611979608568304")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675323611979608568304")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 5)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675323611979608568304")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 4)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675323611979608568304")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 6)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675323611979608568304")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 7)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675323611979608568304")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675326551979608566224")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675326861979608570224")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675328231979488385008")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675328731979488385968")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675331591979608569264")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675331401979608564464")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675331221979608564624")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675337771978070498784")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675338171978070502464")
+    )
+    (crusher
+      (type "ice-krosh")
+      (z-pos 50)
+      (x 4064)
+      (y 768)
+    )
+    (crystallo
+      (z-pos 50)
+      (direction "left")
+      (x 3296)
+      (y 576)
+    )
+    (crystallo
+      (z-pos 50)
+      (x 1504)
+      (y 1888)
+    )
+    (decal
+      (z-pos 30)
+      (sprite "/images/creatures/crystallo/crystallo-overlay.sprite")
+      (x 4576)
+      (y 1600)
+    )
+    (decal
+      (z-pos 30)
+      (sprite "/images/creatures/crystallo/crystallo-overlay.sprite")
+      (x 4928)
+      (y 1600)
+    )
+    (decal
+      (z-pos 30)
+      (sprite "/images/creatures/crystallo/crystallo-overlay.sprite")
+      (x 7584)
+      (y 1408)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 4)
+      (objects
+        (mrbomb
+          (z-pos 50)
+        )
+      )
+      (direction "left")
+      (limit-dispensed-badguys #t)
+      (max-concurrent-badguys 1)
+      (x 1920)
+      (y 224)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (objects
+        (mrbomb
+          (z-pos 50)
+        )
+      )
+      (direction "left")
+      (limit-dispensed-badguys #t)
+      (max-concurrent-badguys 1)
+      (x 5504)
+      (y 1440)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (type "cannon")
+      (objects
+        (kamikazesnowball
+          (z-pos 50)
+        )
+      )
+      (direction "left")
+      (gravity #t)
+      (x 3824)
+      (y 928)
+    )
+    (firefly
+      (z-pos 0)
+      (x 3984)
+      (y 1808)
+    )
+    (haywire
+      (z-pos 50)
+      (direction "left")
+      (x 7712)
+      (y 1440)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 3968)
+      (y 1120)
+    )
+    (lit-object
+      (sprite "/images/objects/lightflower/lightflower3.sprite")
+      (z-pos 0)
+      (x 1216)
+      (y 1856)
+      (light-offset-x -6)
+      (light-offset-y -17)
+    )
+    (lit-object
+      (z-pos 0)
+      (x 688)
+      (y 1920)
+      (light-offset-x -6)
+      (light-offset-y -17)
+    )
+    (lit-object
+      (z-pos 0)
+      (x 7296)
+      (y 1568)
+      (light-offset-x -6)
+      (light-offset-y -17)
+    )
+    (lit-object
+      (z-pos 0)
+      (x 7296)
+      (y 1568)
+      (light-offset-x -6)
+      (light-offset-y -17)
+    )
+    (lit-object
+      (sprite "/images/objects/lightflower/lightflower3.sprite")
+      (z-pos 0)
+      (x 2848)
+      (y 1888)
+      (light-offset-x -6)
+      (light-offset-y -17)
+    )
+    (lit-object
+      (sprite "/images/objects/lightflower/lightflower3.sprite")
+      (z-pos 0)
+      (x 2848)
+      (y 1888)
+      (light-offset-x -6)
+      (light-offset-y -17)
+    )
+    (lit-object
+      (sprite "/images/objects/lightflower/lightflower3.sprite")
+      (z-pos 0)
+      (x 2656)
+      (y 384)
+      (light-offset-x -6)
+      (light-offset-y -17)
+    )
+    (lit-object
+      (z-pos 0)
+      (x 3168)
+      (y 480)
+      (light-offset-x -6)
+      (light-offset-y -17)
+    )
+    (lit-object
+      (z-pos 0)
+      (x 3840)
+      (y 1120)
+      (light-offset-x -6)
+      (light-offset-y -17)
+    )
+    (lit-object
+      (z-pos 0)
+      (x 3840)
+      (y 1120)
+      (light-offset-x -6)
+      (light-offset-y -17)
+    )
+    (lit-object
+      (z-pos 0)
+      (x 4224)
+      (y 1696)
+      (light-offset-x -6)
+      (light-offset-y -17)
+    )
+    (lit-object
+      (z-pos 0)
+      (x 4224)
+      (y 1696)
+      (light-offset-x -6)
+      (light-offset-y -17)
+    )
+    (lit-object
+      (sprite "/images/objects/lightflower/lightflower3.sprite")
+      (z-pos 0)
+      (x 5984)
+      (y 1568)
+      (light-offset-x -6)
+      (light-offset-y -17)
+    )
+    (lit-object
+      (sprite "/images/objects/lightflower/lightflower3.sprite")
+      (z-pos 0)
+      (x 5984)
+      (y 1568)
+      (light-offset-x -6)
+      (light-offset-y -17)
+    )
+    (mrbomb
+      (z-pos 50)
+      (direction "left")
+      (x 1888)
+      (y 1664)
+    )
+    (mrbomb
+      (z-pos 50)
+      (direction "left")
+      (x 4752)
+      (y 1856)
+    )
+    (mriceblock
+      (z-pos 50)
+      (direction "left")
+      (x 3040)
+      (y 544)
+    )
+    (music
+      (file "/music/antarctic/crystalmine_main.music")
+    )
+    (path
+      (name "gen16675094311349219844480")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 640)
+          (y 1728)
+          (time 3)
+        )
+        (node
+          (x 640)
+          (y 1952)
+        )
+        (node
+          (x 640)
+          (y 1952)
+          (time 3)
+        )
+        (node
+          (x 640)
+          (y 1728)
+        )
+      )
+    )
+    (path
+      (name "gen16675102501349211768224")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 640)
+          (y 1760)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 768)
+          (y 1760)
+        )
+      )
+    )
+    (path
+      (name "gen16675102531349211766784")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 768)
+          (y 1824)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 640)
+          (y 1824)
+        )
+      )
+    )
+    (path
+      (name "gen16675102551349211771744")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 640)
+          (y 1888)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 768)
+          (y 1888)
+        )
+      )
+    )
+    (path
+      (name "gen16675165711349298086848")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 2656)
+          (y 1632)
+          (time 5)
+        )
+        (node
+          (x 2656)
+          (y 1984)
+        )
+        (node
+          (x 2656)
+          (y 1984)
+          (time 5)
+        )
+        (node
+          (x 2656)
+          (y 1632)
+        )
+      )
+    )
+    (path
+      (name "gen16675202181349297566240")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 1312)
+          (y 512)
+          (time 2)
+        )
+        (node
+          (x 1312)
+          (y 608)
+        )
+        (node
+          (x 1312)
+          (y 608)
+          (time 2)
+        )
+        (node
+          (x 1312)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "gen16675206181349217058304")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 3648)
+          (y 704)
+          (time 6)
+        )
+        (node
+          (x 3648)
+          (y 1216)
+        )
+        (node
+          (x 3648)
+          (y 1216)
+          (time 6)
+        )
+        (node
+          (x 3648)
+          (y 704)
+        )
+      )
+    )
+    (path
+      (name "gen16675254931349298087328")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 4736)
+          (y 1600)
+          (time 3)
+        )
+        (node
+          (x 4736)
+          (y 1824)
+        )
+        (node
+          (x 4736)
+          (y 1824)
+          (time 3)
+        )
+        (node
+          (x 4736)
+          (y 1600)
+        )
+      )
+    )
+    (path
+      (name "gen16675319981979608570064")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 2560)
+          (y 224)
+          (bezier_after_x 2592)
+          (bezier_after_y 224)
+        )
+        (node
+          (x 2624)
+          (y 256)
+          (bezier_after_x 2656)
+          (bezier_after_y 288)
+        )
+        (node
+          (x 2656)
+          (y 320)
+          (bezier_after_x 2656)
+          (bezier_after_y 352)
+        )
+        (node
+          (x 2624)
+          (y 384)
+          (bezier_after_x 2592)
+          (bezier_after_y 416)
+        )
+        (node
+          (x 2560)
+          (y 416)
+          (bezier_after_x 2528)
+          (bezier_after_y 416)
+        )
+        (node
+          (x 2496)
+          (y 384)
+          (bezier_after_x 2464)
+          (bezier_after_y 352)
+        )
+        (node
+          (x 2464)
+          (y 320)
+          (bezier_after_x 2464)
+          (bezier_after_y 288)
+        )
+        (node
+          (x 2496)
+          (y 256)
+          (bezier_after_x 2528)
+          (bezier_after_y 224)
+        )
+      )
+    )
+    (path
+      (name "gen16675323611979608568304")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 2720)
+          (y 1696)
+          (bezier_after_x 2752)
+          (bezier_after_y 1696)
+        )
+        (node
+          (x 2784)
+          (y 1728)
+          (bezier_after_x 2816)
+          (bezier_after_y 1760)
+        )
+        (node
+          (x 2816)
+          (y 1792)
+          (bezier_after_x 2816)
+          (bezier_after_y 1824)
+        )
+        (node
+          (x 2784)
+          (y 1856)
+          (bezier_after_x 2752)
+          (bezier_after_y 1888)
+        )
+        (node
+          (x 2720)
+          (y 1888)
+          (bezier_after_x 2688)
+          (bezier_after_y 1888)
+        )
+        (node
+          (x 2656)
+          (y 1856)
+          (bezier_after_x 2624)
+          (bezier_after_y 1824)
+        )
+        (node
+          (x 2624)
+          (y 1792)
+          (bezier_after_x 2624)
+          (bezier_after_y 1760)
+        )
+        (node
+          (x 2656)
+          (y 1728)
+          (bezier_after_x 2688)
+          (bezier_after_y 1696)
+        )
+      )
+    )
+    (path
+      (name "gen16675326551979608566224")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4336)
+          (y 1184)
+          (bezier_after_x 4464)
+          (bezier_after_y 1136)
+          (time 0.8)
+          (easing "EaseQuadOut")
+        )
+        (node
+          (x 4608)
+          (y 1136)
+        )
+      )
+    )
+    (path
+      (name "gen16675326861979608570224")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4656)
+          (y 1184)
+          (time 0.8)
+          (easing "EaseQuadOut")
+        )
+        (node
+          (x 4656)
+          (y 1024)
+        )
+      )
+    )
+    (path
+      (name "gen16675328231979488385008")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 5760)
+          (y 1632)
+          (bezier_after_x 5760)
+          (bezier_after_y 1440)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 5954)
+          (y 1599)
+          (bezier_before_x 5952)
+          (bezier_before_y 1472)
+          (bezier_after_x 5952)
+          (bezier_after_y 1600)
+        )
+      )
+    )
+    (path
+      (name "gen16675328731979488385968")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 5696)
+          (y 1632)
+          (bezier_after_x 5696)
+          (bezier_after_y 1472)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 5504)
+          (y 1664)
+          (bezier_before_x 5504)
+          (bezier_before_y 1440)
+        )
+      )
+    )
+    (path
+      (name "gen16675331221979608564624")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 7808)
+          (y 1664)
+          (easing "EaseQuadOut")
+        )
+        (node
+          (x 7840)
+          (y 1760)
+        )
+      )
+    )
+    (path
+      (name "gen16675331401979608564464")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 7840)
+          (y 1760)
+          (easing "EaseQuadOut")
+        )
+        (node
+          (x 7744)
+          (y 1728)
+        )
+      )
+    )
+    (path
+      (name "gen16675331591979608569264")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 7744)
+          (y 1728)
+          (easing "EaseQuadOut")
+        )
+        (node
+          (x 7808)
+          (y 1664)
+        )
+      )
+    )
+    (path
+      (name "gen16675337771978070498784")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2464)
+          (y 928)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2496)
+          (y 928)
+        )
+      )
+    )
+    (path
+      (name "gen16675338171978070502464")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2656)
+          (y 624)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2624)
+          (y 624)
+        )
+      )
+    )
+    (path
+      (name "gen16675929592796319209024")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 5600)
+          (y 1152)
+        )
+      )
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675094311349219844480")
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675165711349298086848")
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675202181349297566240")
+      (sprite "/images/objects/platforms/small.sprite")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675206181349217058304")
+      (sprite "/images/objects/platforms/wood-fivetiles.sprite")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16675254931349298087328")
+      (sprite "/images/objects/platforms/small.sprite")
+    )
+    (rcrystallo
+      (z-pos 50)
+      (direction "left")
+      (x 1120)
+      (y 1664)
+    )
+    (rcrystallo
+      (z-pos 50)
+      (direction "left")
+      (x 3360)
+      (y 352)
+    )
+    (scrystallo
+      (z-pos 50)
+      (direction "left")
+      (x 7584)
+      (y 1400)
+    )
+    (scrystallo
+      (z-pos 50)
+      (direction "left")
+      (x 4928)
+      (y 1592)
+    )
+    (scrystallo
+      (z-pos 50)
+      (direction "left")
+      (x 4576)
+      (y 1592)
+    )
+    (secretarea
+      (fade-tilemap "secret1")
+      (width 32)
+      (height 224)
+      (x 2336)
+      (y 256)
+    )
+    (secretarea
+      (fade-tilemap "secret2")
+      (width 96)
+      (height 32)
+      (x 5696)
+      (y 1408)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 480)
+      (x 8224)
+      (y 1376)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 448)
+      (x 8928)
+      (y 1344)
+    )
+    (smartball
+      (z-pos 50)
+      (direction "left")
+      (x 2528)
+      (y 1952)
+    )
+    (smartblock
+      (z-pos 50)
+      (direction "left")
+      (x 2592)
+      (y 1952)
+    )
+    (snowball
+      (z-pos 50)
+      (direction "left")
+      (x 800)
+      (y 1984)
+    )
+    (snowball
+      (z-pos 50)
+      (direction "left")
+      (x 640)
+      (y 1984)
+    )
+    (spawnpoint
+      (name "main")
+      (x 224)
+      (y 1920)
+    )
+    (switch
+      (z-pos 1)
+      (script "
+if (atm) {
+tm0.fade(1, 0.1);
+tm1.fade(0, 0.1);
+atm <- false;
+}
+else {
+tm0.fade(0, 0.1);
+tm1.fade(1, 0.1);
+atm <- true;
+}")
+      (sprite "/images/objects/switch/switch.sprite")
+      (x 1056)
+      (y 1856)
+    )
+    (switch
+      (z-pos 1)
+      (script "
+if (atm) {
+tm0.fade(1, 0.1);
+tm1.fade(0, 0.1);
+atm <- false;
+}
+else {
+tm0.fade(0, 0.1);
+tm1.fade(1, 0.1);
+atm <- true;
+}")
+      (sprite "/images/objects/switch/switch.sprite")
+      (x 1632)
+      (y 1696)
+    )
+    (switch
+      (z-pos 1)
+      (script "
+if (atm) {
+tm0.fade(1, 0.1);
+tm1.fade(0, 0.1);
+atm <- false;
+}
+else {
+tm0.fade(0, 0.1);
+tm1.fade(1, 0.1);
+atm <- true;
+}")
+      (sprite "/images/objects/switch/switch.sprite")
+      (x 2720)
+      (y 1408)
+    )
+    (switch
+      (z-pos 1)
+      (script "
+if (atm) {
+tm0.fade(1, 0.1);
+tm1.fade(0, 0.1);
+atm <- false;
+}
+else {
+tm0.fade(0, 0.1);
+tm1.fade(1, 0.1);
+atm <- true;
+}")
+      (sprite "/images/objects/switch/switch.sprite")
+      (x 2720)
+      (y 1248)
+    )
+    (switch
+      (z-pos 1)
+      (script "
+if (atm) {
+tm0.fade(1, 0.1);
+tm1.fade(0, 0.1);
+atm <- false;
+}
+else {
+tm0.fade(0, 0.1);
+tm1.fade(1, 0.1);
+atm <- true;
+}")
+      (sprite "/images/objects/switch/switch.sprite")
+      (x 2640)
+      (y 880)
+    )
+    (switch
+      (z-pos 1)
+      (script "
+if (atm) {
+tm0.fade(1, 0.1);
+tm1.fade(0, 0.1);
+atm <- false;
+}
+else {
+tm0.fade(0, 0.1);
+tm1.fade(1, 0.1);
+atm <- true;
+}")
+      (sprite "/images/objects/switch/switch.sprite")
+      (x 2480)
+      (y 608)
+    )
+    (switch
+      (z-pos 1)
+      (script "
+if (atm) {
+tm0.fade(1, 0.1);
+tm1.fade(0, 0.1);
+atm <- false;
+}
+else {
+tm0.fade(0, 0.1);
+tm1.fade(1, 0.1);
+atm <- true;
+}")
+      (sprite "/images/objects/switch/switch.sprite")
+      (x 1568)
+      (y 512)
+    )
+    (switch
+      (z-pos 1)
+      (script "
+if (atm) {
+tm0.fade(1, 0.1);
+tm1.fade(0, 0.1);
+atm <- false;
+}
+else {
+tm0.fade(0, 0.1);
+tm1.fade(1, 0.1);
+atm <- true;
+}")
+      (sprite "/images/objects/switch/switch.sprite")
+      (x 4656)
+      (y 960)
+    )
+    (switch
+      (z-pos 1)
+      (script "
+if (atm) {
+tm0.fade(1, 0.1);
+tm1.fade(0, 0.1);
+atm <- false;
+}
+else {
+tm0.fade(0, 0.1);
+tm1.fade(1, 0.1);
+atm <- true;
+}")
+      (sprite "/images/objects/switch/switch.sprite")
+      (x 4752)
+      (y 1520)
+    )
+    (switch
+      (z-pos 1)
+      (script "
+if (atm) {
+tm0.fade(1, 0.1);
+tm1.fade(0, 0.1);
+atm <- false;
+}
+else {
+tm0.fade(0, 0.1);
+tm1.fade(1, 0.1);
+atm <- true;
+}")
+      (sprite "/images/objects/switch/switch.sprite")
+      (x 6208)
+      (y 1600)
+    )
+    (switch
+      (z-pos 1)
+      (script "
+if (atm) {
+tm0.fade(1, 0.1);
+tm1.fade(0, 0.1);
+atm <- false;
+}
+else {
+tm0.fade(0, 0.1);
+tm1.fade(1, 0.1);
+atm <- true;
+}")
+      (sprite "/images/objects/switch/switch.sprite")
+      (x 6624)
+      (y 1472)
+    )
+    (switch
+      (z-pos 1)
+      (script "
+if (atm) {
+tm0.fade(1, 0.1);
+tm1.fade(0, 0.1);
+atm <- false;
+}
+else {
+tm0.fade(0, 0.1);
+tm1.fade(1, 0.1);
+atm <- true;
+}")
+      (sprite "/images/objects/switch/switch.sprite")
+      (x 6816)
+      (y 1440)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (width 280)
+      (height 70)
+      (tiles -1172 0 2052 -2 2053 2054 -274 0 2052 2053 2056 -2 2058 2059 -262 0 2052 -3 2053 2054 2052 -5 2053 2054 2057 -2 2058 2061 2050 2064 -13 0 2052 2053 2054 -245 0 2052 2056 -2 2058 2060 2055 2056 2070 2058 2061 2058 2066 2055 2056 2058 2050 2063 2064 -13 0 2052 2056 2065 2059 -17 0 2052 2053 2054 -9 0 2052 2053 2054 -213 0 2057 2058 2061 2058 2060 2058 2060 2050 -2 2063 2051 2065 2071 2060 2050 2064 -15 0 2057 -2 2058 2059 -16 0 2052 2056 2066 2059 -9 0 2057 2066 2055 2054 -212 0 2057 -2 2058 2050 2063 2051 2065 2055 2054 2052 2056 2070 2065 2050 2064 -14 0 2052 2053 2056 2061 2050 2064 -16 0 2057 2060 2050 2064 -9 0 2057 -2 2058 2059 -212 0 2062 -2 2063 2064 0 2062 2051 2061 2055 2056 -2 2061 2066 2059 -15 0 2057 2065 -2 2058 2059 -16 0 2052 2056 2050 2064 -10 0 2062 2051 2061 2059 -218 0 2062 2051 2066 2070 2058 2050 2063 2064 -15 0 2057 2066 2071 2066 2059 -16 0 2057 2058 2059 -12 0 2057 2061 2059 -2 0 2052 -2 2053 2054 -213 0 2062 2051 2058 2050 2064 -17 0 2057 2060 2058 2050 2064 -16 0 2057 2058 2055 2053 2054 -10 0 2057 2058 2055 2054 2052 2056 -2 2058 2059 -213 0 2052 2056 2058 2059 -18 0 2062 2051 2058 2055 2054 -16 0 2062 2063 2051 2058 2059 -10 0 2062 2051 2058 2055 2056 2070 2058 2050 2064 -213 0 2057 2071 2058 2059 -19 0 2057 -2 2058 2059 -17 0 2052 2056 2050 2064 -10 0 2052 2056 -3 2058 2070 2050 2064 -213 0 2052 2056 2058 2050 2064 2052 2053 2054 -16 0 2057 2058 2060 2055 2054 -16 0 2057 2065 2059 -10 0 2052 2056 -2 2060 -2 2058 2070 2059 -213 0 2052 2056 2058 2060 2059 2052 2056 2058 2059 -16 0 2057 -2 2060 2058 2059 -2 0 2052 2053 2054 -10 0 2052 2056 2058 2055 2054 -9 0 2057 2058 2060 2058 2050 2051 2061 2055 2054 -212 0 2057 2058 2061 2058 2055 2056 2061 2050 2064 -15 0 2052 2056 -2 2058 2060 2059 -2 0 2057 2065 2059 0 2052 2053 2054 -6 0 2057 2070 -2 2058 2059 -9 0 2057 2071 -2 2058 2059 2057 2058 2060 2055 2054 -211 0 2057 -5 2058 2050 2064 -16 0 2057 2058 2070 2050 2063 2064 -3 0 2058 2059 2052 2056 2058 2055 2053 2054 -4 0 2062 -3 2063 2064 -9 0 2057 2061 2070 2050 2064 2062 2051 2070 2066 2059 -210 0 2052 2056 2066 2058 2070 2066 2050 2064 -4 0 2052 2053 2054 -10 0 2057 2061 2050 2064 -4 0 2057 2070 2055 2056 2058 2050 2051 2060 2055 -3 2053 2054 -14 0 2062 -2 2063 2064 -2 0 2062 2051 2058 2059 -210 0 2057 2066 -2 2061 2066 2058 2055 2054 -3 0 2052 2056 2061 2055 -4 2053 2054 -5 0 2062 2063 2064 -5 0 2057 2058 2070 2060 2050 2064 2062 2063 2051 2066 2060 2058 2059 -21 0 2057 2058 2055 2054 -209 0 2057 2060 2066 2058 2071 2070 2058 2059 -3 0 2057 2058 -2 2065 2058 2070 -2 2058 2059 -13 0 2062 2051 2066 2050 2064 -3 0 2062 -3 2063 2064 -21 0 2057 2058 2066 2059 -209 0 2062 -6 2063 2064 -3 0 2062 -7 2063 2064 -14 0 2062 2063 2064 -30 0 2062 -2 2063 2064 -590 0 2052 2053 2054 2052 -2 2053 2054 -273 0 2057 2058 2055 2056 -2 2065 2059 -213 0 2052 2053 2054 -46 0 2052 2053 2054 -8 0 2057 2065 -3 2058 2060 2059 -212 0 2052 2056 2058 2055 2054 -45 0 2057 2061 2059 -8 0 2062 2063 2051 2061 2065 2058 2059 -212 0 2057 2070 2058 2065 2059 -45 0 2057 2058 2059 -10 0 2057 -2 2058 2050 2064 -210 0 2052 2053 2056 2060 2050 2063 2064 -37 0 2052 2053 2054 -5 0 2057 2061 2059 2052 2053 2054 -7 0 2057 2060 2058 2059 -208 0 2052 2053 2054 2057 2058 2050 2063 2064 -39 0 2057 2058 2059 -5 0 2062 2051 2055 2056 2060 2059 -7 0 2057 -2 2058 2059 -206 0 2052 2053 2056 2070 2055 2056 2058 2059 -41 0 2057 2065 2059 -6 0 2057 2066 2058 2050 2064 -7 0 2062 -2 2063 2064 -206 0 2057 2066 2050 2051 2058 2050 2063 2064 -41 0 2057 2058 2055 2053 2054 -4 0 2057 2065 2058 2059 -218 0 2062 2063 2064 2062 2063 2064 -43 0 2062 2051 -2 2058 2055 2053 2054 2052 2053 2056 2065 2050 2064 -268 0 2062 2063 2051 2058 2060 2055 2056 2058 2050 2063 2064 -271 0 2057 2060 2050 2051 -2 2058 2059 -272 0 2052 2056 2050 2064 2062 2051 2058 2055 2054 -271 0 2057 2058 2059 -2 0 2062 2051 2058 2059 -41 0 2052 -8 2053 2054 -28 0 2052 2053 0 2053 2054 -146 0 2052 -2 2053 2054 -37 0 2062 2063 2064 -3 0 2062 2063 2064 -41 0 2057 2070 2060 2058 -2 2070 -2 2058 2070 2059 -20 0 2052 -2 2053 0 -2 2053 2054 2052 2056 -2 2058 2061 2059 -146 0 2057 2058 2060 2055 2053 2054 -85 0 2057 2070 2058 2066 2058 2061 2066 2050 2063 2064 -20 0 2057 2071 -2 2058 2060 2058 2055 2056 2058 2050 -2 2063 2064 -4 0 2052 2053 2054 -35 0 2052 -2 2053 2054 -100 0 2062 -2 2063 2051 2058 2059 -85 0 2057 -2 2058 2061 2060 2066 2065 2055 2054 -21 0 2062 -3 2063 2051 2058 -2 2070 2050 2064 -6 0 2052 2056 2060 2059 -35 0 2057 -2 2058 2059 -103 0 2057 2058 2055 -3 2053 2054 -58 0 2052 2053 2054 -20 0 2062 -4 2063 2051 -2 2058 2059 -25 0 2057 -2 2058 2061 2059 -7 0 2057 2058 2050 2064 -34 0 2052 2056 2071 2058 2059 -67 0 2052 2053 2054 -31 0 2052 2053 2056 -2 2058 -2 2071 2058 2055 2053 2054 -53 0 2052 -2 2053 2056 2061 2055 2054 -24 0 2062 -2 2063 2064 -24 0 2052 2056 2050 2051 2058 2055 2054 -5 0 2052 2056 2050 2064 -35 0 2057 2065 2066 2058 2059 -3 0 2052 -2 2053 2054 -55 0 2052 2053 0 2053 2054 2057 2058 2055 2053 2054 -28 0 2052 2056 2061 2050 -5 2063 2051 2065 2055 2054 -52 0 2057 -2 2058 2060 -2 2058 2055 2054 -50 0 2052 2056 2058 2059 2062 2051 2058 2059 -4 0 2052 2056 2066 2059 -36 0 2062 2063 2051 2060 2055 2054 -2 0 2057 -2 2058 2059 -55 0 2057 2066 2058 2066 2055 2056 2061 2058 2071 2059 -28 0 2057 2065 2050 2064 -5 0 2062 2051 2058 2055 2054 -50 0 2052 2056 -2 2058 2060 2050 2051 2058 2059 -49 0 2052 2056 2065 2050 2064 0 2057 2070 2059 -4 0 2057 2058 2066 2059 -38 0 2057 2065 2058 2055 -2 2053 2056 2058 2050 2064 -55 0 2062 -2 2063 2051 -2 2066 2050 -2 2063 2064 -28 0 2062 2063 2064 -7 0 2057 2065 2060 2059 -48 0 2052 2053 2056 2061 2058 2050 2063 2064 2057 2058 2055 2054 -48 0 2057 2058 2050 2064 -2 0 2057 2058 2059 -4 0 2062 2051 2060 2055 2054 -37 0 2062 2051 2058 2066 2070 2065 2058 2050 2064 -59 0 2062 2051 2058 2059 -5 0 2052 2053 2054 -32 0 2052 2056 2066 2065 2059 -48 0 2057 2058 2066 2058 2065 2059 -2 0 2062 2051 2058 2059 -48 0 2057 2058 2059 -3 0 2062 2063 2064 -5 0 2057 2070 2058 2059 -38 0 2062 2051 2070 2060 2065 2060 2059 -61 0 2057 2071 2055 2053 2054 0 2052 2053 2056 2058 2055 2054 -31 0 2057 2058 2065 2050 2064 -48 0 2057 -3 2058 2050 2064 -3 0 2057 2066 2059 -48 0 2062 2063 2064 -11 0 2057 2058 2050 2064 -39 0 2062 2051 2058 2066 2050 2064 -61 0 2062 2063 2051 2058 2055 2053 2056 2061 -3 2058 2055 2054 -26 0 2052 2053 2054 2052 2056 2065 2058 2059 -49 0 2062 2051 2066 2058 2059 -4 0 2062 2063 2064 -62 0 2057 2070 2059 -40 0 2052 2056 2070 2058 2059 -16 0 2052 -2 2053 2054 -44 0 2057 2060 2058 2070 2050 -3 2063 2051 2066 2059 -26 0 2057 2070 2055 2056 2070 2050 2063 2064 -50 0 2062 -2 2063 2064 -42 0 2052 2053 2054 -24 0 2057 2060 2059 -40 0 2057 2066 2065 2058 2059 -16 0 2057 2058 2065 2059 -4 0 2052 -2 2053 2054 -14 0 2052 -2 2053 2054 2052 -3 2053 2054 -12 0 2052 2056 2058 2050 2063 2064 -3 0 2062 2063 2064 -25 0 2052 2056 2060 -2 2058 2050 2064 -98 0 2057 2058 2055 2054 -23 0 2057 2066 2055 2053 2054 -37 0 2052 2056 -2 2058 2061 2059 -16 0 2062 2051 2058 2059 -4 0 2057 2066 2070 2059 -14 0 2057 -2 2058 2055 2056 2060 2058 2066 2059 -12 0 2057 2058 2050 2064 -33 0 2057 2061 2050 2051 2060 2055 2054 0 2052 2053 2054 -59 0 2052 -2 2053 2054 -21 0 2052 -2 2053 2054 -5 0 2052 2056 -2 2058 2059 -22 0 2052 2056 2050 2051 2058 2055 2053 2054 -34 0 2052 2056 2060 2065 2060 2071 2055 2054 -16 0 2057 2070 2055 2054 -3 0 2057 2066 2050 2064 -14 0 2062 2051 2058 2065 -2 2058 2061 2050 2064 -11 0 2052 2056 2066 2059 -34 0 2062 2063 2064 2062 2051 2060 2055 2053 2056 2058 2059 -57 0 2052 2053 2056 -2 2058 2059 -20 0 2052 2056 -2 2058 2059 -5 0 2057 2065 2050 2063 2064 -22 0 2057 2058 2059 2062 2063 2051 2058 2059 -34 0 2057 2058 2060 2058 2060 -2 2058 2055 2054 -15 0 2057 2061 2058 2055 2054 -2 0 2057 2070 2059 -16 0 2062 2051 2060 2058 2061 2050 2064 -12 0 2057 2070 2050 2064 -38 0 2062 2063 2051 -2 2058 2065 2059 -56 0 2052 2056 2060 2050 -2 2063 2064 -20 0 2057 2058 2050 2063 2064 -5 0 2062 2063 2064 -23 0 2052 2056 2050 2064 -2 0 2062 2063 2064 -34 0 2062 2051 2065 2066 2050 2063 2051 2066 2055 2054 -14 0 2062 2063 2051 2058 2055 -2 2053 2056 2058 2059 -17 0 2057 2065 2066 2058 2059 -13 0 2062 2063 2064 -41 0 2057 2058 2050 2063 2064 -56 0 2057 2061 2050 2064 -23 0 2062 2051 2055 2054 -32 0 2057 2065 2059 -40 0 2052 2056 2070 2050 2064 0 2062 2051 2058 2059 -16 0 2057 2066 2061 -2 2058 2066 2050 2064 -17 0 2062 2051 -2 2070 2059 -57 0 2062 2063 2064 -55 0 2052 -2 2053 2056 2050 2064 -23 0 2052 2053 2056 2071 2059 -31 0 2052 2056 2058 2059 -40 0 2057 2061 2058 2059 -2 0 2052 2056 2050 2064 -16 0 2062 2051 2070 2066 2050 2063 2064 2052 2053 2054 -15 0 2052 2056 2058 2071 2055 2054 -112 0 2052 2053 2056 -3 2070 2059 -24 0 2057 2065 2050 2063 2064 -31 0 2057 2058 2066 2055 2054 -37 0 2052 2053 2056 -2 2058 2055 2053 2054 2057 2058 2055 2053 2054 -16 0 2062 2051 2065 2055 2054 2052 2056 2060 2059 -15 0 2057 2061 2066 -2 2058 2059 -112 0 2057 2066 2058 2070 2060 2050 2064 -23 0 2052 2056 2060 2055 2054 -29 0 2052 -2 2053 2056 2050 2051 2058 2059 -37 0 2057 2070 -2 2058 2066 2058 2061 2059 2062 2063 2051 2065 2059 -17 0 2057 2065 2058 2055 2056 2061 2050 2064 -15 0 2057 2066 2050 2063 2051 2055 2054 -110 0 2052 2056 2058 2071 2058 2050 2064 -24 0 2057 2066 2065 2058 2059 -29 0 2057 2065 -2 2058 2055 2056 2050 2064 -37 0 2062 2051 2065 2050 -3 2063 2064 -2 0 2062 2063 2064 -17 0 2057 2065 2070 2066 2058 2066 2059 -15 0 2052 2056 2058 2055 2053 2056 2058 2055 2054 -109 0 2057 2058 2070 2050 2063 2064 -25 0 2062 2051 2058 2050 2064 -29 0 2062 2051 -2 2058 2071 2058 2059 -39 0 2062 2063 2064 -26 0 2062 2051 2061 -3 2058 2059 -11 0 123 -2 0 2052 2056 2065 2050 -2 2063 2051 2058 2061 2055 2054 -108 0 2062 -2 2063 2064 -28 0 2057 2058 2059 -31 0 2057 2070 -2 2058 2050 2064 -69 0 2057 -3 2058 2050 2064 -11 0 125 -2 0 2057 2058 2070 2064 -2 0 2062 2051 -2 2058 2059 -140 0 2062 2063 2064 -31 0 2062 2051 -2 2066 2059 -70 0 2057 2058 2065 2058 2059 -12 0 1344 -2 0 2057 2058 2050 -4 0 2062 -2 2063 2064 -175 0 2062 -2 2063 2064 -70 0 2062 -3 2063 2064 -15 0 2062 2063 2064 -1927 0)
+    )
+    (tilemap
+      (solid #t)
+      (alpha 0)
+      (z-pos 100)
+      (name "tm0")
+      (width 280)
+      (height 70)
+      (tiles -3407 0 -4 62 -3388 0 -3 62 -869 0 62 -279 0 62 -279 0 62 -279 0 62 -3051 0 -5 62 -39 0 -4 62 -2599 0 62 -808 0 62 -165 0 62 -279 0 62 -258 0 -5 62 -16 0 62 -279 0 62 -3574 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 280)
+      (height 70)
+      (tiles 4751 4764 4750 4764 4751 4750 -3 4764 4750 4763 -2 4751 4764 4751 4750 4751 -2 4750 -2 4763 4750 4764 -2 4750 -2 4763 4751 -2 4763 4750 -3 4763 4750 4763 -3 4764 4763 -2 4750 4763 4750 4764 4751 -2 4750 -2 4764 4750 4751 4750 -2 4763 4750 -2 4751 4763 -2 4750 4751 4750 4751 -5 4750 -2 4763 4750 -2 4763 4751 -4 4750 4763 4750 4763 4764 -2 4750 -2 4751 4763 4764 4750 4751 4764 4751 -3 4750 4751 4750 4764 4750 4751 4750 4751 -2 4750 4751 4750 4763 4751 -2 4764 4751 4763 4750 -2 4764 4763 4750 -2 4751 4750 4764 4750 4751 4763 -3 4764 -4 4763 -2 4764 4750 4763 -4 4750 4764 -2 4763 4750 4764 4750 -2 4751 -2 4764 -2 4750 -2 4751 -3 4750 4751 4763 4751 -2 4750 4751 -2 4750 4763 -2 4750 4751 4763 -2 4764 -2 4750 4751 4763 4750 4763 -3 4750 4751 4764 -2 4763 4750 -2 4763 -5 4750 4764 4750 4764 -2 4750 4763 4764 4763 4750 -2 4751 4750 4764 -4 4750 4764 4763 4750 4764 4751 4750 4764 4751 -3 4750 4751 4764 4751 4750 4751 4763 4751 4750 4763 4750 4751 4764 4763 -4 4750 -2 4763 4750 4763 4751 -4 4750 4763 -5 4751 4764 4751 4764 4751 4764 4750 4764 4751 4750 -3 4764 4750 4763 4751 4750 4763 -5 4750 4751 4750 4763 4751 4764 4751 4764 4751 4764 4763 -4 4750 4763 -3 4750 4763 -2 4750 4763 4751 4763 -2 4750 -2 4764 4751 4763 4750 -2 4751 4764 -2 4750 4763 4764 4750 4764 4763 4750 4751 4763 -4 4764 -3 4763 -2 4764 4750 4763 4750 -2 4764 4750 4751 -2 4750 4751 -2 4750 4751 4750 4751 4750 4751 4750 4751 4750 -2 4751 4750 4751 4750 4764 -3 4750 4764 4750 4751 -3 4763 4751 -2 4750 4764 4763 -3 4751 4763 4764 -2 4750 -2 4764 4750 -2 4764 4750 -2 4763 4764 4763 4750 4763 4764 4763 4764 4763 -2 4750 4763 -2 4750 4763 -4 4750 4751 4764 -2 4750 -3 4751 -4 4750 4751 4763 4750 4751 -3 4750 4751 4750 4764 4750 4763 4751 4764 4751 4763 -2 4750 -2 4763 -2 4751 4750 -2 4763 4751 -2 4764 4763 4750 4763 -2 4764 4763 4751 4750 4751 4750 4751 4764 4751 4764 4751 4750 -3 4764 4750 4751 -3 4750 4763 4751 4763 -7 4750 4764 -2 4750 -2 4763 4751 -3 4764 4750 4763 4764 4763 4751 4750 4763 4750 4751 4763 -2 4750 4763 4750 4751 4764 4751 -2 4750 4751 4763 -3 4750 4763 -2 4751 -2 4764 4750 4764 4750 4763 4764 4763 4750 4764 -2 4751 4750 -3 4764 4751 4764 -5 4751 4750 4751 4750 4751 4764 4751 4764 4751 -4 4750 4763 4750 4764 4750 4751 -2 4750 4751 4750 4751 -2 4750 -2 4763 4750 4751 4750 4751 4750 4763 -3 4751 4763 4750 -2 4764 4750 4751 4750 4751 4750 4764 -3 4750 4764 4750 4764 -2 4750 4751 4763 4751 4764 4750 4764 4751 4763 -2 4764 4763 4750 4764 4750 4763 4764 4750 4751 4764 4750 4763 4750 4764 -3 4763 4750 4763 4751 4763 4750 -2 4764 4751 4750 4763 4750 4751 4750 4751 4750 4763 4751 -3 4750 4751 -2 4763 4750 4763 4764 4750 4764 4763 4750 4764 4751 4764 4751 4764 4750 4764 4751 -4 4750 4763 -3 4750 4763 -2 4750 4763 4751 4763 4750 4751 4764 4750 4751 4763 4750 4763 4751 -3 4750 4763 -3 4750 4763 4750 4763 -2 4764 -2 4750 -5 4764 4750 4751 4764 -4 4750 4763 -2 4750 4763 -2 4750 4763 4751 4764 4751 4763 4751 4763 4751 -2 4764 4751 -2 4763 4750 -2 4763 4751 4750 4763 4764 -3 4750 4764 4763 4751 -2 4750 -3 4764 -2 4750 4763 4751 -2 4750 4763 -2 4750 4751 -2 4750 4751 4750 4751 -5 4750 4751 4763 4750 -2 4751 4750 4763 4764 4763 4751 4750 4751 4763 -9 4764 4750 4751 4750 4763 4751 4763 4750 4763 4751 4763 -5 4750 -2 4763 -2 4750 4764 4750 4764 -4 4750 4751 4750 4764 4750 -4 4751 4763 4750 4763 4750 4751 4750 4751 4750 4763 4751 4750 4751 4763 4750 -2 4763 4764 -3 4750 -2 4763 4750 4763 4764 4763 4764 -2 4763 4750 4763 -2 4750 -3 4764 4750 4764 -2 4751 4764 -2 4751 4763 4750 4751 -2 4764 -2 4750 -2 4751 -2 4750 4764 -2 4750 4764 -3 4750 4763 4750 -3 4751 -2 4750 4763 4751 4750 4763 -2 4750 -3 4764 4750 4751 4764 -2 4763 4750 4763 4751 4763 -2 4750 4763 4751 4763 4751 4763 4750 4763 4751 -2 4750 4763 -3 4750 4751 -2 4764 4763 4756 4757 4776 4754 4755 -3 4750 4751 4763 4764 4750 4763 -4 4750 4751 4750 4764 4750 4763 4751 4763 -2 4750 -2 4763 -2 4764 -2 4750 4764 4750 4764 -3 4750 4763 -2 4764 4763 4751 4764 4750 -8 4751 4763 4764 4750 4763 -3 4750 4751 4764 4763 4764 -3 4750 -2 4763 -2 4750 4751 4750 -2 4764 4750 -2 4751 4764 4750 4764 4751 4764 4750 4764 4763 4750 4763 -2 4750 4751 -2 4763 4764 -2 4750 4763 4750 4751 -3 4750 4751 4764 -2 4763 4750 -2 4764 -2 4750 4751 4750 4751 4750 4751 4750 4763 4751 -3 4750 4763 -2 4750 4764 4750 4763 -3 4764 4763 -2 4750 4763 4750 4764 4763 4751 -3 4750 4751 4764 4751 4750 4751 4764 -2 4751 4764 -2 4751 -2 4750 4751 4750 4763 4751 -2 4750 4763 4750 4764 4751 -2 4764 4763 4750 -5 4751 4763 4750 4763 4750 4763 4750 4763 4750 4764 -2 4763 4764 4750 4763 -2 4751 4763 -2 4750 4751 -2 4750 -2 4763 -2 4764 -2 4750 4763 4750 4764 4751 -3 4750 4751 4764 4751 4750 4751 4764 -2 4763 4750 4764 4750 4763 4764 -2 4751 -5 4750 4764 4750 4764 4763 4764 -2 4750 4763 4750 4763 4764 -8 4750 4751 4764 4750 4764 -2 4763 4764 -6 4750 -2 4751 4763 4751 4763 4751 4763 4751 4764 4750 4763 -2 4764 4751 4764 4750 4764 4751 4761 4769 4770 4789 4767 4768 4760 -2 4750 4764 -3 4763 4764 4750 4763 4751 4750 4751 4763 -2 4751 4763 -2 4750 4763 4751 4764 4763 4764 4763 4764 4763 -2 4750 4764 -3 4750 4751 -2 4763 4751 4750 4751 4763 4764 -8 4750 4763 4750 4751 -3 4750 4763 -2 4750 4751 -2 4764 4750 4764 4750 -2 4763 4750 4751 -3 4750 -2 4751 4750 4763 4764 4763 4750 4763 -3 4764 4763 4750 4764 4751 4764 4750 4764 4751 4750 4763 -3 4751 4764 4750 -2 4764 4750 4763 4751 4763 -2 4750 4751 4750 4751 4750 4751 4750 4763 4751 -2 4750 4764 -3 4751 4750 -3 4751 -2 4750 4763 4750 4751 4764 4750 4751 4763 4750 4763 4750 4764 -2 4763 4764 4750 -2 4763 4764 -3 4750 4763 4751 4764 4763 4764 4763 4764 4763 4750 4764 4751 4763 4751 -3 4750 4764 4750 4763 -4 4751 4763 4750 4763 4750 4763 4750 4763 4751 -4 4750 4763 -3 4750 4763 -2 4751 4764 4763 4764 4751 4763 -2 4750 -3 4764 -2 4750 4763 -2 4751 4763 4764 4751 -3 4750 -2 4764 4750 -2 4751 4764 4763 4750 4764 4750 4764 -2 4750 4763 4764 4763 -3 4750 4764 4750 -2 4751 -2 4750 4763 4750 4751 4764 4750 4763 4750 4751 4764 4751 -3 4750 4766 4776 4777 4776 4740 4764 4763 4764 4766 4776 4777 4776 4777 4740 -2 4763 -2 4764 4751 -2 4763 4750 4751 -2 4750 4763 4761 4774 4782 -3 0 4781 4773 4754 4755 4764 4751 4750 -3 4764 4750 4751 -3 4750 4763 -2 4751 -2 4764 4750 4763 4764 -2 4751 -3 4750 4751 4750 4764 -2 4750 4764 -4 4750 4751 4764 4750 -2 4751 -5 4763 4764 4750 4751 4764 4751 -2 4750 4751 4764 -2 4763 4750 -2 4764 -2 4750 4751 4750 4763 4750 4763 4751 4764 4750 4763 -2 4764 4763 -3 4750 4763 4750 4751 4763 -2 4764 -2 4763 4751 -6 4750 4763 4750 -3 4764 -2 4750 4764 4750 -2 4764 4751 4750 4751 4750 4751 4750 4763 4751 -2 4750 4763 -2 4750 4764 4751 -2 4763 4751 4750 4751 4763 -8 4750 4751 4764 4750 4763 -3 4751 4764 4763 4751 4763 -2 4750 4763 4750 4751 -2 4750 -2 4764 4763 4764 4763 -2 4750 4764 4750 -2 4751 4750 4751 4763 -4 4751 4763 4750 4763 4750 4763 4750 4764 4763 -3 4751 4764 -2 4750 4764 4750 4763 4751 4763 -2 4750 4763 4751 4763 4751 4763 4751 -2 4764 4751 4750 -3 4764 4750 4751 4750 4764 4750 4751 -2 4750 4751 -2 4750 -2 4764 -2 4750 4763 4764 4750 4751 4750 -2 4763 4751 4764 -2 4750 4763 4750 4751 -3 4763 4751 4750 4764 4763 4751 4756 4757 4776 4777 4776 4777 4776 4778 4789 4790 4789 4775 4740 4751 4766 4778 4789 4790 4789 4790 4775 4740 -2 4764 4751 4763 4750 -3 4764 4751 4756 4757 4774 4787 -5 0 4786 4767 4768 4776 4754 4755 4763 4751 -2 4750 4751 4764 -2 4751 4763 -2 4750 4751 -2 4750 -2 4763 -2 4750 4751 4763 4750 4751 4750 4764 4750 4764 4751 -3 4764 4751 4750 4751 4763 4764 -6 4750 4751 4764 4750 4763 4751 4750 4751 4763 -2 4750 4751 4764 4763 4750 -2 4763 -2 4750 4763 4751 -2 4750 4764 4750 4764 4751 -2 4763 4751 4764 4750 -2 4764 4751 4764 4750 4763 4764 -2 4750 4763 4764 4750 4751 4750 4763 -2 4750 4751 4763 -3 4750 4763 4751 4763 -2 4750 4751 4750 4751 4750 4763 4751 4764 4750 4763 -2 4764 4751 -2 4764 4763 4750 4764 -4 4750 4764 4751 4750 4764 4763 4751 -4 4750 4763 4750 4764 4763 4764 -3 4750 4751 4750 4751 -2 4764 -2 4751 -2 4764 -2 4751 4750 -2 4751 4750 -2 4763 4751 4750 4751 4763 -4 4751 4763 4750 4763 4750 4764 4751 4750 4764 4763 4764 -2 4750 4764 4763 4764 4750 -2 4764 4750 4764 4750 -2 4763 -2 4750 -2 4751 4750 4764 4763 -4 4750 4763 4750 -2 4764 4750 4751 4750 4751 4750 4764 4750 4764 4750 -2 4764 4763 4764 4763 -2 4750 4763 -2 4750 4764 4750 -2 4751 4750 4764 4750 4763 4764 -2 4750 4756 4757 4776 4769 4770 4789 4790 4789 4790 4789 4791 -3 0 4788 4775 4776 4778 4791 -4 0 4788 4749 4764 4750 4751 4750 4751 4756 4757 4776 4777 4769 4770 4787 -8 0 4781 4789 4767 4768 4776 4754 4755 -3 4750 4763 -2 4751 4764 4751 4763 -2 4750 4751 4750 4763 4751 4764 4763 4750 4751 4750 -2 4763 4751 -2 4750 4751 4750 4764 4751 4764 -2 4750 -2 4751 -2 4763 4764 -2 4750 4763 4750 4763 -2 4751 4763 4750 -2 4764 4750 -2 4764 -3 4750 4764 4750 4763 4764 4763 -2 4764 4750 4751 4750 4764 -2 4750 4763 4750 4751 4763 -2 4751 4750 4764 4751 4750 4763 4750 4764 4751 -4 4750 4763 -3 4750 4751 4750 4764 4750 -2 4764 -2 4750 4751 4750 4763 4751 -2 4764 4751 -2 4763 -4 4750 4751 4763 4764 4763 4751 4750 4763 4750 4751 4764 4750 4764 4750 4764 4751 -3 4750 4751 4764 -2 4751 4763 -3 4750 -2 4764 -2 4750 4751 4750 4763 4751 -2 4750 4763 -2 4764 4751 -2 4763 4751 4750 4751 4763 -5 4751 4750 4763 4750 4764 4751 -4 4750 4751 4750 -2 4763 4764 -3 4750 -2 4763 4764 4763 4764 4751 4763 4750 4751 -2 4750 -2 4763 4751 4763 4764 4750 4764 -2 4763 4750 -2 4763 4750 -2 4763 -2 4750 -2 4751 -2 4763 -2 4750 4764 -2 4750 4763 -2 4764 4763 4750 -3 4751 4750 4764 4751 4750 4766 4769 4770 4789 4782 -11 0 4788 4789 4791 -6 0 4775 4740 -3 4750 4761 4769 4770 4789 4790 4782 -13 0 4781 4789 4767 4768 4776 4777 4776 4777 4776 4777 4754 4755 4751 4750 4763 4750 4763 4764 4763 4764 4763 -2 4750 4764 -3 4750 4751 -2 4764 4763 4750 4764 4750 4751 4763 4764 -3 4750 4751 4763 4764 4750 4764 4763 4751 4763 4764 -3 4751 4750 4764 4750 -2 4751 -2 4764 -2 4750 -2 4751 4764 4750 4764 -3 4750 4763 -2 4764 4763 4750 4763 -10 4750 4751 4763 4750 4763 -2 4751 4763 -3 4750 4751 4750 4751 -2 4764 -2 4750 -2 4751 -2 4764 4750 4751 4750 -3 4764 4750 4763 4764 4763 4751 4764 4750 4763 4764 -3 4750 -2 4751 4763 4750 4751 4764 4763 -2 4751 4763 4750 -2 4764 -3 4750 4751 4750 4751 4750 4751 -3 4750 -2 4751 4764 4750 4764 4751 -2 4763 4751 -2 4750 -6 4751 4750 4763 4750 4764 4763 -3 4751 4763 4750 4763 -2 4751 4764 -2 4751 4763 -2 4751 -2 4764 -2 4750 4751 4750 -2 4764 4750 -3 4764 -2 4750 4764 -2 4751 4763 -3 4750 4763 4751 4763 4750 4751 -2 4750 4763 4764 4751 4764 4763 4750 4751 4750 4764 -3 4750 4763 -2 4750 -3 4751 4766 4778 4782 -23 0 4788 4749 4764 4750 4761 4774 4782 -20 0 4781 4789 4790 4789 4790 4789 4790 4767 4768 -2 4776 4754 4755 4764 4750 4763 4764 4751 -2 4764 4751 -2 4763 4751 4764 -2 4750 4764 4763 4750 4751 4764 -2 4750 -2 4751 4763 4764 4750 4763 4750 4764 -2 4763 4764 -4 4750 -2 4764 -3 4750 -2 4764 -2 4751 -3 4750 -2 4751 4750 4751 4763 4751 4764 -4 4750 4763 4750 4763 -2 4750 4763 -2 4750 4764 4750 4764 4763 -2 4751 4763 4750 -2 4764 4750 4763 4751 4764 -2 4751 4750 4764 -2 4750 -2 4763 -3 4750 -2 4751 4750 -3 4764 4763 4750 4751 -4 4764 4763 4751 -3 4750 -2 4764 -2 4750 4763 4751 -2 4750 4751 4750 4764 4750 -2 4751 4763 -2 4751 -2 4750 4763 4764 4751 -2 4763 -3 4750 4751 -2 4763 4750 4764 -2 4750 -4 4751 -2 4750 4763 -2 4750 4764 -2 4763 4764 4750 4763 4751 4750 4751 4750 -2 4764 -2 4750 4751 -2 4750 4763 4764 -2 4751 4750 4751 -4 4750 4751 4764 4751 4750 4751 4763 4751 4750 4763 -2 4750 -2 4763 4764 4763 4750 4764 -2 4750 4763 4764 4763 -3 4750 4763 -3 4750 4764 4751 4766 4776 4777 4778 4791 -25 0 4762 4764 4761 4774 4787 -29 0 4781 -2 4789 4767 4768 4776 4754 4755 4751 4750 4751 4750 4764 -2 4750 4764 4750 -2 4751 4750 4764 4750 4763 -2 4750 4763 4764 -2 4750 4751 4764 4751 4750 -2 4763 4764 4750 -3 4763 4750 4764 4750 4763 4751 4764 4763 4750 4764 -2 4750 -2 4751 4750 4751 -3 4750 4751 4750 4764 4750 4751 -2 4763 4751 -2 4750 4763 4751 4750 -2 4764 -2 4763 4764 4750 4763 -2 4750 4751 4764 -2 4763 4750 4764 4750 -2 4751 -2 4750 -2 4751 -2 4750 4764 -2 4750 4764 -3 4750 4763 -5 4750 4763 4750 4764 4751 4764 4751 4750 4764 -3 4751 4763 4750 4763 -2 4751 4764 -2 4763 4764 4763 4764 -2 4750 4764 4763 -2 4750 4763 4764 4763 -2 4750 4764 4750 4751 -2 4750 4751 4764 4750 -4 4751 4750 4764 4763 -3 4750 4764 -2 4750 4763 -3 4750 4751 -2 4750 4751 -2 4750 4751 4750 4763 4751 4763 4751 -2 4764 -4 4750 4751 4764 4751 -2 4750 4751 4764 4763 4764 -3 4750 4764 4750 -2 4751 -2 4750 4763 4764 4763 -2 4750 4764 -3 4751 4750 4751 -3 4764 4752 4789 4790 4791 -26 0 4775 4776 4774 4787 -34 0 4781 4789 4767 4768 4776 4754 4755 4763 4750 4751 4750 4764 4750 -2 4751 -2 4750 4751 4764 4750 4763 4764 4750 4751 4763 4750 4763 4750 4764 4763 4764 4750 4751 -2 4750 4751 -2 4750 4751 -2 4750 -2 4764 4750 4751 4764 4750 4763 4750 4764 4751 -2 4763 4750 4763 4764 4763 4751 4750 4751 4764 -2 4750 -2 4751 -2 4763 4764 4750 4751 4764 4751 -3 4750 4763 -2 4750 4751 4750 4764 4750 4764 4750 4751 4763 -2 4750 4763 4764 4751 -2 4764 4751 -2 4763 4751 4764 -3 4750 4763 4750 4763 4750 4751 4763 4764 4750 4751 4764 4750 4764 4751 -2 4750 4751 4764 4751 4750 4751 4750 4764 4750 -2 4763 4750 4764 -2 4750 4751 4750 -2 4764 4763 -2 4764 4763 -3 4750 4763 4750 4751 4763 -4 4751 4750 4763 4751 -4 4750 4751 4763 -4 4750 4763 4751 4763 4750 4764 4750 -2 4763 -2 4750 4763 4764 -2 4751 -2 4750 4751 4763 4764 4751 4750 4764 4750 4751 -5 4750 4751 4750 4751 4750 4751 4750 4763 4751 -2 4764 4763 -2 4750 4763 4750 4751 -2 4750 4763 4750 4751 4765 -4 0 -4 7026 -21 0 4788 4789 4787 -38 0 4781 4789 4767 4768 4776 4754 4755 4751 4750 4751 -2 4763 4751 4750 4763 4750 4751 4764 4750 4751 4764 4750 4763 4750 4764 -2 4763 4764 4750 -3 4764 4751 -2 4750 4764 4763 4750 4764 4750 4764 4750 4764 -2 4750 4763 4764 4763 4750 -2 4751 4750 4763 -3 4764 4763 4751 4750 4751 4750 4751 4750 4751 4750 4763 -3 4751 4763 4750 4763 4751 4763 4750 -2 4764 -3 4750 4764 4750 -2 4763 4750 4751 4750 4751 4750 4764 -2 4750 4763 -3 4750 4763 4750 4763 4764 -8 4750 4751 4764 4750 4764 -2 4751 4763 4750 -2 4764 4750 -2 4764 4751 4750 4751 4750 4751 4750 4751 4750 -2 4763 4751 -2 4763 4750 -3 4763 4750 4763 -2 4750 -4 4751 -2 4763 4751 -3 4750 4751 4764 4750 -3 4764 4750 -2 4764 4750 -2 4763 -5 4750 4764 -2 4750 -3 4751 4763 4764 4750 4764 -2 4763 4750 -3 4751 4750 4764 4750 -2 4763 -2 4750 -2 4763 -5 4750 4764 -3 4750 4763 4764 4750 4764 4763 4751 4765 4726 -72 0 4781 4789 4767 4768 4776 4777 4776 4754 4755 4751 4750 4763 4750 4763 4750 4751 4764 4750 4763 4750 4764 -2 4763 4764 4750 4763 4750 4751 4763 -2 4750 4763 4750 4751 -2 4750 -2 4751 -2 4764 4763 4764 4763 -3 4750 4751 -2 4764 4763 4750 4763 4764 -4 4750 -2 4764 -4 4763 4764 4750 4764 4751 4750 4751 4763 4751 4750 4751 -2 4750 4751 -4 4750 4763 4764 4763 -2 4764 4751 4763 4751 -4 4750 4763 4764 -4 4750 4764 4763 -2 4750 4763 -2 4751 4750 4751 4763 4750 4763 -2 4750 4763 -3 4750 -2 4763 4764 4763 4764 4751 4763 4750 4751 4750 -2 4751 -3 4750 4764 -3 4750 4763 4750 4751 4763 -6 4751 -3 4750 4751 4763 4750 4764 -2 4763 4764 -3 4750 4763 4751 4763 4750 4751 -2 4764 -2 4750 -2 4764 4763 4764 4751 4764 4750 4763 -2 4751 4763 4750 -2 4763 4750 -2 4763 4750 4764 4750 4764 4750 4764 4750 4764 -2 4750 4764 -2 4750 4763 -3 4750 4763 4750 -2 4751 4763 4753 4739 -35 0 4724 4725 4724 4725 4724 4725 4726 -3 0 4814 4815 4724 4725 -7 0 78 83 102 78 -15 0 4781 4789 4790 4789 4767 4768 4771 4751 4763 4750 4763 4750 4763 4750 4763 4750 4764 4763 4751 4763 4764 4750 -2 4764 4750 4751 4750 4751 4750 4764 -3 4750 4764 4750 4764 -2 4750 -2 4763 4751 4764 4750 4764 4751 4763 -2 4764 4763 4750 4764 4750 4763 4764 4750 4751 4764 4750 4763 4750 4763 -2 4751 4763 4764 -3 4751 4764 -2 4763 -2 4750 4751 4750 4751 -3 4750 4751 4750 -2 4764 4763 4750 4751 -2 4750 4751 -3 4763 4751 4750 4763 4750 4763 4750 4751 4750 4751 4750 4764 -2 4763 4764 4750 4764 4763 4764 4750 -2 4764 -3 4750 -2 4764 -2 4751 -2 4750 4764 -2 4750 4751 4763 4751 4750 -3 4751 4750 4763 4764 4750 -4 4751 -4 4750 4751 4763 4750 4763 -2 4750 4751 4764 -2 4751 4764 -2 4751 4764 4763 4764 4763 4764 4751 4763 4751 -2 4764 4751 4763 4750 4751 -3 4750 4751 -3 4750 4763 4751 4763 4750 4751 -2 4764 -2 4750 -2 4764 4751 4764 4763 4750 -2 4751 4750 4751 -2 4763 4751 4750 4763 -2 4750 4752 -4 0 -2 80 -27 0 4728 4729 -5 4737 4738 4739 -3 0 4874 4875 4737 4738 4730 4731 -29 0 4781 4784 4751 4763 4750 4763 4750 4764 4751 4750 4763 4751 -2 4750 4751 4764 4751 4750 4751 4764 -2 4751 4764 4751 4763 -2 4750 -2 4763 -2 4750 4763 4764 4751 4764 4750 4763 -3 4750 4764 4751 4763 -2 4764 4763 4751 -2 4750 4763 4751 4750 -4 4764 4750 4751 -3 4750 4751 4750 4764 4750 -2 4764 -2 4750 4751 4750 4751 4750 -2 4763 -3 4750 4751 4763 4751 -2 4750 4751 -2 4750 4763 4750 4751 4764 -2 4750 4751 4763 4764 4750 4763 4750 4763 -2 4751 4763 4750 -2 4763 4764 4751 4750 4763 -2 4750 4764 4763 -2 4750 -2 4763 4750 4751 4750 4764 4750 4764 4751 4763 4764 4763 4751 4764 4750 -5 4751 -2 4764 -2 4750 4751 4764 4751 4750 4764 -2 4750 4764 4763 4764 4751 4750 4751 -2 4750 4763 4751 -2 4764 -2 4751 -3 4750 4763 4750 4764 -2 4763 4750 4751 -2 4750 4763 4750 4751 4764 4763 4764 4763 4764 4763 4764 4763 -2 4764 4751 4763 4751 -4 4750 4751 4764 -2 4750 4764 4763 4751 4765 4726 -3 0 -2 1348 -26 0 4734 4741 4742 -3 4750 4766 4776 4777 4778 -3 0 4884 4885 4777 4740 4743 4744 4735 -29 0 4797 4740 4751 4750 4763 4751 4750 4763 -5 4750 4751 4750 -2 4764 4750 4763 4751 4763 -2 4750 4751 4750 4751 -5 4750 -2 4763 4750 -2 4763 4751 -4 4750 4763 4750 4763 4764 -2 4750 -2 4751 4763 4764 -2 4750 4764 -2 4750 4764 -2 4750 -3 4764 4751 -2 4750 -2 4764 -2 4750 -2 4751 -2 4764 4750 4751 4750 -2 4763 4751 4764 -3 4750 4763 -2 4750 4751 -2 4763 -6 4751 4763 4750 4751 4750 -2 4764 4750 4751 4750 4751 4764 4751 4763 -2 4750 -2 4751 4764 4763 -2 4750 -2 4763 4751 -3 4750 4751 -3 4764 4751 4750 4751 4764 -5 4751 4763 4764 4750 4751 4750 4763 -2 4751 4764 -3 4750 4751 -2 4750 4751 4750 4763 4750 4751 4750 4751 4750 -2 4751 -2 4750 4763 4751 -2 4750 4751 4764 -2 4751 4763 -5 4750 4763 4751 -2 4750 -2 4751 -3 4750 4763 4764 4763 4750 -3 4763 4750 4764 4750 4751 4763 4764 4753 4739 4726 -2 0 -2 79 -25 0 4734 4747 4750 -2 4763 4751 4750 4752 4789 4790 4791 -3 0 4864 4865 4790 4762 -2 4750 4748 4730 4731 4726 -6 0 4723 4724 4725 -11 0 27 28 29 -3 0 4810 4749 -2 4750 4763 4751 4750 4764 -4 4763 4750 4751 -3 4750 4763 -2 4751 4764 4763 4764 -2 4751 -2 4764 -2 4750 -2 4764 4763 4750 4764 4763 -2 4750 4764 4751 4764 -2 4750 4764 4763 4751 4750 4763 4750 4763 4750 4764 4751 -4 4750 4763 -3 4750 4751 -2 4750 4763 4750 4751 -2 4764 4751 4750 -2 4764 4750 4751 4750 -2 4763 4751 4764 4750 4764 4763 4750 -4 4751 -2 4750 4763 4751 4750 4764 4763 -3 4751 4764 4750 4764 -2 4763 4750 -2 4763 4764 -2 4751 -2 4764 4750 4764 4750 4764 -2 4750 4763 4764 4763 -3 4750 4763 4764 4750 4764 4763 4750 4763 4750 -4 4751 4750 4751 4763 4750 4763 -4 4750 4763 -2 4750 4751 -2 4764 4750 4763 4764 -2 4750 -2 4763 -2 4750 4763 -2 4764 4750 4764 -3 4763 4750 4763 4751 4763 4750 -2 4764 4751 4750 4763 4750 4763 4750 4751 4750 4763 4751 -3 4750 4751 -2 4763 4750 4763 -2 4750 4764 4763 4751 4764 4751 4764 4753 4739 4726 0 -2 79 -23 0 4728 4729 4747 -3 4750 4764 4750 4763 4765 -9 0 4749 4764 4751 4750 4743 4744 4739 4724 4725 4724 4725 4724 4725 4736 4737 4738 4730 4731 4724 -10 0 27 29 -3 0 4762 4750 4764 4763 4751 -5 4750 4751 4764 -3 4751 4764 -2 4751 4763 -2 4750 4763 4751 4763 4750 4751 4750 -2 4751 -2 4764 4751 -2 4763 4751 4764 4750 4764 4763 4750 4763 4764 -9 4750 4751 4764 -2 4750 -2 4764 4750 4764 4763 4764 -2 4751 4763 4750 4751 -2 4750 -2 4763 4750 4751 4750 -2 4763 4750 4763 4764 4763 4750 -4 4763 4750 4764 4751 4750 4751 4764 4751 4764 4751 4750 4764 4763 4764 4750 4751 -3 4750 4763 4751 4763 -2 4750 4751 4750 4751 -5 4750 4763 4764 4751 4764 4750 4764 4751 -3 4764 4763 4750 4764 4750 -4 4751 4764 4750 4751 4750 4763 -3 4751 4764 4751 4750 4751 4764 4751 4763 -5 4750 4764 4750 4764 -2 4750 -2 4763 4751 -2 4764 -2 4750 4764 4751 4763 4764 -2 4751 4764 4751 4763 -2 4750 -2 4763 -2 4750 4764 4750 4764 4750 4751 4750 4764 -2 4750 4764 4751 -2 4750 -4 4751 -2 4750 4753 4739 4724 4725 4724 4725 4726 -17 0 4724 4725 4728 4729 4741 4742 -2 4764 4763 4750 4751 4763 4764 4752 -9 0 4762 4750 4763 -3 4750 4753 4737 4738 4737 4738 4737 4738 4727 -2 4750 4743 4744 4737 4730 4731 4724 -12 0 4749 -2 4763 4751 -4 4750 4751 4763 4750 4764 -2 4763 4764 4751 -2 4750 4764 4763 4764 -2 4751 -2 4750 -2 4751 -2 4750 4764 -2 4750 4763 -2 4750 4764 4750 -3 4763 4751 4750 4763 4750 4763 -2 4750 4763 4750 4763 -2 4750 -2 4764 -2 4750 -3 4764 -3 4750 4763 4751 4763 4750 4751 -2 4750 4764 -2 4750 -2 4751 4750 -2 4751 4750 4764 -3 4750 4763 4750 4763 -2 4750 4763 4764 -2 4750 4763 4764 4751 4764 4763 4751 4763 4764 4751 -2 4750 4751 -2 4750 4763 4751 4763 4750 4751 -2 4750 4764 -2 4750 -2 4751 4750 4763 4764 4763 4750 -3 4763 4751 4750 4764 4750 -4 4751 4750 4764 -2 4750 4764 4763 4764 4750 4763 4750 4751 4763 -2 4750 4751 -2 4750 -2 4764 -2 4750 -2 4764 4751 4763 4751 4764 -3 4750 4751 4764 -2 4751 4763 -3 4750 -2 4764 4750 4764 4750 4764 -4 4750 4763 4764 4763 -3 4750 4764 -4 4750 4764 4751 4764 4750 4763 4764 4750 4763 4753 4737 4738 -2 4737 4739 4724 4725 4724 4725 4724 4725 4726 -7 0 4723 4728 4729 -2 4737 4741 4742 -4 4750 4751 4763 4764 4763 4751 4765 -9 0 4749 4751 4763 4750 4763 4751 4763 4750 4763 4764 -3 4750 4764 4750 -2 4763 4750 4751 4743 4744 4737 4730 4731 4724 -9 0 4762 -5 4750 4751 4763 4764 4750 4764 -2 4763 4764 -3 4750 4751 -2 4750 4763 4751 4763 4751 4763 4751 -2 4763 -2 4750 4763 -2 4764 4751 4764 4750 4764 4751 -2 4750 4751 4763 -2 4751 -2 4750 -2 4764 -3 4763 4764 4750 4763 -3 4750 4763 -2 4750 4751 -2 4750 4763 4751 4763 4751 4763 4751 -2 4763 -2 4750 4763 -2 4750 4764 4750 -2 4751 4750 4764 4750 4751 4763 -7 4764 -2 4750 4763 4750 -3 4764 4750 -2 4764 4750 4763 4751 4764 4751 4763 -2 4750 4764 4750 4763 4764 4763 -2 4750 4764 4750 4751 4750 4764 4750 -2 4751 -2 4750 4763 4750 -4 4751 4764 4751 4750 -3 4764 4750 4763 -2 4750 4751 4750 4764 4750 -2 4751 4764 4763 4764 4763 4764 4763 -2 4764 4750 4751 4750 4763 -2 4750 4764 4751 4750 4751 4764 -2 4763 4750 4764 4750 4763 4764 -2 4750 -2 4764 4751 -2 4763 -2 4750 4764 4751 -2 4763 4751 4764 4750 4751 -2 4763 4751 -2 4750 4764 4763 4751 -3 4750 4751 4763 4753 4737 4738 4737 4738 4737 4738 4739 4724 4725 4724 4725 4724 4725 4724 4736 4741 4742 -3 4750 4763 4764 4763 4750 4763 -2 4764 4763 4750 4764 4752 -9 0 4762 -2 4750 4751 4764 -2 4763 4764 -2 4751 4764 4751 4763 -2 4750 4763 4764 4750 4751 4750 4751 4750 4743 4744 4737 4730 4731 4816 4817 -5 0 4749 -2 4764 -3 4750 4751 4764 4750 4764 -2 4763 4764 4750 4764 4763 4764 -2 4751 4763 -2 4751 -2 4750 -2 4763 -5 4750 4764 -2 4750 4764 4751 -2 4763 4751 4750 4764 4750 4763 -2 4750 4751 4764 4750 4751 4764 4751 4750 -2 4764 4750 4751 4750 4764 4750 4763 4751 4763 -2 4750 4763 4751 4764 4763 -2 4750 -2 4751 4750 -2 4763 4750 4763 4764 4763 4750 4764 -5 4750 4764 4763 4751 -2 4750 -3 4764 4750 4751 4750 -2 4763 4764 4751 -2 4750 -2 4763 4764 -2 4751 -2 4750 -2 4751 -3 4750 -2 4751 4750 4763 4764 4763 4751 4764 -3 4750 4764 4763 4750 -4 4751 -2 4750 -3 4764 4750 4763 -3 4750 4763 -2 4751 4764 4763 4764 -2 4751 -2 4764 -2 4751 -3 4750 -2 4763 4751 4750 4763 -3 4750 4751 -2 4750 4751 -2 4750 -2 4751 4763 4751 4764 4763 4750 4764 4751 4763 4751 4764 4750 4764 4751 4763 -2 4764 4763 4750 4763 -2 4750 4763 4764 -2 4750 4751 4764 4750 4764 4751 -2 4750 4751 4764 -2 4751 4763 4750 4753 4737 4738 4737 4738 4737 4738 4737 4727 4763 4750 -2 4751 4764 4750 4764 4751 4764 4750 4764 4763 4750 4751 4764 4765 -9 0 4775 4740 -2 4751 4764 4751 4750 4751 4750 4764 4750 4763 4764 -2 4750 -2 4763 -2 4750 4764 -2 4750 4763 -2 4764 4743 4744 4826 4827 -5 0 4762 4750 4751 4763 -2 4750 4763 4750 4763 -3 4751 4764 4751 4750 4751 4764 4763 4764 -2 4750 4763 4751 4764 4751 4764 4763 -2 4750 4764 -2 4750 4763 -3 4750 4763 -2 4750 4751 -3 4750 4764 4751 4750 4764 4763 -3 4751 4763 4764 4751 -3 4750 4763 4750 4751 4764 4751 4763 -2 4750 -2 4763 -2 4750 4763 4764 4751 -2 4764 4763 4764 4750 4764 4751 4764 -2 4750 4764 4763 4751 4750 4763 4750 4763 4750 4764 4751 -3 4750 4751 4763 -3 4750 4763 -2 4750 4763 -2 4751 -2 4750 -2 4751 -2 4764 4751 4763 4751 -2 4764 4751 -3 4750 4763 4750 4751 -3 4763 4751 4750 -4 4751 4764 -3 4763 4750 4751 4750 -2 4764 4750 -2 4764 4750 -2 4763 -4 4750 4751 4750 -2 4751 -2 4750 4764 4750 4751 4750 4764 -2 4763 4750 -2 4751 4763 -5 4750 4763 4764 -2 4751 4750 4751 4750 4763 4764 4763 4750 4751 -2 4750 4751 4764 -2 4750 4764 4763 4751 4750 4764 4751 4750 4764 -3 4763 4764 4750 4763 -2 4750 4751 4750 -2 4764 4751 4750 4751 -2 4750 -2 4764 4751 4763 4750 4763 4751 -3 4750 4763 4764 4750 4764 4751 4764 -2 4750 4766 4778 -9 0 4788 4749 -2 4750 4751 4750 4763 4764 -3 4750 -2 4763 -2 4750 4751 4750 -2 4764 4751 4764 4763 4750 -2 4751 4750 4763 4836 4837 -5 0 4749 4763 4750 4751 4764 4750 4763 4766 -4 4776 4740 -2 4764 4750 -2 4764 -3 4750 4764 4750 -2 4763 4750 4751 4750 -2 4751 4750 -2 4751 4750 4751 -2 4764 4763 4750 4763 4750 4751 4763 4764 -3 4750 4763 4764 4750 4764 4751 -2 4750 4751 4764 -2 4763 4764 -2 4751 4764 4751 4763 4750 4751 -2 4750 4763 4764 4763 -2 4750 4763 -2 4750 4764 4751 4763 -2 4764 4751 4750 4763 4750 4751 4764 4750 4751 4764 4750 4763 -2 4750 -2 4764 4750 4763 -2 4750 4751 -3 4750 -2 4764 4751 4750 -2 4763 -2 4750 -2 4763 4751 -2 4764 4763 -4 4750 4751 4764 -5 4750 -4 4751 -2 4750 4751 4763 4750 4763 -2 4751 4763 -3 4750 4764 4763 4750 4763 4764 4750 4751 -2 4750 4763 4750 4764 4750 4751 4750 4763 -3 4750 4751 4764 -2 4763 4750 4764 4750 -2 4763 4750 4764 -2 4750 -2 4751 -3 4750 4751 4763 4751 4750 -3 4751 4750 4763 4750 4751 4763 4764 -3 4750 4751 4763 4764 4750 4764 4751 -2 4750 4763 4750 -2 4764 4750 4764 4750 4751 4750 4751 4750 4751 4750 4751 4750 -2 4751 -3 4750 4763 -2 4764 4763 4750 4751 -2 4763 4751 4752 4791 -9 0 4723 4762 4750 -2 4764 4750 -2 4764 4750 -2 4764 4751 4750 4763 4751 -2 4764 -2 4750 4764 -2 4750 4763 -2 4750 4763 4750 4846 4847 -5 0 4762 4750 4751 4750 4751 4750 4764 4752 -4 4789 4749 4750 4751 4750 4764 4750 -2 4764 -2 4750 4763 4751 -2 4764 -5 4750 4764 -3 4750 4763 4750 -2 4751 -2 4750 4764 4751 4750 4764 4751 4750 4764 -3 4751 4763 4764 4751 -2 4750 4751 4750 4764 4750 4763 4751 4764 4763 4764 4751 4763 4751 4763 4751 -2 4750 4763 -2 4750 4764 4750 -2 4763 4751 4750 4763 -2 4750 4751 -2 4763 -2 4764 -2 4750 4763 4750 4763 -3 4750 4763 -3 4750 4763 4751 4763 -2 4750 -2 4751 4764 4763 -2 4750 4751 4763 4751 -2 4764 4763 4750 -2 4751 4750 4763 4750 4751 -4 4763 -4 4751 4763 4764 4750 4751 4750 -2 4764 4750 4763 -2 4751 4764 -2 4763 -2 4750 4763 4751 4764 4763 -2 4750 4763 4764 4763 -3 4750 -2 4751 4763 4750 -2 4764 4750 -2 4764 -3 4750 4764 4750 4763 4764 4763 4750 4764 -2 4751 4750 4764 -2 4750 4763 4750 4751 -2 4763 4751 4750 4764 4751 4750 4763 4750 4764 4763 4751 -2 4750 4751 4764 4751 -2 4750 4751 -5 4750 4751 4750 4763 4751 4764 4763 -2 4750 4763 4750 4764 4751 -2 4763 4750 4763 -3 4750 4763 4751 4765 4726 -9 0 4736 4727 -2 4750 4764 4750 -2 4763 4764 -2 4751 4764 4763 4750 4764 -2 4750 -2 4751 4750 -2 4751 -2 4750 4766 -2 4776 4856 4857 -5 0 4775 4776 4777 4740 -2 4750 4764 4765 -4 0 4749 4763 4750 4764 4750 4763 4751 4764 4751 4763 4750 4751 4756 4757 4776 4777 4754 4755 -2 4763 4750 4763 4750 4764 4763 4751 4764 4750 4751 -2 4763 -3 4764 -2 4750 4751 4764 4751 -4 4750 4764 -2 4763 4750 4764 4750 4763 4751 4764 4763 4750 4764 -2 4750 -2 4763 4751 -2 4764 4763 -4 4750 4751 4764 -2 4750 4751 -8 4750 4751 4764 4751 -3 4750 4763 -2 4751 4764 -2 4763 -2 4750 4751 4750 4763 4751 4764 4763 4750 4751 4750 4751 4763 4751 -4 4750 4764 4750 4763 -3 4750 -5 4751 -2 4750 4764 4751 -2 4750 4751 4764 -2 4751 4764 -2 4751 4764 4763 4764 4751 4763 4750 4751 4750 -2 4751 4764 4750 4764 4750 -2 4751 4763 4750 4764 4763 4750 -2 4751 4763 -2 4751 4750 4764 -2 4751 -2 4764 4763 4764 4763 -3 4750 4764 -3 4750 4764 4751 4764 -2 4750 -4 4751 -2 4763 4764 4750 4763 4750 4764 4763 4764 4750 -2 4763 4764 -2 4750 4751 -2 4750 4763 4751 -2 4750 4751 4763 4750 -2 4751 -3 4750 4764 4750 -2 4751 4750 4764 4751 4764 4753 4739 -9 0 4749 4764 4750 4764 4763 4764 -3 4750 -2 4763 4750 4764 4750 4764 -2 4750 4751 4763 4750 -2 4751 4750 4751 4752 -2 4789 4866 4867 -5 0 4788 4789 4790 4749 -3 4764 4752 -4 0 4762 4751 -2 4764 -3 4750 -2 4763 4750 4751 4761 4769 4770 4789 4790 4767 4768 4760 -3 4751 -2 4750 4751 4763 4751 4750 4764 4751 4750 4763 4750 4763 4751 4750 4764 -2 4763 4764 4750 4764 4763 4764 4750 -2 4764 -3 4750 -2 4763 -2 4750 -2 4751 -3 4750 -2 4751 4750 4763 4764 4763 4751 4764 -5 4750 4764 4751 -2 4750 4763 -2 4751 4750 4751 4763 4750 -3 4763 4750 -2 4763 4764 -2 4751 -2 4764 4750 4764 -4 4750 -2 4764 4763 -3 4750 4763 -3 4750 4764 4751 4764 4750 4751 4764 4750 -4 4751 4750 4764 4751 -2 4750 4751 4764 -2 4751 4763 -2 4750 4751 -2 4750 -2 4763 -2 4750 -2 4751 -3 4750 4763 4764 4763 4750 4763 4750 4763 4751 4763 -3 4750 -2 4763 4750 4764 4750 4764 4750 4764 -2 4750 4764 4750 4764 4751 -2 4763 4751 4764 4750 4751 -2 4750 4764 4751 4750 4763 4750 4763 4750 4764 4751 -3 4750 4751 4764 4763 4751 4763 4750 -2 4764 -2 4750 4751 -2 4750 -2 4764 4751 4763 4751 4764 4763 4750 4763 4751 4750 -3 4763 4751 4764 4751 4763 -2 4764 4752 -9 0 4762 4763 4764 4751 -2 4750 4751 -2 4750 4764 4763 4750 4764 4750 4764 -2 4750 -2 4751 4750 -2 4751 4750 4751 4765 -12 0 4762 -2 4763 4766 4778 -4 0 4775 4754 4755 4764 -2 4751 -2 4764 4750 4764 4772 4774 4782 -4 0 4781 4773 4771 4764 -2 4750 4764 4763 -2 4750 4751 -2 4763 -5 4764 4750 4751 4764 4751 -3 4750 4751 -2 4750 4751 4750 4764 -3 4750 -2 4764 4751 4763 4750 4751 4750 4763 4764 4763 -3 4750 4763 -2 4750 4751 -2 4750 4764 4751 4764 4751 4764 4751 4750 4763 -4 4750 4751 4750 -2 4763 4764 4751 4750 4751 -2 4750 4751 4750 4751 4750 4751 4750 -2 4763 -3 4750 4751 -2 4763 4750 4763 -2 4764 4763 4750 4764 4751 4764 4750 -5 4751 4763 -3 4750 4751 4763 4751 4750 4751 4764 4763 4764 4751 4750 4763 4751 4763 4751 4763 4751 -2 4764 4751 4763 4751 -3 4750 4763 -3 4750 4763 -2 4751 4764 4763 4750 -2 4763 4750 4751 -2 4750 4764 -2 4750 4763 -2 4764 4751 -3 4764 4751 4750 4751 4763 4764 -7 4750 4751 4763 4750 4763 -2 4751 4763 4750 -2 4764 4750 -2 4764 4751 4750 4751 4750 4751 4750 4763 4751 -2 4764 4751 4764 4763 4751 4763 4764 4763 4751 4764 4750 -3 4751 4750 4765 -9 0 4749 -2 4750 4763 -2 4750 4751 -2 4750 4763 4751 4763 4751 4763 4751 -2 4763 -2 4750 4764 -2 4750 4764 4750 4752 -12 0 4749 4750 4766 4778 4791 -4 0 4788 4767 4768 4760 4763 4750 4763 4764 4751 4763 4785 4787 -6 0 4786 4784 4751 4750 4751 4763 4764 4763 4751 4750 4763 4750 4763 4750 4763 4750 4764 4751 -3 4750 4763 4750 4764 4763 4764 4751 4750 4751 4750 4764 -6 4750 4751 4750 4764 4750 4763 -3 4750 4764 4750 4751 -2 4750 4764 4751 4764 4750 4763 4764 4750 4751 4764 4751 4750 4763 -2 4751 4763 4764 -2 4751 4763 4750 -2 4764 4751 4750 4763 4751 4763 4751 4763 4751 4764 4763 4750 4751 4750 4764 4750 4764 4763 4750 -3 4751 4750 4764 4751 4750 4751 4764 -4 4751 -3 4764 4750 4751 4750 4764 4750 4751 -2 4750 4763 4751 4763 -2 4750 4764 4750 4751 4763 4751 -2 4763 4750 4751 4750 4764 4750 -3 4763 4750 -2 4763 4750 -2 4764 4751 4750 -2 4763 4750 4764 -2 4751 4750 -2 4751 -4 4750 4763 4764 -2 4750 4764 4763 4750 4763 4750 4763 4750 4763 4750 4764 -2 4751 4750 4751 4764 -3 4750 4751 -3 4750 4764 4750 -2 4751 4764 4763 -2 4750 4751 4763 4750 -2 4763 4750 4763 4764 4763 4750 4763 4764 -2 4750 4764 4763 4750 4752 -9 0 4775 4760 4750 4751 -3 4750 4764 4763 4750 4764 4750 4764 4750 4764 -2 4750 -2 4751 4750 -2 4763 4751 4750 4765 -12 0 4762 4763 4765 4791 -7 0 4781 4773 4771 -2 4763 -2 4750 4772 4798 -8 0 4797 4740 -2 4750 4764 4750 4751 4763 -7 4764 -2 4750 4751 4750 4763 -2 4751 4763 -3 4750 4751 4750 4751 -2 4750 4751 4750 -2 4763 -2 4750 4763 4764 4763 -3 4750 4764 -3 4750 4764 4751 4764 4750 4751 4763 -2 4764 -2 4750 4751 4764 4750 4763 4751 -2 4750 4763 4750 -2 4764 -3 4750 -2 4751 4763 4751 4763 4750 4751 4750 -2 4763 4750 4751 4750 4764 -2 4750 4764 4751 -2 4764 4750 4764 4763 4751 4750 4763 4750 -4 4751 -2 4750 4751 4764 4751 4750 4751 4764 -2 4751 4763 -2 4751 4750 4764 -2 4750 4763 4751 -2 4750 4763 -2 4764 4751 -2 4763 4751 -2 4764 4750 -2 4764 4750 -2 4763 4750 4764 4750 4764 4750 4763 4750 4764 -2 4750 4764 -2 4750 4764 -3 4751 4750 4764 4750 4751 -8 4763 4764 4750 4751 4764 4763 -2 4751 4764 -2 4751 4763 -5 4750 -2 4763 -2 4750 4764 4750 4764 -3 4750 -3 4751 -2 4750 -3 4751 4750 4763 4750 4764 4765 -9 0 4788 4773 4760 4750 4763 4751 4763 -2 4750 4751 4750 4751 -5 4750 4763 4764 4751 -2 4750 4764 4751 4752 -12 0 4775 4776 4778 -9 0 4786 4784 4760 4763 4751 4763 4785 4811 -8 0 4810 4749 4763 4764 4750 4764 4763 4750 4764 4751 4764 4750 4764 4750 4764 4751 -4 4750 4763 -3 4750 4751 -2 4750 4763 4750 4751 -2 4750 4763 4764 4750 4751 4750 4751 4750 4764 4750 4764 4751 -3 4764 4751 -2 4750 4751 -8 4763 4764 4750 4751 4750 -2 4763 4764 4750 -2 4764 4750 -2 4764 -2 4750 4751 -5 4750 -2 4751 -3 4750 4763 -3 4750 4763 -2 4750 -3 4751 -2 4750 4764 4763 -5 4751 4763 4750 -3 4763 4750 4763 4751 4763 -2 4750 4763 4751 4763 4751 4763 4750 4763 4751 -2 4764 4751 -2 4763 4751 -3 4764 4750 4764 4763 4764 4751 4750 4763 4750 4751 4764 4750 4751 4763 4750 4751 4750 4751 4763 4750 -3 4763 4750 4751 -2 4763 4751 4750 4764 4751 4764 4751 4764 4750 4764 4751 4750 4764 4763 4764 4750 4751 -3 4750 4763 4751 4763 -2 4750 4751 -7 4750 -2 4763 4751 4764 4750 4764 4751 -3 4764 4763 4750 4764 4750 4763 4764 4752 4726 -9 0 4786 4773 4740 4764 -2 4763 -2 4750 4751 -7 4750 4763 4764 4763 -3 4750 4764 4752 -2 4724 4816 4817 -8 0 4788 4789 4791 -10 0 4797 4754 4755 4756 4757 4798 -10 0 4762 4750 4764 4751 4763 4764 -9 4750 4751 4764 4751 -3 4750 4763 -2 4750 4763 -2 4750 4763 4751 4763 4751 4763 4750 4751 4750 -2 4763 4750 -2 4751 -2 4750 4751 4750 4764 4750 -4 4763 4751 -2 4750 4764 4763 -3 4751 4763 4764 4750 4764 4763 4764 4750 -2 4763 4764 -2 4751 4764 4763 4764 4751 4763 4751 4763 4751 -2 4764 4751 -2 4764 4751 4764 4750 4764 4763 4750 4763 4764 -4 4750 -2 4764 -4 4751 4763 4750 -3 4763 4750 -2 4751 4763 -3 4750 4764 4750 4751 4763 -2 4750 4763 4764 4763 -2 4750 4763 -3 4750 4763 4750 4763 4751 4763 4750 4764 4750 -2 4763 4750 4764 -2 4750 -2 4751 -2 4750 4764 4750 4751 4750 4763 -2 4750 4764 4751 4764 -2 4750 -4 4751 -3 4750 4751 4763 4764 4750 4764 -2 4763 4750 4751 -2 4750 4764 4751 4763 -2 4750 4763 4751 4764 4763 -2 4750 4763 4764 4763 -3 4750 4763 -3 4750 4763 4750 4763 -2 4750 4751 4763 4753 4739 -10 0 4786 4749 4764 -2 4751 4750 4764 4750 4764 4750 4763 4764 4763 -2 4750 4751 -2 4763 4750 -2 4751 4750 4753 -2 4737 4826 4827 -21 0 4810 4767 4768 4769 4770 4811 -10 0 4749 -3 4750 4764 4751 4750 4763 4750 4751 4764 4751 4764 4751 -2 4750 4764 -2 4750 4764 -2 4763 4764 4751 4750 4763 -2 4750 -2 4763 4750 4764 -2 4750 -2 4763 4750 -2 4763 4750 -2 4763 4751 4750 4751 -3 4763 4751 4750 4764 4751 4750 4763 -2 4750 4764 -2 4763 4764 4750 4763 -2 4751 4763 -3 4750 4764 4763 4750 4764 4750 4763 4764 4763 4764 4763 -2 4750 4764 -3 4750 4751 4763 4764 4763 4750 4763 4750 4751 -2 4763 -2 4764 -2 4750 4751 4764 4750 4763 4751 4750 4751 4763 -3 4750 4763 4751 4763 -2 4750 4763 4751 4764 4763 -2 4750 4751 4763 4751 -2 4764 4763 4750 -2 4751 4750 4764 4750 4751 -2 4750 4764 4763 4764 4763 4764 4763 4764 4763 -2 4764 4750 4751 4750 4763 -2 4764 4751 4764 -3 4750 4764 4763 4750 4763 4750 4751 4750 4751 4750 4763 4751 -2 4750 4751 4764 4751 -2 4750 4763 -2 4751 4764 -2 4763 -2 4751 -2 4750 4751 4763 4750 4763 4751 -3 4750 4763 -3 4750 4763 4750 4751 4763 -5 4764 4752 4726 -10 0 4762 4751 -2 4750 4751 4750 4751 4750 4751 4750 4751 4750 -2 4763 4750 4751 4750 4764 -3 4750 4764 4750 4751 4836 4837 -23 0 4781 4782 -12 0 4762 4764 4751 4764 -10 4750 4751 4764 4751 4750 4764 -2 4750 -3 4764 -2 4751 4763 4750 4751 -2 4750 4751 4763 -3 4750 -2 4751 4750 -2 4763 4751 4750 4751 -2 4763 4751 4750 4764 4750 4764 4750 4763 4750 4763 4750 4764 4763 -2 4751 4764 4750 4764 4763 4764 4751 -2 4750 4764 4763 4750 4764 4750 4763 4764 4763 -2 4764 -3 4750 4751 4763 4751 -2 4750 4751 -2 4750 4763 4750 4763 -2 4750 4763 4764 4750 4751 4764 4751 4750 -3 4764 4750 4764 -2 4763 4750 -2 4764 4751 4750 4751 4750 4751 4750 4751 4750 4751 4750 -2 4764 4763 4750 4751 4750 4764 -3 4750 4763 4750 4751 4764 -2 4763 -2 4751 -2 4750 -2 4763 4751 -2 4763 -3 4750 4764 -3 4750 4764 4750 4763 4764 -9 4750 4751 4764 4751 -3 4750 4764 -2 4751 4764 -2 4751 4764 4763 4764 4763 4764 4763 4764 4763 -2 4750 4763 -2 4764 4751 -2 4764 4763 4750 4764 -5 4750 4764 4763 4751 4753 4739 -10 0 4775 4776 4777 4776 4777 4740 -2 4750 4763 4751 4763 4751 -2 4764 4763 -2 4764 4763 -3 4750 4764 4751 4764 4750 4765 -37 0 4749 -2 4750 4764 4763 4750 4763 4750 4763 4750 4763 4750 4763 4751 -4 4750 4764 4751 4750 4751 4750 4764 4750 -2 4751 4763 4751 4763 4751 4763 4751 4763 4751 -2 4750 4764 4750 4751 4750 4764 -4 4750 4763 4750 4763 -2 4750 4763 4764 4750 4751 4764 4751 4750 -2 4764 -2 4750 4764 4763 4764 -3 4750 4763 4751 4763 4751 4763 4751 4763 4751 -2 4763 -3 4750 4751 -2 4763 4750 4763 4764 4750 4764 4763 4750 4764 4751 4764 4750 4763 4750 4763 4751 4750 -2 4764 4750 4751 4750 -2 4764 -3 4750 4751 4750 4751 -2 4750 -2 4763 -2 4750 4764 -2 4750 4763 4764 4763 4750 -2 4763 4751 4750 4763 -2 4750 4763 4750 4751 -2 4764 -2 4750 -2 4751 -2 4750 4763 4750 4764 4751 -2 4764 4763 4750 4751 -2 4763 4751 4750 4763 4750 4764 4750 4763 4750 4764 4751 4750 -2 4764 -2 4750 4764 -2 4763 4750 4763 4751 4764 -2 4751 4750 4764 -2 4750 -2 4763 -2 4750 4764 -2 4750 4764 -3 4750 4764 4750 4751 4763 -2 4751 4750 4764 4751 4766 4776 4777 4778 -10 0 4788 4789 4790 4789 4790 4749 4750 4751 4763 4751 4763 4751 -2 4750 4764 -3 4750 4751 -2 4764 4763 4751 4764 4750 4752 -37 0 4749 4750 4763 -2 4750 -8 4751 4763 4750 4751 4750 4764 -2 4750 4763 4751 4763 4750 4764 4750 4763 4751 4750 4764 -2 4750 -2 4763 4750 4751 4750 4763 4764 4763 4750 4763 4764 4763 4751 4750 4751 4764 -3 4750 4751 4763 4764 -2 4750 4763 4750 -3 4764 4750 4763 -2 4751 4764 4751 4763 4750 4764 4750 4764 4750 4764 4750 4764 -2 4750 4763 -2 4764 4751 -2 4763 4751 4764 4750 -3 4751 4750 4764 4763 4750 4764 4751 4750 4764 -2 4763 4764 4750 4751 4750 -2 4764 -2 4750 4764 4750 4764 4750 -2 4751 4764 4763 -2 4750 -2 4751 4750 -2 4751 -4 4750 4751 4764 -2 4750 4764 4750 -2 4764 -2 4750 4751 4750 4751 4750 4751 4750 4763 4764 4751 -2 4764 4763 -4 4750 4763 -2 4750 4751 -6 4763 4764 -2 4750 4763 4750 -3 4764 4750 -2 4764 4750 4763 4751 4764 -2 4763 4750 4751 -2 4750 4763 4764 4763 -3 4750 -3 4751 4750 4751 -3 4763 -2 4750 4763 4750 4763 4752 4789 4790 4791 -13 0 4723 4724 4749 -4 4750 -2 4751 4764 4750 4764 4750 4751 4750 4764 4750 -2 4751 4750 4764 4751 4765 -36 0 4723 4762 4764 4763 4751 4750 4764 4750 4764 4750 4764 4750 4764 4763 -3 4750 4751 4764 4751 4750 4751 4764 -2 4763 4750 4764 4750 -2 4764 -2 4751 -2 4750 4764 -2 4750 4763 -2 4764 4751 4764 4750 4764 4763 4750 4751 4763 4764 -8 4750 4763 4750 4763 4751 4750 4751 4750 -2 4763 4750 -2 4763 -8 4750 -2 4751 4750 -2 4751 4750 -3 4751 4750 4751 4764 -3 4750 4764 4763 4751 -6 4750 4751 4750 4763 4751 4763 4750 -2 4763 4764 -2 4751 4764 4763 4750 4763 4764 4763 4750 4764 -6 4750 4751 -2 4763 4750 4751 4750 4763 -2 4750 4751 4750 4751 -2 4750 4763 4764 4751 4764 4763 -2 4750 4764 4750 -2 4751 4750 4751 4763 4764 4763 4751 4750 4764 4750 4764 4750 4764 4751 4750 4764 -3 4763 4750 4751 -2 4750 4751 4750 4764 4750 -2 4763 4750 4764 4750 4764 4750 4764 -2 4750 -2 4764 4763 4750 4751 4750 4764 -2 4751 4763 4751 4750 4763 4750 4763 -2 4750 4765 4724 4725 4726 -13 0 4736 4737 4727 4763 4751 4764 4763 -2 4750 4751 -2 4763 4750 -2 4751 4750 4763 4764 -2 4750 4764 4751 4752 -5 0 4814 4815 4725 4724 4725 4724 4816 4817 -23 0 4736 4727 4751 4764 -2 4750 -5 4751 -2 4763 4764 4750 4763 -4 4750 4764 4751 4763 4764 -2 4763 4750 4761 4776 4777 4776 4760 4751 4750 4763 4764 4751 -2 4763 4751 -3 4764 4751 -2 4750 4751 -2 4763 4751 -3 4750 -4 4764 4750 4751 4764 4763 4751 4763 4750 -2 4763 4764 -2 4763 4750 4764 -6 4750 -2 4763 4751 4763 4764 4751 -4 4750 4763 -2 4750 4761 4776 4777 4776 4760 -3 4764 -2 4750 4763 -2 4750 4764 4750 4751 -3 4750 -2 4764 4750 4764 4750 -2 4763 4750 4751 -3 4750 4751 4763 4750 -3 4764 4751 4764 4750 4751 4763 -2 4750 4751 -2 4750 -2 4763 -2 4750 -2 4763 4750 -2 4751 4764 -2 4750 4763 4764 4750 4764 4763 4750 4751 4764 -6 4750 4751 4763 4764 4750 4764 4763 4751 4763 4764 -3 4751 4750 4764 4750 -2 4764 -2 4750 -2 4763 -5 4750 4763 4750 4764 4763 -4 4750 4763 4750 4763 4764 4750 4751 4763 4753 4737 4738 4739 -13 0 4749 4764 4763 4764 4763 4750 4764 -5 4750 4764 -3 4750 4763 4750 -4 4751 4765 -5 0 4824 4825 4738 4737 4738 4737 4826 4827 -23 0 4749 -4 4750 4763 4750 4764 4751 4764 4751 4750 4764 -3 4751 4763 4750 4763 4751 4763 4764 -2 4763 4764 4763 4766 4774 4789 4790 4789 4773 4740 4764 4750 4763 -2 4750 4764 -3 4751 4750 4763 4764 -3 4750 4764 4751 -2 4750 4763 4751 -3 4750 4751 4756 4757 4776 4777 4776 4777 4776 4777 4754 4755 4751 4763 4751 4764 4763 4764 4763 -2 4750 4751 4763 4751 4764 4750 4764 4751 4763 4764 4763 -2 4751 4761 4774 4789 4790 4789 4773 4771 4751 4763 4750 4763 -4 4750 4763 -2 4750 4751 -2 4764 4750 4763 4764 -2 4750 -2 4763 -2 4750 4764 4750 4764 -3 4751 -2 4750 4751 4750 4764 4751 -3 4750 -2 4764 -2 4750 4751 4750 4763 4751 4764 4750 4763 -2 4764 4751 4763 4764 4751 4750 4751 -3 4763 -2 4750 4763 4750 4764 4751 4750 4763 4751 -2 4750 4751 4763 4750 -2 4764 4750 4763 4751 4763 -5 4750 4764 4750 4763 -2 4764 -2 4750 4764 -2 4750 4764 4750 -2 4751 4750 4764 4751 4764 -3 4750 -2 4751 4750 4763 4764 4765 -13 0 4749 4750 4751 4764 4763 4750 4764 4750 4751 4750 -2 4763 4750 4764 -2 4750 4763 4750 4763 -3 4750 4765 4724 4725 -2 4724 4725 4834 4835 4750 4763 -2 4750 4836 4837 -4 7026 -19 0 4775 4740 4750 4763 -3 4750 -2 4751 -2 4763 4764 4750 4751 4764 4751 -2 4750 4751 4764 -2 4763 4750 -2 4763 4750 4752 4787 -3 0 4786 4749 -2 4763 -3 4750 4763 -2 4764 4751 4764 4750 4751 -2 4750 4764 4763 4750 4763 4750 4764 4756 4757 4776 4777 4776 4769 4770 4789 4790 4789 4790 4789 4790 4767 4768 -4 4776 4754 4755 4750 -2 4751 -3 4750 4763 4750 4764 4763 4756 4757 4776 4777 4776 4774 4787 -3 0 4786 4784 4751 -2 4750 -3 4763 4764 4751 -3 4750 4756 4757 4776 4777 4776 4754 4755 -4 4750 4764 4751 -3 4750 4764 -2 4750 4764 4751 4764 4750 4763 4751 4763 -2 4750 4751 4750 4751 4750 4751 4750 4751 4750 4763 4764 4751 -2 4764 4763 4750 -2 4751 4750 4764 4751 4764 -2 4750 4751 -2 4763 4764 -2 4750 4763 4750 4751 -3 4750 4763 -3 4750 4763 4751 4763 -2 4750 4763 4751 4764 4763 -2 4750 4763 4764 4751 4764 4750 4764 4750 -2 4751 -2 4750 4751 4763 4764 -3 4750 -2 4764 4750 4766 4777 4778 -13 0 4762 -2 4750 4751 4750 -2 4763 -4 4750 4764 4763 4750 4751 4763 4751 4750 4764 4750 4763 4750 4753 4737 4738 -2 4737 4738 4727 4751 4764 -3 4751 4763 4752 -23 0 4788 4775 4776 4740 -2 4750 4763 4750 4764 4751 4750 4764 -3 4763 4764 4750 4764 -2 4763 4750 -2 4763 4750 -2 4763 4765 -4 0 128 4762 4750 4763 4750 4764 4751 4764 4763 4751 -2 4750 4751 -2 4750 -2 4751 4756 4757 4776 4777 4776 4769 4770 4789 4790 4789 4782 -8 0 4781 -4 4789 4767 4768 4760 4751 4764 4751 -2 4764 4751 4764 4751 4761 4769 4770 4789 4790 4789 4787 -5 0 4797 4740 -3 4764 -2 4750 4764 -2 4751 4764 4761 4769 4770 4789 4790 4789 4767 4768 4760 -3 4750 -4 4764 -2 4751 -2 4764 -3 4763 4750 4763 4764 4751 4750 4763 4750 4751 -2 4750 4763 4764 4751 -2 4763 -3 4750 4751 -2 4763 4750 4764 -5 4750 4764 4751 4750 4764 4751 -2 4750 -2 4764 4750 4751 4764 -2 4763 4764 -3 4750 4763 4751 4764 4751 4763 -2 4750 -2 4764 4763 -2 4764 4750 -2 4751 4764 -3 4750 4763 4750 -4 4751 -3 4750 4764 4750 4752 4790 4791 -13 0 4775 4740 4750 -2 4763 -2 4750 4764 -3 4750 -2 4764 4751 4764 -3 4750 4764 4751 4764 4750 4763 -2 4750 4763 4750 4751 4750 4763 -3 4751 4764 4750 4765 -24 0 4788 4789 4749 4763 4764 -2 4750 4751 4763 4764 4750 4751 4750 4763 -2 4751 4763 4750 -2 4764 4750 -2 4763 4750 4764 4752 -5 0 4749 4764 -4 4750 4751 4750 4763 -3 4750 4764 -2 4751 4761 4769 4770 4789 4790 4789 4782 -19 0 4781 4773 4771 4750 4763 -2 4750 4764 4751 4772 4774 4782 -10 0 4810 4749 4751 4763 4764 4750 4764 -2 4763 4750 4761 4774 4782 -5 0 4781 4773 4754 4755 -4 4751 -2 4764 4751 -3 4764 4750 4751 4763 4764 -2 4750 4751 -2 4750 -2 4763 -2 4750 4751 4763 4750 -2 4751 -3 4750 4764 4750 -2 4751 4750 4764 4751 4764 4750 4751 4763 4764 4750 4751 4763 4750 4751 4750 -2 4764 -2 4750 4764 4763 4764 -3 4750 4764 4763 4750 4764 -4 4750 -2 4763 4750 4763 4751 4750 4751 4763 4751 4750 4751 -3 4764 4763 4751 -2 4750 4763 4751 4750 4765 4725 4726 -13 0 4788 4775 4776 4740 4764 4750 4751 4750 -2 4751 4750 -2 4763 4751 4750 4751 -3 4763 4751 4750 4763 4750 4764 4751 4764 4751 -2 4750 -2 4764 4750 4751 4750 4764 4752 -4 7026 -22 0 4762 -2 4750 4764 4751 -2 4750 4764 4766 4776 4740 4750 4751 4750 4764 -2 4750 -2 4764 4750 -2 4764 4750 4765 -5 0 4762 -3 4750 4751 4763 4751 4750 -3 4751 4750 4764 4750 4772 4774 4782 -25 0 4786 4784 4764 4763 -3 4750 4764 4785 4787 -7 0 105 -4 0 4762 -2 4750 4764 -3 4751 4764 4772 4774 4787 -7 0 4786 4767 4768 4776 4777 4776 4777 4760 -6 4764 4763 4750 4764 4763 4764 -2 4751 -2 4764 -2 4750 4751 4750 -2 4764 4763 -2 4764 4763 -3 4750 4764 4750 4751 4763 4764 4763 -2 4751 4750 4764 4763 -2 4751 4750 4751 4763 4750 4751 -2 4750 4751 4750 -2 4764 4751 4750 4766 4776 4777 4776 4777 4776 4777 4740 4750 4764 -3 4750 4751 4763 4751 4750 4763 -3 4764 4763 4751 4750 4763 4751 4750 4763 4750 4753 4738 4739 -14 0 4788 4789 4775 4740 4750 4751 4750 -2 4764 4763 4750 -2 4751 4750 4763 -6 4750 4763 4751 -2 4750 -3 4764 4750 4751 4764 -2 4751 4763 4765 -26 0 4775 -2 4776 4740 -2 4750 4763 4766 4778 4789 4775 4740 4763 4764 -3 4750 4766 4776 4777 4776 4777 4740 4752 -5 0 4762 4764 4766 4776 4777 4740 4750 4751 4763 4751 4750 4764 4750 4763 4785 4787 -27 0 4797 4771 4751 -3 4750 4772 4798 -13 0 4749 4751 4750 -3 4764 4750 4751 4785 4787 -10 0 4781 4789 4790 4789 4790 4773 4771 4751 -3 4764 4751 4764 -3 4750 -2 4763 4750 4764 4750 4764 4750 4764 -2 4750 -2 4763 4751 -3 4750 4763 -4 4750 4763 4750 4763 4750 4751 4764 4750 4751 4764 4750 4764 4763 -3 4751 4764 -2 4751 4763 4756 4757 4776 4777 4778 4789 4790 4789 4790 4789 4790 4775 4777 4776 4754 4755 -3 4750 4764 4750 -3 4763 4751 4750 4763 4750 4764 4750 4764 4750 4764 4751 4750 4752 -16 0 4788 4775 4740 -2 4750 4764 4750 4764 4763 4764 -2 4750 4763 4750 4763 4764 -8 4750 4751 4763 4750 4764 -2 4751 4763 4750 4752 -26 0 4788 -2 4789 4775 4776 4777 4740 4752 4791 0 4788 4775 4776 -2 4777 4776 4777 4778 4789 4790 4789 4790 4775 4778 -5 0 4775 4777 4778 4789 4790 4749 -4 4750 4763 -2 4750 4761 4798 -28 0 4810 4784 4764 4763 -2 4750 4785 4811 -13 0 4762 -3 4763 4750 4751 4750 4766 4798 -16 0 4786 4784 -2 4751 4764 4751 4764 4750 4764 4750 4763 4751 4764 4751 4763 -2 4751 4750 4751 4750 -2 4751 -3 4750 4764 -3 4750 4764 4750 4763 -5 4764 -2 4763 -3 4751 4763 4750 4751 4750 -2 4764 4750 4763 4772 4769 4770 4789 4790 4791 -6 0 4788 4790 4789 4767 4768 4754 4755 4750 4763 -3 4750 4764 4751 4750 4751 4764 4750 4763 4750 4763 4750 4763 4751 4765 -17 0 4788 4749 -2 4764 4763 4764 4750 4763 4750 4751 4763 4751 4750 4764 4750 4763 4764 4750 4751 4763 4764 4750 4751 4764 4751 -3 4750 4751 4750 4763 4765 -29 0 4788 4789 4790 4775 4778 -3 0 4788 4789 -2 4790 4789 4790 4791 -4 0 4788 4791 -5 0 4788 4790 4791 -2 0 4749 4751 4763 4751 4750 4751 4756 4757 4774 4811 -29 0 4797 4740 4750 4763 4766 4798 -14 0 4844 4845 4750 4751 4750 4764 4846 4847 4811 -17 0 4797 4760 -4 4751 4764 -6 4750 -2 4763 -4 4750 4764 4750 4751 4750 4751 4763 4751 4750 -2 4751 4763 4751 4750 4764 4750 4764 4750 4764 4750 4763 -2 4750 4764 -2 4763 4750 4751 -3 4750 4785 4782 -14 0 4781 4767 4768 4771 -3 4750 4764 4751 4750 4751 4764 4750 4751 4763 4750 4751 4764 4751 4766 4778 83 78 -12 0 78 83 0 4723 4762 -3 4750 4763 4764 4763 4751 4764 -3 4750 4764 4751 4750 4751 4750 4751 4764 4751 4750 4763 4751 -2 4750 4751 4764 -3 4750 4752 -4 0 4723 4724 4725 -2 4724 4725 4724 4726 -20 0 4788 4791 -26 0 4775 4776 4777 4776 4777 4776 4769 4770 4787 -30 0 4810 4775 4776 4777 4778 4811 -14 0 4854 4855 4776 4777 4776 4777 4856 4857 -18 0 4810 4773 4754 4755 -2 4751 4763 4751 4750 4751 -2 4750 -2 4763 -2 4750 -2 4763 4750 4751 4750 4764 4750 4764 4751 4764 4756 4757 4776 4777 4776 4777 4776 4777 4754 4755 -3 4750 4751 4763 4750 4763 -3 4750 4763 4750 4761 4798 -17 0 4781 4784 -2 4763 4751 4750 4763 4750 4751 4763 4764 4750 4756 4757 4776 -2 4777 4778 4791 -17 0 4736 4727 4750 -2 4751 4750 -2 4751 4750 4764 4751 -3 4763 4751 -2 4750 4764 4751 -2 4750 4764 -2 4763 4764 4750 4763 -2 4750 4751 4846 4847 -4 0 4736 4737 4738 -2 4737 4738 4737 4739 -48 0 4788 4789 4790 4789 4790 4789 4782 -33 0 4788 4789 4790 4791 -15 0 4864 4865 4789 4790 4789 4790 4866 4867 -19 0 4786 4767 4768 4771 4751 4763 4764 4750 4764 4750 4751 4750 -2 4763 4750 4764 -2 4751 4750 -2 4751 4750 -2 4751 4772 4769 4770 4789 4790 4789 4790 4789 4790 4767 4768 4760 -2 4750 4764 -2 4763 4764 4750 4763 -2 4751 4766 4774 4811 -18 0 4797 4771 4764 4751 4750 4751 4763 4764 4761 -2 4776 4769 4770 4789 -2 4790 4791 -18 0 4749 -2 4750 4751 4763 -4 4750 4764 4751 4764 4750 -9 4751 4763 4764 4751 4750 -2 4764 4750 4766 4856 4857 -4 0 4775 4776 4740 4764 4763 4750 4766 4778 -51 0 7026 -84 0 4781 4784 -3 0 -2 4751 4764 4763 4750 4764 4750 4764 -2 4750 4763 4764 4763 -3 4750 4763 4785 4782 -8 0 4781 4773 4760 4764 4750 4764 4751 -2 4750 4751 4764 4763 4752 4787 -14 0 78 102 78 -2 0 4810 4784 4751 4764 4750 4763 4764 4761 4774 -2 4789 4782 -23 0 4749 4750 4763 4750 -2 4751 4750 4751 -2 4763 4751 4750 4763 -2 4750 4751 4764 -2 4750 4751 4763 4750 4751 4750 -3 4764 4750 4764 4765 4866 4867 -4 0 4788 4789 4775 4776 4740 4750 4752 4791 -51 0 7026 -85 0 4797 -3 0 -2 4776 4754 4755 4763 4764 4763 4764 4763 -2 4750 -3 4764 4751 4764 4761 4798 -10 0 4786 4773 4754 4755 4750 -5 4763 4846 4873 -21 0 4797 4771 4764 -2 4750 4766 4774 4787 -26 0 4762 -2 4750 4763 -3 4750 4763 -4 4750 4763 4751 4764 4751 4764 4750 4764 4750 4764 4763 -3 4750 4751 4750 4756 4757 4778 -8 0 4788 4789 4775 4777 4778 -8 0 83 78 -2 0 78 83 -38 0 7026 -85 0 4810 -3 0 -2 4789 4767 4768 -2 4776 4754 4755 -2 4750 -2 4751 4750 4763 4756 4757 4774 4811 -11 0 4786 4767 4768 4776 -5 4777 4856 4883 -21 0 4810 4784 4750 -2 4751 4765 4787 -27 0 4775 4760 -2 4750 4751 -2 4764 4763 4750 4751 4763 -2 4764 4763 4751 4750 4764 4763 4751 -5 4750 4763 4756 4757 4769 4770 4791 -10 0 4788 4790 4791 -23 0 4816 4817 -22 0 4723 4726 -3 0 7026 -5 0 4723 4724 4726 -25 0 4814 4815 4724 4725 4724 4725 4724 4725 -51 0 4781 -2 4789 4767 4768 4776 4777 4776 4777 4776 4777 4769 4770 4787 -14 0 4781 4789 -5 4790 4866 4893 -22 0 4797 4740 4750 4846 4847 -28 0 4788 4773 4760 -3 4750 4751 -2 4750 4763 -3 4750 4763 -6 4764 -2 4750 4763 4750 4761 4769 4770 4782 -36 0 4728 4729 4826 4827 -22 0 4736 4739 4724 4725 4724 4725 4724 4725 4724 4725 4724 4736 4737 4739 -25 0 4824 4825 4737 4738 4737 4738 4737 4738 4730 4731 4724 -52 0 4781 4789 4790 4789 4790 4789 4790 4782 -38 0 47 -5 0 47 -2 0 4810 4775 4776 4856 4857 -29 0 4786 4773 4754 4755 4750 4763 -2 4764 4763 4750 4764 4750 4763 -2 4750 4751 4764 4750 4751 4764 4751 4750 4772 4774 4782 -37 0 4734 4741 4742 4836 4837 -22 0 4749 4753 4737 4738 4737 4738 4737 4738 4737 4738 4737 4727 4766 4778 -25 0 4834 4835 4764 4750 4751 4750 4764 4751 4743 4744 4737 4730 4731 -106 0 4788 4789 4866 4867 -30 0 4786 4767 4768 4754 4755 4750 -3 4751 4750 4764 4751 4750 4763 4750 4763 -2 4750 -2 4763 4750 4785 4787 -27 0 102 -2 0 83 -6 0 4734 4747 4751 4763 4750 4752 4724 4725 4724 4725 4724 4725 4724 4725 4724 4725 4726 -11 0 4775 4771 -2 4750 4764 4751 -2 4750 4763 4751 4766 4776 4778 4791 -25 0 4775 4771 4764 4751 -3 4764 4751 4750 4751 4763 4743 4744 4735 -141 0 4781 4767 4768 4760 4764 -5 4750 4764 -2 4763 4751 -2 4750 4751 4750 4772 4798 -12 0 4814 4815 4725 4724 4725 4724 4725 -18 0 4734 4747 4751 4750 4764 4750 4753 4737 4738 4737 4738 4737 4738 4737 4738 4737 4738 4739 -11 0 4788 4784 4751 -2 4750 4751 4764 4750 4751 4761 4778 4789 4791 -26 0 4788 4784 4763 4751 -2 4750 4751 -2 4750 4763 4750 4763 4750 4748 4735 -34 0 4724 4725 4724 4725 4724 4725 4724 -43 0 47 -5 0 47 -51 0 4781 4773 4771 4751 4764 4750 -2 4751 4763 -2 4764 -2 4750 4763 4750 4763 4785 4811 -12 0 4824 4825 4738 4737 4738 4737 4738 4730 4731 -15 0 4734 4747 -2 4750 4764 4751 -2 4750 4751 4764 -2 4763 4750 4764 4750 4763 4751 4766 4778 -5 0 4724 -6 0 4797 4740 4750 4751 -2 4750 4751 4766 4774 4791 -29 0 4797 4771 -2 4750 4751 4764 -2 4750 4764 4763 4751 4750 4763 4748 4730 4731 -24 0 4724 4725 4724 4725 4724 4725 4728 4729 4737 4738 4737 4738 4737 4738 4737 -64 0 4724 4725 -36 0 4786 4784 4750 4751 4764 4751 4764 4750 4763 4750 4763 4750 4764 4751 4766 4798 -13 0 4834 4835 4750 -2 4751 4750 4751 4743 4744 4735 -13 0 4734 4747 4764 -2 4763 4764 4750 4763 -2 4750 4751 4764 4763 4764 4751 4750 4763 4766 4778 4791 -2 0 4723 4728 4729 4737 4730 4731 4726 -3 0 4810 4749 4750 4763 4764 -2 4750 4752 4787 -18 0 -2 4724 4725 4726 -8 0 4810 4784 4751 4764 4751 4750 4751 4763 -4 4764 -2 4763 4743 4744 4730 4731 4724 4725 4724 4726 -5 0 4814 4815 -2 4725 4724 4725 4724 -2 4725 4724 4725 4728 4729 4737 4738 4737 4738 4737 4738 4741 4742 4751 4763 -2 4750 4751 -2 4763 -63 0 4734 4737 4738 4735 -36 0 4797 4740 4763 4751 -2 4750 4763 4751 -2 4750 -3 4764 4752 4811 -5 0 4723 4724 -6 0 4775 4740 -2 4764 -2 4751 4750 4764 4751 4748 4730 4731 4725 4724 4725 4726 -4 0 4723 4728 4729 4747 4763 4750 4763 -4 4750 4763 -2 4750 4751 4750 4764 4750 -2 4764 4752 4791 -3 0 4736 4741 4742 4750 4743 4744 4739 -4 0 4762 4763 4750 -2 4751 4763 4765 -17 0 4728 4729 -2 4737 4738 4739 4726 -8 0 4797 4760 4751 -2 4750 4764 4750 4763 -2 4750 4751 4763 4764 4750 4751 4743 4744 4737 4738 4737 4739 -5 0 4824 4825 -2 4738 4737 4738 4737 -2 4738 4737 4738 4741 4742 4750 4764 4751 -3 4764 4751 4764 -4 4750 4763 4751 4750 -42 0 4725 4724 4725 4724 4725 4724 4725 4724 4725 4724 4725 4724 4725 4726 0 4723 4724 4725 4724 4728 4729 4747 4750 4763 4748 4730 4731 4724 -34 0 4749 -2 4764 -6 4750 4751 4764 4750 4765 -6 0 4736 4737 4735 -5 0 4788 4749 4764 4750 4751 -4 4750 4751 4743 4744 4738 4737 4738 4739 4724 4725 4724 4725 4736 4741 4742 -3 4751 4763 4750 4751 -3 4750 4763 -2 4750 4763 -2 4750 -2 4763 4765 -4 0 4749 4750 4751 4750 -2 4751 4752 -4 0 4749 4764 -2 4750 -2 4751 4752 -16 0 4732 4741 4742 4764 -2 4751 4753 4739 -8 0 4810 4773 4760 4751 4750 4764 4763 4750 4764 4751 4750 4751 4750 4751 4750 4764 -3 4763 4766 4778 -5 0 4834 4835 4751 4764 4763 4764 4763 4750 4763 -2 4750 4751 4763 4751 4764 -2 4750 4763 -4 4750 4763 4750 4763 4750 4751 4764 4724 4725 4724 4725 -29 0 4724 4725 4724 4725 4724 4725 4724 4728 4729 4738 4737 4738 4737 4738 4737 4738 4737 4738 4737 4738 4737 4738 4739 4724 4736 4737 4738 4737 4741 4742 4751 4750 4751 4750 4743 4744 4737 4730 4731 4725 4724 4725 -29 0 4762 4764 4750 4751 4764 4750 4751 4764 4751 4764 4763 4751 4752 -6 0 4749 4750 4748 4735 4725 4724 4725 4724 4725 4762 -2 4764 4751 4763 4751 4764 -2 4750 4764 4750 4751 4763 4751 4753 4737 4738 4737 4738 4727 4763 4750 4764 4751 -4 4750 4763 -3 4750 4763 -2 4751 4764 4763 4764 4772 4778 -4 0 4762 -2 4750 4751 4764 4763 4765 -4 0 4762 4750 4751 4763 -2 4764 4765 -7 0 4723 4724 -2 4725 -5 0 4745 4751 4764 4750 4764 4750 4764 4752 -9 0 4786 4773 4771 4763 -3 4764 4763 4751 -3 4750 -3 4764 -2 4750 4764 4752 4791 -5 0 4762 4750 4763 4751 4764 4751 4763 4751 -2 4763 -2 4750 4763 -2 4750 4764 4750 4751 -2 4750 4763 4750 4751 -5 4763 4737 4738 4737 4738 4730 4731 4724 4725 4724 4725 4724 4725 -2 4724 -17 0 4728 4729 4737 4738 4737 4738 4737 4738 4737 4741 4742 4751 4750 4764 -2 4750 4751 4763 4750 4751 4763 4750 4763 4751 4753 4737 4727 -3 4751 4763 4750 4764 4750 4764 4750 -2 4763 4750 4743 4744 4738 4737 4738 4730 4731 4724 4725 -2 4724 4816 4817 -5 0 4723 4724 -2 4725 4724 4725 4724 4725 4816 4817 -6 0 4749 4763 4750 4764 4751 4750 4764 4763 4751 4750 -2 4751 4765 -6 0 4762 -2 4763 4748 4738 4737 4738 4737 4738 4727 4764 -2 4751 4750 4751 4763 4751 4764 -3 4750 4763 4750 4763 4750 4751 4750 4751 4763 4764 -2 4750 4763 4750 4763 4751 4750 4751 4763 -2 4750 4751 4764 -4 4751 4785 4791 -4 0 4762 -2 4750 -2 4751 4750 4752 -4 0 4749 4750 4751 -3 4763 4752 -7 0 4736 4737 -2 4738 4735 -2 4724 4728 4729 4758 4751 4763 -2 4750 4751 4750 4765 -10 0 4786 4784 4750 4751 4764 -2 4750 -2 4751 4763 4764 -2 4750 4763 4750 4764 4772 4778 -6 0 4775 4771 4764 4750 4764 4750 4763 4750 4764 -2 4750 4763 4764 4763 4750 -2 4751 4750 4764 -5 4750 4763 4751 4750 4763 -2 4750 -2 4751 4743 4744 4737 4738 4737 4738 4737 4738 -2 4737 4730 4731 -2 4725 4724 4725 4724 4725 4724 4725 4724 4725 4724 4725 4724 4728 4729 4741 4742 -2 4751 -2 4750 4751 4750 4764 4750 -2 4751 4750 4763 4764 4751 4764 4763 4750 4751 4750 4763 4750 -2 4751 4764 -3 4750 4764 4763 4750 4763 4750 4763 4750 4763 4751 -2 4763 4764 4763 4751 4763 4743 4744 4737 4738 4737 4738 4737 4739 -2 4724 4725 -2 4724 4736 4737 -2 4738 4737 4738 4737 4738 4826 4827 -6 0 4762 -8 4750 4763 4750 4751 4752 -6 0 4775 4740 4764 4763 4764 4763 4764 4763 4764 4763 -2 4750 4763 -2 4764 4751 4763 4764 4763 4750 4763 -5 4750 4764 4763 4751 -5 4750 4751 4764 4751 4750 4751 4764 4751 4750 4751 -2 4750 4751 4766 4798 -5 0 4749 4763 4750 -2 4763 4750 4765 -4 0 4762 -2 4764 -3 4750 4765 -7 0 4749 -2 4763 4750 4748 -2 4737 4741 4742 4751 -2 4750 4763 4764 4750 4766 4778 -11 0 4797 4740 4750 4763 4750 4763 4750 4751 4750 4751 4750 4763 -3 4751 4785 4791 -6 0 4788 4784 4764 4763 4764 4763 4764 4751 4764 4763 -3 4750 -2 4751 4750 4764 4750 4751 -2 4750 4763 4750 4763 -2 4750 4763 -2 4764 -2 4751 -2 4750 -3 4751 -2 4750 -2 4751 -2 4750 4743 4744 -2 4738 4737 4738 4737 4738 4737 4738 4737 4738 4737 4738 4737 4741 4742 4764 4751 4750 -2 4764 -2 4751 4750 4763 4764 -2 4751 4750 4764 -2 4750 4751 4750 -2 4763 4750 4763 4764 4763 4750 4763 -2 4764 4763 -2 4750 4751 4750 4751 4764 4751 4764 4756 4757 4776 4777 4776 4754 4755 4764 4763 4750 4763 4751 4763 4750 4753 4738 4737 4738 -2 4737 4727 -2 4750 4763 4764 4751 4764 4750 4836 4837 -6 0 4749 4763 4764 4750 4751 4764 4750 4751 4750 4763 -2 4751 4765 -6 0 4788 4749 -4 4750 4764 4750 4764 -2 4750 4763 4764 4763 -3 4750 4764 4750 -3 4751 4750 4764 4751 4764 4750 4764 4750 4763 4750 4764 4763 -2 4751 4763 4750 -3 4751 4764 -2 4751 4764 4763 4764 4752 4811 -5 0 4762 4763 -3 4750 4766 4778 -4 0 4749 4763 -4 4764 4752 -7 0 4762 4763 4764 -2 4750 4764 4750 -2 4764 -5 4750 4766 4778 4791 -11 0 4810 4749 -3 4750 4764 4763 4751 -5 4750 4751 4761 4798 -8 0 4797 4760 -3 4750 4764 4750 4764 -2 4750 4764 -2 4750 4764 4750 4751 -2 4750 4763 -3 4750 -2 4751 -3 4750 4763 4750 4751 4764 4751 4763 -2 4750 4764 4751 -2 4750 4763 4750 -2 4751 4764 4763 4751 4750 4764 4751 4750 4763 4751 4750 -4 4764 4751 4750 4751 4750 4751 -4 4750 4764 4750 4751 4764 4763 -2 4750 -2 4751 4750 4751 4750 4764 -2 4750 4764 4751 4763 -2 4764 4763 4750 4764 4751 4764 4750 4763 4750 4766 4769 4770 4789 4790 4789 4767 4768 4777 4740 4763 -2 4750 4751 4764 4750 -2 4751 4764 4763 -2 4764 -2 4751 4750 -2 4751 4750 4751 4766 4778 -6 0 4762 4764 4751 4750 4763 -2 4750 4764 -2 4763 4764 4750 4752 -7 0 4762 4750 4764 4750 4764 4750 4763 4750 4764 -3 4750 -2 4751 4750 4763 -3 4764 4751 4764 4750 4763 -2 4764 -3 4750 4751 4763 4750 4751 4750 -3 4763 4750 4763 4751 4763 4750 4764 4750 4763 4751 4765 -6 0 4775 4740 -3 4750 4752 4791 -4 0 4775 4771 -4 4750 4753 4733 -6 0 4775 4740 4763 4750 4764 4750 4751 -2 4750 4764 4763 -3 4750 4752 4791 -13 0 4749 4751 4763 -2 4764 -3 4750 4751 4763 4751 4756 4757 4774 4811 -8 0 4810 4773 4760 -3 4751 4763 4750 4764 4751 4763 4751 -4 4750 4751 4764 -2 4750 4764 4763 4750 4764 4751 4750 4764 4763 4764 4763 -2 4764 4750 4751 4750 -2 4763 4751 4750 4751 4763 4751 4750 4764 4751 4764 4750 4763 4764 4750 4751 4764 4750 4764 4751 -3 4750 -2 4751 -2 4750 4751 4750 4751 4764 4763 4750 4764 4750 4763 4764 4763 4750 4764 -3 4751 4764 4750 4764 4763 -5 4750 4763 4750 4763 4750 4763 4750 4751 4752 4782 -5 0 4781 4790 4749 4763 -2 4751 4764 4763 4764 -2 4751 -2 4750 -2 4763 4751 4763 4751 -3 4750 4763 4752 4791 -6 0 4749 -3 4764 -2 4763 4764 -2 4750 4763 4750 4764 4765 -7 0 4775 4740 4751 4750 4751 -3 4750 -2 4751 -3 4750 4764 -3 4750 4763 4750 4751 -2 4763 -2 4751 4750 4764 4763 -2 4751 -2 4750 4751 4763 4750 4764 -2 4763 4750 -2 4763 4764 -2 4751 4763 4751 4765 -6 0 4788 4749 4764 4763 4751 4765 -5 0 4788 4784 -3 4750 -2 4764 4746 4726 -5 0 4788 4762 4751 4763 4751 4763 -3 4750 4764 4750 -2 4763 4750 4765 -14 0 4762 4750 4764 4750 4764 4750 4763 4750 4763 4751 4761 4769 4770 4787 -10 0 4786 4773 4754 4755 4751 -2 4750 -2 4763 4751 4764 4750 4764 4750 4763 4764 4763 4751 4750 4763 4750 4751 4763 4764 4750 4751 4764 4751 4764 4763 -2 4750 4763 -2 4750 4763 -4 4750 4751 4764 4750 -9 4751 4764 4750 4763 -2 4750 -2 4751 -3 4750 -2 4764 4750 4763 4764 -2 4751 -2 4750 4763 4764 4763 -2 4750 4764 -3 4750 4763 -4 4750 4764 4751 4750 4751 4750 -2 4751 4766 4778 -8 0 4762 4751 -2 4750 -2 4764 4750 4764 4750 4764 4750 4763 4750 4764 -2 4751 4750 4763 4764 4763 4765 -7 0 4762 4763 -2 4750 4763 4750 4751 4750 4763 -3 4751 4752 -7 0 4788 4749 -7 4750 4763 4764 4763 -3 4750 4764 4751 -3 4763 -2 4750 4763 4750 4751 4750 4751 4764 4751 4750 4764 -2 4763 4764 4750 4764 -2 4763 4750 -2 4764 -3 4750 4764 4765 -7 0 4762 -2 4763 4750 4752 -6 0 4797 4740 -4 4750 4759 4739 -6 0 4775 4740 -2 4763 4764 -2 4751 4764 4763 4750 4763 4764 4763 4765 -14 0 4749 4750 4764 4763 4751 -2 4750 -2 4764 4766 4774 4782 -13 0 4786 4767 4768 4771 4750 -2 4751 -4 4750 -3 4751 4750 4763 4750 -2 4751 -2 4763 -4 4751 4764 4750 4764 -2 4750 4764 4750 4764 4751 -2 4764 4751 4750 4751 -3 4763 4751 4750 4764 4751 4750 4764 4751 -5 4750 4764 -3 4751 4763 -2 4751 4763 -2 4751 4750 4764 4751 4750 -2 4763 -2 4750 4764 -2 4750 4763 -2 4764 4763 4750 4751 -2 4763 4751 4750 4764 4750 4764 4750 4764 4751 4752 4791 -8 0 4775 4740 4751 4764 4751 4763 -2 4750 4751 4750 -2 4763 -2 4750 4764 -2 4750 4764 4750 4766 4778 -7 0 4749 4751 4750 4763 4751 4750 -3 4764 4750 4751 4750 4765 -8 0 4762 4763 4750 4763 4750 4763 4751 4764 4750 4763 -2 4750 4764 4751 -3 4763 4750 4764 4750 4751 -2 4764 -2 4750 -2 4751 4764 4750 4763 4750 -3 4764 4750 4764 4763 4764 4751 4750 4751 -2 4750 4751 4765 -7 0 4762 4750 4764 4750 4765 -6 0 4810 4749 -5 4750 4752 -6 0 4788 4775 4740 4750 4763 4751 4763 -2 4750 4763 4751 4764 4766 4778 -14 0 4762 -2 4763 4764 -3 4750 4751 4764 4752 4787 -16 0 4781 4784 -2 4763 -3 4750 4764 -2 4750 4764 4750 4763 -2 4764 4763 4751 4750 4764 4751 4750 4764 4751 4764 4763 -2 4750 4751 4763 4751 4764 4750 4764 4751 4764 -2 4750 4764 4751 4750 4763 -2 4750 4763 -2 4750 4763 4750 4764 4751 -2 4750 4751 4764 -4 4751 4763 4764 -2 4750 4763 4751 4763 -3 4751 4764 4763 4750 4751 4750 4764 -2 4750 4763 4750 -3 4751 -2 4750 4763 4750 4763 4750 4763 4766 4778 -9 0 4788 4749 4751 4750 4764 4750 -2 4763 4750 4751 -2 4750 4764 -2 4750 4763 4764 4750 4766 4778 4791 -7 0 4762 -6 4750 4763 4750 4763 4766 4777 4778 -8 0 4749 4750 4751 4750 4751 4750 -2 4763 4750 4763 4751 4750 -2 4763 4751 4750 4763 -5 4750 -2 4764 4763 4751 -3 4750 4751 4764 -2 4750 -2 4764 -2 4750 4764 4750 -2 4764 -3 4750 4765 -7 0 4749 4763 4751 4764 4752 -7 0 4762 -5 4751 4765 -7 0 4788 4749 4763 -2 4750 4751 -2 4750 -2 4764 4751 4752 4791 -14 0 4749 4764 4751 4764 4751 4764 4751 4750 4763 4765 -18 0 4797 4740 -2 4764 4763 -3 4750 4764 -4 4750 4763 4750 4763 4750 4751 4763 4750 4751 4763 4751 -2 4750 4763 4764 4751 -2 4764 -2 4751 -3 4750 4764 4750 4751 -2 4764 -6 4750 4751 4763 4750 4763 -9 4751 4763 4750 -14 4751 4750 4751 -3 4764 4751 4750 4764 4751 4764 4751 4764 4752 4791 -10 0 4775 4740 -2 4763 4750 4764 4750 4764 -4 4750 4764 4750 4764 -2 4750 4752 4791 -8 0 4749 4750 4763 4750 4751 4764 4751 -3 4750 4752 4790 4791 -8 0 4762 4763 4751 4763 4751 -2 4764 4751 4763 4751 -4 4750 4751 -3 4764 4763 4751 4750 4763 4750 4763 4750 4763 4750 4764 -3 4763 4764 -2 4750 4764 4750 4751 -2 4750 -2 4763 4764 4751 4763 4765 -7 0 4762 4764 4751 4764 4765 -7 0 4749 -4 4750 4751 4752 -8 0 4762 4763 4750 4751 4764 4763 4750 4764 4750 4764 4765 -15 0 4762 4750 4764 -2 4763 4751 -2 4750 4751 4765 -18 0 4810 4749 4750 4764 -2 4750 4764 4751 4763 4751 4750 4764 4751 4763 4764 -7 4750)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 100)
+      (name "tm1")
+      (width 280)
+      (height 70)
+      (tiles -3414 0 -4 62 -861 0 -3 62 -3390 0 62 -279 0 62 -279 0 62 -279 0 62 -1650 0 -5 62 -1159 0 -4 62 -2271 0 62 -279 0 62 -53 0 62 -225 0 62 -279 0 62 -41 0 62 -409 0 -5 62 -285 0 62 -279 0 62 -279 0 62 -279 0 62 -3575 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos -50)
+      (name "bgs")
+      (width 280)
+      (height 70)
+      (tiles -1200 0 2048 -279 0 2048 -250 0 27 28 29 -5 0 27 -2 28 29 -17 0 2048 -251 0 128 -5 0 27 29 -2 0 27 29 -16 0 2048 -7 0 3176 -253 0 27 29 -16 0 2048 -7 0 3177 3172 -253 0 27 29 -15 0 2048 -8 0 3177 3182 27 -7 28 29 -243 0 -2 211 -15 0 2048 -234 0 27 29 -26 0 213 212 0 3176 -13 0 2048 -234 0 27 -3 28 29 -4 0 27 28 29 -4 0 27 28 29 -4 0 27 -4 28 29 213 0 3176 -13 0 2048 -234 0 27 29 -26 0 3177 -2 3182 3178 -13 0 2048 -32 0 3176 -246 0 2048 -32 0 3176 -246 0 2048 -32 0 3176 -203 0 5400 -42 0 2048 -2 0 -2 5401 -28 0 3176 -203 0 5404 5400 -41 0 2048 -2 0 -2 5405 -233 0 5404 5400 -40 0 2048 -11 0 27 -4 28 29 -221 0 5404 -5 5400 -3 0 27 28 29 -29 0 2048 -239 0 -5 5404 -3 5400 0 3176 27 28 29 -27 0 2048 -244 0 -3 5404 -4 0 27 -5 28 29 -21 0 2048 -279 0 2048 0 -3 5400 -271 0 -3 5400 0 2048 0 27 -3 28 29 -267 0 27 -3 28 29 0 2048 0 27 -3 28 29 -267 0 27 -3 28 29 0 2048 -275 0 -3 5405 0 2048 -29 0 211 27 28 29 -5 0 27 29 47 -22 0 211 27 29 211 -212 0 2048 -29 0 212 -10 0 211 -22 0 212 -2 0 212 -212 0 2048 -29 0 212 -10 0 212 -19 0 27 28 29 212 -2 0 212 27 28 29 -209 0 2048 -4 0 2048 -24 0 212 -10 0 212 -18 0 -2 3182 3178 0 213 -2 0 213 -212 0 2048 -4 0 2048 -24 0 212 -10 0 212 3176 -27 0 27 29 -208 0 2048 -4 0 2048 -24 0 213 27 28 29 -5 0 27 29 213 3178 -26 0 27 -2 28 29 -207 0 2049 -4 0 2048 -52 0 47 -10 0 3176 -215 0 2048 -63 0 3177 3172 -214 0 2048 -64 0 3177 3182 -206 0 -2 5400 47 -4 0 2048 -2 0 27 -5 28 29 -259 0 27 -7 28 29 -2 0 2048 -2 0 27 -5 28 29 -149 0 211 -109 0 27 -4 28 29 -5 0 2049 -3 0 3177 3172 -153 0 212 -125 0 3177 3182 -39 0 27 -2 28 29 -104 0 -5 3182 212 -148 0 27 -5 28 29 -11 0 211 -2 0 211 -109 0 212 211 -165 0 212 -2 0 212 -10 0 27 -6 28 -73 0 211 -6 0 211 -11 0 -2 212 -9 0 211 -98 0 27 -7 28 29 -5 0 27 -3 28 29 -38 0 212 -2 0 212 -5 5400 -8 0 212 -76 0 212 211 -5 0 212 3176 -10 0 213 212 -8 0 211 212 -98 0 27 -7 28 29 -5 0 27 -3 28 29 -38 0 212 -2 0 212 27 -3 28 29 -8 5400 212 -76 0 -2 212 -4 0 211 212 3176 -11 0 212 -8 0 -2 212 -104 0 3176 -50 0 212 -2 0 212 -4 0 211 27 -6 28 29 212 -13 0 211 -25 0 211 -36 0 -2 212 -4 0 -2 212 3178 -11 0 212 -8 0 -2 212 -77 0 79 -23 0 -3 3182 3178 -50 0 212 -2 0 212 -4 0 212 -4 0 3176 -3 0 213 -4 0 3171 3178 -6 0 211 213 211 -7 0 27 -2 28 29 0 27 29 -3 0 27 29 0 27 -2 28 29 213 -4 0 211 0 3176 -29 0 213 212 -4 0 212 213 -12 0 212 -8 0 212 213 -65 0 3176 -11 0 79 -77 0 212 -2 0 213 -4 0 212 -4 0 3177 -2 3182 27 -2 28 29 -2 3182 3178 -4 0 3176 -2 0 212 0 212 27 -6 28 29 -2 0 27 -2 28 29 -3 0 27 -4 28 29 211 -5 0 212 0 3176 -30 0 212 -4 0 212 -8 0 2067 -2 2068 2069 0 212 -8 0 212 -66 0 3176 -11 0 79 -5 0 79 -71 0 213 27 -5 28 29 213 -18 0 3177 3172 0 212 0 212 0 3171 3178 -19 0 47 212 -5 0 212 3171 3178 -30 0 212 -4 0 212 -8 0 2072 -2 2073 2074 0 212 -8 0 212 -66 0 3176 -11 0 79 -5 0 79 -99 0 3177 3182 213 3182 213 3182 3178 -21 0 213 27 -3 28 29 213 3178 -31 0 213 27 -2 28 29 213 -4 0 2067 2068 2069 0 2062 2051 2050 2064 0 213 27 -6 28 29 213 -43 0 3182 47 -5 0 47 -2 3182 -13 0 3176 -11 0 79 -5 0 79 -9 0 3176 -5 0 211 -160 0 2072 2073 2074 -2 0 2057 2059 -77 0 3171 3178 -11 0 79 -5 0 79 -9 0 3176 -5 0 212 -160 0 2062 2051 2059 0 2052 2056 2059 -58 0 83 0 83 -13 0 -3 3182 3178 -12 0 79 -5 0 79 -9 0 3176 -5 0 213 27 -2 28 29 -3 0 80 -3 0 80 -97 0 5199 5200 -50 0 2057 2055 2053 2056 2061 2059 -90 0 79 -5 0 79 -8 0 3171 3178 -9 0 27 -2 28 29 1348 -3 0 1348 27 -2 28 29 -48 0 2067 -2 2068 2069 -41 0 5201 5202 -50 0 2062 2051 -2 2061 2050 2064 -90 0 1349 -5 0 1349 -6 0 -2 3182 3178 -14 0 79 -3 0 79 -52 0 2072 -2 2073 2074 -18 0 -2 211 -23 0 27 -7 28 29 -42 0 2057 2061 2058 2059 -32 0 4214 -3 4215 -22 0 80 -3 0 80 -58 0 79 -3 0 79 -52 0 2062 2051 2050 2064 -18 0 -2 212 -74 0 2062 2051 2058 2059 -32 0 4214 -3 4215 -22 0 1348 -3 0 1348 -58 0 79 -3 0 79 -52 0 2052 2056 2059 -19 0 -2 213 27 -8 28 29 3172 -62 0 2052 2053 2056 2058 2055 2054 -31 0 4214 -3 4215 -22 0 79 -3 0 79 -58 0 79 -3 0 79 -52 0 2057 2050 2064 -30 0 3182 3178 -62 0 -3 2061 2058 2061 2059 -31 0 4214 -3 4215 -22 0 79 -3 0 79 -58 0 79 -3 0 79 -50 0 2052 2053 2056 2059 -37 0 47 -57 0 -5 2061 2055 2054 -56 0 79 -3 0 79 -18 0 1348 -5 0 1348 -33 0 79 -3 0 79 -8 0 2067 2068 2069 -40 0 -2 2058 2055 2054 -70 0 -4 5400 -23 0 -3 2061 2055 2054 -55 0 79 -3 0 79 -18 0 79 -5 0 79 -33 0 79 -3 0 79 -8 0 2072 2073 2074 -24 0 27 -2 28 29 -12 0 -3 2058 2055 2053 2054 -68 0 -4 5404 5400 -82 0 79 -3 0 79 -18 0 79 -5 0 79 -33 0 79 -3 0 79 -7 0 2052 2056 2050 2064 -27 0 27 -4 28 29 -15 0 27 -2 28 29 -66 0 5404 -82 0 79 -3 0 79 -31 0 47 -26 0 79 -3 0 79 -7 0 2057 2050 2064 -28 0 47 -3 0 47 -72 0 -2 5400 -95 0 79 -3 0 79 -58 0 79 -3 0 79 -6 0 2052 2056 2055 2054 -102 0 47 0 -3 5404 0 -3 5400 -91 0 1348 -3 0 1348 -58 0 79 -3 0 79 -118 0 -3 5404 -2031 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -75)
+      (width 280)
+      (height 70)
+      (tiles -1199 0 4946 4947 4948 -277 0 4951 4952 4953 -277 0 4956 4957 -244 0 1348 -2 0 4946 4947 4948 -35 0 4954 4955 -233 0 4954 4955 -2 0 79 -2 0 4951 4952 4953 -8 0 1348 -27 0 4960 -234 0 4960 -2 0 79 -2 0 4956 4957 -9 0 79 -31 0 -9 3182 -225 0 79 -13 0 79 -32 0 1348 -4 0 1348 -2 0 4946 4947 4948 -222 0 1349 -13 0 1349 -32 0 79 -4 0 79 -2 0 4951 4952 4953 -269 0 79 -4 0 79 -2 0 4956 4957 -216 0 1348 -13 0 1348 -7 0 1348 -14 0 4936 4937 4938 -14 0 79 -4 0 79 -220 0 79 -13 0 79 -7 0 79 -14 0 4943 4944 4945 -7 0 2619 -6 0 79 -4 0 79 -17 0 4954 4955 -201 0 79 -13 0 79 -7 0 79 -31 0 79 -4 0 79 -18 0 4960 -201 0 79 -13 0 79 -7 0 79 -2 0 4919 -28 0 79 -4 0 79 -220 0 1349 -13 0 79 -7 0 79 0 4925 4926 4927 4928 -26 0 1349 -4 0 1349 -10 0 4919 -223 0 79 -7 0 79 0 4932 4933 4934 4935 -36 0 2613 2614 -3 0 4925 4926 4927 4928 -2 0 1348 -207 0 -2 79 -9 0 1349 -2 0 5199 5200 -3 0 79 0 4939 4940 4941 4942 -41 0 4932 4933 4934 4935 -2 0 79 -211 0 2611 2612 0 1348 -6 0 5201 5202 -3 0 1349 -46 0 4939 4940 4941 4942 -2 0 79 -279 0 1349 80 -3 0 80 -274 0 1349 1348 -3 0 1348 -243 0 -3 5404 -29 0 79 -3 0 79 -237 0 -3 5404 -5 0 1348 -29 0 79 -3 0 79 -237 0 -3 5401 -5 0 79 -29 0 79 -3 0 79 -237 0 1348 -7 0 2151 1718 -28 0 79 -3 0 79 -237 0 79 -37 0 79 -3 0 79 -236 0 1720 2152 -37 0 79 -3 0 79 -275 0 79 -3 0 79 -14 0 4946 4947 4948 -258 0 79 -3 0 79 -14 0 4951 4952 4953 -8 0 1348 -2 0 1348 -246 0 79 -3 0 79 -14 0 4956 4957 -9 0 79 -2 0 79 -246 0 79 -3 0 79 -25 0 79 -2 0 79 -246 0 79 -3 0 79 -19 0 1348 -5 0 79 -2 0 79 -246 0 79 -3 0 79 -19 0 79 -5 0 79 -2 0 79 -246 0 79 -3 0 79 -19 0 79 -5 0 79 -2 0 79 -210 0 -2 5404 -34 0 79 -3 0 79 0 122 123 -2 0 122 123 -11 0 3023 3003 -5 0 79 -2 0 79 -214 0 1348 -5 0 1348 -25 0 79 -3 0 79 0 1345 1344 0 2620 1345 1344 -11 0 3000 3028 -5 0 79 -2 0 79 -214 0 79 -5 0 79 -25 0 1349 -3 0 1349 -18 0 79 -6 0 79 -2 0 79 -30 0 4954 4955 -182 0 79 -5 0 79 -48 0 79 -6 0 79 -2 0 79 -31 0 4960 -31 0 4954 4955 -149 0 1349 -5 0 1349 -48 0 79 -6 0 79 -2 0 79 -64 0 4960 -6 0 4946 4947 4948 -14 0 4954 4955 -21 0 4946 4947 4948 -155 0 1349 -6 0 79 -2 0 79 -52 0 4946 4947 4948 -16 0 4951 4952 4953 -15 0 4960 -21 0 4951 4952 4953 -153 0 -5 5404 -4 0 1349 -2 0 1349 -52 0 4951 4952 4953 -16 0 4956 4957 -38 0 4956 4957 -9 0 211 0 211 -88 0 1348 -7 0 1348 -50 0 -8 5404 -52 0 4956 4957 -68 0 212 0 212 0 211 -55 0 4954 4955 -29 0 79 -7 0 79 -65 0 4954 4955 -113 0 212 0 212 0 212 0 211 -46 0 4946 4947 4948 -5 0 4960 -29 0 79 -7 0 79 -66 0 4960 -113 0 212 0 212 0 212 0 212 -46 0 4951 4952 4953 -35 0 79 -7 0 79 -57 0 1348 -2 0 1348 -16 0 1348 -2 0 1348 -4 0 1348 -94 0 212 0 212 0 212 0 212 -46 0 4956 4957 -36 0 79 -7 0 79 -48 0 1717 1720 -7 1719 2152 -2 0 2151 -7 1719 1718 1721 -7 0 79 -2 0 79 -4 0 79 -94 0 212 0 212 0 212 0 212 -75 0 4954 4955 -7 0 79 -7 0 79 -77 0 2151 -2 1719 2002 -4 0 79 -50 0 1348 -4 0 1348 -14 0 1348 -6 0 1348 -16 0 212 0 213 0 213 0 213 -76 0 4960 -7 0 79 -7 0 79 -58 0 -2 80 -20 0 2003 -4 1719 2152 -50 0 79 -4 0 79 0 4919 -12 0 79 -6 0 79 -2 0 130 -13 0 213 27 -5 28 29 -83 0 1349 -7 0 1349 -58 0 -2 1348 -20 0 79 -25 0 4936 4937 4938 -27 0 79 4129 4130 4131 4132 79 4925 4926 4927 4928 -10 0 79 -6 0 79 -2 0 129 -16 0 47 0 47 -152 0 -2 79 -11 0 2620 -8 0 79 -15 0 2620 -9 0 4943 4944 4945 -27 0 1349 4133 4134 4135 4136 1349 4932 4933 4934 4935 -10 0 79 -6 0 79 -2 0 129 -15 0 27 -4 28 29 -40 0 4954 4955 -80 0 4946 4947 4948 -12 0 4919 -12 0 -2 79 -20 0 79 -61 0 4939 4940 4941 4942 -10 0 79 -6 0 79 -2 0 129 -17 0 211 -13 0 4946 4947 4948 -28 0 4960 -80 0 4951 4952 4953 -11 0 4925 4926 4927 4928 -10 0 -2 79 -12 0 5406 -7 0 1349 -75 0 79 -6 0 79 -2 0 129 -11 0 4919 -5 0 212 -13 0 4951 4952 4953 -87 0 4946 4947 4948 -19 0 4956 4957 -12 0 4932 4933 4934 4935 -10 0 -2 79 -23 0 3171 -72 0 79 -6 0 79 -2 0 129 -10 0 4925 4926 4927 4928 -3 0 212 -13 0 4956 4957 -88 0 4951 4952 4953 -33 0 4939 4940 4941 4942 -10 0 -2 79 -96 0 79 -6 0 79 -2 0 129 -10 0 4932 4933 4934 4935 -2 0 2619 213 -57 0 4919 -45 0 4956 4957 -48 0 -2 79 -30 0 4936 4937 4938 -63 0 79 -6 0 79 -2 0 129 -2 0 4936 4937 4938 -3 0 2611 2612 4939 4940 4941 4942 -60 0 4925 4926 4927 4928 -42 0 2619 -46 0 4936 4937 4938 0 -2 79 -30 0 4943 4944 4945 -62 0 2620 1349 -6 0 1349 2619 0 4967 -2 0 4943 4944 4945 -69 0 4932 4933 4934 4935 -4 0 4936 4937 4938 -18 0 4919 -61 0 2613 2614 4943 4944 4945 0 -2 1348 -131 0 4936 4937 4938 -24 0 4919 -22 0 4939 4940 4941 4942 -4 0 4943 4944 4945 -6 0 2619 -10 0 4925 4926 4927 4928 -198 0 4943 4944 4945 -7 0 4936 4937 4938 -3 0 122 123 -7 0 122 4925 4926 4927 4928 -6 0 2620 -41 0 4932 4933 4934 4935 -8 0 4936 4937 4938 -194 0 2611 2612 0 4943 4944 4945 -3 0 124 125 -7 0 124 4932 4933 4934 4935 -46 0 2620 0 4939 4940 4941 4942 -8 0 4943 4944 4945 -203 0 1345 1344 -7 0 1345 4939 4940 4941 4942 -2209 0)
+    )
+    (tilemap
+      (solid #f)
+      (tint 0.8 0.8 0.8)
+      (z-pos -200)
+      (name "bgcrys")
+      (width 280)
+      (height 70)
+      (tiles -917 0 4894 4895 4896 0 4894 4895 4896 -273 0 4900 4901 4915 4895 4909 4901 4902 -273 0 4894 4895 4909 4901 4915 4895 4896 -271 0 4894 4895 4909 4901 4897 4898 4899 4901 4915 4895 4909 -248 0 4894 4895 4896 -16 0 4894 4895 4909 4901 4915 4895 4903 4904 4905 4895 4909 4901 4915 4895 4896 -246 0 4900 4901 4902 -16 0 4900 4901 4915 4895 4909 4901 4897 4898 4899 4901 4902 0 4900 4901 4902 -265 0 4894 4895 4909 4901 4915 4895 4903 4904 4905 4895 4896 -8 0 4894 4895 4896 -258 0 4900 4901 4897 4898 4899 4901 4915 4895 4909 4901 4915 4895 4896 0 4894 4895 4896 -2 0 4900 4901 4902 -9 0 4894 4895 4896 -246 0 4894 4895 4903 4904 4905 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4902 -12 0 4894 4895 4909 4901 4915 4895 4896 -244 0 4900 4901 4915 4895 4909 4901 4902 0 4900 4901 4915 4895 4909 4901 4902 -14 0 4900 4901 4902 0 4900 4901 4915 4895 4896 -242 0 4894 4895 4909 4901 4902 -5 0 4900 4901 4915 4895 4896 -18 0 4894 4895 4909 4901 4915 4895 4896 0 4894 4895 4896 -234 0 4894 4895 4909 4901 4902 4895 4896 -5 0 4894 4895 4909 4901 4915 4895 4896 -16 0 4900 4901 4902 0 4900 4901 4915 4895 4909 4901 4915 4895 4896 -197 0 4894 4895 4896 -32 0 4900 4901 4902 0 4900 4901 4902 -5 0 4900 4901 4902 4895 4909 4901 4902 -20 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 -197 0 4900 4901 4902 -48 0 4894 4895 4896 -4 0 4894 4895 4896 -13 0 4900 4901 4902 0 4900 4901 4915 4895 4909 -227 0 4894 4895 4896 -6 0 4894 4895 4896 -5 0 4894 4895 4896 0 4900 4901 4902 -2 0 4894 4895 4909 4901 4902 -19 0 4900 4901 4915 4895 4896 -198 0 4894 4895 4896 -24 0 4900 4901 4902 -6 0 4900 4901 4915 4895 4896 0 4894 4895 4909 4901 4902 -6 0 4900 4901 4902 -9 0 4894 4895 4896 -9 0 4894 4895 4909 4901 4902 -198 0 4900 4901 4902 -17 0 4894 4895 4896 -15 0 4900 4901 4915 4895 4909 4901 4915 4895 4896 -18 0 4900 4901 4902 -9 0 4900 4901 4915 4895 4896 -218 0 4900 4901 4902 -15 0 4894 4895 4909 4901 4915 4895 4909 4901 4902 -24 0 4894 4895 4896 -3 0 4894 4895 4909 4901 4902 -234 0 4894 4895 4909 4901 -2 4902 4900 4901 4902 -26 0 4900 4901 4902 0 4894 4895 4909 4901 4915 4895 4896 -234 0 4900 4901 4902 -34 0 4894 4895 4909 4901 4897 4898 4899 4901 4902 -271 0 4900 4901 4915 4895 4903 4904 4905 4895 4896 -271 0 4894 4895 4909 4901 4915 4895 4909 4901 4902 -269 0 4894 4895 4900 4901 4915 4895 4909 4901 4915 4895 4896 -24 0 4894 4895 4896 -242 0 4900 4901 4902 4895 4909 4901 4902 0 4900 4901 4902 -22 0 4894 4895 4909 4901 4894 4895 4896 -205 0 4894 4895 4896 -34 0 4900 4901 4902 -26 0 4894 4895 4909 4901 4897 4898 4899 4901 4902 4895 4896 -203 0 4900 4901 4915 4895 4896 -4 0 4894 4895 4896 -25 0 4894 4895 4896 -24 0 4894 4895 4909 4901 4915 4895 4903 4904 4905 4895 4896 4901 4902 -203 0 4894 4895 4909 4901 4902 -4 0 4900 4901 4902 -25 0 4900 4901 4902 -24 0 4900 4901 4897 4898 4899 4901 4915 4895 4909 4901 4902 -205 0 4900 4901 4902 -6 0 4894 4895 4896 -52 0 4894 4895 4903 4904 4905 4895 4909 4901 4915 4895 4896 -205 0 4894 4895 4896 -6 0 4900 4901 4915 4895 -2 4896 -49 0 4900 4901 4915 4895 4909 4901 4902 0 4900 4901 4902 -205 0 4900 4901 4915 4895 4896 -4 0 4894 4895 4909 4901 -2 4902 -27 0 4894 4895 4896 -15 0 4894 4895 4896 -3 0 4900 4901 4902 -211 0 4894 4895 4909 4901 4902 -4 0 4900 4901 4915 4895 4896 -26 0 4894 4895 4909 4901 4902 -15 0 4900 4901 4902 -3 0 4894 4895 4896 -211 0 4900 4901 4902 -8 0 4900 4901 4902 -24 0 4894 4895 4909 4901 4915 4895 4896 -21 0 4900 4901 4902 -249 0 4900 4901 4897 4898 4899 4901 4915 4895 4896 -19 0 4894 4895 4896 -5 0 4894 4895 4896 -241 0 4894 4895 4903 4904 4905 4895 4909 4901 4915 4895 4896 -7 0 4894 4895 4896 0 4894 4895 4896 0 4894 4895 4909 4901 4902 -5 0 4900 4901 4902 -204 0 4894 4895 4896 -34 0 4900 4901 4897 4898 4899 4901 4915 4895 4909 4901 4915 4895 4896 -5 0 4900 4901 4902 0 4900 4901 4902 0 4900 4901 4915 4895 4896 0 4894 4895 4896 0 4894 4895 4896 -204 0 4900 4901 4915 4895 4896 -9 0 4894 4895 4896 -20 0 4894 4895 4903 4904 4905 4895 4909 -3 0 4900 4901 4902 -9 0 4894 4895 4896 -3 0 4900 4901 4915 4895 4909 4901 4902 0 4900 4901 4902 -62 0 4894 4895 4896 -139 0 4894 4895 4909 4901 4915 4895 4896 -5 0 4894 4895 4909 4901 4902 -20 0 4900 4901 4902 0 4900 4901 4902 -13 0 4894 4895 4909 4901 4915 4895 4896 0 4894 4895 4909 4901 4915 4895 4896 0 4894 4895 4896 -52 0 4894 4895 4896 -5 0 4894 4895 4909 4901 4915 4895 4909 -137 0 4900 4901 4915 4895 4909 4901 4902 -5 0 4900 4901 4915 4895 4896 -38 0 4894 4895 4909 4901 4897 4898 4899 4901 4915 4895 4909 4901 4897 4898 4899 4901 4915 4895 4909 4901 4915 4895 4896 -44 0 4894 4895 4896 0 4894 4895 4909 4901 4902 -5 0 4900 4901 4897 4898 4899 4901 4915 4895 4896 0 4894 4895 4896 -36 0 4894 4895 4909 -92 0 4894 4895 4896 4901 4902 -7 0 4894 4895 4909 4901 4902 -38 0 4900 4901 4915 4895 4903 4904 4905 4895 4909 4901 4897 4898 4914 4904 4908 4898 4899 4901 4894 4895 4909 4901 4902 -42 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 0 4894 4895 4896 0 4894 4895 4903 4904 4908 4898 4899 4901 4915 4895 4909 4901 4915 4895 4896 -9 0 4894 4895 4896 -16 0 4894 4895 4896 0 4894 4895 4909 4901 4915 4895 4896 -90 0 4900 4901 4915 4895 4896 -7 0 4900 4901 4902 4895 4896 -40 0 4900 4901 4915 4895 4909 4901 4915 4895 4903 4904 4905 4895 4903 4904 4905 4895 4909 4901 4902 -44 0 4909 4901 4897 4898 4899 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4897 4898 4914 4904 4905 4895 4909 4901 4915 4895 4909 4901 4902 -7 0 4894 4895 4909 4901 4915 4895 4896 -12 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 0 4894 4895 4896 -52 0 4894 4895 4896 0 4894 4895 4896 0 4894 4895 4896 -21 0 4894 4895 4909 4901 4902 -7 0 4894 4895 4909 4901 4915 4895 4896 -40 0 4900 4901 4902 0 4900 4901 4902 0 4900 4901 4902 0 4900 4901 4902 -46 0 4894 4895 4903 4904 4905 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4903 4904 4905 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 -7 0 4900 4901 4897 4898 4899 4901 4902 -12 0 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 -48 0 4894 4895 4896 4901 4902 4895 4909 4901 4915 4895 4909 4901 4902 4895 4896 -17 0 4894 4895 4896 4901 4902 -9 0 4900 4901 4915 4895 4909 4901 4915 4895 4896 -29 0 4894 4895 4896 -65 0 4894 4895 4909 4901 4915 4895 4909 4901 4902 0 4900 4901 4902 0 4900 4901 4915 4895 4909 4901 4915 4895 4909 4901 4902 0 4900 4901 4902 0 4900 4901 4902 -7 0 4894 4895 4903 4904 4905 4895 4896 -12 0 4894 4895 4909 4901 4897 4898 4899 4901 4902 0 4900 4901 4902 0 4900 4901 4915 4895 4909 4901 4902 -46 0 4894 4895 4896 4901 4902 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 -15 0 4900 4901 4894 4895 4896 -11 0 4900 4901 4915 4895 4909 4901 4902 -29 0 4900 4901 4902 -39 0 4894 4895 4896 -23 0 4900 4901 4902 0 4900 4901 4902 -9 0 4900 4901 4902 0 4900 4901 4902 -7 0 4894 4895 4909 -5 0 4894 4895 4909 4901 4915 4895 4909 4901 4902 -12 0 4909 4901 4915 4895 4903 4904 4905 4895 4896 -7 0 4900 4901 4902 -46 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4902 0 4900 4901 4915 4895 4896 -15 0 4900 4901 4902 -13 0 4900 4901 4915 4895 4896 -28 0 4894 4895 4896 -40 0 4900 4901 4902 -13 0 4894 4895 4896 -37 0 4900 4901 4902 -5 0 4900 4901 4915 4895 4909 4901 4902 -7 0 4895 4896 -5 0 4897 4898 4899 4901 4915 4895 4909 4901 4902 -56 0 4900 4901 4902 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 0 4894 4895 4896 4901 4902 -12 0 4894 4895 4896 -16 0 4894 4895 4909 4901 4902 -28 0 4900 4901 4902 -14 0 4894 4895 4896 -8 0 4894 4895 4896 -22 0 4894 4895 4896 -3 0 4900 4901 4902 -47 0 4900 4901 4915 4895 4896 -7 0 4901 4894 4895 4909 0 4894 4895 4903 4904 4905 4895 4909 4901 4902 -58 0 4894 4895 4909 4901 4915 4895 4909 4901 4902 0 4900 4901 4902 0 4900 4901 4902 0 4900 4901 4915 4895 4896 4894 4895 4896 -7 0 4894 4895 4909 4901 4902 -14 0 4894 4895 4909 4901 4915 4895 4896 -43 0 4894 4895 4909 4901 4915 4895 4896 -4 0 4894 4895 4909 4901 4915 4895 4896 -20 0 4900 4901 4915 4895 4896 -51 0 4894 4895 4909 4901 4902 -6 0 4894 4895 4909 4901 4897 4898 4899 4901 4915 4895 4909 4901 4915 4895 4896 -48 0 4894 4895 4896 -7 0 4900 4901 4915 4895 4909 4901 4915 4895 4896 0 4894 4895 4896 -7 0 4900 4901 4915 4895 4896 4902 -7 0 4900 4901 4915 4895 4896 -14 0 4900 4901 4902 0 4900 4901 4902 -43 0 4900 4901 4897 4898 4899 4901 4902 -4 0 4900 4901 4897 4898 4899 4901 4902 -20 0 4894 4895 4909 4901 4902 -51 0 4900 4901 4915 4895 4896 -6 0 4900 4901 4915 4895 4903 4904 4905 4895 4909 4901 4902 0 4900 4901 4902 -20 0 4909 -25 0 4894 4895 4909 4901 4902 4895 4896 -5 0 4897 4898 4899 4901 4915 4895 4909 4901 4902 0 4900 4901 4902 -9 0 4900 4901 4902 -4 0 4894 4895 4896 0 4894 4895 4909 4901 4902 -64 0 4894 4895 4903 4904 4905 4895 4896 -4 0 4894 4895 4903 4904 4905 4895 4896 -18 0 4894 4895 4909 4901 4915 4895 4896 -40 0 4894 4895 4896 -4 0 4894 4895 4896 0 4894 4895 4909 4901 4915 4895 4896 -6 0 4900 4901 4915 4895 4909 4901 4902 -26 0 4915 4895 4909 4901 4894 4895 4896 -19 0 4900 4901 4897 4898 4899 4901 4897 4898 4899 0 4897 4898 4914 4904 4908 4898 4899 4901 4902 -20 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 0 4894 4895 4896 -58 0 4894 4895 4909 4901 4915 4895 4909 4901 4902 -4 0 4900 4901 4897 4898 4899 4901 4915 4895 4896 -10 0 4894 4895 4896 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 -4 0 4894 4895 4896 -17 0 4894 4895 4896 -9 0 4894 4895 4909 4901 4915 4895 4896 4894 4895 4900 4901 4915 4895 4909 4901 4897 4898 4899 4901 4902 -8 0 4900 4901 4902 -28 0 4909 4901 4915 4895 4909 4901 4902 -19 0 4894 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -20 0 4900 4901 4902 0 4900 4901 4897 4898 4899 4901 4915 4895 4909 4901 4902 -45 0 4894 4895 4896 -10 0 4900 4901 4915 4895 4909 4901 4902 -2 0 4894 4895 4896 0 4894 4895 4903 4904 4905 4895 4909 4901 4902 -4 0 4894 4895 4896 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 -2 0 4900 4901 4902 -5 0 4894 4895 4896 -7 0 4894 4895 4909 4901 4915 4895 4896 0 4894 4895 4896 0 4894 4895 4909 4901 4915 4895 4909 4901 4902 4900 4901 4902 0 4900 4901 4902 4895 4903 4904 4905 4895 4896 -39 0 4897 4898 4899 4901 4902 -21 0 4900 4901 4915 4895 4903 4904 4905 4895 4903 4904 4905 4895 4903 4904 4908 4898 4899 4901 4902 -24 0 4894 4895 4903 4904 4905 4895 4909 4901 4902 -14 0 4894 4895 4896 0 4894 4895 4896 -26 0 4900 4901 4915 4895 4896 -8 0 4894 4895 4909 4901 4915 4895 4896 -2 0 4900 4901 4915 4895 4909 4901 4897 4898 4899 4901 4915 4895 4896 -2 0 4894 4895 4909 4901 4915 4895 4909 4901 4897 4898 4899 4901 4915 4895 4909 4901 4902 0 4900 4901 4915 4895 4909 4901 4902 -10 0 4900 4901 4902 -7 0 4900 4901 4897 4898 4899 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4902 -8 0 4900 4901 4897 4898 4899 4901 4902 -39 0 4903 4904 4905 4895 4896 -23 0 4900 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4903 4904 4905 4895 4896 -22 0 4894 4895 4909 4901 4915 4895 4909 4901 4902 -14 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 -24 0 4894 4895 4909 4901 4902 -3 0 4894 4895 4896 4894 4895 4909 4901 4915 4895 4909 4901 4902 -2 0 4894 4895 4909 4901 4915 4895 4903 4904 4905 4895 4909 4901 4902 -2 0 4900 4901 4902 0 4900 4901 4902 0 4903 4904 4905 4895 4909 4901 4915 4895 4896 -3 0 4900 4901 4902 -11 0 4894 4895 4896 -4 0 4894 4895 4896 0 4894 4895 4903 4904 4905 4895 4909 4901 4897 4898 4899 4901 4915 4895 4909 4901 4897 4898 4899 -10 0 4903 4904 4905 4895 4896 -27 0 4894 4895 4896 -9 0 4915 4895 4909 4901 4915 4895 4896 -23 0 4900 4901 4902 0 4900 4901 4902 0 4900 4901 4897 4898 4899 4901 4915 4895 4896 -20 0 4900 4901 4915 4895 4909 4901 4902 -14 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4902 -22 0 4894 4895 4909 4901 4915 4895 4896 0 4894 4895 4900 4901 4902 4900 4901 4915 4895 4909 4901 4902 -4 0 4900 4901 4915 4895 4909 4901 4915 4895 4909 4901 4902 -14 0 4900 4901 4902 0 4900 4901 4902 -17 0 4900 4901 4902 -2 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4903 4904 4905 4895 4909 4901 4915 4895 4903 4904 4905 4895 4896 -8 0 4903 4904 4900 4901 4915 4895 4896 -20 0 4894 4895 4896 -2 0 4900 4901 4915 4895 4896 -7 0 4909 4901 4915 4895 4909 4901 4902 -31 0 4894 4895 4903 4904 4908 4898 4899 4901 4902 -20 0 4894 4895 4909 4901 4915 4895 4896 -14 0 4900 4901 4915 4895 4909 4901 4915 4895 4909 4901 4902 -24 0 4900 4901 4897 4898 4899 4901 4915 4895 4896 4901 4902 -4 0 4900 4901 4915 4895 4896 -4 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 -29 0 4894 4895 4896 -13 0 4900 4901 4897 4898 4899 4901 4915 4895 4909 4901 4915 4895 4909 4901 4897 4898 4899 4901 4897 4898 4899 4901 4915 4895 4909 4901 4902 -10 0 4894 4895 4909 4901 4915 4895 4896 -16 0 4894 4895 4909 4901 4902 -2 0 4894 4895 4909 4901 4902 -7 0 4915 4895 4909 4901 4915 4895 4896 -31 0 4900 4901 4915 4895 4903 4904 4905 4895 4896 -18 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 -12 0 4894 4895 4909 4901 4897 4898 4899 4901 4902 -26 0 4894 4895 4903 4904 4908 4898 4899 4901 4902 -8 0 4900 4901 4915 4895 4896 -2 0 4900 4901 4902 0 4900 4901 4915 4895 4896 -29 0 4900 4901 4902 -5 0 4894 4895 4896 0 4894 4895 4896 0 4894 4895 4903 4904 4905 4895 4909 4901 4902 0 4900 4901 4915 4895 4903 4904 4905 4895 4903 4904 4905 4895 4909 4901 4915 4895 4896 -10 0 4900 4901 4894 4895 4909 4901 4902 -9 0 4894 4895 4896 -4 0 4900 4901 4915 4895 4896 -2 0 4900 4901 4902 -9 0 4909 4901 4897 4898 4899 4901 4915 4895 4896 -11 0 4894 4895 4896 -15 0 4894 4895 4909 4901 4897 4898 4899 4901 4915 4895 4896 -16 0 4900 4901 4902 0 4900 4901 4897 4898 4899 4901 4902 -10 0 4894 4895 4909 4901 4915 4895 4903 4904 4905 4895 4896 -24 0 4894 4895 4896 4901 4915 4895 4903 4904 4905 4895 4896 -8 0 4894 4895 4909 4901 4902 -2 0 4894 4895 4896 -3 0 4900 4901 4902 -15 0 4894 4895 4896 -19 0 4900 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 -3 0 4900 4901 4902 0 4909 4901 4915 4895 4909 4901 4902 0 4900 4901 4902 -12 0 4900 4901 4902 -11 0 4900 4901 4902 -6 0 4900 4901 4902 -14 0 4915 4895 4903 4904 4905 4895 4909 4901 4902 -11 0 4900 4901 4915 4895 4896 -13 0 4900 4901 4915 4895 4903 4904 4905 4895 4909 4901 4902 -20 0 4894 4895 4903 4904 4905 4895 4896 -10 0 4900 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 -22 0 4900 4901 4902 0 4900 4901 4897 4898 4899 4901 4915 4895 4896 -6 0 4900 4901 4902 -4 0 4900 4901 4902 -21 0 4900 4901 4902 -19 0 4894 4895 4909 4901 4915 4895 4909 4901 4897 4898 4899 4901 4902 0 4900 4901 4902 -7 0 4894 4895 4909 4901 4902 -3 0 4894 4895 4896 -52 0 4909 4901 4915 4895 4909 4901 4902 -13 0 4894 4895 4909 4901 4902 -13 0 4894 4895 4909 4901 4902 0 4900 4901 4902 -22 0 4909 4901 4897 4898 4899 4901 4915 4895 4896 -10 0 4900 4901 4915 4895 4909 4901 4915 4895 4909 4901 4902 -22 0 4894 4895 4896 0 4894 4895 4903 4904 4905 4895 4909 4901 4902 -40 0 4894 4895 4896 -5 0 4894 4895 4896 -8 0 4900 4901 4915 4895 4909 4901 4915 4895 4903 4904 4905 4895 4896 -11 0 4900 4901 4902 -5 0 4900 4901 4915 4895 4896 -52 0 4900 4901 4915 4895 4896 0 4894 4895 4896 -7 0 4894 4895 4909 4901 4915 4895 4896 0 4894 4895 4896 -9 0 4900 4901 4902 -28 0 4894 4895 4903 4904 4905 4895 4909 4901 4902 -10 0 4894 4895 4909 4901 4902 0 4900 4901 4915 4895 4896 -22 0 4900 4901 4902 0 4900 4901 4902 0 4900 4901 4902 -42 0 4900 4901 4902 -5 0 4900 4901 4902 -8 0 4894 4895 4909 4901 4902 0 4900 4901 4902 0 4900 4901 4902 -11 0 4894 4895 4896 -7 0 4900 4901 4915 4895 4896 -52 0 4909 4901 4894 4895 4909 4901 4902 -5 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 4901 4902 -40 0 4900 4901 4915 4895 4909 4901 4902 -10 0 4894 4895 4896 4901 4902 -5 0 4900 4901 4915 4895 4896 -92 0 4900 4901 4902 -3 0 4894 4895 4896 -13 0 4894 4895 4909 4901 4902 -7 0 4894 4895 4909 4901 4902 -54 0 4900 4901 4902 -7 0 4900 4901 4902 0 4900 4901 4915 0 4900 4901 4902 -44 0 4900 4901 4902 -12 0 4900 4901 4902 -7 0 4894 4895 4909 4901 4902 -98 0 4900 4901 4902 -13 0 4900 4901 4915 4895 4896 -7 0 4900 4901 4915 4895 4896 -144 0 4900 4901 4915 4895 4896 -114 0 4894 4895 4909 4901 4902 -9 0 4900 4901 4902 -144 0 4894 4895 4909 4901 4902 -114 0 4900 4901 4902 -158 0 4900 4901 4902 -1021 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 101)
+      (name "fg1")
+      (width 280)
+      (height 70)
+      (tiles 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -29 0 4894 4895 4896 -7 0 4894 4895 4896 -9 0 4900 4901 4902 0 4900 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -29 0 4900 4901 4902 -7 0 4900 4901 4902 -15 0 4900 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4909 4901 4902 -3 0 4894 4895 4896 -53 0 4900 4901 4915 4895 4903 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4909 4901 4902 -5 0 4900 4901 4902 -47 0 4894 4895 4896 -5 0 4900 4901 4915 4895 4909 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -57 0 4900 4901 4902 -7 0 4900 4901 4902 0 4900 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -71 0 4894 4895 4903 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4909 4901 4902 -71 0 4900 4901 4915 4895 4909 4901 4915 4895 4903 4904 4908 4898 4914 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -75 0 4900 4901 4902 0 4900 4901 4915 4895 4903 4904 4905 4895 4909 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -81 0 4900 4901 4915 4895 4909 4901 4902 0 4900 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4915 4895 4896 -81 0 4900 4901 4902 -3 0 4894 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -87 0 4900 4901 4915 4895 4903 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -89 0 4900 4901 4915 4895 4909 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -91 0 4900 4901 4902 0 4900 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -95 0 4894 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4909 4901 4902 -95 0 4900 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -97 0 4894 4895 4903 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -97 0 4900 4901 4915 4895 4909 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4909 4901 4902 -99 0 4900 4901 4902 0 4900 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -105 0 4894 4895 4903 4904 4905 4895 4903 4904 4905 4895 4903 4904 4908 4898 4914 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -43 0 4894 4895 4896 -49 0 4894 4895 4896 -7 0 4900 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4903 4904 4905 4895 4909 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -43 0 4900 4901 4902 -49 0 4900 4901 4902 -9 0 4900 4901 4902 0 4900 4901 4902 0 4900 4901 4915 4895 4909 4901 4902 0 4900 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -74 0 4894 4895 4896 -40 0 4900 4901 4902 -5 0 4900 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4915 4895 4896 0 4894 4895 4896 -56 0 4894 4895 4896 -9 0 4900 4901 4902 -48 0 4894 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4915 4895 4909 4901 4902 -56 0 4900 4901 4902 -60 0 4900 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -73 0 4894 4895 4896 -27 0 4894 4895 4896 -15 0 4894 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -5 0 4894 4895 4896 -5 0 4894 4895 4896 -13 0 4894 4895 4896 0 4894 4895 4896 -30 0 4894 4895 4896 -4 0 4900 4901 4902 -27 0 4900 4901 4902 -15 0 4900 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4915 4895 4896 0 4894 4895 4909 4901 4915 4895 4896 0 4894 4895 4909 4901 4915 4895 4896 0 4894 4895 4896 0 4894 4895 4896 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 -22 0 4894 4895 4896 0 4894 4895 4909 4901 4915 4895 4896 -52 0 4900 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4915 4895 4909 4901 4897 4898 4899 4901 4915 4895 4909 4901 4897 4898 4899 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4897 4898 4899 4901 4897 4898 4899 4901 4902 -22 0 4900 4901 4915 4895 4909 4901 4897 4898 4899 4901 4915 4895 4896 -50 0 4894 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4897 4898 4914 4904 4908 4898 4899 4901 4897 4898 4914 4904 4908 4898 4899 4901 4897 4898 4899 4901 4897 4898 4899 4901 4897 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -24 0 4900 4901 4897 4898 4914 4904 4908 4898 4899 4901 4902 -50 0 4900 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -24 0 4894 4895 4903 4904 4908 4898 4914 4904 4905 4895 4896 -50 0 4894 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -24 0 4900 4901 4897 4898 4914 4904 4905 4895 4909 4901 4902 -50 0 4900 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4903 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4909 4901 4902 -24 0 4894 4895 4903 4904 4908 4898 4899 4901 4902 -54 0 4900 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4903 4904 4905 4895 4903 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4903 4904 4905 4895 4909 4901 4915 4895 4909 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4903 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -26 0 4900 4901 4915 4895 4903 4904 4905 4895 4896 -54 0 4894 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4903 4904 4905 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4903 4904 4908 4898 4914 4904 4905 4895 4903 4904 4905 4895 4909 4901 4915 4895 4909 4901 4902 0 4900 4901 4902 0 4900 4901 4915 4895 4903 4904 4905 4895 4903 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4903 4904 4905 4895 4909 4901 4915 4895 4909 4901 4915 4895 4903 4904 4908 4898 4914 4904 4905 4895 4909 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -28 0 4900 4901 4897 4898 4899 4901 4915 4895 4896 -52 0 4900 4901 4915 4895 4903 4904 4908 4898 4914 4904 4905 4895 4909 4901 4915 4895 4909 4901 4902 0 4900 4901 4902 0 4900 4901 4902 0 4900 4901 4897 4898 4914 4904 4905 4895 4909 4901 4915 4895 4909 4901 4902 0 4900 4901 4902 -9 0 4900 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4903 4904 4905 4895 4903 4904 4905 4895 4909 4901 4915 4895 4909 4901 4902 0 4900 4901 4902 0 4900 4901 4915 4895 4903 4904 4905 4895 4909 4901 4902 0 4900 4901 4915 4895 4903 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -2 0 4894 4895 4896 -23 0 4894 4895 4903 4904 4908 4898 4899 4901 4915 4895 4896 -52 0 4900 4901 4915 4895 4903 4904 4905 4895 4909 4901 4902 0 4900 4901 4902 -11 0 4894 4895 4903 4904 4908 4898 4899 4901 4902 0 4900 4901 4902 -17 0 4900 4901 4902 0 4900 4901 4902 0 4900 4901 4915 4895 4909 4901 4915 4895 4909 4901 4902 0 4900 4901 4902 -9 0 4900 4901 4915 4895 4909 4901 4902 -5 0 4900 4901 4915 4895 4909 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4903 4904 4905 4895 4903 4904 4905 4895 4903 4904 4908 4898 4914 4904 4905 4895 4903 4904 4908 4898 4914 4904 4905 4895 4896 -2 0 4900 4901 4902 -23 0 4900 4901 4915 4895 4903 4904 4908 4898 4899 4901 4902 -54 0 4900 4901 4915 4895 4909 4901 4902 -17 0 4900 4901 4915 4895 4903 4904 4905 4895 4896 -31 0 4900 4901 4902 0 4900 4901 4902 -17 0 4900 4901 4915 4895 4896 -7 0 4900 4901 4902 0 4900 4901 4915 4895 4903 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4903 4904 4905 4895 4909 4901 4915 4895 4903 4904 4905 4895 4909 4901 4902 -30 0 4900 4901 4897 4898 4914 4904 4905 4895 4896 -48 0 4894 4895 4896 -5 0 4900 4901 4902 -21 0 4900 4901 4915 4895 4909 4901 4902 -10 0 4894 4895 4896 -22 0 4894 4895 4896 -17 0 4894 4895 4909 4901 4902 -13 0 4900 4901 4915 4895 4909 4901 4915 4895 4903 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4909 4901 4902 0 4900 4901 4902 0 4900 4901 4902 0 4900 4901 4915 4895 4909 4901 4902 0 4900 4901 4915 4895 4909 4901 4902 -32 0 4894 4895 4903 4904 4908 4898 4899 4901 4915 4895 4896 -46 0 4900 4901 4902 -31 0 4900 4901 4902 -12 0 4900 4901 4902 -22 0 4900 4901 4902 -17 0 4900 4901 4902 -4 0 4894 4895 4896 -10 0 4900 4901 4902 0 4900 4901 4915 4895 4909 4901 4915 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -13 0 4900 4901 4902 -5 0 4900 4901 4902 -34 0 4900 4901 4915 4895 4903 4904 4908 4898 4899 4901 4902 -147 0 4900 4901 4902 -16 0 4900 4901 4902 0 4900 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -28 0 4894 4895 4896 -29 0 4900 4901 4897 4898 4914 4904 4905 4895 4896 -171 0 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4909 4901 4915 4895 4903 4904 4905 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4903 4904 4905 4895 4909 4901 4902 -28 0 4900 4901 4902 -29 0 4894 4895 4903 4904 4908 4898 4899 4901 4915 4895 4896 -54 0 4894 4895 4896 -112 0 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4909 4901 4902 0 4900 4901 4915 4895 4909 4901 4915 4895 4903 4904 4908 4898 4914 4904 4905 4895 4909 4901 4915 4895 4909 4901 4902 -62 0 4900 4901 4897 4898 4914 4904 4908 4898 4899 4901 4902 -54 0 4900 4901 4902 -21 0 4894 4895 4896 -88 0 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -5 0 4900 4901 4902 0 4900 4901 4897 4898 4914 4904 4908 4898 4909 4901 4902 0 4900 4901 4902 -25 0 4894 4895 4896 -36 0 4894 4895 4903 4904 4908 4898 4914 4904 4905 4895 4896 -9 0 4894 4895 4896 -66 0 4900 4901 4902 -35 0 4894 4895 4896 -16 0 4894 4895 4896 -31 0 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -9 0 4894 4895 4903 4904 4905 4895 4903 4904 4902 -31 0 4900 4901 4902 -36 0 4900 4901 4897 4898 4914 4904 4908 4898 4899 4901 4915 4895 4896 0 4894 4895 4896 0 4894 4895 4909 4901 4902 -104 0 4900 4901 4902 -16 0 4900 4901 4902 -31 0 4898 4914 4904 4905 4895 4903 4904 4905 4895 4909 4901 4915 4895 4896 -7 0 4900 4901 4915 4895 4909 4901 4915 4895 -43 0 4894 4895 4896 -25 0 4894 4895 4903 4904 4908 4898 4914 4904 4908 4898 4899 4901 4915 4895 4909 4901 4915 4895 4909 4901 4902 -129 0 4894 4895 4896 -27 0 4904 4905 4895 4909 4901 4915 4895 4909 4901 4902 0 4900 4901 4902 -9 0 4900 4901 4902 0 4900 4901 -34 0 4894 4895 4896 -6 0 4900 4901 4902 -25 0 4900 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4899 4901 4897 4898 4899 4901 4915 4895 4896 -129 0 4900 4901 4902 -27 0 4895 4909 4901 4902 0 4900 4901 4902 -3 0 4894 4895 4896 -49 0 4900 4901 4902 -36 0 4900 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4909 4901 4902 -159 0 4901 4902 -9 0 4900 4901 4902 -88 0 4894 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4909 4901 4902 -172 0 4894 4895 4896 0 4894 4895 4896 -84 0 4900 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -160 0 4751 4764 4763 -9 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 -84 0 4900 4901 4897 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -141 0 130 -18 0 4740 4750 4751 -9 0 4900 4901 4902 0 4900 4901 4902 0 4900 4901 4902 -84 0 4894 4895 4903 4904 4908 4898 4914 4904 4905 4895 4909 4901 4902 -141 0 129 -18 0 4749 -2 4751 -9 0 4894 4895 4896 -92 0 4900 4901 4897 4898 4914 4904 4908 4898 4899 4901 4902 -143 0 129 -18 0 4762 4750 4763 -7 0 4894 4895 4909 4901 4902 -92 0 4894 4895 4903 4904 4908 4898 4914 4904 4905 4895 4896 -143 0 129 -18 0 4749 -2 4750 -7 0 4900 4901 4902 -94 0 4900 4901 4915 4895 4903 4904 4905 4895 4909 4901 4902 -143 0 129 -18 0 4762 4750 4763 -106 0 4900 4901 4897 4898 4899 4901 4902 -115 0 4894 4895 4896 -27 0 129 -18 0 4749 4750 4751 -106 0 4894 4895 4903 4904 4905 4895 4896 -75 0 4894 4895 4896 -37 0 4900 4901 4902 -27 0 129 -18 0 4762 4751 4750 -106 0 4900 4901 4915 4895 4909 4901 4902 -75 0 4900 4901 4902 -67 0 129 -18 0 4727 4764 4751 -108 0 4900 4901 4902 -147 0 4967 -183 0 4894 4895 4896 -65 0 4894 4895 4896 -160 0 4894 4895 4896 -44 0 4894 4895 4909 4901 4915 4895 4896 -12 0 4894 4895 4896 -48 0 4900 4901 4915 4895 4896 0 4894 4895 4896 -39 0 4894 4895 -108 0 4894 4895 4896 -2 0 4900 4901 4902 -44 0 4900 4901 4897 4898 4899 4901 4902 -12 0 4900 4901 4902 -8 0 4894 4895 4896 -39 0 4900 4901 4915 4895 4909 4901 4915 4895 4896 -27 0 4894 4895 4896 0 4894 4895 4896 0 4894 4895 4909 4901 -106 0 4894 4895 4909 4901 4902 -45 0 4894 4895 4896 0 4894 4895 4903 4904 4905 4895 4896 -23 0 4900 4901 4902 -19 0 4894 4895 4896 -17 0 4894 4895 4909 4901 4915 4895 4909 4901 4902 -17 0 4894 4895 4896 0 4894 4895 4896 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4897 4898 -58 0 4894 4895 4896 0 4894 4895 4896 -41 0 4900 4901 4915 4895 4896 -27 0 4894 4895 4896 -13 0 4894 4895 4909 4901 4915 4895 4909 4901 4897 4898 4899 4901 4902 -10 0 4894 4895 4896 -32 0 4900 4901 4902 -17 0 4900 4901 4915 4895 4909 4901 4902 -19 0 4900 4901 4915 4895 4909 4901 4915 4895 4909 4901 4897 4898 4899 4901 4897 4898 4899 4901 4897 4898 4914 4904 0 4894 4895 4896 -52 0 4894 4895 4909 4901 4915 4895 4909 4901 4902 -43 0 4900 4901 4915 4895 4896 -23 0 4894 4895 4909 4901 4915 4895 4896 0 4894 4895 4896 0 4894 4895 4896 0 4894 4895 4909 4901 4897 4898 4899 4901 4897 4898 4914 4904 4905 4895 4896 -10 0 4900 4901 4902 -52 0 4894 4895 4909 4901 4915 4895 4896 -21 0 4900 4901 4897 4898 4899 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4895 4909 4901 4902 -38 0 4894 4895 4896 0 4894 4895 4896 0 4894 4895 4896 0 4894 4895 4909 4901 4897 4898 4899 4901 4902 -47 0 4900 4901 4902 -17 0 4894 4895 4896 0 4894 4895 4909 4901 4897 4898 4899 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4897 4898 4914 4904 4908 4898 4914 4904 4905 4895 4909 4901 4902 -42 0 4894 4895 4896 -20 0 4900 4901 4915 4895 4909 4901 4902 -21 0 4894 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4901 4915 4895 4896 0 4894 4895 4896 0 4894 4895 4896 -24 0 4894 4895 4896 0 4894 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4909 4901 4897 4898 4914 4904 4905 4895 4896 -25 0 4894 4895 4896 -19 0 4894 4895 4896 -15 0 4894 4895 4909 4901 4915 4895 4909 4901 4897 4898 4914 4904 4908 4898 4899 4901 4897 4898 4899 4901 4897 4898 4899 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -42 0 4894 4895 4909 4901 4902 -22 0 4900 4901 4902 -23 0 4900 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 -2 4898 4899 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 0 4894 4895 4896 0 4894 4895 4896 -12 0 4894 4895 4909 4901 4915 4895 4909 4901 4897 4898 4899 4901 4897 4898 4899 4901 4897 4898 4899 4901 4897 4898 4914 4904 4905 4895 4909 4901 4902 -19 0 4894 4895 4896 0 4894 4895 4909 4901 4915 4895 4896 -15 0 4894 4895 4909 4901 4902 -15 0 4900 4901 4897 4898 4899 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -40 0 4894 4895 4909 4901 4902 -24 0 4894 4895 4896 -25 0 4900 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 -2 4904 4908 4898 4899 4901 4897 4898 4899 4901 4897 4898 4899 4901 4915 4895 4909 4901 4915 4895 4909 4901 4915 4895 4896 -8 0 4894 4895 4909 4901 4897 4898 4899 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -19 0 4894 4895 4909 4901 4915 4895 4909 4901 4897 4898 4899 4901 4902 -15 0 4900 4901 4915 4895 4896 -15 0 4894 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4909 4901 4902 -26 0 4894 4895 4896 -11 0 4900 4901 4915 4895 4896 0 4894 4895 4896 -20 0 4900 4901 4902 -27 0 4900 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 -2 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4897 4898 4899 4901 4915 4895 4909 4901 4902 -8 0 4900 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -19 0 4900 4901 4897 4898 4899 4901 4897 4898 4914 4904 4905 4895 4896 -15 0 4894 4895 4909 4901 4902 -15 0 4900 4901 4915 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -28 0 4900 4901 4902 -13 0 4900 4901 4915 4895 4909 4901 4902 -50 0 4894 4895 4903 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 -2 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -12 0 4900 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -19 0 4894 4895 4903 4904 4908 4898 4914 4904 4908 4898 4899 4901 4902 -15 0 4900 4901 4902 -19 0 4900 4901 4897 4908 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4905 4895 4896 -44 0 4894 4895 4909 4901 4902 -52 0 4900 4901 4897 4898 4914 4904 4908 4898 4914 4904 4908 4898 4914 4904 4908 4898)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #f)
+      (z-pos 102)
+      (name "secret2")
+      (path-ref "gen16675929592796319209024")
+      (width 9)
+      (height 10)
+      (tiles 4751 4764 4750 4764 4751 4750 -3 4764 4751 4764 4751 4764 4763 -4 4750 4751 4750 4751 4750 4763 -3 4751 -2 4763 4750 4763 -2 4750 -3 4764 4750 4763 4750 4764 4751 -3 4750 4751 -2 4764 -2 4750 4763 -2 4751 4763 4764 4751 4764 4751 4750 -3 4764 4750 4751 4750 4740 4763 -4 4750 4763 4750 4764 0 4776 4777 4776 4777 4776 4777 4776 -2 0 4789 4790 4789 4790 4789 4790 4789 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 102)
+      (name "secret1")
+      (width 76)
+      (height 24)
+      (tiles -429 0 -2 4750 4763 -3 4750 4764 4763 4764 -2 4750 4763 4751 4763 4751 4763 -52 0 4763 4751 4750 -4 4764 4750 4763 -3 4750 4751 -2 4750 4751 -2 4750 4751 4750 4763 4751 4764 4763 -51 0 4750 -2 4751 4763 4764 4750 4751 4750 4763 4751 4763 4764 4751 -2 4750 4764 4751 4763 -2 4750 -2 4751 4763 4751 -2 4764 -4 0 4763 4750 4764 4766 -40 0 4750 4751 4750 4751 4764 4751 4750 4763 -2 4751 4763 4764 4751 -2 4750 4751 4750 4764 4750 -2 4764 -2 4750 4763 4751 4764 4763 4750 -2 0 -2 4750 4764 -2 4750 4765 -37 0 -3 4751 -3 4750 4764 -4 4763 4764 4750 4764 4763 4751 4763 -3 4750 4751 4750 4751 -2 4764 -2 4750 -2 4763 -2 4750 4764 4750 4764 4751 4764 4763 4751 4765 -37 0 4764 4750 4763 4764 -2 4750 4751 4764 4750 4751 4750 4763 -2 4751 4763 4750 4764 4763 4750 -2 4751 4763 -2 4751 -2 4764 -2 4751 -2 4764 4751 4764 4763 -3 4750 4764 4766 4778 -37 0 4763 4751 4750 4763 4750 4764 4751 4750 4764 -2 4763 4764 4750 4751 -3 4750 4763 -2 4751 4764 4763 4764 -2 4751 -2 4750 4751 4763 4750 4751 4750 4763 4764 4763 4750 4751 4752 4791 -37 0 4763 -7 4764 -2 4750 4763 -2 4750 4764 4750 4751 4750 4764 4750 -2 4763 4750 4763 4764 -2 4751 -2 4750 4764 4750 4764 4750 4751 4750 4751 4763 4751 4765 4726 -37 0 4764 4751 4764 4750 4763 4750 4751 4750 4763 -4 4750 4763 -3 4750 4763 -2 4751 -2 4764 4750 4763 4764 4751 4763 4751 4763 4751 -2 4764 4751 -2 4764 4763 4750 4753 4739 -37 0 -2 4751 -2 4750 4764 4763 -3 4751 4763 4764 -2 4750 -2 4764 4750 -2 4764 4750 -2 4763 4750 4764 4750 4764 4750 4763 4750 4764 -2 4750 4764 -2 4750 4764 4750 -2 4751 4752 -37 0 4750 4763 4764 -2 4750 4751 4763 4750 4763 -2 4750 4764 -2 4750 4764 4763 4764 -3 4750 4764 4763 4750 4764 4750 4764 -2 4750 4751 4763 4750 -2 4751 4750 -2 4751 4750 4764 4753 -37 0 4751 4750 4763 -2 4750 4763 4751 -3 4750 4751 4764 4751 -2 4750 4763 -2 4750 4763 -2 4750 4764 4763 -2 4750 4751 4750 4763 4764 4751 -2 4763 4750 -2 4751 4750 4763 -2 4750 -37 0 -4 4764 -3 4750 4763 4750 4751 -3 4750 4751 4750 4764 4750 4763 4751 4763 4750 4751 -2 4764 -2 4750 4763 4764 4751 -2 4763 4750 4751 -2 4750 4751 -2 4763 4751 -38 0 4764 4751 4764 4751 4764 4751 -4 4750 4763 -3 4750 4763 4750 4751 4764 4751 4763 4750 4751 -2 4750 -2 4763 4751 -2 4763 -3 4750 4764 4750 -42 0 -7 4750 4763 4750 4764 4763 4764 4750 4764 4763 4764 -2 4751 4764 4763 4764 4751 4763 4750 4751 4750 4751 4750 4764 4750 4764 4751 -2 4764 -44 0 4763 4750 4751 4750 4763 -2 4751 4763 4750 4763 4751 4763 4750 4764 4750 4763 4751 4764 4763 4764 4763 4764 4763 -2 4750 4751 -2 4763 -4 4750 -50 0 4750 -3 4764 -3 4750 4751 -2 4750 -2 4763 -2 4764 -2 4750 -2 4751 4750 -63 0 -2 4750 4751 -2 4750 -2 4763 -2 4750 4763 -92 0)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 1792)
+      (y 1888)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 2720)
+      (y 1600)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 4656)
+      (y 1248)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 5728)
+      (y 1760)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 6400)
+      (y 1920)
+    )
+  )
+)

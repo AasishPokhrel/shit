@@ -1,0 +1,7 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 0 0 32 96)
+    (images "rockblock-1x3.png")
+  )
+)

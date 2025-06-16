@@ -1,0 +1,27 @@
+(supertux-sprite
+    (action
+        (name "stopped")
+        (images "conveyor_stopped.png"))
+    (action
+        (fps 0)
+        (name "left")
+        (images "conveyor_left0.png"
+                "conveyor_left1.png"
+                "conveyor_left2.png"
+                "conveyor_left3.png"
+                "conveyor_left4.png"
+                "conveyor_left5.png"
+        )
+    )
+    (action
+        (fps 0)
+        (name "right")
+        (images "conveyor_right0.png"
+                "conveyor_right1.png"
+                "conveyor_right2.png"
+                "conveyor_right3.png"
+                "conveyor_right4.png"
+                "conveyor_right5.png"
+        )
+    )
+)

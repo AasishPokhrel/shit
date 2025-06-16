@@ -1,0 +1,12 @@
+(supertux-sprite
+	(action
+	  (name "left")
+	  (hitbox 24 4 56 46)
+	  (images "granito_hive-0.png")
+	)
+	(action
+	  (name "right")
+	  (hitbox 30 4 56 46)
+	  (mirror-action "left");
+	)
+)

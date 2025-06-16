@@ -1,0 +1,10 @@
+(supertux-sprite
+ (action
+  (name "default")
+(fps 4.0)
+  (images 
+    "reset.png"
+
+  )
+ )
+)

@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta name="description" content="This website hosts the official online version of SuperTux, which you can play in your browser. It is hosted here at the request of the SuperTux development team.">
+  <title>Play SuperTux online</title>
+  <style>
+    body {
+      font-family: arial;
+      margin: 0;
+      padding: none;
+      background-color: black;
+    }
+
+    .emscripten {
+      padding-right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      display: block
+    }
+
+    canvas.emscripten {
+      border: 0 none;
+      background-color: #0000;
+    }
+
+    .spinner {
+      height: 30px;
+      width: 30px;
+      margin: 0;
+      margin-top: 20px;
+      margin-left: 20px;
+      display: inline-block;
+      vertical-align: top;
+      -webkit-animation: rotation .8s linear infinite;
+      -moz-animation: rotation .8s linear infinite;
+      -o-animation: rotation .8s linear infinite;
+      animation: rotation .8s linear infinite;
+      border-left: 5px solid #ebebeb;
+      border-right: 5px solid #ebebeb;
+      border-bottom: 5px solid #ebebeb;
+      border-top: 5px solid #78787800;
+      border-radius: 100%;
+    }
+
+    @-webkit-keyframes rotation {
+      from {
+        -webkit-transform: rotate(0)
+      }
+
+      to {
+        -webkit-transform: rotate(360deg)
+      }
+    }
+
+    @-moz-keyframes rotation {
+      from {
+        -moz-transform: rotate(0)
+      }
+
+      to {
+        -moz-transform: rotate(360deg)
+      }
+    }
+
+    @-o-keyframes rotation {
+      from {
+        -o-transform: rotate(0)
+      }
+
+      to {
+        -o-transform: rotate(360deg)
+      }
+    }
+
+    @keyframes rotation {
+      from {
+        transform: rotate(0)
+      }
+
+      to {
+        transform: rotate(360deg)
+      }
+    }
+
+    #status {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 30px;
+      margin-left: 20px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      font-weight: 700;
+      color: #d7d7d7;
+    }
+
+    #progress {
+      height: 6px;
+      width: 200px;
+      border: none;
+      border-radius: 3px;
+      background: #787878;
+      margin-left: 20px;
+    }
+
+    progress::-moz-progress-bar {
+      border-radius: 3px;
+      background: white;
+    }
+
+    #output {
+      width: 100%;
+      height: 200px;
+      margin: 0 auto;
+      margin-top: 10px;
+      border: 0;
+      padding-left: 0;
+      padding-right: 0;
+      display: block;
+      background-color: #0000;
+      color: #fff;
+      font-family: 'Lucida Console', Monaco, monospace;
+      outline: 0;
+      overflow: scroll;
+    }
+
+    #overlay {
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #000d;
+      z-index: 10;
+      background-image: linear-gradient(to bottom, #000a, #000a), url('supertux2.png'), url('supertux2_bkg.png');
+      background-position: 0 0, 50% calc(50% - 100px);
+      background-repeat: repeat, no-repeat;
+      animation: movebkg 10s linear infinite;
+    }
+
+    .center_stuff {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .bottom_stuff {
+      text-align: center;
+      color: #fff7;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 15px;
+    }
+
+    .bottom_stuff a {
+      color: #8cf;
+      font-weight: bold;
+    }
+
+    .bottom_stuff a.light {
+      color: #8cf7;
+      font-weight: normal;
+    }
+
+    @keyframes movebkg {
+      from {
+        background-position: 0 0, 50% calc(50% - 100px);
+      }
+
+      to {
+        background-position: -256px 0, 50% calc(50% - 100px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="overlay" class="center_stuff">
+    <center>
+      <div class="spinner" id="spinner"></div>
+      <div class="emscripten" id="status">Downloading...</div>
+      <br/>
+      <div class="emscripten"><progress hidden id="progress" max="100" value="0"></progress></div>
+    </center>
+    <div class="bottom_stuff">
+      <p>If the game is unplayably slow, try downloading the desktop version for your platform at <a href="https://www.supertux.org/download.html" target="_blank">supertux.org</a></p>
+      <p id="data_warning"></p>
+      <p id="progress_desc"></p>
+    </div>
+  </div>
+  <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+  <p id="output"></p>
+  <input type="file" id="file_upload" multiple="multiple" style="display:none">
+  <script>
+    if ("@CMAKE_BUILD_TYPE@" == "Release") {
+      document.getElementById("output").style.display = "none";
+    }
+
+    var data_persistent = false;
+    if (navigator.storage && navigator.storage.persist) {
+      navigator.storage.persist().then((persists) => {
+        if (!persists) {
+          //alert("Your browser denied persistent storage. That means your data could be cleared next time you open the game.\n\nIf you just received a prompt asking you if you want data to persist, you may ignore this message.\n\nChrome and Chromium-based browsers (Edge, Opera, Brave...) will not ask the user; instead, the browser will choose by itself based on if it considers the site important. It detemines which sites are important based on certain data, such as how often you visit the site, what you do, etc. If you want to choose whether or not to save your progress, you may use Firefox instead.\n\nYou can read more at https://web.dev/persistent-storage/#how-is-permission-granted\n\nIf you want to choose to save your data, please use Firefox.");
+          document.getElementById("data_warning").innerHTML = 'Your browser denied persistent data. That means the browser can choose to delete your progress anytime. Chrome, Edge and Opera are known to <a class="light" href="https://web.dev/persistent-storage/#how-is-permission-granted">silently deny persistent data</a>; please try with Firefox if necessary.';
+        } else {
+          data_persistent = true;
+        }
+      });
+    } else {
+      document.getElementById("data_warning").innerHTML = 'Your browser does not support persistent data. That means the browser can choose to delete your progress anytime.';
+    }
+
+    window.supertux2_ispersistent = function() {
+      return data_persistent ? 1 : 0;
+    }
+
+    var statusElement = document.getElementById("status"),
+        progressElement = document.getElementById("progress"),
+        progressDescElement = document.getElementById("progress_desc"),
+        overlayElement = document.getElementById("overlay"),
+        spinnerElement = document.getElementById("spinner");
+
+    var lastUpdate = Date.now() / 1000;
+    var lastStep = 0;
+
+    function getExp(num) {
+      if (num > 1e12) {
+        return (num / 1e12).toFixed(3) + "T";
+      } else if (num > 1e9) {
+        return (num / 1e9).toFixed(3) + "G";
+      } else if (num > 1e6) {
+        return (num / 1e6).toFixed(3) + "M";
+      } else if (num > 1e3) {
+        return (num / 1e3).toFixed(3) + "K";
+      } else {
+        return num.toFixed();
+      }
+    }
+
+    // Functions to be loaded with cwrap
+    var setResolution = null;
+    var onDownloadProgress = null;
+    var onDownloadFinished = null;
+    var onDownloadError = null;
+    var onDownloadAborted = null;
+
+    var Module = {
+      preRun: [],
+      postRun: [],
+      print: function () {
+        var e = document.getElementById("output");
+        if (e)
+          e.innerHTML = "";
+        return function (t) {
+          if (arguments.length > 1)
+             t = Array.prototype.slice.call(arguments).join(" ");
+          t = Array.prototype.slice.call(arguments).join(" ");
+          console.log(t);
+          if (e) {
+            e.innerHTML += t + "<br/>";
+            e.scrollTop = e.scrollHeight;
+          }
+        }
+      }(),
+      printErr: function () {
+        var e = document.getElementById("output");
+        if (e)
+          e.innerHTML = "";
+        return function (t) {
+          if (arguments.length > 1)
+             t = Array.prototype.slice.call(arguments).join(" ");
+          console.error(t);
+          if (e) {
+            e.innerHTML += "<span style='color:red;'>" + t + "</span><br/>";
+            e.scrollTop = e.scrollHeight;
+          }
+        }
+      }(),
+      canvas: function () {
+        var c = document.getElementById("canvas");
+        c.addEventListener("webglcontextlost", (function (e) {
+          alert("WebGL context lost. You will need to reload the page.");
+          e.preventDefault();
+        }), !1);
+        // Fixed a bug where an iframe containing SuperTUx (e. g. Newgrounds)
+        // would lose focus if the user clicks outside of the iframe and cannot
+        // get focus back when user clicks inside the iframe, thus preventing
+        // any keyboard input from being received by SuperTux.
+        // If you want to try: Disable the three lines below, compile, upload on
+        // Newgrounds, wait for the game to load, click outside the game, click
+        // back inside the game, then try to press buttons (e. g. arrows), it'll
+        // behave as if focus was outside the iframe (e. g. pressing down will scroll
+        // the page instead of navigating the menus/worldmap/ducking/whatever)
+        c.addEventListener("click", function(e) {
+          c.focus();
+        });
+        return c;
+      }(),
+      setStatus: function (e) {
+        overlayElement.style.display = e ? "flex" : "none";
+
+        if (Module.setStatus.last || (Module.setStatus.last = { time: Date.now(), text: "" }), e !== Module.setStatus.last.text)
+        {
+          var t = e.match(/([^(]+)\((\d+(\.\d+)?)\/(\d+)\)/),
+              n = Date.now();
+          if (!(t && n - Module.setStatus.last.time < 30))
+          {
+            Module.setStatus.last.time = n;
+            Module.setStatus.last.text = e;
+            if (t)
+            {
+              e = t[1];
+              progressElement.value = 100 * parseInt(t[2]);
+              progressElement.max = 100 * parseInt(t[4]);
+              progressElement.hidden = false;
+
+              var update = Date.now() / 1000
+              progressDescElement.innerText = e.match(/[Dd]ownload/)
+                ? getExp(parseInt(t[2])) + "B / " + getExp(parseInt(t[4])) + "B (" + getExp((parseInt(t[2]) - lastStep) / (update - lastUpdate)) + "B/s)"
+                : t[2] + " of " + t[4] + " assets loaded";
+              lastUpdate = Date.now() / 1000;
+              lastStep = parseInt(t[2]);
+
+              spinnerElement.hidden = false;
+            }
+            else
+            {
+              progressElement.value = null;
+              progressElement.max = null;
+              progressElement.hidden = true;
+
+              progressDescElement.innerText = "";
+
+              if (!e)
+                spinnerElement.style.display = "none";
+            }
+            statusElement.innerHTML = e;
+          }
+        }
+      },
+      totalDependencies: 0,
+      monitorRunDependencies: function (e) {
+        this.totalDependencies = Math.max(this.totalDependencies, e);
+        Module.setStatus(e ? "Preparing... (" + (this.totalDependencies - e) + "/" + this.totalDependencies + ")" : "All downloads complete.")
+      },
+      onRuntimeInitialized: function() {
+        setResolution = Module.cwrap('set_resolution', 'void', ['number']);
+        onDownloadProgress = Module.cwrap('onDownloadProgress', 'void', ['number', 'number', 'number']);
+        onDownloadFinished = Module.cwrap('onDownloadFinished', 'void', ['number']);
+        onDownloadError = Module.cwrap('onDownloadError', 'void', ['number']);
+        onDownloadAborted = Module.cwrap('onDownloadAborted', 'void', ['number']);
+      },
+    };
+
+    Module.setStatus("Downloading...");
+    window.onerror = function (message, source, line, col, error) {
+      if (typeof error == "number")
+        message = Module.ccall('getExceptionMessage', 'string', ['number'], [error]);
+      Module.setStatus("Oops!<br><br>An error occured and SuperTux crashed.<br><br><pre>" + message + "</pre>");
+      spinnerElement.style.display = "none";
+      Module.setStatus = function (e) {
+        if (e)
+          Module.printErr("[post-exception status] " + e)
+      }
+    }
+
+    var autofit = true;
+
+    function tryResize() {
+      if (!autofit || !Module)
+        return;
+
+      if (!setResolution)
+        return;
+
+      try {
+        setResolution(window.innerWidth, window.innerHeight);
+      } catch(err) {}
+    }
+
+    window.supertux_setAutofit = function(newAutofit) {
+      autofit = newAutofit;
+      document.body.style.overflow = (autofit || ("@CMAKE_BUILD_TYPE@" == "Release")) ? "hidden" : "initial";
+      tryResize();
+    }
+
+    // FIXME: Hardcoded
+    const root = "/home/web_user/.local/share/supertux2/";
+
+    window.supertux_loadFiles = function() {
+      try {
+        // Loading the config file from localStorage is needed, even though the
+        // rest of the files are stored in IndexedDB, managed by Emscripten.
+        // Check the supertux_saveFiles function below for details.
+        for (var key of Object.keys(localStorage)) {
+          if (key !== "supertux2_config" /*&& !key.match("^profile[0-9]+/")*/)
+            continue;
+
+          keyfilename = key.replace(/^supertux2_/, "");
+
+          if (keyfilename.indexOf("/") !== -1) {
+            try {
+              FS.mkdir(root + keyfilename.substr(0, keyfilename.indexOf("/")));
+            } catch {
+              // Folder probably already exists
+            }
+          }
+          FS.writeFile(root + keyfilename, localStorage.getItem(key));
+        }
+      } catch(e){}
+    }
+
+    window.supertux_saveFiles = function() {
+
+      try { FS.syncfs((err) => { console.log(err); }); } catch(err) { console.log(err); }
+
+      function save(file) {
+        try {
+          localStorage.setItem("supertux2_" + file, FS.readFile(root + file, { encoding: "utf8" }));
+          return true;
+        } catch(e) {
+          console.error(e);
+          console.error("ERROR: Couldn't save file '" + file + "'");
+          return false;
+        }
+      }
+
+      // IndexedDB can't save fast enough to be called when the window is closed,
+      // so save the config file in localStorage just in case it wasn't flushed
+      // to disk
+      save("config");
+    }
+
+    window.supertux_download = function(path) {
+      try {
+        var downloadBlob = function(data, fileName, mimeType) {
+          var blob, url;
+          blob = new Blob([data], {
+            type: mimeType
+          });
+          url = window.URL.createObjectURL(blob);
+          var a;
+          a = document.createElement('a');
+          a.href = url;
+          a.download = fileName;
+          document.body.appendChild(a);
+          a.style = 'display: none';
+          a.click();
+          a.remove()
+          setTimeout(function() {
+            return window.URL.revokeObjectURL(url);
+          }, 1000);
+        };
+        var stat = FS.stat(path);
+        var size = stat.size;
+
+        var file = FS.open(path, 'r');
+        var buf = new Uint8Array(size);
+        FS.read(file, buf, 0, size, 0);
+        FS.close(file);
+
+        downloadBlob(buf, path.substr(path.lastIndexOf('/') + 1), 'application/octet-stream');
+
+        return true;
+      } catch(e) {
+        console.error(e);
+        return false;
+      }
+    }
+
+    const file_upload = document.getElementById("file_upload");
+    var base_path = '/';
+
+    window.supertux_upload = function(base) {
+      
+      base_path = base;
+
+      // Remove one (or multiple) leading slashes
+      while (base_path.startsWith("/"))
+        base_path = base_path.substr(1);
+
+      // Add ending slash if missing
+      if (!base_path.endsWith("/"))
+        base_path += "/";
+
+      // Remove duplicate slashes
+      base_path = base_path.replaceAll(/\/+/g, "/");
+
+      file_upload.click();
+    }
+
+    file_upload.addEventListener('change', () => {
+      for (var file of file_upload.files) {
+        var fr = new FileReader();
+        fr.filename = file.name;
+        fr.onload = function(e) {
+          var data = new Uint8Array(e.target.result);
+
+          // Create all dirs if necessary
+          var index = 0;
+          while (base_path.indexOf("/", index) != -1) {
+            index = base_path.indexOf("/", index);
+            var subfolder = base_path.substr(0, index);
+
+            if (!FS.analyzePath(root + subfolder).exists)
+              FS.mkdir(root + subfolder);
+
+            index += 1;
+          }
+
+          var em_file = FS.open(root + base_path + e.target.filename, "w");
+          FS.write(em_file, data, 0, data.length, 0);
+          FS.close(em_file);
+        };
+        fr.readAsArrayBuffer(file);
+      }
+    });
+
+    var saving = false;
+    window.supertux2_syncfs = function() {
+      if (saving) return;
+      saving = true;
+      try {
+        FS.syncfs((err) => {
+          if (err)
+            console.log(err);
+
+          saving = false;
+        });
+      } catch (err) {}
+    }
+
+    var onDownloadProgress, onDownloadFinished, onDownloadError, onDownloadAborted;
+    window.supertux_xhr_download = function(id, url, file) {
+      console.log('id: ' + id);
+      console.log('url: ' + url);
+      console.log('file: ' + file);
+
+      if (!onDownloadProgress || !onDownloadFinished || !onDownloadError || !onDownloadAborted)
+        return;
+
+      var xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4) {
+          var data = new Uint8Array(xhr.response);
+          var stream = FS.open(file, 'w+');
+          FS.write(stream, data, 0, data.length, 0);
+          FS.close(stream);
+          onDownloadFinished(id);
+        }
+      };
+      xhr.responseType = "arraybuffer";
+      xhr.open("GET", url);
+      xhr.send();
+
+      xhr.addEventListener('progress', (e) => { onDownloadProgress(id, e.loaded, e.total); });
+      xhr.addEventListener('error', (e) => { onDownloadError(id); });
+      xhr.addEventListener('abort', (e) => { onDownloadAborted(id); })
+    }
+
+    window.addEventListener('resize', (e) => {
+      tryResize();
+    });
+    window.addEventListener('unload', (e) => {
+      try {
+        Module.ccall("save_config", "void", [], []);
+      } catch(e) {}
+      supertux_saveFiles();
+    });
+    window.addEventListener('keydown', (e) => {
+      if (e.key == "F11" || (e.key == "Enter" && e.altKey)) {
+        try {
+          if (document.fullscreenElement) {
+            document.exitFullscreen();
+          } else {
+            Module.canvas.requestFullscreen();
+          }
+        } catch(e) {}
+      }
+    });
+  </script>
+  <script async src="supertux2.js"></script>
+</body>
+
+</html>

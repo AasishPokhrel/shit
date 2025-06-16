@@ -1,0 +1,17 @@
+(supertux-sprite
+	(action
+	  (hitbox 0 0 87.8 87.8)
+	  (name "idle")
+	  (images "idle-0.png"))
+	(action
+	  (hitbox 0 0 87.8 87.8)
+	  (name "charging")
+	  (images "charging-0.png"))
+	(action
+	  (hitbox 0 0 87.8 87.8)
+	  (name "attacking")
+	  (images "attacking-0.png"))
+	(action
+	  (hitbox -4 -5 87.8 87.8)
+	  (name "iced")
+	  (images "idle-0.png")))

@@ -1,0 +1,57 @@
+#  SuperTux
+#  Copyright (C) 2022 HybridDog
+#
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+name: Code Linting
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    tags:
+      - '*'
+    paths:
+      - 'src/**'
+  pull_request:
+    paths:
+      - 'src/**'
+
+jobs:
+  lint_cppcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The apt version of Cppcheck is outdated and apparently there are no
+      # alternative up-to-date precompiled versions for Ubuntu,
+      # so we compile it ourselves here.
+      - name: Install Cppcheck
+        run: |
+          sudo apt-get update
+          sudo apt-get install g++ make
+          RELEASE_API_URL="https://api.github.com/repos/danmar/cppcheck/releases/latest"
+          TARBALL_URL=$(curl --silent "$RELEASE_API_URL" | jq --raw-output '.tarball_url')
+          curl --location --silent "$TARBALL_URL" | tar --extract --gzip --file=-
+          cd danmar-cppcheck-*/
+          make -j"$(nproc)" CXXFLAGS="-O1 -DNDEBUG"
+
+      - name: Lint code with Cppcheck
+        run: |
+          ./danmar-cppcheck-*/cppcheck \
+            --check-level=exhaustive \
+            --quiet --inline-suppr --language=c++ --error-exitcode=10 \
+            -j"$(nproc)" --std=c++17 --enable=warning,style \
+            --suppress=useStlAlgorithm -UEMSCRIPTEN src/

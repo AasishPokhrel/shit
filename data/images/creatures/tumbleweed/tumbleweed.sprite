@@ -1,0 +1,21 @@
+(supertux-sprite
+ (action
+  (name "left")
+  (hitbox 1 0 48 48)
+  (images "tumbleweed0.png"
+          "tumbleweed1.png"
+          "tumbleweed2.png"
+          "tumbleweed3.png"
+          "tumbleweed2.png"
+          "tumbleweed1.png"))
+
+ (action
+  (name "right")
+  (hitbox 1 0 48 48)
+  (mirror-action "left"))
+ 
+ (action
+  (name "squished")
+  (hitbox 1 -19 48 48)
+  (images "../poison_ivy/squished.png"))
+)

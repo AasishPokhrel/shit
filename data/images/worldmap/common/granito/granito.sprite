@@ -1,0 +1,379 @@
+(supertux-sprite
+  (action
+    (hitbox 8 66 0 0)
+    (name "empty-right")
+	(fps 3)
+    (images 
+      "granito_0_empty.png"
+	  "granito_1_empty.png"
+	  "granito_2_empty.png"
+	  "granito_3_empty.png"
+	  "granito_3_empty.png"
+    )
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "empty-left")
+	(fps 3)
+    (mirror-action "empty-right"))
+  
+  ;;Small Tux
+  
+  (action
+    (hitbox 8 66 0 0)
+    (name "small-stop-right")
+    (fps 3)
+    (images 
+      "granito_0_small.png"
+	  "granito_1_small.png"
+	  "granito_2_small.png"
+	  "granito_2_small.png"
+	  "granito_3_small.png"
+	  "granito_0_small.png"
+    )
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "small-stop-left")
+	(fps 3)
+    (mirror-action "small-stop-right")
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "small-stop-up")
+    (fps 3)
+    (clone-action "small-stop-right"))
+  (action
+    (hitbox 8 66 0 0)
+    (name "small-stop-down")
+	(fps 3)
+    (clone-action "small-stop-left"))
+  
+  (action
+    (hitbox 8 66 0 0)
+    (name "small-walking-right")
+    (fps 5)
+    (images 
+      "granito_0_small.png"
+	  "granito_1_small.png"
+	  "granito_2_small.png"
+	  "granito_3_small.png"
+    )
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "small-walking-left")
+    (fps 5)
+    (mirror-action "small-walking-right")
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "small-walking-up")
+    (fps 3)
+    (clone-action "small-walking-right"))
+  (action
+    (hitbox 8 66 0 0)
+    (name "small-walking-down")
+	(fps 3)
+    (clone-action "small-walking-left"))
+  
+  ;;Big Tux
+  
+  (action
+    (hitbox 8 66 0 0)
+    (name "large-stop-right")
+    (fps 3)
+    (images 
+      "granito_0_big.png"
+	  "granito_1_big.png"
+	  "granito_2_big.png"
+	  "granito_2_big.png"
+	  "granito_3_big.png"
+	  "granito_0_big.png"
+    )
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "large-stop-left")
+	(fps 3)
+    (mirror-action "large-stop-right")
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "large-stop-up")
+    (fps 3)
+    (clone-action "large-stop-right"))
+  (action
+    (hitbox 8 66 0 0)
+    (name "large-stop-down")
+	(fps 3)
+    (clone-action "large-stop-left"))
+  
+  (action
+    (hitbox 8 66 0 0)
+    (name "large-walking-right")
+    (fps 5)
+    (images 
+      "granito_0_big.png"
+	  "granito_1_big.png"
+	  "granito_2_big.png"
+	  "granito_3_big.png"
+    )
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "large-walking-left")
+    (fps 5)
+    (mirror-action "large-walking-right")
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "large-walking-up")
+    (fps 3)
+    (clone-action "large-walking-right"))
+  (action
+    (hitbox 8 66 0 0)
+    (name "large-walking-down")
+	(fps 3)
+    (clone-action "large-walking-left"))
+  
+  ;;Fire Tux
+  
+  (action
+    (hitbox 8 66 0 0)
+    (name "fire-stop-right")
+    (fps 3)
+    (images 
+      "granito_0_fire.png"
+	  "granito_1_fire.png"
+	  "granito_2_fire.png"
+	  "granito_2_fire.png"
+	  "granito_3_fire.png"
+	  "granito_0_fire.png"
+    )
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "fire-stop-left")
+	(fps 3)
+    (mirror-action "fire-stop-right")
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "fire-stop-up")
+    (fps 3)
+    (clone-action "fire-stop-right"))
+  (action
+    (hitbox 8 66 0 0)
+    (name "fire-stop-down")
+	(fps 3)
+    (clone-action "fire-stop-left"))
+  
+  (action
+    (hitbox 8 66 0 0)
+    (name "fire-walking-right")
+    (fps 5)
+    (images 
+      "granito_0_fire.png"
+	  "granito_1_fire.png"
+	  "granito_2_fire.png"
+	  "granito_3_fire.png"
+    )
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "fire-walking-left")
+    (fps 5)
+    (mirror-action "fire-walking-right")
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "fire-walking-up")
+    (fps 3)
+    (clone-action "fire-walking-right"))
+  (action
+    (hitbox 8 66 0 0)
+    (name "fire-walking-down")
+	(fps 3)
+    (clone-action "fire-walking-left"))
+  
+  ;;Ice Tux
+  
+  (action
+    (hitbox 8 66 0 0)
+    (name "ice-stop-right")
+    (fps 3)
+    (images 
+      "granito_0_ice.png"
+	  "granito_1_ice.png"
+	  "granito_2_ice.png"
+	  "granito_2_ice.png"
+	  "granito_3_ice.png"
+	  "granito_0_ice.png"
+    )
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "ice-stop-left")
+	(fps 3)
+    (mirror-action "ice-stop-right")
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "ice-stop-up")
+    (fps 3)
+    (clone-action "ice-stop-right"))
+  (action
+    (hitbox 8 66 0 0)
+    (name "ice-stop-down")
+	(fps 3)
+    (clone-action "ice-stop-left"))
+  
+  (action
+    (hitbox 8 66 0 0)
+    (name "ice-walking-right")
+    (fps 5)
+    (images 
+      "granito_0_ice.png"
+	  "granito_1_ice.png"
+	  "granito_2_ice.png"
+	  "granito_3_ice.png"
+    )
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "ice-walking-left")
+    (fps 5)
+    (mirror-action "ice-walking-right")
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "ice-walking-up")
+    (fps 3)
+    (clone-action "ice-walking-right"))
+  (action
+    (hitbox 8 66 0 0)
+    (name "ice-walking-down")
+	(fps 3)
+    (clone-action "ice-walking-left"))
+  
+  ;;Air Tux
+  
+  (action
+    (hitbox 8 66 0 0)
+    (name "air-stop-right")
+    (fps 3)
+    (images 
+      "granito_0_air.png"
+	  "granito_1_air.png"
+	  "granito_2_air.png"
+	  "granito_2_air.png"
+	  "granito_3_air.png"
+	  "granito_0_air.png"
+    )
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "air-stop-left")
+	(fps 3)
+    (mirror-action "air-stop-right")
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "air-stop-up")
+    (fps 3)
+    (clone-action "air-stop-right"))
+  (action
+    (hitbox 8 66 0 0)
+    (name "air-stop-down")
+	(fps 3)
+    (clone-action "air-stop-left"))
+  
+  (action
+    (hitbox 8 66 0 0)
+    (name "air-walking-right")
+    (fps 5)
+    (images 
+      "granito_0_air.png"
+	  "granito_1_air.png"
+	  "granito_2_air.png"
+	  "granito_3_air.png"
+    )
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "air-walking-left")
+    (fps 5)
+    (mirror-action "air-walking-right")
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "air-walking-up")
+    (fps 3)
+    (clone-action "air-walking-right"))
+  (action
+    (hitbox 8 66 0 0)
+    (name "air-walking-down")
+	(fps 3)
+    (clone-action "air-walking-left"))
+  
+  ;;Earth Tux
+  
+  (action
+    (hitbox 8 66 0 0)
+    (name "earth-stop-right")
+    (fps 3)
+    (images 
+      "granito_0_earth.png"
+	  "granito_1_earth.png"
+	  "granito_2_earth.png"
+	  "granito_2_earth.png"
+	  "granito_3_earth.png"
+	  "granito_0_earth.png"
+    )
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "earth-stop-left")
+	(fps 3)
+    (mirror-action "earth-stop-right")
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "earth-stop-up")
+    (fps 3)
+    (clone-action "earth-stop-right"))
+  (action
+    (hitbox 8 66 0 0)
+    (name "earth-stop-down")
+	(fps 3)
+    (clone-action "earth-stop-left"))
+  
+  (action
+    (hitbox 8 66 0 0)
+    (name "earth-walking-right")
+    (fps 5)
+    (images 
+      "granito_0_earth.png"
+	  "granito_1_earth.png"
+	  "granito_2_earth.png"
+	  "granito_3_earth.png"
+    )
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "earth-walking-left")
+    (fps 5)
+    (mirror-action "earth-walking-right")
+  )
+  (action
+    (hitbox 8 66 0 0)
+    (name "earth-walking-up")
+    (fps 3)
+    (clone-action "earth-walking-right"))
+  (action
+    (hitbox 8 66 0 0)
+    (name "earth-walking-down")
+	(fps 3)
+    (clone-action "earth-walking-left"))
+)

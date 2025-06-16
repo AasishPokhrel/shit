@@ -1,0 +1,40 @@
+(supertux-sprite
+ (action
+  (name "left")
+  (fps 20)
+  (hitbox 8 8 32 32)
+  (images "flying_snowball-0.png"
+          "flying_snowball-1.png"
+          "flying_snowball-2.png"
+          "flying_snowball-3.png"))
+ 
+ (action
+  (name "right")
+  (fps 20)
+  (hitbox 8 8 32 32)
+  (mirror-action "left"))
+
+ (action
+  (name "squished-left")
+  (hitbox 8 8 32 32)
+  (images "flying-squished.png"))
+
+ (action
+  (name "squished-right")
+  (hitbox 8 8 32 32)
+  (mirror-action "squished-left"))
+  
+ (action
+  (name "melting-left")
+  (fps 20)
+  (hitbox 8 8 32 32)
+  (images "melting-0.png"
+          "melting-1.png"
+          "melting-2.png"))
+
+ (action
+  (name "melting-right")
+  (fps 20)
+  (hitbox 8 8 32 32)
+  (mirror-action "melting-left"))
+)

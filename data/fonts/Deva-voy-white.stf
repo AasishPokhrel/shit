@@ -1,0 +1,13 @@
+(supertux-font
+  (glyph-width 11)
+  (glyph-height 24)
+  (rtl #f)
+  (surface
+    (glyphs "devanagari/white-voy.png")
+    (shadows "devanagari/shadow-voy.png")
+    (chars
+    " ा  ि  ी  ु  ू  े"
+    " ौ  ै  ो"
+      
+  ) )
+)

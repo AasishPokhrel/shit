@@ -1,0 +1,6 @@
+This Tool allows to edit supertux .stgt/.strf files in a comfortable manner.
+Warning: This tool is pre-alpha and meant for developers only.
+
+Compilation: You need to have mono and gtk-sharp installed
+in order to compile and run the app.
+

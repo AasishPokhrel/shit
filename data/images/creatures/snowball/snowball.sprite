@@ -1,0 +1,54 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (hitbox 8 13 32 32)
+    (fps 14)
+    (images "snowball-0.png"
+            "snowball-1.png"
+            "snowball-2.png"
+            "snowball-3.png"
+            "snowball-4.png"
+            "snowball-5.png"
+            "snowball-6.png"
+            "snowball-7.png")
+  )
+  (action
+    (name "right")
+    (hitbox 8 13 32 32)
+    (fps 14)
+    (mirror-action "left")
+  )
+  (action
+    (name "squished-left")
+    (hitbox 8 13 32 32)
+    (images "snowball-squished.png")
+  )
+  (action
+    (name "squished-right")
+    (hitbox 8 13 32 32)
+    (mirror-action "squished-left")
+  )
+ (action
+  (name "melting-left")
+  (hitbox 3 4 32 32)
+  (images "sport-melting-0.png"
+          "sport-melting-1.png"
+          "sport-melting-2.png"
+          "sport-melting-3.png"))
+ (action
+  (name "melting-right")
+  (hitbox 3 4 32 32)
+  (mirror-action "melting-left"))
+ (action
+  (name "ground-melting-left")
+  (hitbox 19 4 32 32)
+  (images "sport-gmelting-0.png"
+          "sport-gmelting-1.png"
+          "sport-gmelting-2.png"
+          "sport-gmelting-3.png"
+          "sport-gmelting-4.png"))
+ (action
+  (name "ground-melting-right")
+  (hitbox 19 4 32 32)
+  (mirror-action "ground-melting-left"))
+)

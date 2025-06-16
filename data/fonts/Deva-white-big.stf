@@ -1,0 +1,30 @@
+(supertux-font
+  (glyph-width 20)
+  (glyph-height 24)
+  (rtl #f)
+  (surface
+    (glyphs "devanagari/white.png")
+    (shadows "devanagari/shadow.png")
+    (chars
+    "ऄअआइईउऊऋऌ"
+    "ऍऎएऐऑऒओऔकख"
+    "गघङचछजझञटठ"
+    "डढणतथदधनऩप"
+    "फबभमयरऱलळऴ"
+    "वशषसहऺऻ़क़ख़"
+    ""
+    "ग़ज़ड़ढ़फ़य़ॠॡॢॣ।॥"
+    "०१२३४५६७८९"
+    "ॱॳॴॵॶॷॹॺॻ"
+    "ॼॽॾॿॲ"
+    ""
+    ""
+    ""
+    ""
+    ""
+    ""
+    ""
+    ""
+    ""
+  ) )
+)

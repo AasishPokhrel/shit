@@ -1,0 +1,4 @@
+These are images containing glyphs of font.
+They expectde to be in RGBA pixel format and any SDL-loabale file format.
+Glyphs themselves and charsets described in data/fonts/*.stf files.
+

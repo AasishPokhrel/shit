@@ -1,0 +1,22 @@
+(supertux-sprite
+      (action
+         (fps 15)
+         (name "default")
+         (images "orange-0.png"
+                 "orange-1.png"
+                 "orange-2.png"
+                 "orange-3.png"
+                 "orange-4.png"
+                 "orange-2.png"
+                 "orange-1.png"
+                 "orange-0.png"
+                 "orange-0.png"
+                 "orange-0.png"
+                 ))
+      (action
+         (name "empty")
+         (surfaces
+          (surface
+           (diffuse-texture (file "orange_empty.png"))
+           (displacement-texture (file "displacement.png")))))
+)

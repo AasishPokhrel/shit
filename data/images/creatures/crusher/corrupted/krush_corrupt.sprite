@@ -1,0 +1,35 @@
+(supertux-sprite
+ (action
+  (name "idle")
+  (hitbox 8 8 64 64)
+  (images "krush_corrupt_main.png"
+  )
+ )
+ (action
+  (name "crushing")
+  (hitbox 8 8 64 64)
+  (images "krush_corrupt_hit.png"
+  )
+ )
+ (action
+  (name "recovering")
+  (hitbox 8 8 64 64)
+  (images "krush_corrupt_main.png"
+  )
+ )
+ (action
+  (name "whites")
+  (hitbox 8 8 64 64)
+  (images "krush_corrupt_whites.png")
+ )
+ (action
+  (name "lefteye")
+  (hitbox 8 8 64 64)
+  (images "krush_corrupt_eyes.png")
+ )
+ (action
+  (name "righteye")
+  (hitbox 8 8 64 64)
+  (images "krush_corrupt_eyes.png")
+ )
+)

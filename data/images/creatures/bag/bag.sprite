@@ -1,0 +1,61 @@
+(supertux-sprite
+ (action
+  (name "left-up")
+  (loops 1)
+  (fps 25)
+  (hitbox 6 15 32 32)
+  (images "bag-land-2.png"
+          "bag-land-1.png"
+          "bag-land-0.png"
+          "bag-bounce-1.png"
+          "bag-bounce-2.png"
+          "bag-bounce-2.png"
+          "bag-bounce-1.png"
+          "bag-bounce-0.png"))
+
+ (action
+  (name "right-up")
+  (loops 1)
+  (fps 25)
+  (hitbox 6 15 32 32)
+  (mirror-action "left-up"))
+
+ (action
+  (name "left-down")
+  (hitbox 6 15 32 32)
+  (images "bag-land-3.png"))
+
+ (action
+  (name "right-down")
+  (hitbox 6 15 32 32)
+  (mirror-action "left-down"))
+
+ (action
+  (name "left-middle")
+  (hitbox 6 15 32 32)
+  (images "bag-land-3.png"))
+
+ (action
+  (name "right-middle")
+  (hitbox 6 15 32 32)
+  (mirror-action "left-middle"))
+
+ (action
+  (name "iced-left")
+  (hitbox 1 0 45 64)
+  (images "bag-bounce-0.png"))
+
+ (action
+  (name "iced-right")
+  (hitbox 1 0 45 64)
+  (mirror-action "iced-left"))
+
+ (action
+  (name "editor-left")
+  (hitbox 6 15 32 32)
+  (images "bag-bounce-0.png"))
+
+ (action
+  (name "editor-right")
+  (mirror-action "editor-left"))
+)

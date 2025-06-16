@@ -1,0 +1,6 @@
+(supertux-sprite
+    (action
+      (name "default")
+      (images "retro_info.png")
+    )
+)

@@ -1,0 +1,14 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (images "earth.png")
+ )
+ (action
+  (name "display")
+  (images "earth_display.png")
+ )
+ (action
+  (name "outline")
+  (images "o_outline.png")
+ )           
+)

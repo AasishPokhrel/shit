@@ -1,0 +1,182 @@
+.TH SUPERTUX2 6 "December 20, 2021" "SuperTux 0.6.3" "Games"
+.SH NAME
+supertux2 \- SuperTux, a classic jump'n'run platformer featuring Tux
+.SH SYNOPSIS
+.B supertux2
+.RI [ options ]
+.br
+.B supertux2
+.RI [ options ] " level.stl"
+.br
+.B supertux2
+.RI [ options ] " worldmap.stwm"
+.br
+.SH DESCRIPTION
+SuperTux is a classic style 2D platform game.
+Run and jump through multiple worlds, fighting off enemies by jumping
+on them, bumping them from below or tossing objects at them, grabbing
+power-ups and other stuff on the way.
+.SH OPTIONS
+These programs follow the usual GNU command line syntax, with long
+options starting with two dashes (`-').
+A summary of options is included below.
+.TP
+.B \-h, \-\-help
+Show this help message
+.TP
+.B \-v, \-\-version
+Show SuperTux version and quit
+.TP
+.B \-\-verbose
+Print verbose messages
+.TP
+.B \-\-debug
+Print extra verbose messages
+.TP
+.B \-\-print\-datadir 
+Print SuperTux's primary data directory.
+.TP
+.B \-\-acknowledgements
+Print the licenses of libraries used by SuperTux.
+.TP
+.B \-f, \-\-fullscreen
+Run in fullscreen mode
+.TP
+.B \-w, \-\-window
+Run in window mode
+.TP
+.B \-g, \-\-geometry WIDTHxHEIGHT
+Run SuperTux in given resolution (eg. \-g 800x600) 
+.TP
+.B \-a, \-\-aspect WIDTH:HEIGHT
+Run SuperTux with given aspect ratio (eg. \-a 4:3) 
+.TP
+.B \-d, \-\-default
+Reset video settings to default values (\-g 800x600 \-a auto \-w) 
+.TP
+.B \-\-renderer RENDERER
+Render the game using the specified video renderer. Valid values are sdl, opengl20, opengl33, and auto (the default). 
+.TP
+.B \-\-disable\-sound, \-\-disable\-sfx
+Disable sound effects
+.TP
+.B \-\-disable\-music
+Disable music
+.TP
+.B \-\-edit\-level
+Open given level in editor
+.TP
+.B \-\-resave
+Loads given level and saves it
+.TP
+.B \-\-show\-fps
+Display framerate in levels
+.TP
+.B \-\-no\-show\-fps
+Do not display framerate in levels
+.TP
+.B \-\-show\-pos
+Display player's current position
+.TP
+.B \-\-no\-show\-pos
+Do not display player's position
+.TP
+.B \-\-christmas
+Enable Christmas mode outside Christmas times
+.TP
+.B \-\-no\-christmas
+Disable Christmas mode during Christmas times
+.TP
+.B \-\-developer
+Enable developer features
+.TP
+.B \-s, \-\-debug\-scripts
+Enable script debugger.
+.TP
+.B \-\-spawn\-pos X,Y
+Where in the level to spawn Tux. Only used if [level] is specified.
+.TP
+.B \-\-sector SECTOR
+Spawn Tux in SECTOR
+.TP
+.B \-\-spawnpoint SPAWNPOINT
+Spawn Tux in SPAWNPOINT
+.TP
+.B \-\-record\-demo FILE LEVEL
+Record a demo to FILE
+.TP
+.B \-\-play\-demo FILE LEVEL
+Play a recorded demo
+.TP
+.B \-\-datadir DIR
+Set the directory for the games datafiles
+.TP
+.B \-\-userdir DIR
+Set the directory for user data (savegames, etc.)
+.TP
+.B \-\-repository\-url URL
+Set the URL to the Add-On repository
+.SH ENVIRONMENT
+.TP
+.B SUPERTUX2_USER_DIR
+Directory for user data (savegames, etc.)
+.TP
+.B SUPERTUX2_DATA_DIR
+Directory for the games datafiles
+.SH FILES
+.TP
+.B ~/.local/share/supertux2, ~/.supertux2
+Contains configuration and savegames.
+Also acts as an overlay of the SuperTux game data path: 
+Files placed here will override or supplement game data files.
+.SH EXAMPLES
+To play level /tmp/mylevel.stl in a window of size 800x600, run 
+the program like this:
+.IP
+.B supertux2 --window --geometry 800x600 /tmp/mylevel.stl
+.LP
+To play a previously recorded demo /tmp/mylevel.demo of level 
+/tmp/mylevel.stl, run SuperTux like this: 
+.IP
+.B supertux2 --play-demo /tmp/mylevel.demo /tmp/mylevel.stl
+.LP
+.PP
+Custom-made levels can be conveniently stored in the overlay data folder. 
+.PP
+.TP
+.B ~/.supertux2/levels/sample_collection/level01.stl
+.nf
+(supertux-level
+  (version 2)
+  (name (_ "Sample Level"))
+  (author "Myself")
+  ...
+.fi
+.PP
+Make sure to also create an "info" file, so the collection will be 
+recognized by SuperTux.
+.TP
+.B ~/.supertux2/levels/sample_collection/info
+.nf
+;SuperTux-Level-Subset
+(supertux-level-subset
+  (title "Sample Collection")
+  (description "")
+)
+.fi
+.PP
+For easier distribution, the level collection can be bundled in a Zip
+archive.
+.PP
+.TP
+.B ~/.supertux2/sample_collection.zip
+.nf
+levels/sample_collection/info
+levels/sample_collection/level01.stl
+ ...
+.fi
+.SH BUGS
+This is a development version, so expect plenty of bugs.
+.SH AUTHOR
+This manual page was written by the SuperTux Devel Team 
+and is placed in the public domain.

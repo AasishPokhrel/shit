@@ -1,0 +1,35 @@
+(supertux-sprite
+  (action
+    (hitbox 0 0 31.8 31.8)
+    (name "idle")
+    (images 
+      "idle-0.png"
+      "idle-1.png"
+      "idle-2.png"
+      "idle-3.png"
+      )
+    )
+  (action
+    (hitbox 0 0 31.8 31.8)
+    (name "vanishing")
+    (images 
+      "vanishing-0.png"
+      "vanishing-1.png"
+      "vanishing-2.png"
+      "vanishing-3.png"
+      )
+    )
+  (action
+    (hitbox 0 0 31.8 31.8)
+    (name "warping")
+    (images 
+      "warping-0.png"
+      "warping-1.png"
+      "warping-2.png"
+      "warping-3.png"
+      "warping-4.png"
+      "warping-5.png"
+      )
+    )
+  )
+

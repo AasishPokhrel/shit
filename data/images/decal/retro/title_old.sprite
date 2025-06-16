@@ -1,0 +1,8 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (images "title_old-0.png"
+			"title_old-1.png"
+			"title_old-2.png")
+  )
+)

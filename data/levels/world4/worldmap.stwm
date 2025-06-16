@@ -1,0 +1,9 @@
+(supertux-level
+  (version 3)
+  (name (_ "Mountain Peak"))
+  (author "Nobody!")
+  (contact "https://supertux.org")
+  (license "CC-BY-SA 4.0 International")
+  (icon "/images/worlds/icon/mountainpeak.png")
+  (icon-locked "/images/worlds/locked/mountainpeak.png")
+)

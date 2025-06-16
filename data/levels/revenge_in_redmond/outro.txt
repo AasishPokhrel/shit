@@ -1,0 +1,45 @@
+(supertux-text			
+  (background	"retro/intro.jpg")
+  (music	"music/retro/theme_old.music")
+  (text "-Where Is Everyone?
+
+	Tux ran into the castle's throne room,
+	frantically searching for the penguin girl Gown.
+	
+	Alas, he found neither Gown, nor the pilot
+	of the helicopter there, but instead, a statue.
+	
+	It depicted a scally creature with crossed arms.
+	The pedestal it resided on was inscribed
+	with the word \"Nolok\". Was it a name?
+	
+	He was unsure who or what
+	this statue was depicting.
+	
+	All of a sudden, Tux remembered...
+	
+	He and Penny were ambushed
+	by this exact creature,
+	during their picnic on the ice fields!
+	
+	Tux opened his eyes. He was back
+	at the ice fields near the shore.
+	Penny, however, was gone.
+	Shocked by this, he began looking around,
+	but all he could find was a note...
+	
+	...from Nolok.
+
+
+
+
+
+
+
+
+
+
+
+
+-The End
+ Or rather, the beginning...?") )

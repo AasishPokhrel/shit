@@ -1,0 +1,55 @@
+(supertux-sprite
+ (action
+  (name "left")
+  (fps 10.0)
+  (hitbox 3 26 36 40)
+  (images "juicebox1.png"
+          "juicebox2.png"
+          "juicebox3.png"
+          "juicebox4.png"
+	  "juicebox6.png"
+          ))
+
+ (action
+  (name "right")
+  (fps 10.0)
+  (hitbox 3 26 36 40)
+  (mirror-action "left"))
+
+ (action
+  (name "ticking-left")
+  (fps 4.0)
+  (hitbox 3 26 36 40)
+  (images "juicebox_hit_1.png"
+          "juicebox_hit_2.png"
+          "juicebox_hit_3.png"
+          "juicebox_hit_4.png"
+          "juicebox_hit_5.png"
+          ))
+
+ (action
+  (name "ticking-right")
+  (fps 4.0)
+  (hitbox 3 26 36 40)
+  (mirror-action "ticking-left"))
+
+ (action
+  (name "explosion")
+  (fps 5.0)
+  (hitbox 3 26 36 40)
+  (images "sparkle-1.png"
+          "sparkle-2.png"
+          "sparkle-3.png"
+          "sparkle-4.png"
+          "sparkle-5.png"
+          ))
+ (action
+  (name "iced-left")
+  (hitbox 3 26 36 40)
+  (images "juicebox-freeze.png"))
+
+ (action
+  (name "iced-right")
+  (hitbox 3 26 36 40)
+  (mirror-action "iced-left")
+  ))

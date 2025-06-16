@@ -1,0 +1,30 @@
+(supertux-sprite
+      (action 
+          (name "default")
+          (fps 15.0)
+          (images "coin-0.png"
+                  "coin-1.png"
+                  "coin-2.png"
+                  "coin-3.png"
+                  "coin-4.png"
+                  "coin-5.png"
+                  "coin-6.png"
+                  "coin-7.png"
+                  "coin-8.png"
+                  "coin-9.png"
+                  "coin-10.png"
+                  "coin-11.png"
+                  "coin-12.png"
+                  "coin-13.png"
+                  "coin-14.png"
+                  "coin-15.png"))
+      (action
+          (name "still")
+          (images "coin-0.png"))
+      (action
+          (name "editor-path")
+          (images "path_coin.png"))
+      (action
+          (name "editor-heavy")
+          (images "heavy_coin.png"))
+)

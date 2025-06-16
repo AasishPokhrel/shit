@@ -1,0 +1,41 @@
+(supertux-sprite
+  (action
+    (name "piece-0")
+    (hitbox 0 0 8 8)
+    (images 
+      "corrupted_rock-0.png"
+    )
+  )
+  
+  (action
+    (name "piece-1")
+    (hitbox 0 0 10 10)
+    (images 
+      "corrupted_rock-1.png"
+    )
+  )
+
+  (action
+    (name "piece-2")
+    (hitbox 0 0 16 16)
+    (images 
+      "corrupted_rock-2.png"
+    )
+  )
+
+  (action
+    (name "piece-3")
+    (hitbox 0 0 8 8)
+    (images 
+      "corrupted_rock-3.png"
+    )
+  )
+
+  (action
+    (name "piece-4")
+    (hitbox 0 0 10 10)
+    (images 
+      "corrupted_rock-4.png"
+    )
+  )
+)

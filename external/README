@@ -1,0 +1,18 @@
+findlocale/
+ * findlocale-0.46.tar.gz from http://icculus.org/~aspirin/findlocale/
+
+SDL_SavePNG/
+ * https://github.com/driedfruit/SDL_SavePNG
+
+SDL_ttf/
+ * SDL_ttf upstream is hg, this repository is based on a hg->git conversion done with:
+
+     hg clone https://hg.libsdl.org/SDL_ttf/ SDL_ttf.hg
+     mkdir SDL_ttf.git
+     cd SDL_ttf.git
+     git init
+     hg-fast-export -r ../SDL_ttf.hg
+     git checkout HEAD
+
+
+# EOF #

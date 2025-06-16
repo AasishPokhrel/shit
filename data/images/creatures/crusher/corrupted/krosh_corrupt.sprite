@@ -1,0 +1,35 @@
+(supertux-sprite
+ (action
+  (name "idle")
+  (hitbox 16 16 128 128)
+  (images "krosh_corrupt_main.png"
+  )
+ )
+ (action
+  (name "crushing")
+  (hitbox 16 16 128 128)
+  (images "krosh_corrupt_hit.png"
+  )
+ )
+ (action
+  (name "recovering")
+  (hitbox 16 16 128 128)
+  (images "krosh_corrupt_main.png"
+  )
+ )
+ (action
+  (name "whites")
+  (hitbox 16 16 128 128)
+  (images "krosh_corrupt_whites.png")
+ )
+ (action
+  (name "lefteye")
+  (hitbox 16 16 128 128)
+  (images "krosh_corrupt_eyes.png")
+ )
+ (action
+  (name "righteye")
+  (hitbox 16 16 128 128)
+  (images "krosh_corrupt_eyes.png")
+ )
+)

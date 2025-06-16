@@ -1,0 +1,335 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Nanowarrior, 2022
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2013-08-10 22:58+0000\n"
+"Last-Translator: Nanowarrior, 2022\n"
+"Language-Team: Telugu (http://app.transifex.com/arctic-games/supertux/language/te/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: te\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/levels/world1/23rd_airborne.stl:3
+msgid "23rd Airborne"
+msgstr "23వ వాయుమార్గం"
+
+#: data/levels/world1/23rd_airborne.stl:598
+#: data/levels/world1/between_glaciers.stl:855
+#: data/levels/world1/between_glaciers.stl:863
+#: data/levels/world1/crystal_mine.stl:1535
+#: data/levels/world1/crystal_mine.stl:1543
+#: data/levels/world1/frosted_fields.stl:188
+#: data/levels/world1/path_in_the_clouds.stl:348
+#: data/levels/world1/path_in_the_clouds.stl:1126
+#: data/levels/world1/shattered_bridge.stl:628
+#: data/levels/world1/stone_cold.stl:397 data/levels/world1/worldmap.stwm:229
+msgid "You found a secret area!"
+msgstr "మీరు ఒక రహస్య ప్రాంతాన్ని కనుగొన్నారు!"
+
+#: data/levels/world1/above_arctic_skies.stl:3
+msgid "Above the Arctic Skies"
+msgstr "ఆర్కిటిక్ ఆకాశం పైన"
+
+#: data/levels/world1/above_arctic_skies.stl:162
+msgid ""
+"-Air Flower\n"
+"!images/powerups/airflower/air_flower-0.png\n"
+"#The Air Flower gives Tux the ability to glide in the air for a few seconds, while holding the JUMP Key."
+msgstr "-గాలి పుష్పం\n!images/powerups/airflower/air_flower-0.png\n#జంప్ కీని పట్టుకుని ఉంటే గాలి పువ్వు టక్స్‌కి కొన్ని షనాలు పాటు గాలిలో గ్లైడ్ చేసే సామర్థ్యాన్ని అందిస్తుంది."
+
+#: data/levels/world1/between_glaciers.stl:3
+msgid "Between Two Glaciers"
+msgstr "రెండు హిమానీనదాల మధ్య"
+
+#: data/levels/world1/between_glaciers.stl:108
+msgid ""
+"-Crystals\n"
+"#This level contains four coloured crystals. Can you find them?\n"
+"#\n"
+"#Note: These crystals do not serve any purpose at the moment but they might will in a future release of the game."
+msgstr "-స్ఫటికాలు\n#ఈ స్థాయిలో నాలుగు రంగుల స్ఫటికాలు ఉంటాయి. మీరు వాటిని కనుగొనగలరా?\n#\n#గమనిక: ఈ స్ఫటికాలు ప్రస్తుతానికి ఎటువంటి ప్రయోజనాన్ని అందించవు కానీ అవి ఆట యొక్క భవిష్యత్తు విడుదలలో ఉండవచ్చు."
+
+#: data/levels/world1/castle_of_nolok.stl:3
+msgid "The Castle of Nolok"
+msgstr "నోలోక్ కోట"
+
+#: data/levels/world1/crystal_mine.stl:3
+msgid "The Crystal Mine"
+msgstr "స్ఫటిక గని"
+
+#: data/levels/world1/crystal_mine.stl:686
+msgid "#You have to activate two switches to open this door."
+msgstr "#ఈ తలుపు తెరవడానికి మీరు రెండు స్విచ్‌లను యాక్టివేట్ చేయాలి."
+
+#: data/levels/world1/end_of_tunnel.stl:3
+msgid "End of the Tunnel"
+msgstr "సొరంగం ముగింపు"
+
+#: data/levels/world1/entrance_cave.stl:3
+msgid "Entrance to the Cave"
+msgstr "గుహ ప్రవేశం"
+
+#: data/levels/world1/fork_in_the_road.stl:3
+msgid "A Fork in the Road"
+msgstr "రోడ్డులో ఒక చీలిక"
+
+#: data/levels/world1/fork_in_the_road.stl:84
+msgid ""
+"-Switches\n"
+"!images/objects/switch/switch-0.png\n"
+"!images/objects/pushbutton/pushbutton-0.png\n"
+"#Switches can be used to do all manner of things. Press the UP key to use a switch.\n"
+"#There are also buttons that you can press by jumping on them."
+msgstr "-స్విచ్లు\n!images/objects/switch/switch-0.png\n!images/objects/pushbutton/pushbutton-0.png\n#అన్ని రకాల పనులను చేయడానికి స్విచ్‌లను ఉపయోగించవచ్చు. స్విచ్‌ని ఉపయోగించడానికి UP కీని నొక్కండి.\n#అక్కడ బటన్లు ఉన్నాయి వాటి మీద దూకి నొక్కవచు. "
+
+#: data/levels/world1/fork_in_the_road.stl:93
+msgid ""
+"-Trampolines\n"
+"!images/objects/trampoline/trampoline2-0.png\n"
+"#Trampolines allow Tux to jump to new heights. Hold down the JUMP key while bouncing on the trampoline to launch extra high."
+msgstr "-ట్రామ్పోలిన్లు\n!images/objects/trampoline/trampoline2-0.png\n#ట్రామ్పోలిన్లు టక్స్ కొత్త ఎత్తులకు వెళ్లేందుకు అనుమతిస్తాయి. అదనపు ఎత్తు దూకడాన్నికి ట్రామ్పోలిన్‌పై బౌన్స్ చేస్తున్నప్పుడు జంప్ కీని నొక్కి పట్టుకోండి."
+
+#: data/levels/world1/fork_in_the_road.stl:100
+msgid ""
+"-Climbing\n"
+"#Tux can climb! Press the UP key to start climbing. Press the ACTION key or jump to let go."
+msgstr "-ఎక్కత్తున్నాడు\n#టక్స్ ఎక్కవచ్చు! ఎక్కడం ప్రారంభించడానికి UP కీని నొక్కండి. వదిలివేయడానికి చర్య కీని లేదా జంప్ కీని నొక్కండి."
+
+#: data/levels/world1/fork_in_the_road.stl:106
+msgid ""
+"-Secret Exits\n"
+"#Some level can have multiple exits. They are mostly hidden, so keep an eye out for them.\n"
+"#Maybe they lead you to something special."
+msgstr "-రహస్య నిష్క్రమణలు\n#కొన్ని స్థాయికి బహుళ నిష్క్రమణలు ఉండవచ్చు. అవి ఎక్కువగా దాచబడతాయి, కాబట్టి వాటి కోసం ఒక కన్ను వేసి ఉంచండి.\n#బహుశా అవి మిమ్మల్ని ఏదో ఒక ప్రత్యేకం వైపు నడిపిస్తాయి."
+
+#: data/levels/world1/frosted_fields.stl:3
+msgid "The Frosted Fields"
+msgstr "ఫ్రాస్టెడ్ పోలము"
+
+#: data/levels/world1/frozen_bridge.stl:3
+msgid "Over the Frozen Bridge"
+msgstr "ఘనీభవించిన వంతెనపై"
+
+#: data/levels/world1/ice_in_the_hole.stl:3
+msgid "Ice in the Hole"
+msgstr "రంధ్రంలో మంచు"
+
+#: data/levels/world1/icy_valley.stl:3
+msgid "Icy Valley"
+msgstr "మంచుతో నిండిన లోయ"
+
+#: data/levels/world1/into_stars.stl:3
+msgid "Into the Stars"
+msgstr "నక్షత్రాలలోకి"
+
+#: data/levels/world1/intro.stl:3
+msgid "Picnic With Penny"
+msgstr "పెన్నీతో విహారయాత్ర"
+
+#: data/levels/world1/journey_begins.stl:3
+msgid "The Journey Begins"
+msgstr "ప్రయాణం ప్రారంభమయింది"
+
+#: data/levels/world1/living_inside_fridge.stl:3
+msgid "Living in a Fridge"
+msgstr "ఫ్రిజ్‌లో నివసిస్తున్నారు"
+
+#: data/levels/world1/miyamoto_monument.stl:3
+msgid "Miyamoto Monument"
+msgstr "మియామోటో స్మారక చిహ్నం"
+
+#: data/levels/world1/more_snowballs.stl:3
+msgid "Oh No! More Snowballs!"
+msgstr "అరెరే! మరిన్ని మంచు బంతులు!"
+
+#: data/levels/world1/night_chill.stl:3
+msgid "Night Chill"
+msgstr "రాత్రి చలి"
+
+#: data/levels/world1/or_just_me.stl:3
+msgid "...Or Is It Just Me?"
+msgstr "...లేక నాకేనా?"
+
+#: data/levels/world1/path_in_the_clouds.stl:3
+msgid "A Path in the Clouds"
+msgstr "మేఘాలలో ఒక మార్గం"
+
+#: data/levels/world1/scripts_castle_cutscene.txt:2
+msgid "Tux had reached the end of the castle."
+msgstr "టక్స్ కోట చివరకి చేరుకుంన్నాడు."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:3
+msgid "But to his surprise all he could find was a letter."
+msgstr "కానీ అతనికి ఆశ్చర్యం కలిగింది అతనికి దొరికినదంతా ఒక ఉత్తరం."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:4
+msgid ""
+"A letter from Penny telling Tux that Nolok has taken her to a far forest."
+msgstr "నోలోక్ ఆమెను చాలా దూరం అడవికి తీసుకువెళ్లినట్లు టక్స్‌కు తెలియజేసిన పెన్నీ ఉత్తరం."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:5
+msgid ""
+"Unsure about what Nolok was doing to her, Tux became worried about his "
+"beloved Penny."
+msgstr "నోలోక్ ఆమెకు ఏమి చేస్తున్నాడో తెలియక, టక్స్ తన ప్రియమైన పెన్నీ గురించి ఆందోళన చెందాడు."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:6
+msgid "Until suddenly..."
+msgstr "అకస్మాత్తుగా..."
+
+#: data/levels/world1/scripts_intro.txt:2
+msgid "Somewhere at the shores of Antarctica..."
+msgstr "ఎక్కడో అంటార్కిటికా తీరంలో..."
+
+#: data/levels/world1/scripts_intro.txt:3
+msgid "Tux the penguin was going to meet his friend, Penny, for a picnic."
+msgstr "టక్స్ పెంగ్విన్ తన స్నేహితురాలు పెన్నీని విహారయాత్ర కోసం కలవబోతున్నాడు."
+
+#: data/levels/world1/scripts_intro.txt:4
+msgid "Tux woke up, dizzy, to find that Penny was missing!"
+msgstr "టక్స్ మేల్కొన్నాను, తల తిరుగుతూంది, పెన్నీ తప్పిపోయిందని గుర్తించాడు!"
+
+#: data/levels/world1/scripts_intro.txt:5
+msgid "Tux was starting to become worried. He then saw a letter, and it read:"
+msgstr "టక్స్ ఆందోళన చెందడం ప్రారంభించాడు. అప్పుడు అతను ఒక ఉత్తరాన్ని చూశి, అది చదివాడు:"
+
+#: data/levels/world1/scripts_intro.txt:6
+msgid ""
+"\"Tux, I have kidnapped your beloved Penny and have taken her to my "
+"fortress.\""
+msgstr "\"టక్స్, నేను మీ ప్రియమైన పెన్నీని కిడ్నాప్ చేసాను మరియు ఆమెను నా కోటకు తీసుకువెళ్ళాను.\""
+
+#: data/levels/world1/scripts_intro.txt:7
+msgid "\"The path to my fortress is littered with my minions.\""
+msgstr "\"నా కోటకు దారి నా సేవకులతో నిండిపోయింది.\""
+
+#: data/levels/world1/scripts_intro.txt:8
+msgid "\"You don't have a chance of saving her! Signed, Nolok.\""
+msgstr "\"ఆమెను రక్షించే అవకాశం నీకు లేదు! సంతకం చేశాను, నోలోక్.\""
+
+#: data/levels/world1/scripts_intro.txt:9
+msgid ""
+"Realizing the trouble Penny could be in, Tux became determined to save her."
+msgstr "పెన్నీ పడే ఇబ్బందులను గ్రహించిన టక్స్ ఆమెను రక్షించాలని నిశ్చయించుకున్నాడు."
+
+#: data/levels/world1/scripts_intro.txt:10
+msgid ""
+"Then, Tux saw Nolok's castle in the distance and set off to rescue Penny!"
+msgstr "అప్పుడు, టక్స్ దూరంలో నోలోక్ కోటను చూసి, పెన్నీని రక్షించడానికి బయలుదేరాడు!"
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:2
+msgid "Exhausted from his long walk, Tux decided to take a little break."
+msgstr "తన సుదీర్ఘ నడకతో అలసిపోయిన టక్స్ కొంచెం విరామం తీసుకోవాలని నిర్ణయించుకున్నాడు."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:3
+msgid "But then, all of a sudden he heard a loud roar from a distance."
+msgstr "అయితే అంతలోనే అకస్మాత్తుగా అతనికి దూరం నుంచి పెద్దగా గర్జన వినిపించింది."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:4
+msgid "A yeti seems to have observed him from afar."
+msgstr "ఒక యతి అతనిని దూరం నుండి గమనించినట్లుంది."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:5
+msgid ""
+"Concerned by the yeti's sudden retreat, Tux decided to continue his journey,"
+" ..."
+msgstr "యతి యొక్క ఆకస్మిక తిరోగమనం గురించి ఆందోళన చెందిన టక్స్ తన ప్రయాణాన్ని కొనసాగించాలని నిర్ణయించుకున్నాడు, ..."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:6
+msgid "...while secretly hoping not to run into the yeti again, by any means."
+msgstr "...మళ్ళీ ఏవిధంగానైనా యతిలోకి పరుగెత్తకూడదని రహస్యంగా ఆశిస్తున్నా."
+
+#: data/levels/world1/shattered_bridge.stl:3
+msgid "The Shattered Bridge"
+msgstr "పగిలిన వంతెన"
+
+#: data/levels/world1/somewhat_smaller_bath.stl:3
+msgid "The Somewhat Smaller Bath"
+msgstr "కొంతవరకు చిన్న స్నానం"
+
+#: data/levels/world1/stone_cold.stl:3
+msgid "Stone Cold"
+msgstr "తీవ్రమైన చలి"
+
+#: data/levels/world1/under_the_ice.stl:3
+msgid "Under the Ice"
+msgstr "మంచు క్రింద"
+
+#: data/levels/world1/via_nostalgica.stl:3
+msgid "Via Nostalgica"
+msgstr "వ్యామోహం ద్వారా"
+
+#: data/levels/world1/welcome_antarctica.stl:3
+msgid "Welcome to Antarctica"
+msgstr "అంటార్కిటికాకు స్వాగతం"
+
+#: data/levels/world1/welcome_antarctica.stl:74
+msgid ""
+"-Bonus Blocks\n"
+"!images/objects/bonus_block/full-0.png\n"
+"#Bonus blocks can contain coins, power-ups or special items to help you in your quest.\n"
+"#\n"
+"#Hit them from below to get at their contents."
+msgstr "-బోనస్ దిమ్మెలు\n!images/objects/bonus_block/full-0.png\n#బోనస్ బ్లాక్‌లు మీ అన్వేషణలో మీకు సహాయం చేయడానికి నాణేలు, పవర్-అప్‌లు లేదా ప్రత్యేక అంశాలను కలిగి ఉండవచ్చు.\n#\n#వారి కంటెంట్‌లను పొందడానికి క్రింద నుండి వాటిని కొట్టండి."
+
+#: data/levels/world1/welcome_antarctica.stl:83
+msgid ""
+"-Eggs\n"
+"!images/powerups/egg/egg-shade.png\n"
+"#The egg makes Tux grow larger. Tux can then smash wooden blocks with his head."
+msgstr "-గుడ్లు\n!images/powerups/egg/egg-shade.png\n#గుడ్డు టక్స్‌ను పెద్దవాడిగా చేస్తుంది. టక్స్ తన తలతో చెక్క దిమ్మెలను పగులగొట్టగలడు."
+
+#: data/levels/world1/welcome_antarctica.stl:90
+msgid ""
+"-Checkpoints\n"
+"!images/objects/resetpoints/bell-m.png\n"
+"#Activate the checkpoint. If you die, you can retry the level from here. Every time you retry from a checkpoint, you will lose 10 percent of your coins (at least 25 coins)."
+msgstr "-చెక్ పాయింట్‌లు\n!images/objects/resetpoints/bell-m.png\n#చెక్‌ పాయింట్ సక్రియం చేయండి. మీరు చనిపోతే, మీరు ఇక్కడ నుండి స్థాయిని మళ్లీ ప్రయత్నించవచ్చు. మీరు చెక్‌ పాయింట్ నుండి మళ్లీ ప్రయత్నించిన ప్రతిసారీ, మీరు మీ నాణేలలో 10 శాతం (కనీసం 25 నాణేలు) కోల్పోతారు."
+
+#: data/levels/world1/welcome_antarctica.stl:97
+msgid ""
+"-Running\n"
+"!images/tiles/signs/run.png\n"
+"#The path in front of you is blocked. Gain some speed before jumping to pass over the blocks."
+msgstr "-పరిగెత్తుంన్నాడు\n!images/tiles/signs/run.png\n#మీ ముందున్న దారి మూసుకుపోయింది. దిమ్మెలను దాటడానికి దూకే ముందు కొంత వేగాన్ని పొందండి."
+
+#: data/levels/world1/welcome_antarctica.stl:104
+msgid ""
+"-Fire Flower\n"
+"!images/powerups/fireflower/fire_flower-0.png\n"
+"#The fire flower gives Tux the ability to shoot fireballs."
+msgstr "-అగ్ని పుష్పం\n!images/powerups/fireflower/fire_flower-0.png\n#అగ్ని పుష్పం టక్స్‌కు అగ్ని గోలాలన్ను కాల్చే సామర్థ్యాన్ని ఇస్తుంది."
+
+#: data/levels/world1/welcome_antarctica.stl:111
+msgid ""
+"-Tux Doll\n"
+"!images/powerups/1up/1up.png\n"
+"#The Tux doll gives Tux 100 coins."
+msgstr "-టక్స్ బొమ్మ\n!images/powerups/1up/1up.png\n#టక్స్ బొమ్మ టక్స్ కి 100 నాణేలను ఇస్తుంది."
+
+#: data/levels/world1/welcome_antarctica.stl:118
+msgid ""
+"-Secret Areas\n"
+"#Many levels contain secret areas behind what seems to be plain walls. Look for clues to find them."
+msgstr "-రహస్య ప్రాంతాలు\n#అనేక స్థాయిలలో సాదా గోడల వలె కనిపించే వాటి వెనుక రహస్య ప్రాంతాలను కలిగి ఉంటాయి. వాటిని కనుగొనడానికి ఆధారాల కోసం చూడండి."
+
+#: data/levels/world1/worldmap.stwm:3
+msgid "Icy Island"
+msgstr "మంచుతో కూడిన ద్వీపం"
+
+#: data/levels/world1/yeti_boss.stl:3
+msgid "No More Mr. Ice Guy"
+msgstr "ఇంక మంచు వెతి లేడు"
+
+#: data/levels/world1/yeti_cutscene.stl:3
+msgid "A Yeti in the Distance"
+msgstr "దూరం లో ఒక యతి"

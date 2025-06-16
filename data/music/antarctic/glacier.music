@@ -1,0 +1,5 @@
+(supertux-music
+  (file "glacier.ogg")
+  (loop-begin 12.311)
+  (loop-at 86.154)
+)

@@ -1,0 +1,5 @@
+# STL files are supertux level files, thus do not treat as binary
+*.stl text=auto diff=astextplain
+*.sprite text=auto
+*.stf text=auto
+*.stwm text=auto

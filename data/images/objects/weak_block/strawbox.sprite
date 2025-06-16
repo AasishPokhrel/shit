@@ -1,0 +1,33 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (images 
+      "strawbox-0.png"
+    )
+  )
+  (action
+    (name "burning")
+	(fps 16)
+	(loops 1)
+    (images 
+      "strawbox-1.png"
+	  "strawbox-2.png"
+	  "strawbox-3.png"
+	  "strawbox-4.png"
+	  "strawbox-5.png"
+    )
+  )
+  (action
+    (name "disintegrating")
+	(fps 16)
+	(loops 1)
+    (images 
+      "strawbox-6.png"
+      "strawbox-7.png"
+      "strawbox-8.png"
+      "strawbox-9.png"
+      "strawbox-10.png"
+      "strawbox-11.png"
+    )
+  )
+)

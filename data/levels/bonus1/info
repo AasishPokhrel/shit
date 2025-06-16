@@ -1,0 +1,8 @@
+(supertux-level-subset
+  (title (_ "Bonus Island I"))
+  (description (_ "The first Bonus Island of SuperTux."))
+  (levelset #f)
+  (contrib-type "official")
+  (hide-from-contribs #f)
+  (title-level "")
+)

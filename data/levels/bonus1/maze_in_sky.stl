@@ -1,0 +1,2262 @@
+(supertux-level
+  (version 3)
+  (name (_ "A Maze in the Sky"))
+  (author "Daniel Ward")
+  (license "CC-BY-SA 4.0 International")
+  (target-time 172)
+  (allow-item-pocket "inherit")
+  (icon "")
+  (icon-locked "")
+  (statistics
+    (enable-coins #t)
+    (enable-badguys #f)
+    (enable-secrets #t)
+  )
+  (sector
+    (name "main")
+    (ambient-light
+      (color 1 1 1)
+    )
+    (background
+      (scroll-offset-y 300)
+      (color 1 1 0.7 0.5)
+      (speed 0.01)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/antarctic/snowmountain_panorama.png")
+    )
+    (background
+      (scroll-offset-x 608)
+      (scroll-offset-y -125)
+      (color 1 1 1)
+      (scroll-speed-x -10)
+      (speed 0.05)
+      (image "/images/background/misc/skybox.png")
+      (z-pos -299)
+    )
+    (background
+      (scroll-offset-y 300)
+      (color 0.8 0.9 0.7)
+      (speed 0.04)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/antarctic/ice_mountains.png")
+    )
+    (bonusblock
+      (z-pos 51)
+      (count 3)
+      (sprite "/images/objects/bonus_block/orangeblock.sprite")
+      (x 3136)
+      (y 480)
+    )
+    (bonusblock
+      (z-pos 51)
+      (count 5)
+      (sprite "/images/objects/bonus_block/purpleblock.sprite")
+      (x 1408)
+      (y 64)
+    )
+    (bonusblock
+      (z-pos 51)
+      (count 3)
+      (sprite "/images/objects/bonus_block/orangeblock.sprite")
+      (x 5088)
+      (y 384)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (climbable
+      (width 32)
+      (height 352)
+      (x 1408)
+      (y 224)
+    )
+    (climbable
+      (width 32)
+      (height 288)
+      (x 3648)
+      (y 288)
+    )
+    (climbable
+      (width 32)
+      (height 640)
+      (x 3936)
+      (y 128)
+    )
+    (climbable
+      (width 32)
+      (height 448)
+      (x 5632)
+      (y 384)
+    )
+    (climbable
+      (width 32)
+      (height 416)
+      (x 6016)
+      (y 384)
+    )
+    (climbable
+      (width 32)
+      (height 288)
+      (x 6368)
+      (y 544)
+    )
+    (climbable
+      (width 32)
+      (height 224)
+      (x 6560)
+      (y 544)
+    )
+    (climbable
+      (width 32)
+      (height 256)
+      (x 6752)
+      (y 544)
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16814982992126931176048")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16814982992126931176048")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16814982992126931176048")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16814982992126931176048")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815017902126261850560")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815018632126261850720")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815018632126261850720")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815018632126261850720")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815018632126261850720")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815017902126261850560")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815017902126261850560")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815017902126261850560")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815037132126261884336")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815037612126261886416")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815100812126261874896")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815101022126261874896")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815102422126261886416")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815102422126261886416")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815102422126261886416")
+    )
+    (decal
+      (z-pos 51)
+      (sprite "/images/decal/snow/igloo_fg.png")
+      (x 2336)
+      (y 96)
+    )
+    (decal
+      (z-pos -50)
+      (sprite "/images/decal/snow/igloo_bg.png")
+      (x 2336)
+      (y 96)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (type "cannon")
+      (objects
+        (kamikazesnowball
+          (z-pos 50)
+        )
+      )
+      (direction "left")
+      (gravity #t)
+      (x 3648)
+      (y 128)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (type "cannon")
+      (objects
+        (kamikazesnowball
+          (z-pos 50)
+        )
+      )
+      (direction "right")
+      (gravity #t)
+      (x 2784)
+      (y 192)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (type "cannon")
+      (objects
+        (kamikazesnowball
+          (z-pos 50)
+        )
+      )
+      (direction "right")
+      (gravity #t)
+      (x 5504)
+      (y 608)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (type "cannon")
+      (objects
+        (kamikazesnowball
+          (z-pos 50)
+        )
+      )
+      (direction "left")
+      (gravity #t)
+      (x 6080)
+      (y 608)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (objects
+        (mrbomb
+          (z-pos 50)
+        )
+      )
+      (direction "left")
+      (limit-dispensed-badguys #t)
+      (max-concurrent-badguys 1)
+      (x 4800)
+      (y 192)
+    )
+    (door
+      (z-pos 1)
+      (locked #t)
+      (x 1760)
+      (y 224)
+    )
+    (door
+      (z-pos 1)
+      (locked #f)
+      (x 1920)
+      (y 224)
+    )
+    (firefly
+      (z-pos 0)
+      (x 7584)
+      (y 784)
+    )
+    (gradient
+      (top_color 0.5 0.7 0.6)
+      (bottom_color 0.7 0.8 0.7)
+      (z-pos -301)
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (name "sniper3")
+      (path-ref "gen16815012742126261852480")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (name "sniper1")
+      (path-ref "gen16815012822126261853760")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (name "sniper2")
+      (path-ref "gen16815014162126261853280")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815032162126986958864")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815042082126261887216")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815042342126261883376")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815043072126261885616")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815043432126261887056")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17122520512334213012112")
+    )
+    (invisible_wall
+      (width 32)
+      (height 512)
+      (x 1856)
+      (y -480)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 3264)
+      (y 96)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 5840)
+      (y 464)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 7296)
+      (y 704)
+    )
+    (key
+      (z-pos 50)
+      (x 7576)
+      (y 704)
+    )
+    (mrbomb
+      (z-pos 50)
+      (direction "left")
+      (x 1280)
+      (y 576)
+    )
+    (mrbomb
+      (z-pos 50)
+      (direction "left")
+      (x 3360)
+      (y 576)
+    )
+    (mrbomb
+      (z-pos 50)
+      (direction "left")
+      (x 4576)
+      (y 640)
+    )
+    (mriceblock
+      (z-pos 50)
+      (direction "left")
+      (x 2976)
+      (y 576)
+    )
+    (music
+      (file "/music/antarctic/snowfort.music")
+    )
+    (particles-clouds
+    )
+    (path
+      (name "gen16814982992126931176048")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 640)
+          (y 544)
+        )
+        (node
+          (x 576)
+          (y 480)
+        )
+        (node
+          (x 640)
+          (y 416)
+        )
+        (node
+          (x 704)
+          (y 480)
+        )
+      )
+    )
+    (path
+      (name "gen16814986472126261342992")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 1664)
+          (y 576)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 1664)
+          (y 800)
+          (time 5)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2400)
+          (y 800)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2400)
+          (y 576)
+        )
+      )
+    )
+    (path
+      (name "gen16815004622126261344112")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 3424)
+          (y 448)
+          (time 4)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2848)
+          (y 448)
+        )
+      )
+    )
+    (path
+      (name "gen16815012742126261852480")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 3360)
+          (y 288)
+          (time 2)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 3360)
+          (y 448)
+        )
+      )
+    )
+    (path
+      (name "gen16815012822126261853760")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 3008)
+          (y 448)
+          (time 2)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 3008)
+          (y 288)
+        )
+      )
+    )
+    (path
+      (name "gen16815014162126261853280")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 3136)
+          (y 288)
+          (bezier_after_x 3136)
+          (bezier_after_y 320)
+          (time 2)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 3232)
+          (y 448)
+          (bezier_before_x 3232)
+          (bezier_before_y 416)
+        )
+      )
+    )
+    (path
+      (name "gen16815017902126261850560")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 3104)
+          (y 192)
+        )
+        (node
+          (x 3040)
+          (y 128)
+        )
+        (node
+          (x 3104)
+          (y 64)
+        )
+        (node
+          (x 3168)
+          (y 128)
+        )
+      )
+    )
+    (path
+      (name "gen16815018632126261850720")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 3456)
+          (y 192)
+        )
+        (node
+          (x 3520)
+          (y 128)
+        )
+        (node
+          (x 3456)
+          (y 64)
+        )
+        (node
+          (x 3392)
+          (y 128)
+        )
+      )
+    )
+    (path
+      (name "gen16815032162126986958864")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4960)
+          (y 192)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 4960)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "gen16815034172126261885456")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 5056)
+          (y 864)
+          (time 4)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 5568)
+          (y 864)
+        )
+      )
+    )
+    (path
+      (name "gen16815037132126261884336")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4736)
+          (y 448)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 4736)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "gen16815037612126261886416")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4672)
+          (y 608)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 4672)
+          (y 480)
+        )
+      )
+    )
+    (path
+      (name "gen16815040692126261883696")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6944)
+          (y 864)
+          (time 2)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6944)
+          (y 960)
+        )
+      )
+    )
+    (path
+      (name "gen16815042082126261887216")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6464)
+          (y 544)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6464)
+          (y 1024)
+        )
+      )
+    )
+    (path
+      (name "gen16815042342126261883376")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6656)
+          (y 1024)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6656)
+          (y 544)
+        )
+      )
+    )
+    (path
+      (name "gen16815043072126261885616")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 7136)
+          (y 544)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6848)
+          (y 832)
+        )
+      )
+    )
+    (path
+      (name "gen16815043432126261887056")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6848)
+          (y 544)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 7136)
+          (y 832)
+        )
+      )
+    )
+    (path
+      (name "gen16815100812126261874896")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6656)
+          (y 576)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6656)
+          (y 672)
+        )
+      )
+    )
+    (path
+      (name "gen16815101022126261874896")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6464)
+          (y 576)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6464)
+          (y 672)
+        )
+      )
+    )
+    (path
+      (name "gen16815102422126261886416")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 7008)
+          (y 704)
+        )
+        (node
+          (x 7040)
+          (y 800)
+        )
+        (node
+          (x 6944)
+          (y 768)
+        )
+      )
+    )
+    (path
+      (name "gen17122520512334213012112")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 864)
+          (y 160)
+          (time 2)
+          (easing "EaseCubicInOut")
+        )
+        (node
+          (x 864)
+          (y 480)
+          (time 2)
+        )
+      )
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "plat1")
+      (path-ref "gen16814986472126261342992")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "sniperplat")
+      (path-ref "gen16815004622126261344112")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815034172126261885456")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "endplat")
+      (path-ref "gen16815040692126261883696")
+    )
+    (pushbutton
+      (z-pos -99)
+      (script "tm1.fade(0, 0.3);
+tm1spikes.fade(0, 0.3);
+tm1.set_solid(false);
+tm1spikes.set_solid(false);
+tm2.fade(1, 0.3);
+endplat.start_moving();
+wait(1.3);
+tm2.set_solid(true);
+mediator.set_alpha(0);
+sniper1.stop_moving();
+sniper2.stop_moving();
+sniper3.stop_moving();
+sniperplat.start_moving();")
+      (x 7712)
+      (y 32)
+    )
+    (scripttrigger
+      (width 32)
+      (height 32)
+      (script "tm2.set_alpha(0);")
+      (button #f)
+      (x 160)
+      (y 480)
+    )
+    (scripttrigger
+      (width 48)
+      (height 32)
+      (oneshot #t)
+      (script "Effect.fade_out(2);
+wait(2);
+Level.spawn(\"go-back\", \"main\");")
+      (button #f)
+      (x 7576)
+      (y 704)
+    )
+    (scripttrigger
+      (width 128)
+      (height 32)
+      (script "plat1.start_moving();")
+      (button #f)
+      (x 1664)
+      (y 544)
+    )
+    (spawnpoint
+      (name "main")
+      (x 160)
+      (y 480)
+    )
+    (spiky
+      (z-pos 50)
+      (direction "left")
+      (x 1504)
+      (y 576)
+    )
+    (spiky
+      (z-pos 50)
+      (direction "left")
+      (x 4192)
+      (y 832)
+    )
+    (spiky
+      (z-pos 50)
+      (direction "left")
+      (x 4320)
+      (y 832)
+    )
+    (spiky
+      (z-pos 50)
+      (direction "left")
+      (x 3232)
+      (y 576)
+    )
+    (spiky
+      (z-pos 50)
+      (direction "left")
+      (x 3104)
+      (y 576)
+    )
+    (sspiky
+      (z-pos 50)
+      (direction "left")
+      (x 4288)
+      (y 704)
+    )
+    (sspiky
+      (z-pos 50)
+      (direction "left")
+      (x 4832)
+      (y 544)
+    )
+    (sspiky
+      (z-pos 50)
+      (direction "right")
+      (x 1184)
+      (y 352)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (width 244)
+      (height 33)
+      (tiles -43 0 79 0 79 -241 0 79 0 79 -17 0 130 -223 0 79 0 79 -17 0 129 -223 0 79 0 79 -17 0 129 -223 0 79 0 79 -17 0 129 -223 0 1349 0 1349 -17 0 129 -243 0 129 -243 0 129 -243 0 129 -243 0 4967 -5792 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (width 244)
+      (height 33)
+      (tiles -309 0 130 -243 0 129 -243 0 129 -243 0 129 -243 0 129 -243 0 129 -243 0 129 -243 0 129 -243 0 4967 -5790 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (name "tm1")
+      (width 244)
+      (height 33)
+      (tiles -4 0 212 -4 0 212 -11 0 212 -8 0 212 -27 0 212 -24 0 212 -2 0 212 27 -32 28 29 -7 0 48 -2 212 -6 0 -2 212 -10 0 211 -16 0 211 -44 0 212 -29 0 212 -6 0 213 -4 0 213 -11 0 213 -8 0 212 -27 0 212 -24 0 212 -2 0 212 47 -12 0 47 -3 0 211 -15 0 27 29 -5 0 50 49 -2 212 -6 0 -2 212 -10 0 212 -16 0 212 -44 0 212 -29 0 212 -5 0 27 29 -4 0 27 -11 28 29 -8 0 212 -27 0 212 -24 0 212 -2 0 212 -17 0 212 -16 0 27 29 -3 0 48 51 52 -2 212 -6 0 -2 212 -10 0 212 -16 0 212 -44 0 212 -29 0 212 -4 0 27 -2 28 29 -3 0 47 -6 0 211 -2 0 211 0 47 -8 0 213 -27 0 212 -24 0 212 -2 0 212 -17 0 212 -17 0 27 -5 28 29 -2 212 -6 0 -2 212 27 -6 28 29 -2 0 212 -16 0 212 -44 0 212 -29 0 212 -4 0 211 -2 0 211 -2 0 27 28 29 -5 0 212 -2 0 212 0 27 -8 28 29 -27 0 212 -24 0 212 -2 0 212 -17 0 213 -21 0 48 50 49 -2 212 -6 0 -2 212 47 -5 0 48 47 -2 0 212 -16 0 212 -44 0 212 -29 0 212 -4 0 213 -2 0 213 -2 0 47 48 47 -5 0 212 -2 0 212 -38 0 212 -24 0 212 -2 0 212 -40 0 51 52 -2 212 -6 0 -2 212 -5 0 50 49 27 28 29 212 27 -14 28 29 212 -44 0 212 -29 0 212 -2 0 -11 28 29 -4 0 213 -2 0 213 -22 0 27 -3 28 29 -11 0 212 -24 0 212 -2 0 212 -13 0 211 -13 0 50 49 -12 0 48 -2 212 -6 0 -2 212 -5 0 51 52 47 -2 0 212 -16 0 212 -44 0 212 -29 0 212 -18 0 27 -2 28 29 -38 0 212 -24 0 212 -2 0 212 -13 0 213 0 47 -10 0 48 51 52 -13 0 -2 212 -6 0 -2 212 -4 0 50 49 27 -2 28 29 212 -16 0 213 48 -4 0 48 27 -6 28 29 -30 0 212 -29 0 212 -38 0 83 -2 77 83 -3 0 44 -14 0 212 -24 0 212 27 29 212 211 -5 0 27 -22 28 29 -12 0 -2 212 -6 0 -2 212 -3 0 48 51 52 211 -3 0 212 -16 0 27 29 -4 0 27 29 0 211 -4 0 211 -30 0 212 -29 0 212 -47 0 44 -12 0 213 -13 0 27 -9 28 29 213 50 49 213 212 -4 0 27 29 0 27 28 29 0 27 -4 28 29 0 27 -3 28 29 -5 0 27 29 -11 0 -2 212 -6 0 -2 212 27 -4 28 29 212 -3 0 212 -17 0 211 -4 0 211 -2 0 212 -2 0 50 49 213 -30 0 212 -29 0 212 -45 0 44 -10 0 27 -24 28 29 -4 0 51 52 0 212 -29 0 211 47 -9 0 47 -2 212 -6 0 -2 212 -2 0 47 -3 0 212 -3 0 212 -17 0 213 48 -2 0 48 213 -2 0 212 0 48 51 52 27 -4 28 29 -25 0 212 27 -27 28 29 212 -47 0 44 -11 0 211 -5 0 211 50 49 211 -5 0 -2 211 -13 0 212 -29 0 212 27 28 29 -6 0 27 29 -2 212 -6 0 -2 212 27 28 29 -3 0 212 -3 0 213 -17 0 27 29 -2 0 27 29 -2 0 213 27 -3 28 29 -4 0 27 -4 28 29 -8 0 211 27 -3 28 29 211 -5 0 212 -3 0 211 48 -4 0 48 211 -3 0 211 -3 0 27 -9 28 29 212 -35 0 27 -7 28 29 -15 0 213 -5 0 213 51 52 213 -5 0 213 212 -13 0 212 -29 0 212 -2 0 211 -5 0 211 47 0 -2 212 -6 0 -2 212 50 49 47 -3 0 213 -2 0 27 -5 28 29 0 47 -11 0 211 -2 0 211 -18 0 211 -8 0 212 -2 0 211 50 49 212 -5 0 212 -3 0 212 -6 0 212 27 28 29 212 27 -2 28 29 -2 0 27 -6 28 29 212 -42 0 27 28 29 -3 0 27 -3 28 29 -6 0 27 -14 28 29 212 -13 0 213 211 0 47 -26 0 212 -2 0 212 -5 0 212 -2 0 -2 212 -6 0 -2 212 51 52 27 -6 28 29 -19 0 212 -2 0 212 -18 0 213 -3 0 211 27 -2 28 29 212 -2 0 213 51 52 212 211 27 -2 28 29 212 211 27 29 213 27 -4 28 29 212 0 50 49 212 -3 0 211 -3 0 211 50 49 -3 0 211 212 -59 0 211 0 48 211 50 49 211 48 -8 0 212 -14 0 213 27 -3 28 29 0 27 -4 28 29 0 27 28 29 0 47 -4 0 47 -5 0 212 -2 0 212 -5 0 212 -2 0 -2 212 -6 0 -2 212 47 -28 0 212 -2 0 212 -18 0 27 29 -2 0 212 -3 0 211 213 211 0 27 28 29 213 212 -3 0 211 213 212 211 -4 0 211 -3 0 213 0 51 52 212 -3 0 212 -3 0 213 51 52 -3 0 213 212 -39 0 3161 -19 0 212 -2 0 212 51 52 212 -9 0 212 -19 0 78 -2 83 -2 78 0 -2 78 -2 83 78 27 28 29 -10 0 212 -2 0 212 -5 0 212 -2 0 -2 212 -6 0 -2 212 -29 0 212 27 29 212 3161 -18 0 211 -2 0 213 -3 0 213 0 213 -3 0 47 0 213 -3 0 213 0 -2 213 48 -2 0 48 213 48 -4 0 27 29 213 27 29 48 213 -2 0 27 -6 28 29 212 -29 0 211 -29 0 212 -2 0 212 -2 0 212 -9 0 212 -43 0 212 -2 0 212 -5 0 212 -2 0 -2 212 -6 0 -2 212 -19 0 78 83 78 -7 0 212 50 49 212 -19 0 212 -2 0 27 -45 28 29 212 -2 0 -11 28 29 -15 0 212 -29 0 213 -2 0 212 -2 0 212 0 27 -5 28 29 0 213 -43 0 213 -2 0 212 -5 0 213 47 0 -2 213 -6 0 -2 213 -29 0 212 51 52 212 -3 0 44 -15 0 212 -2 0 211 -35 0 27 -8 28 29 211 212 -4 0 211 -2 0 211 -2 0 47 48 47 -16 0 212 -21 0 27 28 29 -4 0 27 29 -2 0 212 -2 0 212 0 47 -5 0 27 28 29 -6 0 27 -5 28 29 -29 0 27 29 -2 0 212 -6 0 27 -10 28 29 -11 0 27 28 29 -15 0 212 27 29 212 -8 0 27 -4 28 29 -5 0 212 -2 0 212 -42 0 48 50 49 -2 212 -4 0 213 -2 0 213 -2 0 27 28 29 -8 0 27 28 29 -5 0 212 -6 0 27 -14 28 29 -7 0 27 29 0 212 -2 0 212 27 29 -6 0 27 29 -8 0 27 29 50 49 27 -29 28 29 -3 0 213 -17 0 27 29 -11 0 47 -12 0 27 -2 28 29 212 -2 0 212 -5 0 44 -2 0 -2 211 50 49 -2 211 -5 0 212 50 49 212 -43 0 51 52 -2 212 -4 0 27 -2 28 29 -3 0 211 -10 0 211 -6 0 212 -3 0 47 -5 0 27 -7 28 29 -2 0 211 -9 0 27 29 212 27 29 212 47 -4 0 -2 44 -12 0 211 51 52 211 -5 0 48 -3 0 211 -3 0 211 -3 0 211 -3 0 48 -5 0 50 49 -2 0 27 28 29 -18 0 47 -9 0 27 -3 28 29 -11 0 47 -2 0 212 -2 0 212 -8 0 -2 212 51 52 -2 212 -5 0 213 51 52 213 -44 0 48 -2 212 -2 0 48 -2 0 27 29 -4 0 212 -10 0 213 -6 0 212 0 27 28 29 -6 0 211 -9 0 213 -11 0 213 50 49 213 -7 0 44 -11 0 212 -2 0 212 27 -4 28 29 -3 0 212 -3 0 212 -3 0 212 -3 0 27 -4 28 29 51 52 -2 0 211 -20 0 27 29 -5 7026 27 -3 28 29 211 27 -3 28 29 -5 7026 27 -4 28 29 212 27 29 212 27 29 0 44 -4 0 213 212 27 29 212 213 -4 0 27 -3 28 29 -45 0 -2 212 -2 0 48 -3 0 47 -2 0 50 49 212 -9 0 27 28 29 -5 0 213 0 47 -8 0 212 -9 0 27 28 29 -10 0 51 52 -20 0 212 -2 0 212 -9 0 213 27 28 29 212 27 28 29 213 -8 0 27 -3 28 29 212 -28 0 211 -3 0 212 -3 0 211 -12 0 212 50 49 212 -9 0 212 -2 0 212 -7 0 27 29 -37 0 78 -2 83 78 -5 0 -2 212 -2 0 -4 28 29 0 48 51 52 213 -8 0 27 29 0 27 29 -3 0 27 -2 28 29 -8 0 212 -9 0 211 -10 0 44 -23 0 212 -2 0 212 -13 0 213 -14 0 211 50 49 212 3161 -10 0 83 -5 78 83 -10 0 212 -3 0 212 -3 0 212 -12 0 213 51 52 213 -5 0 44 -3 0 212 -2 0 212 -55 0 -2 212 -6 0 27 -4 28 29 -4 0 27 -3 28 29 -3 0 27 -6 28 29 -8 0 212 -9 0 212 -11 0 -2 44 -6 0 50 49 -13 0 212 -2 0 212 -13 0 48 -14 0 212 51 52 212 -28 0 212 -3 0 212 -3 0 212 -12 0 27 -2 28 29 -9 0 212 -2 0 212 -7 0 -2 44 -46 0 -2 212 -11 0 47 -4 0 47 -14 0 27 -4 28 29 -3 0 213 -9 0 213 -19 0 51 52 -13 0 213 50 49 213 -28 0 212 50 49 212 -23 0 27 28 29 -2 0 212 -3 0 212 -3 0 212 -24 0 211 212 27 29 212 211 -6 0 -2 44 -45 0 48 -2 212 -11 0 47 -4 0 47 -19 0 27 -3 28 29 -9 0 27 29 -17 0 48 50 49 48 -11 0 27 29 51 52 27 29 -27 0 213 51 52 213 -3 0 27 28 29 -18 0 47 -2 0 47 213 -3 0 213 -3 0 213 -24 0 -2 212 50 49 -2 212 -40 0 27 -12 28 29 213 212 -11 0 27 -4 28 29 -34 0 27 29 -15 0 27 29 51 52 27 29 -9 0 27 -6 28 29 -26 0 27 -6 28 29 0 27 -26 28 29 -3 0 27 28 29 -20 0 27 29 -2 213 51 52 -2 213 27 -8 28 29 -30 0 211 50 49 -2 0 27 28 29 -2 0 27 29 211 50 49 212 -52 0 27 -31 28 29 -4 0 27 -3 28 29 -59 0 27 -3 28 29 -23 0 27 -6 28 29 -2 211 -2 0 211 0 48 211 -31 0 213 51 52 -3 0 211 -5 0 212 51 52 212 -54 0 211 -2 0 211 -6 0 211 -5 0 211 -6 0 211 -2 0 211 -102 0 211 27 29 211 -2 0 -2 212 -2 0 212 -2 0 212 -31 0 27 -2 28 29 -2 0 212 27 -3 28 29 212 27 29 212 -54 0 212 50 49 212 -2 0 27 -2 28 29 212 48 -3 0 48 212 27 -2 28 29 -2 0 212 50 49 212 -102 0 212 -2 0 212 -2 0 212 213 27 29 212 -2 0 212 -34 0 211 -2 0 212 -5 0 213 -2 0 212 -54 0 213 51 52 213 27 28 29 -3 0 212 27 -3 28 29 212 -3 0 27 28 29 213 51 52 213 -102 0 212 -2 0 212 50 49 212 -3 0 213 27 29 212 -34 0 213 -2 0 213 -8 0 213 -64 0 213 48 -3 0 48 213 -112 0 212 -2 0 212 51 52 212 -6 0 212 -7 0 5400 -2 0 5400 -2 0 5400 -2 0 5400 -16 0 27 -4 28 29 -10 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (name "mediator")
+      (width 244)
+      (height 33)
+      (tiles -241 0 212 -243 0 212 -243 0 212 -243 0 212 -243 0 212 -243 0 212 -243 0 212 -243 0 212 -243 0 212 -243 0 212 -214 0 27 -27 28 29 212 -217 0 211 48 -4 0 48 211 -3 0 211 -3 0 27 -9 28 29 212 -217 0 212 -6 0 212 27 28 29 212 27 -2 28 29 -2 0 27 -6 28 29 212 -215 0 27 29 213 27 -4 28 29 212 0 50 49 212 -3 0 211 -3 0 211 50 49 -3 0 211 212 -215 0 211 -4 0 211 -3 0 213 0 51 52 212 -3 0 212 -3 0 213 51 52 -3 0 -2 212 -215 0 213 48 -2 0 48 213 48 -4 0 27 29 213 27 29 48 213 -2 0 27 -5 28 29 213 212 -243 0 212 -232 0 27 -8 28 29 211 212 -239 0 48 50 49 -2 212 -240 0 51 52 -2 212 -241 0 48 -2 212 -192 0 47 -49 0 -2 212 -233 0 78 -2 0 78 -5 0 -2 212 -242 0 -2 212 -242 0 -2 212 -241 0 48 -2 212 -228 0 27 -12 28 29 213 212 -228 0 211 50 49 -2 0 27 28 29 -2 0 27 29 211 50 49 212 -228 0 213 51 52 -3 0 211 -5 0 212 51 52 212 -228 0 27 -2 28 29 -2 0 212 27 -3 28 29 212 27 29 212 -231 0 211 -2 0 212 -5 0 213 -2 0 212 -231 0 213 -2 0 213 -8 0 213 -230 0 27 -4 28 29 -10 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos -2)
+      (name "tm1spikes")
+      (width 244)
+      (height 33)
+      (tiles -274 0 3182 3172 -243 0 3176 -68 0 1348 -19 0 1348 -153 0 3182 3178 -68 0 79 -19 0 79 -223 0 79 -19 0 79 -2 0 3060 -142 0 1348 -4 0 1348 -72 0 1349 -3 0 1348 -15 0 79 -2 0 3060 -2 0 1348 -129 0 1720 -2 1719 1718 -4 0 1720 1719 2152 -4 0 79 -76 0 79 -15 0 79 -2 0 3060 -2 0 79 -28 0 1348 -8 0 3176 -106 0 79 -16 0 3060 -59 0 1349 -15 0 79 -2 0 3060 -2 0 79 -28 0 79 -8 0 3176 -106 0 79 -16 0 3060 -75 0 79 -2 0 3060 -2 0 79 -28 0 79 -8 0 3177 3172 -105 0 79 -16 0 3060 -49 0 1348 -3 0 1348 -6 0 1348 -8 0 3060 -5 0 79 -2 0 3060 -2 0 79 -28 0 79 -9 0 3177 3172 -104 0 79 -16 0 3060 -35 0 1348 0 1348 -11 0 79 -3 0 3004 3024 -5 0 79 -8 0 3060 0 5402 5403 -2 0 1349 -2 0 3060 -2 0 79 -28 0 79 -10 0 3177 3182 -103 0 79 -16 0 3060 -33 0 1348 0 79 0 79 -11 0 79 -3 0 3027 3015 3024 -4 0 79 -8 0 3060 0 5402 5403 -5 0 3060 -2 0 1349 -28 0 79 -115 0 79 -16 0 3060 -33 0 79 0 2003 1719 2152 -11 0 79 -4 0 3027 3015 3024 -3 0 79 -8 0 3060 0 5402 5403 -5 0 3060 -31 0 79 -10 0 2149 1718 -8 0 3060 -11 0 3060 -82 0 79 -7 0 1348 -8 0 3060 -33 0 2151 1719 2002 -13 0 79 -5 0 3027 2999 -3 0 79 -8 0 3060 0 5402 5403 -5 0 3060 -31 0 79 -10 0 79 -9 0 3060 -11 0 3060 -82 0 79 -7 0 79 -5 0 1348 -2 0 3060 -3 0 1348 -31 0 79 -13 0 1349 -6 0 1349 -3 0 1349 -8 0 3060 0 5402 5403 -5 0 3060 -31 0 79 -10 0 79 -9 0 3060 -11 0 3060 -82 0 1349 -7 0 79 -5 0 79 -2 0 3060 -3 0 79 -31 0 79 -7 0 1348 -25 0 3060 0 5402 5403 -5 0 3060 -15 0 1720 2150 -14 0 79 -10 0 2151 1718 -8 0 3060 -11 0 3060 0 3176 -88 0 79 -5 0 79 -2 0 3060 -3 0 79 -31 0 79 -7 0 79 -5 0 1348 -3 0 1348 -2 0 1348 -3 0 1348 -8 0 3060 0 5402 5403 -5 0 3060 -16 0 79 -14 0 79 -20 0 3060 -11 0 3060 0 3176 -6 0 3176 -14 0 80 -14 0 80 -51 0 79 -5 0 79 -2 0 3061 -3 0 79 -31 0 1349 -7 0 79 -5 0 79 -3 0 79 -2 0 79 -3 0 79 -8 0 3061 0 5402 5403 -5 0 3060 -16 0 79 -14 0 79 -20 0 3060 -11 0 3060 0 3177 3182 -2 0 -3 3182 3178 0 3060 -2 0 1348 -2 0 3060 -2 0 1348 -2 0 3060 2151 1718 3006 3024 -6 0 3023 3005 1720 -2 1719 2004 2150 -3 0 1348 -2 0 1348 -43 0 1349 -5 0 1349 -6 0 1349 -32 0 3176 -6 0 1349 -5 0 1349 -3 0 1349 -2 0 1349 -3 0 1349 -17 0 3060 -15 0 1720 2152 -14 0 79 -20 0 3060 -11 0 3060 -10 0 3060 -2 0 79 -2 0 3060 -2 0 79 -2 0 3060 -2 0 3027 3015 3024 -4 0 3023 3016 3028 -4 0 79 -3 0 79 -2 0 79 -89 0 3176 -41 0 3060 -4 0 1348 -26 0 79 -20 0 3060 -11 0 3060 -10 0 3060 -2 0 79 -2 0 3060 -2 0 79 -2 0 3060 -3 0 3027 3015 3024 -2 0 3023 3016 3028 -5 0 79 -3 0 2003 -2 1719 2152 -57 0 1628 1629 -30 0 3177 3172 -40 0 3060 -4 0 79 -9 0 1348 -16 0 1349 -20 0 3060 -11 0 3060 -10 0 3060 -2 0 79 -2 0 3060 -2 0 79 -2 0 3060 -4 0 3027 3015 3024 3023 3016 3028 -6 0 2151 -3 1719 2152 -30 0 5400 0 5400 -27 0 1630 1631 -31 0 3177 3182 -39 0 3060 -4 0 79 -9 0 79 -37 0 3060 -11 0 3060 -10 0 3060 -2 0 79 -2 0 3060 -2 0 79 -2 0 3060 -5 0 3027 3015 3016 3028 -41 0 5400 5404 0 5404 5400 -3 0 5400 0 5400 -32 0 -2 5401 -60 0 3060 -4 0 79 -9 0 79 -27 0 1348 -6 0 1348 -2 0 3060 -11 0 3060 -2 0 1348 -2 0 1348 -4 0 3060 -2 0 79 -2 0 3060 -2 0 79 -2 0 3060 -5 0 3023 3016 3015 3024 -37 0 -4 5400 5404 -3 0 5404 -3 5400 5404 0 5404 -32 0 -2 5405 -5 0 -2 5400 -53 0 3061 -4 0 79 -9 0 79 -27 0 2151 1718 -4 0 1720 2152 -2 0 3060 -11 0 3060 -2 0 79 -2 0 79 -4 0 3060 -2 0 79 -2 0 3061 -2 0 79 -2 0 3060 -4 0 3023 3016 3028 3027 3015 3024 -36 0 -4 5404 -5 0 -3 5404 -4 0 -5 5400 -33 0 -2 5404 -58 0 79 -9 0 79 -29 0 -4 5401 -4 0 3060 -11 0 3061 -2 0 79 -2 0 79 -4 0 3060 -2 0 79 -5 0 79 -2 0 3061 -3 0 3023 3016 3028 -2 0 3027 3015 3024 -51 0 -5 5404 -3 5400 -11 0 5400 -17 0 5400 -2 0 5400 -11 0 5400 -45 0 79 -9 0 79 -29 0 -4 5405 -4 0 3061 -14 0 79 -2 0 79 -4 0 3061 -2 0 79 -5 0 79 -5 0 3023 3016 3028 -4 0 3027 3015 3024 -30 0 -4 5400 -21 0 -3 5404 -11 0 5404 5400 -15 0 5400 5404 -2 0 5404 5400 -9 0 5400 5404 -45 0 1349 -9 0 1349 -8 0 3182 3172 -42 0 1349 -2 0 1349 -7 0 79 -5 0 79 -5 0 3000 3028 -6 0 3027 2999 -30 0 -4 5404 -36 0 5404 -15 5400 5404 -4 0 5404 -9 5400 5404 -66 0 3176 -53 0 79 -5 0 79 -5 0 1348 -8 0 1348 -71 0 -15 5404 -6 0 -9 5404 -121 0 79 -5 0 79 -5 0 79 -8 0 79 -222 0 79 -5 0 79 -5 0 79 -8 0 79 -2 0 3176 -219 0 79 -5 0 79 -5 0 79 -8 0 79 -2 0 3177 3182 3172 -217 0 79 -5 0 79 -5 0 79 -8 0 79 -4 0 3176 -217 0 1349 -2 0 5400 -2 0 1349 -2 0 5400 -2 0 79 -8 0 79 -20 0)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 2880)
+      (y 384)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 6752)
+      (y 480)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 6560)
+      (y 480)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 6368)
+      (y 480)
+    )
+  )
+  (sector
+    (name "go-back")
+    (init-script "Effect.fade_in(2);")
+    (ambient-light
+      (color 1 1 1)
+    )
+    (background
+      (scroll-offset-y 200)
+      (color 1 1 0.7 0.5)
+      (speed 0.01)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/antarctic/snowmountain_panorama.png")
+    )
+    (background
+      (scroll-offset-x 608)
+      (scroll-offset-y -125)
+      (color 1 1 1)
+      (scroll-speed-x -10)
+      (speed 0.05)
+      (image "/images/background/misc/skybox.png")
+      (z-pos -299)
+    )
+    (background
+      (scroll-offset-y 300)
+      (color 0.8 0.9 0.7)
+      (speed 0.04)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/antarctic/ice_mountains.png")
+    )
+    (brick
+      (sprite "/images/objects/bonus_block/brickIce.sprite")
+      (z-pos 51)
+      (x 5072)
+      (y 592)
+      (breakable #t)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (climbable
+      (width 32)
+      (height 288)
+      (x 3648)
+      (y 288)
+    )
+    (climbable
+      (width 32)
+      (height 640)
+      (x 3936)
+      (y 128)
+    )
+    (climbable
+      (width 32)
+      (height 512)
+      (x 5728)
+      (y 288)
+    )
+    (climbable
+      (width 32)
+      (height 512)
+      (x 6016)
+      (y 288)
+    )
+    (climbable
+      (width 32)
+      (height 256)
+      (x 5920)
+      (y 288)
+    )
+    (climbable
+      (width 32)
+      (height 448)
+      (x 1632)
+      (y 64)
+    )
+    (climbable
+      (width 32)
+      (height 256)
+      (x 5824)
+      (y 288)
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815017902126261850560")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815018632126261850720")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815018632126261850720")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815018632126261850720")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815018632126261850720")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815017902126261850560")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815017902126261850560")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815017902126261850560")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815037132126261884336")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815037612126261886416")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815100812126261874896")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815101022126261874896")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815102422126261886416")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815102422126261886416")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815102422126261886416")
+    )
+    (decal
+      (z-pos 51)
+      (sprite "/images/decal/snow/igloo_fg.png")
+      (x 2336)
+      (y 96)
+    )
+    (decal
+      (z-pos -50)
+      (sprite "/images/decal/snow/igloo_bg.png")
+      (x 2336)
+      (y 96)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (type "cannon")
+      (objects
+        (kamikazesnowball
+          (z-pos 50)
+        )
+      )
+      (direction "right")
+      (gravity #t)
+      (x 5664)
+      (y 608)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (type "cannon")
+      (objects
+        (kamikazesnowball
+          (z-pos 50)
+        )
+      )
+      (direction "left")
+      (gravity #t)
+      (x 4048)
+      (y 416)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (type "cannon")
+      (objects
+        (kamikazesnowball
+          (z-pos 50)
+        )
+      )
+      (direction "left")
+      (gravity #t)
+      (x 4080)
+      (y 512)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 2)
+      (objects
+        (mrbomb
+          (z-pos 50)
+        )
+      )
+      (direction "left")
+      (limit-dispensed-badguys #t)
+      (max-concurrent-badguys 1)
+      (x 4768)
+      (y 416)
+    )
+    (door
+      (z-pos 1)
+      (sector "go-back")
+      (locked #t)
+      (spawnpoint "doorend")
+      (x 1760)
+      (y 224)
+    )
+    (door
+      (z-pos 1)
+      (sector "go-back")
+      (locked #f)
+      (spawnpoint "doorbegin")
+      (x 1920)
+      (y 224)
+    )
+    (gradient
+      (top_color 0.5 0.7 0.6)
+      (bottom_color 0.7 0.8 0.7)
+      (z-pos -301)
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (name "sniper3")
+      (path-ref "gen16815012742126261852480")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (name "sniper1")
+      (path-ref "gen16815012822126261853760")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815032162126986958864")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815042082126261887216")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815042342126261883376")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815043072126261885616")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815043432126261887056")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17122556612333488841984")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17122556892333488848928")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17122562982334255676480")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17122570302334255678496")
+    )
+    (hurting_platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17122570622334255676256")
+    )
+    (invisible_wall
+      (width 32)
+      (height 512)
+      (x 1856)
+      (y -480)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 3456)
+      (y 144)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 7296)
+      (y 704)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 3280)
+      (y 144)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 3104)
+      (y 144)
+    )
+    (mrbomb
+      (z-pos 50)
+      (x 5072)
+      (y 640)
+    )
+    (music
+      (file "/music/antarctic/snowfort.music")
+    )
+    (particles-clouds
+    )
+    (path
+      (name "gen16814986472126261342992")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2400)
+          (y 576)
+          (time 4)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2400)
+          (y 800)
+          (time 10)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 1664)
+          (y 800)
+          (time 4)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 1664)
+          (y 576)
+        )
+      )
+    )
+    (path
+      (name "gen16815004622126261344112")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 3424)
+          (y 448)
+          (time 4)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2848)
+          (y 448)
+        )
+      )
+    )
+    (path
+      (name "gen16815012742126261852480")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 3360)
+          (y 512)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 3360)
+          (y 736)
+        )
+      )
+    )
+    (path
+      (name "gen16815012822126261853760")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 3040)
+          (y 512)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 3040)
+          (y 736)
+        )
+      )
+    )
+    (path
+      (name "gen16815017902126261850560")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 3104)
+          (y 192)
+        )
+        (node
+          (x 3040)
+          (y 128)
+        )
+        (node
+          (x 3104)
+          (y 64)
+        )
+        (node
+          (x 3168)
+          (y 128)
+        )
+      )
+    )
+    (path
+      (name "gen16815018632126261850720")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 3456)
+          (y 192)
+        )
+        (node
+          (x 3520)
+          (y 128)
+        )
+        (node
+          (x 3456)
+          (y 64)
+        )
+        (node
+          (x 3392)
+          (y 128)
+        )
+      )
+    )
+    (path
+      (name "gen16815032162126986958864")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4896)
+          (y 256)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 4896)
+          (y 608)
+        )
+      )
+    )
+    (path
+      (name "gen16815034172126261885456")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 5024)
+          (y 864)
+          (time 4)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 5680)
+          (y 864)
+        )
+      )
+    )
+    (path
+      (name "gen16815037132126261884336")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4736)
+          (y 448)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 4736)
+          (y 640)
+        )
+      )
+    )
+    (path
+      (name "gen16815037612126261886416")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4672)
+          (y 608)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 4672)
+          (y 480)
+        )
+      )
+    )
+    (path
+      (name "gen16815040692126261883696")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6944)
+          (y 864)
+          (time 2)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6944)
+          (y 960)
+        )
+      )
+    )
+    (path
+      (name "gen16815042082126261887216")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6464)
+          (y 544)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6464)
+          (y 1024)
+        )
+      )
+    )
+    (path
+      (name "gen16815042342126261883376")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6656)
+          (y 1024)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6656)
+          (y 544)
+        )
+      )
+    )
+    (path
+      (name "gen16815043072126261885616")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 7136)
+          (y 544)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6848)
+          (y 832)
+        )
+      )
+    )
+    (path
+      (name "gen16815043432126261887056")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6848)
+          (y 544)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 7136)
+          (y 832)
+        )
+      )
+    )
+    (path
+      (name "gen16815100812126261874896")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6656)
+          (y 576)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6656)
+          (y 672)
+        )
+      )
+    )
+    (path
+      (name "gen16815101022126261874896")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 6464)
+          (y 576)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6464)
+          (y 672)
+        )
+      )
+    )
+    (path
+      (name "gen16815102422126261886416")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 7008)
+          (y 704)
+        )
+        (node
+          (x 7040)
+          (y 800)
+        )
+        (node
+          (x 6944)
+          (y 768)
+        )
+      )
+    )
+    (path
+      (name "gen17122545752333446245360")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 5968)
+          (y 960)
+          (time 2)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 6112)
+          (y 1056)
+        )
+      )
+    )
+    (path
+      (name "gen17122556612333488841984")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4416)
+          (y 608)
+          (time 2)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 4416)
+          (y 832)
+        )
+      )
+    )
+    (path
+      (name "gen17122556892333488848928")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 4096)
+          (y 832)
+          (time 2)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 4096)
+          (y 608)
+        )
+      )
+    )
+    (path
+      (name "gen17122562982334255676480")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 3200)
+          (y 736)
+          (time 3)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 3200)
+          (y 512)
+        )
+      )
+    )
+    (path
+      (name "gen17122570302334255678496")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 1888)
+          (y 640)
+          (time 2)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 1888)
+          (y 864)
+        )
+      )
+    )
+    (path
+      (name "gen17122570622334255676256")
+      (path
+        (mode "pingpong")
+        (adapt_speed #f)
+        (node
+          (x 2176)
+          (y 800)
+          (time 2)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 2176)
+          (y 576)
+        )
+      )
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "finalmovingguy")
+      (path-ref "gen16814986472126261342992")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (name "sniperplat")
+      (path-ref "gen16815004622126261344112")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen16815034172126261885456")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (name "endplat")
+      (path-ref "gen16815040692126261883696")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17122545752333446245360")
+      (sprite "/images/objects/flying_platform/flying_platform.sprite")
+    )
+    (pushbutton
+      (z-pos -99)
+      (script "tm1.fade(0, 0.3);
+tm1spikes.fade(0, 0.3);
+tm1.set_solid(false);
+tm1spikes.set_solid(false);
+tm2.fade(1, 0.3);
+endplat.start_moving();
+wait(1.3);
+tm2.set_solid(true);
+mediator.set_alpha(0);
+sniper1.stop_moving();
+sniper2.stop_moving();
+sniper3.stop_moving();
+sniperplat.start_moving();")
+      (x 7712)
+      (y 32)
+    )
+    (scripttrigger
+      (width 128)
+      (height 32)
+      (script "finalmovingguy.start_moving();")
+      (button #f)
+      (x 2400)
+      (y 544)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 272)
+      (x 2048)
+      (y 48)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 256)
+      (x 2592)
+      (y 32)
+    )
+    (spawnpoint
+      (name "main")
+      (x 7584)
+      (y 768)
+    )
+    (spawnpoint
+      (name "doorend")
+      (x 1928)
+      (y 256)
+    )
+    (spawnpoint
+      (name "doorbegin")
+      (x 1768)
+      (y 256)
+    )
+    (spawnpoint
+      (x 4832)
+      (y 560)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (width 244)
+      (height 35)
+      (tiles -43 0 79 0 79 -241 0 79 0 79 -5 0 4336 -11 0 130 -223 0 79 0 79 -5 0 3060 -11 0 129 -223 0 79 0 79 -5 0 3060 -11 0 129 -223 0 79 0 79 -5 0 3060 -11 0 129 -50 0 1608 1609 -171 0 1349 0 1349 -5 0 3060 -11 0 129 -50 0 1610 1611 -179 0 3060 -11 0 129 -231 0 3060 -11 0 129 -231 0 3060 -11 0 129 -231 0 3060 -11 0 4967 -34 0 1348 -3 0 1348 -192 0 3060 -41 0 1348 -4 0 79 -3 0 79 -4 0 1348 -187 0 3060 -41 0 79 -4 0 79 -3 0 79 -4 0 79 -187 0 3060 -41 0 79 -4 0 79 -3 0 79 -4 0 79 -187 0 3060 -41 0 2151 -4 1719 2152 -3 0 2151 -4 1719 2152 -187 0 3060 -48 0 5404 -194 0 3061 -748 0 1348 -243 0 79 -234 0 1348 -8 0 79 -234 0 79 -8 0 79 -234 0 79 -8 0 79 -234 0 79 -8 0 79 -234 0 79 -8 0 79 -234 0 79 -8 0 1349 -234 0 79 -243 0 1349 -1892 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (width 244)
+      (height 35)
+      (tiles -309 0 130 -243 0 129 -243 0 129 -243 0 129 -243 0 129 -243 0 129 -243 0 129 -243 0 129 -243 0 4967 -6278 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (name "mediator")
+      (width 244)
+      (height 35)
+      (tiles -241 0 212 -243 0 212 -243 0 212 -243 0 212 -243 0 212 -243 0 212 -243 0 212 -243 0 212 -243 0 212 -243 0 212 -214 0 27 -27 28 29 212 -217 0 211 48 -4 0 48 211 -3 0 211 -3 0 27 -9 28 29 212 -217 0 212 -6 0 212 27 28 29 212 27 -2 28 29 -2 0 27 -6 28 29 212 -215 0 27 29 213 27 -4 28 29 212 0 50 49 212 -3 0 211 -3 0 211 50 49 -3 0 211 212 -215 0 211 -4 0 211 -3 0 213 0 51 52 212 -3 0 212 -3 0 213 51 52 -3 0 -2 212 -215 0 213 48 -2 0 48 213 48 -4 0 27 29 213 27 29 48 213 -2 0 27 -5 28 29 213 212 -243 0 212 -232 0 27 -8 28 29 211 212 -239 0 48 50 49 -2 212 -240 0 51 52 -2 212 -241 0 48 -2 212 -192 0 47 -49 0 -2 212 -233 0 78 83 3161 78 -5 0 -2 212 -242 0 -2 212 -242 0 -2 212 -241 0 48 -2 212 -228 0 27 -12 28 29 213 212 -228 0 211 50 49 -2 0 27 28 29 -2 0 27 29 211 50 49 212 -228 0 213 51 52 -3 0 211 -5 0 212 51 52 212 -228 0 27 -2 28 29 -2 0 212 27 -3 28 29 212 27 29 212 -231 0 211 -2 0 212 -5 0 213 -2 0 212 -231 0 213 -2 0 213 -8 0 213 -230 0 27 -4 28 29 -209 0 47 -2 0 47 -2 0 47 -2 0 47 -2 0 47 -18 0 47 -208 0 27 -34 28 29 -13 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos -2)
+      (name "tm1spikes")
+      (width 244)
+      (height 35)
+      (tiles -88 0 -4 5401 -182 0 3182 3172 -56 0 -4 5405 -3 0 1348 -4 0 1348 -4 0 1348 -4 0 1348 -3 0 1348 -160 0 3176 -60 0 2151 1720 1719 2152 -4 0 79 -4 0 79 -4 0 2151 -3 1719 2152 -5 0 1348 -153 0 3182 3178 -68 0 79 -4 0 79 -14 0 79 -2 0 4336 -220 0 79 -4 0 79 -14 0 79 -2 0 3060 -142 0 1348 -4 0 1348 -72 0 2151 2150 -2 0 2149 2152 -14 0 79 -2 0 3060 -2 0 1348 -129 0 1720 -2 1719 1718 -4 0 1720 1719 2152 -4 0 79 -16 0 4336 -56 0 79 -2 0 79 -15 0 79 -2 0 3060 -2 0 79 -144 0 79 -16 0 3060 -56 0 1349 -2 0 1349 -15 0 79 -2 0 3060 -2 0 79 -37 0 3176 -106 0 79 -16 0 3060 -69 0 4336 -5 0 79 -2 0 3060 -2 0 79 -26 0 1348 -10 0 3177 3172 -11 0 3176 0 4336 -2 0 4336 -2 0 4336 -2 0 4336 -82 0 79 -16 0 3060 -69 0 3060 -5 0 79 -2 0 3060 -2 0 79 -26 0 79 -11 0 3177 3172 -10 0 3176 0 3060 -2 0 3060 -2 0 3060 -2 0 3060 3177 -81 0 79 -16 0 3060 -35 0 1348 0 1348 -17 0 44 -13 0 3060 0 5402 5403 -2 0 1349 -2 0 3060 -2 0 79 -26 0 79 -12 0 3177 3182 -8 0 3182 3178 0 3060 -2 0 3060 -2 0 3060 -2 0 3060 -82 0 79 -16 0 3060 -33 0 1348 0 79 0 79 -12 0 5401 -9 0 5401 -8 0 3060 0 5402 5403 -5 0 3060 -2 0 1349 -26 0 79 -25 0 3060 -2 0 3060 -2 0 3060 -2 0 3060 -82 0 79 -16 0 3060 -33 0 79 0 2003 1719 2152 -7 0 -2 44 -3 0 5405 -2 0 44 -3 0 44 -2 0 5405 -2 0 -2 44 -4 0 3060 0 5402 5403 -5 0 3060 -29 0 79 -25 0 3060 -2 0 3060 -2 0 3060 -2 0 3060 -82 0 79 -7 0 1348 -8 0 3060 -33 0 2151 1719 2002 -19 0 5400 -13 0 3060 0 5402 5403 -5 0 3060 -29 0 79 -25 0 3060 -2 0 3060 -2 0 3060 -2 0 3060 -82 0 79 -7 0 79 -5 0 1348 -2 0 3060 -3 0 1348 -31 0 79 -19 0 80 -13 0 3060 0 5402 5403 -5 0 3060 -29 0 79 -25 0 3060 -2 0 3060 -2 0 3060 -2 0 3060 -82 0 1349 -7 0 79 -5 0 79 -2 0 3060 -3 0 79 -31 0 79 -7 0 1348 -6 5400 80 -4 5400 1348 -4 5400 80 -5 5400 -3 0 3060 0 5402 5403 -5 0 3060 -15 0 2150 -13 0 79 -25 0 3060 -2 0 3060 -2 0 3060 -2 0 3060 0 3176 -88 0 79 -5 0 79 -2 0 3060 -3 0 79 -31 0 79 -7 0 79 -6 5404 1348 -4 5404 1348 -4 5404 1348 -5 5404 -3 0 3060 0 5402 5403 -5 0 3060 -15 0 79 -13 0 79 -25 0 3060 -2 0 3061 -2 0 3061 -2 0 3060 0 3176 -6 0 3176 -14 0 80 -14 0 80 -51 0 79 -5 0 79 -2 0 3061 -3 0 79 -31 0 1349 -7 0 79 -6 0 79 -4 0 79 -4 0 79 -8 0 3061 0 5402 5403 -5 0 3060 -15 0 1349 -13 0 79 -25 0 3060 0 -6 5400 0 3060 0 3177 3182 -2 0 -3 3182 3178 -4 0 1348 -5 0 1348 -3 0 2151 1718 3006 3024 -6 0 3023 3005 1720 -2 1719 2004 2150 -3 0 1348 -2 0 1348 -43 0 1349 -5 0 1349 -6 0 1349 -32 0 3176 -6 0 79 -6 0 79 -2 0 44 0 79 0 44 -2 0 79 -17 0 3060 -29 0 79 -25 0 3060 0 -6 5404 0 3060 -13 0 79 -5 0 79 -5 0 3027 3015 3024 -4 0 3023 3016 3028 -4 0 79 -3 0 79 -2 0 79 -89 0 3176 -6 0 79 -4 0 44 0 79 0 44 -2 0 79 -2 0 44 0 79 0 44 -15 0 3060 -4 0 1348 -9 0 1348 -14 0 1349 -25 0 3060 -8 0 3060 -13 0 79 -5 0 79 -6 0 3027 3015 3024 -2 0 3023 3016 3028 -5 0 79 -3 0 2003 -2 1719 2152 -89 0 3177 3172 -5 0 1349 -6 0 79 -4 0 79 -4 0 79 -17 0 3060 -4 0 79 -9 0 79 -40 0 3060 -8 0 3060 -13 0 79 -5 0 79 -7 0 3027 3015 3024 3023 3016 3028 -6 0 2151 -3 1719 2152 -30 0 5400 0 5400 -60 0 3177 3182 -11 0 79 -4 0 79 -4 0 79 -17 0 3060 -4 0 79 -9 0 79 -40 0 3060 -8 0 3060 -13 0 79 -5 0 79 -8 0 3027 3015 3016 3028 -41 0 5400 5404 0 5404 5400 -3 0 5400 0 5400 -66 0 79 -4 0 79 -4 0 79 -17 0 3060 -4 0 79 -9 0 79 -22 0 1348 -6 0 1348 0 1348 -6 0 1348 0 3060 -8 0 3060 -13 0 79 -5 0 79 -8 0 3023 3016 3015 3024 -37 0 -4 5400 5404 -3 0 5404 -3 5400 5404 0 5404 -66 0 1349 -4 0 1349 -4 0 1349 -17 0 3061 -4 0 79 -9 0 79 -22 0 2151 1718 -4 0 1720 2152 0 2151 1718 -4 0 1720 2152 0 3060 -8 0 3060 -13 0 79 -5 0 79 -7 0 3023 3016 3028 3027 3015 3024 -36 0 -4 5404 -5 0 -3 5404 -4 0 -5 5400 -93 0 79 -9 0 79 -24 0 -4 5401 -5 0 -4 5401 -3 0 3061 -2 0 5400 -2 0 5400 -2 0 3061 -13 0 79 -5 0 79 -6 0 3023 3016 3028 -2 0 3027 3015 3024 -51 0 -5 5404 -3 5400 -11 0 5400 -17 0 -3 5400 -12 0 5400 -45 0 79 -9 0 79 -24 0 -4 5405 -5 0 -4 5405 -6 0 5404 -2 5400 5404 -16 0 79 -5 0 79 -5 0 3023 3016 3028 -4 0 3027 3015 3024 -30 0 -4 5400 -21 0 -3 5404 -11 0 5404 5400 -15 0 5400 -3 5404 5400 -10 0 5400 5404 -45 0 1349 -9 0 1349 -8 0 3182 3172 -34 0 -2 5404 -17 0 79 -5 0 79 -5 0 3000 3028 -6 0 3027 2999 -30 0 -4 5404 -36 0 5404 -15 5400 5404 -3 0 5404 -10 5400 5404 -66 0 3176 -53 0 79 -5 0 79 -5 0 1348 -8 0 1348 -71 0 -15 5404 -5 0 -10 5404 -121 0 79 -5 0 79 -5 0 79 -8 0 79 -222 0 79 -5 0 79 -5 0 79 -8 0 79 -2 0 3176 -219 0 79 -5 0 79 -5 0 79 -8 0 79 -2 0 3177 3182 3172 -217 0 79 -5 0 79 -5 0 79 -8 0 79 -4 0 3176 -217 0 1349 -5 0 1349 -5 0 79 -8 0 79 -215 0 -4 5400 0 -2 5400 5404 -2 5400 5404 -2 5400 5404 -2 5400 5404 -2 5400 1349 -8 5400 1349 -6 5400 -209 0 -4 5404 0 -2 5404 0 -2 5404 0 -2 5404 0 -2 5404 0 -18 5404 -14 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (name "tm1")
+      (width 244)
+      (height 35)
+      (tiles -4 0 212 -4 0 212 -11 0 212 -8 0 212 -16 0 212 -10 0 212 -24 0 212 -2 0 212 27 -32 28 29 -7 0 48 -2 212 -6 0 -2 212 -30 0 -2 212 -19 0 -2 212 -19 0 212 -29 0 212 -6 0 213 -4 0 213 -11 0 213 -8 0 212 -16 0 212 27 29 211 27 -2 28 29 211 27 29 212 -24 0 212 -2 0 212 47 -4 0 211 -27 0 27 29 -5 0 50 49 -2 212 -6 0 -2 212 -30 0 -2 212 -19 0 -2 212 -19 0 212 -29 0 212 -5 0 27 29 -4 0 27 -11 28 29 -8 0 212 -16 0 212 50 49 213 -4 0 213 50 49 212 -24 0 212 -2 0 212 -5 0 213 -28 0 27 29 -3 0 48 51 52 -2 212 -6 0 -2 212 -30 0 -2 212 -19 0 -2 212 -19 0 212 -29 0 212 -4 0 27 -2 28 29 -3 0 47 -6 0 211 -2 0 211 0 47 -8 0 213 -16 0 213 51 52 -6 0 51 52 213 -24 0 212 -2 0 212 -35 0 27 -5 28 29 -2 212 -6 0 -2 212 27 -6 28 29 -22 0 -2 212 -19 0 -2 212 -19 0 212 -29 0 212 -4 0 211 -2 0 211 -2 0 27 28 29 -5 0 212 -2 0 212 0 27 -8 28 29 -16 0 27 29 -8 0 27 29 -24 0 212 -2 0 212 -39 0 48 50 49 -2 212 -6 0 -2 212 47 -5 0 48 211 -22 0 -2 212 -19 0 -2 212 -19 0 212 -29 0 212 -4 0 213 -2 0 213 -2 0 47 48 47 -5 0 212 -2 0 212 -27 0 211 -10 0 211 -24 0 212 -2 0 212 -40 0 51 52 -2 212 -6 0 -2 212 -5 0 50 49 212 -22 0 -2 212 -6 0 211 27 -10 28 29 -2 212 -19 0 212 -29 0 212 -2 0 -11 28 29 -4 0 213 -2 0 213 -22 0 27 -3 28 29 212 -10 0 212 -24 0 212 -2 0 212 -27 0 50 49 -12 0 48 -2 212 -6 0 -2 212 -5 0 51 52 213 -22 0 -2 212 -5 0 48 213 -10 0 50 49 -2 212 -19 0 212 -29 0 212 -18 0 27 -2 28 29 -27 0 212 -10 0 212 -24 0 212 -2 0 212 -26 0 48 51 52 -13 0 -2 212 -6 0 -2 212 -4 0 50 49 27 -20 28 29 48 0 -2 212 0 48 27 -6 28 29 -7 0 51 52 -2 212 -19 0 212 -29 0 212 -49 0 212 -10 0 212 -24 0 212 27 29 212 211 -5 0 27 -22 28 29 -12 0 -2 212 -6 0 -2 212 -3 0 48 51 52 211 -3 0 211 -2 0 211 0 211 50 49 -3 0 50 49 211 -3 0 27 29 0 -2 212 0 27 29 0 211 27 -12 28 29 -2 212 -19 0 212 -29 0 212 -49 0 212 -10 0 213 -13 0 27 -9 28 29 213 50 49 213 212 -4 0 27 28 29 211 47 -7 0 47 211 27 -3 28 29 -5 0 27 29 -11 0 -2 212 -6 0 -2 212 27 -4 28 29 212 -3 0 212 -2 0 212 0 212 51 52 -3 0 51 52 212 -4 0 211 0 -2 212 0 211 -2 0 212 47 -13 0 -2 212 -19 0 212 -29 0 212 -49 0 212 -6 0 27 -24 28 29 -4 0 51 52 0 212 -7 0 212 -9 0 212 -11 0 211 47 -9 0 47 -2 212 -6 0 -2 212 -2 0 47 -3 0 212 -3 0 212 50 49 212 0 212 27 -5 28 29 212 -4 0 213 48 -2 213 48 213 -2 0 213 47 -13 0 -2 213 -19 0 212 27 -27 28 29 212 -49 0 212 -9 0 211 -5 0 211 50 49 211 -5 0 -2 211 -13 0 212 -7 0 213 -9 0 213 -11 0 212 27 28 29 -6 0 27 29 -2 212 -6 0 -2 212 27 28 29 -3 0 212 -3 0 213 51 52 213 0 212 -7 0 212 -4 0 27 -4 28 29 -2 0 27 29 -13 0 27 -5 28 29 -2 0 211 27 -3 28 29 211 -5 0 212 -3 0 211 48 -4 0 48 211 -3 0 211 -3 0 27 -9 28 29 212 -35 0 27 -7 28 29 -5 0 213 -9 0 213 -5 0 213 51 52 213 -5 0 213 212 -13 0 212 -29 0 212 27 29 -6 0 27 29 0 -2 212 -6 0 -2 212 50 49 47 -3 0 213 -2 0 27 -3 28 29 0 213 -7 0 212 48 -5 0 -2 211 0 211 -2 0 211 -14 0 211 -4 0 47 -3 0 212 -2 0 211 50 49 212 -5 0 212 -3 0 212 -6 0 212 27 28 29 212 27 -2 28 29 -2 0 27 -6 28 29 212 -42 0 27 28 29 -3 0 27 28 29 -8 0 27 -14 28 29 212 -13 0 213 211 -28 0 212 -11 0 -2 212 -6 0 -2 212 51 52 27 -6 28 29 -13 0 212 27 28 29 -3 0 -2 212 0 212 -2 0 212 -14 0 213 -3 0 211 27 -2 28 29 212 -2 0 213 51 52 212 211 27 -2 28 29 212 211 27 29 213 27 -4 28 29 212 0 50 49 212 -3 0 211 -3 0 211 50 49 -3 0 211 212 -49 0 211 -9 0 211 0 48 211 50 49 211 48 -8 0 212 -14 0 213 -11 0 47 -10 0 47 -5 0 212 -11 0 -2 212 -6 0 -2 212 47 -22 0 212 50 49 -4 0 -2 212 0 212 -2 0 212 -14 0 27 29 -2 0 212 -3 0 211 213 211 0 27 28 29 213 212 -3 0 211 213 212 211 -4 0 211 -3 0 213 0 51 52 212 -3 0 212 -3 0 213 51 52 -3 0 213 212 -49 0 212 -9 0 212 -2 0 212 51 52 212 -9 0 212 -26 0 128 -16 0 212 27 29 211 -5 0 27 28 29 -2 212 -6 0 -2 212 -23 0 212 51 52 -4 0 -2 213 0 212 27 29 212 3161 -14 0 211 -2 0 213 -3 0 213 0 213 -3 0 47 0 213 -3 0 213 0 -2 213 48 -2 0 48 213 48 -4 0 27 29 213 27 29 48 213 -2 0 27 -6 28 29 212 -29 0 211 -19 0 212 -9 0 212 -2 0 212 -2 0 212 -9 0 212 -15 0 27 -4 28 29 0 27 -2 28 29 0 27 -2 28 29 0 27 -3 28 29 -6 0 212 -2 0 212 -8 0 -2 212 -6 0 -2 212 -23 0 212 27 -6 28 29 0 212 50 49 212 -15 0 212 -2 0 27 -3 28 29 0 27 -3 28 29 0 27 -3 28 29 0 27 -27 28 29 212 -2 0 -11 28 29 -15 0 212 -19 0 212 -9 0 213 -2 0 212 -2 0 212 0 27 -5 28 29 0 213 -43 0 213 -2 0 212 -8 0 -2 213 -6 0 -2 213 -23 0 212 -9 0 212 51 52 212 -15 0 212 -2 0 211 -35 0 27 -8 28 29 211 212 -4 0 211 -2 0 211 -2 0 47 48 47 -16 0 212 -19 0 213 0 27 28 29 -4 0 27 29 -2 0 212 50 49 212 0 47 -5 0 27 28 29 -6 0 27 -2 28 29 -32 0 27 29 -2 0 212 -6 0 27 -12 28 29 -21 0 213 48 -8 0 212 27 29 212 -5 0 27 -4 28 29 -4 0 212 -2 0 212 -42 0 48 50 49 -2 212 -4 0 213 -2 0 213 -2 0 27 28 29 -8 0 27 28 29 -5 0 212 -6 0 27 -14 28 29 -7 0 27 29 48 213 51 52 213 27 29 -6 0 27 29 -8 0 27 28 29 -27 0 27 -3 28 29 -3 0 213 -18 0 7026 -11 0 47 -10 0 27 -8 28 29 212 -2 0 212 -15 0 212 50 49 212 -43 0 51 52 -2 212 -4 0 27 -2 28 29 -3 0 211 -10 0 211 -6 0 212 -3 0 47 -5 0 27 -7 28 29 -2 0 211 -9 0 47 0 27 -3 28 29 -4 0 -2 44 -12 0 27 28 29 -23 0 27 -2 28 29 0 50 49 -2 0 27 28 29 -18 0 7026 -9 0 27 -4 28 29 -2 0 47 -2 0 47 -2 0 211 -8 0 212 -2 0 212 -5 0 -2 211 50 49 -2 211 -4 0 213 51 52 213 -44 0 48 -2 212 -2 0 48 -2 0 27 29 -4 0 212 -10 0 213 -6 0 212 0 27 28 29 -6 0 211 -9 0 213 -22 0 44 -11 0 211 27 -9 28 29 0 27 -2 28 29 0 27 -2 28 29 0 27 -6 28 29 51 52 -2 0 211 -20 0 -3 7026 27 -7 28 29 211 27 -3 28 29 -4 7026 27 29 212 27 29 211 27 -3 28 29 212 27 29 212 27 29 -3 0 213 212 51 52 212 213 -3 0 27 -3 28 29 -45 0 -2 212 -2 0 48 -3 0 47 -2 0 50 49 212 -9 0 27 28 29 -5 0 213 0 47 -8 0 212 -9 0 27 28 29 -32 0 212 -2 0 211 -11 0 27 29 0 27 29 -10 0 27 -3 28 29 212 -28 0 211 -3 0 212 -3 0 211 -7 0 212 50 49 212 -5 0 212 50 49 212 -6 0 213 -2 0 213 -6 0 27 29 -37 0 78 -2 83 78 -5 0 -2 212 -2 0 -4 28 29 0 48 51 52 213 -8 0 27 29 0 27 29 -3 0 27 -2 28 29 -8 0 212 -9 0 211 -7 0 44 -26 0 212 -2 0 212 -28 0 211 50 49 212 3161 -10 0 83 -5 78 83 -10 0 212 -3 0 212 -3 0 212 -7 0 213 51 52 213 -5 0 213 51 52 213 -64 0 -2 212 -6 0 27 -4 28 29 -4 0 27 -3 28 29 -3 0 27 -6 28 29 -8 0 212 -9 0 212 -8 0 -2 44 -24 0 212 -2 0 212 -8 0 47 -4 0 47 -4 0 47 -9 0 212 51 52 212 -28 0 212 -3 0 212 -3 0 212 -7 0 27 -2 28 29 -5 0 27 -2 28 29 -64 0 -2 212 -11 0 47 -4 0 47 -14 0 27 -4 28 29 -3 0 213 -9 0 213 -34 0 213 50 49 213 -28 0 212 50 49 212 -23 0 27 28 29 -2 0 212 -3 0 212 -3 0 212 -12 0 -3 44 -11 0 211 -2 0 211 -53 0 48 -2 212 -11 0 47 -4 0 47 -19 0 27 -3 28 29 -9 0 27 29 -17 0 48 211 48 -12 0 27 29 51 52 27 29 -27 0 213 51 52 213 -3 0 27 28 29 -18 0 47 -2 0 47 213 -3 0 213 -3 0 213 -26 0 212 50 49 212 -40 0 27 -12 28 29 213 212 -11 0 27 -4 28 29 -34 0 27 29 -15 0 27 29 213 27 29 -10 0 27 -6 28 29 -26 0 27 -6 28 29 0 27 -26 28 29 -3 0 27 29 -25 0 213 51 52 213 -40 0 211 50 49 -2 0 27 28 29 -2 0 27 29 211 50 49 212 -52 0 27 -31 28 29 -4 0 27 -3 28 29 -59 0 27 -3 28 29 -26 0 27 -2 28 29 -40 0 213 51 52 -3 0 211 -5 0 212 51 52 212 -54 0 211 -2 0 211 -6 0 211 -5 0 211 -6 0 211 -2 0 211 -78 0 27 -2 28 29 -22 0 -2 211 -41 0 27 -2 28 29 -2 0 212 27 -3 28 29 212 27 29 212 -54 0 212 50 49 212 -2 0 27 -2 28 29 212 48 -3 0 48 212 27 -2 28 29 -2 0 212 50 49 212 -79 0 27 29 -23 0 -2 212 -44 0 211 -2 0 212 -5 0 213 -2 0 212 -54 0 213 51 52 213 27 28 29 -3 0 212 27 -3 28 29 212 -3 0 27 28 29 213 51 52 213 -79 0 50 49 -23 0 -2 212 -44 0 213 -2 0 213 -8 0 213 -64 0 213 48 -3 0 48 213 -89 0 51 52 -23 0 -2 212 -23 0 5400 -19 0 27 -4 28 29 -193 0 -2 212 -14 0 47 -2 0 47 -2 0 47 -2 0 47 -2 0 47 -2 0 5400 -8 0 5400 -6 0 47 -196 0 -2 212 -10 0 27 -34 28 29 -13 0)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 6752)
+      (y 480)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 6560)
+      (y 480)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 6368)
+      (y 480)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 6016)
+      (y 928)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 5072)
+      (y 560)
+    )
+  )
+)

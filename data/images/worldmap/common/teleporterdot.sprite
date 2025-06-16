@@ -1,0 +1,12 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 16 16 0 0)
+    (fps 3)
+    (images "teleporterdot_1.png"
+	    "teleporterdot_2.png"
+	    "teleporterdot_3.png"
+	    "teleporterdot_4.png"
+	)
+  )
+)

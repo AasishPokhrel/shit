@@ -1,0 +1,6 @@
+(supertux-world
+  (title (_ "Mountain Peak"))
+  (description "The fourth world of SuperTux.")
+  (hide-from-contribs #t)
+  (levelset #f)
+)

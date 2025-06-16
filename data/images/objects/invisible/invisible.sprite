@@ -1,0 +1,10 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (images "invisible.png")
+  )
+  (action
+   (name "solved")
+   (images "invisible.png")
+  )
+)

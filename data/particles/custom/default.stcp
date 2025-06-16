@@ -1,0 +1,13 @@
+(supertux-custom-particle
+  (z-pos 0)
+  (main-texture "/images/engine/editor/sparkle.png")
+  (amount 10)
+  (delay 0)
+  (lifetime 1.25)
+  (birth-time 0)
+  (death-mode "fade")
+  (death-time 0.75)
+  (speed-var-x 256)
+  (speed-var-y 256)
+  (cover-screen #f)
+)

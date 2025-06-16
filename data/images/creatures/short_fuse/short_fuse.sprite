@@ -1,0 +1,32 @@
+(supertux-sprite
+ (action
+  (name "left")
+  (fps 15)
+  (hitbox 8 10 26 26)
+  (images "short_fuse-0.png"
+          "short_fuse-1.png"
+		  "short_fuse-2.png"
+          "short_fuse-3.png"
+          "short_fuse-4.png"
+		  "short_fuse-5.png"
+		  "short_fuse-6.png"
+		  "short_fuse-7.png"))
+
+ (action
+  (name "right")
+  (fps 15)
+  (hitbox 8 10 26 26)
+  (mirror-action "left"))
+
+(action
+  (name "iced-left")
+  (fps 15)
+  (hitbox 0 0 45 43)
+  (images "short_fuse-0.png"))
+
+(action
+  (name "iced-right")
+  (fps 15)
+  (hitbox 0 0 45 43)
+  (mirror-action "iced-left"))
+)

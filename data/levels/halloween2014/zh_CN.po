@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# CodingJellyfish <dumaosen_main01@outlook.com>, 2018
+# CodingJellyfish <dumaosen_main01@outlook.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-01-26 01:42+0000\n"
+"PO-Revision-Date: 2015-10-19 18:02+0000\n"
+"Last-Translator: CodingJellyfish <dumaosen_main01@outlook.com>, 2018\n"
+"Language-Team: Chinese (China) (http://app.transifex.com/arctic-games/supertux/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/levels/halloween2014/halloween1.stl:3
+msgid "Darkness Prevails"
+msgstr "黑暗笼罩之地"
+
+#: data/levels/halloween2014/halloween2.stl:3
+msgid "The Fog is Clearing Up"
+msgstr "雾气散去"
+
+#: data/levels/halloween2014/halloween3.stl:3
+msgid "Graveyard Shift"
+msgstr "墓地夜班"
+
+#: data/levels/halloween2014/intro.stl:3
+msgid "The Abandoned House"
+msgstr "被遗弃的小屋"
+
+#: data/levels/halloween2014/mound.stl:3
+msgid "Mound of the Dead"
+msgstr "亡者坟堆"
+
+#: data/levels/halloween2014/outro.stl:3
+msgid "Halloween Party?"
+msgstr "万圣节派对？"
+
+#: data/levels/halloween2014/pools.stl:3
+msgid "Putrid Pools"
+msgstr "腐臭池塘"
+
+#: data/levels/halloween2014/worldmap.stwm:3
+msgid "Halloween 2014"
+msgstr "万圣节 2014"

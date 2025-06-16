@@ -1,0 +1,14 @@
+(supertux-sprite
+ (action
+  (hitbox 0 0 31.8 31.8)
+  (name "default")
+  (images "iceflame.png"))
+ (action
+  (hitbox 0 0 31.8 31.8)
+  (name "fade")
+  (fps 5)
+  (images "iceflame-fade-0.png"
+          "iceflame-fade-1.png"
+          "iceflame-fade-2.png"))
+)
+

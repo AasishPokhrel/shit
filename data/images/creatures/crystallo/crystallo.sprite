@@ -1,0 +1,179 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (fps 14)
+    (hitbox 8 12 32 26)
+    (images "left-0.png"
+            "left-1.png"
+            "left-2.png"
+            "left-3.png"
+            "left-4.png"
+            "left-5.png"
+            "left-6.png"
+            "left-7.png")
+  )
+  (action
+    (name "right")
+    (fps 14)
+    (hitbox 8 12 32 26)
+    (mirror-action "left")
+  )
+  (action
+    (name "slowdown-left")
+    (fps 5)
+    (hitbox 8 12 32 26)
+    (clone-action "left")
+  )
+  (action
+    (name "slowdown-right")
+    (fps 5)
+    (hitbox 8 12 32 26)
+    (clone-action "right")
+  )
+  (action
+    (name "shattered-left")
+    (hitbox 8 12 32 26)
+    (images "squished.png")
+  )
+  (action
+    (name "shattered-right")
+    (hitbox 8 12 32 26)
+    (mirror-action "shattered-left")
+  )
+
+
+  (action
+    (name "roof-left")
+    (fps 14)
+    (hitbox 8 12 32 26)
+    (flip-action "left")
+  )
+  (action
+    (name "roof-right")
+    (fps 14)
+    (hitbox 8 12 32 26)
+    (mirror-action "roof-left")
+  )
+  (action
+    (name "roof-slowdown-left")
+    (fps 5)
+    (hitbox 8 12 32 26)
+    (clone-action "roof-left")
+  )
+  (action
+    (name "roof-slowdown-right")
+    (fps 5)
+    (hitbox 8 12 32 26)
+    (clone-action "roof-right")
+  )
+  (action
+    (name "roof-shattered-left")
+    (hitbox 8 12 32 26)
+    (images "squished.png")
+  )
+  (action
+    (name "roof-shattered-right")
+    (hitbox 8 12 32 26)
+    (mirror-action "roof-shattered-left")
+  )
+  (action
+    (name "roof-detected-left")
+    (fps 15)
+    (hitbox 17 2 24 36)
+    (loops 1)
+    (images "fall-0.png"
+            "fall-1.png"
+            "fall-2.png"
+            "fall-3.png"
+            "fall-4.png"
+            "fall-5.png"
+            "fall-6.png"
+            "fall-7.png"
+            "fall-8.png"
+            "fall-9.png"
+            "fall-10.png"
+            "fall-11.png")
+  )
+  (action
+    (name "roof-detected-right")
+    (fps 15)
+    (hitbox 19 2 24 36)
+    (loops 1)
+    (mirror-action "roof-detected-left")
+  )
+  (action
+    (name "roof-fall-left")
+    (hitbox 17 2 24 36)
+    (images "fall-11.png")
+  )
+  (action
+    (name "roof-fall-right")
+    (hitbox 19 2 24 36)
+    (mirror-action "roof-fall-left")
+  )
+
+
+  (action
+    (name "sleeping-left")
+    (fps 14)
+    (hitbox 8 12 32 26)
+    (loops 1)
+    (images "sleep-0.png")
+  )
+  (action
+    (name "sleeping-right")
+    (fps 14)
+    (hitbox 8 12 32 26)
+    (loops 1)
+    (mirror-action "sleeping-left")
+  )
+  (action
+    (name "waking-left")
+    (fps 14)
+    (hitbox 8 12 32 26)
+    (loops 1)
+    (images "sleep-0.png"
+            "sleep-1.png"
+            "sleep-2.png"
+            "sleep-0.png"
+            "sleep-1.png"
+            "sleep-3.png"
+            "sleep-3.png"
+            "sleep-3.png"
+            "sleep-3.png"
+            "sleep-4.png"
+            "sleep-5.png"
+            "sleep-4.png"
+            "sleep-5.png"
+            "sleep-4.png"
+            "sleep-5.png"
+            "sleep-4.png"
+            "sleep-5.png")
+  )
+  (action
+    (name "waking-right")
+    (fps 14)
+    (hitbox 8 12 32 26)
+    (loops 1)
+    (mirror-action "waking-left")
+  )
+  (action
+    (name "jumping-left")
+    (fps 14)
+    (hitbox 10 12 32 26)
+    (loops 1)
+    (images "jump-0.png"
+            "jump-1.png"
+            "jump-2.png"
+            "jump-3.png"
+            "jump-4.png"
+            "jump-5.png")
+  )
+  (action
+    (name "jumping-right")
+    (fps 14)
+    (hitbox 8 12 32 26)
+    (loops 1)
+    (mirror-action "jumping-left")
+  )
+)

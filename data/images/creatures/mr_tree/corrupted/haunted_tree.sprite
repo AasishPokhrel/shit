@@ -1,0 +1,45 @@
+(supertux-sprite
+  (action
+    (hitbox 14 10 62 78)
+    (name "left")
+	(fps 12)
+    (images 
+      "haunted_tree-0.png"
+	  "haunted_tree-1.png"
+	  "haunted_tree-2.png"
+	  "haunted_tree-3.png"
+	  "haunted_tree-4.png"
+	  "haunted_tree-5.png"
+	  "haunted_tree-6.png"
+	  "haunted_tree-7.png"
+	  "haunted_tree-8.png"
+	  "haunted_tree-9.png"
+    )
+  )
+  (action
+    (hitbox 14 10 62 78)
+    (name "right")
+	(fps 12)
+    (mirror-action "left")
+  )
+  (action
+    (hitbox 2 0 96 96)
+    (name "iced-left")
+    (images "haunted_tree-0.png")
+  )
+  (action
+    (hitbox 2 0 96 96)
+    (name "iced-right")
+    (mirror-action "iced-left")
+  )
+    (action
+    (hitbox 14 10 62 78)
+    (name "burning-left")
+    (images "haunted_tree-0.png")
+  )
+  (action
+    (hitbox 14 10 62 78)
+    (name "burning-right")
+    (mirror-action "burning-left")
+  )
+)

@@ -1,0 +1,150 @@
+#  SuperTux
+#  Copyright (C) 2021-2021 Sergii Pylypenko <x.pelya.x@gmail.com>
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either version 3
+#  of the License, or (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+
+name: Android
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - '*'
+  pull_request: {}
+
+jobs:
+  build-android:
+    env:
+      # Revision of https://github.com/pelya/commandergenius.git - SDL2 repo is a submodule
+      # We check out a specific stable revision, so the build won't break if I modify my SDL repo
+      SDL_ANDROID_REV: 798fd0f5e167aa6ecce33623dbf88ebc6cd647ea
+      # It takes 35 minutes per one architecture to build SuperTux, of which 20 minutes are for building Boost and ICU libraries
+      # Enable additional architectures when we have these libraries inside the cache, or create a separate Android script for each architecture
+      ARCH_LIST: armeabi-v7a arm64-v8a x86 x86_64
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Clone SDL Android repo
+        run: |
+          git clone --depth=100 https://github.com/pelya/commandergenius.git build.android
+          git -C build.android checkout ${SDL_ANDROID_REV}
+
+      - name: Clone SDL Android repo submodules
+        # There are many more submodules in this repo, we don't need them all
+        working-directory: build.android
+        run: >
+          git submodule update --init --recursive --depth=1
+          project/jni/boost/src project/jni/iconv/src
+          project/jni/sdl2 project/jni/sdl2_image
+          project/jni/sdl2_mixer project/jni/sdl2_ttf
+
+      - name: Symlink the application dir
+        run: |
+          rm -rf build.android/project/jni/application/supertux/supertux
+          ln -s `pwd` build.android/project/jni/application/supertux/supertux
+          ln -s supertux build.android/project/jni/application/src
+
+      - name: Set architectures list and version
+        working-directory: build.android
+        run: |
+          VERSION_NAME="$(git -C .. describe --tags | cut -f 1,2 -d "-" | sed 's/[^0-9\\.\\-]//g' | sed 's/-/./g')"
+          VERSION_CODE="$(printf "%02d%02d%02d%04d\n" "$(echo $VERSION_NAME | cut -d . -f 1)" "$(echo $VERSION_NAME | cut -d . -f 2)" "$(echo $VERSION_NAME | cut -d . -f 3)" "$(echo $VERSION_NAME | cut -d . -f 4)")"
+          echo "Version name: $VERSION_NAME"
+          echo "Version code: $VERSION_CODE"
+          sed -i "s/MultiABI=.*/MultiABI='${ARCH_LIST}'/g" project/jni/application/supertux/AndroidAppSettings.cfg
+          sed -i "s/AppVersionName.*/AppVersionName="$VERSION_NAME"/g" project/jni/application/supertux/AndroidAppSettings.cfg
+          sed -i "s/AppVersionCode.*/AppVersionCode=$VERSION_CODE/g" project/jni/application/supertux/AndroidAppSettings.cfg
+
+      - name: Copy precompiled libraries from cache
+        uses: actions/cache@v4
+        id: cache
+        with:
+          # The same SDL revision will produce the same libraries
+          key: ${{env.SDL_ANDROID_REV}}
+          path: |
+            build.android/project/jni/boost/include
+            build.android/project/jni/boost/lib
+            build.android/project/jni/iconv/include
+            build.android/project/jni/iconv/lib
+            build.android/project/jni/icuuc/include
+            build.android/project/jni/icuuc/lib
+            build.android/project/jni/openssl/include
+            build.android/project/jni/openssl/lib
+
+      - name: Touch cached file timestamps
+        if: steps.cache.outputs.cache-hit == 'true'
+        working-directory: build.android
+        run: >
+          touch
+          project/jni/boost/lib/*/*
+          project/jni/iconv/lib/*/*
+          project/jni/icuuc/lib/*/*
+          project/jni/openssl/lib/*/*
+          || true
+
+      - name: Build Boost, ICU, and OpenSSL
+        working-directory: build.android
+        run: |
+          export PATH=$ANDROID_NDK_LATEST_HOME:$PATH
+          ./changeAppSettings.sh
+
+      - name: Set up Gradle and Android SDK licenses
+        working-directory: build.android/project
+        run: |
+          yes | sudo $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --licenses
+          ./gradlew assembleRelease || true
+          yes | sudo $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --licenses --sdk_root=`pwd`
+          mkdir -p $HOME/.android
+          keytool -genkey -v -keystore $HOME/.android/debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Debug, OU=Debug, O=Debug, L=Debug, ST=Debug, C=Debug"
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > local.properties
+          echo "proguard.config=proguard.cfg;proguard-local.cfg" >> local.properties
+
+      - name: Build
+        working-directory: build.android
+        run: |
+          export PATH=$ANDROID_NDK_LATEST_HOME:$ANDROID_SDK_ROOT/build-tools/31.0.0:$PATH
+          ./build.sh
+
+      - name: Package
+        working-directory: build.android
+        run: |
+          export PATH=$ANDROID_NDK_LATEST_HOME:$ANDROID_SDK_ROOT/build-tools/31.0.0:$PATH
+          mkdir -p upload/apk/ upload/aab/
+          cd project
+          ./gradlew bundleReleaseWithDebugInfo
+          mv app/build/outputs/bundle/releaseWithDebugInfo/app-releaseWithDebugInfo.aab ../upload/aab/SuperTux.aab
+          cd jni/application/supertux
+          ./create-apk-with-data.sh
+          cd ../../../..
+          mv SuperTux*.apk upload/apk/
+          cd ..
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: "SuperTux-android-aab"
+          path: build.android/upload/aab
+          if-no-files-found: error
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: "SuperTux-android-apk"
+          path: build.android/upload/apk
+          if-no-files-found: error

@@ -1,0 +1,7 @@
+#!/bin/bash
+# Script to launch supertux under valgrind for memory error/leak checking.
+# This is meant to be called as "tools/valgrind/run" from the top of the tree.
+
+valgrind --log-file=valgrind.log --suppressions=tools/valgrind/supertux.supp \
+	--gen-suppressions=all --leak-check=full --num-callers=20 \
+	./supertux2 "$@"

@@ -1,0 +1,44 @@
+(supertux-sprite
+  (action
+    (name "closed")
+    (hitbox 8 4 44 92)
+    (images 
+      "door-0.png")
+  )
+  (action
+    (name "opening")
+    (hitbox 8 4 44 92)
+    (fps 10)
+    (loops 1)
+    (images 
+      "door-0.png"
+      "door-1.png"
+      "door-2.png"
+      "door-3.png"
+      "door-4.png"
+      "door-5.png"
+      "door-6.png"
+      "door-7.png")
+  )
+  (action
+    (name "open")
+    (hitbox 8 4 44 92)
+    (images 
+      "door-7.png")
+  )
+  (action
+    (name "closing")
+    (hitbox 8 4 44 92)
+    (fps 10)
+    (loops 1)
+    (images 
+      "door-7.png"
+      "door-6.png"
+      "door-5.png"
+      "door-4.png"
+      "door-3.png"
+      "door-2.png"
+      "door-1.png"
+      "door-0.png")
+  )
+)

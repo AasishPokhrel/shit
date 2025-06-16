@@ -1,0 +1,62 @@
+(supertux-sprite
+ (action
+  (name "left-up")
+  (loops 1)
+  (fps 25)
+  (hitbox 9 8 32 43)
+  (images "metal_up-2.png"
+		  "metal_up-1.png"
+		  "metal_down-1.png"
+		  "metal_down-2.png"
+		  "metal_down-2.png"
+		  "metal_down-1.png"
+		  "metal_down-0.png"
+		  "metal_up-0.png"))
+
+ (action
+  (name "right-up")
+  (loops 1)
+  (fps 25)
+  (hitbox 11 8 32 43)
+  (mirror-action "left-up"))
+
+ (action
+  (name "left-down")
+  (hitbox 9 8 32 43)
+  (images "metal_up-3.png"))
+
+ (action
+  (name "right-down")
+  (hitbox 11 8 32 43)
+  (mirror-action "left-down"))
+
+ (action
+  (name "left-middle")
+  (hitbox 9 8 32 43)
+  (images "metal_up-3.png"))
+
+ (action
+  (name "right-middle")
+  (hitbox 11 8 32 43)
+  (mirror-action "left-middle"))
+
+ (action
+  (name "iced-left")
+  (hitbox 3 3 45 64)
+  (images "metal_up-0.png"))
+
+ (action
+  (name "iced-right")
+  (hitbox 3 3 45 64)
+  (mirror-action "iced-left"))
+
+ (action
+  (name "editor-left")
+  (hitbox 9 8 32 43)
+  (images "metal_up-0.png"))
+
+ (action
+  (name "editor-right")
+  (hitbox 11 8 32 43)
+  (mirror-action "editor-left"))
+)

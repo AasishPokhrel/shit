@@ -1,0 +1,26 @@
+(supertux-sprite
+  (action
+    (name "default")
+	  (hitbox 0 0 63 3)
+	  (loops 1)
+	  (fps 15)
+    (images "wind3.png"
+	          "wind2.png"
+			      "wind.png"
+			      "wind.png"
+			      "wind2.png"
+			      "wind3.png")
+  )
+  (action
+    (name "flip")
+	  (hitbox 0 0 3 63)
+	  (loops 1)
+	  (fps 15)
+    (images "windup3.png"
+	          "windup2.png"
+			      "windup.png"
+			      "windup.png"
+			      "windup2.png"
+			      "windup3.png")
+  )
+)

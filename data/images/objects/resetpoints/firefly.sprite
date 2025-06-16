@@ -1,0 +1,22 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (hitbox 0 0 0 0)
+  (images "firefly1.png")
+ )
+ (action
+  (name "ringing")
+(fps 14)
+  (images
+"firefly2.png"
+"firefly3.png"
+"firefly4.png"
+"firefly3.png"
+"firefly5.png"
+"firefly6.png"
+"firefly7.png"
+"firefly6.png"
+
+  )
+ )              
+)

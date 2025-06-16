@@ -1,0 +1,2721 @@
+(supertux-level
+  (version 3)
+  (name (_ "Luft Airship"))
+  (author "Sevenberry & Daniel Ward")
+  (license "CC-BY-SA 4.0 International")
+  (target-time 126)
+  (allow-item-pocket "inherit")
+  (icon "")
+  (icon-locked "")
+  (statistics
+    (enable-coins #t)
+    (enable-badguys #f)
+    (enable-secrets #t)
+  )
+  (sector
+    (name "main")
+    (ambient-light
+      (color 1 1 1)
+    )
+    (background
+      (color 0.8 0.8 0.7)
+      (scroll-speed-x 4)
+      (speed 0)
+      (image "/images/background/misc/clouds.png")
+    )
+    (background
+      (color 1 0.9 0.8)
+      (speed 0)
+      (image "/images/background/misc/skybox.png")
+      (z-pos -320)
+    )
+    (background
+      (scroll-offset-y 470)
+      (color 0.9 0.9 0.8)
+      (scroll-speed-x 20)
+      (speed 0.08)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/antarctic/ice_mountains.png")
+      (z-pos -280)
+    )
+    (background
+      (scroll-offset-y 400)
+      (color 0.8 0.8 0.7)
+      (scroll-speed-x 6)
+      (speed 0)
+      (image-top "/images/background/misc/transparent_up.png")
+      (image "/images/background/antarctic/snowmountain_panorama.png")
+      (z-pos -290)
+    )
+    (bonusblock
+      (z-pos 51)
+      (x 2256)
+      (y 768)
+    )
+    (bonusblock
+      (type "purple")
+      (z-pos 51)
+      (x 2656)
+      (y 1376)
+    )
+    (bonusblock
+      (type "orange")
+      (z-pos 51)
+      (x 3968)
+      (y 1472)
+    )
+    (bonusblock
+      (z-pos 51)
+      (contents "airgrow")
+      (x 4560)
+      (y 1504)
+    )
+    (bonusblock
+      (type "purple")
+      (z-pos 51)
+      (x 5792)
+      (y 1280)
+    )
+    (bonusblock
+      (type "orange")
+      (z-pos 51)
+      (x 6208)
+      (y 1280)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (captainsnowball
+      (z-pos 50)
+      (x 4288)
+      (y 896)
+    )
+    (captainsnowball
+      (z-pos 50)
+      (x 5600)
+      (y 896)
+    )
+    (captainsnowball
+      (z-pos 50)
+      (x 1120)
+      (y 1056)
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17313746111924506805728")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17313746111924506805728")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17313746111924506805728")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17313746111924506805728")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17313749541924506842592")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17313749541924506842592")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17313749541924506842592")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17313749541924506842592")
+    )
+    (coin
+      (z-pos 49)
+      (x 1904)
+      (y 1040)
+    )
+    (coin
+      (z-pos 49)
+      (x 1968)
+      (y 1040)
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17318908311738493544288")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17318908311738493544288")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17318914391738493613408")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17318914451738493592160")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17318914591738493626208")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17318914641738493629280")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17318914861738493624160")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17318914951738493628512")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17318915011738493619552")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17318915061738493623392")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319052621566902717952")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319052691566902737920")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319052791566902735872")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319052851566902729216")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319052881566902614016")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319052931566902720256")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319054371566902721536")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319088691567032591856")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319088881567032611824")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319089021567032599536")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319089131567032608496")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319089431567032594416")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319089501567032600048")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319089561567032622832")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319089611567032619248")
+    )
+    (coin
+      (z-pos -6)
+      (x 11392)
+      (y 1120)
+    )
+    (coin
+      (z-pos -6)
+      (x 11552)
+      (y 1088)
+    )
+    (coin
+      (z-pos -6)
+      (x 11712)
+      (y 1056)
+    )
+    (coin
+      (z-pos -6)
+      (x 11904)
+      (y 1024)
+    )
+    (coin
+      (z-pos -6)
+      (x 11904)
+      (y 896)
+    )
+    (coin
+      (z-pos -2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319850232793352034544")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 1)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319850232793352034544")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 2)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319850232793352034544")
+    )
+    (coin
+      (z-pos 49)
+      (starting-node 3)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen17319850232793352034544")
+    )
+    (coin
+      (z-pos -6)
+      (x 8576)
+      (y 736)
+    )
+    (coin
+      (z-pos -6)
+      (x 8544)
+      (y 704)
+    )
+    (coin
+      (z-pos -6)
+      (x 8512)
+      (y 736)
+    )
+    (coin
+      (z-pos -6)
+      (x 8480)
+      (y 704)
+    )
+    (coin
+      (z-pos -6)
+      (x 8448)
+      (y 736)
+    )
+    (coin
+      (z-pos -6)
+      (x 9872)
+      (y 1328)
+    )
+    (coin
+      (z-pos -6)
+      (x 9952)
+      (y 1328)
+    )
+    (coin
+      (z-pos -6)
+      (x 10048)
+      (y 1280)
+    )
+    (coin
+      (z-pos -6)
+      (x 10112)
+      (y 1280)
+    )
+    (coin
+      (z-pos -6)
+      (x 10208)
+      (y 1328)
+    )
+    (coin
+      (z-pos -6)
+      (x 10272)
+      (y 1328)
+    )
+    (coin
+      (z-pos -6)
+      (x 10352)
+      (y 1296)
+    )
+    (coin
+      (z-pos -6)
+      (x 10432)
+      (y 1264)
+    )
+    (coin
+      (z-pos -49)
+      (x 10624)
+      (y 1328)
+    )
+    (coin
+      (z-pos -49)
+      (x 10688)
+      (y 1328)
+    )
+    (coin
+      (z-pos -49)
+      (x 10784)
+      (y 1296)
+    )
+    (coin
+      (z-pos -49)
+      (x 10784)
+      (y 1248)
+    )
+    (coin
+      (z-pos -49)
+      (x 10928)
+      (y 1216)
+    )
+    (coin
+      (z-pos -49)
+      (x 10976)
+      (y 1216)
+    )
+    (coin
+      (z-pos -49)
+      (x 11088)
+      (y 1232)
+    )
+    (coin
+      (z-pos -49)
+      (x 11184)
+      (y 1232)
+    )
+    (coin
+      (z-pos -49)
+      (x 11184)
+      (y 1184)
+    )
+    (coin
+      (z-pos -49)
+      (x 11136)
+      (y 1232)
+    )
+    (decal
+      (z-pos 1)
+      (sprite "/images/decal/sign_icons/color_cyan.png")
+      (x 1760)
+      (y 1600)
+    )
+    (decal
+      (action "right")
+      (z-pos -50)
+      (sprite "/images/decal/misc/flag.sprite")
+      (x 352)
+      (y 656)
+    )
+    (decal
+      (action "right")
+      (z-pos -50)
+      (sprite "/images/decal/misc/flag.sprite")
+      (x 1024)
+      (y 720)
+    )
+    (decal
+      (action "right")
+      (z-pos -50)
+      (sprite "/images/decal/misc/flag.sprite")
+      (x 1984)
+      (y 656)
+    )
+    (decal
+      (z-pos 52)
+      (sprite "/images/decal/snow/igloo_fg.png")
+      (x 14368)
+      (y 1088)
+    )
+    (decal
+      (z-pos -50)
+      (sprite "/images/decal/snow/igloo_bg.png")
+      (x 14368)
+      (y 1088)
+    )
+    (decal
+      (z-pos -50)
+      (sprite "/images/decal/misc/flag.sprite")
+      (x 14144)
+      (y 944)
+    )
+    (decal
+      (z-pos -50)
+      (sprite "/images/decal/misc/flag.sprite")
+      (x 13824)
+      (y 944)
+    )
+    (decal
+      (z-pos -50)
+      (sprite "/images/decal/misc/flag.sprite")
+      (x 12544)
+      (y 1040)
+    )
+    (decal
+      (z-pos -6)
+      (sprite "/images/tiles/castle/nolok-statue-snow.png")
+      (x 10464)
+      (y 1280)
+    )
+    (decal
+      (z-pos -6)
+      (sprite "/images/tiles/castle/nolok-statue-snow.png")
+      (x 10560)
+      (y 1280)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 5)
+      (objects
+        (mrbomb
+          (z-pos 50)
+        )
+      )
+      (limit-dispensed-badguys #t)
+      (max-concurrent-badguys 1)
+      (x 4928)
+      (y 448)
+    )
+    (dispenser
+      (name "d2")
+      (z-pos 55)
+      (cycle 2)
+      (objects
+        (skydive
+          (z-pos 50)
+        )
+      )
+      (x 2816)
+      (y 1280)
+    )
+    (dispenser
+      (name "d1")
+      (z-pos 55)
+      (cycle 2)
+      (objects
+        (skydive
+          (z-pos 50)
+        )
+      )
+      (x 2144)
+      (y 1312)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (objects
+        (skydive
+          (z-pos 50)
+        )
+      )
+      (x 8224)
+      (y 1184)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (objects
+        (skydive
+          (z-pos 50)
+        )
+      )
+      (x 8096)
+      (y 1184)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (objects
+        (skydive
+          (z-pos 50)
+        )
+      )
+      (x 8096)
+      (y 1184)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (objects
+        (skydive
+          (z-pos 50)
+        )
+      )
+      (x 7776)
+      (y 1152)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (objects
+        (skydive
+          (z-pos 50)
+        )
+      )
+      (x 8768)
+      (y 1184)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (objects
+        (skydive
+          (z-pos 50)
+        )
+      )
+      (x 8896)
+      (y 1184)
+    )
+    (dispenser
+      (z-pos 55)
+      (cycle 3)
+      (type "cannon")
+      (objects
+        (captainsnowball
+          (z-pos 50)
+        )
+      )
+      (direction "right")
+      (gravity #t)
+      (limit-dispensed-badguys #t)
+      (max-concurrent-badguys 2)
+      (x 7072)
+      (y 928)
+    )
+    (firefly
+      (z-pos 1)
+      (x 4960)
+      (y 1552)
+    )
+    (firefly
+      (z-pos 0)
+      (x 9664)
+      (y 1312)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 1504)
+      (y 1056)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 3472)
+      (y 1584)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 13248)
+      (y 1296)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 12960)
+      (y 1328)
+    )
+    (gradient
+      (top_color 0.1 0.6 0.6)
+      (bottom_color 1 0.6 0.1)
+      (z-pos -450)
+    )
+    (mrbomb
+      (z-pos 50)
+      (x 2320)
+      (y 608)
+    )
+    (music
+      (file "/music/antarctic/snowfort.music")
+    )
+    (path
+      (name "gen171078865294335681778752")
+      (path
+        (adapt_speed #t)
+        (node
+          (x 1248)
+          (y 1184)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 1248)
+          (y 1088)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen171078882394335727941024")
+      (path
+        (adapt_speed #t)
+        (node
+          (x 2912)
+          (y 544)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 2912)
+          (y 672)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen171078949794335681772880")
+      (path
+        (adapt_speed #t)
+        (node
+          (x 2560)
+          (y 992)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 2560)
+          (y 864)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen171079120794335678632976")
+      (path
+        (adapt_speed #t)
+        (node
+          (x 5152)
+          (y 928)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 5152)
+          (y 800)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen171079132594335681180784")
+      (path
+        (adapt_speed #t)
+        (node
+          (x 5728)
+          (y 384)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 5728)
+          (y 512)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen171079856194335681648320")
+      (path
+        (adapt_speed #t)
+        (node
+          (x 4672)
+          (y 1280)
+          (time 2)
+        )
+        (node
+          (x 4672)
+          (y 1120)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+      )
+    )
+    (path
+      (name "gen171079891194335730944752")
+      (path
+        (adapt_speed #t)
+        (node
+          (x 2368)
+          (y 1120)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 2368)
+          (y 1312)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen17313746111924506805728")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 704)
+          (y 864)
+        )
+        (node
+          (x 640)
+          (y 800)
+        )
+        (node
+          (x 704)
+          (y 736)
+        )
+        (node
+          (x 768)
+          (y 800)
+        )
+      )
+    )
+    (path
+      (name "gen17313749541924506842592")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 2256)
+          (y 592)
+        )
+        (node
+          (x 2192)
+          (y 528)
+        )
+        (node
+          (x 2256)
+          (y 464)
+        )
+        (node
+          (x 2320)
+          (y 528)
+        )
+      )
+    )
+    (path
+      (name "gen17318908311738493544288")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5312)
+          (y 480)
+        )
+        (node
+          (x 5376)
+          (y 480)
+        )
+        (node
+          (x 5376)
+          (y 544)
+        )
+        (node
+          (x 5312)
+          (y 544)
+        )
+      )
+    )
+    (path
+      (name "gen17318914391738493613408")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 3584)
+          (y 1536)
+        )
+        (node
+          (x 3648)
+          (y 1536)
+        )
+        (node
+          (x 3648)
+          (y 1600)
+        )
+        (node
+          (x 3584)
+          (y 1600)
+        )
+      )
+    )
+    (path
+      (name "gen17318914451738493592160")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 3584)
+          (y 1536)
+        )
+        (node
+          (x 3648)
+          (y 1536)
+        )
+        (node
+          (x 3648)
+          (y 1600)
+        )
+        (node
+          (x 3584)
+          (y 1600)
+        )
+      )
+    )
+    (path
+      (name "gen17318914591738493626208")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 2272)
+          (y 1536)
+        )
+        (node
+          (x 2336)
+          (y 1536)
+        )
+        (node
+          (x 2336)
+          (y 1600)
+        )
+        (node
+          (x 2272)
+          (y 1600)
+        )
+      )
+    )
+    (path
+      (name "gen17318914641738493629280")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 2272)
+          (y 1536)
+        )
+        (node
+          (x 2336)
+          (y 1536)
+        )
+        (node
+          (x 2336)
+          (y 1600)
+        )
+        (node
+          (x 2272)
+          (y 1600)
+        )
+      )
+    )
+    (path
+      (name "gen17318914861738493624160")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 3136)
+          (y 1568)
+        )
+        (node
+          (x 3072)
+          (y 1504)
+        )
+        (node
+          (x 3136)
+          (y 1440)
+        )
+        (node
+          (x 3200)
+          (y 1504)
+        )
+      )
+    )
+    (path
+      (name "gen17318914951738493628512")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 3136)
+          (y 1568)
+        )
+        (node
+          (x 3072)
+          (y 1504)
+        )
+        (node
+          (x 3136)
+          (y 1440)
+        )
+        (node
+          (x 3200)
+          (y 1504)
+        )
+      )
+    )
+    (path
+      (name "gen17318915011738493619552")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 3136)
+          (y 1568)
+        )
+        (node
+          (x 3072)
+          (y 1504)
+        )
+        (node
+          (x 3136)
+          (y 1440)
+        )
+        (node
+          (x 3200)
+          (y 1504)
+        )
+      )
+    )
+    (path
+      (name "gen17318915061738493623392")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 3136)
+          (y 1568)
+        )
+        (node
+          (x 3072)
+          (y 1504)
+        )
+        (node
+          (x 3136)
+          (y 1440)
+        )
+        (node
+          (x 3200)
+          (y 1504)
+        )
+      )
+    )
+    (path
+      (name "gen17319042961566902725632")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 7392)
+          (y 1536)
+          (easing "EaseQuadIn")
+        )
+        (node
+          (x 5440)
+          (y 1536)
+        )
+        (node
+          (x 5440)
+          (y 1536)
+          (time 4)
+          (easing "EaseQuadInOut")
+        )
+        (node
+          (x 7392)
+          (y 1536)
+        )
+      )
+    )
+    (path
+      (name "gen17319052621566902717952")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6560)
+          (y 1312)
+        )
+        (node
+          (x 6624)
+          (y 1312)
+        )
+        (node
+          (x 6624)
+          (y 1376)
+        )
+        (node
+          (x 6560)
+          (y 1376)
+        )
+      )
+    )
+    (path
+      (name "gen17319052691566902737920")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6560)
+          (y 1312)
+        )
+        (node
+          (x 6624)
+          (y 1312)
+        )
+        (node
+          (x 6624)
+          (y 1376)
+        )
+        (node
+          (x 6560)
+          (y 1376)
+        )
+      )
+    )
+    (path
+      (name "gen17319052791566902735872")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6560)
+          (y 1440)
+        )
+        (node
+          (x 6624)
+          (y 1440)
+        )
+        (node
+          (x 6624)
+          (y 1504)
+        )
+        (node
+          (x 6560)
+          (y 1504)
+        )
+      )
+    )
+    (path
+      (name "gen17319052851566902729216")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6176)
+          (y 1376)
+        )
+        (node
+          (x 6240)
+          (y 1376)
+        )
+        (node
+          (x 6240)
+          (y 1440)
+        )
+        (node
+          (x 6176)
+          (y 1440)
+        )
+      )
+    )
+    (path
+      (name "gen17319052881566902614016")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6176)
+          (y 1376)
+        )
+        (node
+          (x 6240)
+          (y 1376)
+        )
+        (node
+          (x 6240)
+          (y 1440)
+        )
+        (node
+          (x 6176)
+          (y 1440)
+        )
+      )
+    )
+    (path
+      (name "gen17319052931566902720256")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5728)
+          (y 1344)
+        )
+        (node
+          (x 5792)
+          (y 1344)
+        )
+        (node
+          (x 5792)
+          (y 1408)
+        )
+        (node
+          (x 5728)
+          (y 1408)
+        )
+      )
+    )
+    (path
+      (name "gen17319054371566902721536")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6560)
+          (y 1440)
+        )
+        (node
+          (x 6624)
+          (y 1440)
+        )
+        (node
+          (x 6624)
+          (y 1504)
+        )
+        (node
+          (x 6560)
+          (y 1504)
+        )
+      )
+    )
+    (path
+      (name "gen17319059761566902746112")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 8448)
+          (y 256)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 8448)
+          (y 416)
+          (time 2)
+          (easing "EaseQuadOut")
+        )
+      )
+    )
+    (path
+      (name "gen17319074251567032607472")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 9376)
+          (y 768)
+          (time 2)
+          (easing "EaseQuadOut")
+        )
+        (node
+          (x 9376)
+          (y 544)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+      )
+    )
+    (path
+      (name "gen17319082631567032792048")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 12768)
+          (y 1344)
+        )
+      )
+    )
+    (path
+      (name "gen17319088691567032591856")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 7552)
+          (y 1344)
+        )
+        (node
+          (x 7488)
+          (y 1280)
+        )
+        (node
+          (x 7552)
+          (y 1216)
+        )
+        (node
+          (x 7616)
+          (y 1280)
+        )
+      )
+    )
+    (path
+      (name "gen17319088881567032611824")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 7552)
+          (y 1344)
+        )
+        (node
+          (x 7488)
+          (y 1280)
+        )
+        (node
+          (x 7552)
+          (y 1216)
+        )
+        (node
+          (x 7616)
+          (y 1280)
+        )
+      )
+    )
+    (path
+      (name "gen17319089021567032599536")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 7552)
+          (y 1344)
+        )
+        (node
+          (x 7488)
+          (y 1280)
+        )
+        (node
+          (x 7552)
+          (y 1216)
+        )
+        (node
+          (x 7616)
+          (y 1280)
+        )
+      )
+    )
+    (path
+      (name "gen17319089131567032608496")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 7552)
+          (y 1344)
+        )
+        (node
+          (x 7488)
+          (y 1280)
+        )
+        (node
+          (x 7552)
+          (y 1216)
+        )
+        (node
+          (x 7616)
+          (y 1280)
+        )
+      )
+    )
+    (path
+      (name "gen17319089431567032594416")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 9152)
+          (y 1088)
+        )
+        (node
+          (x 9088)
+          (y 1024)
+        )
+        (node
+          (x 9152)
+          (y 960)
+        )
+        (node
+          (x 9216)
+          (y 1024)
+        )
+      )
+    )
+    (path
+      (name "gen17319089501567032600048")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 9152)
+          (y 1088)
+        )
+        (node
+          (x 9088)
+          (y 1024)
+        )
+        (node
+          (x 9152)
+          (y 960)
+        )
+        (node
+          (x 9216)
+          (y 1024)
+        )
+      )
+    )
+    (path
+      (name "gen17319089561567032622832")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 9152)
+          (y 1088)
+        )
+        (node
+          (x 9088)
+          (y 1024)
+        )
+        (node
+          (x 9152)
+          (y 960)
+        )
+        (node
+          (x 9216)
+          (y 1024)
+        )
+      )
+    )
+    (path
+      (name "gen17319089611567032619248")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 9152)
+          (y 1088)
+        )
+        (node
+          (x 9088)
+          (y 1024)
+        )
+        (node
+          (x 9152)
+          (y 960)
+        )
+        (node
+          (x 9216)
+          (y 1024)
+        )
+      )
+    )
+    (path
+      (name "gen17319502672007490674416")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 13056)
+          (y 1312)
+        )
+      )
+    )
+    (path
+      (name "gen17319502682007490698480")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 13344)
+          (y 1280)
+        )
+      )
+    )
+    (path
+      (name "gen17319502702007490688496")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 13760)
+          (y 1376)
+        )
+      )
+    )
+    (path
+      (name "gen17319502712007490694128")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 13984)
+          (y 1344)
+        )
+      )
+    )
+    (path
+      (name "gen17319502722007490686704")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 14240)
+          (y 1344)
+        )
+      )
+    )
+    (path
+      (name "gen17319502732007490698736")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 14464)
+          (y 1376)
+        )
+      )
+    )
+    (path
+      (name "gen17319827372493183499760")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 9856)
+          (y 864)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 9856)
+          (y 1056)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen17319830222493183527920")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 10016)
+          (y 864)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 10016)
+          (y 1056)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen17319831612493183652592")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 10176)
+          (y 864)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 10176)
+          (y 1056)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen17319834282793352033520")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 10336)
+          (y 864)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 10336)
+          (y 1056)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen17319838432793352103152")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 10592)
+          (y 864)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 10592)
+          (y 1056)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen17319839422793352067568")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 10752)
+          (y 832)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 10752)
+          (y 1024)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen17319840762793352010992")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 10912)
+          (y 800)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 10912)
+          (y 992)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen17319841632793352126192")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 11072)
+          (y 768)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 11072)
+          (y 960)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen17319843962793352120560")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 11328)
+          (y 1248)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 11328)
+          (y 1024)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen17319845572793352203248")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 11488)
+          (y 1216)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 11488)
+          (y 992)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen17319846532793352230384")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 11648)
+          (y 1184)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 11648)
+          (y 960)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen17319847752793352007408")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 11808)
+          (y 1152)
+          (time 0.25)
+          (easing "EaseSineIn")
+        )
+        (node
+          (x 11808)
+          (y 896)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen17319850232793352034544")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 11904)
+          (y 800)
+        )
+        (node
+          (x 11840)
+          (y 736)
+        )
+        (node
+          (x 11904)
+          (y 672)
+        )
+        (node
+          (x 11968)
+          (y 736)
+        )
+      )
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17319082631567032792048")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17319502672007490674416")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17319502682007490698480")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17319502702007490688496")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17319502712007490694128")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17319502722007490686704")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen17319502732007490698736")
+    )
+    (pushbutton
+      (z-pos -99)
+      (direction "down")
+      (script "lkc.start_moving();")
+      (x 1920)
+      (y 1504)
+    )
+    (pushbutton
+      (z-pos -99)
+      (script "moverbat.start_moving();")
+      (x 6432)
+      (y 944)
+    )
+    (scripttrigger
+      (width 32)
+      (height 32)
+      (script "lkc.start_moving();")
+      (button #f)
+      (x 4960)
+      (y 1552)
+    )
+    (scripttrigger
+      (width 32)
+      (height 384)
+      (oneshot #t)
+      (script "ender1.start_moving();
+moverbat.start_moving();
+wait(0.5);
+ender2.start_moving();
+wait(0.5);
+ender3.start_moving();
+wait(0.5);
+ender4.start_moving();
+wait(0.5);
+ender5.start_moving();
+wait(0.5);
+ender6.start_moving();
+wait(0.5);
+ender7.start_moving();
+wait(0.5);
+ender8.start_moving();
+wait(0.5);
+e9.start_moving();
+wait(0.5);
+e10.start_moving();
+wait(0.5);
+e11.start_moving();
+wait(0.5);
+e12.start_moving();")
+      (button #f)
+      (x 9664)
+      (y 992)
+    )
+    (scripttrigger
+      (width 192)
+      (height 264)
+      (oneshot #t)
+      (script "fisherater.start_moving();")
+      (button #f)
+      (x 4992)
+      (y 1376)
+    )
+    (secretarea
+      (fade-tilemap "secreter")
+      (width 416)
+      (height 224)
+      (x 13056)
+      (y 672)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 1328)
+      (x 13952)
+      (y -48)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 288)
+      (x 14624)
+      (y 992)
+    )
+    (short_fuse
+      (z-pos 50)
+      (x 4016)
+      (y 1632)
+    )
+    (short_fuse
+      (z-pos 50)
+      (x 2640)
+      (y 1568)
+    )
+    (short_fuse
+      (z-pos 50)
+      (x 2032)
+      (y 1664)
+    )
+    (short_fuse
+      (z-pos 50)
+      (x 2352)
+      (y 1024)
+    )
+    (short_fuse
+      (z-pos 50)
+      (x 4944)
+      (y 864)
+    )
+    (short_fuse
+      (z-pos 50)
+      (x 2208)
+      (y 1024)
+    )
+    (short_fuse
+      (z-pos 50)
+      (x 776)
+      (y 904)
+    )
+    (short_fuse
+      (z-pos 50)
+      (x 2464)
+      (y 1024)
+    )
+    (short_fuse
+      (z-pos 50)
+      (x 3040)
+      (y 1600)
+    )
+    (short_fuse
+      (z-pos 50)
+      (x 3200)
+      (y 1600)
+    )
+    (short_fuse
+      (z-pos 50)
+      (x 6912)
+      (y 1728)
+    )
+    (short_fuse
+      (z-pos 50)
+      (x 6592)
+      (y 1728)
+    )
+    (short_fuse
+      (z-pos 50)
+      (x 6208)
+      (y 1728)
+    )
+    (short_fuse
+      (z-pos 50)
+      (x 5792)
+      (y 1728)
+    )
+    (short_fuse
+      (z-pos 50)
+      (x 8848)
+      (y 1120)
+    )
+    (spawnpoint
+      (name "main")
+      (x 352)
+      (y 1056)
+    )
+    (spawnpoint
+      (x 2816)
+      (y 800)
+    )
+    (spawnpoint
+      (x 1920)
+      (y 1616)
+    )
+    (stalactite
+      (z-pos -1)
+      (x 3840)
+      (y 640)
+    )
+    (stalactite
+      (z-pos -1)
+      (x 5344)
+      (y 384)
+    )
+    (stalactite
+      (z-pos -1)
+      (x 3776)
+      (y 640)
+    )
+    (stalactite
+      (z-pos -1)
+      (x 3712)
+      (y 640)
+    )
+    (stalactite
+      (z-pos -1)
+      (x 13392)
+      (y 1056)
+    )
+    (stalactite
+      (z-pos -1)
+      (x 13104)
+      (y 1088)
+    )
+    (stalactite
+      (z-pos -1)
+      (x 12816)
+      (y 1120)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (running #t)
+      (z-pos -5)
+      (name "cr1")
+      (path-ref "gen171078865294335681778752")
+      (width 17)
+      (height 9)
+      (tiles -2 61 337 339 61 -7 0 337 338 339 -2 61 337 338 339 -2 61 -7 0 -2 61 337 338 339 -2 61 337 338 339 -7 0 61 337 339 -3 61 337 338 339 61 -7 0 -2 61 337 338 339 337 338 339 337 339 -7 0 337 339 61 337 339 61 337 -2 338 339 -7 0 61 337 339 -2 61 337 339 337 339 61 -7 0 -2 61 337 338 339 61 337 -2 338 339 -29 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (running #t)
+      (z-pos -5)
+      (name "cr2")
+      (path-ref "gen171078882394335727941024")
+      (width 65)
+      (height 28)
+      (tiles -8 0 337 339 61 337 339 -34 0 -3 61 337 339 -21 0 61 337 -2 338 339 -34 0 337 339 -3 61 -21 0 337 339 337 338 339 -34 0 -2 61 337 338 339 -21 0 -2 61 337 339 61 -34 0 337 338 339 -2 61 -21 0 61 337 339 -2 61 -34 0 -2 61 337 339 61 -21 0 337 339 61 337 339 -34 0 -3 61 337 339 -21 0 61 337 -2 338 339 -34 0 337 338 339 -2 61 -21 0 337 338 339 -2 61 -34 0 -5 297 -688 0 -5 61 -8 0 337 339 -4 61 -46 0 -5 61 -8 0 61 337 -2 339 -2 61 -46 0 -5 61 -8 0 -4 61 337 339 -46 0 -2 61 337 339 61 -8 0 61 337 -2 339 -2 61 -46 0 61 337 339 -2 61 -8 0 337 -4 338 339 -46 0 -2 61 337 339 61 -8 0 -6 61 -46 0 337 339 61 337 339 -8 0 -2 61 -2 337 338 339 -46 0 61 337 338 339 61 -8 0 61 337 -2 339 -2 61 -46 0 337 338 339 -2 61 -8 0 337 339 61 337 338 339 -46 0 -2 61 337 338 339 -35 0)
+    )
+    (tilemap
+      (solid #f)
+      (tint 0.5 0.5 0.6)
+      (z-pos -100)
+      (width 461)
+      (height 65)
+      (tiles -4999 0 -5 28 -456 0 -5 28 -244 0 3176 -377 0 1348 -2 0 1348 -62 0 3176 -16 0 3176 -92 0 3176 -284 0 79 -2 0 79 -62 0 3176 -16 0 3176 -84 0 3176 -7 0 3176 -284 0 79 -2 0 79 -62 0 3176 -16 0 3176 -84 0 3176 -7 0 3176 0 3171 3182 -281 0 79 -2 0 79 -62 0 3176 -16 0 3177 3172 -81 0 3171 3182 3178 -7 0 3176 0 3176 -282 0 79 -2 0 79 -62 0 3176 -17 0 3176 -80 0 3182 3178 -9 0 3177 3182 3178 -102 0 3176 -3 0 3176 -175 0 79 -2 0 79 -61 0 3171 3178 -17 0 3176 -196 0 3177 3172 -2 0 3176 -149 0 3168 -25 0 1349 -2 0 1349 -61 0 3176 -18 0 3176 -83 0 -9 28 -105 0 3177 -2 3182 3170 -37 0 -4 28 -199 0 3176 -18 0 3176 -83 0 28 29 -5 0 27 28 -98 0 -7 28 -3 0 3176 -37 0 -4 28 -131 0 3176 0 3176 0 1355 -63 0 3176 -18 0 3176 -83 0 29 -7 0 27 -98 0 29 -5 0 27 -3 0 3176 -172 0 3176 0 3176 0 3176 -11 28 -5 0 3176 -11 0 3176 -7 0 3176 -15 0 3176 -3 0 3171 -6 3182 3178 -18 0 3176 -52 0 3176 -7 0 3176 -7 0 3176 -14 0 29 -7 0 27 -98 0 29 -5 0 27 -3 0 3176 -172 0 3176 0 3176 0 3176 -11 28 -5 0 3177 3182 3172 -7 0 3171 3182 3178 -7 0 3176 -11 0 3171 -3 3182 3170 -3 3182 3178 -15 0 3170 -8 0 3171 3178 -52 0 3176 -7 0 3176 -7 0 3176 -14 0 28 29 -5 0 27 28 -98 0 29 -5 0 27 -3 0 3177 3182 3172 -166 0 1809 1812 -2 0 3176 0 3176 0 3176 28 29 -7 0 27 28 -7 0 3177 -3 3182 3170 -3 3182 3178 -9 0 3176 -11 0 3176 -3 0 3176 -19 0 3176 -8 0 3176 -52 0 3171 3178 -7 0 3176 -7 0 3176 -4 0 3176 -9 0 -9 28 -98 0 29 -5 0 27 -5 0 3177 3172 -165 0 1810 1813 -2 0 3176 0 3176 0 3176 29 -9 0 27 0 1809 1812 -8 0 3176 -8 0 1809 1812 -3 0 3170 -3 3182 3172 -7 0 3176 -3 0 3176 -19 0 3176 -8 0 3176 -21 0 -5 28 -2 0 3176 -23 0 3176 -8 0 3170 -5 3182 3172 0 3176 -4 0 3176 -116 0 29 -5 0 27 -6 0 3176 -165 0 1811 1814 -2 0 3176 0 3176 0 3176 29 -9 0 27 0 1810 1813 -8 0 3176 -8 0 1810 1813 -3 0 3176 -3 0 3177 -7 3182 3178 1809 1812 0 3176 0 1809 1812 -16 0 3176 -8 0 3176 -21 0 29 -3 0 27 -2 0 3176 -4 0 3171 -2 3182 3172 -2 0 3171 3182 3172 -10 0 3176 -6 0 3171 3182 3178 -5 0 3177 3182 3170 -4 0 3176 -98 0 3176 0 3176 -15 0 29 -5 0 27 -6 0 3176 -171 0 3176 0 3176 28 29 -7 0 27 28 0 1811 1814 -8 0 3176 -8 0 1811 1814 -3 0 3176 -12 0 1810 1813 0 3176 0 1810 1813 -16 0 3176 -8 0 3176 -21 0 29 -3 0 27 -2 0 3176 -3 0 3171 3178 -2 0 3177 3172 0 3176 0 3177 3182 3172 -8 0 3176 -6 0 3176 -9 0 3177 -4 3182 3178 -98 0 3177 3170 3178 -15 0 29 -5 0 27 -6 0 3176 -102 0 3168 -70 0 3176 -11 28 -11 0 3176 -13 0 3176 -12 0 1811 1814 0 3176 0 1811 1814 -16 0 3177 3172 -7 0 3176 -21 0 29 -3 0 27 -2 0 3177 -3 3182 3178 -4 0 3177 3182 3178 -3 0 3176 -3 0 3171 -4 3182 3170 3172 -5 0 3176 -2 0 -8 28 -34 0 -9 28 -61 0 3176 -16 0 29 -5 0 27 -6 0 3176 -187 0 -7 28 -2 0 3176 -2 0 -7 28 -41 0 3176 -7 0 3176 -21 0 -5 28 -17 0 3176 -3 0 3176 -5 0 3177 3182 3172 -3 0 3176 -2 0 28 29 -4 0 27 28 -2 0 -12 28 -20 0 28 29 -5 0 27 28 -37 0 3176 0 3176 -21 0 3176 -16 0 29 -5 0 27 -5 0 3171 3178 -192 0 27 28 -2 0 3176 -2 0 28 29 -46 0 3176 -7 0 3177 3172 -42 0 3176 -3 0 3176 -7 0 3177 3170 -2 3182 3178 -2 0 29 -6 0 27 -2 0 28 29 -8 0 27 28 -20 0 29 -7 0 27 -9 0 3182 3172 -26 0 3177 3170 3178 -21 0 3176 -11 0 -5 28 29 -5 0 27 -5 0 3176 -174 0 1348 -2 0 1348 -15 0 27 28 -2 0 3176 -2 0 28 29 -46 0 3176 -8 0 3176 -46 0 3176 -8 0 3176 -5 0 29 -6 0 27 -2 0 29 -10 0 27 -20 0 29 -7 0 27 -10 0 3176 -27 0 3176 -22 0 3176 -6 0 -5 28 29 -3 0 27 29 -5 0 27 -5 0 3176 -3 0 3176 -145 0 3168 -4 0 3168 -10 0 3168 -8 0 79 -2 0 79 -16 0 27 -2 0 3176 -2 0 29 -47 0 3176 -8 0 3176 -55 0 3176 -5 0 28 29 -4 0 27 28 -2 0 29 -10 0 27 -20 0 29 -7 0 27 -10 0 3176 -27 0 3176 -22 0 3176 0 -5 28 29 -3 0 27 29 -3 0 27 29 -5 0 27 -5 0 3176 -3 0 3176 -170 0 79 -2 0 79 -16 0 27 -2 0 3176 -2 0 29 -47 0 3176 -64 0 3176 -5 0 -8 28 -2 0 28 29 -8 0 27 28 -20 0 29 -7 0 27 -10 0 3176 0 3171 3182 -24 0 3176 -16 0 -5 28 0 3176 0 29 -3 0 27 29 -3 0 27 29 -3 0 27 29 -5 0 27 -5 0 3176 -3 0 3176 -100 0 3168 -69 0 79 -2 0 79 -16 0 27 -2 0 3176 -2 0 29 -112 0 3176 -15 0 -12 28 -13 0 3176 -2 0 3176 -3 0 29 -7 0 27 -10 0 3177 3182 3178 -25 0 3176 -11 0 -5 28 29 -3 0 27 0 3176 0 29 -3 0 27 29 -3 0 27 29 -3 0 27 29 -5 0 27 -5 0 3176 -3 0 3176 -170 0 79 -2 0 79 -19 0 3176 -106 0 -5 28 -4 0 3176 -40 0 3176 -2 0 3176 -3 0 28 29 -5 0 27 28 -38 0 3176 -6 0 -5 28 29 -3 0 27 29 -3 0 27 0 3176 0 29 -3 0 27 29 -3 0 27 29 -3 0 27 -7 28 -5 0 3177 3170 -2 3182 3178 -120 0 -5 28 -45 0 79 -2 0 79 -126 0 28 29 0 27 28 -4 0 3177 3182 3172 -45 0 -9 28 -17 0 -20 28 0 3176 0 -5 28 29 -3 0 27 29 -3 0 27 29 -3 0 27 0 3176 0 29 -3 0 27 29 -3 0 27 -5 28 -13 0 3176 -123 0 28 29 0 27 28 -45 0 1349 -2 0 1349 -116 0 3170 0 3170 -7 0 29 -3 0 27 -6 0 3177 -3 3182 3172 -21 0 3171 3170 -44 0 29 -3 0 27 29 -3 0 27 29 -3 0 27 29 -3 0 27 0 3176 0 29 -3 0 27 29 -3 0 27 29 -3 0 27 29 -3 0 27 0 3176 0 29 -3 0 27 -5 28 -17 0 3171 3178 -123 0 29 -3 0 27 -165 0 3176 0 3176 -7 0 29 -3 0 27 -10 0 3176 -21 0 3176 -45 0 29 -3 0 27 29 -3 0 27 29 -3 0 27 29 -3 0 27 0 3176 0 29 -3 0 27 29 -3 0 27 29 -3 0 27 29 -3 0 27 0 3176 0 -5 28 -22 0 3176 -124 0 28 29 0 27 28 -132 0 3170 -10 0 3170 -21 0 3176 0 3176 -7 0 29 -3 0 27 -10 0 3170 -3 3182 3170 -3 3182 3172 -11 0 3171 3182 3178 -45 0 29 -3 0 27 29 -3 0 27 29 -3 0 27 29 -3 0 27 0 3176 0 29 -3 0 27 29 -3 0 27 29 -3 0 27 -5 28 0 3176 -28 0 3176 -49 0 3167 -19 3168 3169 -54 0 -5 28 -132 0 3176 -10 0 3176 -21 0 3176 0 3176 -7 0 28 29 0 27 28 -10 0 3176 -3 0 3176 -3 0 3177 3172 -10 0 3176 -47 0 29 -3 0 27 29 -3 0 27 29 -3 0 27 29 -3 0 27 0 3176 0 29 -3 0 27 29 -3 0 27 -5 28 -85 0 3179 -19 3180 3181 -191 0 3176 -10 0 3176 -21 0 3176 0 3176 -7 0 -5 28 -10 0 3176 -3 0 3176 -4 0 3176 -10 0 3176 -24 0 3171 -2 3182 3172 -11 0 3171 3182 3170 3182 3172 -3 0 29 -3 0 27 29 -3 0 27 29 -3 0 27 29 -3 0 27 0 3176 0 29 -3 0 27 -5 28 -289 0 3170 -12 0 3176 -10 0 3176 -21 0 3176 0 3176 -7 0 28 29 0 27 28 -6 0 3171 -3 3182 3178 -3 0 3177 3182 3172 -2 0 3177 -6 3182 3172 -3 0 3176 -24 0 3176 -2 0 3177 3172 -10 0 3176 -3 0 3177 3172 -2 0 -20 28 0 3176 0 -5 28 -43 0 3167 -12 3168 3169 -237 0 3176 -10 0 3171 3182 3178 -10 0 3176 -21 0 3176 0 3176 -7 0 29 -3 0 27 -6 0 3176 -9 0 3177 3172 -8 0 3177 -3 3182 3170 -3 3182 3172 -20 0 3176 -3 0 3176 -89 0 3179 -12 3180 3181 -237 0 3176 -10 0 3176 -12 0 3176 -21 0 3177 3182 3178 -7 0 29 -3 0 27 -6 0 3176 -10 0 3176 -16 0 3177 3182 3172 -16 0 3171 3182 3178 -3 0 3176 -340 0 3177 3172 -9 0 3176 -12 0 3176 -31 0 28 29 0 27 28 -36 0 3176 -16 0 3176 -347 0 3176 -9 0 3177 3172 -11 0 3176 -11 0 3171 3182 3172 -17 0 -5 28 -401 0 3177 3172 -9 0 3176 -11 0 3177 3182 3172 -9 0 3176 0 3176 -17 0 28 29 0 27 28 -402 0 3176 -9 0 3176 -13 0 3176 -9 0 3176 0 3176 -17 0 29 -3 0 27 -402 0 3176 -2 0 -5 28 -2 0 3177 3172 0 -8 28 -3 0 3176 0 -7 28 0 3176 0 3176 0 -5 28 -5 0 -5 28 0 29 -3 0 27 -402 0 3176 -2 0 29 -3 0 27 -3 0 3176 0 29 -6 0 27 -3 0 3176 0 29 -5 0 27 0 3176 0 3176 0 29 -3 0 27 -5 0 29 -3 0 27 0 29 -3 0 27 -400 0 3170 3182 3178 -2 0 29 -3 0 27 -3 0 3176 0 29 -6 0 27 -2 0 3171 3178 0 29 -5 0 27 0 3176 0 3176 0 29 -3 0 27 -5 0 29 -3 0 27 0 28 29 0 27 28 -405 0 -5 28 -3 0 3176 0 -8 28 -2 0 3176 -2 0 -7 28 0 3176 0 3176 0 -5 28 -5 0 -5 28 0 -5 28 -413 0 3176 -11 0 3176 -10 0 3176 0 3176 -435 0 3176 -11 0 3176 -10 0 3176 0 3176 -435 0 3170 -11 0 3170 -10 0 3170 0 3170 -4402 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -130)
+      (width 461)
+      (height 65)
+      (tiles -88 0 4214 -297 4215 4216 -162 0 4214 -297 4215 4216 -162 0 4214 -297 4215 4216 -162 0 4214 -297 4215 4216 -162 0 4214 -297 4215 4216 -162 0 4214 -297 4215 4216 -162 0 4214 -297 4215 4216 -162 0 4214 -297 4215 4216 -162 0 4214 -297 4215 4216 -162 0 4214 -297 4215 4216 -162 0 4214 -297 4215 4216 -162 0 4214 -71 4215 4213 -13 4219 4221 -211 4215 4216 -162 0 4218 4221 -68 4215 4213 4219 4220 -13 0 4218 -2 4219 4221 -208 4215 4216 -163 0 4214 -59 4215 4213 -8 4219 4220 -18 0 4218 4219 4221 -206 4215 4216 -163 0 4214 -58 4215 4213 4220 -29 0 4218 4221 -205 4215 4216 -163 0 4214 -58 4215 4216 -31 0 4218 -4 4219 4221 -200 4215 4216 -163 0 4214 -58 4215 4216 -36 0 4214 -200 4215 4216 -163 0 4214 -58 4215 4216 -36 0 4214 -200 4215 4216 -163 0 4218 4221 -57 4215 4216 -36 0 4214 -200 4215 4216 -164 0 4218 4221 -56 4215 4216 -36 0 4214 -76 4215 4213 -7 4219 4221 -115 4215 4216 -142 0 4210 -4 4211 4212 -17 0 4218 4221 -55 4215 4216 -36 0 4214 -76 4215 4216 -7 0 4214 -98 4215 4213 -5 4219 4221 -10 4215 4216 -142 0 4214 -4 4215 4216 -18 0 4218 4221 -52 4215 4213 4219 4220 -36 0 4214 -76 4215 4216 -7 0 4214 -98 4215 4216 -5 0 4214 -10 4215 4216 -142 0 4218 4221 -2 4215 4213 4220 -19 0 4214 -11 4215 4221 -40 4215 4216 -38 0 4214 -2 2035 -74 4215 4216 -7 0 4214 -98 4215 4216 -5 0 4214 -10 4215 4216 -143 0 4218 -2 4219 4220 -20 0 4214 -2 4215 4213 4220 -7 0 4218 4221 -39 4215 4216 -38 0 4214 -2 2035 -74 4215 4216 -7 0 4214 -98 4215 4216 -5 0 4214 -10 4215 4216 -167 0 4214 -2 4215 4216 -9 0 4214 -39 4215 4216 -38 0 4214 -2 2035 -74 4215 4217 -7 4211 4224 -98 4215 4216 -5 0 4214 -10 4215 4216 -167 0 4214 -2 4215 4216 -9 0 4214 -39 4215 4216 -38 0 4214 -2 2035 -11 4215 4213 -3 4219 4221 -165 4215 4216 -5 0 4214 -10 4215 4216 -166 0 4210 4224 -2 4215 4216 -9 0 4214 -39 4215 4216 -38 0 4214 -2 2035 -11 4215 4216 -3 0 4214 -165 4215 4216 -5 0 4214 -10 4215 4216 -162 0 4210 -3 4211 4224 -3 4215 4217 4212 -7 0 4210 4224 -39 4215 4216 -38 0 4214 -2 2035 -11 4215 4216 -3 0 4214 -165 4215 4216 -5 0 4214 -10 4215 4216 -162 0 4218 4221 -7 4215 4217 -7 4211 4224 -31 4215 4213 -5 4219 4221 -2 4215 4216 -38 0 4214 -13 4215 4216 -3 0 4214 -36 4215 4213 -6 4219 4221 -34 4215 4213 -7 4219 4221 -78 4215 4216 -5 0 4214 -10 4215 4216 -95 0 4210 4211 4212 -65 0 4214 -19 4215 4213 -4 4219 4221 -7 4215 4213 -4 4219 4221 -9 4215 4216 -5 0 4214 -2 4215 -10 4211 4212 -28 0 4214 -13 4215 4217 -3 4211 4224 -36 4215 4216 -6 0 4214 -2 4215 4213 -10 4219 4221 -20 4215 4216 -7 0 4214 -78 4215 4216 -5 0 4214 -10 4215 4216 -95 0 4218 4219 4220 -65 0 4214 -19 4215 4216 -4 0 4214 -7 4215 4216 -4 0 4214 -9 4215 4216 -5 0 4214 -12 4215 4216 -28 0 4214 -54 4215 4216 -6 0 4214 -2 4215 4216 -10 0 4214 -20 4215 4216 -7 0 4214 -73 4215 4213 -4 4219 4220 -5 0 4214 -8 4215 4213 4219 4220 -48 0 130 -114 0 4214 -19 4215 4216 -4 0 4218 4221 -5 4215 4213 4220 -4 0 4214 -9 4215 4216 -5 0 4214 -12 4215 4216 -23 0 4210 -4 4211 4224 -54 4215 4216 -6 0 4214 -2 4215 4216 -10 0 4214 -20 4215 4216 -7 0 4214 -68 4215 4213 -4 4219 4220 -10 0 4214 -8 4215 4213 -50 0 129 -114 0 4214 -19 4215 4216 -5 0 4214 -5 4215 4216 -5 0 4214 -9 4215 4216 -5 0 4214 -12 4215 4216 -22 0 4210 4224 -59 4215 4216 -6 0 4214 -2 4215 4216 -10 0 4214 -20 4215 4216 -7 0 4214 -63 4215 4213 -4 4219 4220 -15 0 4214 -8 4215 4216 -50 0 129 -71 0 4210 4211 4212 -16 0 4210 -13 4211 4212 -5 0 4210 -3 4211 4224 -19 4215 4216 -5 0 4214 -5 4215 4216 -5 0 4214 -9 4215 4216 -5 0 4214 -12 4215 4217 4212 -13 0 4210 -7 4211 4224 -60 4215 4217 -6 4211 4224 -2 4215 4216 -10 0 4214 -20 4215 4216 -7 0 4214 -55 4215 4213 -3 4219 4221 -3 4215 4216 -20 0 4214 -8 4215 4216 -50 0 129 -55 0 4210 -3 4211 4212 -10 0 4210 4224 4215 4217 4212 -10 0 4210 -4 4211 4224 -13 4215 4216 -5 0 4214 -23 4215 4217 4212 -4 0 4214 -5 4215 4216 -4 0 4210 4224 -9 4215 4216 -5 0 4214 -13 4215 4217 -13 4211 4224 -78 4215 4217 -10 4211 4224 -20 4215 4216 -7 0 4214 -50 4215 4213 -4 4219 4220 -3 0 4214 -3 4215 4216 -20 0 4214 -8 4215 4216 -50 0 129 -33 0 4210 -21 4211 4224 -3 4215 4216 -3 0 4210 -6 4211 4224 -3 4215 4217 -6 4211 4212 -3 0 4214 -18 4215 4217 -5 4211 4224 -24 4215 4217 -4 4211 4224 -5 4215 4217 -4 4211 4224 -10 4215 4216 -5 0 4214 -81 4215 4213 -3 4219 4221 -52 4215 4216 -7 0 4214 -45 4215 4213 -4 4219 4220 -8 0 4214 -3 4215 4216 -13 0 4210 -6 4211 4224 -8 4215 4216 -50 0 129 -33 0 4218 -2 4219 -23 4215 4217 -3 4211 4224 -7 4215 4213 4219 4221 -7 4215 4217 -3 4211 4224 -76 4215 4216 -5 0 4214 -81 4215 4216 -3 0 4214 -52 4215 4217 -7 4211 4224 -17 4215 4213 -18 4219 4221 -3 4215 4213 -4 4219 4220 -13 0 4214 -3 4215 4216 -8 0 4210 -4 4211 4224 -15 4215 4216 -50 0 129 -36 0 4218 4219 4221 -31 4215 4213 4220 0 4218 4221 -87 4215 4216 -5 0 4214 -81 4215 4216 -3 0 4214 -78 4215 4216 -18 0 4214 -3 4215 4216 -18 0 4214 -3 4215 4216 -3 0 4210 -4 4211 4224 -20 4215 4216 -50 0 129 -38 0 4218 4219 4221 -29 4215 4216 -3 0 4214 -87 4215 4216 -5 0 4214 -81 4215 4216 -3 0 4214 -78 4215 4216 -18 0 4214 -3 4215 4216 -18 0 4214 -3 4215 4217 -3 4211 4224 -25 4215 4216 -50 0 129 -40 0 4218 4219 4221 -27 4215 4217 4212 0 4210 4224 -87 4215 4216 -5 0 4214 -81 4215 4216 -3 0 4214 -78 4215 4216 -18 0 4214 -3 4215 4216 -13 0 4210 -4 4211 4224 -33 4215 4216 -50 0 4967 -42 0 4218 4219 4221 -26 4215 4217 4211 4224 -38 4215 4213 -2 4219 4221 -45 4215 4213 4220 -5 0 4218 4221 -80 4215 4216 -3 0 4214 -78 4215 4216 -18 0 4214 -3 4215 4216 -8 0 4210 -4 4211 4224 -38 4215 4216 -95 0 4218 4219 -2 4221 -43 4215 4213 -2 4219 4221 -17 4215 4216 -2 0 4214 -44 4215 4213 4220 -6 0 4666 4218 4221 -79 4215 4216 -3 0 4214 -78 4215 4216 -18 0 4214 -3 4215 4216 -3 0 4210 -4 4211 4224 -43 4215 4216 -98 0 4218 4221 -42 4215 4216 -2 0 4214 4213 -16 4219 4220 -2 0 4218 -44 4219 4220 -7 0 4665 0 4218 -19 4219 4221 -59 4215 4216 -3 0 4214 -78 4215 4217 -18 4211 4224 -3 4215 4217 -3 4211 4224 -48 4215 4216 -99 0 4218 4219 4221 -35 4215 4213 -4 4219 4220 -2 0 4218 4220 -72 0 4665 -21 0 4214 -59 4215 4216 -3 0 4214 -154 4215 4217 -7 4211 4212 -93 0 4218 -2 4219 4221 -32 4215 4216 -81 0 4665 -21 0 4214 -59 4215 4216 -3 0 4214 -163 4215 4216 -95 0 4218 -32 4219 4220 -81 0 4665 -21 0 4214 -59 4215 4216 -3 0 4214 -163 4215 4216 -210 0 4665 -21 0 4214 -59 4215 4216 -3 0 4214 -163 4215 4216 -210 0 4665 -21 0 4214 -59 4215 4216 -3 0 4214 -163 4215 4216 -210 0 4665 -21 0 4214 -59 4215 4216 -3 0 4214 -162 4215 4213 4220 -210 0 4665 -21 0 4214 -8 4215 4213 -3 4219 4221 -5 4215 4213 -6 4219 4221 -5 4215 4213 -5 4219 4221 -5 4215 4213 -3 4219 4221 -5 4215 4213 -3 4219 4221 4215 4216 -3 0 4214 -162 4215 4216 -211 0 4670 -21 0 4214 -8 4215 4216 -3 0 4214 -5 4215 4216 -6 0 4214 -5 4215 4216 -5 0 4214 -5 4215 4216 -3 0 4214 -5 4215 4216 -3 0 4214 4215 4216 -3 0 4214 -162 4215 4216 -233 0 4214 -8 4215 4216 -3 0 4214 -5 4215 4216 -6 0 4214 -5 4215 4216 -5 0 4214 -5 4215 4216 -3 0 4214 -5 4215 4216 -3 0 4214 4215 4216 -3 0 4214 -161 4215 4213 4220 -233 0 4218 -4 4219 4221 -3 4215 4217 -3 4211 4224 -5 4215 4217 -6 4211 4224 -5 4215 4217 -5 4211 4224 -5 4215 4217 -3 4211 4224 -5 4215 4217 -3 4211 4224 4215 4217 -3 4211 4224 -160 4215 4213 4220 -239 0 4214 -219 4215 4216 -240 0 4214 -219 4215 4216 -240 0 4218 -6 4219 4221 -211 4215 4213 4220 -247 0 4218 -2 4219 4221 -207 4215 4213 4220 -251 0 4218 -3 4219 4221 -201 4215 4213 4219 4220 -256 0 4218 -201 4219 4220 -2840 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 461)
+      (height 65)
+      (tiles -88 0 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -162 0 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -152 0 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 -152 0 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -162 0 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -162 0 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -162 0 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -162 0 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -162 0 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -8 0 -2 78 -152 0 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -7 0 -2 78 105 78 -151 0 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 337 -2 338 339 -3 0 337 -15 338 339 -139 0 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -3 0 27 29 27 -4 28 29 27 -4 28 29 27 28 29 -139 0 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 -4 0 4666 -3 0 4666 -4 0 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -146 0 2149 1719 1718 27 28 29 3183 3184 -9 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -6 0 4665 -3 0 4665 -7 0 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 -2 0 27 -5 28 29 27 29 -2 0 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -12 0 44 0 44 0 44 -129 0 79 -5 0 4109 3189 -9 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -3 0 4666 -2 0 4666 -8 0 4665 -3 0 4665 -9 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 -4 0 27 28 29 27 -2 28 29 -4 0 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -146 0 79 -5 0 4109 3190 -9 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 -4 0 4665 -2 0 4665 -8 0 4665 -3 0 4665 -10 0 27 -3 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -15 0 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -10 0 -2 78 3161 78 128 78 2948 -2 78 -127 0 79 -5 0 4109 3189 -9 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 -4 0 4665 -2 0 4665 -8 0 4665 -3 0 4665 -15 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 -14 0 4104 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -146 0 79 -5 0 4109 3190 -9 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 -4 0 4665 -2 0 4665 -8 0 4665 -3 0 4665 -15 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -14 0 4109 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -9 0 27 29 27 -2 28 29 -2 78 -9 0 44 0 44 0 44 0 44 -8 0 -2 78 -118 0 79 -5 0 4114 3170 -9 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 -4 0 4665 -2 0 4665 -8 0 4670 -3 0 4670 -15 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 -14 0 4109 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -13 0 27 28 29 47 105 -2 78 -22 0 78 105 -2 78 -117 0 1349 -17 0 27 -3 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 -4 0 4670 -2 0 4670 -7 0 27 -5 28 29 -14 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -14 0 4109 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 -13 0 27 28 29 337 -30 338 339 -2 0 337 338 339 -105 0 337 -6 338 339 4106 -15 0 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 -7 0 27 -4 28 29 27 -4 28 29 47 -2 0 27 28 29 27 -2 28 29 -2 0 27 28 29 -3 0 27 -4 28 29 -27 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 -14 0 4109 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -15 0 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -2 0 27 29 47 -106 0 47 3170 3185 3186 3170 47 3189 4111 -18 0 47 27 -2 28 29 -5 0 27 28 29 27 -4 28 29 47 -9 0 27 29 27 -4 28 29 27 28 29 -13 0 27 29 -24 0 44 -11 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -14 0 4109 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -14 0 4104 27 28 29 -142 0 27 29 3191 3192 27 29 3190 4116 -88 0 44 -9 0 44 -10 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 -3 0 27 28 29 27 29 -3 0 47 27 -2 28 29 -3 0 27 -3 28 29 27 -3 28 29 4106 -13 0 4109 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -14 0 4109 27 29 47 -143 0 27 -2 28 29 -42 0 44 -5 0 44 -32 0 44 -8 0 44 -9 0 44 -11 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -5 0 27 28 29 -5 0 27 28 29 -5 0 47 27 -4 28 29 27 29 4111 -13 0 4109 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -14 0 4109 27 28 29 -143 0 1348 -2 0 1348 -40 0 44 -9 0 44 -31 0 44 -8 0 44 -20 0 27 28 29 27 -4 28 29 27 -2 28 29 -7 0 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -29 0 27 -3 28 29 4111 -13 0 4109 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -8 0 4094 4095 -4 0 4109 27 29 47 -96 0 3161 -46 0 79 -2 0 79 -81 0 44 -30 0 27 -4 28 29 27 -4 28 29 47 -22 0 47 27 28 29 -31 0 27 29 27 29 4111 -3 0 3189 -5 0 3189 -3 0 4109 47 27 -4 28 29 27 -2 28 29 -3 0 27 -3 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -8 0 4096 4097 -4 0 4109 27 28 29 -143 0 79 -2 0 79 -38 0 44 -13 0 44 -29 0 44 -29 0 27 28 29 27 -4 28 29 27 -2 28 29 -58 0 27 28 29 4111 -2 0 4104 3190 -5 295 3190 4106 -2 0 4109 27 -2 28 29 27 -3 28 29 -7 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -3 0 27 29 27 -4 28 29 27 -4 28 29 47 -8 0 4098 4099 -4 0 4109 27 29 47 -94 0 80 -48 0 79 -2 0 79 -13 0 337 -4 338 339 -93 0 27 -4 28 29 27 -4 28 29 47 -9 0 44 -3 0 44 -3 0 44 -41 0 27 29 4116 -2 0 4109 3170 27 28 29 27 29 3170 4111 -2 0 4109 47 27 -4 28 29 47 -9 0 27 29 27 -4 28 29 47 -5 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -3 0 27 -3 28 29 27 -4 28 29 27 -2 28 29 -7 0 337 -2 338 339 -3 0 4109 27 28 29 -30 0 27 -2 28 29 -60 0 1349 -20 0 44 -10 0 44 -16 0 79 -2 0 79 -15 0 27 -2 28 337 -3 338 339 -11 0 337 -2 338 339 -15 0 337 -2 338 339 -23 0 337 -2 338 339 -28 0 27 28 29 27 -4 28 29 27 -2 28 29 -11 0 44 -3 0 44 -3 0 44 -44 0 4109 47 27 -4 28 29 4111 -2 0 4109 27 -2 28 29 27 28 29 -11 0 27 -2 28 29 27 -2 28 29 -5 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -3 0 27 29 27 -4 28 29 27 -4 28 29 47 -7 0 27 -2 28 29 4106 -2 0 4109 27 29 47 -21 0 27 -2 28 29 -68 0 337 -5 338 339 -27 0 44 -15 0 79 -2 0 79 -16 0 27 -4 28 29 337 -11 338 339 27 28 29 -15 0 27 28 29 337 -7 338 339 -5 7026 337 -9 338 339 47 27 29 -28 0 27 -4 28 29 27 -4 28 29 47 -64 0 4109 27 -2 28 29 27 28 29 4111 -2 0 4109 47 27 -3 28 29 -12 0 47 27 -4 28 29 47 -5 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 -3 0 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -3 0 27 -3 28 29 27 -4 28 29 27 -2 28 29 -7 0 47 27 28 29 4111 -2 0 4114 27 28 29 -12 0 27 -2 28 29 -78 0 1348 47 3170 47 1348 -15 0 44 -28 0 79 -2 0 79 -15 0 78 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 -17 0 47 27 -4 28 29 27 -2 28 29 4106 -3 0 4104 27 28 29 27 -4 28 29 27 -3 28 29 -23 0 -5 295 27 28 29 27 -4 28 29 27 -2 28 29 -3 0 62 -3 0 337 -12 338 339 -43 0 4114 47 27 -4 28 29 4116 -2 0 4109 27 -2 28 29 27 29 -12 0 27 -2 28 29 27 -2 28 29 -5 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -3 0 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -3 0 27 29 27 -4 28 29 27 29 -12 0 27 -2 28 29 4111 -3 0 27 29 47 -48 0 130 -45 0 79 27 28 29 79 -17 0 44 -9 0 44 -16 0 79 -2 0 79 -14 0 -2 78 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 -17 0 27 -2 28 29 27 -4 28 29 47 4111 0 44 0 4109 27 -4 28 29 27 -4 28 29 27 29 -19 0 295 -2 0 295 27 29 27 28 29 27 -4 28 29 27 -4 28 29 337 -7 338 339 27 28 29 27 -4 28 29 27 28 29 337 -4 338 339 -19 0 4094 4095 -18 0 298 27 28 29 27 29 296 -3 0 4109 47 27 -3 28 29 -12 0 47 27 -4 28 29 47 -5 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 -3 0 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -3 0 27 -3 28 29 -17 0 47 27 28 29 4111 -3 0 1348 -50 0 129 -45 0 79 -3 0 79 -44 0 1349 -2 0 1349 -13 0 47 -2 78 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 -17 0 47 27 -4 28 29 27 -2 28 29 4111 -3 0 4109 27 28 29 27 -4 28 29 27 -3 28 29 295 -3 0 295 -5 0 295 -8 0 47 -2 295 27 -7 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 337 338 339 -17 0 4096 4097 -10 0 4094 4095 -6 0 298 27 -3 28 29 296 -3 0 4114 27 -2 28 29 27 29 -25 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -3 0 47 27 -4 28 29 27 -4 28 29 27 29 -30 0 27 -2 28 29 4111 -3 0 79 -32 0 27 -2 28 29 -14 0 129 -30 0 62 -14 0 79 -3 0 79 -15 0 44 -13 0 44 -10 0 337 -13 338 339 -5 0 337 -3 338 339 27 -3 28 29 27 -4 28 29 27 -4 28 29 27 28 29 295 -3 0 295 -7 0 295 -3 0 295 27 -2 28 29 27 -4 28 29 47 4111 0 44 0 4109 27 -4 28 29 27 -4 28 29 27 28 29 -3 295 47 -5 0 47 -3 295 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 -19 0 4098 4099 -10 0 4096 4097 -6 0 298 27 28 29 27 29 296 -4 0 47 27 -3 28 29 -25 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 -3 0 27 -2 28 29 27 -4 28 29 -35 0 47 27 28 29 4111 -3 0 79 -23 0 27 -2 28 29 -23 0 129 -30 0 337 339 -13 0 1349 -3 0 1349 -5 0 337 -4 338 339 -23 0 337 -5 338 339 27 29 27 -4 28 29 27 -4 28 29 -5 0 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -3 295 47 -7 0 47 -3 295 27 29 27 -4 28 29 27 -2 28 29 4111 -3 0 4109 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 -17 0 337 -4 338 339 -8 0 4098 4099 -6 0 298 27 -3 28 29 296 -4 0 -6 297 -25 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -3 0 47 27 -2 28 29 -40 0 27 -2 28 29 4111 -3 0 79 -7 0 112 -6 0 27 -2 28 29 -32 0 129 -31 0 337 -23 338 339 27 -2 28 29 -25 0 27 -3 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 4111 -3 0 4109 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 -17 0 3183 3184 3183 3184 3183 3184 -4 0 337 -8 338 339 -2 0 298 27 28 29 27 29 296 -35 0 27 28 29 -68 0 47 27 28 29 4111 -3 0 79 -50 0 129 -33 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 -25 0 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 4111 0 44 0 4109 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 -18 0 3170 -2 0 3170 -5 0 3183 3184 3183 3184 3183 3184 3183 3184 3183 3184 -11 0 337 -8 338 339 -24 0 1348 -69 0 27 -2 28 29 4111 -3 0 79 -50 0 129 -35 0 27 -5 28 29 27 28 29 -2 0 47 27 -4 28 29 27 -4 28 29 -25 0 27 -3 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 4111 -3 0 4109 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 -18 0 1348 -2 0 1348 -6 0 3170 -2 0 -2 3170 -2 0 3170 -13 0 3170 -2 0 3183 3184 -2 0 3170 -25 0 79 -62 0 27 29 27 -4 28 29 27 28 29 4111 -3 0 79 -50 0 129 -38 0 27 -2 28 29 3183 3184 -3 0 27 -2 28 29 27 -4 28 29 27 28 29 -25 0 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 4111 -3 0 4109 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 4106 -3 0 4104 27 -3 28 29 -18 0 79 -2 0 79 -6 0 1348 -6 0 1348 -13 0 1348 -6 0 1348 -25 0 79 -57 0 27 -8 28 29 27 -4 28 29 4116 -3 0 79 -6 0 112 -43 0 129 -40 0 27 -6 28 29 27 -4 28 29 27 -4 28 29 -3 0 295 -5 0 295 -5 0 295 -5 0 295 -3 0 27 -3 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 4116 -3 0 4114 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 4111 -3 0 4109 27 29 27 28 29 -18 0 79 -2 0 79 -6 0 79 -6 0 79 -13 0 79 -6 0 79 -25 0 79 -52 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 -4 0 79 -50 0 4967 -42 0 27 28 29 27 -4 28 29 27 -4 28 29 27 28 29 295 -2 0 47 -5 0 47 -5 0 47 -5 0 47 -2 0 295 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -2 0 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -2 0 44 -2 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 4106 -3 0 4104 -3 28 29 27 -2 28 29 4106 -3 0 4104 27 28 29 27 -2 28 29 4106 -3 0 4104 27 28 29 27 29 4111 -3 0 4109 27 -3 28 29 -6 0 4094 4095 -9 0 2149 2152 -2 0 2151 2150 -5 0 79 -6 0 79 -13 0 79 -6 0 79 -25 0 79 -39 0 337 -7 338 339 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 337 -5 338 339 79 -41 0 337 -32 338 339 -22 0 3170 61 3170 61 3170 61 3170 3189 27 -4 28 29 47 -2 295 27 28 29 27 -2 28 29 -5 295 27 28 29 27 -2 28 29 -2 295 27 -4 28 29 27 29 -2 0 27 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 -2 0 27 -3 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 4666 -6 0 27 -3 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 4111 -3 0 4109 47 27 -4 28 29 47 4111 -3 0 4109 27 -4 28 29 47 4111 -3 0 4109 27 -3 28 29 4111 0 3161 0 4109 27 29 27 28 29 -6 0 4096 4097 -9 0 79 -4 0 79 -4 0 2149 2152 -6 0 2151 2150 -11 0 2149 2152 -6 0 2151 2150 -24 0 79 -34 0 337 -4 338 339 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 337 339 3185 3186 3183 3184 -2 0 79 -42 0 27 -3 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 -23 0 27 -5 28 29 3190 61 3189 27 -5 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 -2 0 27 -3 28 29 27 -4 28 29 27 -4 28 29 27 29 -2 0 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 0 4665 -7 0 47 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 4111 -3 0 4109 27 -2 28 29 27 -2 28 29 4111 -3 0 4109 27 28 29 27 -2 28 29 4111 -3 0 4109 27 28 29 27 29 4111 -3 0 4109 27 -3 28 29 -6 0 4098 4099 -9 0 79 -4 0 79 -4 0 79 -8 0 79 -11 0 79 -8 0 79 0 3161 105 -21 0 1349 -29 0 337 -4 338 339 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 337 339 3191 3192 -4 0 1349 -43 0 47 27 -4 28 29 27 29 -4 0 27 -2 28 29 -4 0 27 -2 28 29 27 -3 28 29 -26 0 27 -4 28 29 61 3190 61 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -2 0 27 29 0 4666 -7 0 4666 78 83 0 78 4666 -6 0 4666 -3 297 -5 0 -3 297 4666 -8 0 4666 -8 0 4666 -4 0 4666 -9 0 4665 -15 0 4666 -3 0 4666 -14 0 47 27 -4 28 29 4111 -3 0 4109 47 27 -4 28 29 47 4111 -3 0 4109 27 -4 28 29 47 4111 -3 0 4109 27 -3 28 29 4111 -3 0 4109 27 29 27 28 29 -6 0 337 339 -9 0 79 -4 0 79 -4 0 79 -8 0 79 0 4094 4095 -5 0 4094 4095 0 79 -8 0 79 -4 0 4094 4095 -3 0 337 339 -6 0 337 -36 338 339 27 -2 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 337 -15 338 339 -35 0 47 -4 0 27 29 -6 0 27 29 -6 0 27 29 -4 0 47 -29 0 27 -5 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 0 4666 -7 0 4665 -7 0 4665 -4 0 4665 -6 0 4665 -11 0 4665 -8 0 4665 -8 0 4665 -4 0 4665 -9 0 4665 -15 0 4665 -3 0 4665 -14 0 27 -2 28 29 27 28 29 4111 -3 0 4109 27 -2 28 29 27 -2 28 29 4111 -3 0 4109 27 28 29 27 -2 28 29 4111 -3 0 4109 27 28 29 27 29 4111 -3 0 4109 27 -3 28 29 -6 0 47 337 339 -8 0 1349 -4 0 1349 -4 0 79 -8 0 79 0 4096 4097 -5 0 4096 4097 0 79 -8 0 79 -4 0 4096 4097 -2 0 337 -8 338 339 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -95 0 27 -5 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 -2 0 4665 -7 0 4665 -7 0 4665 -4 0 4665 -6 0 4665 -11 0 4665 -8 0 4665 -8 0 4665 -4 0 4665 -9 0 4665 -2 0 44 -12 0 4665 -3 0 4665 -15 0 27 -4 28 29 4111 -3 0 4109 47 27 -4 28 29 47 4111 -3 0 4109 27 -4 28 29 47 4111 -3 0 4109 27 -3 28 29 4111 -3 0 4109 27 29 27 28 29 1720 -4 1719 1718 27 29 337 -8 338 339 -4 295 337 338 339 -2 0 1349 -8 0 1349 0 4098 4099 -5 0 4098 4099 0 1349 -8 0 1349 -4 0 4098 4099 0 337 339 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 0 47 -122 0 7407 7408 0 4666 0 48 -3 0 4665 -7 0 4665 -7 0 4665 -4 0 4665 -6 0 4665 -11 0 4665 -8 0 4665 -8 0 4665 78 0 83 78 4665 -9 0 4665 -15 0 4665 -3 0 4665 -15 0 27 28 29 27 28 29 4111 -3 0 4109 27 -2 28 29 27 -2 28 29 4111 -3 0 4109 27 28 29 27 -2 28 29 4111 -3 0 4109 27 28 29 27 29 4111 -3 0 4109 27 -3 28 29 -6 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 337 -2 338 339 -8 295 337 -11 338 339 -8 295 337 -7 338 339 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -122 0 7407 7408 0 4665 -5 0 4665 -7 0 4665 -7 0 4665 -4 0 4665 -6 0 4665 -11 0 4665 -8 0 4665 -8 0 4665 -4 0 4665 -9 0 4665 -15 0 4665 -3 0 4665 -5 0 1628 1629 1628 1629 1628 1629 -5 0 27 -3 28 29 4116 -3 0 4114 27 -5 28 29 47 4116 -3 0 4114 27 -4 28 29 47 4116 -3 0 4114 27 -3 28 29 4116 -3 0 4114 27 29 27 28 29 1720 -4 1719 1718 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 -122 0 7407 7408 0 4665 -5 0 4665 -7 0 4665 -7 0 4665 -4 0 4665 -6 0 4665 -11 0 4665 -8 0 4665 -8 0 4665 -4 0 4665 -9 0 4665 -15 0 4665 -3 0 4665 -5 0 1630 1631 1630 1631 1630 1631 -61 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 27 28 29 -122 0 7407 7408 0 4665 -5 0 4665 -7 0 4665 -7 0 4670 -4 0 4670 -6 0 4665 -11 0 4665 -8 0 4665 -8 0 4665 -4 0 4665 -9 0 4665 -15 0 4670 -3 0 4670 -4 0 337 -5 338 339 62 -63 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 0 47 -123 0 7409 7410 0 4665 -5 0 4665 -7 0 4665 -6 0 27 -6 28 29 -5 0 4670 -11 0 4670 -8 0 4665 -8 0 4665 -4 0 4665 -9 0 4670 -14 0 27 -5 28 29 -3 0 27 29 27 -3 28 29 62 -63 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 47 -123 0 7411 7412 0 4665 -5 0 4665 -7 0 4670 -18 0 27 -13 28 29 -7 0 4670 -8 0 4665 -4 0 4665 -8 0 27 -7 28 29 -18 0 27 -2 28 29 27 29 62 -63 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -126 0 4670 -5 0 4670 -5 0 27 -3 28 29 -37 0 27 28 29 -7 0 4670 -4 0 4670 -37 0 27 -2 28 29 62 -63 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 -126 0 27 -7 28 29 -55 0 27 -6 28 29 -38 0 337 338 339 -60 0 27 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 -240 0 -2 44 0 337 -3 338 339 -5 0 337 -6 338 339 -5 0 337 -5 338 339 -5 0 337 -3 338 339 -5 0 337 -4 338 339 -5 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -3 28 29 -240 0 337 -2 338 339 27 -2 28 29 337 -5 338 339 27 -4 28 29 337 -5 338 339 27 -3 28 29 337 -5 338 339 27 28 29 337 -5 338 339 47 27 28 29 337 -5 338 339 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -244 0 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -2 28 29 -248 0 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 -252 0 27 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -257 0 27 -5 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 28 29 -263 0 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 -4 28 29 27 29 -2007 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (running #t)
+      (z-pos -5)
+      (name "cr3")
+      (path-ref "gen171078949794335681772880")
+      (width 42)
+      (height 16)
+      (tiles 61 337 -2 338 339 -30 0 337 339 -2 61 337 338 339 337 338 339 -2 61 -30 0 61 337 -2 338 339 -4 61 337 339 61 -30 0 -2 61 337 339 337 339 61 337 338 339 -2 61 -30 0 61 337 339 337 339 -3 61 337 338 339 61 -30 0 -4 61 337 338 339 337 339 61 337 339 -30 0 337 339 -3 61 337 339 337 -3 338 339 -30 0 61 337 339 61 337 339 61 337 339 -3 61 -30 0 337 339 -3 61 337 339 0 337 339 337 339 -30 0 61 337 339 0 337 339 61 -2 0 337 339 -31 0 61 -2 0 337 -2 338 339 337 339 -33 0 61 0 337 -2 338 339 61 -35 0 61 -5 0 61 -168 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (running #t)
+      (z-pos -5)
+      (name "cr4")
+      (path-ref "gen171079120794335678632976")
+      (width 15)
+      (height 9)
+      (tiles -10 0 -2 61 337 339 61 0 337 -2 338 339 61 -4 0 61 337 339 337 339 0 61 337 339 -2 61 -4 0 337 338 339 -2 61 0 61 337 338 339 61 -4 0 61 337 339 -2 61 0 -3 61 337 339 -4 0 -2 61 337 338 339 0 337 339 -3 61 -4 0 -3 61 337 339 0 -2 61 337 339 61 -4 0 337 338 339 -2 61 0 61 337 339 -2 61 -4 0 -2 61 337 338 339 0 -3 61 337 339 -4 0 61 337 339 -2 61)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (running #t)
+      (z-pos -5)
+      (name "cr5")
+      (path-ref "gen171079132594335681180784")
+      (width 6)
+      (height 8)
+      (tiles 4104 337 339 337 339 61 4109 61 337 339 -2 61 4109 -5 61 4109 -3 61 337 339 4109 -3 61 337 339 4109 61 337 339 -2 61 4109 -2 61 337 338 339 4114 337 338 339 -2 61)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -5)
+      (name "lkc")
+      (path-ref "gen171079856194335681648320")
+      (width 5)
+      (height 9)
+      (tiles -3 61 337 339 61 337 339 -4 61 337 339 61 337 339 61 337 339 61 337 339 -4 61 337 339 -2 61 337 339 -2 61 337 339 61 337 339 61 337 339 -2 61)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (running #t)
+      (z-pos -5)
+      (name "crs6")
+      (path-ref "gen171079891194335730944752")
+      (width 5)
+      (height 8)
+      (tiles 61 337 -2 338 339 337 338 339 -4 61 337 339 61 337 338 339 -3 61 337 338 339 61 337 339 61 337 339 337 -3 338 339 337 339 -3 61)
+    )
+    (tilemap
+      (solid #f)
+      (tint 0.5 0.5 0.6)
+      (z-pos -120)
+      (width 461)
+      (height 65)
+      (tiles -89 0 -296 28 29 -164 0 -296 28 29 -164 0 -296 28 29 -164 0 -296 28 29 -164 0 -296 28 29 -164 0 -296 28 29 -164 0 -296 28 29 -164 0 -296 28 29 -164 0 -296 28 29 -164 0 -296 28 29 -164 0 -296 28 29 -164 0 -296 28 29 -164 0 -71 28 -2 0 3167 -3 3168 3169 -4 0 3167 -3 3168 3169 -4 28 -3 0 -202 28 29 -165 0 -68 28 -4 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -2 0 -2 28 -4 0 -201 28 29 -165 0 -59 28 -13 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -8 0 -201 28 29 -165 0 -58 28 29 -13 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -7 0 -202 28 29 -165 0 -58 28 29 -13 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -4 0 3167 -3 3168 3169 0 -199 28 29 -143 0 3176 -21 0 -58 28 29 -13 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 0 -199 28 29 -143 0 3176 -23 0 -10 28 27 -45 28 29 -13 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 0 -199 28 29 -142 0 3167 3176 -5 3168 3169 -15 0 27 -57 28 29 -13 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 0 -76 28 3167 -7 3168 3169 -114 28 29 -142 0 3179 -6 3180 3181 -16 0 27 -56 28 29 -13 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 0 -76 28 3173 -7 3174 3175 -98 28 3167 -5 3168 3169 -9 28 29 -167 0 27 -55 28 29 -13 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 0 -76 28 3173 -7 3174 3175 -98 28 3173 -5 3174 3175 -9 28 29 -100 0 3176 -46 0 -3 3182 3172 -17 0 27 -52 28 29 -15 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 0 -76 28 3173 -7 3174 3175 -98 28 3173 -5 3174 3175 -9 28 29 -100 0 3176 -44 0 3176 -4 0 3176 -17 0 27 -2 28 3167 -9 3168 3169 -39 28 29 -15 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 0 -76 28 3173 -7 3174 3175 -98 28 3173 -5 3174 3175 -9 28 29 -100 0 3176 -44 0 3176 -4 0 3176 -17 0 27 -2 28 3173 -9 3174 3175 -39 28 29 -15 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 0 -76 28 3179 -7 3180 3181 -98 28 3173 -5 3174 3175 -9 28 29 -99 0 3171 3178 -44 0 3176 -4 0 3176 -17 0 27 -2 28 3173 -9 3174 3175 -39 28 29 -15 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 0 -13 28 3167 -3 3168 3169 -165 28 3173 -5 3174 3175 -9 28 29 -99 0 3176 -45 0 3176 -4 0 3176 -16 0 27 -3 28 3173 -9 3174 3175 -39 28 29 -15 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 0 -13 28 3173 -3 3174 3175 -165 28 3173 -5 3174 3175 -9 28 29 -99 0 3176 -45 0 3176 -4 0 3176 -14 0 -6 28 3173 -9 3174 3175 -39 28 29 -15 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 0 -13 28 3173 -3 3174 3175 -165 28 3173 -5 3174 3175 -9 28 29 -94 0 3167 -4 3168 3176 3169 -44 0 3176 -4 0 3176 -14 0 -7 28 -9 3180 3181 -40 28 29 -14 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 0 -13 28 3173 -3 3174 3175 -36 28 3167 -6 3168 3169 -34 28 3167 -7 3168 3169 -78 28 3173 -5 3174 3175 -9 28 29 -94 0 3179 -5 3180 3181 -44 0 3176 -4 0 3176 -10 0 3171 -3 3182 -17 28 29 3167 -5 3168 3169 -7 28 3167 -5 3168 3169 -18 28 29 -6 0 -2 28 -6 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 0 -13 28 3179 -3 3180 3181 -36 28 3173 -6 3174 3175 -2 28 3167 -10 3168 3169 -20 28 3173 -7 3174 3175 -78 28 3173 -5 3174 3175 -9 28 29 -145 0 3176 -4 0 3176 -10 0 3176 -3 0 -7 28 -5 0 27 -4 28 29 3173 -5 3174 3175 -7 28 3173 -5 3174 3175 -27 28 -6 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -4 0 3179 -3 3180 3181 0 -54 28 3173 -6 3174 3175 -2 28 3173 -10 3174 3175 -20 28 3173 -7 3174 3175 -73 28 3167 -3 3168 3169 3173 -5 3174 3175 -9 28 29 -97 0 3176 -47 0 3176 -4 0 3176 -10 0 3176 -3 0 -18 28 3173 -5 3174 3175 -7 28 3173 -5 3174 3175 -9 28 29 -3 0 27 -13 28 -6 0 3173 -3 3174 3175 -4 0 3173 -3 3174 3175 -5 0 -59 28 3173 -6 3174 3175 -2 28 3173 -10 3174 3175 -20 28 3173 -7 3174 3175 -68 28 3167 -3 3168 3169 3173 -3 3174 3175 3173 -5 3174 3175 -9 28 29 -97 0 3176 -42 0 3167 -4 3168 3176 -4 3168 3176 -3 3168 3169 -5 0 3167 3176 -2 3168 0 -18 28 3173 -5 3174 3175 27 -5 28 29 3173 -5 3174 3175 -8 28 -7 0 -12 28 -6 0 3173 -3 3174 3175 -4 0 3179 -3 3180 3181 -4 0 -60 28 3173 -6 3174 3175 -2 28 3173 -10 3174 3175 -20 28 3173 -7 3174 3175 -63 28 3167 -3 3168 3169 3173 -3 3174 3175 3173 -3 3174 3175 3173 -5 3174 3175 -9 28 29 -97 0 3177 -2 3182 3172 -4 0 3167 -4 3168 3169 -10 0 27 28 29 -10 0 3167 -6 3168 -13 3174 -7 3168 3176 -3 0 -18 28 3173 -5 3174 3175 27 -5 28 29 3173 -5 3174 3175 -8 28 -7 0 -12 28 -6 0 3179 -3 3180 3181 -4 0 3179 -3 3180 3181 -64 28 3179 -6 3180 3181 -2 28 3173 -10 3174 3175 -20 28 3173 -7 3174 3175 -55 28 3167 -3 3168 3169 -3 28 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 3173 -5 3174 3175 -8 28 29 -82 0 3167 -18 3168 3176 -4 3168 -5 3174 3181 -9 0 27 -3 28 29 -9 0 3179 -2 3180 -4 3174 0 -12 28 -6 3174 27 -22 28 3179 -5 3180 3181 27 -5 28 29 3179 -5 3180 3181 -8 28 -7 0 -106 28 3179 -10 3180 3181 -20 28 3173 -7 3174 3175 -50 28 3167 -3 3168 3169 3173 -3 3174 3175 -3 28 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 3173 -5 3174 3175 -8 28 29 -82 0 3179 -2 3180 -25 3174 3181 -3 0 27 -17 28 29 -4 0 27 -15 28 -9 0 -15 28 29 -35 28 -7 0 -81 28 3167 -3 3168 3169 -52 28 3173 -7 3174 3175 -45 28 3167 -3 3168 3169 3173 -3 3174 3175 3173 -3 3174 3175 -3 28 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 3179 -5 3180 3181 -8 28 29 -84 0 27 -36 28 3167 -3 3168 3169 -51 28 29 -35 28 -7 0 -81 28 3173 -3 3174 3175 -52 28 3179 -7 3180 3181 -17 28 3167 -3 3168 3169 3167 -3 3168 3169 3167 -3 3168 3169 3167 -3 3168 3169 -3 28 3167 -3 3168 3169 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 -3 28 3173 -3 3174 3175 3173 -3 3174 3175 3179 -3 3180 3181 -15 28 29 -86 0 27 -34 28 3173 -3 3174 3175 -51 28 29 -35 28 -7 0 -81 28 3173 -3 3174 3175 -78 28 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 -3 28 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 -3 28 3173 -3 3174 3175 3179 -3 3180 3181 -20 28 29 -89 0 27 -31 28 3173 -3 3174 3175 -87 28 -7 0 -81 28 3173 -3 3174 3175 -78 28 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 -3 28 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 -3 28 3179 -3 3180 3181 -25 28 29 -91 0 27 -29 28 3173 -3 3174 3175 -87 28 -7 0 -81 28 3173 -3 3174 3175 -78 28 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 -3 28 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 3179 -3 3180 3181 -33 28 29 -95 0 -2 28 27 -23 28 3179 -3 3180 3181 -37 28 -3 0 27 -46 28 -7 0 -81 28 3173 -3 3174 3175 -78 28 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 -3 28 3173 -3 3174 3175 3173 -3 3174 3175 3179 -3 3180 3181 -38 28 29 -95 0 27 -46 28 -4 0 -17 28 -3 0 27 -44 28 -10 0 -80 28 3173 -3 3174 3175 -78 28 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 3173 -3 3174 3175 -3 28 3173 -3 3174 3175 3179 -3 3180 3181 -44 28 29 -96 0 27 -44 28 -4 0 -17 28 -3 0 27 -44 28 -11 0 -79 28 3173 -3 3174 3175 -78 28 3179 -3 3180 3181 3179 -3 3180 3181 3179 -3 3180 3181 3179 -3 3180 3181 -3 28 3179 -3 3180 3181 -49 28 29 -101 0 -6 28 29 -33 28 -97 0 27 -61 28 3173 -3 3174 3175 -155 28 -106 0 27 -30 28 -103 0 27 -60 28 3173 -3 3174 3175 -163 28 29 -100 0 -28 28 -103 0 27 -60 28 3173 -3 3174 3175 -163 28 29 -231 0 27 -60 28 3173 -3 3174 3175 -163 28 29 -231 0 27 -60 28 3173 -3 3174 3175 -163 28 29 -230 0 27 -61 28 3173 -3 3174 3175 -163 28 29 -230 0 -11 28 3167 -3 3168 3169 -5 28 3167 -6 3168 3169 -5 28 3167 -5 3168 3169 -5 28 3167 -3 3168 3169 -5 28 3167 -3 3168 3169 28 3173 -3 3174 3175 -162 28 29 -231 0 -11 28 3173 -3 3174 3175 -5 28 3173 -6 3174 3175 -5 28 3173 -5 3174 3175 -5 28 3173 -3 3174 3175 -5 28 3173 -3 3174 3175 28 3173 -3 3174 3175 -162 28 29 -234 0 -8 28 3173 -3 3174 3175 -5 28 3173 -6 3174 3175 -5 28 3173 -5 3174 3175 -5 28 3173 -3 3174 3175 -5 28 3173 -3 3174 3175 28 3173 -3 3174 3175 -162 28 29 -236 0 -6 28 3179 -3 3180 3181 -5 28 3179 -6 3180 3181 -5 28 3179 -5 3180 3181 -5 28 3179 -3 3180 3181 -5 28 3179 -3 3180 3181 28 3179 -3 3180 3181 -161 28 29 -239 0 27 -220 28 29 -239 0 27 -219 28 29 -242 0 -218 28 29 -245 0 -214 28 29 -249 0 -210 28 29 -253 0 -206 28 29 -263 0 -195 28 29 -265 0 -107 28 -2008 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -1)
+      (width 461)
+      (height 65)
+      (tiles -1775 0 4673 4675 -459 0 4683 4679 4675 -459 0 4683 4679 4675 -459 0 4683 4679 4675 -459 0 4683 4679 4675 -243 0 -5 4215 -80 0 -3 4215 -128 0 4683 4679 4675 -242 0 -5 4215 -80 0 -3 4215 -129 0 4683 4680 -242 0 -5 4215 -80 0 -3 4215 -373 0 -5 4215 -80 0 -3 4215 -373 0 -5 4215 -80 0 -3 4215 -121 0 4666 -3 0 4666 -11 0 4673 4675 -132 0 4104 4106 -100 0 -5 4215 -80 0 -3 4215 -121 0 4665 -3 0 4665 -11 0 4683 4679 4675 -132 0 4111 -19 0 -5 4215 -34 0 -5 4215 -37 0 -5 4219 -204 0 4665 -3 0 4665 -12 0 4683 4679 4675 -131 0 4111 -19 0 -5 4215 -34 0 -5 4215 -246 0 4665 -3 0 4665 -13 0 4683 4679 4675 -130 0 4111 -19 0 -5 4215 -34 0 -5 4215 -131 0 4105 4106 -113 0 4665 -3 0 4665 -14 0 4683 4679 4675 -129 0 4116 -19 0 -5 4215 -34 0 -5 4215 -131 0 4110 4111 -113 0 4665 -3 0 4665 -15 0 4683 4679 4675 -148 0 -5 4215 -34 0 -5 4215 -131 0 4110 4111 -113 0 4670 -3 0 4670 -16 0 4683 4680 -148 0 -5 4215 -34 0 -5 4215 -131 0 4110 4111 -197 0 7471 -50 0 7471 -10 0 4104 -24 0 -5 4219 -34 0 -5 4219 -131 0 4110 4111 -197 0 7472 -50 0 7472 -10 0 4109 -199 0 4110 4111 -108 0 4105 4106 -13 0 4666 -2 0 4666 -5 0 4666 -2 0 4666 -5 0 4666 -2 0 4666 -52 0 7472 -20 0 7471 -29 0 7472 -10 0 4114 -182 0 4104 4105 -15 0 4110 4111 -108 0 4110 4111 -13 0 4665 -2 0 4665 -5 0 4665 -2 0 4665 -5 0 4665 -2 0 4665 -52 0 7472 -20 0 7472 -29 0 7472 -193 0 4109 4110 -15 0 4110 4111 -70 0 -4 4215 -34 0 4110 4111 -13 0 4665 -2 0 4665 -5 0 4665 -2 0 4665 -5 0 4665 -2 0 4665 -52 0 7472 -20 0 7472 -29 0 7472 -23 0 4094 4095 -168 0 4109 4110 -15 0 4110 4111 -65 0 -9 4215 -34 0 4110 4111 -13 0 4665 -2 0 4665 -5 0 4665 -2 0 4665 -5 0 4665 -2 0 4665 -52 0 7472 -20 0 7472 -29 0 7472 -23 0 4096 4097 -19 0 4094 4095 -17 0 4094 4095 -128 0 4109 4110 -15 0 4110 4111 -60 0 -14 4215 -34 0 4110 4111 -13 0 4665 -2 0 4665 -5 0 4665 -2 0 4665 -5 0 4665 -2 0 4665 -52 0 7472 -20 0 7472 -29 0 7472 -23 0 4098 4099 -19 0 4096 4097 -17 0 4096 4097 -16 0 4094 4095 -3 0 4094 4095 -105 0 4109 4110 -4 0 4106 -5 0 4104 -4 0 4110 4111 -32 0 -19 4215 -5 0 -18 4215 -34 0 4110 4111 -13 0 4665 -2 0 4665 -5 0 4665 -2 0 4665 -5 0 4670 -2 0 4670 -52 0 7472 -20 0 7472 -29 0 7472 -44 0 4098 4099 -17 0 4098 4099 -16 0 4096 4097 -3 0 4096 4097 -105 0 4114 4115 -4 0 4111 -5 0 4109 -4 0 4110 4111 -32 0 -19 4215 -5 0 -18 4215 -34 0 4110 4111 -13 0 4665 -2 0 4665 -5 0 4670 -2 0 4670 -61 0 7472 -20 0 7472 -29 0 7472 -81 0 4098 4099 -3 0 4098 4099 -53 0 1731 1732 -56 0 4111 0 -3 4215 0 4109 -4 0 4110 4111 -32 0 -19 4215 -5 0 -18 4215 -28 0 4104 4105 -4 0 4110 4111 -13 0 4670 -2 0 4670 -14 0 4666 -2 0 4666 -52 0 7472 -20 0 7472 -29 0 7472 -141 0 1733 1734 -56 0 4111 0 -3 4215 0 4109 -4 0 4110 4111 -32 0 -19 4215 -5 0 -18 4215 -28 0 4109 4110 -4 0 4115 4116 -22 0 4666 -2 0 4666 -5 0 4665 -2 0 4665 -12 0 7471 -9 0 7471 -29 0 7472 -20 0 7472 -29 0 7472 -73 0 4104 -5 0 4106 -119 0 4116 0 -3 4215 0 4114 -4 0 4110 4111 -32 0 -19 4215 -5 0 -18 4215 -28 0 4109 4110 -19 0 4666 -2 0 4666 -5 0 4665 -2 0 4665 -5 0 4665 -2 0 4665 -12 0 7472 -9 0 7472 -29 0 7472 -20 0 7472 -29 0 7472 -73 0 4109 -5 0 4111 -121 0 -3 4215 -6 0 4110 4111 -32 0 -19 4215 -5 0 -14 4215 -32 0 4109 4110 -19 0 4665 -2 0 4665 -5 0 4665 -2 0 4665 -5 0 4670 -2 0 4670 -12 0 7472 -9 0 7472 -29 0 7472 -20 0 7472 -29 0 7472 -73 0 4109 -5 0 4111 -121 0 -3 4215 -6 0 4115 4116 -32 0 -19 4215 -5 0 -9 4215 -37 0 4109 4110 -13 0 7471 -5 0 4665 -2 0 4665 -5 0 4670 -2 0 4670 -21 0 7472 -9 0 7472 -29 0 7472 -20 0 7472 -29 0 7472 -73 0 4109 -5 0 4111 -121 0 -3 4215 -40 0 -19 4215 -5 0 -4 4215 -42 0 4109 4110 -13 0 7472 -5 0 4670 -2 0 4670 -30 0 7472 -9 0 7472 -29 0 7472 -20 0 7473 -29 0 7473 -65 0 -6 4215 -2 0 4109 -5 0 4111 -121 0 -3 4215 -110 0 4109 4110 -13 0 7472 -39 0 7472 -9 0 7472 -29 0 7473 -61 0 -5 4215 0 -5 4211 -30 0 -7 4211 -7 0 -6 4215 -2 0 4109 -5 0 4111 -234 0 4109 4110 -13 0 7472 -39 0 7472 -9 0 7472 -91 0 -5 4215 0 -5 4215 -30 0 -7 4215 -7 0 -6 4215 -2 0 4109 -5 0 4111 -234 0 4109 4110 -13 0 7472 -39 0 7472 -9 0 7472 -91 0 -5 4215 0 -5 4215 -30 0 -7 4215 -7 0 -6 4215 -2 0 4109 -5 0 4111 -234 0 4109 4110 -13 0 7472 -33 0 4094 4095 -4 0 7472 -4 0 4094 4095 -3 0 7472 -2 0 4094 4095 -87 0 -5 4215 0 -5 4215 -30 0 -7 4215 -7 0 -6 4215 -2 0 4109 -5 0 4111 -68 0 4104 4105 -5 0 4105 4106 -148 0 -7 4215 -2 0 4114 4115 -13 0 7472 -33 0 4096 4097 -4 0 7472 -4 0 4096 4097 -3 0 7472 -2 0 4096 4097 -87 0 -5 4215 0 -5 4215 -30 0 -7 4215 -7 0 -6 4215 -2 0 4114 -5 0 4116 -68 0 4109 4110 -5 0 4110 4111 -143 0 -12 4215 -17 0 7472 -33 0 4098 4099 -4 0 7472 -4 0 4098 4099 -3 0 7472 -2 0 4098 4099 -87 0 -5 4215 0 -5 4215 -30 0 -7 4215 -7 0 -6 4215 -11 0 -5 4215 -26 0 4104 4105 -5 0 4105 4106 -4 0 4104 4105 -5 0 4105 4106 -3 0 4104 4105 -5 0 4105 4106 0 4109 4110 -5 0 4110 4111 -138 0 -17 4215 -17 0 7472 -39 0 7473 -9 0 7473 -56 0 -5 4211 -7 0 -5 4211 -18 0 -5 4215 0 -5 4215 -30 0 -7 4215 -7 0 -6 4215 -11 0 -5 4215 -26 0 4109 4110 -5 0 4110 4111 -4 0 4109 4110 -5 0 4110 4111 -3 0 4109 4110 -5 0 4110 4111 0 4109 4110 -5 0 4110 4111 -70 0 1731 1732 -62 0 -21 4215 -17 0 7472 -106 0 -5 4215 -7 0 -5 4215 -18 0 -5 4219 -36 0 -7 4219 -7 0 -5 4219 -43 0 4109 4110 -5 0 4110 4111 -4 0 4109 4110 -5 0 4110 4111 -3 0 4109 4110 -5 0 4110 4111 0 4109 4110 -5 0 4110 4111 -70 0 1733 1734 -62 0 -21 4215 -17 0 7472 -106 0 -5 4215 -7 0 -5 4215 -121 0 4109 4110 -5 0 4110 4111 -4 0 4109 4110 -5 0 4110 4111 -3 0 4109 4110 -5 0 4110 4111 0 4109 4110 -5 0 4110 4111 -134 0 -21 4215 -17 0 7473 -106 0 -5 4215 -7 0 -5 4215 -121 0 4109 4110 -5 0 4110 4111 -4 0 4109 4110 -5 0 4110 4111 -3 0 4109 4110 -5 0 4110 4111 0 4109 4110 -5 0 4110 4111 -134 0 -21 4215 -140 0 7416 7420 -120 0 4109 4110 -5 0 4110 4111 -4 0 4109 4110 -5 0 4110 4111 -3 0 4109 4110 -5 0 4110 4111 0 4109 4110 -5 0 4110 4111 -134 0 -21 4215 -262 0 4109 4110 -5 0 4110 4111 -4 0 4109 4110 -5 0 4110 4111 -3 0 4109 4110 -5 0 4110 4111 0 4109 4110 -5 0 4110 4111 -134 0 -9 4215 -5 0 -7 4215 -262 0 4114 4115 -5 0 4115 4116 -4 0 4114 4115 -5 0 4115 4116 -3 0 4114 4115 -5 0 4115 4116 0 4114 4115 -5 0 4115 4116 -134 0 -4 4215 -10 0 -7 4215 -319 0 -62 4215 -73 0 -7 4215 -227 0 1727 1728 -90 0 -62 4215 -73 0 -7 4215 -227 0 1729 1730 -90 0 -62 4215 -399 0 -62 4215 -399 0 -62 4215 -336 0 1624 1625 -61 0 -62 4215 -336 0 1626 1627 -4898 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #f)
+      (running #t)
+      (z-pos -6)
+      (path-ref "gen171079132594335681180784")
+      (width 3)
+      (height 10)
+      (tiles 0 4106 -2 0 4111 -2 0 4111 -2 0 4111 -2 0 4111 -2 0 4111 -2 0 4111 -2 0 4116 -7 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -5)
+      (name "fisherater")
+      (path-ref "gen17319042961566902725632")
+      (width 65)
+      (height 6)
+      (tiles 0 -64 295 298 337 338 339 337 339 337 338 339 337 339 61 337 338 339 337 339 61 337 -3 338 339 61 337 338 339 337 339 61 337 338 339 337 339 61 337 338 339 337 339 61 337 338 339 337 339 61 337 338 339 337 339 61 337 338 339 337 339 61 337 338 339 337 339 298 337 -2 338 339 61 337 -3 338 339 61 337 339 61 337 339 61 337 339 61 337 339 61 337 338 339 337 338 339 337 338 339 337 339 61 337 338 339 -3 61 337 339 -2 61 337 338 339 -3 61 337 -2 338 339 -2 61 337 339 -3 61 337 339 298 337 339 61 337 339 61 337 339 61 337 338 339 337 -2 338 339 61 337 -3 338 339 337 -4 338 339 -2 61 337 339 337 339 -2 61 337 339 -2 61 337 -3 338 339 61 337 -4 338 339 61 337 339 61 337 -2 338 339 61 337 339 61 298 337 338 339 -2 61 337 338 339 337 339 -2 61 337 339 337 339 -2 61 337 339 337 339 -2 61 337 339 337 339 -2 61 337 339 337 339 -2 61 337 339 337 339 -2 61 337 339 337 339 -2 61 337 339 337 339 -2 61 337 339 337 339 -2 61 337 339 -2 61 0 -64 297)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (running #t)
+      (z-pos -5)
+      (path-ref "gen17319059761566902746112")
+      (width 5)
+      (height 35)
+      (tiles 337 339 337 339 -2 61 337 339 -7 61 337 339 61 337 339 61 337 339 -7 61 337 339 61 337 339 -3 61 337 339 61 337 339 -4 61 337 338 339 337 338 339 -2 61 -5 297 -45 0 337 339 337 339 -2 61 337 339 -7 61 337 339 61 337 339 61 337 339 -7 61 337 339 61 337 339 -3 61 337 339 61 337 339 -4 61 337 338 339 337 338 339 -2 61 -5 297 -10 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -5)
+      (name "moverbat")
+      (path-ref "gen17319074251567032607472")
+      (width 6)
+      (height 20)
+      (tiles -42 0 337 339 -2 61 337 339 61 337 -2 338 339 -3 61 337 339 337 339 61 337 339 337 339 -5 61 337 339 337 339 -5 61 337 339 61 337 339 337 339 -5 61 337 339 61 337 339 -3 61 337 339 -3 61 337 -2 338 339 -3 61 337 339 61 -6 297)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 101)
+      (width 461)
+      (height 65)
+      (tiles -14267 0 130 -460 0 129 -460 0 129 -460 0 129 -460 0 129 -460 0 129 -460 0 129 -460 0 129 -460 0 129 -460 0 4967 -11548 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 101)
+      (name "secreter")
+      (width 461)
+      (height 65)
+      (tiles -4999 0 -5 338 -456 0 -5 28 -3711 0 -4 338 -457 0 -4 28 -20324 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -5)
+      (name "ender1")
+      (path-ref "gen17319827372493183499760")
+      (width 5)
+      (height 10)
+      (tiles -2 61 337 339 61 337 338 339 -4 61 337 338 339 61 337 338 339 61 337 338 339 337 339 61 337 -2 338 339 337 339 337 339 -2 61 337 -2 338 339 -2 61 337 339 61 -5 297)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -5)
+      (name "ender2")
+      (path-ref "gen17319830222493183527920")
+      (width 5)
+      (height 10)
+      (tiles -2 61 337 339 61 337 338 339 -4 61 337 338 339 61 337 338 339 61 337 338 339 337 339 61 337 -2 338 339 337 339 337 339 -2 61 337 -2 338 339 -2 61 337 339 61 -5 297)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -5)
+      (name "ender3")
+      (path-ref "gen17319831612493183652592")
+      (width 5)
+      (height 10)
+      (tiles -2 61 337 339 61 337 338 339 -4 61 337 338 339 61 337 338 339 61 337 338 339 337 339 61 337 -2 338 339 337 339 337 339 -2 61 337 -2 338 339 -2 61 337 339 61 -5 297)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -5)
+      (name "ender4")
+      (path-ref "gen17319834282793352033520")
+      (width 5)
+      (height 10)
+      (tiles -2 61 337 339 61 337 338 339 -4 61 337 338 339 61 337 338 339 61 337 338 339 337 339 61 337 -2 338 339 337 339 337 339 -2 61 337 -2 338 339 -2 61 337 339 61 -5 297)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -5)
+      (name "ender5")
+      (path-ref "gen17319838432793352103152")
+      (width 5)
+      (height 10)
+      (tiles -2 61 337 339 61 337 338 339 -4 61 337 338 339 61 337 338 339 61 337 338 339 337 339 61 337 -2 338 339 337 339 337 339 -2 61 337 -2 338 339 -2 61 337 339 61 -5 297)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -5)
+      (name "ender6")
+      (path-ref "gen17319839422793352067568")
+      (width 5)
+      (height 10)
+      (tiles -2 61 337 339 61 337 338 339 -4 61 337 338 339 61 337 338 339 61 337 338 339 337 339 61 337 -2 338 339 337 339 337 339 -2 61 337 -2 338 339 -2 61 337 339 61 -5 297)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -5)
+      (name "ender7")
+      (path-ref "gen17319840762793352010992")
+      (width 5)
+      (height 10)
+      (tiles -2 61 337 339 61 337 338 339 -4 61 337 338 339 61 337 338 339 61 337 338 339 337 339 61 337 -2 338 339 337 339 337 339 -2 61 337 -2 338 339 -2 61 337 339 61 -5 297)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -5)
+      (name "ender8")
+      (path-ref "gen17319841632793352126192")
+      (width 5)
+      (height 10)
+      (tiles -2 61 337 339 61 337 338 339 -4 61 337 338 339 61 337 338 339 61 337 338 339 337 339 61 337 -2 338 339 337 339 337 339 -2 61 337 -2 338 339 -2 61 337 339 61 -5 297)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -5)
+      (name "e9")
+      (path-ref "gen17319843962793352120560")
+      (width 5)
+      (height 10)
+      (tiles -2 61 337 339 61 337 338 339 -4 61 337 338 339 61 337 338 339 61 337 338 339 337 339 61 337 -2 338 339 337 339 337 339 -2 61 337 -2 338 339 -2 61 337 339 61 -5 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -5)
+      (name "e10")
+      (path-ref "gen17319845572793352203248")
+      (width 5)
+      (height 10)
+      (tiles -2 61 337 339 61 337 338 339 -4 61 337 338 339 61 337 338 339 61 337 338 339 337 339 61 337 -2 338 339 337 339 337 339 -2 61 337 -2 338 339 -2 61 337 339 61 -5 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -5)
+      (name "e11")
+      (path-ref "gen17319846532793352230384")
+      (width 5)
+      (height 10)
+      (tiles -2 61 337 339 61 337 338 339 -4 61 337 338 339 61 337 338 339 61 337 338 339 337 339 61 337 -2 338 339 337 339 337 339 -2 61 337 -2 338 339 -2 61 337 339 61 -5 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -5)
+      (name "e12")
+      (path-ref "gen17319847752793352007408")
+      (width 7)
+      (height 14)
+      (tiles -3 61 337 339 -3 61 337 338 339 337 338 339 337 339 61 337 338 339 -3 61 337 338 339 -3 61 337 338 339 337 339 -3 61 337 -2 338 339 -2 61 337 339 337 339 -4 61 337 -2 338 339 61 337 338 339 337 339 -6 61 337 338 339 337 339 61 337 338 339 -2 61 337 339 -5 61 337 338 339 61 337 339 337 339 61 337 338 339 61)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 4480)
+      (y 1600)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 7264)
+      (y 1728)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 12512)
+      (y 288)
+    )
+    (trampoline
+      (type "stationary")
+      (z-pos 50)
+      (x 13392)
+      (y 576)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 7584)
+      (y 1088)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 7552)
+      (y 1088)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 7520)
+      (y 1088)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 7392)
+      (y 1056)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 7360)
+      (y 1056)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 7328)
+      (y 1056)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 9184)
+      (y 1248)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 9152)
+      (y 1248)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 9088)
+      (y 1184)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 9056)
+      (y 1184)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 8576)
+      (y 800)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 8544)
+      (y 800)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 8512)
+      (y 800)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 8480)
+      (y 800)
+    )
+    (unstable_tile
+      (z-pos 0)
+      (x 8448)
+      (y 800)
+    )
+  )
+)

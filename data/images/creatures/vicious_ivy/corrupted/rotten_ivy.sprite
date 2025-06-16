@@ -1,0 +1,104 @@
+(supertux-sprite
+ (action
+  (name "left")
+  (hitbox 9 12 32 32)
+  (fps 12)
+  (images "left-0.png"
+		  "left-1.png"
+		  "left-2.png"
+		  "left-3.png"
+		  "left-4.png"
+		  "left-5.png"
+		  "left-6.png"
+		  "left-7.png")
+  )
+ 
+ (action
+  (name "right")
+  (hitbox 19 12 32 32)
+  (fps 12)
+  (mirror-action "left")
+ )
+ 
+ (action
+  (name "float-left")
+  (hitbox 14 12 32 32)
+  (fps 12)
+  (images "float-0.png"
+		  "float-1.png"
+		  "float-2.png"
+		  "float-3.png"
+		  "float-4.png"
+		  "float-5.png"
+		  "float-6.png"
+		  "float-7.png")
+  )
+ 
+ (action
+  (name "float-right")
+  (hitbox 20 12 32 32)
+  (fps 12)
+  (mirror-action "float-left")
+ )
+ 
+ (action
+  (name "iced-left")
+  (hitbox 3 6 64 43)
+  (images "left-2.png")
+ )
+ 
+ (action
+  (name "iced-right")
+  (hitbox 3 6 64 43)
+  (mirror-action "iced-left")
+ )
+ 
+ (action
+  (name "squished-left")
+  (hitbox 9 12 32 32)
+  (images "squished.png")
+ )
+
+ 
+ (action
+  (name "squished-right")
+  (hitbox 19 12 32 32)
+  (mirror-action "squished-left")
+ )
+
+ (action
+  (hitbox 9 12 32 32)
+    (name "burning-left")
+    (images "left-2.png")
+ )
+ (action
+  (hitbox 19 12 32 32)
+    (name "burning-right")
+    (mirror-action "burning-left")
+ )
+
+; Cutscenes And Extras
+
+ (action
+  (name "pant-left")
+  (hitbox 8 12 32 32)
+  (fps 6)
+  (images "pant-0.png"
+		  "pant-1.png"
+		  "pant-2.png"
+		  "pant-3.png"
+		  "pant-4.png"
+		  "pant-5.png"
+		  "pant-6.png"
+		  "pant-7.png"
+		  "pant-8.png"
+		  "pant-9.png")
+  )
+ 
+ (action
+  (name "pant-right")
+  (hitbox 20 12 32 32)
+  (fps 6)
+  (mirror-action "pant-left")
+ )
+)

@@ -1,0 +1,54 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (fps 18)
+    (loops 1)
+    (hitbox 12 24 40 46)
+    (images "jump_blue-0.png"
+            "jump_blue-0.png"
+            "jump_blue-0.png"
+            "jump_blue-1.png"
+            "jump_blue-2.png"
+            "jump_blue-3.png"))
+
+  (action
+    (name "down")
+    (fps 18)
+    (loops 1)
+    (hitbox 12 24 40 46)
+    (images "jump_blue-4.png"
+            "jump_blue-5.png"
+            "jump_blue-6.png"
+            "jump_blue-7.png"
+            "jump_blue-8.png"
+            "jump_blue-9.png"))
+
+  (action
+    (name "wait")
+    (fps 15)
+    (hitbox 14 9 40 46)
+    (images "wait_blue-0.png"
+            "wait_blue-1.png"
+            "wait_blue-2.png"
+            "wait_blue-3.png"
+            "wait_blue-4.png"
+            "wait_blue-5.png"
+            "wait_blue-6.png"
+            "wait_blue-7.png"))
+
+  (action
+    (name "iced")
+    (hitbox 9 24 45 64)
+    (images "jump_blue-0.png"))
+
+  (action
+    (name "iced-down")
+    (hitbox 14 9 45 64)
+    (images "wait_blue-1.png"))
+
+  (action
+    (name "burning-left")
+    (hitbox 12 24 40 46)
+    (images "jump_blue-0.png"))
+
+)

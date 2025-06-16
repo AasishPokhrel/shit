@@ -1,0 +1,5 @@
+(supertux-music
+  (file "beneath_the_rabbit_hole.ogg")
+  (loop-begin 0)
+  (loop-at    178)
+)
