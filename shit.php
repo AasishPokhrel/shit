@@ -1,1 +1,1 @@
-<?php echo "shit"; ?>
+<?= "shit";
