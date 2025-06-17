@@ -1,0 +1,36 @@
+name: buildeth shit viewer macos
+
+on:
+  workflow_dispatch:
+  push:
+  pull_request: {}
+
+jobs:
+  build:
+    runs-on: macos-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: install noed
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: install node deps
+        run: arch -x86_64 npm install
+        env:
+          npm_config_arch: x64
+
+      - name: build
+        run: npm run dist -- --mac --x64
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: shitviewer-macos
+          path: |
+            dist/**/*.dmg
+            dist/**/*.zip
