@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>SHIT VIEWER</title>
+  <link rel="stylesheet" href="../github-markdown.css">
+</head>
+<body>
+  <div id="content" class="markdown-body">insert cash or select payment type</div>
+
+  <style>
+    @media (prefers-color-scheme: dark) {
+      body, [data-theme="dark"] {
+        background-color: #0d1117;
+      }
+    }
+  </style>
+
+  <script>
+    const marked = require('marked');
+    const { ipcRenderer } = require('electron');
+    const fs = require('fs');
+    
+    document.getElementById('content').innerHTML = marked.parse("# welcomen to the shit viewer!\nhere, you can view the shit from any point in time.\n\nselect your readme from the history in the menu bar.");
+
+    ipcRenderer.on('load-md', (event, filePath, name) => {
+      fs.readFile(filePath, 'utf-8', (err, data) => {
+        if (err) {
+          document.getElementById('content').innerText = marked.parse("# error loading filet");;
+          return;
+        }
+
+        document.getElementById('content').innerHTML = marked.parse(data);
+        document.title = "SHIT VIEWER - " + name
+      });
+    });
+    ipcRenderer.on('theme-updated', (event, isDark) => {
+      document.body.dataset.theme = isDark ? 'dark' : 'light';
+    });
+
+    ipcRenderer.on('poo', (event) => {
+      document.body.style.backgroundColor = "#a16300"
+      document.getElementById("content").style.backgroundColor = "#a16300"
+    });
+  </script>
+</body>
+</html>

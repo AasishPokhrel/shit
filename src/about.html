@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>about this app</title>
+  <link rel="stylesheet" href="github-markdown.css">
+</head>
+<body>
+  <div id="content" class="markdown-body">insert cash or select payment type</div>
+
+  <style>
+    @media (prefers-color-scheme: dark) {
+      body, [data-theme="dark"] {
+        background-color: #0d1117;
+      }
+    }
+  </style>
+
+  <script>
+    const marked = require('marked');
+    
+    document.getElementById('content').innerHTML = marked.parse("# about this app\nthis app was created so the shit can be cross platform and easy to use. simply select and go. amazing!");
+  </script>
+</body>
+</html>

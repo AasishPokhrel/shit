@@ -1,0 +1,31 @@
+name: builedth shit viewer windows
+
+on:
+  workflow_dispatch:
+  push:
+  pull_request: {}
+
+jobs:
+  build:
+    runs-on: windows-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: install ned
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # or your required Node.js version
+
+      - name: deps
+        run: npm install
+
+      - name: buibl
+        run: npm run dist -- --win --x64
+
+      - name: jupload
+        uses: actions/upload-artifact@v4
+        with:
+          name: shitviewer-windows
+          path: dist/**/*.exe

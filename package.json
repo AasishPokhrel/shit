@@ -1,0 +1,63 @@
+{
+  "name": "shitviewer",
+  "version": "1.0.0",
+  "description": "View the shit on multiple platforms at any point in history!",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "oh",
+    "yeah"
+  ],
+  "author": {
+    "name": "weenie",
+    "email": "weeniemount@garymail.org"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "marked": "^4.0.12"
+  },
+  "build": {
+    "appId": "com.weeniemount.shitviewer",
+    "productName": "SHIT VIEWER",
+    "executableName": "shitviewer",
+    "afterPack": "./scripts/removeUnneededFiles.js",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*",
+      "readmes/**/*",
+      "package.json"
+    ],
+    "mac": {
+      "icon": "src/icons/icon-macos.icns",
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.utilities"
+    },
+    "win": {
+      "icon": "src/icons/icon-windows.ico",
+      "target": [
+        "nsis"
+      ]
+    },
+    "linux": {
+      "icon": "src/icons/icon-linux.png",
+      "target": [
+        "AppImage",
+        "deb",
+        "rpm"
+      ],
+      "category": "Utility"
+    }
+  }
+}

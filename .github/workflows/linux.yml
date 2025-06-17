@@ -1,0 +1,62 @@
+name: buildeth shit viewer binux
+
+# both manual tigger and commit
+
+on:
+  workflow_dispatch:
+  push:
+  pull_request: {}
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: install
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            nodejs \
+            npm \
+            build-essential \
+            dpkg-dev \
+            fakeroot \
+            rpm \
+            rpm2cpio \
+            ruby \
+            ruby-dev \
+            xz-utils \
+            p7zip-full \
+            unzip \
+            python3 \
+            squashfs-tools \
+            libcrypt-dev
+
+      - name: install fpm
+        run: sudo gem install fpm
+
+      - name: do something
+        run: echo "USE_SYSTEM_FPM=true" >> $GITHUB_ENV
+
+      - name: notable js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: intsall node depsa
+        run: npm install
+
+      - name: buid
+        run: npm run dist -- --linux --x64
+
+      - name: jupload
+        uses: actions/upload-artifact@v4
+        with:
+          name: shitviewer-linux
+          path: |
+            dist/**/*.rpm
+            dist/**/*.deb
+            dist/**/*.AppImage
