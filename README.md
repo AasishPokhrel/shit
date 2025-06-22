@@ -1,5 +1,6 @@
 # shit
 shit
+
 ## Philosophy
 This project is trying to give a shit to people. If you can shit – you're welcome. If not – go away.
 
