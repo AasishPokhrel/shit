@@ -1,11 +1,7 @@
 name: buildeth shit viewer binux
 
-# both manual tigger and commit
-
 on:
   workflow_dispatch:
-  push:
-  pull_request: {}
 
 jobs:
   build-linux:

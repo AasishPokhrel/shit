@@ -2,8 +2,6 @@ name: buildeth shit viewer macos
 
 on:
   workflow_dispatch:
-  push:
-  pull_request: {}
 
 jobs:
   build:
