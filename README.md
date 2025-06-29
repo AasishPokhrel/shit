@@ -1,3 +1,7 @@
+LINK TO ORIGINAL SHIT POST
+https://github.com/AasishPokhrel/shit/commit/f3f2f2611bf0a5544a88bffe6e64e263ae868163
+
+
 IF ANYONE IS INTERESTED IN BUYING THIS REPO ! THEY CAN MAIL ME .
 aasishpokharel0@gmail.com
 
